@@ -14,7 +14,17 @@ The server stops by itself 15 minutes after the window is closed.
 - **Deck** - list of saved words with their current predicted recall, search and filters, and review settings.
 - **Study** - Anki-style flashcards. Keys: Space shows the answer, 1-4 rate Again / Hard / Good / Easy.
 
+- **Official practice tests** - the two free official N2 workbooks from jlpt.jp (2012 and 2018), as full mock tests in the original order with the official time limits, including listening with the official audio.
+
 Your data lives in `%LOCALAPPDATA%\N2Daily\n2daily.sqlite3`, separate from the app folder.
+
+## Official practice tests
+
+The official workbooks (日本語能力試験公式問題集 and 第二集) are published free at https://www.jlpt.jp/samples/sampleindex.html.
+The jlpt.jp site policy allows reproducing and adapting them for personal study, so they are imported only into `content/official/`, which is git-ignored and must not be shared or published.
+That folder holds the downloaded PDFs and MP3s (`raw/`), page renders (`pages/`), image crops (`crops/`) and the converted questions (`questions/`).
+Official questions never appear in the daily mini tests.
+If anything in the official bank fails validation, the app starts without official tests and prints a warning.
 
 ## How scheduling works
 
@@ -38,6 +48,8 @@ The app uses only the Python standard library and plain JavaScript; there is not
 
 - `content/questions/*.json` - the question bank; `tools/validate_content.py` checks schema and furigana markup.
 - `tools/show_questions.py` and `tools/apply_fixes.py` - inspect questions by id and apply reviewed path-based fixes.
+- `tools/check_readings.py` - cross-checks every furigana and vocab reading against JMdict and KANJIDIC2 (download the jmdict-simplified `jmdict-eng` and `kanjidic2-en` JSON into the git-ignored `cache/`; `run_tests.py` then runs it too).
+  The dictionary data is EDRDG's, used under CC BY-SA 4.0 (https://www.edrdg.org/edrdg/licence.html).
 - `tools/make_icon.py` - renders `static/icon.svg` to `assets/n2daily.ico` with headless Chrome.
 - `tools/install_shortcut.ps1` - recreates the desktop and Start menu shortcuts.
 

@@ -13,6 +13,8 @@ CHECKS = [
     ("python tests", [sys.executable, "-m", "unittest", "discover", "-s", "tests", "-t", "."]),
     ("js tests", ["node", "--test", *sorted(str(path.relative_to(APP_DIR)) for path in (APP_DIR / "tests").glob("*.test.mjs"))]),
 ]
+if any((APP_DIR / "cache").glob("jmdict-eng-*.json")):
+    CHECKS.append(("readings vs JMdict", [sys.executable, "tools/check_readings.py", "--fail-on-findings"]))
 
 
 def main() -> int:

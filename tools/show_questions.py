@@ -7,13 +7,14 @@ import sys
 from pathlib import Path
 
 sys.stdout.reconfigure(encoding="utf-8")
-QUESTIONS_DIR = Path(__file__).resolve().parent.parent / "content" / "questions"
+CONTENT_DIR = Path(__file__).resolve().parent.parent / "content"
+QUESTION_DIRS = (CONTENT_DIR / "questions", CONTENT_DIR / "official" / "questions")
 
 
 def main(ids: list[str]) -> int:
     wanted = set(ids)
     found = []
-    for path in sorted(QUESTIONS_DIR.glob("*.json")):
+    for path in sorted(path for directory in QUESTION_DIRS for path in directory.glob("*.json")):
         for question in json.loads(path.read_text(encoding="utf-8")):
             if question.get("id") in wanted:
                 found.append({"file": path.name, **question})
