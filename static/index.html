@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>N2 Daily</title>
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#/">
+      <img src="/icon.svg" alt="" width="28" height="28">
+      <span>N2 Daily</span>
+    </a>
+    <nav class="nav">
+      <a href="#/" data-nav="home">Today</a>
+      <a href="#/deck" data-nav="deck">Deck</a>
+      <a href="#/study" data-nav="study">Study</a>
+      <a href="#/history" data-nav="history">History</a>
+    </nav>
+  </header>
+  <main id="app" class="page"></main>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script type="module" src="/app.js"></script>
+</body>
+</html>
