@@ -1757,7 +1757,7 @@
       {
         "pattern": "単に〜ではない",
         "meaning": "it is not simply / merely ~",
-        "formation": "単に + Plain form / Noun + ではない",
+        "formation": "単に + Noun + ではない (a verb clause must be nominalized first: 単に + Verb plain form + こと／の／もの + ではない)",
         "example": "スポーツは単{たん}に体{からだ}を鍛{きた}えるためのものではない。",
         "example_translation": "Sports are not merely for training your body."
       },
@@ -3003,7 +3003,7 @@
       {
         "pattern": "〜ずに",
         "meaning": "without ~ (written form of 〜ないで)",
-        "formation": "Verb ない-form minus ない + ずに; 〜される → 〜されずに",
+        "formation": "Verb ない-form minus ない + ずに (exception: する → せずに); 〜される → 〜されずに",
         "example": "誰{だれ}にも邪魔{じゃま}されずに本{ほん}を読{よ}みたい。",
         "example_translation": "I want to read a book without being disturbed by anyone."
       }

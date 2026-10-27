@@ -824,7 +824,7 @@
     "explanation": "The fixed text 契約書の（けいやくしょの）'of the contract' ends in の, so a noun must follow: 内容を（ないようを）'the contents (object)'. The object needs a verb: 確認した（かくにんした）'checked'. The adverb 十分に（じゅうぶんに）'thoroughly' describes that verb, so it sits between them. The N2 pattern 〜た上で（たうえで）'after doing ~ (properly), then ~' needs a た-form verb in front, so 上で comes right after 確認した. The second action, サインしてください 'please sign', follows the comma. Order: 内容を → 十分に → 確認した → 上で. The ★ is the 1st slot: 内容を.",
     "choice_notes": [
       "上で goes in slot 4. 上で follows the た-form and means 'after doing (it properly), then...'. It connects to the next action, サインしてください.",
-      "Correct. 内容を is in slot 1, the ★ position. The fixed text 契約書の ends in の and needs a noun right after it: 契約書の内容 'the contents of the contract'. 内容を is the only noun piece.",
+      "Correct. 内容を is in slot 1, the ★ position. The fixed text 契約書の ends in の and needs a noun right after it: 契約書の内容 'the contents of the contract'. 上で also starts with a noun (上), but it must follow the た-form 確認した (確認した上で), so 内容を is the noun that goes here.",
       "十分に goes in slot 2. 十分に 'thoroughly' is an adverb, so it goes before the verb it describes, 確認した.",
       "確認した goes in slot 3. 確認した is the past (た) form that 上で requires: 確認した上で."
     ],
