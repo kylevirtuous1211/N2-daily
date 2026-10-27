@@ -1,0 +1,3095 @@
+[
+  {
+    "id": "or-001",
+    "section": "orthography",
+    "question": "引{ひ}っ越{こ}す前{まえ}に、新{あたら}しい部屋{へや}の広{ひろ}さを[[はかって]]おいた。",
+    "choices": [
+      "計って",
+      "測って",
+      "量って",
+      "図って"
+    ],
+    "answer": 1,
+    "translation": "Before moving, I measured the size of the new room in advance.",
+    "explanation": "All four kanji can be read はかる, so this is a classic homophone trap. You have to choose by meaning. 測る is used for measuring length, height, depth, area and temperature (長さ・広さ・深さ・体温を測る). The size (広さ) of a room is an area, so 測る is correct. 計る is mainly for time and counting (時間を計る), 量る is for weight and volume (体重を量る), and 図る means 'to plan, to attempt' (解決を図る). A good memory trick: 測 contains the water radical 氵, as in measuring the depth of water.",
+    "choice_notes": [
+      "Wrong. 計る（はかる）is used for time and numbers: 時間を計る 'to time something'. The same kanji appears in 時計（とけい）'clock' and 計算（けいさん）'calculation'.",
+      "Correct. 測る（はかる）'to measure length, area, depth, temperature'. Also in 測定（そくてい）'measurement' and 予測（よそく）'prediction'.",
+      "Wrong. 量る（はかる）is for weight and volume: 体重を量る 'to weigh oneself'. Also in 重量（じゅうりょう）'weight' and 量（りょう）'amount'.",
+      "Wrong. 図る（はかる）means 'to plan, to attempt, to aim for': 問題の解決を図る 'to seek a solution to a problem'. It is not about measuring."
+    ],
+    "vocab": [
+      {
+        "word": "測る",
+        "reading": "はかる",
+        "meaning": "to measure (length, area, depth, temperature)",
+        "pos": "godan verb",
+        "example": "毎朝{まいあさ}、体温{たいおん}を測{はか}っている。",
+        "example_translation": "I take my temperature every morning."
+      },
+      {
+        "word": "広さ",
+        "reading": "ひろさ",
+        "meaning": "size, area, extent (of a space)",
+        "pos": "noun",
+        "example": "この公園{こうえん}の広{ひろ}さは東京{とうきょう}ドーム二{ふた}つ分{ぶん}だ。",
+        "example_translation": "This park is the size of two Tokyo Domes."
+      },
+      {
+        "word": "引っ越す",
+        "reading": "ひっこす",
+        "meaning": "to move (house)",
+        "pos": "godan verb",
+        "example": "来月{らいげつ}、大阪{おおさか}に引{ひ}っ越{こ}す予定{よてい}だ。",
+        "example_translation": "I plan to move to Osaka next month."
+      },
+      {
+        "word": "計る",
+        "reading": "はかる",
+        "meaning": "to measure (time), to count",
+        "pos": "godan verb",
+        "example": "百{ひゃく}メートル走{そう}のタイムを計{はか}った。",
+        "example_translation": "I timed the 100-meter dash."
+      },
+      {
+        "word": "量る",
+        "reading": "はかる",
+        "meaning": "to weigh, to measure (weight or volume)",
+        "pos": "godan verb",
+        "example": "荷物{にもつ}の重{おも}さを量{はか}ってから送{おく}る。",
+        "example_translation": "I will weigh the package before sending it."
+      },
+      {
+        "word": "図る",
+        "reading": "はかる",
+        "meaning": "to plan, to attempt, to aim for",
+        "pos": "godan verb",
+        "example": "会社{かいしゃ}は経費{けいひ}の削減{さくげん}を図{はか}っている。",
+        "example_translation": "The company is trying to cut costs."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜ておく",
+        "meaning": "to do ~ in advance (in preparation for later)",
+        "formation": "Verb て-form + おく",
+        "example": "旅行{りょこう}の前{まえ}にホテルを予約{よやく}しておいた。",
+        "example_translation": "I booked a hotel in advance before the trip."
+      }
+    ]
+  },
+  {
+    "id": "or-002",
+    "section": "orthography",
+    "question": "間違{まちが}いを指摘{してき}されたので、計画{けいかく}を[[あらためる]]ことにした。",
+    "choices": [
+      "攻める",
+      "故める",
+      "改める",
+      "敗める"
+    ],
+    "answer": 2,
+    "translation": "Because the mistakes were pointed out to me, I decided to revise the plan.",
+    "explanation": "あらためる 'to change, to revise, to reform' is written 改める. The kanji 改 means 'to change, to renew' and appears in 改善（かいぜん）'improvement' and 改正（かいせい）'revision (of a law)'. All three distractors share the right-hand part 攵 with 改, so they look similar at a glance. Look at the left-hand part: 改 has 己 on the left. Also remember the intransitive partner: 改まる（あらたまる）'to be changed, to become formal'.",
+    "choice_notes": [
+      "Wrong. 攻める is a real word, but it is read せめる and means 'to attack'. It also appears in 攻撃（こうげき）'attack'.",
+      "Wrong. 故 is read こ, as in 故障（こしょう）'breakdown' and 故郷（こきょう）'hometown'. 故める is not a word.",
+      "Correct. 改める（あらためる）'to change, to revise, to correct'.",
+      "Wrong. 敗 means 'defeat' and is read やぶ(れる) in 敗れる 'to be defeated', or はい in 失敗（しっぱい）'failure'. 敗める is not a word."
+    ],
+    "vocab": [
+      {
+        "word": "改める",
+        "reading": "あらためる",
+        "meaning": "to change, to revise, to correct, to reform",
+        "pos": "ichidan verb",
+        "example": "悪{わる}い習慣{しゅうかん}を改{あらた}めたい。",
+        "example_translation": "I want to correct my bad habits."
+      },
+      {
+        "word": "指摘する",
+        "reading": "してきする",
+        "meaning": "to point out (a mistake or problem)",
+        "pos": "suru verb",
+        "example": "先生{せんせい}にレポートの問題点{もんだいてん}を指摘{してき}された。",
+        "example_translation": "My teacher pointed out the problems in my report."
+      },
+      {
+        "word": "計画",
+        "reading": "けいかく",
+        "meaning": "plan, project",
+        "pos": "noun / suru verb",
+        "example": "夏休{なつやす}みの旅行{りょこう}の計画{けいかく}を立{た}てた。",
+        "example_translation": "I made plans for a summer vacation trip."
+      },
+      {
+        "word": "間違い",
+        "reading": "まちがい",
+        "meaning": "mistake, error",
+        "pos": "noun",
+        "example": "名前{なまえ}の漢字{かんじ}に間違{まちが}いがあった。",
+        "example_translation": "There was a mistake in the kanji of my name."
+      },
+      {
+        "word": "攻める",
+        "reading": "せめる",
+        "meaning": "to attack, to go on the offensive",
+        "pos": "ichidan verb",
+        "example": "後半{こうはん}はチーム全員{ぜんいん}で攻{せ}めた。",
+        "example_translation": "In the second half, the whole team went on the attack."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜ことにする",
+        "meaning": "to decide to do ~ (one's own decision)",
+        "formation": "Verb dictionary form / ない-form + ことにする",
+        "example": "健康{けんこう}のために、毎日{まいにち}歩{ある}くことにした。",
+        "example_translation": "For my health, I decided to walk every day."
+      },
+      {
+        "pattern": "〜（ら）れる (passive)",
+        "meaning": "to have ~ done to one, to be ~ed",
+        "formation": "Godan: ない-stem + れる (指摘する → 指摘される); ichidan: stem + られる",
+        "example": "電車{でんしゃ}の中{なか}で足{あし}を踏{ふ}まれた。",
+        "example_translation": "Someone stepped on my foot on the train."
+      }
+    ]
+  },
+  {
+    "id": "or-003",
+    "section": "orthography",
+    "question": "この機械{きかい}は操作{そうさ}が[[ふくざつ]]で、説明書{せつめいしょ}を読{よ}まないと使{つか}えない。",
+    "choices": [
+      "複雑",
+      "復雑",
+      "腹雑",
+      "福雑"
+    ],
+    "answer": 0,
+    "translation": "This machine is complicated to operate; you cannot use it without reading the manual.",
+    "explanation": "ふくざつ 'complicated' is written 複雑. The trap is the group of look-alike kanji read ふく: 複, 復, 腹, 福. Use the left-hand radical to tell them apart. 複 has the clothing radical 衤 and means 'double, multiple' (layers of clothing), as in 複数（ふくすう）'plural'. 'Complicated' means many things overlapping, so 複 fits. 復 has the 'going' radical 彳 and means 'return, again', 腹 has the body radical 月 and means 'belly', and 福 has the altar radical 礻 and means 'good fortune'.",
+    "choice_notes": [
+      "Correct. 複雑（ふくざつ）'complicated, complex'. 複 = 'multiple', as in 複数 'plural' and 重複（ちょうふく）'duplication'.",
+      "Wrong. 復 means 'return, again' as in 復習（ふくしゅう）'review' and 回復（かいふく）'recovery'. 復雑 is not a word.",
+      "Wrong. 腹 means 'belly, stomach' as in 腹（はら）and 空腹（くうふく）'hunger'. 腹雑 is not a word.",
+      "Wrong. 福 means 'good fortune' as in 幸福（こうふく）'happiness' and 福祉（ふくし）'welfare'. 福雑 is not a word."
+    ],
+    "vocab": [
+      {
+        "word": "複雑",
+        "reading": "ふくざつ",
+        "meaning": "complicated, complex",
+        "pos": "na-adjective",
+        "example": "この問題{もんだい}は思{おも}ったより複雑{ふくざつ}だ。",
+        "example_translation": "This problem is more complicated than I thought."
+      },
+      {
+        "word": "操作",
+        "reading": "そうさ",
+        "meaning": "operation (of a machine), handling",
+        "pos": "noun / suru verb",
+        "example": "スマホの操作{そうさ}に慣{な}れた。",
+        "example_translation": "I got used to operating my smartphone."
+      },
+      {
+        "word": "説明書",
+        "reading": "せつめいしょ",
+        "meaning": "instruction manual",
+        "pos": "noun",
+        "example": "組{く}み立{た}てる前{まえ}に説明書{せつめいしょ}をよく読{よ}んでください。",
+        "example_translation": "Please read the instructions carefully before assembling it."
+      },
+      {
+        "word": "機械",
+        "reading": "きかい",
+        "meaning": "machine",
+        "pos": "noun",
+        "example": "工場{こうじょう}の機械{きかい}が止{と}まった。",
+        "example_translation": "The machines at the factory stopped."
+      },
+      {
+        "word": "復習",
+        "reading": "ふくしゅう",
+        "meaning": "review (of lessons)",
+        "pos": "noun / suru verb",
+        "example": "授業{じゅぎょう}の後{あと}で必{かなら}ず復習{ふくしゅう}する。",
+        "example_translation": "I always review after class."
+      },
+      {
+        "word": "空腹",
+        "reading": "くうふく",
+        "meaning": "hunger, empty stomach",
+        "pos": "noun / na-adjective",
+        "example": "空腹{くうふく}で薬{くすり}を飲{の}まないでください。",
+        "example_translation": "Please don't take the medicine on an empty stomach."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜ないと〜ない",
+        "meaning": "unless you ~, you cannot ~ (a necessary condition)",
+        "formation": "Verb ない-form + と + negative result",
+        "example": "急{いそ}がないと間{ま}に合{あ}わない。",
+        "example_translation": "If we don't hurry, we won't make it in time."
+      }
+    ]
+  },
+  {
+    "id": "or-004",
+    "section": "orthography",
+    "question": "弟{おとうと}は飛行機{ひこうき}の[[もけい]]を作{つく}るのが趣味{しゅみ}だ。",
+    "choices": [
+      "模形",
+      "膜型",
+      "模型",
+      "幕型"
+    ],
+    "answer": 2,
+    "translation": "My younger brother's hobby is making model airplanes.",
+    "explanation": "もけい 'a (scale) model' is written 模型. There are two traps here. First, 型 and 形 are both read けい and both relate to 'form', but 型 means 'mold, pattern, type' (something that copies a shape), while 形 means 'shape' itself. A model copies the real thing, so it uses 型, as in 血液型（けつえきがた）'blood type' and 典型（てんけい）'typical example'. Second, 模, 膜 and 幕 all contain 莫 and look alike. 模 has the tree radical 木 and means 'copy, imitate', as in 模様（もよう）'pattern'.",
+    "choice_notes": [
+      "Wrong. The first kanji is right, but 形 means 'shape' as in 図形（ずけい）'figure' and 人形（にんぎょう）'doll'. 模形 is not a word.",
+      "Wrong. 膜 means 'membrane, film' as in 鼓膜（こまく）'eardrum'. 膜型 is not a word.",
+      "Correct. 模型（もけい）'(scale) model'. 模 = 'copy', 型 = 'mold, pattern'.",
+      "Wrong. 幕 means 'curtain, act (of a play)' as in 字幕（じまく）'subtitles'. 幕型 is not a word."
+    ],
+    "vocab": [
+      {
+        "word": "模型",
+        "reading": "もけい",
+        "meaning": "(scale) model",
+        "pos": "noun",
+        "example": "駅{えき}の中{なか}に新{あたら}しい町{まち}の模型{もけい}が置{お}いてある。",
+        "example_translation": "A model of the new town is on display inside the station."
+      },
+      {
+        "word": "飛行機",
+        "reading": "ひこうき",
+        "meaning": "airplane",
+        "pos": "noun",
+        "example": "飛行機{ひこうき}で北海道{ほっかいどう}へ行{い}った。",
+        "example_translation": "I went to Hokkaido by plane."
+      },
+      {
+        "word": "趣味",
+        "reading": "しゅみ",
+        "meaning": "hobby; taste (in things)",
+        "pos": "noun",
+        "example": "私{わたし}の趣味{しゅみ}は写真{しゃしん}を撮{と}ることだ。",
+        "example_translation": "My hobby is taking photos."
+      },
+      {
+        "word": "血液型",
+        "reading": "けつえきがた",
+        "meaning": "blood type",
+        "pos": "noun",
+        "example": "あなたの血液型{けつえきがた}は何{なん}ですか。",
+        "example_translation": "What is your blood type?"
+      },
+      {
+        "word": "図形",
+        "reading": "ずけい",
+        "meaning": "figure, diagram (geometric shape)",
+        "pos": "noun",
+        "example": "この図形{ずけい}の面積{めんせき}を求{もと}めなさい。",
+        "example_translation": "Find the area of this figure."
+      },
+      {
+        "word": "模様",
+        "reading": "もよう",
+        "meaning": "pattern, design",
+        "pos": "noun",
+        "example": "花{はな}の模様{もよう}のシャツを買{か}った。",
+        "example_translation": "I bought a shirt with a flower pattern."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜のが〜だ (nominalizer の)",
+        "meaning": "turns a verb phrase into a noun: 'doing ~ is ~'",
+        "formation": "Verb dictionary form + のが / のは + description",
+        "example": "朝{あさ}早{はや}く起{お}きるのが苦手{にがて}だ。",
+        "example_translation": "I'm bad at getting up early in the morning."
+      }
+    ]
+  },
+  {
+    "id": "or-005",
+    "section": "orthography",
+    "question": "出{で}かける前{まえ}に、鏡{かがみ}に全身{ぜんしん}を[[うつして]]服装{ふくそう}を確{たし}かめた。",
+    "choices": [
+      "写して",
+      "移して",
+      "央して",
+      "映して"
+    ],
+    "answer": 3,
+    "translation": "Before going out, I checked my outfit by looking at my whole body in the mirror.",
+    "explanation": "うつす has three common kanji, and the meaning decides which one to use. 映す means 'to reflect (in a mirror or on water)' or 'to project (on a screen)'. 写す means 'to copy (text)' or 'to take (a photo)'. 移す means 'to move something to another place'. Reflecting your body in a mirror is 鏡に映す, so 映す is correct. The kanji 映 also appears in 映画（えいが）'movie' and 反映（はんえい）'reflection'. 央 looks like the right half of 映, but it is not used as a verb.",
+    "choice_notes": [
+      "Wrong. 写す（うつす）means 'to copy, to take a photo': ノートを写す 'to copy notes', 景色を写真に写す 'to capture the scenery in a photo'. Also in 写真（しゃしん）.",
+      "Wrong. 移す（うつす）means 'to move, to transfer': 机を窓のそばに移す 'to move the desk next to the window'. Also in 移動（いどう）'movement'.",
+      "Wrong. 央 is read おう and appears only in compounds like 中央（ちゅうおう）'center'. 央す is not a word.",
+      "Correct. 映す（うつす）'to reflect, to project'. 鏡に映す 'to reflect in a mirror'."
+    ],
+    "vocab": [
+      {
+        "word": "映す",
+        "reading": "うつす",
+        "meaning": "to reflect (in a mirror, on water); to project (on a screen)",
+        "pos": "godan verb",
+        "example": "湖{みずうみ}が山{やま}の姿{すがた}を映{うつ}している。",
+        "example_translation": "The lake reflects the shape of the mountain."
+      },
+      {
+        "word": "鏡",
+        "reading": "かがみ",
+        "meaning": "mirror",
+        "pos": "noun",
+        "example": "鏡{かがみ}を見{み}ながら髪{かみ}を整{ととの}えた。",
+        "example_translation": "I fixed my hair while looking in the mirror."
+      },
+      {
+        "word": "全身",
+        "reading": "ぜんしん",
+        "meaning": "the whole body",
+        "pos": "noun",
+        "example": "運動{うんどう}しすぎて全身{ぜんしん}が痛{いた}い。",
+        "example_translation": "I exercised too much and my whole body hurts."
+      },
+      {
+        "word": "服装",
+        "reading": "ふくそう",
+        "meaning": "clothes, outfit, attire",
+        "pos": "noun",
+        "example": "面接{めんせつ}にはきちんとした服装{ふくそう}で行{い}こう。",
+        "example_translation": "Let's go to the interview in neat clothes."
+      },
+      {
+        "word": "写す",
+        "reading": "うつす",
+        "meaning": "to copy (text, a picture); to take (a photo)",
+        "pos": "godan verb",
+        "example": "友達{ともだち}のノートを写{うつ}させてもらった。",
+        "example_translation": "My friend let me copy their notes."
+      },
+      {
+        "word": "移す",
+        "reading": "うつす",
+        "meaning": "to move, to transfer (to another place)",
+        "pos": "godan verb",
+        "example": "本棚{ほんだな}を隣{となり}の部屋{へや}に移{うつ}した。",
+        "example_translation": "I moved the bookshelf to the next room."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜前に",
+        "meaning": "before doing ~",
+        "formation": "Verb dictionary form + 前に / Noun + の前に",
+        "example": "寝{ね}る前{まえ}に歯{は}を磨{みが}く。",
+        "example_translation": "I brush my teeth before going to bed."
+      }
+    ]
+  },
+  {
+    "id": "or-006",
+    "section": "orthography",
+    "question": "朝{あさ}のラッシュを[[さけて]]、いつもより早{はや}めに家{いえ}を出{で}た。",
+    "choices": [
+      "避けて",
+      "裂けて",
+      "壁けて",
+      "癖けて"
+    ],
+    "answer": 0,
+    "translation": "To avoid the morning rush, I left home a little earlier than usual.",
+    "explanation": "さける 'to avoid, to keep away from' is written 避ける. The kanji 避 has the 'movement' radical ⻌ (しんにょう), which fits the idea of moving away from something. It also appears in 避難（ひなん）'evacuation'. Be careful: 裂ける is also read さける, but it means 'to tear, to split' (紙が裂ける), so it does not fit avoiding the rush. 壁 and 癖 share the part 辟 with 避, so they look similar, but neither is used as さける.",
+    "choice_notes": [
+      "Correct. 避ける（さける）'to avoid'. Also in 避難（ひなん）'evacuation'.",
+      "Wrong. 裂ける（さける）is a real homophone, but it means 'to tear, to split': 布が裂ける 'the cloth tears'. You cannot 'tear' the rush hour.",
+      "Wrong. 壁 is read かべ 'wall', as in 壁に絵をかける. 壁ける is not a word.",
+      "Wrong. 癖 is read くせ 'habit', as in 口癖（くちぐせ）'pet phrase'. 癖ける is not a word."
+    ],
+    "vocab": [
+      {
+        "word": "避ける",
+        "reading": "さける",
+        "meaning": "to avoid, to keep away from",
+        "pos": "ichidan verb",
+        "example": "暑{あつ}い日{ひ}は昼間{ひるま}の外出{がいしゅつ}を避{さ}けたほうがいい。",
+        "example_translation": "On hot days, it's better to avoid going out in the daytime."
+      },
+      {
+        "word": "ラッシュ",
+        "reading": "らっしゅ",
+        "meaning": "rush hour",
+        "pos": "noun",
+        "example": "八時{はちじ}ごろは電車{でんしゃ}がラッシュで混{こ}む。",
+        "example_translation": "Around eight o'clock the trains are crowded with the rush."
+      },
+      {
+        "word": "早めに",
+        "reading": "はやめに",
+        "meaning": "a little early, earlier than usual",
+        "pos": "adverb",
+        "example": "雨{あめ}が降{ふ}りそうなので、早{はや}めに帰{かえ}ろう。",
+        "example_translation": "It looks like rain, so let's go home a bit early."
+      },
+      {
+        "word": "裂ける",
+        "reading": "さける",
+        "meaning": "to tear, to split, to rip",
+        "pos": "ichidan verb",
+        "example": "強{つよ}く引{ひ}っ張{ぱ}ったら袋{ふくろ}が裂{さ}けた。",
+        "example_translation": "When I pulled hard, the bag tore."
+      },
+      {
+        "word": "壁",
+        "reading": "かべ",
+        "meaning": "wall",
+        "pos": "noun",
+        "example": "壁{かべ}に家族{かぞく}の写真{しゃしん}をかけた。",
+        "example_translation": "I hung a family photo on the wall."
+      },
+      {
+        "word": "癖",
+        "reading": "くせ",
+        "meaning": "habit, quirk",
+        "pos": "noun",
+        "example": "考{かんが}えるときに髪{かみ}を触{さわ}るのが私{わたし}の癖{くせ}だ。",
+        "example_translation": "Touching my hair when I think is a habit of mine."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜め（に）",
+        "meaning": "a little more ~, on the ~ side",
+        "formation": "い-adjective stem + め (早い → 早め, 多い → 多め)",
+        "example": "ご飯{はん}を少{すこ}し多{おお}めに炊{た}いた。",
+        "example_translation": "I cooked a little more rice than usual."
+      }
+    ]
+  },
+  {
+    "id": "or-007",
+    "section": "orthography",
+    "question": "友人{ゆうじん}の誘{さそ}いを[[ことわる]]のは、いつも気{き}が重{おも}い。",
+    "choices": [
+      "継る",
+      "拒る",
+      "絶る",
+      "断る"
+    ],
+    "answer": 3,
+    "translation": "Turning down a friend's invitation always makes me feel uneasy.",
+    "explanation": "ことわる 'to refuse, to turn down' is written 断る with only る as okurigana. 断 means 'to cut off, to decide', as in 判断（はんだん）'judgment' and 横断（おうだん）'crossing'. Refusing is like cutting off a request, which helps you remember it. 継 looks very similar to 断 (both contain 米-like parts), and 拒 and 絶 have related meanings ('refuse', 'cut off'), but their verbs are 継ぐ, 拒む and 絶つ, not ～る.",
+    "choice_notes": [
+      "Wrong. 継 is read つ(ぐ) in 継ぐ 'to inherit, to succeed to', as in 家業を継ぐ 'to take over the family business'. 継る is not a word.",
+      "Wrong. 拒 means 'refuse', but its verb is 拒む（こばむ）'to refuse, to reject'. It also appears in 拒否（きょひ）'rejection'. 拒る is not a word.",
+      "Wrong. 絶 is used in 絶つ（たつ）'to cut off' and 絶対（ぜったい）'absolutely'. 絶る is not a word.",
+      "Correct. 断る（ことわる）'to refuse, to decline'."
+    ],
+    "vocab": [
+      {
+        "word": "断る",
+        "reading": "ことわる",
+        "meaning": "to refuse, to turn down, to decline",
+        "pos": "godan verb",
+        "example": "忙{いそが}しかったので、仕事{しごと}の依頼{いらい}を断{ことわ}った。",
+        "example_translation": "I was busy, so I turned down the job request."
+      },
+      {
+        "word": "誘い",
+        "reading": "さそい",
+        "meaning": "invitation",
+        "pos": "noun",
+        "example": "飲{の}み会{かい}の誘{さそ}いを受{う}けた。",
+        "example_translation": "I received an invitation to a drinking party."
+      },
+      {
+        "word": "気が重い",
+        "reading": "きがおもい",
+        "meaning": "to feel reluctant, to feel heavy-hearted",
+        "pos": "expression",
+        "example": "明日{あした}の発表{はっぴょう}のことを考{かんが}えると気{き}が重{おも}い。",
+        "example_translation": "Thinking about tomorrow's presentation makes me feel depressed."
+      },
+      {
+        "word": "継ぐ",
+        "reading": "つぐ",
+        "meaning": "to succeed to, to inherit, to take over",
+        "pos": "godan verb",
+        "example": "彼{かれ}は父親{ちちおや}の店{みせ}を継{つ}いだ。",
+        "example_translation": "He took over his father's shop."
+      },
+      {
+        "word": "拒む",
+        "reading": "こばむ",
+        "meaning": "to refuse, to reject",
+        "pos": "godan verb",
+        "example": "彼{かれ}は質問{しつもん}に答{こた}えることを拒{こば}んだ。",
+        "example_translation": "He refused to answer the question."
+      },
+      {
+        "word": "絶つ",
+        "reading": "たつ",
+        "meaning": "to cut off, to sever, to break off",
+        "pos": "godan verb",
+        "example": "彼女{かのじょ}は昔{むかし}の友人{ゆうじん}との連絡{れんらく}を絶{た}った。",
+        "example_translation": "She cut off contact with her old friends."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜のは",
+        "meaning": "the act of ~ (turns a verb phrase into the topic)",
+        "formation": "Verb plain form + のは + comment",
+        "example": "一人{ひとり}で旅行{りょこう}するのは楽{たの}しい。",
+        "example_translation": "Traveling alone is fun."
+      }
+    ]
+  },
+  {
+    "id": "or-008",
+    "section": "orthography",
+    "question": "応援団{おうえんだん}の[[いさましい]]声{こえ}が球場{きゅうじょう}に響{ひび}いた。",
+    "choices": [
+      "勇しい",
+      "勇ましい",
+      "湧ましい",
+      "男ましい"
+    ],
+    "answer": 1,
+    "translation": "The brave, spirited voices of the cheering squad echoed through the ballpark.",
+    "explanation": "いさましい 'brave, spirited, rousing' is written 勇ましい. The kanji 勇 means 'courage', as in 勇気（ゆうき）'courage'. This question tests okurigana: the official spelling is 勇ましい, with ましい written in hiragana. 勇しい leaves out ま, so it is wrong. 湧 (as in 湧く 'to gush out') and 男 'man' share parts with 勇 and look similar, but they are not used for this word.",
+    "choice_notes": [
+      "Wrong. The kanji is correct, but the okurigana is wrong. The correct form is 勇ましい, not 勇しい.",
+      "Correct. 勇ましい（いさましい）'brave, courageous, rousing'.",
+      "Wrong. 湧 is used in 湧く（わく）'to gush out, to spring up': 温泉が湧く 'a hot spring gushes out'. 湧ましい is not a word.",
+      "Wrong. 男（おとこ）'man' looks like part of 勇, but 男ましい is not a word. A related real word is 男らしい（おとこらしい）'manly'."
+    ],
+    "vocab": [
+      {
+        "word": "勇ましい",
+        "reading": "いさましい",
+        "meaning": "brave, courageous; spirited, rousing",
+        "pos": "i-adjective",
+        "example": "消防士{しょうぼうし}たちは勇{いさ}ましく火{ひ}の中{なか}へ入{はい}っていった。",
+        "example_translation": "The firefighters bravely went into the fire."
+      },
+      {
+        "word": "応援団",
+        "reading": "おうえんだん",
+        "meaning": "cheering squad, supporters' group",
+        "pos": "noun",
+        "example": "応援団{おうえんだん}が大{おお}きな旗{はた}を振{ふ}っている。",
+        "example_translation": "The cheering squad is waving a big flag."
+      },
+      {
+        "word": "球場",
+        "reading": "きゅうじょう",
+        "meaning": "baseball stadium, ballpark",
+        "pos": "noun",
+        "example": "週末{しゅうまつ}に球場{きゅうじょう}へ野球{やきゅう}を見{み}に行{い}った。",
+        "example_translation": "On the weekend I went to the ballpark to watch baseball."
+      },
+      {
+        "word": "響く",
+        "reading": "ひびく",
+        "meaning": "to echo, to resound",
+        "pos": "godan verb",
+        "example": "教会{きょうかい}の鐘{かね}の音{おと}が町{まち}に響{ひび}いた。",
+        "example_translation": "The sound of the church bell echoed through the town."
+      },
+      {
+        "word": "勇気",
+        "reading": "ゆうき",
+        "meaning": "courage, bravery",
+        "pos": "noun",
+        "example": "勇気{ゆうき}を出{だ}して彼女{かのじょ}に話{はな}しかけた。",
+        "example_translation": "I worked up the courage and spoke to her."
+      },
+      {
+        "word": "湧く",
+        "reading": "わく",
+        "meaning": "to gush out, to spring up (water; also feelings)",
+        "pos": "godan verb",
+        "example": "この村{むら}には温泉{おんせん}が湧{わ}いている。",
+        "example_translation": "A hot spring gushes out in this village."
+      }
+    ],
+    "grammar": []
+  },
+  {
+    "id": "or-009",
+    "section": "orthography",
+    "question": "運転手{うんてんしゅ}がハンドル操作{そうさ}を[[あやまって]]、車{くるま}が壁{かべ}にぶつかった。",
+    "choices": [
+      "誤って",
+      "謝って",
+      "娯って",
+      "誤まって"
+    ],
+    "answer": 0,
+    "translation": "The driver made a mistake in steering, and the car crashed into a wall.",
+    "explanation": "あやまる has two kanji with very different meanings. 誤る means 'to make a mistake, to do something wrongly' (判断を誤る 'to misjudge'), while 謝る means 'to apologize'. In this sentence the driver handled the steering wheel wrongly, so the answer is 誤る. 誤 also appears in 誤解（ごかい）'misunderstanding'. Note the okurigana: 誤る takes only る, so 誤まって is wrong. 娯 shares the right-hand part 呉 with 誤 but is a different kanji.",
+    "choice_notes": [
+      "Correct. 誤る（あやまる）'to make a mistake in, to err'. 操作を誤る 'to operate (something) wrongly'.",
+      "Wrong. 謝る（あやまる）is a real homophone meaning 'to apologize': 遅れたことを謝る. It does not fit a steering mistake.",
+      "Wrong. 娯 is only used in 娯楽（ごらく）'entertainment'. 娯る is not a word.",
+      "Wrong. The kanji is right but the okurigana is wrong: 誤る has only る, so the て-form is 誤って, not 誤まって."
+    ],
+    "vocab": [
+      {
+        "word": "誤る",
+        "reading": "あやまる",
+        "meaning": "to make a mistake, to err, to do wrongly",
+        "pos": "godan verb",
+        "example": "道{みち}を誤{あやま}って、知{し}らない町{まち}に着{つ}いてしまった。",
+        "example_translation": "I took the wrong road and ended up in a town I didn't know."
+      },
+      {
+        "word": "運転手",
+        "reading": "うんてんしゅ",
+        "meaning": "driver (of a car, bus, train)",
+        "pos": "noun",
+        "example": "バスの運転手{うんてんしゅ}に道{みち}を聞{き}いた。",
+        "example_translation": "I asked the bus driver for directions."
+      },
+      {
+        "word": "操作",
+        "reading": "そうさ",
+        "meaning": "operation, handling (of a machine)",
+        "pos": "noun / suru verb",
+        "example": "このカメラは操作{そうさ}が簡単{かんたん}だ。",
+        "example_translation": "This camera is easy to operate."
+      },
+      {
+        "word": "ぶつかる",
+        "reading": "ぶつかる",
+        "meaning": "to crash into, to bump into",
+        "pos": "godan verb",
+        "example": "自転車{じてんしゃ}が電柱{でんちゅう}にぶつかった。",
+        "example_translation": "The bicycle crashed into a utility pole."
+      },
+      {
+        "word": "謝る",
+        "reading": "あやまる",
+        "meaning": "to apologize",
+        "pos": "godan verb",
+        "example": "約束{やくそく}を忘{わす}れて、友達{ともだち}に謝{あやま}った。",
+        "example_translation": "I forgot my promise and apologized to my friend."
+      },
+      {
+        "word": "娯楽",
+        "reading": "ごらく",
+        "meaning": "entertainment, amusement",
+        "pos": "noun",
+        "example": "昔{むかし}はラジオが一番{いちばん}の娯楽{ごらく}だった。",
+        "example_translation": "In the past, radio was the main form of entertainment."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜て (cause)",
+        "meaning": "because ~, ~ and as a result (the て-form links a cause to its result)",
+        "formation": "Verb / adjective て-form + result",
+        "example": "雨{あめ}が降{ふ}って、試合{しあい}が中止{ちゅうし}になった。",
+        "example_translation": "It rained, and the game was canceled."
+      }
+    ]
+  },
+  {
+    "id": "or-010",
+    "section": "orthography",
+    "question": "毎年{まいとし}三月{さんがつ}までに税金{ぜいきん}を[[おさめ]]なければならない。",
+    "choices": [
+      "収め",
+      "治め",
+      "修め",
+      "納め"
+    ],
+    "answer": 3,
+    "translation": "Every year you have to pay your taxes by March.",
+    "explanation": "おさめる is a famous homophone set with four kanji. 納める means 'to pay (taxes, fees), to deliver goods' - 税金を納める. 収める means 'to put away, to obtain (a result)' - 成功を収める. 治める means 'to govern, to rule' - 国を治める. 修める means 'to study, to master' - 学問を修める. Since the object is 税金 'taxes', the answer is 納める. 納 also appears in 納税（のうぜい）'tax payment' and 納得（なっとく）'being convinced'.",
+    "choice_notes": [
+      "Wrong. 収める（おさめる）means 'to obtain (results), to put away': 大成功を収める 'to achieve great success'. Also in 収入（しゅうにゅう）'income'.",
+      "Wrong. 治める（おさめる）means 'to govern, to rule': 国を治める 'to rule a country'. Also in 政治（せいじ）'politics'.",
+      "Wrong. 修める（おさめる）means 'to study, to master': 学問を修める 'to pursue learning'. Also in 修理（しゅうり）'repair'.",
+      "Correct. 納める（おさめる）'to pay (taxes, fees)'. 税金を納める 'to pay taxes'."
+    ],
+    "vocab": [
+      {
+        "word": "納める",
+        "reading": "おさめる",
+        "meaning": "to pay (taxes, fees); to deliver (goods)",
+        "pos": "ichidan verb",
+        "example": "授業料{じゅぎょうりょう}は銀行{ぎんこう}で納{おさ}めてください。",
+        "example_translation": "Please pay the tuition at the bank."
+      },
+      {
+        "word": "税金",
+        "reading": "ぜいきん",
+        "meaning": "tax",
+        "pos": "noun",
+        "example": "税金{ぜいきん}が上{あ}がって生活{せいかつ}が苦{くる}しくなった。",
+        "example_translation": "Taxes went up and life became harder."
+      },
+      {
+        "word": "収める",
+        "reading": "おさめる",
+        "meaning": "to obtain (a result), to put away, to store",
+        "pos": "ichidan verb",
+        "example": "その映画{えいが}は大成功{だいせいこう}を収{おさ}めた。",
+        "example_translation": "That movie was a huge success."
+      },
+      {
+        "word": "治める",
+        "reading": "おさめる",
+        "meaning": "to govern, to rule; to settle (a dispute)",
+        "pos": "ichidan verb",
+        "example": "昔{むかし}、この地方{ちほう}は強{つよ}い王{おう}が治{おさ}めていた。",
+        "example_translation": "Long ago, a powerful king ruled this region."
+      },
+      {
+        "word": "修める",
+        "reading": "おさめる",
+        "meaning": "to study, to master (learning, skills)",
+        "pos": "ichidan verb",
+        "example": "彼{かれ}は大学{だいがく}で法律{ほうりつ}を修{おさ}めた。",
+        "example_translation": "He studied law at university."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜までに",
+        "meaning": "by ~ (a deadline)",
+        "formation": "Noun (time) / verb dictionary form + までに",
+        "example": "金曜日{きんようび}までにレポートを出{だ}してください。",
+        "example_translation": "Please submit the report by Friday."
+      },
+      {
+        "pattern": "〜なければならない",
+        "meaning": "must ~, have to ~",
+        "formation": "Verb ない-form minus い + ければならない (おさめない → おさめなければならない)",
+        "example": "明日{あした}は六時{ろくじ}に起{お}きなければならない。",
+        "example_translation": "I have to get up at six tomorrow."
+      }
+    ]
+  },
+  {
+    "id": "or-011",
+    "section": "orthography",
+    "question": "病院{びょういん}では、いつも手{て}を[[せいけつ]]にしておくことが大切{たいせつ}だ。",
+    "choices": [
+      "晴潔",
+      "清潔",
+      "精潔",
+      "清契"
+    ],
+    "answer": 1,
+    "translation": "In a hospital, it is important to always keep your hands clean.",
+    "explanation": "せいけつ 'clean, hygienic' is written 清潔. 清 means 'pure, clean' and has the water radical 氵 (clean water), as in 清掃（せいそう）'cleaning'. 潔 also has 氵 and means 'pure'. The trap is the group of look-alike kanji with the part 青, all read せい: 晴 (sun radical, 'clear weather'), 精 (rice radical, 'spirit, precise'). The second kanji is also tested: 契 (as in 契約) looks like the right side of 潔 but lacks 氵. Tip: cleanliness is about water, so both kanji have 氵.",
+    "choice_notes": [
+      "Wrong. 晴 has the sun radical 日 and means 'clear (weather)', as in 晴天（せいてん）'fine weather'. 晴潔 is not a word.",
+      "Correct. 清潔（せいけつ）'clean, hygienic'. Both kanji have the water radical 氵.",
+      "Wrong. 精 has the rice radical 米 and means 'spirit, precise', as in 精神（せいしん）'mind, spirit'. 精潔 is not a word.",
+      "Wrong. The first kanji is right, but 契 means 'pledge', as in 契約（けいやく）'contract'. 清契 is not a word."
+    ],
+    "vocab": [
+      {
+        "word": "清潔",
+        "reading": "せいけつ",
+        "meaning": "clean, hygienic, neat",
+        "pos": "na-adjective",
+        "example": "台所{だいどころ}はいつも清潔{せいけつ}に保{たも}ちましょう。",
+        "example_translation": "Let's always keep the kitchen clean."
+      },
+      {
+        "word": "病院",
+        "reading": "びょういん",
+        "meaning": "hospital",
+        "pos": "noun",
+        "example": "熱{ねつ}が下{さ}がらないので病院{びょういん}へ行{い}った。",
+        "example_translation": "My fever didn't go down, so I went to the hospital."
+      },
+      {
+        "word": "晴天",
+        "reading": "せいてん",
+        "meaning": "fine weather, clear sky",
+        "pos": "noun",
+        "example": "運動会{うんどうかい}の日{ひ}は晴天{せいてん}に恵{めぐ}まれた。",
+        "example_translation": "We were blessed with fine weather on sports day."
+      },
+      {
+        "word": "精神",
+        "reading": "せいしん",
+        "meaning": "mind, spirit, mentality",
+        "pos": "noun",
+        "example": "試合{しあい}の前{まえ}は精神{せいしん}を集中{しゅうちゅう}させる。",
+        "example_translation": "Before a match, I concentrate my mind."
+      },
+      {
+        "word": "契約",
+        "reading": "けいやく",
+        "meaning": "contract, agreement",
+        "pos": "noun / suru verb",
+        "example": "新{あたら}しい部屋{へや}の契約{けいやく}をした。",
+        "example_translation": "I signed the contract for a new apartment."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜にしておく",
+        "meaning": "to keep (something) in a ~ state, to leave it as ~",
+        "formation": "な-adjective / noun + にしておく; い-adjective stem + くしておく",
+        "example": "窓{まど}を開{あ}けたままにしておいてください。",
+        "example_translation": "Please leave the window open."
+      }
+    ]
+  },
+  {
+    "id": "or-012",
+    "section": "orthography",
+    "question": "この時計{とけい}には一年間{いちねんかん}の[[ほしょう]]がついている。",
+    "choices": [
+      "保障",
+      "補償",
+      "保証",
+      "保症"
+    ],
+    "answer": 2,
+    "translation": "This watch comes with a one-year warranty.",
+    "explanation": "ほしょう has three real spellings, and the JLPT loves this trap. 保証 means 'guarantee, warranty' - a promise that a product or a person can be trusted (保証書 'warranty card', 保証人 'guarantor'). 保障 means 'security, protection' of a state or rights (安全保障 'national security', 社会保障 'social security'). 補償 means 'compensation' for damage or loss (損害を補償する). A watch's one-year warranty is a promise about product quality, so 保証 is correct. Memory tip: 証 is 'proof' (証明 'proof'), and a warranty is proof that the product is good.",
+    "choice_notes": [
+      "Wrong. 保障（ほしょう）is a real word meaning 'security, protection', used for safety and rights: 安全保障 'national security'. It is not used for a product warranty.",
+      "Wrong. 補償（ほしょう）is a real word meaning 'compensation (for damage)': 事故の被害を補償する 'to compensate for accident damage'.",
+      "Correct. 保証（ほしょう）'guarantee, warranty'. 一年間の保証 'a one-year warranty'.",
+      "Wrong. 症 means 'symptom, illness', as in 症状（しょうじょう）'symptom'. 保症 is not a word."
+    ],
+    "vocab": [
+      {
+        "word": "保証",
+        "reading": "ほしょう",
+        "meaning": "guarantee, warranty",
+        "pos": "noun / suru verb",
+        "example": "この品質{ひんしつ}なら私{わたし}が保証{ほしょう}します。",
+        "example_translation": "I guarantee this quality."
+      },
+      {
+        "word": "〜間",
+        "reading": "かん",
+        "meaning": "for (a period of) ~, duration",
+        "pos": "suffix",
+        "example": "三日間{みっかかん}、雨{あめ}が降{ふ}り続{つづ}いた。",
+        "example_translation": "It kept raining for three days."
+      },
+      {
+        "word": "保障",
+        "reading": "ほしょう",
+        "meaning": "security, protection (of safety, rights)",
+        "pos": "noun / suru verb",
+        "example": "国{くに}は国民{こくみん}の安全{あんぜん}を保障{ほしょう}しなければならない。",
+        "example_translation": "The state must guarantee the safety of its citizens."
+      },
+      {
+        "word": "補償",
+        "reading": "ほしょう",
+        "meaning": "compensation (for damage or loss)",
+        "pos": "noun / suru verb",
+        "example": "会社{かいしゃ}は事故{じこ}の被害者{ひがいしゃ}に補償{ほしょう}をした。",
+        "example_translation": "The company paid compensation to the accident victims."
+      },
+      {
+        "word": "症状",
+        "reading": "しょうじょう",
+        "meaning": "symptom",
+        "pos": "noun",
+        "example": "風邪{かぜ}の症状{しょうじょう}が出{で}たら、早{はや}めに休{やす}んでください。",
+        "example_translation": "If you show cold symptoms, please rest early."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜ている (resulting state)",
+        "meaning": "is ~ (a state that continues as a result of a past change)",
+        "formation": "Verb て-form + いる (つく → ついている 'is attached, comes with')",
+        "example": "この部屋{へや}にはエアコンがついている。",
+        "example_translation": "This room has an air conditioner."
+      }
+    ]
+  },
+  {
+    "id": "or-013",
+    "section": "orthography",
+    "question": "この地方{ちほう}は自然{しぜん}が[[ゆたか]]で、野菜{やさい}や果物{くだもの}がよく育{そだ}つ。",
+    "choices": [
+      "豊か",
+      "富か",
+      "裕か",
+      "豊たか"
+    ],
+    "answer": 0,
+    "translation": "This region is rich in nature, and vegetables and fruit grow well.",
+    "explanation": "ゆたか 'rich, abundant, plentiful' is written 豊か, with only か as okurigana. 豊 means 'abundant', as in 豊富（ほうふ）'abundant' and 豊作（ほうさく）'good harvest'. The distractors 富 and 裕 have similar meanings ('wealth'), which makes them tempting, but they are read differently: 富む（とむ）'to be rich in' and 裕福（ゆうふく）'wealthy'. 豊たか has too much okurigana.",
+    "choice_notes": [
+      "Correct. 豊か（ゆたか）'rich, abundant'. 自然が豊か 'rich in nature'.",
+      "Wrong. 富 means 'wealth' but its verb is 富む（とむ）'to be rich in': 才能に富む 'to be full of talent'. 富か is not a word.",
+      "Wrong. 裕 means 'plenty, wealth' and appears in 裕福（ゆうふく）'wealthy' and 余裕（よゆう）'room to spare'. 裕か is not a word.",
+      "Wrong. The kanji is right, but the okurigana is wrong. The correct form is 豊か, not 豊たか."
+    ],
+    "vocab": [
+      {
+        "word": "豊か",
+        "reading": "ゆたか",
+        "meaning": "rich, abundant, plentiful",
+        "pos": "na-adjective",
+        "example": "彼{かれ}は経験{けいけん}が豊{ゆた}かな先生{せんせい}だ。",
+        "example_translation": "He is a teacher with a wealth of experience."
+      },
+      {
+        "word": "地方",
+        "reading": "ちほう",
+        "meaning": "region, area; the provinces (outside big cities)",
+        "pos": "noun",
+        "example": "東北{とうほく}地方{ちほう}は冬{ふゆ}に雪{ゆき}が多{おお}い。",
+        "example_translation": "The Tohoku region gets a lot of snow in winter."
+      },
+      {
+        "word": "自然",
+        "reading": "しぜん",
+        "meaning": "nature; natural",
+        "pos": "noun / na-adjective",
+        "example": "週末{しゅうまつ}は自然{しぜん}の中{なか}でゆっくりしたい。",
+        "example_translation": "On weekends I want to relax in nature."
+      },
+      {
+        "word": "育つ",
+        "reading": "そだつ",
+        "meaning": "to grow (up), to be raised",
+        "pos": "godan verb",
+        "example": "私{わたし}は海{うみ}の近{ちか}くで育{そだ}った。",
+        "example_translation": "I grew up near the sea."
+      },
+      {
+        "word": "富む",
+        "reading": "とむ",
+        "meaning": "to be rich in, to abound in",
+        "pos": "godan verb",
+        "example": "この国{くに}は資源{しげん}に富{と}んでいる。",
+        "example_translation": "This country is rich in resources."
+      },
+      {
+        "word": "裕福",
+        "reading": "ゆうふく",
+        "meaning": "wealthy, well-off",
+        "pos": "na-adjective",
+        "example": "彼女{かのじょ}は裕福{ゆうふく}な家庭{かてい}に生{う}まれた。",
+        "example_translation": "She was born into a wealthy family."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "な-adjective + で",
+        "meaning": "~ and (also) / ~, so (connects a な-adjective to the next clause)",
+        "formation": "な-adjective stem + で (豊か → 豊かで)",
+        "example": "この町{まち}は静{しず}かで、住{す}みやすい。",
+        "example_translation": "This town is quiet and easy to live in."
+      }
+    ]
+  },
+  {
+    "id": "or-014",
+    "section": "orthography",
+    "question": "事故{じこ}の原因{げんいん}については、まだ[[くわしい]]ことは分{わ}かっていない。",
+    "choices": [
+      "洋しい",
+      "詳しい",
+      "祥しい",
+      "詳わしい"
+    ],
+    "answer": 1,
+    "translation": "Regarding the cause of the accident, the details are not yet known.",
+    "explanation": "くわしい 'detailed; knowing a lot about' is written 詳しい, with しい as okurigana. 詳 has the speech radical 言 (explaining in detail), and it also appears in 詳細（しょうさい）'details'. The distractors 洋 and 祥 have the same right-hand part 羊, so they look alike, but they have the water radical and the altar radical. 詳わしい adds an extra わ, which is wrong okurigana.",
+    "choice_notes": [
+      "Wrong. 洋 is read よう and means 'ocean, Western', as in 西洋（せいよう）'the West' and 洋服（ようふく）'Western clothes'. 洋しい is not a word.",
+      "Correct. 詳しい（くわしい）'detailed, thorough; knowledgeable about'.",
+      "Wrong. 祥 is read しょう and appears in 不祥事（ふしょうじ）'scandal'. 祥しい is not a word.",
+      "Wrong. The kanji is right, but the okurigana is wrong. The correct form is 詳しい, not 詳わしい."
+    ],
+    "vocab": [
+      {
+        "word": "詳しい",
+        "reading": "くわしい",
+        "meaning": "detailed; knowing a lot about (〜に詳しい)",
+        "pos": "i-adjective",
+        "example": "兄{あに}はパソコンに詳{くわ}しい。",
+        "example_translation": "My older brother knows a lot about computers."
+      },
+      {
+        "word": "事故",
+        "reading": "じこ",
+        "meaning": "accident",
+        "pos": "noun",
+        "example": "高速道路{こうそくどうろ}で事故{じこ}があった。",
+        "example_translation": "There was an accident on the expressway."
+      },
+      {
+        "word": "原因",
+        "reading": "げんいん",
+        "meaning": "cause",
+        "pos": "noun",
+        "example": "火事{かじ}の原因{げんいん}を調{しら}べている。",
+        "example_translation": "They are investigating the cause of the fire."
+      },
+      {
+        "word": "詳細",
+        "reading": "しょうさい",
+        "meaning": "details, particulars",
+        "pos": "noun / na-adjective",
+        "example": "詳細{しょうさい}はホームページをご覧{らん}ください。",
+        "example_translation": "Please see our website for details."
+      },
+      {
+        "word": "西洋",
+        "reading": "せいよう",
+        "meaning": "the West, Western countries",
+        "pos": "noun",
+        "example": "明治時代{めいじじだい}に西洋{せいよう}の文化{ぶんか}が入{はい}ってきた。",
+        "example_translation": "Western culture came in during the Meiji era."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜については",
+        "meaning": "as for ~, regarding ~",
+        "formation": "Noun + については",
+        "example": "その件{けん}については後{あと}で説明{せつめい}します。",
+        "example_translation": "I will explain that matter later."
+      },
+      {
+        "pattern": "まだ〜ていない",
+        "meaning": "not ~ yet",
+        "formation": "まだ + verb て-form + いない",
+        "example": "宿題{しゅくだい}はまだ終{お}わっていない。",
+        "example_translation": "I haven't finished my homework yet."
+      }
+    ]
+  },
+  {
+    "id": "or-015",
+    "section": "orthography",
+    "question": "お湯{ゆ}で洗{あら}ったら、セーターが[[ちぢんで]]しまった。",
+    "choices": [
+      "宿んで",
+      "縦んで",
+      "縮んで",
+      "細んで"
+    ],
+    "answer": 2,
+    "translation": "When I washed it in hot water, my sweater shrank.",
+    "explanation": "ちぢむ 'to shrink' is written 縮む. 縮 has the thread radical 糸 on the left (a knitted sweater is made of thread), and 宿 on the right. It also appears in 短縮（たんしゅく）'shortening' and 縮小（しゅくしょう）'reduction'. The distractors are look-alikes: 宿 is the right half of 縮, and 縦 and 細 have the same thread radical 糸. Its transitive partner is 縮める（ちぢめる）'to shorten, to make smaller'.",
+    "choice_notes": [
+      "Wrong. 宿 means 'lodging' and is read やど or しゅく, as in 宿題（しゅくだい）'homework'. It is only the right half of 縮. 宿む is not a word.",
+      "Wrong. 縦 is read たて 'vertical, length', as in 縦書き（たてがき）'vertical writing'. 縦む is not a word.",
+      "Correct. 縮む（ちぢむ）'to shrink'.",
+      "Wrong. 細 is read ほそ(い) 'thin' or こま(かい) 'fine, detailed'. 細む is not a word."
+    ],
+    "vocab": [
+      {
+        "word": "縮む",
+        "reading": "ちぢむ",
+        "meaning": "to shrink, to contract",
+        "pos": "godan verb",
+        "example": "寒{さむ}さで体{からだ}が縮{ちぢ}むようだ。",
+        "example_translation": "I feel like my body is shrinking from the cold."
+      },
+      {
+        "word": "お湯",
+        "reading": "おゆ",
+        "meaning": "hot water",
+        "pos": "noun",
+        "example": "お湯{ゆ}を沸{わ}かしてお茶{ちゃ}を入{い}れた。",
+        "example_translation": "I boiled water and made tea."
+      },
+      {
+        "word": "セーター",
+        "reading": "せーたー",
+        "meaning": "sweater",
+        "pos": "noun",
+        "example": "寒{さむ}いのでセーターを着{き}た。",
+        "example_translation": "It was cold, so I put on a sweater."
+      },
+      {
+        "word": "縮める",
+        "reading": "ちぢめる",
+        "meaning": "to shorten, to reduce, to shrink (something)",
+        "pos": "ichidan verb",
+        "example": "練習{れんしゅう}してタイムを二秒{にびょう}縮{ちぢ}めた。",
+        "example_translation": "I practiced and cut my time by two seconds."
+      },
+      {
+        "word": "縦",
+        "reading": "たて",
+        "meaning": "length, vertical",
+        "pos": "noun",
+        "example": "紙{かみ}を縦{たて}に二{ふた}つに折{お}ってください。",
+        "example_translation": "Please fold the paper in half lengthwise."
+      },
+      {
+        "word": "宿",
+        "reading": "やど",
+        "meaning": "inn, lodging",
+        "pos": "noun",
+        "example": "駅{えき}の近{ちか}くに宿{やど}をとった。",
+        "example_translation": "I booked lodging near the station."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜てしまう",
+        "meaning": "to end up ~ (often an unwanted or regrettable result)",
+        "formation": "Verb て-form + しまう (casual: 〜ちゃう)",
+        "example": "電車{でんしゃ}に傘{かさ}を忘{わす}れてしまった。",
+        "example_translation": "I ended up leaving my umbrella on the train."
+      },
+      {
+        "pattern": "〜たら (discovery)",
+        "meaning": "when I did ~, (I found that) ~",
+        "formation": "Verb た-form + ら",
+        "example": "窓{まど}を開{あ}けたら、雪{ゆき}が降{ふ}っていた。",
+        "example_translation": "When I opened the window, it was snowing."
+      }
+    ]
+  },
+  {
+    "id": "or-016",
+    "section": "orthography",
+    "question": "雨{あめ}で試合{しあい}が中断{ちゅうだん}したため、大会{たいかい}の日程{にってい}が一日{いちにち}[[えんちょう]]された。",
+    "choices": [
+      "廷長",
+      "延張",
+      "誕長",
+      "延長"
+    ],
+    "answer": 3,
+    "translation": "Because the games were interrupted by rain, the tournament schedule was extended by one day.",
+    "explanation": "えんちょう 'extension, prolonging' is written 延長. 延 means 'to stretch, to postpone' (延びる 'to be extended', 延期 'postponement') and 長 means 'long'. So 延長 is literally 'stretching longer'. Two traps: 廷 and 誕 contain almost the same shape as 延, so check carefully; and 張 is also read ちょう but means 'to stretch out, to put up' (主張 'claim'), not 'long'. Both 延 and 廷 have the 'stretching' radical 廴, so look at the inside: 延 has a slanted stroke on top of 止, while 廷 has 壬.",
+    "choice_notes": [
+      "Wrong. 廷 is read てい 'court', as in 法廷（ほうてい）'courtroom'. It has the same outer part 廴 as 延, but the inside is 壬 instead of 延's slanted stroke plus 止. 廷長 is not a word.",
+      "Wrong. The first kanji is right, but 張 is the ちょう of 主張（しゅちょう）'claim' and 出張（しゅっちょう）'business trip'. 延張 is not a word.",
+      "Wrong. 誕 is read たん and appears in 誕生（たんじょう）'birth'. 誕長 is not a word.",
+      "Correct. 延長（えんちょう）'extension'. 延 'stretch' + 長 'long'."
+    ],
+    "vocab": [
+      {
+        "word": "延長",
+        "reading": "えんちょう",
+        "meaning": "extension, prolongation; overtime (sports)",
+        "pos": "noun / suru verb",
+        "example": "試合{しあい}は延長{えんちょう}の末{すえ}、三対{さんたい}二{に}で終{お}わった。",
+        "example_translation": "After overtime, the game ended 3 to 2."
+      },
+      {
+        "word": "中断",
+        "reading": "ちゅうだん",
+        "meaning": "interruption, suspension",
+        "pos": "noun / suru verb",
+        "example": "地震{じしん}のため、放送{ほうそう}が中断{ちゅうだん}された。",
+        "example_translation": "The broadcast was interrupted because of the earthquake."
+      },
+      {
+        "word": "日程",
+        "reading": "にってい",
+        "meaning": "schedule, itinerary",
+        "pos": "noun",
+        "example": "旅行{りょこう}の日程{にってい}が決{き}まった。",
+        "example_translation": "The itinerary for the trip has been decided."
+      },
+      {
+        "word": "大会",
+        "reading": "たいかい",
+        "meaning": "tournament, convention, large meeting",
+        "pos": "noun",
+        "example": "全国{ぜんこく}大会{たいかい}に出場{しゅつじょう}することになった。",
+        "example_translation": "We are going to take part in the national tournament."
+      },
+      {
+        "word": "延期",
+        "reading": "えんき",
+        "meaning": "postponement",
+        "pos": "noun / suru verb",
+        "example": "台風{たいふう}で運動会{うんどうかい}が延期{えんき}になった。",
+        "example_translation": "Sports day was postponed because of the typhoon."
+      },
+      {
+        "word": "法廷",
+        "reading": "ほうてい",
+        "meaning": "court of law, courtroom",
+        "pos": "noun",
+        "example": "彼{かれ}は証人{しょうにん}として法廷{ほうてい}に立{た}った。",
+        "example_translation": "He stood in court as a witness."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜ため（に）(reason)",
+        "meaning": "because of ~, due to ~ (formal)",
+        "formation": "Plain form / noun + の + ため",
+        "example": "大雪{おおゆき}のため、電車{でんしゃ}が止{と}まった。",
+        "example_translation": "The trains stopped due to heavy snow."
+      },
+      {
+        "pattern": "〜される (passive)",
+        "meaning": "to be ~ed (the subject receives the action)",
+        "formation": "Suru verb: noun + される (延長する → 延長される)",
+        "example": "この寺{てら}は八百年前{はっぴゃくねんまえ}に建{た}てられた。",
+        "example_translation": "This temple was built 800 years ago."
+      }
+    ]
+  },
+  {
+    "id": "or-017",
+    "section": "orthography",
+    "question": "このお皿{さら}は割{わ}れやすいので、丁寧{ていねい}に[[あつかって]]ください。",
+    "choices": [
+      "扱って",
+      "扱かって",
+      "吸って",
+      "投って"
+    ],
+    "answer": 0,
+    "translation": "This plate breaks easily, so please handle it with care.",
+    "explanation": "あつかう 'to handle, to treat, to deal with' is written 扱う, with only う as okurigana. 扱 has the hand radical 扌, which fits 'handling' something with your hands. 扱かって adds an extra か, which is wrong okurigana. 吸 has the same right-hand part 及 as 扱, but with the mouth radical 口, so it means 'to breathe in'. 投 also has 扌 but means 'to throw'.",
+    "choice_notes": [
+      "Correct. 扱う（あつかう）'to handle, to treat'. 丁寧に扱う 'to handle carefully'.",
+      "Wrong. The kanji is right, but the okurigana is wrong. The て-form is 扱って, not 扱かって.",
+      "Wrong. 吸って is read すって, from 吸う（すう）'to breathe in, to smoke'. It has the mouth radical 口, not the hand radical.",
+      "Wrong. 投 is used in 投げる（なげる）'to throw', not 投う. It also appears in 投票（とうひょう）'voting'."
+    ],
+    "vocab": [
+      {
+        "word": "扱う",
+        "reading": "あつかう",
+        "meaning": "to handle, to treat, to deal with",
+        "pos": "godan verb",
+        "example": "この店{みせ}では外国{がいこく}の食品{しょくひん}も扱{あつか}っている。",
+        "example_translation": "This shop also deals in foreign foods."
+      },
+      {
+        "word": "割れる",
+        "reading": "われる",
+        "meaning": "to break, to crack (glass, dishes)",
+        "pos": "ichidan verb",
+        "example": "地震{じしん}で窓{まど}ガラスが割{わ}れた。",
+        "example_translation": "The window glass broke in the earthquake."
+      },
+      {
+        "word": "丁寧",
+        "reading": "ていねい",
+        "meaning": "careful, polite, courteous",
+        "pos": "na-adjective",
+        "example": "彼{かれ}はいつも丁寧{ていねい}に字{じ}を書{か}く。",
+        "example_translation": "He always writes his letters carefully."
+      },
+      {
+        "word": "吸う",
+        "reading": "すう",
+        "meaning": "to breathe in, to inhale, to smoke, to suck",
+        "pos": "godan verb",
+        "example": "山{やま}の上{うえ}できれいな空気{くうき}を吸{す}った。",
+        "example_translation": "I breathed in clean air on the mountaintop."
+      },
+      {
+        "word": "投げる",
+        "reading": "なげる",
+        "meaning": "to throw",
+        "pos": "ichidan verb",
+        "example": "子{こ}どもが犬{いぬ}にボールを投{な}げた。",
+        "example_translation": "The child threw a ball to the dog."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜やすい",
+        "meaning": "easy to ~, likely to ~, tends to ~",
+        "formation": "Verb ます-stem + やすい (割れる → 割れやすい)",
+        "example": "このペンは書{か}きやすい。",
+        "example_translation": "This pen is easy to write with."
+      }
+    ]
+  },
+  {
+    "id": "or-018",
+    "section": "orthography",
+    "question": "先輩{せんぱい}は私{わたし}の頼{たの}みを[[こころよく]]引{ひ}き受{う}けてくれた。",
+    "choices": [
+      "決く",
+      "快よく",
+      "怪く",
+      "快く"
+    ],
+    "answer": 3,
+    "translation": "My senior gladly accepted my request.",
+    "explanation": "こころよい 'pleasant; willing, glad to' is written 快い, and its adverb form is 快く 'gladly, willingly'. The okurigana is only い (or く in the adverb). Many learners write 快よい because of the よ sound, but that is wrong. 快 has the heart radical 忄 (feelings) and also appears in 快適（かいてき）'comfortable'. 決 has the same right part 夬 but the water radical, and 怪 also has 忄 but means 'suspicious'.",
+    "choice_notes": [
+      "Wrong. 決 is used in 決める（きめる）'to decide' and 決して（けっして）'never'. 決く is not a word.",
+      "Wrong. The kanji is right, but the okurigana is wrong. The correct form is 快く, not 快よく.",
+      "Wrong. 怪 is used in 怪しい（あやしい）'suspicious' and 怪我（けが）'injury'. 怪く is not a word.",
+      "Correct. 快く（こころよく）'gladly, willingly', from 快い 'pleasant'."
+    ],
+    "vocab": [
+      {
+        "word": "快い",
+        "reading": "こころよい",
+        "meaning": "pleasant, agreeable; (快く) gladly, willingly",
+        "pos": "i-adjective",
+        "example": "朝{あさ}の快{こころよ}い風{かぜ}が窓{まど}から入{はい}ってくる。",
+        "example_translation": "A pleasant morning breeze comes in through the window."
+      },
+      {
+        "word": "先輩",
+        "reading": "せんぱい",
+        "meaning": "senior (at school or work), someone who started before you",
+        "pos": "noun",
+        "example": "会社{かいしゃ}の先輩{せんぱい}に仕事{しごと}を教{おそ}わった。",
+        "example_translation": "A senior colleague taught me the job."
+      },
+      {
+        "word": "頼み",
+        "reading": "たのみ",
+        "meaning": "request, favor",
+        "pos": "noun",
+        "example": "一{ひと}つ頼{たの}みがあるんだけど、いいかな。",
+        "example_translation": "I have a favor to ask - is that OK?"
+      },
+      {
+        "word": "引き受ける",
+        "reading": "ひきうける",
+        "meaning": "to take on, to accept (a task, a request)",
+        "pos": "ichidan verb",
+        "example": "彼{かれ}は難{むずか}しい仕事{しごと}を引{ひ}き受{う}けた。",
+        "example_translation": "He took on a difficult job."
+      },
+      {
+        "word": "快適",
+        "reading": "かいてき",
+        "meaning": "comfortable, pleasant",
+        "pos": "na-adjective",
+        "example": "新{あたら}しい部屋{へや}はとても快適{かいてき}だ。",
+        "example_translation": "The new room is very comfortable."
+      },
+      {
+        "word": "怪しい",
+        "reading": "あやしい",
+        "meaning": "suspicious, doubtful",
+        "pos": "i-adjective",
+        "example": "家{いえ}の前{まえ}に怪{あや}しい男{おとこ}が立{た}っている。",
+        "example_translation": "A suspicious man is standing in front of the house."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜てくれる",
+        "meaning": "(someone) does ~ for me / for us",
+        "formation": "Verb て-form + くれる",
+        "example": "友達{ともだち}が駅{えき}まで送{おく}ってくれた。",
+        "example_translation": "My friend gave me a ride to the station."
+      }
+    ]
+  },
+  {
+    "id": "or-019",
+    "section": "orthography",
+    "question": "今年{ことし}は天気{てんき}に恵{めぐ}まれ、米{こめ}の[[しゅうかく]]が多{おお}かった。",
+    "choices": [
+      "収獲",
+      "収穫",
+      "修穫",
+      "集穫"
+    ],
+    "answer": 1,
+    "translation": "This year we were blessed with good weather, and the rice harvest was large.",
+    "explanation": "しゅうかく 'harvest' is written 収穫. The key is the second kanji. 穫 has the grain radical 禾 (のぎへん), because harvesting is about crops. 獲 is also read かく, but it has the animal radical 犭, so it is about catching animals or winning things: 獲得（かくとく）'acquisition', 獲物（えもの）'prey'. For the first kanji, 収 means 'to collect, to obtain', while 修 and 集 are other kanji read しゅう. Tip: 穫 = grain 禾, 獲 = animal 犭.",
+    "choice_notes": [
+      "Wrong. 獲 has the animal radical 犭 and is used for catching or winning: 獲得（かくとく）'acquisition'. Crops need 穫 with the grain radical 禾.",
+      "Correct. 収穫（しゅうかく）'harvest; results, fruit (of effort)'.",
+      "Wrong. 修 means 'to study, to repair', as in 修理（しゅうり）'repair'. 修穫 is not a word.",
+      "Wrong. 集 means 'to gather', as in 集める（あつめる）. Gathering crops sounds logical, but 集穫 is not a word."
+    ],
+    "vocab": [
+      {
+        "word": "収穫",
+        "reading": "しゅうかく",
+        "meaning": "harvest, crop; results (of effort)",
+        "pos": "noun / suru verb",
+        "example": "秋{あき}になると、りんごの収穫{しゅうかく}が始{はじ}まる。",
+        "example_translation": "When autumn comes, the apple harvest begins."
+      },
+      {
+        "word": "恵まれる",
+        "reading": "めぐまれる",
+        "meaning": "to be blessed with, to be fortunate in",
+        "pos": "ichidan verb",
+        "example": "私{わたし}はいい友達{ともだち}に恵{めぐ}まれている。",
+        "example_translation": "I am blessed with good friends."
+      },
+      {
+        "word": "米",
+        "reading": "こめ",
+        "meaning": "rice (uncooked)",
+        "pos": "noun",
+        "example": "この地方{ちほう}はおいしい米{こめ}で有名{ゆうめい}だ。",
+        "example_translation": "This region is famous for delicious rice."
+      },
+      {
+        "word": "獲得",
+        "reading": "かくとく",
+        "meaning": "acquisition, winning (a prize, a medal)",
+        "pos": "noun / suru verb",
+        "example": "日本{にほん}は金{きん}メダルを三{みっ}つ獲得{かくとく}した。",
+        "example_translation": "Japan won three gold medals."
+      },
+      {
+        "word": "修理",
+        "reading": "しゅうり",
+        "meaning": "repair",
+        "pos": "noun / suru verb",
+        "example": "壊{こわ}れた自転車{じてんしゃ}を修理{しゅうり}に出{だ}した。",
+        "example_translation": "I took my broken bicycle in for repair."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "Verb ます-stem as 'and' (連用中止)",
+        "meaning": "~, and ~ (written style; the stem replaces the て-form)",
+        "formation": "Verb ます-stem + 、(恵まれて → 恵まれ、)",
+        "example": "彼{かれ}は東京{とうきょう}で生{う}まれ、大阪{おおさか}で育{そだ}った。",
+        "example_translation": "He was born in Tokyo and grew up in Osaka."
+      }
+    ]
+  },
+  {
+    "id": "or-020",
+    "section": "orthography",
+    "question": "この道{みち}は[[せまい]]ので、大{おお}きな車{くるま}は通{とお}れない。",
+    "choices": [
+      "峡い",
+      "挟い",
+      "狭い",
+      "頬い"
+    ],
+    "answer": 2,
+    "translation": "This road is narrow, so big cars cannot pass through.",
+    "explanation": "せまい 'narrow, small (in space)' is written 狭い. All four choices share the right-hand part 夹, so this question tests whether you know the correct radical. 狭 has the 'animal' radical 犭. The other look-alikes: 挟 with the hand radical 扌 is はさむ 'to put between', 峡 with the mountain radical 山 appears in 海峡（かいきょう）'strait', and 頬 is ほお 'cheek'. The opposite of 狭い is 広い（ひろい）'wide'.",
+    "choice_notes": [
+      "Wrong. 峡 has the mountain radical 山 and appears in 海峡（かいきょう）'strait' and 峡谷（きょうこく）'gorge'. 峡い is not a word.",
+      "Wrong. 挟 has the hand radical 扌 and is used in 挟む（はさむ）'to sandwich, to put between'. 挟い is not a word.",
+      "Correct. 狭い（せまい）'narrow, cramped'.",
+      "Wrong. 頬 is read ほお 'cheek'. 頬い is not a word."
+    ],
+    "vocab": [
+      {
+        "word": "狭い",
+        "reading": "せまい",
+        "meaning": "narrow, small, cramped",
+        "pos": "i-adjective",
+        "example": "私{わたし}の部屋{へや}は狭{せま}いが、日当{ひあ}たりがいい。",
+        "example_translation": "My room is small, but it gets plenty of sunlight."
+      },
+      {
+        "word": "通る",
+        "reading": "とおる",
+        "meaning": "to pass (through), to go along",
+        "pos": "godan verb",
+        "example": "毎朝{まいあさ}、公園{こうえん}の中{なか}を通{とお}って学校{がっこう}に行{い}く。",
+        "example_translation": "Every morning I go to school through the park."
+      },
+      {
+        "word": "挟む",
+        "reading": "はさむ",
+        "meaning": "to put between, to sandwich, to catch (in a door)",
+        "pos": "godan verb",
+        "example": "パンにハムを挟{はさ}んで食{た}べた。",
+        "example_translation": "I put ham between bread and ate it."
+      },
+      {
+        "word": "海峡",
+        "reading": "かいきょう",
+        "meaning": "strait, channel",
+        "pos": "noun",
+        "example": "船{ふね}で海峡{かいきょう}を渡{わた}った。",
+        "example_translation": "We crossed the strait by ship."
+      },
+      {
+        "word": "頬",
+        "reading": "ほお",
+        "meaning": "cheek",
+        "pos": "noun",
+        "example": "寒{さむ}さで頬{ほお}が赤{あか}くなった。",
+        "example_translation": "My cheeks turned red from the cold."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "Potential form (〜られる / 〜える)",
+        "meaning": "can ~, be able to ~",
+        "formation": "Godan: change the final u-sound to e + る (通る → 通れる); ichidan: stem + られる",
+        "example": "この川{かわ}は浅{あさ}いので歩{ある}いて渡{わた}れる。",
+        "example_translation": "This river is shallow, so you can walk across it."
+      }
+    ]
+  },
+  {
+    "id": "or-021",
+    "section": "orthography",
+    "question": "手{て}をよく洗{あら}って、風邪{かぜ}を[[ふせぐ]]ようにしている。",
+    "choices": [
+      "防ぐ",
+      "妨ぐ",
+      "坊ぐ",
+      "防せぐ"
+    ],
+    "answer": 0,
+    "translation": "I make a point of washing my hands well to prevent colds.",
+    "explanation": "ふせぐ 'to prevent, to protect against' is written 防ぐ, with only ぐ as okurigana. 防 has the 'hill' radical 阝 on the left (a hill or wall that blocks enemies), and it appears in 予防（よぼう）'prevention' and 防止（ぼうし）'prevention'. The distractors share the right-hand part 方 and the sound ぼう: 妨 (woman radical 女) means 'to obstruct' and 坊 (earth radical 土) means 'boy, monk'. 防せぐ has too much okurigana.",
+    "choice_notes": [
+      "Correct. 防ぐ（ふせぐ）'to prevent, to defend against'.",
+      "Wrong. 妨 is used in 妨げる（さまたげる）'to obstruct, to disturb' and 妨害（ぼうがい）'obstruction'. 妨ぐ is not a word.",
+      "Wrong. 坊 is read ぼう and appears in 寝坊（ねぼう）'oversleeping' and 坊や（ぼうや）'little boy'. 坊ぐ is not a word.",
+      "Wrong. The kanji is right, but the okurigana is wrong. The correct form is 防ぐ, not 防せぐ."
+    ],
+    "vocab": [
+      {
+        "word": "防ぐ",
+        "reading": "ふせぐ",
+        "meaning": "to prevent, to protect against, to defend",
+        "pos": "godan verb",
+        "example": "事故{じこ}を防{ふせ}ぐために、スピードを落{お}とそう。",
+        "example_translation": "Let's slow down to prevent accidents."
+      },
+      {
+        "word": "風邪",
+        "reading": "かぜ",
+        "meaning": "a cold (illness)",
+        "pos": "noun",
+        "example": "風邪{かぜ}をひいて学校{がっこう}を休{やす}んだ。",
+        "example_translation": "I caught a cold and stayed home from school."
+      },
+      {
+        "word": "予防",
+        "reading": "よぼう",
+        "meaning": "prevention",
+        "pos": "noun / suru verb",
+        "example": "インフルエンザの予防{よぼう}にはマスクが効果的{こうかてき}だ。",
+        "example_translation": "Masks are effective for preventing influenza."
+      },
+      {
+        "word": "妨げる",
+        "reading": "さまたげる",
+        "meaning": "to obstruct, to disturb, to hinder",
+        "pos": "ichidan verb",
+        "example": "大{おお}きな音{おと}が私{わたし}の睡眠{すいみん}を妨{さまた}げた。",
+        "example_translation": "A loud noise disturbed my sleep."
+      },
+      {
+        "word": "寝坊",
+        "reading": "ねぼう",
+        "meaning": "oversleeping",
+        "pos": "noun / suru verb",
+        "example": "寝坊{ねぼう}して授業{じゅぎょう}に遅{おく}れた。",
+        "example_translation": "I overslept and was late for class."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜ようにしている",
+        "meaning": "to make a point of ~, to try to ~ (as a habit)",
+        "formation": "Verb dictionary form / ない-form + ようにしている",
+        "example": "毎日{まいにち}野菜{やさい}を食{た}べるようにしている。",
+        "example_translation": "I make a point of eating vegetables every day."
+      }
+    ]
+  },
+  {
+    "id": "or-022",
+    "section": "orthography",
+    "question": "その提案{ていあん}については、次{つぎ}の会議{かいぎ}で[[けんとう]]することになった。",
+    "choices": [
+      "険討",
+      "剣討",
+      "検討",
+      "検当"
+    ],
+    "answer": 2,
+    "translation": "It was decided that the proposal would be considered at the next meeting.",
+    "explanation": "けんとう 'consideration, examination, review' is written 検討. 検 has the tree radical 木 and means 'to examine', as in 検査（けんさ）'inspection'. 討 has the speech radical 言 and means 'to discuss, to examine', as in 討論（とうろん）'debate'. The traps are look-alikes with the same right part as 検: 険 (hill radical 阝, 'danger') and 剣 (with 刂, 'sword'). 当 is another kanji read とう, but it means 'hit, appropriate'. Note: 見当（けんとう）'a rough guess' is a different word.",
+    "choice_notes": [
+      "Wrong. 険 means 'steep, dangerous', as in 危険（きけん）'danger' and 保険（ほけん）'insurance'. 険討 is not a word.",
+      "Wrong. 剣 means 'sword', as in 剣道（けんどう）'kendo'. 剣討 is not a word.",
+      "Correct. 検討（けんとう）'consideration, examination'. 検討する 'to consider carefully'.",
+      "Wrong. The first kanji is right, but 当 is the とう of 本当（ほんとう）'true'. 検当 is not a word. (Do not confuse it with 見当 'a rough guess'.)"
+    ],
+    "vocab": [
+      {
+        "word": "検討",
+        "reading": "けんとう",
+        "meaning": "consideration, examination, review",
+        "pos": "noun / suru verb",
+        "example": "留学{りゅうがく}するかどうか、もう少{すこ}し検討{けんとう}します。",
+        "example_translation": "I will think a little more about whether to study abroad."
+      },
+      {
+        "word": "提案",
+        "reading": "ていあん",
+        "meaning": "proposal, suggestion",
+        "pos": "noun / suru verb",
+        "example": "部長{ぶちょう}に新{あたら}しい企画{きかく}を提案{ていあん}した。",
+        "example_translation": "I proposed a new project to the department manager."
+      },
+      {
+        "word": "会議",
+        "reading": "かいぎ",
+        "meaning": "meeting, conference",
+        "pos": "noun",
+        "example": "会議{かいぎ}は十時{じゅうじ}から始{はじ}まる。",
+        "example_translation": "The meeting starts at ten."
+      },
+      {
+        "word": "検査",
+        "reading": "けんさ",
+        "meaning": "inspection, test, examination",
+        "pos": "noun / suru verb",
+        "example": "病院{びょういん}で目{め}の検査{けんさ}を受{う}けた。",
+        "example_translation": "I had an eye examination at the hospital."
+      },
+      {
+        "word": "危険",
+        "reading": "きけん",
+        "meaning": "danger; dangerous",
+        "pos": "noun / na-adjective",
+        "example": "この川{かわ}で泳{およ}ぐのは危険{きけん}だ。",
+        "example_translation": "It is dangerous to swim in this river."
+      },
+      {
+        "word": "剣道",
+        "reading": "けんどう",
+        "meaning": "kendo (Japanese fencing)",
+        "pos": "noun",
+        "example": "中学{ちゅうがく}のときから剣道{けんどう}を続{つづ}けている。",
+        "example_translation": "I have kept up kendo since junior high school."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜ことになる",
+        "meaning": "it has been decided that ~ (a decision made by others or by circumstances)",
+        "formation": "Verb dictionary form / ない-form + ことになる (past: ことになった)",
+        "example": "来月{らいげつ}から大阪{おおさか}で働{はたら}くことになった。",
+        "example_translation": "It's been decided that I'll work in Osaka from next month."
+      },
+      {
+        "pattern": "〜については",
+        "meaning": "as for ~, regarding ~",
+        "formation": "Noun + については",
+        "example": "料金{りょうきん}については受付{うけつけ}でお尋{たず}ねください。",
+        "example_translation": "For the fees, please ask at the reception."
+      }
+    ]
+  },
+  {
+    "id": "or-023",
+    "section": "orthography",
+    "question": "夜中{よなか}から[[はげしい]]雨{あめ}が降{ふ}り続{つづ}いている。",
+    "choices": [
+      "劇しい",
+      "激しい",
+      "厳しい",
+      "激げしい"
+    ],
+    "answer": 1,
+    "translation": "Heavy rain has been falling continuously since the middle of the night.",
+    "explanation": "はげしい 'violent, intense, heavy' is written 激しい, with しい as okurigana. 激 has the water radical 氵 - think of water crashing violently - and appears in 感激（かんげき）'being deeply moved' and 激増（げきぞう）'sharp increase'. 劇 is also read げき (演劇 'drama'), which makes it a sound trap. 厳しい looks like it fits the meaning 'severe', but it is read きびしい. 激げしい has too much okurigana.",
+    "choice_notes": [
+      "Wrong. 劇 is read げき like 激, but it means 'drama, play', as in 演劇（えんげき）'theater' and 劇場（げきじょう）'theater building'. 劇しい is not standard.",
+      "Correct. 激しい（はげしい）'violent, intense, fierce'. 激しい雨 'heavy rain'.",
+      "Wrong. 厳しい is a real word, but it is read きびしい 'strict, severe': 厳しい先生 'a strict teacher'.",
+      "Wrong. The kanji is right, but the okurigana is wrong. The correct form is 激しい, not 激げしい."
+    ],
+    "vocab": [
+      {
+        "word": "激しい",
+        "reading": "はげしい",
+        "meaning": "violent, intense, fierce, heavy",
+        "pos": "i-adjective",
+        "example": "二人{ふたり}は会議{かいぎ}で激{はげ}しく議論{ぎろん}した。",
+        "example_translation": "The two argued fiercely at the meeting."
+      },
+      {
+        "word": "夜中",
+        "reading": "よなか",
+        "meaning": "the middle of the night",
+        "pos": "noun",
+        "example": "夜中{よなか}に電話{でんわ}が鳴{な}って目{め}が覚{さ}めた。",
+        "example_translation": "The phone rang in the middle of the night and woke me up."
+      },
+      {
+        "word": "降り続く",
+        "reading": "ふりつづく",
+        "meaning": "to keep falling (rain, snow)",
+        "pos": "godan verb",
+        "example": "一週間{いっしゅうかん}雪{ゆき}が降{ふ}り続{つづ}いた。",
+        "example_translation": "Snow kept falling for a week."
+      },
+      {
+        "word": "演劇",
+        "reading": "えんげき",
+        "meaning": "drama, theater, play",
+        "pos": "noun",
+        "example": "大学{だいがく}で演劇{えんげき}のサークルに入{はい}った。",
+        "example_translation": "I joined a drama club at university."
+      },
+      {
+        "word": "厳しい",
+        "reading": "きびしい",
+        "meaning": "strict, severe, harsh",
+        "pos": "i-adjective",
+        "example": "この学校{がっこう}は規則{きそく}が厳{きび}しい。",
+        "example_translation": "This school has strict rules."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜続く / 〜続ける",
+        "meaning": "to keep ~ing, to continue ~ing",
+        "formation": "Verb ます-stem + 続く (intransitive) / 続ける (transitive or deliberate)",
+        "example": "彼{かれ}は三時間{さんじかん}話{はな}し続{つづ}けた。",
+        "example_translation": "He kept talking for three hours."
+      }
+    ]
+  },
+  {
+    "id": "or-024",
+    "section": "orthography",
+    "question": "子{こ}どもが安心{あんしん}して遊{あそ}べる[[かんきょう]]を作{つく}りたい。",
+    "choices": [
+      "還境",
+      "環鏡",
+      "完境",
+      "環境"
+    ],
+    "answer": 3,
+    "translation": "I want to create an environment where children can play safely.",
+    "explanation": "かんきょう 'environment, surroundings' is written 環境. 環 means 'ring, surrounding' and has the jewel radical 王 (a jade ring), as in 循環（じゅんかん）'circulation'. 境 means 'border' and has the earth radical 土, as in 国境（こっきょう）'national border'. So 環境 is 'the surrounding area'. The traps: 還 (with ⻌) has the same right-hand part as 環 and means 'return'; 鏡 (with the metal radical 金) is read きょう too but means 'mirror'; 完 is another かん meaning 'complete'.",
+    "choice_notes": [
+      "Wrong. 還 has the movement radical ⻌ and means 'return', as in 返還（へんかん）'return (of land, property)'. 還境 is not a word.",
+      "Wrong. The first kanji is right, but 鏡 means 'mirror', as in 望遠鏡（ぼうえんきょう）'telescope'. 環鏡 is not a word.",
+      "Wrong. 完 means 'complete', as in 完成（かんせい）'completion'. 完境 is not a word.",
+      "Correct. 環境（かんきょう）'environment'. 環 'surrounding' + 境 'border, area'."
+    ],
+    "vocab": [
+      {
+        "word": "環境",
+        "reading": "かんきょう",
+        "meaning": "environment, surroundings",
+        "pos": "noun",
+        "example": "環境{かんきょう}を守{まも}るために、ゴミを減{へ}らそう。",
+        "example_translation": "Let's reduce garbage to protect the environment."
+      },
+      {
+        "word": "安心",
+        "reading": "あんしん",
+        "meaning": "relief, peace of mind; safe, reassured",
+        "pos": "noun / na-adjective / suru verb",
+        "example": "無事{ぶじ}だと聞{き}いて安心{あんしん}した。",
+        "example_translation": "I was relieved to hear you were safe."
+      },
+      {
+        "word": "返還",
+        "reading": "へんかん",
+        "meaning": "return, restoration (of land, property)",
+        "pos": "noun / suru verb",
+        "example": "借{か}りた土地{とち}を返還{へんかん}した。",
+        "example_translation": "We returned the land we had borrowed."
+      },
+      {
+        "word": "望遠鏡",
+        "reading": "ぼうえんきょう",
+        "meaning": "telescope",
+        "pos": "noun",
+        "example": "望遠鏡{ぼうえんきょう}で月{つき}を見{み}た。",
+        "example_translation": "I looked at the moon through a telescope."
+      },
+      {
+        "word": "完成",
+        "reading": "かんせい",
+        "meaning": "completion",
+        "pos": "noun / suru verb",
+        "example": "新{あたら}しい橋{はし}が来年{らいねん}完成{かんせい}する。",
+        "example_translation": "The new bridge will be completed next year."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "Relative clause (noun modification)",
+        "meaning": "a noun described by a whole clause: '(a place) where ~ can ~'",
+        "formation": "Clause in plain form + noun (子どもが遊べる + 環境)",
+        "example": "私{わたし}が生{う}まれた町{まち}は海{うみ}の近{ちか}くにある。",
+        "example_translation": "The town where I was born is near the sea."
+      },
+      {
+        "pattern": "〜て (manner)",
+        "meaning": "in a ~ way, while being ~ (how the action is done)",
+        "formation": "Verb て-form + main verb (安心して遊ぶ 'play with peace of mind')",
+        "example": "急{いそ}いで駅{えき}まで走{はし}った。",
+        "example_translation": "I ran to the station in a hurry."
+      }
+    ]
+  },
+  {
+    "id": "or-025",
+    "section": "orthography",
+    "question": "地震{じしん}のときは、係員{かかりいん}の指示{しじ}に[[したがって]]行動{こうどう}してください。",
+    "choices": [
+      "従って",
+      "徒って",
+      "従がって",
+      "縦って"
+    ],
+    "answer": 0,
+    "translation": "In the event of an earthquake, please act according to the staff's instructions.",
+    "explanation": "したがう 'to follow, to obey' is written 従う, with only う as okurigana. 従 has the 'going' radical 彳 and also appears in 従業員（じゅうぎょういん）'employee' and 服従（ふくじゅう）'obedience'. A common okurigana mistake is 従がう - remember it is just 従う. 徒 also has 彳 and looks similar but means 'on foot, follower' (徒歩, 生徒). 縦 has the same right part as 従 but the thread radical 糸, and means 'vertical'.",
+    "choice_notes": [
+      "Correct. 従う（したがう）'to follow, to obey'. 指示に従う 'to follow instructions'.",
+      "Wrong. 徒 is read と and appears in 生徒（せいと）'student' and 徒歩（とほ）'on foot'. 徒う is not a word.",
+      "Wrong. The kanji is right, but the okurigana is wrong. The て-form is 従って, not 従がって.",
+      "Wrong. 縦 is read たて 'vertical, length'. It looks like 従 with the thread radical 糸. 縦う is not a word."
+    ],
+    "vocab": [
+      {
+        "word": "従う",
+        "reading": "したがう",
+        "meaning": "to follow, to obey, to comply with",
+        "pos": "godan verb",
+        "example": "会社{かいしゃ}の規則{きそく}に従{したが}わなければならない。",
+        "example_translation": "You must follow the company's rules."
+      },
+      {
+        "word": "地震",
+        "reading": "じしん",
+        "meaning": "earthquake",
+        "pos": "noun",
+        "example": "昨夜{さくや}、大{おお}きな地震{じしん}があった。",
+        "example_translation": "There was a big earthquake last night."
+      },
+      {
+        "word": "係員",
+        "reading": "かかりいん",
+        "meaning": "staff member in charge, attendant",
+        "pos": "noun",
+        "example": "分{わ}からないことは係員{かかりいん}に聞{き}いてください。",
+        "example_translation": "If anything is unclear, please ask a staff member."
+      },
+      {
+        "word": "指示",
+        "reading": "しじ",
+        "meaning": "instructions, directions",
+        "pos": "noun / suru verb",
+        "example": "先生{せんせい}の指示{しじ}をよく聞{き}きなさい。",
+        "example_translation": "Listen carefully to the teacher's instructions."
+      },
+      {
+        "word": "行動",
+        "reading": "こうどう",
+        "meaning": "action, behavior",
+        "pos": "noun / suru verb",
+        "example": "考{かんが}えるだけでなく、行動{こうどう}することが大切{たいせつ}だ。",
+        "example_translation": "It's important not just to think but to act."
+      },
+      {
+        "word": "徒歩",
+        "reading": "とほ",
+        "meaning": "(going) on foot, walking",
+        "pos": "noun",
+        "example": "駅{えき}から徒歩{とほ}五分{ごふん}のところに住{す}んでいる。",
+        "example_translation": "I live a five-minute walk from the station."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜に従って",
+        "meaning": "(1) in accordance with ~, following ~; (2) as ~ (changes), ~ also changes",
+        "formation": "Noun / verb dictionary form + に従って",
+        "example": "地図{ちず}に従{したが}って進{すす}むと、駅{えき}に着{つ}いた。",
+        "example_translation": "Following the map, I arrived at the station."
+      }
+    ]
+  },
+  {
+    "id": "or-026",
+    "section": "orthography",
+    "question": "会議{かいぎ}の時間{じかん}を、参加者{さんかしゃ}の都合{つごう}に合{あ}わせて[[ちょうせい]]した。",
+    "choices": [
+      "調製",
+      "調正",
+      "頂整",
+      "調整"
+    ],
+    "answer": 3,
+    "translation": "I adjusted the meeting time to fit the participants' schedules.",
+    "explanation": "ちょうせい 'adjustment, coordination' is written 調整. 調 means 'to tune, to arrange' and 整 means 'to put in order', as in 整理（せいり）'sorting out'. So 調整 is 'arranging things so they fit'. The big trap is 調製, a real homophone that means 'preparing or manufacturing (to order)', such as making medicine. It has nothing to do with adjusting a schedule. 正 is also read せい, and 頂 is also read ちょう, which makes them sound traps.",
+    "choice_notes": [
+      "Wrong. 調製（ちょうせい）is a real word, but it means 'manufacture, preparation (to order)': 薬を調製する 'to prepare medicine'. It is not used for times or schedules.",
+      "Wrong. 正 is read せい and means 'correct', as in 訂正（ていせい）'correction'. 調正 is not a word.",
+      "Wrong. 頂 is read ちょう 'top', as in 頂上（ちょうじょう）'summit'. 頂整 is not a word.",
+      "Correct. 調整（ちょうせい）'adjustment, coordination'. 時間を調整する 'to adjust the time'."
+    ],
+    "vocab": [
+      {
+        "word": "調整",
+        "reading": "ちょうせい",
+        "meaning": "adjustment, coordination, tuning",
+        "pos": "noun / suru verb",
+        "example": "椅子{いす}の高{たか}さを調整{ちょうせい}した。",
+        "example_translation": "I adjusted the height of the chair."
+      },
+      {
+        "word": "参加者",
+        "reading": "さんかしゃ",
+        "meaning": "participant",
+        "pos": "noun",
+        "example": "マラソン大会{たいかい}の参加者{さんかしゃ}は一万人{いちまんにん}を超{こ}えた。",
+        "example_translation": "The marathon had over ten thousand participants."
+      },
+      {
+        "word": "都合",
+        "reading": "つごう",
+        "meaning": "convenience, circumstances, one's schedule",
+        "pos": "noun",
+        "example": "明日{あした}のご都合{つごう}はいかがですか。",
+        "example_translation": "How is your schedule tomorrow?"
+      },
+      {
+        "word": "合わせる",
+        "reading": "あわせる",
+        "meaning": "to match, to adjust to, to put together",
+        "pos": "ichidan verb",
+        "example": "音楽{おんがく}に合{あ}わせて踊{おど}った。",
+        "example_translation": "We danced to the music."
+      },
+      {
+        "word": "調製",
+        "reading": "ちょうせい",
+        "meaning": "manufacture, preparation (made to order)",
+        "pos": "noun / suru verb",
+        "example": "この薬{くすり}は薬局{やっきょく}で調製{ちょうせい}された。",
+        "example_translation": "This medicine was prepared at a pharmacy."
+      },
+      {
+        "word": "頂上",
+        "reading": "ちょうじょう",
+        "meaning": "summit, top",
+        "pos": "noun",
+        "example": "三時間{さんじかん}歩{ある}いて山{やま}の頂上{ちょうじょう}に着{つ}いた。",
+        "example_translation": "After walking for three hours, we reached the summit."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜に合わせて",
+        "meaning": "to suit ~, in line with ~, to match ~",
+        "formation": "Noun + に合わせて",
+        "example": "子{こ}どもの成長{せいちょう}に合{あ}わせて服{ふく}を買{か}い替{か}える。",
+        "example_translation": "We replace clothes as the children grow."
+      }
+    ]
+  },
+  {
+    "id": "or-027",
+    "section": "orthography",
+    "question": "強{つよ}い風{かぜ}で、傘{かさ}が[[やぶれて]]しまった。",
+    "choices": [
+      "敗れて",
+      "波れて",
+      "破れて",
+      "彼れて"
+    ],
+    "answer": 2,
+    "translation": "My umbrella got torn by the strong wind.",
+    "explanation": "やぶれる has two kanji. 破れる means 'to tear, to break (paper, cloth)' and 敗れる means 'to be defeated (in a match or election)'. An umbrella tearing is a physical break, so the answer is 破れる. 破 has the stone radical 石, as in 破壊（はかい）'destruction'. Its transitive partner is 破る 'to tear; to break (a promise)'. 波 and 彼 share the right part 皮 with 破, so they look alike but are unrelated.",
+    "choice_notes": [
+      "Wrong. 敗れる（やぶれる）is a real homophone, but it means 'to be defeated': 決勝で敗れる 'to lose in the final'. An umbrella cannot be defeated.",
+      "Wrong. 波 is read なみ 'wave'. It shares 皮 with 破 but has the water radical 氵. 波れる is not a word.",
+      "Correct. 破れる（やぶれる）'to tear, to rip, to break'.",
+      "Wrong. 彼 is read かれ 'he'. It shares 皮 with 破 but has the 'going' radical 彳. 彼れる is not a word."
+    ],
+    "vocab": [
+      {
+        "word": "破れる",
+        "reading": "やぶれる",
+        "meaning": "to tear, to rip, to break (paper, cloth)",
+        "pos": "ichidan verb",
+        "example": "古{ふる}いズボンのひざが破{やぶ}れた。",
+        "example_translation": "The knees of my old trousers tore."
+      },
+      {
+        "word": "傘",
+        "reading": "かさ",
+        "meaning": "umbrella",
+        "pos": "noun",
+        "example": "雨{あめ}なので傘{かさ}を持{も}って行{い}こう。",
+        "example_translation": "It's raining, so let's take an umbrella."
+      },
+      {
+        "word": "敗れる",
+        "reading": "やぶれる",
+        "meaning": "to be defeated, to lose (a match, an election)",
+        "pos": "ichidan verb",
+        "example": "私{わたし}たちのチームは一回戦{いっかいせん}で敗{やぶ}れた。",
+        "example_translation": "Our team lost in the first round."
+      },
+      {
+        "word": "破る",
+        "reading": "やぶる",
+        "meaning": "to tear (something); to break (a promise, a rule, a record)",
+        "pos": "godan verb",
+        "example": "約束{やくそく}を破{やぶ}ってはいけない。",
+        "example_translation": "You must not break your promises."
+      },
+      {
+        "word": "波",
+        "reading": "なみ",
+        "meaning": "wave",
+        "pos": "noun",
+        "example": "今日{きょう}は波{なみ}が高{たか}いので泳{およ}げない。",
+        "example_translation": "The waves are high today, so we can't swim."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "Noun + で (cause)",
+        "meaning": "because of ~, due to ~",
+        "formation": "Noun + で",
+        "example": "病気{びょうき}で学校{がっこう}を休{やす}んだ。",
+        "example_translation": "I was absent from school because of illness."
+      },
+      {
+        "pattern": "〜てしまう",
+        "meaning": "to end up ~ (often regrettable)",
+        "formation": "Verb て-form + しまう",
+        "example": "大事{だいじ}な書類{しょるい}をなくしてしまった。",
+        "example_translation": "I lost an important document."
+      }
+    ]
+  },
+  {
+    "id": "or-028",
+    "section": "orthography",
+    "question": "多{おお}くの人{ひと}が世界{せかい}の平和{へいわ}を心{こころ}から[[のぞんで]]いる。",
+    "choices": [
+      "臨んで",
+      "望んで",
+      "忘んで",
+      "妄んで"
+    ],
+    "answer": 1,
+    "translation": "Many people wish from the bottom of their hearts for world peace.",
+    "explanation": "のぞむ has two kanji. 望む means 'to hope for, to wish for' (平和を望む), as in 希望（きぼう）'hope' and 望遠鏡（ぼうえんきょう）'telescope'. 臨む means 'to face, to take part in (an important event)' (試合に臨む 'to face a match', 海に臨むホテル 'a hotel facing the sea'). Here the object is 平和 'peace' marked by を and the meaning is 'wish for', so 望む is correct. Tip: 臨む usually takes に, while 望む takes を. 忘 and 妄 contain 亡 like 望, so they look similar but are unrelated.",
+    "choice_notes": [
+      "Wrong. 臨む（のぞむ）is a real homophone meaning 'to face, to attend': 本番に臨む 'to face the real performance'. It takes に, not を, and does not mean 'wish for'.",
+      "Correct. 望む（のぞむ）'to wish for, to hope for, to desire'.",
+      "Wrong. 忘 is used in 忘れる（わすれる）'to forget'. It shares 亡 with 望. 忘む is not a word.",
+      "Wrong. 妄 is read もう and appears in 妄想（もうそう）'delusion, fantasy'. 妄む is not a word."
+    ],
+    "vocab": [
+      {
+        "word": "望む",
+        "reading": "のぞむ",
+        "meaning": "to wish for, to hope for, to desire",
+        "pos": "godan verb",
+        "example": "両親{りょうしん}は私{わたし}が医者{いしゃ}になることを望{のぞ}んでいる。",
+        "example_translation": "My parents hope I will become a doctor."
+      },
+      {
+        "word": "平和",
+        "reading": "へいわ",
+        "meaning": "peace; peaceful",
+        "pos": "noun / na-adjective",
+        "example": "戦争{せんそう}が終{お}わり、平和{へいわ}な日々{ひび}が戻{もど}った。",
+        "example_translation": "The war ended, and peaceful days returned."
+      },
+      {
+        "word": "心から",
+        "reading": "こころから",
+        "meaning": "from the bottom of one's heart, sincerely",
+        "pos": "adverb",
+        "example": "ご結婚{けっこん}を心{こころ}からお祝{いわ}いします。",
+        "example_translation": "I sincerely congratulate you on your marriage."
+      },
+      {
+        "word": "臨む",
+        "reading": "のぞむ",
+        "meaning": "to face, to overlook; to take part in (an important event)",
+        "pos": "godan verb",
+        "example": "彼{かれ}は自信{じしん}を持{も}って試験{しけん}に臨{のぞ}んだ。",
+        "example_translation": "He faced the exam with confidence."
+      },
+      {
+        "word": "希望",
+        "reading": "きぼう",
+        "meaning": "hope, wish",
+        "pos": "noun / suru verb",
+        "example": "将来{しょうらい}は海外{かいがい}で働{はたら}くことを希望{きぼう}している。",
+        "example_translation": "In the future, I hope to work overseas."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜ている (ongoing state)",
+        "meaning": "is ~ing, has been ~ing (a feeling or action continuing now)",
+        "formation": "Verb て-form + いる (望む → 望んでいる)",
+        "example": "多{おお}くの人{ひと}が新{あたら}しい駅{えき}の完成{かんせい}を待{ま}っている。",
+        "example_translation": "Many people are waiting for the new station to be completed."
+      }
+    ]
+  },
+  {
+    "id": "or-029",
+    "section": "orthography",
+    "question": "この寮{りょう}には、夜{よる}十時{じゅうじ}までに帰{かえ}るという[[きそく]]がある。",
+    "choices": [
+      "規側",
+      "規則",
+      "視則",
+      "規測"
+    ],
+    "answer": 1,
+    "translation": "This dormitory has a rule that you must be back by 10 p.m.",
+    "explanation": "きそく 'rule, regulation' is written 規則. 規 means 'standard, rule' (規準, 規模) and 則 means 'law, rule' (原則 'principle', 反則 'foul'). The second kanji is the main trap: 則, 側 and 測 are all read そく and share the shape 則. Only 則 by itself (貝 + 刂) means 'rule'. 側 adds the person radical 亻 ('side'), and 測 adds the water radical 氵 ('measure'). For the first kanji, 視 has the same 見 part as 規 but means 'look at'.",
+    "choice_notes": [
+      "Wrong. The first kanji is right, but 側 means 'side', as in 側面（そくめん）'side, aspect' and 右側（みぎがわ）'right side'. 規側 is not a word.",
+      "Correct. 規則（きそく）'rule, regulation'.",
+      "Wrong. 視 is read し and means 'to look at', as in 視力（しりょく）'eyesight'. 視則 is not a word.",
+      "Wrong. The first kanji is right, but 測 means 'to measure', as in 測定（そくてい）'measurement'. 規測 is not a word."
+    ],
+    "vocab": [
+      {
+        "word": "規則",
+        "reading": "きそく",
+        "meaning": "rule, regulation",
+        "pos": "noun",
+        "example": "交通{こうつう}規則{きそく}を守{まも}って運転{うんてん}しよう。",
+        "example_translation": "Let's drive following the traffic rules."
+      },
+      {
+        "word": "寮",
+        "reading": "りょう",
+        "meaning": "dormitory",
+        "pos": "noun",
+        "example": "大学{だいがく}の一年目{いちねんめ}は寮{りょう}に住{す}んでいた。",
+        "example_translation": "I lived in a dormitory in my first year of university."
+      },
+      {
+        "word": "側面",
+        "reading": "そくめん",
+        "meaning": "side, flank; aspect",
+        "pos": "noun",
+        "example": "この問題{もんだい}にはいろいろな側面{そくめん}がある。",
+        "example_translation": "This problem has various aspects."
+      },
+      {
+        "word": "視力",
+        "reading": "しりょく",
+        "meaning": "eyesight, vision",
+        "pos": "noun",
+        "example": "最近{さいきん}、視力{しりょく}が落{お}ちてきた。",
+        "example_translation": "Recently my eyesight has gotten worse."
+      },
+      {
+        "word": "原則",
+        "reading": "げんそく",
+        "meaning": "principle, general rule",
+        "pos": "noun",
+        "example": "原則{げんそく}として、遅刻{ちこく}は認{みと}めない。",
+        "example_translation": "As a rule, lateness is not accepted."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜という + noun",
+        "meaning": "the (rule / news / idea) that ~ (gives the content of the noun)",
+        "formation": "Plain form + という + noun",
+        "example": "明日{あした}は休校{きゅうこう}だというお知{し}らせが来{き}た。",
+        "example_translation": "A notice came saying that school is closed tomorrow."
+      },
+      {
+        "pattern": "〜までに",
+        "meaning": "by ~ (a deadline)",
+        "formation": "Noun (time) / verb dictionary form + までに",
+        "example": "八時{はちじ}までに会社{かいしゃ}に着{つ}かなければならない。",
+        "example_translation": "I have to arrive at the office by eight."
+      }
+    ]
+  },
+  {
+    "id": "or-030",
+    "section": "orthography",
+    "question": "彼{かれ}は[[ねばりづよく]]交渉{こうしょう}を続{つづ}け、ついに相手{あいて}の会社{かいしゃ}を説得{せっとく}した。",
+    "choices": [
+      "粘強く",
+      "貼り強く",
+      "粕り強く",
+      "粘り強く"
+    ],
+    "answer": 3,
+    "translation": "He kept negotiating tenaciously and finally persuaded the other company.",
+    "explanation": "ねばりづよい 'persistent, tenacious' is written 粘り強い. It is a compound of 粘る（ねばる）'to be sticky; to persist' + 強い（つよい）'strong', and the つ of 強い becomes voiced (づ). Because it comes from the verb 粘る, the り must be written as okurigana: 粘り強い. 粘強く drops the り, so it is wrong. 粘 has the rice radical 米 (sticky rice!) plus 占. 貼 shares the part 占 but has the shell radical 貝 (貼る 'to stick on'), and 粕 shares the rice radical 米 but means 'lees, dregs'.",
+    "choice_notes": [
+      "Wrong. The kanji are right, but the り from 粘る is missing. The correct form is 粘り強く.",
+      "Wrong. 貼 is used in 貼る（はる）'to stick, to paste': 切手を貼る 'to put on a stamp'. 貼り強く is not a word.",
+      "Wrong. 粕 is read かす 'lees (of sake), dregs', as in 酒粕（さけかす）. 粕り強く is not a word.",
+      "Correct. 粘り強く（ねばりづよく）'persistently, tenaciously'."
+    ],
+    "vocab": [
+      {
+        "word": "粘り強い",
+        "reading": "ねばりづよい",
+        "meaning": "persistent, tenacious, never giving up",
+        "pos": "i-adjective",
+        "example": "彼女{かのじょ}は粘{ねば}り強{づよ}い性格{せいかく}で、決{けっ}してあきらめない。",
+        "example_translation": "She has a tenacious personality and never gives up."
+      },
+      {
+        "word": "交渉",
+        "reading": "こうしょう",
+        "meaning": "negotiation",
+        "pos": "noun / suru verb",
+        "example": "給料{きゅうりょう}について会社{かいしゃ}と交渉{こうしょう}した。",
+        "example_translation": "I negotiated with the company about my salary."
+      },
+      {
+        "word": "説得",
+        "reading": "せっとく",
+        "meaning": "persuasion",
+        "pos": "noun / suru verb",
+        "example": "父{ちち}を説得{せっとく}して、留学{りゅうがく}を許{ゆる}してもらった。",
+        "example_translation": "I persuaded my father and got permission to study abroad."
+      },
+      {
+        "word": "粘る",
+        "reading": "ねばる",
+        "meaning": "to be sticky; to persist, to hang on",
+        "pos": "godan verb",
+        "example": "最後{さいご}まで粘{ねば}って、試合{しあい}に勝{か}った。",
+        "example_translation": "We hung on to the end and won the match."
+      },
+      {
+        "word": "相手",
+        "reading": "あいて",
+        "meaning": "the other party, partner, opponent",
+        "pos": "noun",
+        "example": "話{はな}す相手{あいて}がいなくて寂{さび}しい。",
+        "example_translation": "I'm lonely because I have no one to talk to."
+      },
+      {
+        "word": "貼る",
+        "reading": "はる",
+        "meaning": "to stick, to paste, to put on",
+        "pos": "godan verb",
+        "example": "封筒{ふうとう}に切手{きって}を貼{は}った。",
+        "example_translation": "I put a stamp on the envelope."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "ついに〜た",
+        "meaning": "finally ~, at last ~ (after a long time or effort)",
+        "formation": "ついに + past-tense verb",
+        "example": "十年{じゅうねん}かけて、ついに家{いえ}が完成{かんせい}した。",
+        "example_translation": "After ten years, the house was finally completed."
+      },
+      {
+        "pattern": "Verb ます-stem as 'and' (連用中止)",
+        "meaning": "~, and ~ (written style; replaces the て-form)",
+        "formation": "Verb ます-stem + 、(続けて → 続け、)",
+        "example": "朝{あさ}六時{ろくじ}に起{お}き、公園{こうえん}を走{はし}った。",
+        "example_translation": "I got up at six and ran in the park."
+      }
+    ]
+  },
+  {
+    "id": "or-031",
+    "section": "orthography",
+    "question": "この坂{さか}は[[ゆるやか]]なので、お年寄{としよ}りでも楽{らく}に登{のぼ}れる。",
+    "choices": [
+      "緩やか",
+      "暖やか",
+      "援やか",
+      "緩か"
+    ],
+    "answer": 0,
+    "translation": "This slope is gentle, so even elderly people can climb it easily.",
+    "explanation": "ゆるやか 'gentle, gradual, slow' is written 緩やか, with やか as okurigana. 緩 means 'loose, slack' and has the thread radical 糸 (a loose thread). It also appears in 緩い（ゆるい）'loose' and 緩和（かんわ）'relaxation (of rules)'. 暖 and 援 have the same right-hand part as 緩, so they look very similar: 暖 (sun radical 日) means 'warm' and 援 (hand radical 扌) means 'help'. 緩か is missing the や.",
+    "choice_notes": [
+      "Correct. 緩やか（ゆるやか）'gentle, gradual'. 緩やかな坂 'a gentle slope'.",
+      "Wrong. 暖 has the sun radical 日 and is used in 暖かい（あたたかい）'warm'. 暖やか is not a word.",
+      "Wrong. 援 has the hand radical 扌 and appears in 応援（おうえん）'support, cheering' and 援助（えんじょ）'aid'. 援やか is not a word.",
+      "Wrong. The kanji is right, but the okurigana is wrong. The correct form is 緩やか, not 緩か."
+    ],
+    "vocab": [
+      {
+        "word": "緩やか",
+        "reading": "ゆるやか",
+        "meaning": "gentle, gradual, slow; lenient",
+        "pos": "na-adjective",
+        "example": "景気{けいき}は緩{ゆる}やかに回復{かいふく}している。",
+        "example_translation": "The economy is gradually recovering."
+      },
+      {
+        "word": "坂",
+        "reading": "さか",
+        "meaning": "slope, hill",
+        "pos": "noun",
+        "example": "家{いえ}の前{まえ}の坂{さか}は急{きゅう}で、自転車{じてんしゃ}では登{のぼ}れない。",
+        "example_translation": "The slope in front of my house is steep, so I can't ride up it on a bicycle."
+      },
+      {
+        "word": "お年寄り",
+        "reading": "おとしより",
+        "meaning": "elderly person, senior citizen",
+        "pos": "noun",
+        "example": "電車{でんしゃ}でお年寄{としよ}りに席{せき}を譲{ゆず}った。",
+        "example_translation": "I gave my seat to an elderly person on the train."
+      },
+      {
+        "word": "楽",
+        "reading": "らく",
+        "meaning": "easy, comfortable",
+        "pos": "na-adjective",
+        "example": "エレベーターがあるので楽{らく}に上{あ}がれる。",
+        "example_translation": "There's an elevator, so you can go up easily."
+      },
+      {
+        "word": "緩い",
+        "reading": "ゆるい",
+        "meaning": "loose, slack; lenient",
+        "pos": "i-adjective",
+        "example": "このズボンは少{すこ}し緩{ゆる}い。",
+        "example_translation": "These trousers are a bit loose."
+      },
+      {
+        "word": "援助",
+        "reading": "えんじょ",
+        "meaning": "aid, assistance",
+        "pos": "noun / suru verb",
+        "example": "政府{せいふ}は被災地{ひさいち}に援助{えんじょ}を送{おく}った。",
+        "example_translation": "The government sent aid to the disaster area."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜でも",
+        "meaning": "even ~",
+        "formation": "Noun + でも",
+        "example": "この問題{もんだい}は子{こ}どもでも解{と}ける。",
+        "example_translation": "Even a child can solve this problem."
+      }
+    ]
+  },
+  {
+    "id": "or-032",
+    "section": "orthography",
+    "question": "台風{たいふう}の強{つよ}い風{かぜ}で、庭{にわ}の木{き}が[[かたむいて]]しまった。",
+    "choices": [
+      "頃いて",
+      "傾むいて",
+      "傾いて",
+      "項いて"
+    ],
+    "answer": 2,
+    "translation": "The tree in the garden ended up leaning because of the typhoon's strong winds.",
+    "explanation": "かたむく 'to lean, to tilt' is written 傾く, with only く as okurigana. 傾 is the person radical 亻 + 頃, like a person leaning over. It also appears in 傾向（けいこう）'tendency' and 傾斜（けいしゃ）'slope'. A common mistake is writing 傾むく, but the む belongs to the kanji's reading, not the okurigana. 頃 (ころ 'time, about') is 傾 without the person radical, and 項 (こう 'item') also has 頁 on the right, so both are look-alikes.",
+    "choice_notes": [
+      "Wrong. 頃 is read ころ 'about (a time)', as in 三時頃 'about three o'clock'. It is 傾 without the person radical. 頃く is not a word.",
+      "Wrong. The kanji is right, but the okurigana is wrong. The て-form is 傾いて, not 傾むいて.",
+      "Correct. 傾く（かたむく）'to lean, to tilt'. Its transitive partner is 傾ける 'to tilt (something)'.",
+      "Wrong. 項 is read こう and appears in 項目（こうもく）'item, entry'. 項く is not a word."
+    ],
+    "vocab": [
+      {
+        "word": "傾く",
+        "reading": "かたむく",
+        "meaning": "to lean, to tilt, to incline",
+        "pos": "godan verb",
+        "example": "壁{かべ}にかけた絵{え}が少{すこ}し傾{かたむ}いている。",
+        "example_translation": "The picture on the wall is tilted a little."
+      },
+      {
+        "word": "台風",
+        "reading": "たいふう",
+        "meaning": "typhoon",
+        "pos": "noun",
+        "example": "台風{たいふう}が近{ちか}づいているので、外出{がいしゅつ}しないでください。",
+        "example_translation": "A typhoon is approaching, so please don't go out."
+      },
+      {
+        "word": "庭",
+        "reading": "にわ",
+        "meaning": "garden, yard",
+        "pos": "noun",
+        "example": "庭{にわ}で花{はな}を育{そだ}てている。",
+        "example_translation": "I grow flowers in the garden."
+      },
+      {
+        "word": "傾向",
+        "reading": "けいこう",
+        "meaning": "tendency, trend",
+        "pos": "noun",
+        "example": "最近{さいきん}の若者{わかもの}は車{くるま}を買{か}わない傾向{けいこう}がある。",
+        "example_translation": "Young people these days tend not to buy cars."
+      },
+      {
+        "word": "頃",
+        "reading": "ころ",
+        "meaning": "about (a time), when (a period)",
+        "pos": "noun",
+        "example": "子{こ}どもの頃{ころ}、よく川{かわ}で遊{あそ}んだ。",
+        "example_translation": "When I was a child, I often played in the river."
+      },
+      {
+        "word": "項目",
+        "reading": "こうもく",
+        "meaning": "item, entry, heading",
+        "pos": "noun",
+        "example": "アンケートの全{すべ}ての項目{こうもく}に答{こた}えてください。",
+        "example_translation": "Please answer all the items on the questionnaire."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜てしまう",
+        "meaning": "to end up ~ (often an unwanted result)",
+        "formation": "Verb て-form + しまう",
+        "example": "大切{たいせつ}なコップを割{わ}ってしまった。",
+        "example_translation": "I accidentally broke my precious glass."
+      }
+    ]
+  },
+  {
+    "id": "or-033",
+    "section": "orthography",
+    "question": "この町{まち}では、六十五歳{ろくじゅうごさい}以上{いじょう}の人{ひと}が人口{じんこう}の半分{はんぶん}を[[しめて]]いる。",
+    "choices": [
+      "締めて",
+      "閉めて",
+      "占めて",
+      "絞めて"
+    ],
+    "answer": 2,
+    "translation": "In this town, people aged 65 and over make up half the population.",
+    "explanation": "しめる has many kanji, and all four choices are real words, so you must choose by meaning. 占める means 'to occupy, to account for (a share)' - 人口の半分を占める 'to make up half of the population'. 占 also appears in 独占（どくせん）'monopoly'. 締める is 'to fasten, to tighten' (ネクタイを締める), 閉める is 'to close' (ドアを閉める), and 絞める is 'to strangle, to wring' (首を絞める). Only 占める is about a proportion or share.",
+    "choice_notes": [
+      "Wrong. 締める（しめる）means 'to tighten, to fasten': シートベルトを締める 'to fasten a seat belt'. It is not about a share.",
+      "Wrong. 閉める（しめる）means 'to close (a door, a window, a shop)': 窓を閉める 'to close the window'.",
+      "Correct. 占める（しめる）'to occupy, to account for, to make up (a proportion)'.",
+      "Wrong. 絞める（しめる）means 'to strangle, to wring (a neck)'. Do not confuse it with 絞る（しぼる）'to squeeze'."
+    ],
+    "vocab": [
+      {
+        "word": "占める",
+        "reading": "しめる",
+        "meaning": "to occupy, to account for, to make up (a proportion)",
+        "pos": "ichidan verb",
+        "example": "女性{じょせい}が社員{しゃいん}の七割{ななわり}を占{し}めている。",
+        "example_translation": "Women make up 70 percent of the employees."
+      },
+      {
+        "word": "人口",
+        "reading": "じんこう",
+        "meaning": "population",
+        "pos": "noun",
+        "example": "この市{し}の人口{じんこう}は年々{ねんねん}減{へ}っている。",
+        "example_translation": "This city's population is decreasing year by year."
+      },
+      {
+        "word": "以上",
+        "reading": "いじょう",
+        "meaning": "~ or more, over ~",
+        "pos": "noun / suffix",
+        "example": "二十歳{はたち}以上{いじょう}の方{かた}はお酒{さけ}が飲{の}めます。",
+        "example_translation": "People aged twenty and over can drink alcohol."
+      },
+      {
+        "word": "締める",
+        "reading": "しめる",
+        "meaning": "to tighten, to fasten, to tie",
+        "pos": "ichidan verb",
+        "example": "父{ちち}は毎朝{まいあさ}ネクタイを締{し}めて出{で}かける。",
+        "example_translation": "My father puts on a tie and goes out every morning."
+      },
+      {
+        "word": "閉める",
+        "reading": "しめる",
+        "meaning": "to close, to shut",
+        "pos": "ichidan verb",
+        "example": "寒{さむ}いので窓{まど}を閉{し}めてください。",
+        "example_translation": "It's cold, so please close the window."
+      },
+      {
+        "word": "絞める",
+        "reading": "しめる",
+        "meaning": "to strangle, to wring",
+        "pos": "ichidan verb",
+        "example": "このシャツは首{くび}が絞{し}められるようで苦{くる}しい。",
+        "example_translation": "This shirt feels like it's strangling my neck; it's uncomfortable."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜ている (state)",
+        "meaning": "is ~ (a current state or situation)",
+        "formation": "Verb て-form + いる (占める → 占めている)",
+        "example": "この会社{かいしゃ}は市場{しじょう}の三割{さんわり}を占{し}めている。",
+        "example_translation": "This company holds 30 percent of the market."
+      }
+    ]
+  },
+  {
+    "id": "or-034",
+    "section": "orthography",
+    "question": "このホテルでは、朝食{ちょうしょく}を無料{むりょう}で[[ていきょう]]している。",
+    "choices": [
+      "提供",
+      "提共",
+      "堤供",
+      "程供"
+    ],
+    "answer": 0,
+    "translation": "This hotel offers breakfast for free.",
+    "explanation": "ていきょう 'offering, providing, supply' is written 提供. 提 has the hand radical 扌 and means 'to hold out, to present', as in 提出（ていしゅつ）'submission'. 供 has the person radical 亻 and means 'to offer', as in 供給（きょうきゅう）'supply'. So 提供 is 'holding something out to offer people'. The traps: 堤 (earth radical 土) and 程 (grain radical 禾) are also read てい, and 共 is read きょう and is the right half of 供.",
+    "choice_notes": [
+      "Correct. 提供（ていきょう）'offering, providing, sponsoring'.",
+      "Wrong. 共 is read きょう and means 'together', as in 共通（きょうつう）'common'. It is 供 without the person radical. 提共 is not a word.",
+      "Wrong. 堤 has the earth radical 土 and means 'embankment', as in 堤防（ていぼう）'levee'. 堤供 is not a word.",
+      "Wrong. 程 has the grain radical 禾 and means 'degree, extent', as in 程度（ていど）'degree'. 程供 is not a word."
+    ],
+    "vocab": [
+      {
+        "word": "提供",
+        "reading": "ていきょう",
+        "meaning": "offering, providing; sponsorship",
+        "pos": "noun / suru verb",
+        "example": "警察{けいさつ}は市民{しみん}に情報{じょうほう}の提供{ていきょう}を求{もと}めている。",
+        "example_translation": "The police are asking citizens to provide information."
+      },
+      {
+        "word": "朝食",
+        "reading": "ちょうしょく",
+        "meaning": "breakfast",
+        "pos": "noun",
+        "example": "朝食{ちょうしょく}は七時{しちじ}から食堂{しょくどう}で食{た}べられます。",
+        "example_translation": "Breakfast is available in the dining hall from seven."
+      },
+      {
+        "word": "無料",
+        "reading": "むりょう",
+        "meaning": "free of charge",
+        "pos": "noun",
+        "example": "子{こ}どもは入場{にゅうじょう}が無料{むりょう}です。",
+        "example_translation": "Admission is free for children."
+      },
+      {
+        "word": "共通",
+        "reading": "きょうつう",
+        "meaning": "common, shared",
+        "pos": "noun / na-adjective / suru verb",
+        "example": "私{わたし}たちには共通{きょうつう}の趣味{しゅみ}がある。",
+        "example_translation": "We have a hobby in common."
+      },
+      {
+        "word": "堤防",
+        "reading": "ていぼう",
+        "meaning": "embankment, levee",
+        "pos": "noun",
+        "example": "大雨{おおあめ}で川{かわ}の堤防{ていぼう}が壊{こわ}れた。",
+        "example_translation": "The river levee broke in the heavy rain."
+      },
+      {
+        "word": "程度",
+        "reading": "ていど",
+        "meaning": "degree, extent, level",
+        "pos": "noun",
+        "example": "日常会話{にちじょうかいわ}程度{ていど}の日本語{にほんご}なら話{はな}せる。",
+        "example_translation": "I can speak Japanese at the level of everyday conversation."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "Noun + で (condition / manner)",
+        "meaning": "for ~, at ~, in ~ (the condition under which something is done)",
+        "formation": "Noun + で (無料で 'for free', 一人で 'alone')",
+        "example": "このアプリは無料{むりょう}で使{つか}える。",
+        "example_translation": "This app can be used for free."
+      }
+    ]
+  },
+  {
+    "id": "or-035",
+    "section": "orthography",
+    "question": "今年{ことし}は二{ふた}つのチームが最後{さいご}まで優勝{ゆうしょう}を[[あらそった]]。",
+    "choices": [
+      "浄った",
+      "静った",
+      "争そった",
+      "争った"
+    ],
+    "answer": 3,
+    "translation": "This year, two teams competed for the championship right to the end.",
+    "explanation": "あらそう 'to compete, to fight over, to dispute' is written 争う, with only う as okurigana. 争 also appears in 競争（きょうそう）'competition' and 戦争（せんそう）'war'. A common okurigana mistake is 争そう - the そ is part of the kanji's reading, so do not write it again. 浄 (water radical 氵 + 争) and 静 (青 + 争) contain 争, so they look similar, but they mean 'pure' and 'quiet'.",
+    "choice_notes": [
+      "Wrong. 浄 is read じょう and means 'pure, clean', as in 清浄（せいじょう）'purity'. 浄う is not a word.",
+      "Wrong. 静 is used in 静か（しずか）'quiet' and 静める（しずめる）'to calm'. 静う is not a word.",
+      "Wrong. The kanji is right, but the okurigana is wrong. The past form is 争った, not 争そった.",
+      "Correct. 争う（あらそう）'to compete, to fight over'. 優勝を争う 'to compete for the championship'."
+    ],
+    "vocab": [
+      {
+        "word": "争う",
+        "reading": "あらそう",
+        "meaning": "to compete, to fight over, to dispute",
+        "pos": "godan verb",
+        "example": "兄弟{きょうだい}がおもちゃを争{あらそ}って泣{な}いている。",
+        "example_translation": "The brothers are crying, fighting over a toy."
+      },
+      {
+        "word": "優勝",
+        "reading": "ゆうしょう",
+        "meaning": "victory, championship",
+        "pos": "noun / suru verb",
+        "example": "私{わたし}たちの学校{がっこう}がサッカー大会{たいかい}で優勝{ゆうしょう}した。",
+        "example_translation": "Our school won the soccer tournament."
+      },
+      {
+        "word": "最後",
+        "reading": "さいご",
+        "meaning": "the end, the last",
+        "pos": "noun",
+        "example": "最後{さいご}まであきらめないで頑張{がんば}ろう。",
+        "example_translation": "Let's keep going and not give up until the end."
+      },
+      {
+        "word": "競争",
+        "reading": "きょうそう",
+        "meaning": "competition, contest",
+        "pos": "noun / suru verb",
+        "example": "この業界{ぎょうかい}は競争{きょうそう}が激{はげ}しい。",
+        "example_translation": "Competition in this industry is fierce."
+      },
+      {
+        "word": "戦争",
+        "reading": "せんそう",
+        "meaning": "war",
+        "pos": "noun",
+        "example": "祖父{そふ}から戦争{せんそう}の話{はなし}を聞{き}いた。",
+        "example_translation": "I heard stories about the war from my grandfather."
+      }
+    ],
+    "grammar": []
+  },
+  {
+    "id": "or-036",
+    "section": "orthography",
+    "question": "社員{しゃいん}の意見{いけん}を聞{き}いて、職場{しょくば}の環境{かんきょう}を[[かいぜん]]した。",
+    "choices": [
+      "改全",
+      "改善",
+      "回善",
+      "改繕"
+    ],
+    "answer": 1,
+    "translation": "We listened to the employees' opinions and improved the workplace environment.",
+    "explanation": "かいぜん 'improvement' is written 改善. 改 means 'to change, to renew' (改める 'to revise') and 善 means 'good', as in 善い（よい）'good' and 最善（さいぜん）'one's best'. So 改善 is literally 'changing something for the better'. The traps are other kanji read かい or ぜん: 回 'turn, times' and 全 'whole' sound right but have the wrong meaning. 繕 contains 善 and is also read ぜん, but it means 'to mend' (修繕 'repair'), not 'improve'.",
+    "choice_notes": [
+      "Wrong. 全 is read ぜん but means 'whole, all', as in 全部（ぜんぶ）'all'. 改全 is not a word.",
+      "Correct. 改善（かいぜん）'improvement'. 改 'change' + 善 'good'.",
+      "Wrong. 回 is read かい but means 'turn, times', as in 回復（かいふく）'recovery'. 回善 is not a word.",
+      "Wrong. 繕 is read ぜん and means 'to mend', as in 修繕（しゅうぜん）'repair' and 繕う（つくろう）'to mend'. 改繕 is not a word."
+    ],
+    "vocab": [
+      {
+        "word": "改善",
+        "reading": "かいぜん",
+        "meaning": "improvement",
+        "pos": "noun / suru verb",
+        "example": "食生活{しょくせいかつ}を改善{かいぜん}したら、体調{たいちょう}がよくなった。",
+        "example_translation": "When I improved my diet, my physical condition got better."
+      },
+      {
+        "word": "社員",
+        "reading": "しゃいん",
+        "meaning": "employee, company staff",
+        "pos": "noun",
+        "example": "この会社{かいしゃ}には社員{しゃいん}が百人{ひゃくにん}いる。",
+        "example_translation": "This company has 100 employees."
+      },
+      {
+        "word": "意見",
+        "reading": "いけん",
+        "meaning": "opinion, view",
+        "pos": "noun",
+        "example": "会議{かいぎ}でみんなの意見{いけん}を聞{き}いた。",
+        "example_translation": "I heard everyone's opinions at the meeting."
+      },
+      {
+        "word": "職場",
+        "reading": "しょくば",
+        "meaning": "workplace",
+        "pos": "noun",
+        "example": "職場{しょくば}の人間関係{にんげんかんけい}はとてもいい。",
+        "example_translation": "Relationships at my workplace are very good."
+      },
+      {
+        "word": "環境",
+        "reading": "かんきょう",
+        "meaning": "environment, surroundings",
+        "pos": "noun",
+        "example": "静{しず}かな環境{かんきょう}で勉強{べんきょう}したい。",
+        "example_translation": "I want to study in a quiet environment."
+      },
+      {
+        "word": "修繕",
+        "reading": "しゅうぜん",
+        "meaning": "repair, mending (of buildings, objects)",
+        "pos": "noun / suru verb",
+        "example": "古{ふる}いお寺{てら}の屋根{やね}を修繕{しゅうぜん}している。",
+        "example_translation": "They are repairing the roof of an old temple."
+      }
+    ],
+    "grammar": []
+  },
+  {
+    "id": "or-037",
+    "section": "orthography",
+    "question": "年{とし}をとると、体力{たいりょく}が[[おとろえる]]のは仕方{しかた}がない。",
+    "choices": [
+      "衰える",
+      "哀える",
+      "衷える",
+      "衰ろえる"
+    ],
+    "answer": 0,
+    "translation": "It can't be helped that your physical strength declines as you get older.",
+    "explanation": "おとろえる 'to decline, to weaken' is written 衰える, with える as okurigana. 衰 also appears in 衰退（すいたい）'decline'. This is a famous look-alike trap: 衰, 哀 and 衷 all have the 衣 'clothing' frame, and only the middle part is different. 衰 has a box crossed by a horizontal line in the middle, 哀 has 口 'mouth' (crying, sadness), and 衷 has 中 'middle'. 衰ろえる has too much okurigana.",
+    "choice_notes": [
+      "Correct. 衰える（おとろえる）'to decline, to weaken, to fade'.",
+      "Wrong. 哀 has 口 in the middle and means 'sorrow', as in 哀れ（あわれ）'pitiful'. 哀える is not a word.",
+      "Wrong. 衷 has 中 in the middle and is read ちゅう, as in 衷心（ちゅうしん）'sincerity'. 衷える is not a word.",
+      "Wrong. The kanji is right, but the okurigana is wrong. The correct form is 衰える, not 衰ろえる."
+    ],
+    "vocab": [
+      {
+        "word": "衰える",
+        "reading": "おとろえる",
+        "meaning": "to decline, to weaken, to fade",
+        "pos": "ichidan verb",
+        "example": "台風{たいふう}の勢{いきお}いが少{すこ}しずつ衰{おとろ}えてきた。",
+        "example_translation": "The typhoon's strength has gradually weakened."
+      },
+      {
+        "word": "年をとる",
+        "reading": "としをとる",
+        "meaning": "to grow old, to age",
+        "pos": "expression",
+        "example": "年{とし}をとっても、新{あたら}しいことに挑戦{ちょうせん}したい。",
+        "example_translation": "Even as I get older, I want to try new things."
+      },
+      {
+        "word": "体力",
+        "reading": "たいりょく",
+        "meaning": "physical strength, stamina",
+        "pos": "noun",
+        "example": "毎日{まいにち}走{はし}って体力{たいりょく}をつけている。",
+        "example_translation": "I run every day to build up stamina."
+      },
+      {
+        "word": "仕方がない",
+        "reading": "しかたがない",
+        "meaning": "it can't be helped, there's no choice",
+        "pos": "expression",
+        "example": "雨{あめ}だから、中止{ちゅうし}になっても仕方{しかた}がない。",
+        "example_translation": "It's raining, so it can't be helped if it's canceled."
+      },
+      {
+        "word": "衰退",
+        "reading": "すいたい",
+        "meaning": "decline, decay",
+        "pos": "noun / suru verb",
+        "example": "人口{じんこう}が減{へ}って、町{まち}の商店街{しょうてんがい}が衰退{すいたい}した。",
+        "example_translation": "The population fell and the town's shopping street declined."
+      },
+      {
+        "word": "哀れ",
+        "reading": "あわれ",
+        "meaning": "pitiful, sad, miserable",
+        "pos": "na-adjective",
+        "example": "雨{あめ}にぬれた子犬{こいぬ}の姿{すがた}は哀{あわ}れだった。",
+        "example_translation": "The puppy soaked in the rain was a pitiful sight."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜と (natural result)",
+        "meaning": "when ~, whenever ~ (a result that always or naturally follows)",
+        "formation": "Verb dictionary form + と",
+        "example": "春{はる}になると、桜{さくら}が咲{さ}く。",
+        "example_translation": "When spring comes, the cherry blossoms bloom."
+      },
+      {
+        "pattern": "〜のは仕方がない",
+        "meaning": "it can't be helped that ~",
+        "formation": "Plain form + のは仕方がない",
+        "example": "初{はじ}めてだから、失敗{しっぱい}するのは仕方{しかた}がない。",
+        "example_translation": "It's your first time, so it can't be helped if you make mistakes."
+      }
+    ]
+  },
+  {
+    "id": "or-038",
+    "section": "orthography",
+    "question": "連休{れんきゅう}の初日{しょにち}は、駅{えき}も空港{くうこう}も[[こんざつ]]していた。",
+    "choices": [
+      "混難",
+      "昆雑",
+      "混維",
+      "混雑"
+    ],
+    "answer": 3,
+    "translation": "On the first day of the long weekend, both the stations and the airports were crowded.",
+    "explanation": "こんざつ 'congestion, being crowded' is written 混雑. 混 means 'to mix' (混ぜる 'to mix') and 雑 means 'miscellaneous, mixed', as in 雑誌（ざっし）'magazine'. Many different people mixed together = crowded. The traps: 昆 is the right half of 混 without the water radical and is also read こん (昆虫 'insect'). 難 and 維 share the right part 隹 with 雑, so they look alike, but they mean 'difficult' and 'maintain'.",
+    "choice_notes": [
+      "Wrong. The first kanji is right, but 難 means 'difficult', as in 困難（こんなん）'difficulty'. 混難 is not a word.",
+      "Wrong. 昆 is read こん, but it only appears in words like 昆虫（こんちゅう）'insect' and 昆布（こんぶ）'kelp'. 昆雑 is not a word.",
+      "Wrong. The first kanji is right, but 維 is read い 'maintain', as in 維持（いじ）'maintenance'. 混維 is not a word.",
+      "Correct. 混雑（こんざつ）'congestion, crowdedness'. 混雑する 'to be crowded'."
+    ],
+    "vocab": [
+      {
+        "word": "混雑",
+        "reading": "こんざつ",
+        "meaning": "congestion, crowdedness",
+        "pos": "noun / suru verb",
+        "example": "週末{しゅうまつ}のデパートはとても混雑{こんざつ}する。",
+        "example_translation": "Department stores get very crowded on weekends."
+      },
+      {
+        "word": "連休",
+        "reading": "れんきゅう",
+        "meaning": "consecutive holidays, long weekend",
+        "pos": "noun",
+        "example": "五月{ごがつ}の連休{れんきゅう}に京都{きょうと}へ行{い}った。",
+        "example_translation": "I went to Kyoto during the May holidays."
+      },
+      {
+        "word": "初日",
+        "reading": "しょにち",
+        "meaning": "the first day",
+        "pos": "noun",
+        "example": "新{あたら}しい仕事{しごと}の初日{しょにち}はとても緊張{きんちょう}した。",
+        "example_translation": "I was very nervous on the first day of my new job."
+      },
+      {
+        "word": "空港",
+        "reading": "くうこう",
+        "meaning": "airport",
+        "pos": "noun",
+        "example": "空港{くうこう}まで電車{でんしゃ}で一時間{いちじかん}かかる。",
+        "example_translation": "It takes an hour by train to get to the airport."
+      },
+      {
+        "word": "昆虫",
+        "reading": "こんちゅう",
+        "meaning": "insect",
+        "pos": "noun",
+        "example": "弟{おとうと}は昆虫{こんちゅう}が大好{だいす}きだ。",
+        "example_translation": "My younger brother loves insects."
+      },
+      {
+        "word": "維持",
+        "reading": "いじ",
+        "meaning": "maintenance, keeping up",
+        "pos": "noun / suru verb",
+        "example": "健康{けんこう}を維持{いじ}するために運動{うんどう}している。",
+        "example_translation": "I exercise to maintain my health."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜も〜も",
+        "meaning": "both ~ and ~ (with a negative: neither ~ nor ~)",
+        "formation": "Noun + も + Noun + も",
+        "example": "兄{あに}も姉{あね}も東京{とうきょう}に住{す}んでいる。",
+        "example_translation": "Both my older brother and older sister live in Tokyo."
+      }
+    ]
+  },
+  {
+    "id": "or-039",
+    "section": "orthography",
+    "question": "祖父{そふ}は田舎{いなか}で小{ちい}さな旅館{りょかん}を[[いとなんで]]いる。",
+    "choices": [
+      "栄んで",
+      "営なんで",
+      "営んで",
+      "労んで"
+    ],
+    "answer": 2,
+    "translation": "My grandfather runs a small inn in the countryside.",
+    "explanation": "いとなむ 'to run (a business), to operate, to conduct' is written 営む, with only む as okurigana. 営 also appears in 経営（けいえい）'management' and 営業（えいぎょう）'business, sales'. 営なむ is a typical okurigana mistake. 栄 and 労 have the same top part ⺍ + 冖 as 営, so they look similar: 栄 means 'to prosper' (栄える さかえる) and 労 means 'labor' (労働 ろうどう).",
+    "choice_notes": [
+      "Wrong. 栄 is used in 栄える（さかえる）'to prosper' and 栄養（えいよう）'nutrition'. 栄む is not a word.",
+      "Wrong. The kanji is right, but the okurigana is wrong. The て-form is 営んで, not 営なんで.",
+      "Correct. 営む（いとなむ）'to run (a business), to operate'.",
+      "Wrong. 労 is read ろう 'labor', as in 労働（ろうどう）'labor' and 苦労（くろう）'hardship'. 労む is not a word."
+    ],
+    "vocab": [
+      {
+        "word": "営む",
+        "reading": "いとなむ",
+        "meaning": "to run (a business), to operate; to lead (a life)",
+        "pos": "godan verb",
+        "example": "両親{りょうしん}は駅前{えきまえ}で喫茶店{きっさてん}を営{いとな}んでいる。",
+        "example_translation": "My parents run a coffee shop in front of the station."
+      },
+      {
+        "word": "祖父",
+        "reading": "そふ",
+        "meaning": "(my) grandfather",
+        "pos": "noun",
+        "example": "祖父{そふ}は毎朝{まいあさ}散歩{さんぽ}をしている。",
+        "example_translation": "My grandfather takes a walk every morning."
+      },
+      {
+        "word": "田舎",
+        "reading": "いなか",
+        "meaning": "the countryside; one's hometown",
+        "pos": "noun",
+        "example": "夏休{なつやす}みは田舎{いなか}の祖母{そぼ}の家{いえ}で過{す}ごした。",
+        "example_translation": "I spent the summer vacation at my grandmother's house in the country."
+      },
+      {
+        "word": "旅館",
+        "reading": "りょかん",
+        "meaning": "Japanese-style inn",
+        "pos": "noun",
+        "example": "温泉{おんせん}のある旅館{りょかん}に泊{と}まった。",
+        "example_translation": "We stayed at an inn with a hot spring."
+      },
+      {
+        "word": "経営",
+        "reading": "けいえい",
+        "meaning": "management (of a business)",
+        "pos": "noun / suru verb",
+        "example": "彼{かれ}は三{みっ}つのレストランを経営{けいえい}している。",
+        "example_translation": "He manages three restaurants."
+      },
+      {
+        "word": "栄える",
+        "reading": "さかえる",
+        "meaning": "to prosper, to flourish",
+        "pos": "ichidan verb",
+        "example": "この町{まち}は昔{むかし}、港町{みなとまち}として栄{さか}えた。",
+        "example_translation": "This town once prospered as a port town."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜ている (ongoing activity / occupation)",
+        "meaning": "is ~ing; does ~ (as a continuing job or habit)",
+        "formation": "Verb て-form + いる (営む → 営んでいる)",
+        "example": "姉{あね}は銀行{ぎんこう}に勤{つと}めている。",
+        "example_translation": "My older sister works at a bank."
+      }
+    ]
+  },
+  {
+    "id": "or-040",
+    "section": "orthography",
+    "question": "将来{しょうらい}のために、毎月{まいつき}少{すこ}しずつお金{かね}を[[たくわえて]]いる。",
+    "choices": [
+      "畜えて",
+      "蓄えて",
+      "蓄わえて",
+      "築えて"
+    ],
+    "answer": 1,
+    "translation": "I am saving a little money every month for the future.",
+    "explanation": "たくわえる 'to save, to store up' is written 蓄える, with only える as okurigana. 蓄 has the grass radical 艹 on top of 畜, originally meaning storing up crops. It also appears in 貯蓄（ちょちく）'savings' and 蓄積（ちくせき）'accumulation'. 畜 is 蓄 without the grass radical, and it means 'livestock' (家畜 かちく). 築 is also read ちく but means 'to build' (築く きずく). 蓄わえる adds an extra わ.",
+    "choice_notes": [
+      "Wrong. 畜 is 蓄 without the grass radical 艹. It means 'livestock', as in 家畜（かちく）'domestic animals'. 畜える is not a word.",
+      "Correct. 蓄える（たくわえる）'to save, to store up'.",
+      "Wrong. The kanji is right, but the okurigana is wrong. The て-form is 蓄えて, not 蓄わえて.",
+      "Wrong. 築 is read ちく like 蓄, but it means 'to build', as in 築く（きずく）'to build' and 建築（けんちく）'architecture'. 築える is not a word."
+    ],
+    "vocab": [
+      {
+        "word": "蓄える",
+        "reading": "たくわえる",
+        "meaning": "to save, to store up, to accumulate (money, food, knowledge)",
+        "pos": "ichidan verb",
+        "example": "冬{ふゆ}に備{そな}えて食料{しょくりょう}を蓄{たくわ}える。",
+        "example_translation": "We store up food in preparation for winter."
+      },
+      {
+        "word": "将来",
+        "reading": "しょうらい",
+        "meaning": "the future",
+        "pos": "noun / adverb",
+        "example": "将来{しょうらい}は先生{せんせい}になりたい。",
+        "example_translation": "I want to become a teacher in the future."
+      },
+      {
+        "word": "少しずつ",
+        "reading": "すこしずつ",
+        "meaning": "little by little, a bit at a time",
+        "pos": "adverb",
+        "example": "少{すこ}しずつ寒{さむ}くなってきた。",
+        "example_translation": "It has been getting colder little by little."
+      },
+      {
+        "word": "貯蓄",
+        "reading": "ちょちく",
+        "meaning": "savings",
+        "pos": "noun / suru verb",
+        "example": "給料{きゅうりょう}の一割{いちわり}を貯蓄{ちょちく}に回{まわ}している。",
+        "example_translation": "I put ten percent of my salary into savings."
+      },
+      {
+        "word": "家畜",
+        "reading": "かちく",
+        "meaning": "domestic animals, livestock",
+        "pos": "noun",
+        "example": "この農家{のうか}では牛{うし}や豚{ぶた}などの家畜{かちく}を育{そだ}てている。",
+        "example_translation": "This farm raises livestock such as cows and pigs."
+      },
+      {
+        "word": "築く",
+        "reading": "きずく",
+        "meaning": "to build, to construct (also relationships, careers)",
+        "pos": "godan verb",
+        "example": "お客様{きゃくさま}との信頼関係{しんらいかんけい}を築{きず}くことが大切{たいせつ}だ。",
+        "example_translation": "It is important to build relationships of trust with customers."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜のために",
+        "meaning": "for (the sake of) ~, for the purpose of ~",
+        "formation": "Noun + のために / verb dictionary form + ために",
+        "example": "家族{かぞく}のために一生懸命{いっしょうけんめい}働{はたら}いている。",
+        "example_translation": "I work hard for my family."
+      }
+    ]
+  }
+]

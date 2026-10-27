@@ -1,0 +1,1976 @@
+[
+  {
+    "id": "wf-001",
+    "section": "word_formation",
+    "question": "その事件{じけん}は十年{じゅうねん}たった今{いま}も（　　）解決{かいけつ}のままだ。",
+    "choices": [
+      "未{み}",
+      "不{ふ}",
+      "無{む}",
+      "非{ひ}"
+    ],
+    "answer": 0,
+    "full_sentence": "その事件{じけん}は十年{じゅうねん}たった今{いま}も未解決{みかいけつ}のままだ。",
+    "translation": "Even now, ten years later, that case remains unsolved.",
+    "explanation": "All four choices are negative prefixes, so you need to know their differences. 未（み）means 'not yet': something that is expected to happen but has not happened so far. A case is supposed to be solved someday, so 未解決 'not yet solved, unsolved' is correct. Other common 未〜 words: 未成年（みせいねん）'minor (not yet an adult)', 未完成（みかんせい）'unfinished', 未経験（みけいけん）'inexperienced'. 不 'not', 無 'without' and 非 'non-' do not combine with 解決.",
+    "choice_notes": [
+      "Correct. 未解決（みかいけつ）'unsolved, not yet resolved'. 未 = 'not yet'.",
+      "Wrong. 不（ふ）means 'not, un-' and makes words like 不安定（ふあんてい）'unstable' and 不可能（ふかのう）'impossible', but 不解決 is not a word.",
+      "Wrong. 無（む）means 'without, lacking' and makes words like 無関係（むかんけい）'unrelated' and 無料（むりょう）'free', but 無解決 is not a word.",
+      "Wrong. 非（ひ）means 'non-, contrary to' and makes words like 非常識（ひじょうしき）'lacking common sense', but 非解決 is not a word."
+    ],
+    "vocab": [
+      {
+        "word": "未解決",
+        "reading": "みかいけつ",
+        "meaning": "unsolved, unresolved",
+        "pos": "noun",
+        "example": "この問題{もんだい}はまだ未解決{みかいけつ}だ。",
+        "example_translation": "This problem is still unresolved."
+      },
+      {
+        "word": "事件",
+        "reading": "じけん",
+        "meaning": "incident, case (often a crime)",
+        "pos": "noun",
+        "example": "近所{きんじょ}で事件{じけん}が起{お}きて、警察{けいさつ}が来{き}た。",
+        "example_translation": "An incident happened in the neighborhood and the police came."
+      },
+      {
+        "word": "経つ",
+        "reading": "たつ",
+        "meaning": "(time) to pass, to elapse",
+        "pos": "godan verb",
+        "example": "日本{にほん}に来{き}てから三年{さんねん}が経{た}った。",
+        "example_translation": "Three years have passed since I came to Japan."
+      },
+      {
+        "word": "未成年",
+        "reading": "みせいねん",
+        "meaning": "minor, person under the legal adult age",
+        "pos": "noun",
+        "example": "未成年{みせいねん}はお酒{さけ}を飲{の}んではいけない。",
+        "example_translation": "Minors must not drink alcohol."
+      },
+      {
+        "word": "無関係",
+        "reading": "むかんけい",
+        "meaning": "unrelated, having no connection",
+        "pos": "noun / na-adjective",
+        "example": "彼{かれ}はその事件{じけん}とは無関係{むかんけい}だ。",
+        "example_translation": "He has nothing to do with that incident."
+      },
+      {
+        "word": "非常識",
+        "reading": "ひじょうしき",
+        "meaning": "lacking common sense, absurd, outrageous",
+        "pos": "noun / na-adjective",
+        "example": "夜中{よなか}に大声{おおごえ}で歌{うた}うのは非常識{ひじょうしき}だ。",
+        "example_translation": "Singing loudly in the middle of the night is inconsiderate."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜まま",
+        "meaning": "remaining ~, still in the state of ~ (no change)",
+        "formation": "Noun + のまま / verb た-form + まま / adjective + まま",
+        "example": "靴{くつ}をはいたまま部屋{へや}に入{はい}らないでください。",
+        "example_translation": "Please don't enter the room with your shoes on."
+      }
+    ]
+  },
+  {
+    "id": "wf-002",
+    "section": "word_formation",
+    "question": "首相{しゅしょう}は来月{らいげつ}、（　　）公式{こうしき}にアメリカを訪問{ほうもん}するそうだ。",
+    "choices": [
+      "不{ふ}",
+      "無{む}",
+      "非{ひ}",
+      "未{み}"
+    ],
+    "answer": 2,
+    "full_sentence": "首相{しゅしょう}は来月{らいげつ}、非公式{ひこうしき}にアメリカを訪問{ほうもん}するそうだ。",
+    "translation": "I hear that the prime minister will make an unofficial visit to the United States next month.",
+    "explanation": "非（ひ）means 'non-, not ~, contrary to', and it attaches to words for a category or a rule, turning them into their opposite: 公式 'official' → 非公式 'unofficial'. Other common 非〜 words: 非常識（ひじょうしき）'lacking common sense', 非現実的（ひげんじつてき）'unrealistic', 非公開（ひこうかい）'closed to the public'. 非公式に is used as an adverb: 'unofficially'. The other negative prefixes do not combine with 公式.",
+    "choice_notes": [
+      "Wrong. 不（ふ）makes words like 不公平（ふこうへい）'unfair' and 不正確（ふせいかく）'inaccurate', but 不公式 is not a word.",
+      "Wrong. 無（む）'without' makes words like 無責任 'irresponsible' and 無意味 'meaningless', but 無公式 is not a word.",
+      "Correct. 非公式（ひこうしき）'unofficial, informal'. 非公式に 'unofficially'.",
+      "Wrong. 未（み）'not yet' makes words like 未定（みてい）'undecided', but 未公式 is not a word."
+    ],
+    "vocab": [
+      {
+        "word": "非公式",
+        "reading": "ひこうしき",
+        "meaning": "unofficial, informal",
+        "pos": "noun / na-adjective",
+        "example": "これはまだ非公式{ひこうしき}の情報{じょうほう}です。",
+        "example_translation": "This is still unofficial information."
+      },
+      {
+        "word": "首相",
+        "reading": "しゅしょう",
+        "meaning": "prime minister",
+        "pos": "noun",
+        "example": "首相{しゅしょう}がテレビで記者会見{きしゃかいけん}を開{ひら}いた。",
+        "example_translation": "The prime minister held a press conference on TV."
+      },
+      {
+        "word": "公式",
+        "reading": "こうしき",
+        "meaning": "official; formula (math)",
+        "pos": "noun / na-adjective",
+        "example": "詳{くわ}しくは公式{こうしき}サイトをご覧{らん}ください。",
+        "example_translation": "For details, please see the official website."
+      },
+      {
+        "word": "訪問",
+        "reading": "ほうもん",
+        "meaning": "visit, call",
+        "pos": "noun / suru verb",
+        "example": "先週{せんしゅう}、取引先{とりひきさき}の会社{かいしゃ}を訪問{ほうもん}した。",
+        "example_translation": "Last week I visited a client company."
+      },
+      {
+        "word": "非現実的",
+        "reading": "ひげんじつてき",
+        "meaning": "unrealistic",
+        "pos": "na-adjective",
+        "example": "一週間{いっしゅうかん}で十{じゅう}キロやせるなんて非現実的{ひげんじつてき}だ。",
+        "example_translation": "Losing ten kilos in a week is unrealistic."
+      },
+      {
+        "word": "不公平",
+        "reading": "ふこうへい",
+        "meaning": "unfair, unjust",
+        "pos": "noun / na-adjective",
+        "example": "兄{あに}だけお小遣{こづか}いが多{おお}いのは不公平{ふこうへい}だ。",
+        "example_translation": "It's unfair that only my older brother gets more pocket money."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜そうだ (hearsay)",
+        "meaning": "I hear that ~, they say that ~",
+        "formation": "Plain form + そうだ (訪問する → 訪問するそうだ)",
+        "example": "天気予報{てんきよほう}によると、明日{あした}は雪{ゆき}が降{ふ}るそうだ。",
+        "example_translation": "According to the weather forecast, it will snow tomorrow."
+      }
+    ]
+  },
+  {
+    "id": "wf-003",
+    "section": "word_formation",
+    "question": "山{やま}の天気{てんき}は（　　）安定{あんてい}なので、晴{は}れていても雨具{あまぐ}を持{も}って行{い}こう。",
+    "choices": [
+      "非{ひ}",
+      "不{ふ}",
+      "無{む}",
+      "未{み}"
+    ],
+    "answer": 1,
+    "full_sentence": "山{やま}の天気{てんき}は不安定{ふあんてい}なので、晴{は}れていても雨具{あまぐ}を持{も}って行{い}こう。",
+    "translation": "Mountain weather is unstable, so let's take rain gear even if it is sunny.",
+    "explanation": "不（ふ）means 'not, un-' and attaches to words describing a quality or condition, making the opposite quality: 安定 'stable' → 不安定 'unstable'. 不〜 words are usually な-adjectives: 不安定な天気, 不便（ふべん）な場所 'inconvenient place', 不十分（ふじゅうぶん）'insufficient', 不規則（ふきそく）'irregular'. Note that 不 is sometimes read ぶ, as in 不気味（ぶきみ）'creepy' and 不用心（ぶようじん）'careless about security'. The other prefixes do not combine with 安定.",
+    "choice_notes": [
+      "Wrong. 非（ひ）'non-' makes words like 非公式 'unofficial' and 非常識 'lacking common sense', but 非安定 is not a word.",
+      "Correct. 不安定（ふあんてい）'unstable, unsettled'.",
+      "Wrong. 無（む）'without' makes words like 無責任 'irresponsible' and 無関心 'indifferent', but 無安定 is not a word.",
+      "Wrong. 未（み）'not yet' makes words like 未完成 'unfinished', but 未安定 is not a word."
+    ],
+    "vocab": [
+      {
+        "word": "不安定",
+        "reading": "ふあんてい",
+        "meaning": "unstable, unsettled, insecure",
+        "pos": "noun / na-adjective",
+        "example": "最近{さいきん}、仕事{しごと}が忙{いそが}しくて気持{きも}ちが不安定{ふあんてい}だ。",
+        "example_translation": "Recently work has been busy, and my feelings are unstable."
+      },
+      {
+        "word": "安定",
+        "reading": "あんてい",
+        "meaning": "stability",
+        "pos": "noun / na-adjective / suru verb",
+        "example": "安定{あんてい}した仕事{しごと}に就{つ}きたい。",
+        "example_translation": "I want to get a stable job."
+      },
+      {
+        "word": "雨具",
+        "reading": "あまぐ",
+        "meaning": "rain gear (umbrella, raincoat)",
+        "pos": "noun",
+        "example": "雨具{あまぐ}を忘{わす}れて、ずぶぬれになった。",
+        "example_translation": "I forgot my rain gear and got soaked."
+      },
+      {
+        "word": "不十分",
+        "reading": "ふじゅうぶん",
+        "meaning": "insufficient, inadequate",
+        "pos": "noun / na-adjective",
+        "example": "準備{じゅんび}が不十分{ふじゅうぶん}だったので、発表{はっぴょう}は失敗{しっぱい}した。",
+        "example_translation": "The preparation was insufficient, so the presentation failed."
+      },
+      {
+        "word": "不規則",
+        "reading": "ふきそく",
+        "meaning": "irregular",
+        "pos": "noun / na-adjective",
+        "example": "不規則{ふきそく}な生活{せいかつ}は体{からだ}によくない。",
+        "example_translation": "An irregular lifestyle is bad for your health."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜ても",
+        "meaning": "even if ~, even though ~",
+        "formation": "Verb / い-adjective て-form + も; な-adjective / noun + でも",
+        "example": "雨{あめ}が降{ふ}っても、試合{しあい}は行{おこな}われる。",
+        "example_translation": "Even if it rains, the match will be held."
+      },
+      {
+        "pattern": "Volitional form 〜（よ）う",
+        "meaning": "let's ~ (a suggestion or one's intention)",
+        "formation": "Godan: final u-sound → o + う (行く → 行こう); ichidan: stem + よう",
+        "example": "そろそろ帰{かえ}ろう。",
+        "example_translation": "Let's go home soon."
+      }
+    ]
+  },
+  {
+    "id": "wf-004",
+    "section": "word_formation",
+    "question": "引{ひ}き受{う}けた仕事{しごと}を途中{とちゅう}で投{な}げ出{だ}すなんて、（　　）責任{せきにん}だ。",
+    "choices": [
+      "不{ふ}",
+      "非{ひ}",
+      "未{み}",
+      "無{む}"
+    ],
+    "answer": 3,
+    "full_sentence": "引{ひ}き受{う}けた仕事{しごと}を途中{とちゅう}で投{な}げ出{だ}すなんて、無責任{むせきにん}だ。",
+    "translation": "Abandoning a job you agreed to do halfway through is irresponsible.",
+    "explanation": "無（む）means 'without, lacking (something)': 無 + 責任 'responsibility' = 無責任 'without a sense of responsibility, irresponsible'. Other common 無〜 words: 無関心（むかんしん）'indifferent', 無意味（むいみ）'meaningless', 無計画（むけいかく）'unplanned', 無料（むりょう）'free of charge'. A tip: if you can say '〜がない' (責任がない), 無〜 is often the right prefix. 不, 非 and 未 do not combine with 責任.",
+    "choice_notes": [
+      "Wrong. 不（ふ）makes words like 不注意（ふちゅうい）'carelessness', but 不責任 is not a word.",
+      "Wrong. 非（ひ）makes words like 非常識 'lacking common sense', but 非責任 is not a word.",
+      "Wrong. 未（み）'not yet' makes words like 未経験 'inexperienced', but 未責任 is not a word.",
+      "Correct. 無責任（むせきにん）'irresponsible'. 無 = 'without'."
+    ],
+    "vocab": [
+      {
+        "word": "無責任",
+        "reading": "むせきにん",
+        "meaning": "irresponsible",
+        "pos": "noun / na-adjective",
+        "example": "できない約束{やくそく}をするのは無責任{むせきにん}だ。",
+        "example_translation": "Making promises you can't keep is irresponsible."
+      },
+      {
+        "word": "引き受ける",
+        "reading": "ひきうける",
+        "meaning": "to take on, to accept (a task)",
+        "pos": "ichidan verb",
+        "example": "友達{ともだち}の頼{たの}みを引{ひ}き受{う}けた。",
+        "example_translation": "I accepted my friend's request."
+      },
+      {
+        "word": "途中",
+        "reading": "とちゅう",
+        "meaning": "midway, halfway, on the way",
+        "pos": "noun",
+        "example": "映画{えいが}の途中{とちゅう}で寝{ね}てしまった。",
+        "example_translation": "I fell asleep halfway through the movie."
+      },
+      {
+        "word": "投げ出す",
+        "reading": "なげだす",
+        "meaning": "to throw out; to give up, to abandon (a task)",
+        "pos": "godan verb",
+        "example": "難{むずか}しくても、勉強{べんきょう}を投{な}げ出{だ}してはいけない。",
+        "example_translation": "Even if it's difficult, you must not give up studying."
+      },
+      {
+        "word": "無関心",
+        "reading": "むかんしん",
+        "meaning": "indifferent, uninterested",
+        "pos": "noun / na-adjective",
+        "example": "若者{わかもの}の政治{せいじ}への無関心{むかんしん}が問題{もんだい}になっている。",
+        "example_translation": "Young people's indifference to politics has become a problem."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜なんて",
+        "meaning": "~ (is so surprising / outrageous); the speaker's criticism or surprise",
+        "formation": "Plain form / noun + なんて + judgment",
+        "example": "約束{やくそく}の時間{じかん}に二時間{にじかん}も遅{おく}れるなんて、信{しん}じられない。",
+        "example_translation": "Being two hours late for an appointment - I can't believe it."
+      }
+    ]
+  },
+  {
+    "id": "wf-005",
+    "section": "word_formation",
+    "question": "駅前{えきまえ}の（　　）開発{かいはつ}が進{すす}み、新{あたら}しいビルが次々{つぎつぎ}に建{た}っている。",
+    "choices": [
+      "復{ふく}",
+      "再{さい}",
+      "改{かい}",
+      "重{じゅう}"
+    ],
+    "answer": 1,
+    "full_sentence": "駅前{えきまえ}の再開発{さいかいはつ}が進{すす}み、新{あたら}しいビルが次々{つぎつぎ}に建{た}っている。",
+    "translation": "The redevelopment of the area in front of the station is progressing, and new buildings are going up one after another.",
+    "explanation": "再（さい）means 're-, again' and attaches to action nouns: 開発 'development' → 再開発 'redevelopment'. It is very productive at N2: 再確認（さいかくにん）'reconfirmation', 再利用（さいりよう）'reuse', 再放送（さいほうそう）'rerun', 再検討（さいけんとう）'reconsideration'. 復 and 改 also have meanings like 'return' and 'change', but they are not used as free prefixes before 開発.",
+    "choice_notes": [
+      "Wrong. 復 means 'return, again' but appears only inside fixed words like 復習（ふくしゅう）'review' and 回復（かいふく）'recovery'. 復開発 is not a word.",
+      "Correct. 再開発（さいかいはつ）'redevelopment'. 再 = 're-, again'.",
+      "Wrong. 改 means 'change' and appears in 改善（かいぜん）'improvement' and 改正（かいせい）'revision', but 改開発 is not a word.",
+      "Wrong. 重 means 'heavy' as a prefix, as in 重工業（じゅうこうぎょう）'heavy industry'. 重開発 is not a word."
+    ],
+    "vocab": [
+      {
+        "word": "再開発",
+        "reading": "さいかいはつ",
+        "meaning": "redevelopment (of an area)",
+        "pos": "noun / suru verb",
+        "example": "古{ふる}い商店街{しょうてんがい}の再開発{さいかいはつ}が決{き}まった。",
+        "example_translation": "The redevelopment of the old shopping street was decided."
+      },
+      {
+        "word": "駅前",
+        "reading": "えきまえ",
+        "meaning": "(the area) in front of the station",
+        "pos": "noun",
+        "example": "駅前{えきまえ}に大{おお}きな本屋{ほんや}がある。",
+        "example_translation": "There is a big bookstore in front of the station."
+      },
+      {
+        "word": "開発",
+        "reading": "かいはつ",
+        "meaning": "development (of land, products, technology)",
+        "pos": "noun / suru verb",
+        "example": "この会社{かいしゃ}は新{あたら}しい薬{くすり}を開発{かいはつ}している。",
+        "example_translation": "This company is developing a new medicine."
+      },
+      {
+        "word": "次々に",
+        "reading": "つぎつぎに",
+        "meaning": "one after another",
+        "pos": "adverb",
+        "example": "店{みせ}に客{きゃく}が次々{つぎつぎ}に入{はい}ってきた。",
+        "example_translation": "Customers came into the shop one after another."
+      },
+      {
+        "word": "再利用",
+        "reading": "さいりよう",
+        "meaning": "reuse, recycling",
+        "pos": "noun / suru verb",
+        "example": "空{あ}き瓶{びん}を再利用{さいりよう}して花瓶{かびん}にした。",
+        "example_translation": "I reused an empty bottle as a vase."
+      },
+      {
+        "word": "重工業",
+        "reading": "じゅうこうぎょう",
+        "meaning": "heavy industry",
+        "pos": "noun",
+        "example": "この地域{ちいき}は重工業{じゅうこうぎょう}で発展{はってん}した。",
+        "example_translation": "This area developed through heavy industry."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "Verb ます-stem as 'and' (連用中止)",
+        "meaning": "~, and ~ (written style; replaces the て-form)",
+        "formation": "Verb ます-stem + 、(進んで → 進み、)",
+        "example": "雨{あめ}がやみ、空{そら}が明{あか}るくなった。",
+        "example_translation": "The rain stopped and the sky grew bright."
+      }
+    ]
+  },
+  {
+    "id": "wf-006",
+    "section": "word_formation",
+    "question": "日本{にほん}は（　　）外国{がいこく}との交流{こうりゅう}をさらに深{ふか}めようとしている。",
+    "choices": [
+      "多{た}",
+      "各{かく}",
+      "諸{しょ}",
+      "全{ぜん}"
+    ],
+    "answer": 2,
+    "full_sentence": "日本{にほん}は諸外国{しょがいこく}との交流{こうりゅう}をさらに深{ふか}めようとしている。",
+    "translation": "Japan is trying to further deepen its exchanges with various foreign countries.",
+    "explanation": "諸（しょ）means 'various, many (of a kind)', and it is a formal prefix often used in news and official writing. 諸外国 means 'various foreign countries, other countries'. Other common 諸〜 words: 諸問題（しょもんだい）'various problems', 諸条件（しょじょうけん）'various conditions', 諸費用（しょひよう）'various expenses'. Compare 各（かく）'each': 各国 'each country', 各自 'each person'. 各, 多 and 全 do not combine with 外国.",
+    "choice_notes": [
+      "Wrong. 多（た）'many, multi-' makes words like 多機能（たきのう）'multifunctional' and 多国籍（たこくせき）'multinational', but 多外国 is not a word.",
+      "Wrong. 各（かく）'each' makes words like 各国（かっこく）'each country' and 各地（かくち）'various places', but 各外国 is not a word.",
+      "Correct. 諸外国（しょがいこく）'various foreign countries, other nations'.",
+      "Wrong. 全（ぜん）'whole, all' makes words like 全世界（ぜんせかい）'the whole world', but 全外国 is not a word."
+    ],
+    "vocab": [
+      {
+        "word": "諸外国",
+        "reading": "しょがいこく",
+        "meaning": "various foreign countries, other nations",
+        "pos": "noun",
+        "example": "日本{にほん}の労働時間{ろうどうじかん}は諸外国{しょがいこく}と比{くら}べて長{なが}い。",
+        "example_translation": "Working hours in Japan are long compared with other countries."
+      },
+      {
+        "word": "交流",
+        "reading": "こうりゅう",
+        "meaning": "exchange, interaction (between people, cultures)",
+        "pos": "noun / suru verb",
+        "example": "留学生{りゅうがくせい}と地元{じもと}の人{ひと}の交流会{こうりゅうかい}が開{ひら}かれた。",
+        "example_translation": "An exchange event between international students and local people was held."
+      },
+      {
+        "word": "深める",
+        "reading": "ふかめる",
+        "meaning": "to deepen, to strengthen",
+        "pos": "ichidan verb",
+        "example": "旅行{りょこう}を通{とお}して、二人{ふたり}は友情{ゆうじょう}を深{ふか}めた。",
+        "example_translation": "Through the trip, the two deepened their friendship."
+      },
+      {
+        "word": "諸問題",
+        "reading": "しょもんだい",
+        "meaning": "various problems, issues",
+        "pos": "noun",
+        "example": "会議{かいぎ}では環境{かんきょう}に関{かん}する諸問題{しょもんだい}が話{はな}し合{あ}われた。",
+        "example_translation": "Various environmental issues were discussed at the conference."
+      },
+      {
+        "word": "各地",
+        "reading": "かくち",
+        "meaning": "various places, every area",
+        "pos": "noun",
+        "example": "全国{ぜんこく}各地{かくち}で桜{さくら}が咲{さ}き始{はじ}めた。",
+        "example_translation": "Cherry blossoms have started blooming in places all over the country."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜（よ）うとしている",
+        "meaning": "is trying to ~, is about to ~",
+        "formation": "Verb volitional form + としている (深める → 深めようとしている)",
+        "example": "電車{でんしゃ}のドアが閉{し}まろうとしている。",
+        "example_translation": "The train doors are about to close."
+      }
+    ]
+  },
+  {
+    "id": "wf-007",
+    "section": "word_formation",
+    "question": "この薬{くすり}はよく効{き}くが、眠{ねむ}くなるという（　　）作用{さよう}がある。",
+    "choices": [
+      "準{じゅん}",
+      "補{ほ}",
+      "次{じ}",
+      "副{ふく}"
+    ],
+    "answer": 3,
+    "full_sentence": "この薬{くすり}はよく効{き}くが、眠{ねむ}くなるという副作用{ふくさよう}がある。",
+    "translation": "This medicine works well, but it has the side effect of making you sleepy.",
+    "explanation": "副（ふく）means 'secondary, sub-, vice-', something that comes alongside the main thing. 副 + 作用 'effect' = 副作用 'side effect'. Other common 副〜 words: 副社長（ふくしゃちょう）'vice president', 副業（ふくぎょう）'side job', 副題（ふくだい）'subtitle', 副産物（ふくさんぶつ）'by-product'. 準 'semi-', 補 'supplement' and 次 'next' do not combine with 作用.",
+    "choice_notes": [
+      "Wrong. 準（じゅん）'semi-, quasi-' makes words like 準決勝 'semifinal' and 準優勝 'runner-up', but 準作用 is not a word.",
+      "Wrong. 補 means 'supplement', as in 補足（ほそく）'supplement' and 補助（ほじょ）'assistance', but it is not a free prefix. 補作用 is not a word.",
+      "Wrong. 次（じ）'next' makes words like 次世代（じせだい）'next generation', but 次作用 is not a word.",
+      "Correct. 副作用（ふくさよう）'side effect'. 副 = 'secondary'."
+    ],
+    "vocab": [
+      {
+        "word": "副作用",
+        "reading": "ふくさよう",
+        "meaning": "side effect (of a medicine)",
+        "pos": "noun",
+        "example": "この薬{くすり}には副作用{ふくさよう}がほとんどない。",
+        "example_translation": "This medicine has almost no side effects."
+      },
+      {
+        "word": "効く",
+        "reading": "きく",
+        "meaning": "to be effective, to work (medicine)",
+        "pos": "godan verb",
+        "example": "この風邪薬{かぜぐすり}はよく効{き}く。",
+        "example_translation": "This cold medicine works well."
+      },
+      {
+        "word": "作用",
+        "reading": "さよう",
+        "meaning": "action, effect, function",
+        "pos": "noun / suru verb",
+        "example": "お茶{ちゃ}には体{からだ}を温{あたた}める作用{さよう}がある。",
+        "example_translation": "Tea has the effect of warming the body."
+      },
+      {
+        "word": "副社長",
+        "reading": "ふくしゃちょう",
+        "meaning": "vice president (of a company)",
+        "pos": "noun",
+        "example": "会議{かいぎ}には副社長{ふくしゃちょう}も出席{しゅっせき}した。",
+        "example_translation": "The vice president also attended the meeting."
+      },
+      {
+        "word": "副業",
+        "reading": "ふくぎょう",
+        "meaning": "side job, second job",
+        "pos": "noun",
+        "example": "最近{さいきん}は副業{ふくぎょう}を認{みと}める会社{かいしゃ}が増{ふ}えている。",
+        "example_translation": "Recently more companies are allowing side jobs."
+      },
+      {
+        "word": "次世代",
+        "reading": "じせだい",
+        "meaning": "the next generation",
+        "pos": "noun",
+        "example": "美{うつく}しい自然{しぜん}を次世代{じせだい}に残{のこ}したい。",
+        "example_translation": "I want to leave beautiful nature to the next generation."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜という + noun",
+        "meaning": "the (effect / fact / news) that ~ (gives the content of the noun)",
+        "formation": "Plain form + という + noun",
+        "example": "彼{かれ}が結婚{けっこん}したという話{はなし}を聞{き}いた。",
+        "example_translation": "I heard the news that he got married."
+      },
+      {
+        "pattern": "い-adjective + くなる",
+        "meaning": "to become ~",
+        "formation": "い-adjective stem + くなる (眠い → 眠くなる)",
+        "example": "夜{よる}になって寒{さむ}くなった。",
+        "example_translation": "It got cold when night came."
+      }
+    ]
+  },
+  {
+    "id": "wf-008",
+    "section": "word_formation",
+    "question": "私{わたし}たちのチームは（　　）決勝{けっしょう}で負{ま}けて、決勝{けっしょう}には進{すす}めなかった。",
+    "choices": [
+      "準{じゅん}",
+      "副{ふく}",
+      "半{はん}",
+      "次{じ}"
+    ],
+    "answer": 0,
+    "full_sentence": "私{わたし}たちのチームは準決勝{じゅんけっしょう}で負{ま}けて、決勝{けっしょう}には進{すす}めなかった。",
+    "translation": "Our team lost in the semifinal and could not advance to the final.",
+    "explanation": "準（じゅん）means 'semi-, quasi-, next in rank (just below the full level)'. 準 + 決勝 'final' = 準決勝 'semifinal', the round just before the final. Other common 準〜 words: 準優勝（じゅんゆうしょう）'runner-up, second place', 準急（じゅんきゅう）'semi-express train', 準会員（じゅんかいいん）'associate member'. You will even see 準々決勝（じゅんじゅんけっしょう）'quarterfinal'. 半 'half' sounds logical, but 半決勝 is not a word.",
+    "choice_notes": [
+      "Correct. 準決勝（じゅんけっしょう）'semifinal'. 準 = 'semi-, next in rank'.",
+      "Wrong. 副（ふく）'vice-, secondary' makes words like 副社長 'vice president' and 副作用 'side effect', but 副決勝 is not a word.",
+      "Wrong. 半（はん）'half' makes words like 半年（はんとし）'half a year' and 半透明（はんとうめい）'semi-transparent', but 半決勝 is not a word.",
+      "Wrong. 次（じ）'next' makes words like 次世代 'next generation', but 次決勝 is not a word."
+    ],
+    "vocab": [
+      {
+        "word": "準決勝",
+        "reading": "じゅんけっしょう",
+        "meaning": "semifinal",
+        "pos": "noun",
+        "example": "準決勝{じゅんけっしょう}は来週{らいしゅう}の土曜日{どようび}に行{おこな}われる。",
+        "example_translation": "The semifinal will be held next Saturday."
+      },
+      {
+        "word": "決勝",
+        "reading": "けっしょう",
+        "meaning": "final (match), deciding game",
+        "pos": "noun",
+        "example": "決勝{けっしょう}で強{つよ}いチームと戦{たたか}うことになった。",
+        "example_translation": "We are going to face a strong team in the final."
+      },
+      {
+        "word": "進む",
+        "reading": "すすむ",
+        "meaning": "to advance, to move forward, to progress",
+        "pos": "godan verb",
+        "example": "この道{みち}をまっすぐ進{すす}むと駅{えき}に出{で}ます。",
+        "example_translation": "If you go straight along this road, you'll come out at the station."
+      },
+      {
+        "word": "準優勝",
+        "reading": "じゅんゆうしょう",
+        "meaning": "runner-up, second place",
+        "pos": "noun / suru verb",
+        "example": "弟{おとうと}はピアノのコンクールで準優勝{じゅんゆうしょう}した。",
+        "example_translation": "My younger brother came second in a piano competition."
+      },
+      {
+        "word": "半透明",
+        "reading": "はんとうめい",
+        "meaning": "semi-transparent, translucent",
+        "pos": "noun / na-adjective",
+        "example": "ゴミは半透明{はんとうめい}の袋{ふくろ}に入{い}れて出{だ}してください。",
+        "example_translation": "Please put out your garbage in translucent bags."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "Potential form (negative past)",
+        "meaning": "could not ~",
+        "formation": "Godan: final u-sound → e + る (進む → 進める → 進めなかった)",
+        "example": "昨夜{さくや}は暑{あつ}くてよく眠{ねむ}れなかった。",
+        "example_translation": "It was hot last night, so I couldn't sleep well."
+      }
+    ]
+  },
+  {
+    "id": "wf-009",
+    "section": "word_formation",
+    "question": "日本{にほん}では社会{しゃかい}の高齢{こうれい}（　　）が急速{きゅうそく}に進{すす}んでいる。",
+    "choices": [
+      "性{せい}",
+      "率{りつ}",
+      "化{か}",
+      "状{じょう}"
+    ],
+    "answer": 2,
+    "full_sentence": "日本{にほん}では社会{しゃかい}の高齢化{こうれいか}が急速{きゅうそく}に進{すす}んでいる。",
+    "translation": "In Japan, the aging of society is progressing rapidly.",
+    "explanation": "〜化（か）means '-ization, becoming ~': it turns a noun into a process of change. 高齢 'advanced age' + 化 = 高齢化 'aging (of the population)'. The verb 進む 'to progress' is a strong clue, because a process of change is what 'progresses'. Other common 〜化 words: 少子化（しょうしか）'declining birthrate', 国際化（こくさいか）'internationalization', 自動化（じどうか）'automation', 映画化（えいがか）'film adaptation'. 〜性 'quality', 〜率 'rate' and 〜状 'state, letter' do not fit.",
+    "choice_notes": [
+      "Wrong. 〜性（せい）'quality, nature' makes words like 安全性（あんぜんせい）'safety' and 可能性（かのうせい）'possibility', but 高齢性 is not a word.",
+      "Wrong. 〜率（りつ）'rate' makes words like 合格率 'pass rate'. There is 高齢化率 'aging rate' (高齢化 + 率), but 高齢率 is not a word, and a 'rate' does not 'progress'.",
+      "Correct. 高齢化（こうれいか）'aging (of society)'. 〜化 = '-ization, becoming ~'.",
+      "Wrong. 〜状（じょう）'state, shape, letter' makes words like 招待状 'invitation card' and 液状 'liquid state', but 高齢状 is not a word."
+    ],
+    "vocab": [
+      {
+        "word": "高齢化",
+        "reading": "こうれいか",
+        "meaning": "aging (of the population)",
+        "pos": "noun / suru verb",
+        "example": "高齢化{こうれいか}によって、医療費{いりょうひ}が増{ふ}えている。",
+        "example_translation": "Medical costs are increasing because of the aging population."
+      },
+      {
+        "word": "高齢",
+        "reading": "こうれい",
+        "meaning": "advanced age, old age",
+        "pos": "noun",
+        "example": "祖母{そぼ}は高齢{こうれい}だが、とても元気{げんき}だ。",
+        "example_translation": "My grandmother is elderly, but very healthy."
+      },
+      {
+        "word": "急速",
+        "reading": "きゅうそく",
+        "meaning": "rapid, swift",
+        "pos": "na-adjective",
+        "example": "インターネットは急速{きゅうそく}に広{ひろ}まった。",
+        "example_translation": "The internet spread rapidly."
+      },
+      {
+        "word": "少子化",
+        "reading": "しょうしか",
+        "meaning": "declining birthrate (fewer children)",
+        "pos": "noun",
+        "example": "少子化{しょうしか}で小学校{しょうがっこう}の数{かず}が減{へ}っている。",
+        "example_translation": "Because of the declining birthrate, the number of elementary schools is decreasing."
+      },
+      {
+        "word": "国際化",
+        "reading": "こくさいか",
+        "meaning": "internationalization, globalization",
+        "pos": "noun / suru verb",
+        "example": "大学{だいがく}の国際化{こくさいか}が進{すす}んでいる。",
+        "example_translation": "The internationalization of universities is progressing."
+      },
+      {
+        "word": "安全性",
+        "reading": "あんぜんせい",
+        "meaning": "safety (as a quality)",
+        "pos": "noun",
+        "example": "新{あたら}しい車{くるま}の安全性{あんぜんせい}をテストした。",
+        "example_translation": "They tested the safety of the new car."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜ている (ongoing change)",
+        "meaning": "is ~ing (a change in progress)",
+        "formation": "Verb て-form + いる (進む → 進んでいる)",
+        "example": "町{まち}の人口{じんこう}が少{すこ}しずつ増{ふ}えている。",
+        "example_translation": "The town's population is increasing little by little."
+      }
+    ]
+  },
+  {
+    "id": "wf-010",
+    "section": "word_formation",
+    "question": "彼女{かのじょ}は責任{せきにん}（　　）が強{つよ}いので、どんな仕事{しごと}も最後{さいご}までやり遂{と}げる。",
+    "choices": [
+      "心{しん}",
+      "観{かん}",
+      "界{かい}",
+      "感{かん}"
+    ],
+    "answer": 3,
+    "full_sentence": "彼女{かのじょ}は責任感{せきにんかん}が強{つよ}いので、どんな仕事{しごと}も最後{さいご}までやり遂{と}げる。",
+    "translation": "She has a strong sense of responsibility, so she sees every job through to the end.",
+    "explanation": "〜感（かん）means 'a sense of ~, a feeling of ~'. 責任 'responsibility' + 感 = 責任感 'sense of responsibility'. 責任感が強い 'to have a strong sense of responsibility' is a very common set phrase. Other common 〜感 words: 安心感（あんしんかん）'sense of security', 達成感（たっせいかん）'sense of achievement', 緊張感（きんちょうかん）'tension'. Be careful: 〜観 is also read かん, but it means 'view, outlook' (人生観, 価値観).",
+    "choice_notes": [
+      "Wrong. 〜心（しん）'heart, mind' makes words like 好奇心（こうきしん）'curiosity' and 自尊心（じそんしん）'self-respect', but 責任心 is not a word.",
+      "Wrong. 〜観（かん）is a homophone meaning 'view, outlook', as in 人生観（じんせいかん）'view of life' and 価値観（かちかん）'values'. 責任観 is not a word.",
+      "Wrong. 〜界（かい）'world, circle' makes words like 芸能界（げいのうかい）'show business', but 責任界 is not a word.",
+      "Correct. 責任感（せきにんかん）'sense of responsibility'. 〜感 = 'sense, feeling'."
+    ],
+    "vocab": [
+      {
+        "word": "責任感",
+        "reading": "せきにんかん",
+        "meaning": "sense of responsibility",
+        "pos": "noun",
+        "example": "リーダーには責任感{せきにんかん}が必要{ひつよう}だ。",
+        "example_translation": "A leader needs a sense of responsibility."
+      },
+      {
+        "word": "やり遂げる",
+        "reading": "やりとげる",
+        "meaning": "to accomplish, to carry through to the end",
+        "pos": "ichidan verb",
+        "example": "一度{いちど}始{はじ}めたことは最後{さいご}までやり遂{と}げたい。",
+        "example_translation": "I want to see through to the end whatever I start."
+      },
+      {
+        "word": "達成感",
+        "reading": "たっせいかん",
+        "meaning": "sense of achievement",
+        "pos": "noun",
+        "example": "山{やま}の頂上{ちょうじょう}に着{つ}いて、大{おお}きな達成感{たっせいかん}を味{あじ}わった。",
+        "example_translation": "Reaching the summit, I felt a great sense of achievement."
+      },
+      {
+        "word": "価値観",
+        "reading": "かちかん",
+        "meaning": "values, sense of values",
+        "pos": "noun",
+        "example": "人{ひと}によって価値観{かちかん}は違{ちが}う。",
+        "example_translation": "Values differ from person to person."
+      },
+      {
+        "word": "好奇心",
+        "reading": "こうきしん",
+        "meaning": "curiosity",
+        "pos": "noun",
+        "example": "子{こ}どもは好奇心{こうきしん}が強{つよ}い。",
+        "example_translation": "Children have strong curiosity."
+      },
+      {
+        "word": "芸能界",
+        "reading": "げいのうかい",
+        "meaning": "the entertainment world, show business",
+        "pos": "noun",
+        "example": "彼女{かのじょ}は十五歳{じゅうごさい}で芸能界{げいのうかい}に入{はい}った。",
+        "example_translation": "She entered show business at fifteen."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "どんな〜も",
+        "meaning": "any ~, every ~ (no matter what kind)",
+        "formation": "どんな + noun + も",
+        "example": "彼{かれ}はどんな料理{りょうり}もおいしそうに食{た}べる。",
+        "example_translation": "He eats any kind of food as if it tastes delicious."
+      }
+    ]
+  },
+  {
+    "id": "wf-011",
+    "section": "word_formation",
+    "question": "子{こ}どもは想像{そうぞう}（　　）が豊{ゆた}かで、大人{おとな}が思{おも}いつかないような話{はなし}を作{つく}る。",
+    "choices": [
+      "力{りょく}",
+      "感{かん}",
+      "観{かん}",
+      "率{りつ}"
+    ],
+    "answer": 0,
+    "full_sentence": "子{こ}どもは想像力{そうぞうりょく}が豊{ゆた}かで、大人{おとな}が思{おも}いつかないような話{はなし}を作{つく}る。",
+    "translation": "Children have rich imaginations and make up stories that adults would never think of.",
+    "explanation": "〜力（りょく）means 'power, ability (to do ~)'. 想像 'imagination, imagining' + 力 = 想像力 'imaginative power, imagination'. 想像力が豊か 'to have a rich imagination' is a very common set phrase. Other common 〜力 words: 集中力（しゅうちゅうりょく）'concentration', 記憶力（きおくりょく）'memory', 判断力（はんだんりょく）'judgment', 経済力（けいざいりょく）'economic power'. Note that 力 is read りょく in these words, not ちから.",
+    "choice_notes": [
+      "Correct. 想像力（そうぞうりょく）'imagination, imaginative power'. 〜力 = 'ability'.",
+      "Wrong. 〜感（かん）'sense, feeling' makes words like 責任感 'sense of responsibility' and 安心感 'sense of security', but 想像感 is not a word.",
+      "Wrong. 〜観（かん）'view, outlook' makes words like 人生観 'view of life' and 価値観 'values', but 想像観 is not a word.",
+      "Wrong. 〜率（りつ）'rate' makes words like 合格率 'pass rate', but 想像率 is not a word."
+    ],
+    "vocab": [
+      {
+        "word": "想像力",
+        "reading": "そうぞうりょく",
+        "meaning": "imagination, imaginative power",
+        "pos": "noun",
+        "example": "小説家{しょうせつか}には想像力{そうぞうりょく}が欠{か}かせない。",
+        "example_translation": "Imagination is essential for a novelist."
+      },
+      {
+        "word": "想像",
+        "reading": "そうぞう",
+        "meaning": "imagination, imagining",
+        "pos": "noun / suru verb",
+        "example": "十年後{じゅうねんご}の自分{じぶん}を想像{そうぞう}してみた。",
+        "example_translation": "I tried to imagine myself ten years from now."
+      },
+      {
+        "word": "思いつく",
+        "reading": "おもいつく",
+        "meaning": "to think of, to come up with (an idea)",
+        "pos": "godan verb",
+        "example": "お風呂{ふろ}に入{はい}っているとき、いいアイデアを思{おも}いついた。",
+        "example_translation": "I came up with a good idea while taking a bath."
+      },
+      {
+        "word": "集中力",
+        "reading": "しゅうちゅうりょく",
+        "meaning": "(power of) concentration",
+        "pos": "noun",
+        "example": "寝不足{ねぶそく}だと集中力{しゅうちゅうりょく}が続{つづ}かない。",
+        "example_translation": "When I lack sleep, my concentration doesn't last."
+      },
+      {
+        "word": "記憶力",
+        "reading": "きおくりょく",
+        "meaning": "memory (ability to remember)",
+        "pos": "noun",
+        "example": "祖父{そふ}は九十歳{きゅうじゅっさい}だが、記憶力{きおくりょく}がいい。",
+        "example_translation": "My grandfather is ninety, but he has a good memory."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜ような + noun",
+        "meaning": "a ~ such that ~, a ~ like ~ (describes a noun by example or degree)",
+        "formation": "Plain form / noun + の + ような + noun",
+        "example": "夢{ゆめ}のような時間{じかん}を過{す}ごした。",
+        "example_translation": "I spent a dreamlike time."
+      },
+      {
+        "pattern": "な-adjective + で",
+        "meaning": "~ and (connects a な-adjective to the next clause)",
+        "formation": "な-adjective stem + で (豊か → 豊かで)",
+        "example": "この部屋{へや}はきれいで、明{あか}るい。",
+        "example_translation": "This room is clean and bright."
+      }
+    ]
+  },
+  {
+    "id": "wf-012",
+    "section": "word_formation",
+    "question": "この資格{しかく}試験{しけん}の合格{ごうかく}（　　）は、毎年{まいとし}二十{にじゅっ}パーセント程度{ていど}だ。",
+    "choices": [
+      "割{わり}",
+      "率{りつ}",
+      "比{ひ}",
+      "度{ど}"
+    ],
+    "answer": 1,
+    "full_sentence": "この資格{しかく}試験{しけん}の合格率{ごうかくりつ}は、毎年{まいとし}二十{にじゅっ}パーセント程度{ていど}だ。",
+    "translation": "The pass rate for this certification exam is about 20 percent every year.",
+    "explanation": "〜率（りつ）means 'rate, ratio, percentage'. 合格 'passing (an exam)' + 率 = 合格率 'pass rate'. The word パーセント in the sentence is a strong clue that we need a 'rate'. Other common 〜率 words: 失業率（しつぎょうりつ）'unemployment rate', 投票率（とうひょうりつ）'voter turnout', 視聴率（しちょうりつ）'TV ratings', 出生率（しゅっしょうりつ）'birthrate'. 割, 比 and 度 have related meanings ('ten percent', 'ratio', 'degree') but do not combine with 合格.",
+    "choice_notes": [
+      "Wrong. 割（わり）is a unit meaning 'ten percent' (三割 '30 percent'), and it comes after numbers, not after 合格. 合格割 is not a word.",
+      "Correct. 合格率（ごうかくりつ）'pass rate'. 〜率 = 'rate'.",
+      "Wrong. 〜比（ひ）'ratio, compared with' makes words like 前年比（ぜんねんひ）'compared with the previous year', but 合格比 is not a word.",
+      "Wrong. 〜度（ど）'degree, level' makes words like 満足度（まんぞくど）'level of satisfaction' and 知名度（ちめいど）'name recognition', but 合格度 is not a word."
+    ],
+    "vocab": [
+      {
+        "word": "合格率",
+        "reading": "ごうかくりつ",
+        "meaning": "pass rate, success rate (of an exam)",
+        "pos": "noun",
+        "example": "この学校{がっこう}は大学{だいがく}の合格率{ごうかくりつ}が高{たか}い。",
+        "example_translation": "This school has a high university acceptance rate."
+      },
+      {
+        "word": "資格",
+        "reading": "しかく",
+        "meaning": "qualification, certification, license",
+        "pos": "noun",
+        "example": "看護師{かんごし}の資格{しかく}を取{と}るために勉強{べんきょう}している。",
+        "example_translation": "I am studying to get a nursing qualification."
+      },
+      {
+        "word": "程度",
+        "reading": "ていど",
+        "meaning": "about, approximately (after a number); degree, level",
+        "pos": "noun / suffix",
+        "example": "駅{えき}まで歩{ある}いて十分{じゅっぷん}程度{ていど}です。",
+        "example_translation": "It's about ten minutes on foot to the station."
+      },
+      {
+        "word": "失業率",
+        "reading": "しつぎょうりつ",
+        "meaning": "unemployment rate",
+        "pos": "noun",
+        "example": "景気{けいき}が悪{わる}くなり、失業率{しつぎょうりつ}が上{あ}がった。",
+        "example_translation": "The economy got worse and the unemployment rate rose."
+      },
+      {
+        "word": "満足度",
+        "reading": "まんぞくど",
+        "meaning": "level of satisfaction",
+        "pos": "noun",
+        "example": "お客様{きゃくさま}の満足度{まんぞくど}を調査{ちょうさ}した。",
+        "example_translation": "We surveyed customer satisfaction."
+      },
+      {
+        "word": "前年比",
+        "reading": "ぜんねんひ",
+        "meaning": "compared with the previous year",
+        "pos": "noun",
+        "example": "今年{ことし}の売{う}り上{あ}げは前年比{ぜんねんひ}で一割{いちわり}増{ふ}えた。",
+        "example_translation": "This year's sales rose ten percent compared with last year."
+      }
+    ],
+    "grammar": []
+  },
+  {
+    "id": "wf-013",
+    "section": "word_formation",
+    "question": "東京{とうきょう}は家賃{やちん}が高{たか}いので、地方{ちほう}に比{くら}べて生活{せいかつ}（　　）がかかる。",
+    "choices": [
+      "料{りょう}",
+      "代{だい}",
+      "賃{ちん}",
+      "費{ひ}"
+    ],
+    "answer": 3,
+    "full_sentence": "東京{とうきょう}は家賃{やちん}が高{たか}いので、地方{ちほう}に比{くら}べて生活費{せいかつひ}がかかる。",
+    "translation": "Rent is high in Tokyo, so living costs more than in the provinces.",
+    "explanation": "Japanese has several 'money' suffixes, and N2 tests which one goes with which word. 〜費（ひ）is the cost or expenses needed for an activity or purpose: 生活費 'living expenses', 交通費 'transportation costs', 食費 'food expenses', 医療費 'medical costs'. 〜料（りょう）is a fee paid for a service or for using something: 授業料 'tuition', 手数料 'handling fee'. 〜代（だい）is the price paid for goods or usage, often in everyday speech: 電気代 'electricity bill', 部屋代 'room charge'. 〜賃（ちん）is for wages, fares and rent: 家賃 'rent' (in this very sentence!), 運賃 'fare'. Each word takes a fixed suffix, so learn them as whole words.",
+    "choice_notes": [
+      "Wrong. 〜料 makes words like 授業料（じゅぎょうりょう）'tuition' and 入場料（にゅうじょうりょう）'admission fee', but 生活料 is not a word.",
+      "Wrong. 〜代 makes words like 電気代（でんきだい）'electricity bill' and 食事代（しょくじだい）'meal charge', but 生活代 is not a word.",
+      "Wrong. 〜賃 makes words like 家賃（やちん）'rent' and 運賃（うんちん）'fare', but 生活賃 is not a word.",
+      "Correct. 生活費（せいかつひ）'living expenses, cost of living'."
+    ],
+    "vocab": [
+      {
+        "word": "生活費",
+        "reading": "せいかつひ",
+        "meaning": "living expenses, cost of living",
+        "pos": "noun",
+        "example": "アルバイトをして生活費{せいかつひ}を稼{かせ}いでいる。",
+        "example_translation": "I earn my living expenses with a part-time job."
+      },
+      {
+        "word": "家賃",
+        "reading": "やちん",
+        "meaning": "rent (for a house or apartment)",
+        "pos": "noun",
+        "example": "毎月{まいつき}二十五日{にじゅうごにち}に家賃{やちん}を払{はら}う。",
+        "example_translation": "I pay rent on the 25th of every month."
+      },
+      {
+        "word": "地方",
+        "reading": "ちほう",
+        "meaning": "the provinces, regions outside big cities",
+        "pos": "noun",
+        "example": "定年後{ていねんご}は地方{ちほう}でのんびり暮{く}らしたい。",
+        "example_translation": "After retirement I want to live a relaxed life in the countryside."
+      },
+      {
+        "word": "交通費",
+        "reading": "こうつうひ",
+        "meaning": "transportation costs, travel expenses",
+        "pos": "noun",
+        "example": "交通費{こうつうひ}は会社{かいしゃ}が払{はら}ってくれる。",
+        "example_translation": "The company pays my transportation costs."
+      },
+      {
+        "word": "電気代",
+        "reading": "でんきだい",
+        "meaning": "electricity bill",
+        "pos": "noun",
+        "example": "夏{なつ}はエアコンを使{つか}うので電気代{でんきだい}が高{たか}くなる。",
+        "example_translation": "The electricity bill goes up in summer because we use the air conditioner."
+      },
+      {
+        "word": "運賃",
+        "reading": "うんちん",
+        "meaning": "fare (for transport), freight charges",
+        "pos": "noun",
+        "example": "来月{らいげつ}からバスの運賃{うんちん}が上{あ}がる。",
+        "example_translation": "Bus fares go up from next month."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜に比べて",
+        "meaning": "compared with ~",
+        "formation": "Noun + に比べて / に比べると",
+        "example": "今年{ことし}の夏{なつ}は去年{きょねん}に比{くら}べて暑{あつ}い。",
+        "example_translation": "This summer is hotter than last year."
+      }
+    ]
+  },
+  {
+    "id": "wf-014",
+    "section": "word_formation",
+    "question": "夜{よる}や休日{きゅうじつ}にATMでお金{かね}を引{ひ}き出{だ}すと、手数{てすう}（　　）がかかる。",
+    "choices": [
+      "料{りょう}",
+      "費{ひ}",
+      "代{だい}",
+      "賃{ちん}"
+    ],
+    "answer": 0,
+    "full_sentence": "夜{よる}や休日{きゅうじつ}にATMでお金{かね}を引{ひ}き出{だ}すと、手数料{てすうりょう}がかかる。",
+    "translation": "If you withdraw money from an ATM at night or on holidays, there is a handling fee.",
+    "explanation": "〜料（りょう）is a fee paid for receiving a service or for using something. 手数 'trouble, handling' + 料 = 手数料 'handling fee, commission' - the fee for the bank's trouble. Other common 〜料 words: 授業料（じゅぎょうりょう）'tuition', 入場料（にゅうじょうりょう）'admission fee', 送料（そうりょう）'shipping fee', 使用料（しようりょう）'usage fee'. Compare 〜費 (expenses for a purpose: 生活費), 〜代 (price of goods or usage: 電気代) and 〜賃 (wages, fares, rent: 家賃). 手数料 always takes 料.",
+    "choice_notes": [
+      "Correct. 手数料（てすうりょう）'handling fee, commission'.",
+      "Wrong. 〜費 makes words like 交通費（こうつうひ）'transportation costs' and 食費（しょくひ）'food expenses', but 手数費 is not a word.",
+      "Wrong. 〜代 makes words like 部屋代（へやだい）'room charge' and バス代 'bus fare', but 手数代 is not a word.",
+      "Wrong. 〜賃 makes words like 家賃（やちん）'rent' and 運賃（うんちん）'fare', but 手数賃 is not a word."
+    ],
+    "vocab": [
+      {
+        "word": "手数料",
+        "reading": "てすうりょう",
+        "meaning": "handling fee, service charge, commission",
+        "pos": "noun",
+        "example": "海外{かいがい}に送金{そうきん}すると手数料{てすうりょう}が高{たか}い。",
+        "example_translation": "Sending money overseas comes with a high fee."
+      },
+      {
+        "word": "休日",
+        "reading": "きゅうじつ",
+        "meaning": "holiday, day off",
+        "pos": "noun",
+        "example": "休日{きゅうじつ}は家{いえ}でゆっくり過{す}ごすことが多{おお}い。",
+        "example_translation": "On my days off I often relax at home."
+      },
+      {
+        "word": "引き出す",
+        "reading": "ひきだす",
+        "meaning": "to withdraw (money); to draw out",
+        "pos": "godan verb",
+        "example": "銀行{ぎんこう}で三万円{さんまんえん}を引{ひ}き出{だ}した。",
+        "example_translation": "I withdrew 30,000 yen at the bank."
+      },
+      {
+        "word": "送料",
+        "reading": "そうりょう",
+        "meaning": "shipping fee, postage",
+        "pos": "noun",
+        "example": "五千円{ごせんえん}以上{いじょう}買{か}うと送料{そうりょう}が無料{むりょう}になる。",
+        "example_translation": "If you buy 5,000 yen or more, shipping is free."
+      },
+      {
+        "word": "入場料",
+        "reading": "にゅうじょうりょう",
+        "meaning": "admission fee, entrance fee",
+        "pos": "noun",
+        "example": "この美術館{びじゅつかん}の入場料{にゅうじょうりょう}は千円{せんえん}だ。",
+        "example_translation": "The admission fee for this art museum is 1,000 yen."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜と (condition / natural result)",
+        "meaning": "if ~, when ~ (then a certain result always follows)",
+        "formation": "Verb dictionary form + と",
+        "example": "このボタンを押{お}すと、お湯{ゆ}が出{で}る。",
+        "example_translation": "When you press this button, hot water comes out."
+      }
+    ]
+  },
+  {
+    "id": "wf-015",
+    "section": "word_formation",
+    "question": "駅{えき}の前{まえ}で、会社員{かいしゃいん}（　　）の男性{だんせい}に道{みち}を聞{き}かれた。",
+    "choices": [
+      "派{は}",
+      "式{しき}",
+      "風{ふう}",
+      "型{がた}"
+    ],
+    "answer": 2,
+    "full_sentence": "駅{えき}の前{まえ}で、会社員{かいしゃいん}風{ふう}の男性{だんせい}に道{みち}を聞{き}かれた。",
+    "translation": "In front of the station, a man who looked like an office worker asked me for directions.",
+    "explanation": "〜風（ふう）means 'looking like ~, ~ style'. After a type of person it means 'someone who appears to be ~': 会社員風の男性 'a man who looked like an office worker', 学生風の若者 'a young person who looked like a student'. After a place or era it means 'in the style of': 和風（わふう）'Japanese style', 洋風（ようふう）'Western style'. The other suffixes describe groups (派), methods (式) and types or models (型), and none of them fits 'looking like an office worker'.",
+    "choice_notes": [
+      "Wrong. 〜派（は）'faction, group, type of person who prefers ~' makes words like 慎重派（しんちょうは）'the cautious camp' and 反対派（はんたいは）'the opposition', but 会社員派 is not used.",
+      "Wrong. 〜式（しき）'method, style, ceremony' makes words like 日本式（にほんしき）'Japanese method', 和式（わしき）'Japanese-style (toilet etc.)' and 卒業式 'graduation ceremony', but 会社員式 is not a word.",
+      "Correct. 会社員風（かいしゃいんふう）'looking like an office worker'.",
+      "Wrong. 〜型（がた）'type, model' makes words like 最新型（さいしんがた）'latest model' and 血液型（けつえきがた）'blood type', but 会社員型 is not used."
+    ],
+    "vocab": [
+      {
+        "word": "〜風",
+        "reading": "ふう",
+        "meaning": "looking like ~, ~ style, in the manner of ~",
+        "pos": "suffix",
+        "example": "観光客{かんこうきゃく}風{ふう}の女性{じょせい}が写真{しゃしん}を撮{と}っていた。",
+        "example_translation": "A woman who looked like a tourist was taking pictures."
+      },
+      {
+        "word": "男性",
+        "reading": "だんせい",
+        "meaning": "man, male",
+        "pos": "noun",
+        "example": "受付{うけつけ}に背{せ}の高{たか}い男性{だんせい}が来{き}た。",
+        "example_translation": "A tall man came to the reception."
+      },
+      {
+        "word": "和風",
+        "reading": "わふう",
+        "meaning": "Japanese style",
+        "pos": "noun",
+        "example": "和風{わふう}のレストランで天{てん}ぷらを食{た}べた。",
+        "example_translation": "I ate tempura at a Japanese-style restaurant."
+      },
+      {
+        "word": "慎重派",
+        "reading": "しんちょうは",
+        "meaning": "the cautious camp, a cautious person",
+        "pos": "noun",
+        "example": "私{わたし}は慎重派{しんちょうは}なので、すぐには決{き}めない。",
+        "example_translation": "I'm the cautious type, so I don't decide right away."
+      },
+      {
+        "word": "和式",
+        "reading": "わしき",
+        "meaning": "Japanese style (of facilities, methods)",
+        "pos": "noun",
+        "example": "古{ふる}い駅{えき}には和式{わしき}のトイレがまだある。",
+        "example_translation": "Old stations still have Japanese-style toilets."
+      },
+      {
+        "word": "最新型",
+        "reading": "さいしんがた",
+        "meaning": "the latest model",
+        "pos": "noun",
+        "example": "最新型{さいしんがた}のスマホを買{か}った。",
+        "example_translation": "I bought the latest model of smartphone."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜（ら）れる (passive)",
+        "meaning": "to be ~ed by someone (here: 'I was asked by a man')",
+        "formation": "Godan: ない-stem + れる (聞く → 聞かれる); agent marked with に",
+        "example": "知{し}らない人{ひと}に名前{なまえ}を呼{よ}ばれた。",
+        "example_translation": "I was called by name by a stranger."
+      }
+    ]
+  },
+  {
+    "id": "wf-016",
+    "section": "word_formation",
+    "question": "この本{ほん}との出会{であ}いで、私{わたし}の人生{じんせい}（　　）は大{おお}きく変{か}わった。",
+    "choices": [
+      "感{かん}",
+      "観{かん}",
+      "見{けん}",
+      "視{し}"
+    ],
+    "answer": 1,
+    "full_sentence": "この本{ほん}との出会{であ}いで、私{わたし}の人生観{じんせいかん}は大{おお}きく変{か}わった。",
+    "translation": "Encountering this book greatly changed my view of life.",
+    "explanation": "〜観（かん）means 'view, outlook, way of seeing ~'. 人生 'life' + 観 = 人生観 'view of life, philosophy of life'. The kanji 観 means 'to look at, to view', as in 観光（かんこう）'sightseeing' and 観察（かんさつ）'observation'. Other common 〜観 words: 価値観（かちかん）'values', 世界観（せかいかん）'worldview', 結婚観（けっこんかん）'views on marriage'. The biggest trap is 〜感, which has the same reading かん but means 'feeling, sense' (責任感, 安心感). A view of life is a way of seeing, not a feeling, so 観 is correct.",
+    "choice_notes": [
+      "Wrong. 〜感（かん）is a homophone meaning 'feeling, sense', as in 安心感 'sense of security' and 達成感 'sense of achievement'. 人生感 is not standard.",
+      "Correct. 人生観（じんせいかん）'view of life'. 〜観 = 'view, outlook'.",
+      "Wrong. 見 appears in fixed words like 意見（いけん）'opinion' and 偏見（へんけん）'prejudice', but it is not used as a suffix here. 人生見 is not a word.",
+      "Wrong. 〜視（し）'regarding as ~' makes words like 問題視（もんだいし）'regarding as a problem' and 重視（じゅうし）'emphasis', but 人生視 is not a word."
+    ],
+    "vocab": [
+      {
+        "word": "人生観",
+        "reading": "じんせいかん",
+        "meaning": "view of life, outlook on life",
+        "pos": "noun",
+        "example": "大{おお}きな病気{びょうき}をして、人生観{じんせいかん}が変{か}わった。",
+        "example_translation": "After a serious illness, my outlook on life changed."
+      },
+      {
+        "word": "出会い",
+        "reading": "であい",
+        "meaning": "encounter, meeting (for the first time)",
+        "pos": "noun",
+        "example": "先生{せんせい}との出会{であ}いが私{わたし}の人生{じんせい}を変{か}えた。",
+        "example_translation": "Meeting that teacher changed my life."
+      },
+      {
+        "word": "人生",
+        "reading": "じんせい",
+        "meaning": "(a person's) life",
+        "pos": "noun",
+        "example": "人生{じんせい}は一度{いちど}しかない。",
+        "example_translation": "You only live once."
+      },
+      {
+        "word": "世界観",
+        "reading": "せかいかん",
+        "meaning": "worldview; the world (of a story, a game)",
+        "pos": "noun",
+        "example": "この映画{えいが}の世界観{せかいかん}が好{す}きだ。",
+        "example_translation": "I love the world this movie creates."
+      },
+      {
+        "word": "問題視",
+        "reading": "もんだいし",
+        "meaning": "regarding as a problem",
+        "pos": "noun / suru verb",
+        "example": "子{こ}どものスマホの使{つか}いすぎが問題視{もんだいし}されている。",
+        "example_translation": "Children's overuse of smartphones is seen as a problem."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "Noun + で (cause)",
+        "meaning": "because of ~, through ~",
+        "formation": "Noun + で",
+        "example": "その事故{じこ}で、町{まち}の生活{せいかつ}は大{おお}きく変{か}わった。",
+        "example_translation": "Life in the town changed greatly because of that accident."
+      },
+      {
+        "pattern": "〜との + noun",
+        "meaning": "(a meeting / relationship) with ~",
+        "formation": "Noun + との + noun (人との出会い, 家族との時間)",
+        "example": "家族{かぞく}との時間{じかん}を大切{たいせつ}にしたい。",
+        "example_translation": "I want to treasure my time with my family."
+      }
+    ]
+  },
+  {
+    "id": "wf-017",
+    "section": "word_formation",
+    "question": "大学{だいがく}時代{じだい}の友人{ゆうじん}から、結婚式{けっこんしき}の招待{しょうたい}（　　）が届{とど}いた。",
+    "choices": [
+      "書{しょ}",
+      "票{ひょう}",
+      "紙{し}",
+      "状{じょう}"
+    ],
+    "answer": 3,
+    "full_sentence": "大学{だいがく}時代{じだい}の友人{ゆうじん}から、結婚式{けっこんしき}の招待状{しょうたいじょう}が届{とど}いた。",
+    "translation": "I received a wedding invitation from a friend from my university days.",
+    "explanation": "〜状（じょう）has two main uses. (1) A letter or written message sent to someone: 招待 'invitation' + 状 = 招待状 'letter of invitation'. Other examples: 年賀状（ねんがじょう）'New Year's card', 紹介状（しょうかいじょう）'letter of introduction', 礼状（れいじょう）'thank-you letter'. (2) A shape or state: 液状（えきじょう）'liquid form', 現状（げんじょう）'present situation'. 〜書 is also a document suffix (申込書 'application form'), but it is for forms and reports, and 招待書 is not used.",
+    "choice_notes": [
+      "Wrong. 〜書（しょ）'document' makes words like 申込書（もうしこみしょ）'application form' and 報告書（ほうこくしょ）'report', but 招待書 is not standard.",
+      "Wrong. 〜票（ひょう）'slip, ballot' makes words like 伝票（でんぴょう）'sales slip' and 投票（とうひょう）'vote', but 招待票 is not a word.",
+      "Wrong. 〜紙（し）'paper' makes words like 用紙（ようし）'form, sheet' and 新聞紙（しんぶんし）'newspaper', but 招待紙 is not a word.",
+      "Correct. 招待状（しょうたいじょう）'letter of invitation, invitation card'."
+    ],
+    "vocab": [
+      {
+        "word": "招待状",
+        "reading": "しょうたいじょう",
+        "meaning": "invitation (letter, card)",
+        "pos": "noun",
+        "example": "パーティーの招待状{しょうたいじょう}を五十人{ごじゅうにん}に送{おく}った。",
+        "example_translation": "I sent party invitations to fifty people."
+      },
+      {
+        "word": "招待",
+        "reading": "しょうたい",
+        "meaning": "invitation",
+        "pos": "noun / suru verb",
+        "example": "友達{ともだち}を家{いえ}に招待{しょうたい}して、料理{りょうり}を作{つく}った。",
+        "example_translation": "I invited friends to my home and cooked for them."
+      },
+      {
+        "word": "時代",
+        "reading": "じだい",
+        "meaning": "period, era, days (of one's life)",
+        "pos": "noun",
+        "example": "高校{こうこう}時代{じだい}はサッカー部{ぶ}だった。",
+        "example_translation": "In my high school days, I was in the soccer club."
+      },
+      {
+        "word": "結婚式",
+        "reading": "けっこんしき",
+        "meaning": "wedding ceremony",
+        "pos": "noun",
+        "example": "姉{あね}の結婚式{けっこんしき}でスピーチをした。",
+        "example_translation": "I gave a speech at my sister's wedding."
+      },
+      {
+        "word": "年賀状",
+        "reading": "ねんがじょう",
+        "meaning": "New Year's greeting card",
+        "pos": "noun",
+        "example": "毎年{まいとし}、百枚{ひゃくまい}ぐらい年賀状{ねんがじょう}を書{か}く。",
+        "example_translation": "Every year I write about a hundred New Year's cards."
+      },
+      {
+        "word": "申込書",
+        "reading": "もうしこみしょ",
+        "meaning": "application form",
+        "pos": "noun",
+        "example": "申込書{もうしこみしょ}に名前{なまえ}と住所{じゅうしょ}を書{か}いてください。",
+        "example_translation": "Please write your name and address on the application form."
+      }
+    ],
+    "grammar": []
+  },
+  {
+    "id": "wf-018",
+    "section": "word_formation",
+    "question": "使用{しよう}（　　）の電池{でんち}は、決{き}められた日{ひ}にゴミとして出{だ}してください。",
+    "choices": [
+      "済{ず}み",
+      "切{ぎ}れ",
+      "終{お}わり",
+      "上{あ}がり"
+    ],
+    "answer": 0,
+    "full_sentence": "使用済{しようず}みの電池{でんち}は、決{き}められた日{ひ}にゴミとして出{だ}してください。",
+    "translation": "Please put out used batteries as garbage on the designated day.",
+    "explanation": "〜済み（ずみ）means 'already done, finished'. It attaches to action nouns (often する-verbs): 使用 'use' + 済み = 使用済み 'used, already used'. Note the sound change: すみ becomes ずみ. Other common 〜済み words: 確認済み（かくにんずみ）'already checked', 支払い済み（しはらいずみ）'paid', 予約済み（よやくずみ）'reserved'. 〜切れ means 'run out, expired' (期限切れ 'expired'), and 〜上がり means 'just after ~' (雨上がり 'just after the rain'). They do not fit 使用.",
+    "choice_notes": [
+      "Correct. 使用済み（しようずみ）'used, already used'. 使用済みの電池 'used batteries'.",
+      "Wrong. 〜切れ（ぎれ）'run out, expired' makes words like 期限切れ（きげんぎれ）'expired' and 品切れ（しなぎれ）'out of stock', but 使用切れ is not a word.",
+      "Wrong. 終わり is 'the end'. It follows verb stems (読み終わり 'finishing reading'), but 使用終わり is not used. Use 使用済み.",
+      "Wrong. 〜上がり（あがり）'just after ~' makes words like 雨上がり（あめあがり）'after the rain' and 病み上がり（やみあがり）'just recovered from illness', but 使用上がり is not a word."
+    ],
+    "vocab": [
+      {
+        "word": "使用済み",
+        "reading": "しようずみ",
+        "meaning": "used, already used",
+        "pos": "noun",
+        "example": "使用済{しようず}みの切手{きって}を集{あつ}めている。",
+        "example_translation": "I collect used stamps."
+      },
+      {
+        "word": "使用",
+        "reading": "しよう",
+        "meaning": "use, usage",
+        "pos": "noun / suru verb",
+        "example": "館内{かんない}での携帯電話{けいたいでんわ}の使用{しよう}はご遠慮{えんりょ}ください。",
+        "example_translation": "Please refrain from using mobile phones inside the building."
+      },
+      {
+        "word": "電池",
+        "reading": "でんち",
+        "meaning": "battery",
+        "pos": "noun",
+        "example": "時計{とけい}の電池{でんち}が切{き}れた。",
+        "example_translation": "The battery in my clock ran out."
+      },
+      {
+        "word": "確認済み",
+        "reading": "かくにんずみ",
+        "meaning": "already checked, confirmed",
+        "pos": "noun",
+        "example": "この書類{しょるい}は部長{ぶちょう}が確認済{かくにんず}みだ。",
+        "example_translation": "This document has already been checked by the department manager."
+      },
+      {
+        "word": "期限切れ",
+        "reading": "きげんぎれ",
+        "meaning": "expired, past the deadline",
+        "pos": "noun",
+        "example": "冷蔵庫{れいぞうこ}に期限切{きげんぎ}れの牛乳{ぎゅうにゅう}があった。",
+        "example_translation": "There was expired milk in the fridge."
+      },
+      {
+        "word": "雨上がり",
+        "reading": "あめあがり",
+        "meaning": "just after the rain",
+        "pos": "noun",
+        "example": "雨上{あめあ}がりの空{そら}に虹{にじ}が出{で}た。",
+        "example_translation": "A rainbow appeared in the sky after the rain."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜として",
+        "meaning": "as ~, in the role / category of ~",
+        "formation": "Noun + として",
+        "example": "彼{かれ}は通訳{つうやく}として会議{かいぎ}に参加{さんか}した。",
+        "example_translation": "He took part in the meeting as an interpreter."
+      },
+      {
+        "pattern": "〜られた + noun (passive modifier)",
+        "meaning": "the ~ that has been ~ed (決められた日 'the designated day')",
+        "formation": "Passive verb plain form + noun",
+        "example": "これは百年前{ひゃくねんまえ}に建{た}てられた家{いえ}だ。",
+        "example_translation": "This is a house that was built a hundred years ago."
+      }
+    ]
+  },
+  {
+    "id": "wf-019",
+    "section": "word_formation",
+    "question": "弟{おとうと}は体{からだ}が弱{よわ}く、子{こ}どものころは学校{がっこう}を休{やす}み（　　）だった。",
+    "choices": [
+      "気味{ぎみ}",
+      "がち",
+      "っぽい",
+      "やすい"
+    ],
+    "answer": 1,
+    "full_sentence": "弟{おとうと}は体{からだ}が弱{よわ}く、子{こ}どものころは学校{がっこう}を休{やす}みがちだった。",
+    "translation": "My younger brother was physically weak, and as a child he was often absent from school.",
+    "explanation": "〜がち means 'tend to ~, often ~', usually about something negative that happens repeatedly. It attaches to a verb ます-stem or a noun and works like a な-adjective: 休みがちだ 'tends to be absent', 遅れがちだ 'tends to be late', 病気がちだ 'often sick', 曇りがち 'often cloudy'. The sentence describes a repeated situation over a period (子どものころ), so がち is correct. Grammar also helps: っぽい and やすい are い-adjectives, so they cannot be followed by だった.",
+    "choice_notes": [
+      "Wrong. 〜気味（ぎみ）'slightly ~, a touch of ~' describes a mild state at one time (風邪気味 'a slight cold', 疲れ気味 'a bit tired'). 休み気味 is not natural.",
+      "Correct. 休みがち 'often absent'. 〜がち = 'tend to ~ (negative)'.",
+      "Wrong. 〜っぽい '-ish, easily ~' makes words like 忘れっぽい 'forgetful', but 休みっぽい is not a word. Also, っぽい is an い-adjective, so っぽいだった is ungrammatical.",
+      "Wrong. 〜やすい 'easy to ~' is an い-adjective, so 休みやすいだった is ungrammatical (it would be 休みやすかった, 'it was easy to take time off', a different meaning)."
+    ],
+    "vocab": [
+      {
+        "word": "休みがち",
+        "reading": "やすみがち",
+        "meaning": "often absent, tending to stay away",
+        "pos": "na-adjective",
+        "example": "彼{かれ}は最近{さいきん}、会社{かいしゃ}を休{やす}みがちだ。",
+        "example_translation": "He's been absent from work a lot lately."
+      },
+      {
+        "word": "体が弱い",
+        "reading": "からだがよわい",
+        "meaning": "to be physically weak, sickly",
+        "pos": "expression",
+        "example": "体{からだ}が弱{よわ}かったので、よく病院{びょういん}に通{かよ}った。",
+        "example_translation": "I was sickly, so I often went to the hospital."
+      },
+      {
+        "word": "病気がち",
+        "reading": "びょうきがち",
+        "meaning": "sickly, often ill",
+        "pos": "na-adjective",
+        "example": "祖母{そぼ}は最近{さいきん}病気{びょうき}がちだ。",
+        "example_translation": "My grandmother has been often ill lately."
+      },
+      {
+        "word": "遅れがち",
+        "reading": "おくれがち",
+        "meaning": "tending to be late or behind",
+        "pos": "na-adjective",
+        "example": "冬{ふゆ}は雪{ゆき}で電車{でんしゃ}が遅{おく}れがちだ。",
+        "example_translation": "In winter, trains tend to be delayed by snow."
+      },
+      {
+        "word": "風邪気味",
+        "reading": "かぜぎみ",
+        "meaning": "having a slight cold",
+        "pos": "noun / na-adjective",
+        "example": "風邪気味{かぜぎみ}なので、今日{きょう}は早{はや}く寝{ね}る。",
+        "example_translation": "I have a slight cold, so I'll go to bed early today."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜がちだ",
+        "meaning": "tend to ~, often ~ (usually something undesirable)",
+        "formation": "Verb ます-stem / noun + がちだ (な-adjective type: がちな + noun)",
+        "example": "忙{いそが}しいと、食事{しょくじ}が不規則{ふきそく}になりがちだ。",
+        "example_translation": "When you're busy, your meals tend to become irregular."
+      },
+      {
+        "pattern": "い-adjective く、(連用中止)",
+        "meaning": "~, and ~ (written style; replaces 〜くて)",
+        "formation": "い-adjective stem + く、(弱い → 弱く、)",
+        "example": "この部屋{へや}は広{ひろ}く、日当{ひあ}たりもいい。",
+        "example_translation": "This room is spacious and gets plenty of sun."
+      }
+    ]
+  },
+  {
+    "id": "wf-020",
+    "section": "word_formation",
+    "question": "初{はじ}めての面接{めんせつ}で、彼{かれ}は少{すこ}し緊張{きんちょう}（　　）だった。",
+    "choices": [
+      "がち",
+      "っぽい",
+      "気味{ぎみ}",
+      "らしい"
+    ],
+    "answer": 2,
+    "full_sentence": "初{はじ}めての面接{めんせつ}で、彼{かれ}は少{すこ}し緊張気味{きんちょうぎみ}だった。",
+    "translation": "At his first interview, he was a little nervous.",
+    "explanation": "〜気味（ぎみ）means 'slightly ~, showing signs of ~', usually about an unwanted physical or mental state at a certain time. It attaches to nouns and verb ます-stems: 緊張気味 'a bit nervous', 風邪気味 'a slight cold', 疲れ気味 'a bit tired', 太り気味 'a little overweight'. It often goes with 少し or やや. Here we describe one occasion (the first interview), so 気味 is right. 〜がち is for repeated tendencies, and っぽい and らしい are い-adjective-type endings that cannot be followed by だった.",
+    "choice_notes": [
+      "Wrong. 〜がち is for a repeated tendency (休みがち 'often absent'), not a state on one occasion. Also 緊張 would need し: 緊張しがち 'tends to get nervous'.",
+      "Wrong. 〜っぽい '-ish' makes words like 子どもっぽい 'childish' and 水っぽい 'watery', but 緊張っぽい is not a word, and っぽいだった is ungrammatical.",
+      "Correct. 緊張気味（きんちょうぎみ）'a little nervous'.",
+      "Wrong. らしい 'typical of ~, it seems' does not combine with 緊張 like this, and らしいだった is ungrammatical. ('He seemed nervous' would be 緊張していたらしい.)"
+    ],
+    "vocab": [
+      {
+        "word": "緊張気味",
+        "reading": "きんちょうぎみ",
+        "meaning": "a little nervous, somewhat tense",
+        "pos": "noun / na-adjective",
+        "example": "初日{しょにち}は誰{だれ}でも緊張気味{きんちょうぎみ}だ。",
+        "example_translation": "Everyone is a little nervous on the first day."
+      },
+      {
+        "word": "面接",
+        "reading": "めんせつ",
+        "meaning": "interview (for a job, a school)",
+        "pos": "noun / suru verb",
+        "example": "来週{らいしゅう}、アルバイトの面接{めんせつ}を受{う}ける。",
+        "example_translation": "I have an interview for a part-time job next week."
+      },
+      {
+        "word": "緊張",
+        "reading": "きんちょう",
+        "meaning": "nervousness, tension",
+        "pos": "noun / suru verb",
+        "example": "大勢{おおぜい}の前{まえ}で話{はな}すと緊張{きんちょう}する。",
+        "example_translation": "I get nervous when I speak in front of a lot of people."
+      },
+      {
+        "word": "疲れ気味",
+        "reading": "つかれぎみ",
+        "meaning": "a bit tired, feeling worn out",
+        "pos": "noun / na-adjective",
+        "example": "残業{ざんぎょう}が続{つづ}いて、少{すこ}し疲{つか}れ気味{ぎみ}だ。",
+        "example_translation": "I've had a lot of overtime and I'm a bit worn out."
+      },
+      {
+        "word": "太り気味",
+        "reading": "ふとりぎみ",
+        "meaning": "a little overweight, putting on weight",
+        "pos": "noun / na-adjective",
+        "example": "最近{さいきん}太{ふと}り気味{ぎみ}なので、甘{あま}い物{もの}をやめた。",
+        "example_translation": "I've been putting on weight lately, so I stopped eating sweets."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜気味（ぎみ）",
+        "meaning": "slightly ~, showing signs of ~ (usually undesirable)",
+        "formation": "Noun / verb ます-stem + 気味だ / 気味の + noun",
+        "example": "最近{さいきん}、寝不足{ねぶそく}気味{ぎみ}で頭{あたま}が痛{いた}い。",
+        "example_translation": "Lately I've been a bit short on sleep and have a headache."
+      }
+    ]
+  },
+  {
+    "id": "wf-021",
+    "section": "word_formation",
+    "question": "このスープは水{みず}（　　）、あまり味{あじ}がしない。",
+    "choices": [
+      "がちで",
+      "気味{ぎみ}で",
+      "らしくて",
+      "っぽくて"
+    ],
+    "answer": 3,
+    "full_sentence": "このスープは水{みず}っぽくて、あまり味{あじ}がしない。",
+    "translation": "This soup is watery and doesn't have much flavor.",
+    "explanation": "〜っぽい turns a noun or verb stem into an い-adjective meaning '-ish, having a lot of ~, seeming like ~'. 水 'water' + っぽい = 水っぽい 'watery, thin (in taste)'. It is often slightly negative. Main uses: (1) feeling like or containing a lot of ~: 水っぽい 'watery', 白っぽい 'whitish', 安っぽい 'cheap-looking'; (2) easily doing ~ (after a verb stem): 忘れっぽい 'forgetful', 怒りっぽい 'short-tempered'; (3) like ~ although not actually ~: 子どもっぽい 'childish'. Because it is an い-adjective, its て-form is っぽくて.",
+    "choice_notes": [
+      "Wrong. 〜がち 'tend to ~' is for repeated tendencies (休みがち 'often absent'). 水がち is not a word.",
+      "Wrong. 〜気味 'slightly ~' is for mild states like 風邪気味 'a slight cold'. 水気味 is not a word.",
+      "Wrong. 〜らしい 'typical of, befitting' is positive (男らしい 'manly', 春らしい 'spring-like'). 水らしい is not used to describe soup.",
+      "Correct. 水っぽくて 'watery and...'. 水っぽい = 'watery, thin in taste'."
+    ],
+    "vocab": [
+      {
+        "word": "水っぽい",
+        "reading": "みずっぽい",
+        "meaning": "watery, thin (in taste), diluted",
+        "pos": "i-adjective",
+        "example": "氷{こおり}が溶{と}けて、ジュースが水{みず}っぽくなった。",
+        "example_translation": "The ice melted and the juice became watery."
+      },
+      {
+        "word": "味がする",
+        "reading": "あじがする",
+        "meaning": "to taste (of ~), to have a flavor",
+        "pos": "expression",
+        "example": "このお菓子{かし}はレモンの味{あじ}がする。",
+        "example_translation": "This sweet tastes of lemon."
+      },
+      {
+        "word": "白っぽい",
+        "reading": "しろっぽい",
+        "meaning": "whitish",
+        "pos": "i-adjective",
+        "example": "白{しろ}っぽい服{ふく}を着{き}た人{ひと}が犯人{はんにん}だ。",
+        "example_translation": "The culprit is the person wearing whitish clothes."
+      },
+      {
+        "word": "怒りっぽい",
+        "reading": "おこりっぽい",
+        "meaning": "short-tempered, quick to anger",
+        "pos": "i-adjective",
+        "example": "疲{つか}れていると怒{おこ}りっぽくなる。",
+        "example_translation": "When I'm tired, I get short-tempered."
+      },
+      {
+        "word": "子どもっぽい",
+        "reading": "こどもっぽい",
+        "meaning": "childish",
+        "pos": "i-adjective",
+        "example": "そんなことで泣{な}くなんて子{こ}どもっぽいよ。",
+        "example_translation": "Crying over something like that is childish."
+      },
+      {
+        "word": "〜らしい",
+        "reading": "らしい",
+        "meaning": "typical of ~, befitting ~ (positive)",
+        "pos": "suffix",
+        "example": "今日{きょう}は春{はる}らしい暖{あたた}かい日{ひ}だ。",
+        "example_translation": "Today is a warm, spring-like day."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜っぽい",
+        "meaning": "-ish, seeming like ~, tending to ~ (often negative)",
+        "formation": "Noun / verb ます-stem / い-adjective stem + っぽい (conjugates as an い-adjective: っぽくて, っぽかった)",
+        "example": "彼{かれ}は忘{わす}れっぽいので、メモを渡{わた}しておこう。",
+        "example_translation": "He's forgetful, so let's give him a memo."
+      },
+      {
+        "pattern": "い-adjective くて (reason)",
+        "meaning": "~ and so ~ (gives a reason or connects descriptions)",
+        "formation": "い-adjective stem + くて",
+        "example": "この靴{くつ}は小{ちい}さくて、足{あし}が痛{いた}い。",
+        "example_translation": "These shoes are small, so my feet hurt."
+      }
+    ]
+  },
+  {
+    "id": "wf-022",
+    "section": "word_formation",
+    "question": "毎朝{まいあさ}、川{かわ}（　　）の道{みち}をジョギングしている。",
+    "choices": [
+      "沿{ぞ}い",
+      "向{む}け",
+      "並{な}み",
+      "付{つ}き"
+    ],
+    "answer": 0,
+    "full_sentence": "毎朝{まいあさ}、川沿{かわぞ}いの道{みち}をジョギングしている。",
+    "translation": "Every morning I jog along the riverside path.",
+    "explanation": "〜沿い（ぞい）means 'along ~, beside ~', for something long like a river, road or railway. It comes from the verb 沿う（そう）'to go along, to follow', and the そ becomes voiced ぞ. 川沿いの道 'the road along the river'. Other common words: 線路沿い（せんろぞい）'along the railway', 海沿い（うみぞい）'along the coast', 道路沿い（どうろぞい）'along the road'. The other suffixes mean 'aimed at', 'on a par with' and 'included', and none of them combines with 川.",
+    "choice_notes": [
+      "Correct. 川沿い（かわぞい）'along the river, riverside'.",
+      "Wrong. 〜向け（むけ）'aimed at, for' makes words like 子ども向け（こどもむけ）'for children' and 海外向け 'for overseas', but 川向け is not a word.",
+      "Wrong. 〜並み（なみ）'on a par with, the level of' makes words like 平年並み（へいねんなみ）'normal for the season' and 人並み（ひとなみ）'average', but 川並み is not a word.",
+      "Wrong. 〜付き（つき）'with ~ included' makes words like 朝食付き（ちょうしょくつき）'with breakfast', but 川付き is not a word."
+    ],
+    "vocab": [
+      {
+        "word": "川沿い",
+        "reading": "かわぞい",
+        "meaning": "along the river, riverside",
+        "pos": "noun",
+        "example": "春{はる}になると、川沿{かわぞ}いの桜{さくら}がきれいに咲{さ}く。",
+        "example_translation": "In spring, the cherry trees along the river bloom beautifully."
+      },
+      {
+        "word": "ジョギング",
+        "reading": "じょぎんぐ",
+        "meaning": "jogging",
+        "pos": "noun / suru verb",
+        "example": "健康{けんこう}のためにジョギングを始{はじ}めた。",
+        "example_translation": "I started jogging for my health."
+      },
+      {
+        "word": "沿う",
+        "reading": "そう",
+        "meaning": "to go along, to follow; to meet (expectations)",
+        "pos": "godan verb",
+        "example": "この道{みち}に沿{そ}って歩{ある}くと、駅{えき}に着{つ}く。",
+        "example_translation": "If you walk along this road, you'll reach the station."
+      },
+      {
+        "word": "子ども向け",
+        "reading": "こどもむけ",
+        "meaning": "for children, aimed at children",
+        "pos": "noun",
+        "example": "これは子{こ}ども向{む}けの絵本{えほん}だ。",
+        "example_translation": "This is a picture book for children."
+      },
+      {
+        "word": "平年並み",
+        "reading": "へいねんなみ",
+        "meaning": "normal for the season, the same as an average year",
+        "pos": "noun",
+        "example": "今年{ことし}の夏{なつ}の気温{きおん}は平年並{へいねんな}みだった。",
+        "example_translation": "This summer's temperatures were normal for the season."
+      },
+      {
+        "word": "朝食付き",
+        "reading": "ちょうしょくつき",
+        "meaning": "with breakfast included",
+        "pos": "noun",
+        "example": "このホテルは朝食付{ちょうしょくつ}きで一泊{いっぱく}八千円{はっせんえん}だ。",
+        "example_translation": "This hotel is 8,000 yen a night with breakfast."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜ている (habit)",
+        "meaning": "(regularly) does ~ (a repeated habit)",
+        "formation": "Verb て-form + いる",
+        "example": "毎晩{まいばん}、寝{ね}る前{まえ}に日記{にっき}を書{か}いている。",
+        "example_translation": "I write in my diary every night before bed."
+      }
+    ]
+  },
+  {
+    "id": "wf-023",
+    "section": "word_formation",
+    "question": "この薬{くすり}は一日{いちにち}（　　）に飲{の}んでください。月曜日{げつようび}に飲{の}んだら、次{つぎ}は水曜日{すいようび}です。",
+    "choices": [
+      "ごと",
+      "おき",
+      "ずつ",
+      "ぶり"
+    ],
+    "answer": 1,
+    "full_sentence": "この薬{くすり}は一日{いちにち}おきに飲{の}んでください。月曜日{げつようび}に飲{の}んだら、次{つぎ}は水曜日{すいようび}です。",
+    "translation": "Please take this medicine every other day. If you take it on Monday, the next time is Wednesday.",
+    "explanation": "〜おき means 'at intervals of ~, leaving a gap of ~'. 一日おきに means 'every other day': you take it one day, skip one day, and take it again (Monday → Wednesday). In the same way, 二日おき means 'every third day'. The second sentence (Monday → Wednesday) is the key clue. Compare 〜ごとに 'every ~ (with no gap)': 一日ごとに would mean 'every single day'. 〜ずつ means 'each, at a time' (一つずつ 'one at a time') and 〜ぶり means 'for the first time in ~' (三年ぶり 'for the first time in three years').",
+    "choice_notes": [
+      "Wrong. 一日ごとに means 'every day, day by day' with no gap. That would be Monday → Tuesday, which contradicts the second sentence.",
+      "Correct. 一日おきに 'every other day' (Monday → Wednesday → Friday).",
+      "Wrong. 〜ずつ means 'each, at a time': 一錠ずつ飲む 'take one tablet at a time'. 一日ずつに is ungrammatical.",
+      "Wrong. 〜ぶり means 'for the first time in (a period)': 五年ぶりに会った 'met for the first time in five years'. It does not fit a medicine schedule."
+    ],
+    "vocab": [
+      {
+        "word": "一日おき",
+        "reading": "いちにちおき",
+        "meaning": "every other day",
+        "pos": "noun / adverb",
+        "example": "花{はな}に一日{いちにち}おきに水{みず}をやる。",
+        "example_translation": "I water the flowers every other day."
+      },
+      {
+        "word": "〜ごとに",
+        "reading": "ごとに",
+        "meaning": "every ~, each ~",
+        "pos": "suffix",
+        "example": "バスは十五分{じゅうごふん}ごとに来{く}る。",
+        "example_translation": "The bus comes every fifteen minutes."
+      },
+      {
+        "word": "〜ずつ",
+        "reading": "ずつ",
+        "meaning": "each, at a time, apiece",
+        "pos": "suffix",
+        "example": "お菓子{かし}を一人{ひとり}二{ふた}つずつ配{くば}った。",
+        "example_translation": "I handed out two sweets to each person."
+      },
+      {
+        "word": "〜ぶり",
+        "reading": "ぶり",
+        "meaning": "for the first time in (a period of time)",
+        "pos": "suffix",
+        "example": "十年{じゅうねん}ぶりに故郷{こきょう}に帰{かえ}った。",
+        "example_translation": "I went back to my hometown for the first time in ten years."
+      },
+      {
+        "word": "薬",
+        "reading": "くすり",
+        "meaning": "medicine, drug",
+        "pos": "noun",
+        "example": "食後{しょくご}にこの薬{くすり}を飲{の}んでください。",
+        "example_translation": "Please take this medicine after meals."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜おきに",
+        "meaning": "at intervals of ~, every other ~ (leaving a gap)",
+        "formation": "Number + counter + おきに (一日おきに, 二週間おきに)",
+        "example": "この会議{かいぎ}は一週間{いっしゅうかん}おきに開{ひら}かれる。",
+        "example_translation": "This meeting is held every other week."
+      },
+      {
+        "pattern": "〜たら (condition)",
+        "meaning": "if / when ~ (then ~)",
+        "formation": "Verb た-form + ら",
+        "example": "駅{えき}に着{つ}いたら電話{でんわ}してください。",
+        "example_translation": "Please call me when you arrive at the station."
+      }
+    ]
+  },
+  {
+    "id": "wf-024",
+    "section": "word_formation",
+    "question": "彼{かれ}は多{おお}くの困難{こんなん}を乗{の}り（　　）、ついに夢{ゆめ}を実現{じつげん}させた。",
+    "choices": [
+      "出{だ}し",
+      "込{こ}み",
+      "越{こ}え",
+      "過{す}ごし"
+    ],
+    "answer": 2,
+    "full_sentence": "彼{かれ}は多{おお}くの困難{こんなん}を乗{の}り越{こ}え、ついに夢{ゆめ}を実現{じつげん}させた。",
+    "translation": "He overcame many difficulties and finally made his dream come true.",
+    "explanation": "This is a compound verb question: 乗る + a second verb. 乗り越える literally means 'to climb over', and figuratively 'to overcome (difficulties)'. 困難を乗り越える 'to overcome difficulties' is a fixed, very common phrase. Here it is in the ます-stem form 乗り越え followed by a comma, which means 'overcame ~, and...'. The other choices also make real compound verbs with 乗り, but their meanings do not fit 困難を: 乗り出す 'to set out on', 乗り込む 'to get into (a vehicle)', 乗り過ごす 'to miss one's stop'.",
+    "choice_notes": [
+      "Wrong. 乗り出す（のりだす）means 'to set out on, to embark on': 新しい事業に乗り出す 'to start a new business'. It takes に, not 困難を.",
+      "Wrong. 乗り込む（のりこむ）means 'to get into (a vehicle), to board': 船に乗り込む 'to board a ship'. It does not fit 困難.",
+      "Correct. 乗り越える（のりこえる）'to overcome, to get over'. 困難を乗り越える 'to overcome difficulties'.",
+      "Wrong. 乗り過ごす（のりすごす）means 'to ride past one's stop': 寝ていて駅を乗り過ごした 'I fell asleep and missed my station'."
+    ],
+    "vocab": [
+      {
+        "word": "乗り越える",
+        "reading": "のりこえる",
+        "meaning": "to overcome, to get over; to climb over",
+        "pos": "ichidan verb",
+        "example": "家族{かぞく}の支{ささ}えで、つらい時期{じき}を乗{の}り越{こ}えた。",
+        "example_translation": "With my family's support, I got through a hard time."
+      },
+      {
+        "word": "困難",
+        "reading": "こんなん",
+        "meaning": "difficulty, hardship",
+        "pos": "noun / na-adjective",
+        "example": "この計画{けいかく}の実現{じつげん}は困難{こんなん}だ。",
+        "example_translation": "Carrying out this plan is difficult."
+      },
+      {
+        "word": "実現",
+        "reading": "じつげん",
+        "meaning": "realization, making (something) come true",
+        "pos": "noun / suru verb",
+        "example": "長年{ながねん}の夢{ゆめ}がついに実現{じつげん}した。",
+        "example_translation": "My long-held dream finally came true."
+      },
+      {
+        "word": "乗り出す",
+        "reading": "のりだす",
+        "meaning": "to set out on, to embark on; to lean forward",
+        "pos": "godan verb",
+        "example": "その会社{かいしゃ}は海外{かいがい}市場{しじょう}に乗{の}り出{だ}した。",
+        "example_translation": "That company has moved into overseas markets."
+      },
+      {
+        "word": "乗り込む",
+        "reading": "のりこむ",
+        "meaning": "to get into, to board (a vehicle)",
+        "pos": "godan verb",
+        "example": "全員{ぜんいん}がバスに乗{の}り込{こ}んだ。",
+        "example_translation": "Everyone got on the bus."
+      },
+      {
+        "word": "乗り過ごす",
+        "reading": "のりすごす",
+        "meaning": "to ride past (one's stop)",
+        "pos": "godan verb",
+        "example": "電車{でんしゃ}で寝{ね}てしまい、駅{えき}を乗{の}り過{す}ごした。",
+        "example_translation": "I fell asleep on the train and missed my station."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜させる (causative)",
+        "meaning": "to make / let (something) happen; 夢を実現させる 'to make a dream come true'",
+        "formation": "Suru verb: noun + させる (実現する → 実現させる)",
+        "example": "母{はは}は子{こ}どもに野菜{やさい}を食{た}べさせた。",
+        "example_translation": "The mother made her child eat vegetables."
+      },
+      {
+        "pattern": "ついに〜た",
+        "meaning": "finally ~, at last ~ (after a long effort)",
+        "formation": "ついに + past-tense verb",
+        "example": "三回目{さんかいめ}の挑戦{ちょうせん}で、ついに試験{しけん}に合格{ごうかく}した。",
+        "example_translation": "On my third try, I finally passed the exam."
+      }
+    ]
+  },
+  {
+    "id": "wf-025",
+    "section": "word_formation",
+    "question": "急{きゅう}に都合{つごう}が悪{わる}くなったので、ホテルの予約{よやく}を（　　）消{け}した。",
+    "choices": [
+      "取{と}り",
+      "差{さ}し",
+      "引{ひ}き",
+      "追{お}い"
+    ],
+    "answer": 0,
+    "full_sentence": "急{きゅう}に都合{つごう}が悪{わる}くなったので、ホテルの予約{よやく}を取{と}り消{け}した。",
+    "translation": "Something suddenly came up, so I canceled my hotel reservation.",
+    "explanation": "This is a compound verb question where the blank is the first verb. 取り消す（とりけす）means 'to cancel, to take back, to withdraw' - 予約を取り消す 'to cancel a reservation', 発言を取り消す 'to take back what one said'. The noun form 取り消し 'cancellation' is also common. 取り〜 appears in many N2 compound verbs: 取り組む 'to tackle', 取り替える 'to replace', 取り上げる 'to take up'. 差し, 引き and 追い also start many compound verbs, but they do not combine with 消す.",
+    "choice_notes": [
+      "Correct. 取り消す（とりけす）'to cancel'. 予約を取り消す 'to cancel a reservation'.",
+      "Wrong. 差し〜 makes verbs like 差し出す（さしだす）'to hold out, to submit' and 差し上げる 'to give (humble)', but 差し消す is not a word.",
+      "Wrong. 引き〜 makes verbs like 引き受ける 'to take on' and 引き出す 'to withdraw', but 引き消す is not a word.",
+      "Wrong. 追い〜 makes verbs like 追い越す（おいこす）'to overtake' and 追い出す 'to drive out', but 追い消す is not a word."
+    ],
+    "vocab": [
+      {
+        "word": "取り消す",
+        "reading": "とりけす",
+        "meaning": "to cancel, to take back, to withdraw",
+        "pos": "godan verb",
+        "example": "大臣{だいじん}は問題{もんだい}になった発言{はつげん}を取{と}り消{け}した。",
+        "example_translation": "The minister took back the remark that had caused a problem."
+      },
+      {
+        "word": "都合が悪い",
+        "reading": "つごうがわるい",
+        "meaning": "inconvenient, to have a scheduling conflict",
+        "pos": "expression",
+        "example": "すみません、その日{ひ}はちょっと都合{つごう}が悪{わる}いです。",
+        "example_translation": "Sorry, that day is a bit inconvenient for me."
+      },
+      {
+        "word": "予約",
+        "reading": "よやく",
+        "meaning": "reservation, booking",
+        "pos": "noun / suru verb",
+        "example": "人気{にんき}のレストランなので、早{はや}めに予約{よやく}した。",
+        "example_translation": "It's a popular restaurant, so I booked early."
+      },
+      {
+        "word": "取り組む",
+        "reading": "とりくむ",
+        "meaning": "to tackle, to work on (a problem)",
+        "pos": "godan verb",
+        "example": "町{まち}全体{ぜんたい}でゴミの問題{もんだい}に取{と}り組{く}んでいる。",
+        "example_translation": "The whole town is working on the garbage problem."
+      },
+      {
+        "word": "追い越す",
+        "reading": "おいこす",
+        "meaning": "to overtake, to pass",
+        "pos": "godan verb",
+        "example": "後{うし}ろの車{くるま}が私{わたし}の車{くるま}を追{お}い越{こ}していった。",
+        "example_translation": "The car behind overtook mine."
+      },
+      {
+        "word": "差し出す",
+        "reading": "さしだす",
+        "meaning": "to hold out, to present, to submit",
+        "pos": "godan verb",
+        "example": "彼{かれ}は笑顔{えがお}で手{て}を差{さ}し出{だ}した。",
+        "example_translation": "He held out his hand with a smile."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "い-adjective + くなる",
+        "meaning": "to become ~",
+        "formation": "い-adjective stem + くなる (悪い → 悪くなる)",
+        "example": "薬{くすり}を飲{の}んだら、気分{きぶん}がよくなった。",
+        "example_translation": "After taking the medicine, I felt better."
+      },
+      {
+        "pattern": "〜ので",
+        "meaning": "because ~, since ~ (softer and more polite than から)",
+        "formation": "Plain form + ので (な-adjective / noun + なので)",
+        "example": "道{みち}が混{こ}んでいたので、遅{おく}れてしまった。",
+        "example_translation": "The roads were crowded, so I ended up being late."
+      }
+    ]
+  }
+]

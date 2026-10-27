@@ -1,0 +1,2937 @@
+[
+  {
+    "id": "gf-001",
+    "section": "grammar_form",
+    "question": "さんざん迷{まよ}った（　　）、結局{けっきょく}何{なに}も買{か}わずに店{みせ}を出{で}た。",
+    "choices": [
+      "うちに",
+      "とたんに",
+      "あげく",
+      "ついでに"
+    ],
+    "answer": 2,
+    "full_sentence": "さんざん迷{まよ}ったあげく、結局{けっきょく}何{なに}も買{か}わずに店{みせ}を出{で}た。",
+    "translation": "After agonizing over it for a long time, I ended up leaving the shop without buying anything.",
+    "explanation": "〜あげく（に） means 'after a long, tiring process of ~, in the end ~'. The result that follows is usually disappointing or unwanted. Look at the clues: さんざん 'a lot, to an exhausting degree' shows a long, troublesome process, and 結局（けっきょく） 'in the end' introduces the final result, which is a let-down (I bought nothing). That shape, 'long struggle → disappointing outcome', is exactly what あげく expresses. Connection: verb た-form + あげく (迷ったあげく), or noun + の + あげく (口論（こうろん）のあげく 'after a quarrel'). Because the process is already finished, the verb before あげく is always in the た-form.",
+    "choice_notes": [
+      "Wrong. 〜うちに means 'while ~ (and before you notice, something changes)'. It connects to the dictionary form, the ている form or the ない form - never the た-form - so 迷ったうちに is ungrammatical. Correct use: 迷っているうちに、セールが終わってしまった。(While I was hesitating, the sale ended.)",
+      "Wrong. 〜とたん（に） means 'the very moment ~, (something unexpected happened)'. It does connect to the た-form, but it describes an instant, not a long process, and it does not go with 結局 'in the end'. Correct use: 店を出たとたん、雨が降り出した。(The moment I left the shop, it started to rain.)",
+      "Correct. 迷ったあげく = 'after hesitating for a long time, in the end'. Verb た-form + あげく, followed by a disappointing result (結局何も買わずに店を出た).",
+      "Wrong. 〜ついでに means 'while doing ~ anyway, taking the chance to also do ~'. It links two actions done on the same occasion, so 'I hesitated, and while I was at it, I left without buying' makes no sense. Correct use: 駅へ行くついでに、手紙を出してきた。(Since I was going to the station anyway, I mailed a letter.)"
+    ],
+    "vocab": [
+      {
+        "word": "さんざん",
+        "reading": "さんざん",
+        "meaning": "thoroughly, to an exhausting degree; severely (usually negative)",
+        "pos": "adverb",
+        "example": "さんざん待{ま}たされて、疲{つか}れてしまった。",
+        "example_translation": "I was kept waiting forever and got worn out."
+      },
+      {
+        "word": "迷う",
+        "reading": "まよう",
+        "meaning": "to hesitate, to be unable to decide; to get lost",
+        "pos": "godan verb",
+        "example": "どちらの服{ふく}を買{か}うか迷{まよ}っている。",
+        "example_translation": "I can't decide which clothes to buy."
+      },
+      {
+        "word": "結局",
+        "reading": "けっきょく",
+        "meaning": "in the end, after all",
+        "pos": "adverb",
+        "example": "結局{けっきょく}、旅行{りょこう}には行{い}かなかった。",
+        "example_translation": "In the end, I didn't go on the trip."
+      },
+      {
+        "word": "〜ずに",
+        "reading": "ずに",
+        "meaning": "without doing ~ (a more written version of 〜ないで)",
+        "pos": "expression",
+        "example": "朝{あさ}ご飯{はん}を食{た}べずに学校{がっこう}へ行{い}った。",
+        "example_translation": "I went to school without eating breakfast."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜あげく（に）",
+        "meaning": "after a long (often troublesome) process of ~, in the end ~ (usually a bad or unwanted result)",
+        "formation": "Verb た-form + あげく（に） / Noun + の + あげく（に）",
+        "example": "長{なが}い時間{じかん}話{はな}し合{あ}ったあげく、何{なに}も決{き}まらなかった。",
+        "example_translation": "After discussing it for a long time, nothing was decided in the end."
+      },
+      {
+        "pattern": "〜うちに",
+        "meaning": "while ~ (before a state changes / and before you know it, something changes)",
+        "formation": "Verb dictionary form / ている form / ない form, い-adj, な-adj + な, Noun + の + うちに",
+        "example": "若{わか}いうちに、いろいろな国{くに}へ行{い}ってみたい。",
+        "example_translation": "I want to visit many countries while I'm still young."
+      },
+      {
+        "pattern": "〜とたん（に）",
+        "meaning": "the moment ~, just as ~ (something unexpected happens right after)",
+        "formation": "Verb た-form + とたん（に）",
+        "example": "窓{まど}を開{あ}けたとたん、強{つよ}い風{かぜ}が入{はい}ってきた。",
+        "example_translation": "The moment I opened the window, a strong wind blew in."
+      },
+      {
+        "pattern": "〜ついでに",
+        "meaning": "while doing ~ anyway, taking the opportunity to also do ~",
+        "formation": "Verb dictionary form / た-form + ついでに / Noun + の + ついでに",
+        "example": "買{か}い物{もの}のついでに、郵便局{ゆうびんきょく}に寄{よ}った。",
+        "example_translation": "While I was out shopping, I stopped by the post office."
+      }
+    ]
+  },
+  {
+    "id": "gf-002",
+    "section": "grammar_form",
+    "question": "試験{しけん}の結果{けっか}を心配{しんぱい}する（　　）、夜{よる}も眠{ねむ}れなかった。",
+    "choices": [
+      "あまり",
+      "くせに",
+      "かわりに",
+      "ものの"
+    ],
+    "answer": 0,
+    "full_sentence": "試験{しけん}の結果{けっか}を心配{しんぱい}するあまり、夜{よる}も眠{ねむ}れなかった。",
+    "translation": "I was so worried about the exam results that I couldn't even sleep at night.",
+    "explanation": "〜あまり means 'because of too much ~, (an unusual, usually bad result happens)'. It is used with words of feeling or mental state, such as 心配する 'to worry', 驚く（おどろく） 'to be surprised', 緊張する（きんちょうする） 'to be nervous' or 喜ぶ（よろこぶ） 'to be happy'. Here the feeling (worry) was so strong that it caused an abnormal result: I couldn't even sleep (note も 'even'). Connection: verb dictionary form or た-form + あまり (心配するあまり), or noun + の + あまり (心配のあまり). The second half describes a result that actually happened, not a wish or a command.",
+    "choice_notes": [
+      "Correct. 心配するあまり = 'worrying so much that ~'. Verb dictionary form + あまり, followed by an extreme result (夜も眠れなかった).",
+      "Wrong. 〜くせに means 'even though ~' and carries criticism or contempt, usually toward another person. Here there is no contrast and nobody is being criticized. Connection: plain form + くせに (な-adj + な, noun + の). Correct use: 弟は何も知らないくせに、えらそうに話す。(My little brother talks big even though he knows nothing.)",
+      "Wrong. 〜かわりに means 'instead of ~' or 'in exchange for ~'. 'Instead of worrying, I couldn't sleep' makes no sense. Connection: verb dictionary/た-form or noun + の + かわりに. Correct use: 料理を作ってもらうかわりに、私が皿を洗う。(In exchange for having dinner cooked for me, I'll wash the dishes.)",
+      "Wrong. 〜ものの means 'although ~ (but the expected next step doesn't happen)'. Worrying and not sleeping are not in contrast, so 'although' doesn't work. Connection: plain form + ものの. Correct use: 新しい靴を買ったものの、まだ一度もはいていない。(Although I bought new shoes, I haven't worn them even once.)"
+    ],
+    "vocab": [
+      {
+        "word": "試験",
+        "reading": "しけん",
+        "meaning": "exam, test",
+        "pos": "noun",
+        "example": "来週{らいしゅう}、大事{だいじ}な試験{しけん}がある。",
+        "example_translation": "I have an important exam next week."
+      },
+      {
+        "word": "結果",
+        "reading": "けっか",
+        "meaning": "result, outcome",
+        "pos": "noun",
+        "example": "検査{けんさ}の結果{けっか}は明日{あした}わかる。",
+        "example_translation": "The test results will be known tomorrow."
+      },
+      {
+        "word": "心配",
+        "reading": "しんぱい",
+        "meaning": "worry, anxiety; to worry",
+        "pos": "noun / suru verb / na-adjective",
+        "example": "母{はは}はいつも私{わたし}のことを心配{しんぱい}している。",
+        "example_translation": "My mother is always worrying about me."
+      },
+      {
+        "word": "眠る",
+        "reading": "ねむる",
+        "meaning": "to sleep, to fall asleep",
+        "pos": "godan verb",
+        "example": "赤{あか}ちゃんがぐっすり眠{ねむ}っている。",
+        "example_translation": "The baby is sleeping soundly."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜あまり（に）",
+        "meaning": "so much ~ that... (an excessive feeling or state causes an unusual, often bad, result)",
+        "formation": "Verb dictionary form / た-form + あまり / Noun + の + あまり",
+        "example": "驚{おどろ}きのあまり、声{こえ}も出{で}なかった。",
+        "example_translation": "I was so surprised that I couldn't even make a sound."
+      },
+      {
+        "pattern": "〜くせに",
+        "meaning": "even though ~ (with criticism, blame or contempt)",
+        "formation": "Plain form / な-adj + な / Noun + の + くせに",
+        "example": "彼{かれ}は知{し}っているくせに、何{なに}も教{おし}えてくれない。",
+        "example_translation": "Even though he knows, he won't tell me anything."
+      },
+      {
+        "pattern": "〜かわりに",
+        "meaning": "instead of ~, in place of ~ / in exchange for ~",
+        "formation": "Verb dictionary form / た-form + かわりに / Noun + の + かわりに",
+        "example": "父{ちち}のかわりに、私{わたし}が会議{かいぎ}に出{で}た。",
+        "example_translation": "I attended the meeting in place of my father."
+      },
+      {
+        "pattern": "〜ものの",
+        "meaning": "although ~ (but what you would expect next does not happen)",
+        "formation": "Plain form (な-adj + な / である, Noun + である) + ものの",
+        "example": "大学{だいがく}は卒業{そつぎょう}したものの、仕事{しごと}がなかなか見{み}つからない。",
+        "example_translation": "Although I graduated from university, I just can't find a job."
+      }
+    ]
+  },
+  {
+    "id": "gf-003",
+    "section": "grammar_form",
+    "question": "一度{いちど}引{ひ}き受{う}けた（　　）、最後{さいご}まで責任{せきにん}を持{も}ってやるつもりだ。",
+    "choices": [
+      "ところで",
+      "とはいえ",
+      "ばかりか",
+      "以上{いじょう}は"
+    ],
+    "answer": 3,
+    "full_sentence": "一度{いちど}引{ひ}き受{う}けた以上{いじょう}は、最後{さいご}まで責任{せきにん}を持{も}ってやるつもりだ。",
+    "translation": "Now that I've taken it on, I intend to see it through to the end and take responsibility for it.",
+    "explanation": "〜以上（は） (いじょうは) means 'now that ~, since ~ (it is a fact), naturally I must / should / will ~'. The first half states a fact or a decision (I accepted the job), and the second half shows the duty, determination or judgment that follows from it (I will do it responsibly to the end). The ending 最後まで責任を持ってやるつもりだ 'I intend to take responsibility until the end' is a statement of resolve, which is the typical ending for 以上は. Connection: plain form + 以上（は）; nouns and な-adjectives use である (学生である以上). 〜からには and 〜上は（うえは） have almost the same meaning and would also fit here, but they are not among the choices.",
+    "choice_notes": [
+      "Wrong. 〜たところで means 'even if ~ (it would be useless / nothing would change)'. It must be followed by a negative or pointless result such as 無駄だ（むだだ） or 変わらない, not by a resolution. Connection: verb た-form + ところで. Correct use: 今から急いだところで、もう間に合わない。(Even if we hurry now, we won't make it.)",
+      "Wrong. 〜とはいえ means 'although ~, even so ~' and introduces something that goes against what you would expect. Accepting a job and doing it responsibly are not in conflict, so there is no contrast. Connection: plain form / noun + とはいえ. Correct use: 春とはいえ、まだ寒い日が続いている。(Although it's spring, cold days are continuing.)",
+      "Wrong. 〜ばかりか means 'not only ~ but also ~' and adds a second, stronger point in the same direction. The second half here is not an additional fact; it is a resolution. Connection: plain form / noun + ばかりか. Correct use: 彼は仕事を引き受けたばかりか、後輩の指導もしてくれた。(Not only did he take on the work, he also coached the junior staff.)",
+      "Correct. 引き受けた以上は = 'now that I have accepted it'. Plain form + 以上は, followed by a resolve (責任を持ってやるつもりだ)."
+    ],
+    "vocab": [
+      {
+        "word": "引き受ける",
+        "reading": "ひきうける",
+        "meaning": "to take on (a job or request), to accept responsibility for",
+        "pos": "ichidan verb",
+        "example": "友達{ともだち}に頼{たの}まれて、通訳{つうやく}を引{ひ}き受{う}けた。",
+        "example_translation": "A friend asked me, so I took on the interpreting."
+      },
+      {
+        "word": "責任",
+        "reading": "せきにん",
+        "meaning": "responsibility",
+        "pos": "noun",
+        "example": "失敗{しっぱい}の責任{せきにん}は私{わたし}にある。",
+        "example_translation": "The responsibility for the failure lies with me."
+      },
+      {
+        "word": "責任を持つ",
+        "reading": "せきにんをもつ",
+        "meaning": "to take responsibility (for something)",
+        "pos": "expression",
+        "example": "自分{じぶん}の言葉{ことば}に責任{せきにん}を持{も}ちなさい。",
+        "example_translation": "Take responsibility for your words."
+      },
+      {
+        "word": "最後",
+        "reading": "さいご",
+        "meaning": "the end, the last",
+        "pos": "noun",
+        "example": "映画{えいが}を最後{さいご}まで見{み}た。",
+        "example_translation": "I watched the movie to the end."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜以上（は）",
+        "meaning": "now that ~, since ~ (therefore one must / should / will)",
+        "formation": "Plain form (Noun / な-adj + である) + 以上（は）",
+        "example": "学生{がくせい}である以上{いじょう}、勉強{べんきょう}を一番{いちばん}に考{かんが}えるべきだ。",
+        "example_translation": "As long as you are a student, you should put studying first."
+      },
+      {
+        "pattern": "〜たところで",
+        "meaning": "even if ~ (it would be useless; nothing good would come of it)",
+        "formation": "Verb た-form + ところで",
+        "example": "今{いま}から急{いそ}いだところで、もう間{ま}に合{あ}わない。",
+        "example_translation": "Even if we hurry now, we won't make it in time."
+      },
+      {
+        "pattern": "〜とはいえ",
+        "meaning": "although ~, that said ~ (the reality differs from what you'd expect)",
+        "formation": "Plain form / Noun + とはいえ",
+        "example": "春{はる}とはいえ、まだ寒{さむ}い日{ひ}が続{つづ}いている。",
+        "example_translation": "Although it's spring, cold days are still continuing."
+      },
+      {
+        "pattern": "〜ばかりか",
+        "meaning": "not only ~ but also",
+        "formation": "Plain form / Noun + ばかりか",
+        "example": "彼{かれ}は英語{えいご}ばかりか中国語{ちゅうごくご}も話{はな}せる。",
+        "example_translation": "He can speak not only English but also Chinese."
+      }
+    ]
+  },
+  {
+    "id": "gf-004",
+    "section": "grammar_form",
+    "question": "駅前{えきまえ}に大{おお}きなスーパーができてから、この商店街{しょうてんがい}の客{きゃく}は年々{ねんねん}減{へ}る（　　）。",
+    "choices": [
+      "ことだ",
+      "一方{いっぽう}だ",
+      "ところだ",
+      "べきだ"
+    ],
+    "answer": 1,
+    "full_sentence": "駅前{えきまえ}に大{おお}きなスーパーができてから、この商店街{しょうてんがい}の客{きゃく}は年々{ねんねん}減{へ}る一方{いっぽう}だ。",
+    "translation": "Ever since a big supermarket opened in front of the station, the number of customers on this shopping street has just kept decreasing year after year.",
+    "explanation": "〜一方だ (いっぽうだ) means 'keeps on ~ing, more and more': a change that continues in one direction without stopping, usually a bad one. It attaches to verbs that express change, such as 増える（ふえる） 'increase', 減る（へる） 'decrease', 悪くなる 'get worse' and 上がる 'rise'. The clues are てから 'ever since' (a change started at a certain point and is still going on) and 年々 'year by year'. Connection: verb dictionary form + 一方だ (減る一方だ). 〜ばかりだ (減るばかりだ) has the same meaning and would also be correct, but it is not among the choices.",
+    "choice_notes": [
+      "Wrong. 〜ことだ means 'you should ~' and gives advice to someone. Customers decreasing is not advice. Connection: verb dictionary / ない form + ことだ. Correct use: 日本語が上手になりたければ、毎日話すことだ。(If you want to get good at Japanese, you should speak it every day.)",
+      "Correct. 減る一方だ = 'keeps on decreasing'. Change verb (dictionary form) + 一方だ, matching 年々 and てから.",
+      "Wrong. Dictionary form + ところだ means 'be just about to ~'. It describes one moment right before an action, which contradicts 'ever since... year after year'. Correct use: 今から出かけるところだ。(I'm just about to go out.)",
+      "Wrong. 〜べきだ means 'should, ought to' - a strong opinion about what is right. Saying customers 'ought to' decrease makes no sense here. Correct use: 約束は守るべきだ。(You should keep your promises.)"
+    ],
+    "vocab": [
+      {
+        "word": "駅前",
+        "reading": "えきまえ",
+        "meaning": "in front of the station, the station area",
+        "pos": "noun",
+        "example": "駅前{えきまえ}で友達{ともだち}と待{ま}ち合{あ}わせた。",
+        "example_translation": "I met up with a friend in front of the station."
+      },
+      {
+        "word": "商店街",
+        "reading": "しょうてんがい",
+        "meaning": "shopping street, shopping district",
+        "pos": "noun",
+        "example": "週末{しゅうまつ}の商店街{しょうてんがい}はにぎやかだ。",
+        "example_translation": "The shopping street is lively on weekends."
+      },
+      {
+        "word": "客",
+        "reading": "きゃく",
+        "meaning": "customer; guest",
+        "pos": "noun",
+        "example": "この店{みせ}はいつも客{きゃく}が多{おお}い。",
+        "example_translation": "This shop always has a lot of customers."
+      },
+      {
+        "word": "減る",
+        "reading": "へる",
+        "meaning": "to decrease, to go down",
+        "pos": "godan verb",
+        "example": "最近{さいきん}、体重{たいじゅう}が二{に}キロ減{へ}った。",
+        "example_translation": "Recently I lost two kilograms."
+      },
+      {
+        "word": "年々",
+        "reading": "ねんねん",
+        "meaning": "year by year, every year",
+        "pos": "adverb",
+        "example": "日本{にほん}の子{こ}どもの数{かず}は年々{ねんねん}少{すく}なくなっている。",
+        "example_translation": "The number of children in Japan is getting smaller every year."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜一方だ",
+        "meaning": "keeps on ~ing, more and more (a change continues in one direction, often a bad one)",
+        "formation": "Verb dictionary form (change verbs such as 増える, 減る, なる) + 一方だ",
+        "example": "物価{ぶっか}は上{あ}がる一方{いっぽう}だ。",
+        "example_translation": "Prices just keep going up."
+      },
+      {
+        "pattern": "〜ことだ",
+        "meaning": "you should ~ (advice)",
+        "formation": "Verb dictionary form / ない form + ことだ",
+        "example": "上手{じょうず}になりたければ、毎日{まいにち}練習{れんしゅう}することだ。",
+        "example_translation": "If you want to get good, you should practice every day."
+      },
+      {
+        "pattern": "〜ところだ",
+        "meaning": "be just about to ~",
+        "formation": "Verb dictionary form + ところだ",
+        "example": "今{いま}から出{で}かけるところだ。",
+        "example_translation": "I'm just about to go out."
+      },
+      {
+        "pattern": "〜べきだ",
+        "meaning": "should, ought to (a strong opinion about what is right)",
+        "formation": "Verb dictionary form + べきだ (する → するべき / すべき)",
+        "example": "約束{やくそく}は守{まも}るべきだ。",
+        "example_translation": "You should keep your promises."
+      }
+    ]
+  },
+  {
+    "id": "gf-005",
+    "section": "grammar_form",
+    "question": "この書類{しょるい}の内容{ないよう}をよく読{よ}んだ（　　）、下{した}にサインしてください。",
+    "choices": [
+      "とたん",
+      "上{うえ}で",
+      "きり",
+      "ばかりに"
+    ],
+    "answer": 1,
+    "full_sentence": "この書類{しょるい}の内容{ないよう}をよく読{よ}んだ上{うえ}で、下{した}にサインしてください。",
+    "translation": "Please read the contents of this document carefully first, and then sign at the bottom.",
+    "explanation": "〜た上で (うえで) means 'after first doing ~ (properly), then ~'. It stresses that the first action is a necessary step or the basis for the second one: you must read carefully BEFORE signing, and sign based on what you have read. It is very common in formal requests and procedures, such as 相談した上で決める 'decide after consulting' or 確認した上で申し込む 'apply after checking'. Connection: verb た-form + 上で (読んだ上で), or noun + の + 上で (相談の上で). Because the second half is a request (〜てください), patterns that cannot be followed by a request are ruled out.",
+    "choice_notes": [
+      "Wrong. 〜たとたん means 'the moment ~, (something unexpected happened)'. It describes a sudden event that already happened, so it cannot be followed by a request like 〜てください. Correct use: 立ち上がったとたん、めまいがした。(The moment I stood up, I felt dizzy.)",
+      "Correct. 読んだ上で = 'after first reading (it carefully)'. Verb た-form + 上で, then the next step (sign).",
+      "Wrong. 〜たきり means '(did ~) and then nothing more after that', usually followed by a negative. 'Read it and then nothing more, please sign' contradicts itself. Correct use: 彼とは一度会ったきり、連絡していない。(I met him only once and haven't been in touch since.)",
+      "Wrong. 〜たばかりに means 'just because ~ (a bad result happened, with regret)'. It must be followed by an unwanted past result, not a request. Correct use: よく読まずにサインしたばかりに、損をしてしまった。(Just because I signed without reading carefully, I lost money.)"
+    ],
+    "vocab": [
+      {
+        "word": "書類",
+        "reading": "しょるい",
+        "meaning": "document, papers",
+        "pos": "noun",
+        "example": "必要{ひつよう}な書類{しょるい}を全部{ぜんぶ}そろえた。",
+        "example_translation": "I gathered all the necessary documents."
+      },
+      {
+        "word": "内容",
+        "reading": "ないよう",
+        "meaning": "content, contents",
+        "pos": "noun",
+        "example": "この本{ほん}の内容{ないよう}は少{すこ}し難{むずか}しい。",
+        "example_translation": "The content of this book is a little difficult."
+      },
+      {
+        "word": "サイン",
+        "reading": "サイン",
+        "meaning": "signature; to sign",
+        "pos": "noun / suru verb",
+        "example": "ここにサインをお願{ねが}いします。",
+        "example_translation": "Please sign here."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜上で",
+        "meaning": "after ~ (doing A first, properly, and then doing B based on it)",
+        "formation": "Verb た-form + 上で / Noun + の + 上で",
+        "example": "家族{かぞく}と相談{そうだん}した上{うえ}で、お返事{へんじ}します。",
+        "example_translation": "I will reply after talking it over with my family."
+      },
+      {
+        "pattern": "〜とたん（に）",
+        "meaning": "the moment ~, just as ~ (something unexpected happens right after)",
+        "formation": "Verb た-form + とたん（に）",
+        "example": "ベッドに入{はい}ったとたん、電話{でんわ}が鳴{な}った。",
+        "example_translation": "The moment I got into bed, the phone rang."
+      },
+      {
+        "pattern": "〜きり",
+        "meaning": "(did ~) and then nothing more since; only ~",
+        "formation": "Verb た-form + きり (usually followed by a negative)",
+        "example": "彼女{かのじょ}とは卒業式{そつぎょうしき}で会{あ}ったきり、一度{いちど}も会{あ}っていない。",
+        "example_translation": "I haven't seen her once since we met at the graduation ceremony."
+      },
+      {
+        "pattern": "〜ばかりに",
+        "meaning": "just because ~ (a bad result followed, often with regret)",
+        "formation": "Verb た-form / plain form + ばかりに",
+        "example": "彼{かれ}の話{はなし}を信{しん}じたばかりに、ひどい目{め}にあった。",
+        "example_translation": "Just because I believed his story, I had a terrible experience."
+      }
+    ]
+  },
+  {
+    "id": "gf-006",
+    "section": "grammar_form",
+    "question": "彼{かれ}のようにまじめな人{ひと}が、会社{かいしゃ}のお金{かね}を盗{ぬす}むなんて、あり（　　）。",
+    "choices": [
+      "かねない",
+      "がたい",
+      "そうだ",
+      "得{え}ない"
+    ],
+    "answer": 3,
+    "full_sentence": "彼{かれ}のようにまじめな人{ひと}が、会社{かいしゃ}のお金{かね}を盗{ぬす}むなんて、あり得{え}ない。",
+    "translation": "It's impossible that a serious, honest person like him would steal the company's money.",
+    "explanation": "あり得ない (ありえない) means 'impossible, it cannot happen'. It comes from 〜得る (うる / える) 'can, it is possible', which attaches to the ます-stem of a verb: ある → あり + 得る = あり得る 'it can happen'. Its negative, 〜得ない (えない), means 'cannot, it is impossible'. Note the reading: the positive form can be read うる or える (あり得る = ありうる / ありえる), but the negative is always えない. The clues are まじめな人 'a serious, honest person' and なんて, which shows surprise or disbelief ('the idea that he would steal...!'). So the speaker is saying it simply cannot be true.",
+    "choice_notes": [
+      "Wrong. 〜かねない (ます-stem + かねない) means 'might well ~, there is a danger that ~'. ありかねない would mean 'it could well happen', the opposite of what まじめな人 and なんて suggest. Correct use: あの人なら、そんなうそをつきかねない。(That person might well tell such a lie.)",
+      "Wrong. 〜がたい (ます-stem + がたい) means 'hard to ~ (emotionally)'. But あり + がたい makes ありがたい, a fixed word meaning 'grateful, thankful', which does not fit at all. Correct use of がたい: この意見には賛成しがたい。(It's hard to agree with this opinion.)",
+      "Wrong. ありそうだ (ます-stem + そうだ) means 'it seems likely to happen'. That contradicts the disbelief shown by なんて and the description まじめな人. Correct use: 今日は雨が降りそうだ。(It looks like it's going to rain today.)",
+      "Correct. あり得ない = 'impossible, cannot happen'. ます-stem + 得ない (えない), matching the disbelief of なんて."
+    ],
+    "vocab": [
+      {
+        "word": "まじめ",
+        "reading": "まじめ",
+        "meaning": "serious, honest, diligent",
+        "pos": "na-adjective",
+        "example": "彼女{かのじょ}はまじめな学生{がくせい}だ。",
+        "example_translation": "She is a serious, hard-working student."
+      },
+      {
+        "word": "盗む",
+        "reading": "ぬすむ",
+        "meaning": "to steal",
+        "pos": "godan verb",
+        "example": "電車{でんしゃ}の中{なか}で財布{さいふ}を盗{ぬす}まれた。",
+        "example_translation": "My wallet was stolen on the train."
+      },
+      {
+        "word": "〜なんて",
+        "reading": "なんて",
+        "meaning": "the idea that ~, such a thing as ~ (shows surprise, disbelief or disdain)",
+        "pos": "expression",
+        "example": "彼{かれ}が試験{しけん}に落{お}ちたなんて信{しん}じられない。",
+        "example_translation": "I can't believe that he failed the exam."
+      },
+      {
+        "word": "あり得る",
+        "reading": "ありうる",
+        "meaning": "possible, can happen (also read ありえる; negative ありえない)",
+        "pos": "verb (literary)",
+        "example": "そういう失敗{しっぱい}は誰{だれ}にでもあり得{う}る。",
+        "example_translation": "That kind of mistake can happen to anyone."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜得る／〜得ない",
+        "meaning": "can ~, it is possible that ~ / cannot ~, it is impossible that ~",
+        "formation": "Verb ます-stem + 得る (うる / える) / 得ない (えない)",
+        "example": "地震{じしん}はいつでも起{お}こり得{う}る。",
+        "example_translation": "Earthquakes can happen at any time."
+      },
+      {
+        "pattern": "〜かねない",
+        "meaning": "might well ~, there is a danger that ~ (a bad possibility)",
+        "formation": "Verb ます-stem + かねない",
+        "example": "そんな言{い}い方{かた}をしたら、誤解{ごかい}されかねない。",
+        "example_translation": "If you talk like that, you might well be misunderstood."
+      },
+      {
+        "pattern": "〜がたい",
+        "meaning": "hard to ~ (psychologically or emotionally difficult)",
+        "formation": "Verb ます-stem + がたい",
+        "example": "この意見{いけん}には賛成{さんせい}しがたい。",
+        "example_translation": "It's hard to agree with this opinion."
+      },
+      {
+        "pattern": "〜そうだ (appearance)",
+        "meaning": "looks like ~, seems likely to ~",
+        "formation": "Verb ます-stem / い-adj stem / な-adj stem + そうだ",
+        "example": "空{そら}が暗{くら}い。雨{あめ}が降{ふ}りそうだ。",
+        "example_translation": "The sky is dark. It looks like it's going to rain."
+      }
+    ]
+  },
+  {
+    "id": "gf-007",
+    "section": "grammar_form",
+    "question": "台風{たいふう}の影響{えいきょう}で、明日{あした}は大雨{おおあめ}になる（　　）。",
+    "choices": [
+      "おそれがある",
+      "ことになっている",
+      "わけがない",
+      "ことはない"
+    ],
+    "answer": 0,
+    "full_sentence": "台風{たいふう}の影響{えいきょう}で、明日{あした}は大雨{おおあめ}になるおそれがある。",
+    "translation": "Due to the typhoon, there is a risk of heavy rain tomorrow.",
+    "explanation": "〜おそれがある means 'there is a risk / danger that ~': something bad may happen. It is formal and appears constantly in news, weather forecasts and official warnings (大雨のおそれ, 津波（つなみ）のおそれ). The clue is 台風の影響で 'due to the influence of the typhoon': a typhoon is a reason to expect something bad, and 大雨 'heavy rain' is a bad event. Connection: verb dictionary form + おそれがある (なるおそれがある), or noun + の + おそれがある (大雨のおそれがある). Use it only for undesirable things; you would not say いい天気になるおそれがある.",
+    "choice_notes": [
+      "Correct. 大雨になるおそれがある = 'there is a danger of heavy rain'. Verb dictionary form + おそれがある, for a bad possibility.",
+      "Wrong. 〜ことになっている means 'it is arranged / it is a rule that ~'. Weather cannot be scheduled or decided by rules. Connection: verb dictionary / ない form + ことになっている. Correct use: 明日は九時に駅で集まることになっている。(We're supposed to meet at the station at nine tomorrow.)",
+      "Wrong. 〜わけがない means 'there is no way that ~'. Saying 'because of the typhoon, there's no way it will rain heavily' is illogical. Connection: plain form + わけがない. Correct use: こんなに難しい問題が、子どもに解けるわけがない。(There's no way a child could solve such a hard problem.)",
+      "Wrong. 〜ことはない means 'there is no need to ~'. It does not fit a forecast based on a typhoon. Connection: verb dictionary form + ことはない. Correct use: 小さなミスだから、心配することはないよ。(It's just a small mistake, so there's no need to worry.)"
+    ],
+    "vocab": [
+      {
+        "word": "台風",
+        "reading": "たいふう",
+        "meaning": "typhoon",
+        "pos": "noun",
+        "example": "台風{たいふう}で電車{でんしゃ}が止{と}まった。",
+        "example_translation": "The trains stopped because of the typhoon."
+      },
+      {
+        "word": "影響",
+        "reading": "えいきょう",
+        "meaning": "influence, effect (〜の影響で = due to ~)",
+        "pos": "noun / suru verb",
+        "example": "子{こ}どもは親{おや}の影響{えいきょう}を受{う}けやすい。",
+        "example_translation": "Children are easily influenced by their parents."
+      },
+      {
+        "word": "大雨",
+        "reading": "おおあめ",
+        "meaning": "heavy rain",
+        "pos": "noun",
+        "example": "大雨{おおあめ}で川{かわ}の水{みず}が増{ふ}えた。",
+        "example_translation": "The river rose because of the heavy rain."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜おそれがある",
+        "meaning": "there is a risk / danger that ~ (something bad may happen); formal",
+        "formation": "Verb dictionary form + おそれがある / Noun + の + おそれがある",
+        "example": "この薬{くすり}は眠{ねむ}くなるおそれがあるので、運転{うんてん}の前{まえ}には飲{の}まないでください。",
+        "example_translation": "This medicine may make you drowsy, so please don't take it before driving."
+      },
+      {
+        "pattern": "〜ことになっている",
+        "meaning": "it is arranged that ~, the rule is that ~",
+        "formation": "Verb dictionary form / ない form + ことになっている",
+        "example": "この会社{かいしゃ}では、休{やす}む時{とき}は朝{あさ}九時{くじ}までに連絡{れんらく}することになっている。",
+        "example_translation": "At this company, the rule is that you call in by 9 a.m. when you take a day off."
+      },
+      {
+        "pattern": "〜わけがない",
+        "meaning": "there's no way that ~, it's impossible that ~",
+        "formation": "Plain form (な-adj + な, Noun + の / である) + わけがない",
+        "example": "あんなに練習{れんしゅう}した彼{かれ}が、負{ま}けるわけがない。",
+        "example_translation": "There's no way he would lose after practicing that much."
+      },
+      {
+        "pattern": "〜ことはない",
+        "meaning": "there is no need to ~",
+        "formation": "Verb dictionary form + ことはない",
+        "example": "心配{しんぱい}することはないよ。",
+        "example_translation": "There's no need to worry."
+      }
+    ]
+  },
+  {
+    "id": "gf-008",
+    "section": "grammar_form",
+    "question": "体{からだ}が動{うご}く（　　）、今{いま}の仕事{しごと}を続{つづ}けていくつもりだ。",
+    "choices": [
+      "くせに",
+      "あまり",
+      "かぎり",
+      "ものの"
+    ],
+    "answer": 2,
+    "full_sentence": "体{からだ}が動{うご}くかぎり、今{いま}の仕事{しごと}を続{つづ}けていくつもりだ。",
+    "translation": "As long as my body can still move, I intend to keep doing my current job.",
+    "explanation": "〜かぎり means 'as long as ~ (this condition continues), ~'. The first half is a condition (my body can move), and the second half is something that will hold true for as long as that condition lasts (I will keep working). 体が動くかぎり 'as long as my body works' is a very common set phrase. Connection: verb dictionary form / ている form + かぎり (動くかぎり, 生きているかぎり); な-adj + な or である; noun + である. With the ない form it means 'unless ~' (雨が降らないかぎり 'unless it rains'). 〜うちに (動くうちに 'while I can still move') would also be natural Japanese, but it is not among the choices.",
+    "choice_notes": [
+      "Wrong. 〜くせに means 'even though ~' with criticism. 'Even though my body moves (shame on me), I'll keep working' makes no sense, and くせに is used to criticize others, not to state your own plans. Correct use: 自分では何もしないくせに、文句ばかり言う。(He does nothing himself, yet he does nothing but complain.)",
+      "Wrong. 〜あまり means 'so much ~ that (an extreme result)' and is used with feelings like 心配 or 緊張. 動く is not a feeling, and continuing to work is not an extreme result. Correct use: 緊張するあまり、何も話せなかった。(I was so nervous that I couldn't say anything.)",
+      "Correct. 動くかぎり = 'as long as it moves / works'. Verb dictionary form + かぎり, followed by what will continue during that time.",
+      "Wrong. 〜ものの means 'although ~'. 'Although my body moves, I'll keep working' has no real contrast. Correct use: 体は動くものの、昔のようには走れない。(Although my body still moves, I can't run like I used to.)"
+    ],
+    "vocab": [
+      {
+        "word": "動く",
+        "reading": "うごく",
+        "meaning": "to move; to work, to run (of a machine or body)",
+        "pos": "godan verb",
+        "example": "古{ふる}いパソコンがまだ動{うご}く。",
+        "example_translation": "My old computer still works."
+      },
+      {
+        "word": "続ける",
+        "reading": "つづける",
+        "meaning": "to continue, to keep doing",
+        "pos": "ichidan verb",
+        "example": "雨{あめ}の中{なか}を歩{ある}き続{つづ}けた。",
+        "example_translation": "I kept walking in the rain."
+      },
+      {
+        "word": "〜ていく",
+        "reading": "ていく",
+        "meaning": "to go on ~ing (from now into the future)",
+        "pos": "expression",
+        "example": "これからも日本語{にほんご}の勉強{べんきょう}を続{つづ}けていきたい。",
+        "example_translation": "I want to keep on studying Japanese from now on, too."
+      },
+      {
+        "word": "つもり",
+        "reading": "つもり",
+        "meaning": "intention, plan (Verb dictionary form + つもりだ = I intend to ~)",
+        "pos": "noun",
+        "example": "来年{らいねん}、日本{にほん}へ行{い}くつもりだ。",
+        "example_translation": "I plan to go to Japan next year."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜かぎり",
+        "meaning": "as long as ~, while ~ (the situation continues); with ない: unless ~",
+        "formation": "Verb dictionary form / ている form / ない form, な-adj + な / である, Noun + である + かぎり",
+        "example": "生{い}きているかぎり、あなたのことは忘{わす}れない。",
+        "example_translation": "As long as I live, I will never forget you."
+      },
+      {
+        "pattern": "〜くせに",
+        "meaning": "even though ~ (with criticism, blame or contempt)",
+        "formation": "Plain form / な-adj + な / Noun + の + くせに",
+        "example": "子{こ}どものくせに、生意気{なまいき}なことを言{い}うな。",
+        "example_translation": "Don't talk back like that - you're just a kid."
+      },
+      {
+        "pattern": "〜あまり（に）",
+        "meaning": "so much ~ that... (an excessive feeling causes an unusual result)",
+        "formation": "Verb dictionary form / た-form + あまり / Noun + の + あまり",
+        "example": "喜{よろこ}びのあまり、泣{な}き出{だ}してしまった。",
+        "example_translation": "I was so happy that I burst into tears."
+      },
+      {
+        "pattern": "〜ものの",
+        "meaning": "although ~ (but what you would expect next does not happen)",
+        "formation": "Plain form (な-adj + な / である, Noun + である) + ものの",
+        "example": "薬{くすり}を飲{の}んだものの、熱{ねつ}はなかなか下{さ}がらない。",
+        "example_translation": "Although I took medicine, my fever just won't go down."
+      }
+    ]
+  },
+  {
+    "id": "gf-009",
+    "section": "grammar_form",
+    "question": "机{つくえ}の上{うえ}に、飲{の}み（　　）のコーヒーが置{お}いたままになっている。",
+    "choices": [
+      "がち",
+      "っぽい",
+      "気味{ぎみ}",
+      "かけ"
+    ],
+    "answer": 3,
+    "full_sentence": "机{つくえ}の上{うえ}に、飲{の}みかけのコーヒーが置{お}いたままになっている。",
+    "translation": "A half-finished cup of coffee has been left sitting on the desk.",
+    "explanation": "〜かけ means 'half-done; started but not finished'. 飲みかけのコーヒー is 'coffee that someone started drinking but didn't finish'. Connection: verb ます-stem + かけ (飲みかけ, 読みかけ, 食べかけ). As a noun it takes の before another noun (飲みかけのコーヒー), and it can also be used as a verb, 〜かける 'to start to ~, to be about to ~' (言いかけてやめた 'started to say something and stopped'). The clue is the meaning of the whole sentence: a cup of coffee left sitting on a desk is naturally one that was not finished. All four choices are suffixes that can attach to a ます-stem or a noun, so you must decide by meaning and by what can come before の.",
+    "choice_notes": [
+      "Wrong. 〜がち means 'tend to ~, often ~' (usually a bad tendency). 'Coffee that one tends to drink' does not describe a cup sitting on a desk. Connection: ます-stem / noun + がち. Correct use: 忙しいと、朝ご飯を抜きがちだ。(When I'm busy, I tend to skip breakfast.)",
+      "Wrong. 〜っぽい means '-ish, easily ~' (忘れっぽい 'forgetful', 子どもっぽい 'childish'). 飲みっぽい is not a word, and っぽい is an い-adjective, so it cannot be followed by の. Correct use: 年を取って、忘れっぽくなった。(I've become forgetful with age.)",
+      "Wrong. 〜気味（ぎみ） means 'a bit ~, a touch of ~' (疲れ気味 'a bit tired', 風邪気味 'a slight cold'). It describes a person's condition, not a half-finished object, and 飲み気味 is not used. Correct use: 最近、少し太り気味だ。(Lately I've put on a bit of weight.)",
+      "Correct. 飲みかけ = 'half-drunk'. ます-stem + かけ + の + noun."
+    ],
+    "vocab": [
+      {
+        "word": "机",
+        "reading": "つくえ",
+        "meaning": "desk",
+        "pos": "noun",
+        "example": "机{つくえ}の上{うえ}を片付{かたづ}けなさい。",
+        "example_translation": "Tidy up your desk."
+      },
+      {
+        "word": "置く",
+        "reading": "おく",
+        "meaning": "to put, to place, to leave",
+        "pos": "godan verb",
+        "example": "かぎはテーブルの上{うえ}に置{お}いた。",
+        "example_translation": "I put the key on the table."
+      },
+      {
+        "word": "〜たまま",
+        "reading": "たまま",
+        "meaning": "leaving it as it is, with ~ unchanged",
+        "pos": "expression",
+        "example": "電気{でんき}をつけたまま寝{ね}てしまった。",
+        "example_translation": "I fell asleep with the light on."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜かけ（の／だ）／〜かける",
+        "meaning": "half-~, started ~ but not finished; about to ~",
+        "formation": "Verb ます-stem + かけ (+ の + Noun / だ) or + かける",
+        "example": "読{よ}みかけの本{ほん}がベッドの横{よこ}に置{お}いてある。",
+        "example_translation": "There's a half-read book next to the bed."
+      },
+      {
+        "pattern": "〜がち",
+        "meaning": "tend to ~, prone to ~ (often negative)",
+        "formation": "Verb ます-stem / Noun + がち",
+        "example": "冬{ふゆ}は運動不足{うんどうぶそく}になりがちだ。",
+        "example_translation": "In winter we tend not to get enough exercise."
+      },
+      {
+        "pattern": "〜っぽい",
+        "meaning": "-ish, -like; tends to ~ easily",
+        "formation": "Verb ます-stem / Noun / い-adj stem + っぽい (conjugates like an い-adjective)",
+        "example": "年{とし}を取{と}って、忘{わす}れっぽくなった。",
+        "example_translation": "I've become forgetful with age."
+      },
+      {
+        "pattern": "〜気味",
+        "meaning": "a bit ~, slightly ~, a touch of ~ (usually unwelcome)",
+        "formation": "Verb ます-stem / Noun + 気味 (ぎみ)",
+        "example": "最近{さいきん}、少{すこ}し太{ふと}り気味{ぎみ}だ。",
+        "example_translation": "Lately I've been putting on a bit of weight."
+      }
+    ]
+  },
+  {
+    "id": "gf-010",
+    "section": "grammar_form",
+    "question": "あんなに優{やさ}しい彼{かれ}が、そんなひどいことを言{い}ったとは信{しん}じ（　　）。",
+    "choices": [
+      "かねない",
+      "がたい",
+      "がちだ",
+      "かけだ"
+    ],
+    "answer": 1,
+    "full_sentence": "あんなに優{やさ}しい彼{かれ}が、そんなひどいことを言{い}ったとは信{しん}じがたい。",
+    "translation": "I can hardly believe that someone as kind as him said such a terrible thing.",
+    "explanation": "〜がたい means 'hard to ~, can hardly ~'. It expresses that something is difficult to do psychologically or emotionally (you can't bring yourself to do it), not physically difficult. It is used with a limited set of verbs such as 信じる 'believe', 理解する 'understand', 許す（ゆるす） 'forgive', 想像する 'imagine' and 忘れる 'forget' (忘れがたい思い出 'an unforgettable memory'). The clue is the gap between あんなに優しい彼 'him, who is so kind' and ひどいこと 'a terrible thing': the speaker finds it hard to accept. Connection: verb ます-stem + がたい (信じがたい). For simple physical difficulty, use 〜にくい instead (この字は読みにくい 'this handwriting is hard to read').",
+    "choice_notes": [
+      "Wrong. 〜かねない means 'might well ~ (a bad possibility)'. 信じかねない 'I might well believe it' is the opposite of the speaker's feeling. Be careful: 信じかねる (positive form) would mean 'I can't bring myself to believe it', but 信じかねない is a different pattern. Correct use: あの人なら、そんなことを言いかねない。(That person might well say such a thing.)",
+      "Correct. 信じがたい = 'hard to believe'. ます-stem + がたい for something emotionally hard to accept.",
+      "Wrong. 〜がちだ means 'tend to ~'. 'I tend to believe he said it' does not match the surprise in the sentence. Correct use: 人はうわさを信じがちだ。(People tend to believe rumors.)",
+      "Wrong. 〜かけだ means 'half-done, in the middle of ~'. 'I am half-believing it' does not fit 〜とは信じ（　　）, which expresses disbelief. Correct use: この本はまだ読みかけだ。(I'm still in the middle of this book.)"
+    ],
+    "vocab": [
+      {
+        "word": "優しい",
+        "reading": "やさしい",
+        "meaning": "kind, gentle",
+        "pos": "i-adjective",
+        "example": "祖母{そぼ}はいつも優{やさ}しく話{はな}してくれる。",
+        "example_translation": "My grandmother always speaks to me kindly."
+      },
+      {
+        "word": "ひどい",
+        "reading": "ひどい",
+        "meaning": "terrible, awful, cruel",
+        "pos": "i-adjective",
+        "example": "ひどい雨{あめ}で、試合{しあい}が中止{ちゅうし}になった。",
+        "example_translation": "The game was canceled because of the terrible rain."
+      },
+      {
+        "word": "信じる",
+        "reading": "しんじる",
+        "meaning": "to believe, to trust",
+        "pos": "ichidan verb",
+        "example": "私{わたし}はあなたの言葉{ことば}を信{しん}じる。",
+        "example_translation": "I believe your words."
+      },
+      {
+        "word": "〜とは",
+        "reading": "とは",
+        "meaning": "that ~ (quoting something surprising or hard to accept)",
+        "pos": "expression",
+        "example": "こんなに早{はや}く終{お}わるとは思{おも}わなかった。",
+        "example_translation": "I didn't think it would end so soon."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜がたい",
+        "meaning": "hard to ~, can hardly ~ (psychologically or emotionally difficult)",
+        "formation": "Verb ます-stem + がたい",
+        "example": "親友{しんゆう}の裏切{うらぎ}りは許{ゆる}しがたい。",
+        "example_translation": "A best friend's betrayal is hard to forgive."
+      },
+      {
+        "pattern": "〜かねない",
+        "meaning": "might well ~, there is a danger that ~ (a bad possibility)",
+        "formation": "Verb ます-stem + かねない",
+        "example": "あの人{ひと}なら、本当{ほんとう}にやりかねない。",
+        "example_translation": "That person might really do it."
+      },
+      {
+        "pattern": "〜がち",
+        "meaning": "tend to ~, prone to ~ (often negative)",
+        "formation": "Verb ます-stem / Noun + がち",
+        "example": "忙{いそが}しいと、食事{しょくじ}の時間{じかん}が不規則{ふきそく}になりがちだ。",
+        "example_translation": "When you're busy, mealtimes tend to become irregular."
+      },
+      {
+        "pattern": "〜かけ（の／だ）／〜かける",
+        "meaning": "half-~, started ~ but not finished; about to ~",
+        "formation": "Verb ます-stem + かけ (+ の + Noun / だ) or + かける",
+        "example": "食{た}べかけのパンを捨{す}てないで。",
+        "example_translation": "Don't throw away the half-eaten bread."
+      }
+    ]
+  },
+  {
+    "id": "gf-011",
+    "section": "grammar_form",
+    "question": "空{そら}が急{きゅう}に暗{くら}くなった（　　）、激{はげ}しい雨{あめ}が降{ふ}り出{だ}した。",
+    "choices": [
+      "かと思{おも}うと",
+      "かわりに",
+      "以上{いじょう}は",
+      "どころか"
+    ],
+    "answer": 0,
+    "full_sentence": "空{そら}が急{きゅう}に暗{くら}くなったかと思{おも}うと、激{はげ}しい雨{あめ}が降{ふ}り出{だ}した。",
+    "translation": "No sooner had the sky suddenly turned dark than it started pouring with heavy rain.",
+    "explanation": "Verb た-form + かと思うと (or かと思ったら) means 'just when ~ happened, (immediately) ~ happened next'. It describes two events in very quick succession, where the second one is a sudden change or a surprise. Here: the sky went dark → right after that, heavy rain began. It is used to describe things the speaker observes (the weather, other people), not the speaker's own planned actions, and the second half cannot be a wish, a command or a request. Connection: verb た-form + かと思うと (暗くなったかと思うと). Note that 思う here does not really mean 'think'; the whole phrase works as one fixed pattern.",
+    "choice_notes": [
+      "Correct. 暗くなったかと思うと = 'no sooner had it got dark than ~'. た-form + かと思うと, followed by a sudden observed change.",
+      "Wrong. 〜かわりに means 'instead of ~ / in exchange for ~'. The rain is not a replacement for the sky darkening. Correct use: 自分で作るかわりに、店で買った。(Instead of making it myself, I bought it at a shop.)",
+      "Wrong. 〜以上は means 'now that ~, (so one must / will)'. It needs a judgment or a resolve in the second half, not a natural event. Correct use: 約束した以上は、必ず行きます。(Now that I've promised, I will definitely go.)",
+      "Wrong. 〜どころか means 'far from ~, (actually the opposite / something much more)'. 'Far from the sky getting dark, heavy rain started' is illogical. Connection: plain form / noun + どころか. Correct use: 雨はやむどころか、ますます強くなった。(Far from stopping, the rain grew even heavier.)"
+    ],
+    "vocab": [
+      {
+        "word": "急に",
+        "reading": "きゅうに",
+        "meaning": "suddenly",
+        "pos": "adverb",
+        "example": "急{きゅう}に用事{ようじ}ができて、行{い}けなくなった。",
+        "example_translation": "Something suddenly came up and I couldn't go."
+      },
+      {
+        "word": "激しい",
+        "reading": "はげしい",
+        "meaning": "violent, intense, fierce",
+        "pos": "i-adjective",
+        "example": "夜中{よなか}に激{はげ}しい雷{かみなり}が鳴{な}った。",
+        "example_translation": "There was violent thunder in the middle of the night."
+      },
+      {
+        "word": "降り出す",
+        "reading": "ふりだす",
+        "meaning": "to start to rain / snow",
+        "pos": "godan verb",
+        "example": "家{いえ}を出{で}たとたん、雨{あめ}が降{ふ}り出{だ}した。",
+        "example_translation": "As soon as I left the house, it started raining."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜かと思うと／〜かと思ったら",
+        "meaning": "no sooner had ~ than ~, just as ~ (something else immediately happened)",
+        "formation": "Verb た-form + かと思うと / かと思ったら",
+        "example": "赤{あか}ちゃんは泣{な}いたかと思{おも}うと、もう笑{わら}っている。",
+        "example_translation": "The baby was crying a moment ago, and now it's already laughing."
+      },
+      {
+        "pattern": "〜かわりに",
+        "meaning": "instead of ~, in place of ~ / in exchange for ~",
+        "formation": "Verb dictionary form / た-form + かわりに / Noun + の + かわりに",
+        "example": "父{ちち}のかわりに、私{わたし}が会議{かいぎ}に出{で}た。",
+        "example_translation": "I attended the meeting in place of my father."
+      },
+      {
+        "pattern": "〜以上（は）",
+        "meaning": "now that ~, since ~ (therefore one must / should / will)",
+        "formation": "Plain form (Noun / な-adj + である) + 以上（は）",
+        "example": "試験{しけん}を受{う}ける以上{いじょう}は、合格{ごうかく}したい。",
+        "example_translation": "Since I'm taking the exam, I want to pass."
+      },
+      {
+        "pattern": "〜どころか",
+        "meaning": "far from ~, let alone ~ (the reality is the opposite, or much more extreme)",
+        "formation": "Plain form (な-adj (な), Noun) + どころか",
+        "example": "雨{あめ}はやむどころか、ますます強{つよ}くなった。",
+        "example_translation": "Far from stopping, the rain grew even heavier."
+      }
+    ]
+  },
+  {
+    "id": "gf-012",
+    "section": "grammar_form",
+    "question": "授業{じゅぎょう}の終{お}わりのチャイムが鳴{な}る（　　）、生徒{せいと}たちは教室{きょうしつ}を飛{と}び出{だ}していった。",
+    "choices": [
+      "とたんに",
+      "次第{しだい}",
+      "か鳴{な}らないかのうちに",
+      "かと思{おも}うと"
+    ],
+    "answer": 2,
+    "full_sentence": "授業{じゅぎょう}の終{お}わりのチャイムが鳴{な}るか鳴{な}らないかのうちに、生徒{せいと}たちは教室{きょうしつ}を飛{と}び出{だ}していった。",
+    "translation": "The bell for the end of class had barely started ringing when the students rushed out of the classroom.",
+    "explanation": "〜か〜ないかのうちに means 'almost at the same moment as ~, before ~ is even finished'. Literally it is 'within the time of whether it rang or didn't ring', so the second action happens so fast that you can hardly tell whether the first one had finished. Connection: verb dictionary form + か + the same verb in ない form + かのうちに (鳴るか鳴らないかのうちに); the た-form is also possible (言ったか言わないかのうちに). This question is really about connections: all four choices mean something like 'as soon as', but only one can attach to the dictionary form 鳴る. Remember: とたん and かと思うと need the た-form (鳴ったとたん, 鳴ったかと思うと), and 次第（しだい） needs the ます-stem (鳴り次第) and is used for future plans, not past events.",
+    "choice_notes": [
+      "Wrong. 〜とたん（に） 'the moment ~' must follow the た-form, so 鳴るとたんに is ungrammatical; it would have to be 鳴ったとたんに. Correct use: チャイムが鳴ったとたん、生徒たちは立ち上がった。(The moment the bell rang, the students stood up.)",
+      "Wrong. 〜次第 'as soon as ~ (I will do ~)' attaches to the ます-stem (鳴り次第), not the dictionary form. It is also used for future actions or requests, not for describing what already happened. Correct use: 準備ができ次第、出発します。(We'll leave as soon as we're ready.)",
+      "Correct. 鳴るか鳴らないかのうちに = 'just as the bell was starting to ring'. Dictionary form + か + ない form + かのうちに.",
+      "Wrong. 〜かと思うと 'no sooner had ~ than ~' needs the た-form (鳴ったかと思うと). After the dictionary form, 鳴るかと思うと would mean 'when I think it might ring...', which doesn't fit. Correct use: ベルが鳴ったかと思うと、教室はもう空っぽになった。(No sooner had the bell rung than the classroom was empty.)"
+    ],
+    "vocab": [
+      {
+        "word": "授業",
+        "reading": "じゅぎょう",
+        "meaning": "class, lesson",
+        "pos": "noun",
+        "example": "今日{きょう}の授業{じゅぎょう}は三時{さんじ}に終{お}わる。",
+        "example_translation": "Today's class ends at three."
+      },
+      {
+        "word": "チャイム",
+        "reading": "チャイム",
+        "meaning": "chime, bell (at school); doorbell",
+        "pos": "noun",
+        "example": "玄関{げんかん}のチャイムが鳴{な}った。",
+        "example_translation": "The doorbell rang."
+      },
+      {
+        "word": "生徒",
+        "reading": "せいと",
+        "meaning": "student, pupil (junior high / high school)",
+        "pos": "noun",
+        "example": "この学校{がっこう}には生徒{せいと}が五百人{ごひゃくにん}いる。",
+        "example_translation": "There are five hundred students at this school."
+      },
+      {
+        "word": "飛び出す",
+        "reading": "とびだす",
+        "meaning": "to rush out, to dash out, to jump out",
+        "pos": "godan verb",
+        "example": "子{こ}どもが急{きゅう}に道{みち}に飛{と}び出{だ}してきた。",
+        "example_translation": "A child suddenly dashed out into the road."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜か〜ないかのうちに",
+        "meaning": "just as ~, almost before ~ (B happens at nearly the same time as A)",
+        "formation": "Verb dictionary form (or た-form) + か + same verb ない form + かのうちに",
+        "example": "彼{かれ}は「いただきます」と言{い}うか言{い}わないかのうちに、食{た}べ始{はじ}めた。",
+        "example_translation": "He started eating almost before he had finished saying 'itadakimasu'."
+      },
+      {
+        "pattern": "〜とたん（に）",
+        "meaning": "the moment ~, just as ~ (something unexpected happens right after)",
+        "formation": "Verb た-form + とたん（に）",
+        "example": "窓{まど}を開{あ}けたとたん、強{つよ}い風{かぜ}が入{はい}ってきた。",
+        "example_translation": "The moment I opened the window, a strong wind blew in."
+      },
+      {
+        "pattern": "〜次第",
+        "meaning": "as soon as ~ (then I will do ~ / please do ~)",
+        "formation": "Verb ます-stem / する-noun + 次第",
+        "example": "駅{えき}に着{つ}き次第{しだい}、電話{でんわ}します。",
+        "example_translation": "I'll call you as soon as I arrive at the station."
+      },
+      {
+        "pattern": "〜かと思うと／〜かと思ったら",
+        "meaning": "no sooner had ~ than ~, just as ~ (something else immediately happened)",
+        "formation": "Verb た-form + かと思うと / かと思ったら",
+        "example": "弟{おとうと}は帰{かえ}ってきたかと思{おも}うと、すぐにまた出{で}かけていった。",
+        "example_translation": "No sooner had my brother come home than he went out again."
+      }
+    ]
+  },
+  {
+    "id": "gf-013",
+    "section": "grammar_form",
+    "question": "申{もう}し訳{わけ}ございませんが、そのようなご要望{ようぼう}にはお応{こた}えし（　　）。",
+    "choices": [
+      "かねません",
+      "かねます",
+      "がちです",
+      "かけます"
+    ],
+    "answer": 1,
+    "full_sentence": "申{もう}し訳{わけ}ございませんが、そのようなご要望{ようぼう}にはお応{こた}えしかねます。",
+    "translation": "We are very sorry, but we are unable to meet that kind of request.",
+    "explanation": "〜かねる (polite: かねます) means 'cannot ~, be unable to ~ (for some reason, even if one would like to)'. It is a soft, polite way to refuse, used very often by shop staff and companies and in business emails (分かりかねます 'I'm afraid I can't say', お答えしかねます 'I'm unable to answer'). The clue is 申し訳ございませんが 'we're terribly sorry, but', which always introduces a polite refusal or bad news. Connection: verb ます-stem + かねる / かねます (お応えし + かねます). Watch out for this confusing pair: かねる (looks positive) = 'cannot', while かねない (looks negative) = 'might well (do something bad)'.",
+    "choice_notes": [
+      "Wrong. 〜かねません is the polite form of 〜かねない 'might well ~ (something bad)'. 'We might well meet your request' contradicts 申し訳ございませんが. Correct use: このままでは、大きな事故になりかねません。(If things stay like this, it could well turn into a major accident.)",
+      "Correct. お応えしかねます = 'we are unable to respond to (your request)'. ます-stem + かねます, a polite refusal.",
+      "Wrong. 〜がちです means 'tend to ~'. 'We tend to meet such requests' doesn't fit an apology. Correct use: 雨の日は、家にこもりがちです。(On rainy days I tend to stay shut up at home.)",
+      "Wrong. 〜かけます means 'start to ~ / be about to ~ (but not finish)'. 'We start to meet your request' makes no sense. Correct use: 彼は何か言いかけて、やめた。(He started to say something, then stopped.)"
+    ],
+    "vocab": [
+      {
+        "word": "申し訳ございません",
+        "reading": "もうしわけございません",
+        "meaning": "I am terribly sorry (very polite apology)",
+        "pos": "expression",
+        "example": "お待{ま}たせして申{もう}し訳{わけ}ございません。",
+        "example_translation": "I'm terribly sorry to have kept you waiting."
+      },
+      {
+        "word": "要望",
+        "reading": "ようぼう",
+        "meaning": "request, demand, wish",
+        "pos": "noun",
+        "example": "お客様{きゃくさま}の要望{ようぼう}に合{あ}わせて、メニューを変{か}えた。",
+        "example_translation": "We changed the menu to match our customers' requests."
+      },
+      {
+        "word": "応える",
+        "reading": "こたえる",
+        "meaning": "to respond to, to meet (a request or expectations)",
+        "pos": "ichidan verb",
+        "example": "期待{きたい}に応{こた}えられるように頑張{がんば}ります。",
+        "example_translation": "I'll do my best to live up to your expectations."
+      },
+      {
+        "word": "お応えする",
+        "reading": "おこたえする",
+        "meaning": "to respond, to meet (humble form of 応える: お + ます-stem + する)",
+        "pos": "expression",
+        "example": "皆様{みなさま}のご質問{しつもん}にお応{こた}えします。",
+        "example_translation": "We will respond to everyone's questions."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜かねる",
+        "meaning": "cannot ~, be unable to ~ (polite refusal; for some reason it is difficult to do)",
+        "formation": "Verb ます-stem + かねる (polite: かねます)",
+        "example": "その質問{しつもん}にはお答{こた}えしかねます。",
+        "example_translation": "I'm afraid I'm unable to answer that question."
+      },
+      {
+        "pattern": "〜かねない",
+        "meaning": "might well ~, there is a danger that ~ (a bad possibility)",
+        "formation": "Verb ます-stem + かねない (polite: かねません)",
+        "example": "無理{むり}をすると、体{からだ}を壊{こわ}しかねない。",
+        "example_translation": "If you overdo it, you might well ruin your health."
+      },
+      {
+        "pattern": "〜がち",
+        "meaning": "tend to ~, prone to ~ (often negative)",
+        "formation": "Verb ます-stem / Noun + がち",
+        "example": "この時期{じき}は、体調{たいちょう}を崩{くず}しがちです。",
+        "example_translation": "People tend to get sick around this time of year."
+      },
+      {
+        "pattern": "〜かける",
+        "meaning": "to start to ~, to be about to ~ (and not finish)",
+        "formation": "Verb ます-stem + かける",
+        "example": "彼{かれ}は何{なに}か言{い}いかけて、やめた。",
+        "example_translation": "He started to say something, then stopped."
+      }
+    ]
+  },
+  {
+    "id": "gf-014",
+    "section": "grammar_form",
+    "question": "寝不足{ねぶそく}のまま車{くるま}を運転{うんてん}すると、事故{じこ}を起{お}こし（　　）。",
+    "choices": [
+      "かねる",
+      "がたい",
+      "っこない",
+      "かねない"
+    ],
+    "answer": 3,
+    "full_sentence": "寝不足{ねぶそく}のまま車{くるま}を運転{うんてん}すると、事故{じこ}を起{お}こしかねない。",
+    "translation": "If you drive a car without having had enough sleep, you could well cause an accident.",
+    "explanation": "〜かねない means 'might well ~, there is a real danger that ~'. It warns that a bad result is quite possible, often because of someone's careless behavior. The clue is the situation: driving while short of sleep (寝不足のまま) is dangerous, and 事故を起こす 'to cause an accident' is a bad possibility. Connection: verb ます-stem + かねない (起こし + かねない). Remember the confusing pair: かねない (negative form) = 'might well happen', かねる (positive form) = 'cannot do'. かねない is only used for bad outcomes; for neutral or good possibilities, use 〜かもしれない.",
+    "choice_notes": [
+      "Wrong. 〜かねる means 'cannot ~ (politely)'. 事故を起こしかねる 'I am unable to cause an accident' is nonsense here. Correct use: その件については、私には判断しかねます。(I'm not in a position to judge that matter.)",
+      "Wrong. 〜がたい means 'hard to ~ (emotionally)'. 'An accident is hard to cause' is the opposite of a warning. Correct use: 彼の話はとても信じがたい。(His story is very hard to believe.)",
+      "Wrong. 〜っこない means 'there's no way ~ (casual)'. 'There's no way you'll cause an accident' contradicts the dangerous situation. Correct use: こんな難しい問題、私に解けっこない。(There's no way I can solve such a hard problem.)",
+      "Correct. 起こしかねない = 'could well cause'. ます-stem + かねない, warning of a bad result."
+    ],
+    "vocab": [
+      {
+        "word": "寝不足",
+        "reading": "ねぶそく",
+        "meaning": "lack of sleep",
+        "pos": "noun",
+        "example": "寝不足{ねぶそく}で、授業中{じゅぎょうちゅう}に眠{ねむ}くなった。",
+        "example_translation": "I got sleepy in class from lack of sleep."
+      },
+      {
+        "word": "運転",
+        "reading": "うんてん",
+        "meaning": "driving; to drive (a vehicle)",
+        "pos": "noun / suru verb",
+        "example": "父{ちち}は毎日{まいにち}車{くるま}を運転{うんてん}して会社{かいしゃ}へ行{い}く。",
+        "example_translation": "My father drives to work every day."
+      },
+      {
+        "word": "事故",
+        "reading": "じこ",
+        "meaning": "accident",
+        "pos": "noun",
+        "example": "交差点{こうさてん}で事故{じこ}があった。",
+        "example_translation": "There was an accident at the intersection."
+      },
+      {
+        "word": "起こす",
+        "reading": "おこす",
+        "meaning": "to cause, to bring about; to wake (someone) up",
+        "pos": "godan verb",
+        "example": "小{ちい}さな不注意{ふちゅうい}が大{おお}きな問題{もんだい}を起{お}こすこともある。",
+        "example_translation": "A small moment of carelessness can sometimes cause a big problem."
+      },
+      {
+        "word": "〜まま",
+        "reading": "まま",
+        "meaning": "(staying) in the state of ~, as is",
+        "pos": "expression",
+        "example": "靴{くつ}をはいたまま部屋{へや}に入{はい}らないでください。",
+        "example_translation": "Please don't enter the room with your shoes on."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜かねない",
+        "meaning": "might well ~, there is a danger that ~ (a bad possibility)",
+        "formation": "Verb ます-stem + かねない",
+        "example": "あの人{ひと}なら、本当{ほんとう}にやりかねない。",
+        "example_translation": "That person might really do it."
+      },
+      {
+        "pattern": "〜かねる",
+        "meaning": "cannot ~, be unable to ~ (polite refusal)",
+        "formation": "Verb ます-stem + かねる (polite: かねます)",
+        "example": "その件{けん}については、お答{こた}えしかねます。",
+        "example_translation": "I'm afraid I can't answer regarding that matter."
+      },
+      {
+        "pattern": "〜がたい",
+        "meaning": "hard to ~, can hardly ~ (psychologically or emotionally difficult)",
+        "formation": "Verb ます-stem + がたい",
+        "example": "彼{かれ}の話{はなし}はとても信{しん}じがたい。",
+        "example_translation": "His story is very hard to believe."
+      },
+      {
+        "pattern": "〜っこない",
+        "meaning": "there's no way ~ (casual, strong denial of a possibility)",
+        "formation": "Verb ます-stem + っこない",
+        "example": "こんなにたくさんの宿題{しゅくだい}、一日{いちにち}で終{お}わりっこない。",
+        "example_translation": "There's no way I can finish this much homework in one day."
+      }
+    ]
+  },
+  {
+    "id": "gf-015",
+    "section": "grammar_form",
+    "question": "彼{かれ}は、まるで自分{じぶん}の目{め}で見{み}た（　　）、事故{じこ}の様子{ようす}を詳{くわ}しく話{はな}したが、実際{じっさい}はその場{ば}にいなかったそうだ。",
+    "choices": [
+      "かのように",
+      "ばかりに",
+      "あげく",
+      "ついでに"
+    ],
+    "answer": 0,
+    "full_sentence": "彼{かれ}は、まるで自分{じぶん}の目{め}で見{み}たかのように、事故{じこ}の様子{ようす}を詳{くわ}しく話{はな}したが、実際{じっさい}はその場{ば}にいなかったそうだ。",
+    "translation": "He described the accident in detail as if he had seen it with his own eyes, but apparently he wasn't actually there.",
+    "explanation": "〜かのように means 'as if ~ (even though it is not actually true)'. It compares the real situation to an imagined one. Two clues make this clear: まるで 'just like, as if' almost always pairs with 〜ようだ / 〜かのようだ, and the end of the sentence, 実際はその場にいなかった 'actually he wasn't there', shows that he did NOT see it. Connection: plain form + かのようだ (verbs, い-adjectives); with nouns and な-adjectives use である (夢であるかのよう 'as if it were a dream'). The form changes with what follows: かのようだ at the end of a sentence, かのように + verb (as here: かのように話した), かのような + noun.",
+    "choice_notes": [
+      "Correct. 見たかのように = 'as if he had seen it'. Plain form + かのように, paired with まるで, and the last clause confirms that it wasn't true.",
+      "Wrong. 〜ばかりに means 'just because ~ (something bad happened)'. 'Just because he saw it with his own eyes, he talked in detail' is not a bad result, and it doesn't match まるで or the fact that he wasn't there. Correct use: 一言多かったばかりに、彼女を怒らせてしまった。(Just because I said one word too many, I made her angry.)",
+      "Wrong. 〜あげく means 'after a long, troublesome process, finally (a bad result)'. Seeing something is not a long struggle, and talking about it in detail is not a bad outcome. Correct use: さんざん悩んだあげく、留学をあきらめた。(After agonizing over it, I gave up on studying abroad.)",
+      "Wrong. 〜ついでに means 'while doing ~ anyway, also do ~'. 'While seeing it, he also talked' makes no sense together with まるで. Correct use: 散歩のついでに、パンを買ってきた。(I bought some bread while I was out on a walk.)"
+    ],
+    "vocab": [
+      {
+        "word": "まるで",
+        "reading": "まるで",
+        "meaning": "just like, as if (used with 〜ようだ / 〜かのようだ)",
+        "pos": "adverb",
+        "example": "彼女{かのじょ}の部屋{へや}はまるでホテルのようだ。",
+        "example_translation": "Her room is just like a hotel."
+      },
+      {
+        "word": "様子",
+        "reading": "ようす",
+        "meaning": "state of things, situation, appearance",
+        "pos": "noun",
+        "example": "窓{まど}から外{そと}の様子{ようす}を見{み}た。",
+        "example_translation": "I looked out of the window to see what was going on outside."
+      },
+      {
+        "word": "詳しい",
+        "reading": "くわしい",
+        "meaning": "detailed; knowing a lot about",
+        "pos": "i-adjective",
+        "example": "もう少{すこ}し詳{くわ}しく説明{せつめい}してください。",
+        "example_translation": "Please explain in a little more detail."
+      },
+      {
+        "word": "実際",
+        "reading": "じっさい",
+        "meaning": "reality; actually, in fact",
+        "pos": "noun / adverb",
+        "example": "写真{しゃしん}より実際{じっさい}の景色{けしき}のほうがきれいだった。",
+        "example_translation": "The actual scenery was more beautiful than in the photos."
+      },
+      {
+        "word": "その場",
+        "reading": "そのば",
+        "meaning": "the spot, the scene; there and then",
+        "pos": "noun",
+        "example": "その場{ば}ですぐに返事{へんじ}をした。",
+        "example_translation": "I gave my answer right there on the spot."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜かのようだ／〜かのように／〜かのような",
+        "meaning": "as if ~ (though it is not actually true)",
+        "formation": "Plain form (Noun / な-adj + である) + かのようだ; often with まるで",
+        "example": "彼女{かのじょ}は何{なに}もなかったかのように笑{わら}っていた。",
+        "example_translation": "She was smiling as if nothing had happened."
+      },
+      {
+        "pattern": "〜ばかりに",
+        "meaning": "just because ~ (a bad result followed, often with regret)",
+        "formation": "Verb た-form / plain form + ばかりに",
+        "example": "彼{かれ}の話{はなし}を信{しん}じたばかりに、ひどい目{め}にあった。",
+        "example_translation": "Just because I believed his story, I had a terrible experience."
+      },
+      {
+        "pattern": "〜あげく（に）",
+        "meaning": "after a long (often troublesome) process of ~, in the end ~ (usually a bad result)",
+        "formation": "Verb た-form + あげく（に） / Noun + の + あげく（に）",
+        "example": "長{なが}い時間{じかん}話{はな}し合{あ}ったあげく、何{なに}も決{き}まらなかった。",
+        "example_translation": "After discussing it for a long time, nothing was decided in the end."
+      },
+      {
+        "pattern": "〜ついでに",
+        "meaning": "while doing ~ anyway, taking the opportunity to also do ~",
+        "formation": "Verb dictionary form / た-form + ついでに / Noun + の + ついでに",
+        "example": "買{か}い物{もの}のついでに、郵便局{ゆうびんきょく}に寄{よ}った。",
+        "example_translation": "While I was out shopping, I stopped by the post office."
+      }
+    ]
+  },
+  {
+    "id": "gf-016",
+    "section": "grammar_form",
+    "question": "「どうしていつも厳{きび}しいことばかり言{い}うんですか。」「あなたのことを大切{たいせつ}に思{おも}っている（　　）、厳{きび}しく言{い}うんですよ。」",
+    "choices": [
+      "くせに",
+      "からといって",
+      "からこそ",
+      "ものの"
+    ],
+    "answer": 2,
+    "full_sentence": "「どうしていつも厳{きび}しいことばかり言{い}うんですか。」「あなたのことを大切{たいせつ}に思{おも}っているからこそ、厳{きび}しく言{い}うんですよ。」",
+    "translation": "'Why do you always say only harsh things?' 'It's precisely because I care about you that I'm strict with you.'",
+    "explanation": "〜からこそ means 'precisely because ~, it is exactly because ~'. こそ adds strong emphasis to the reason, often to point out a reason the listener did not expect: you might think harsh words mean dislike, but the real reason is the opposite - I care about you. Clues: the first speaker asks どうして 'why', so the reply must give a reason, and 〜んですよ shows that the speaker is explaining. Connection: plain form + からこそ (思っているからこそ); nouns and な-adjectives take だ (好きだからこそ). Typical sentence shape: 'XからこそY' = 'it is because of X (not in spite of X) that Y'.",
+    "choice_notes": [
+      "Wrong. 〜くせに means 'even though ~' with criticism. 'Even though I care about you (shame on me), I'm strict' turns the answer into an insult, and くせに is not used about yourself like this. Correct use: 知っているくせに、知らないふりをする。(He pretends not to know even though he does.)",
+      "Wrong. 〜からといって means 'just because ~ (it doesn't mean ~)' and must be followed by a negative ending such as とは限らない or わけではない. Correct use: 大切に思っているからといって、何でも許すわけではない。(Just because I care about you doesn't mean I'll forgive anything.)",
+      "Correct. 思っているからこそ = 'precisely because I care'. Plain form + からこそ, giving an emphasized, unexpected reason.",
+      "Wrong. 〜ものの means 'although ~'. 'Although I care about you, I'm strict' presents a contradiction, but the speaker is explaining the reason, not admitting a contradiction. Correct use: 注意しようと思ったものの、なかなか言えなかった。(Although I meant to warn him, I just couldn't bring myself to say it.)"
+    ],
+    "vocab": [
+      {
+        "word": "厳しい",
+        "reading": "きびしい",
+        "meaning": "strict, harsh, severe",
+        "pos": "i-adjective",
+        "example": "私{わたし}の父{ちち}はとても厳{きび}しい人{ひと}だった。",
+        "example_translation": "My father was a very strict person."
+      },
+      {
+        "word": "大切に思う",
+        "reading": "たいせつにおもう",
+        "meaning": "to care about, to value (someone or something)",
+        "pos": "expression",
+        "example": "家族{かぞく}のことを大切{たいせつ}に思{おも}っている。",
+        "example_translation": "I care deeply about my family."
+      },
+      {
+        "word": "〜ばかり",
+        "reading": "ばかり",
+        "meaning": "only ~, nothing but ~",
+        "pos": "particle",
+        "example": "弟{おとうと}はゲームばかりしている。",
+        "example_translation": "My younger brother does nothing but play games."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜からこそ",
+        "meaning": "precisely because ~ (emphasizes the reason)",
+        "formation": "Plain form (Noun / な-adj + だ) + からこそ",
+        "example": "失敗{しっぱい}したからこそ、学{まな}べたこともある。",
+        "example_translation": "There are things I could learn precisely because I failed."
+      },
+      {
+        "pattern": "〜くせに",
+        "meaning": "even though ~ (with criticism, blame or contempt)",
+        "formation": "Plain form / な-adj + な / Noun + の + くせに",
+        "example": "彼{かれ}は知{し}っているくせに、何{なに}も教{おし}えてくれない。",
+        "example_translation": "Even though he knows, he won't tell me anything."
+      },
+      {
+        "pattern": "〜からといって",
+        "meaning": "just because ~ (it doesn't mean ~); followed by a negative",
+        "formation": "Plain form (Noun / な-adj + だ) + からといって",
+        "example": "高{たか}いからといって、いい物{もの}だとは限{かぎ}らない。",
+        "example_translation": "Just because something is expensive doesn't mean it's good."
+      },
+      {
+        "pattern": "〜ものの",
+        "meaning": "although ~ (but what you would expect next does not happen)",
+        "formation": "Plain form (な-adj + な / である, Noun + である) + ものの",
+        "example": "大学{だいがく}は卒業{そつぎょう}したものの、仕事{しごと}がなかなか見{み}つからない。",
+        "example_translation": "Although I graduated from university, I just can't find a job."
+      }
+    ]
+  },
+  {
+    "id": "gf-017",
+    "section": "grammar_form",
+    "question": "あのレストランは、店{みせ}の雰囲気{ふんいき}（　　）高級{こうきゅう}そうで、学生{がくせい}の私{わたし}にはとても入{はい}れない。",
+    "choices": [
+      "にとって",
+      "からといって",
+      "について",
+      "からして"
+    ],
+    "answer": 3,
+    "full_sentence": "あのレストランは、店{みせ}の雰囲気{ふんいき}からして高級{こうきゅう}そうで、学生{がくせい}の私{わたし}にはとても入{はい}れない。",
+    "translation": "Even just from its atmosphere, that restaurant looks high-class, so as a student I could never go in.",
+    "explanation": "Noun + からして has two closely related uses: (1) 'even ~, starting with ~': if even this one part is like this, everything else surely is too (名前からして怖い 'even the name is scary'); (2) 'judging from ~' (≈ からすると). Here: just looking at the atmosphere of the place, before even seeing the menu or the prices, it already looks expensive. The clue is 高級そう 'looks high-class': そう is a judgment from appearance, and からして gives the evidence it is based on. Connection: noun + からして, attached directly with no particle in between (雰囲気からして).",
+    "choice_notes": [
+      "Wrong. 〜にとって means 'for ~, from the standpoint of ~' and is used with people or groups (私にとって). 'For the atmosphere, it looks high-class' makes no sense. Correct use: 学生にとって、この店は高すぎる。(For students, this restaurant is too expensive.)",
+      "Wrong. 〜からといって means 'just because ~ (doesn't mean)'. It attaches to a clause in plain form (nouns need だ: 雰囲気がいいからといって), so 雰囲気からといって is ungrammatical, and it needs a negative ending. Correct use: 雰囲気がいいからといって、料理がおいしいとは限らない。(Just because the atmosphere is nice doesn't mean the food is good.)",
+      "Wrong. 〜について means 'about, concerning' and goes with verbs like 話す or 調べる. 'About the atmosphere, it looks high-class' does not work. Correct use: 店の雰囲気について、アンケートに答えた。(I answered a survey about the restaurant's atmosphere.)",
+      "Correct. 雰囲気からして = 'even from the atmosphere alone / judging from the atmosphere'. Noun + からして, followed by a judgment (高級そう)."
+    ],
+    "vocab": [
+      {
+        "word": "雰囲気",
+        "reading": "ふんいき",
+        "meaning": "atmosphere, mood, feel (of a place or person)",
+        "pos": "noun",
+        "example": "このカフェは雰囲気{ふんいき}がいい。",
+        "example_translation": "This café has a nice atmosphere."
+      },
+      {
+        "word": "高級",
+        "reading": "こうきゅう",
+        "meaning": "high-class, luxury, high-end",
+        "pos": "na-adjective / noun",
+        "example": "誕生日{たんじょうび}に高級{こうきゅう}なレストランへ行{い}った。",
+        "example_translation": "I went to a high-end restaurant on my birthday."
+      },
+      {
+        "word": "とても〜ない",
+        "reading": "とても",
+        "meaning": "can't possibly ~, not at all ~ (とても with a negative)",
+        "pos": "adverb",
+        "example": "この量{りょう}はとても一人{ひとり}では食{た}べられない。",
+        "example_translation": "I couldn't possibly eat this much by myself."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜からして",
+        "meaning": "even ~, starting with ~ (if even this is so, the rest surely is too); judging from ~",
+        "formation": "Noun + からして",
+        "example": "この料理{りょうり}は、においからしておいしそうだ。",
+        "example_translation": "This dish looks delicious just from the smell."
+      },
+      {
+        "pattern": "〜にとって",
+        "meaning": "for ~, from the standpoint of ~",
+        "formation": "Noun (usually a person or group) + にとって",
+        "example": "私{わたし}にとって、家族{かぞく}が一番{いちばん}大切{たいせつ}だ。",
+        "example_translation": "For me, family is the most important thing."
+      },
+      {
+        "pattern": "〜からといって",
+        "meaning": "just because ~ (it doesn't mean ~); followed by a negative",
+        "formation": "Plain form (Noun / な-adj + だ) + からといって",
+        "example": "日本人{にほんじん}だからといって、漢字{かんじ}が全部{ぜんぶ}読{よ}めるわけではない。",
+        "example_translation": "Just because someone is Japanese doesn't mean they can read every kanji."
+      },
+      {
+        "pattern": "〜について",
+        "meaning": "about, concerning",
+        "formation": "Noun + について",
+        "example": "日本{にほん}の文化{ぶんか}について調{しら}べた。",
+        "example_translation": "I researched Japanese culture."
+      }
+    ]
+  },
+  {
+    "id": "gf-018",
+    "section": "grammar_form",
+    "question": "窓{まど}の外{そと}を歩{ある}いている人{ひと}たちの服装{ふくそう}（　　）、今日{きょう}はかなり寒{さむ}いようだ。",
+    "choices": [
+      "に比{くら}べて",
+      "からすると",
+      "をはじめ",
+      "にかけて"
+    ],
+    "answer": 1,
+    "full_sentence": "窓{まど}の外{そと}を歩{ある}いている人{ひと}たちの服装{ふくそう}からすると、今日{きょう}はかなり寒{さむ}いようだ。",
+    "translation": "Judging from the clothes of the people walking outside the window, it seems to be quite cold today.",
+    "explanation": "Noun + からすると (also からすれば) means 'judging from ~'. It shows the evidence on which the speaker bases a guess. The clue is ようだ at the end: ようだ 'it seems' is a guess based on something you observe, and what is observed is the people's clothes (服装). Connection: noun + からすると (服装からすると). からすると has a second meaning, 'from the standpoint of ~' (親からすると 'from the parents' point of view'). からして and からいうと are close in meaning, and からして would also be natural here, but it is not among the choices.",
+    "choice_notes": [
+      "Wrong. 〜に比べて means 'compared with ~'. 'Compared with people's clothes, today is cold' compares two things that cannot be compared. Correct use: 去年に比べて、今年の冬は寒い。(Compared with last year, this winter is cold.)",
+      "Correct. 服装からすると = 'judging from their clothes'. Noun + からすると, followed by a guess (寒いようだ).",
+      "Wrong. 〜をはじめ means 'starting with ~, ~ and others (as a representative example)'. 'Starting with the clothes, today is cold' makes no sense. Correct use: 東京をはじめ、大きな都市では家賃が高い。(In big cities, starting with Tokyo, rents are high.)",
+      "Wrong. 〜にかけて means 'from ~ through ~' (a range of time or place), usually in the form AからBにかけて. Clothes are not a time or a place. Correct use: 今夜から明日の朝にかけて、雪が降るでしょう。(It will probably snow from tonight through tomorrow morning.)"
+    ],
+    "vocab": [
+      {
+        "word": "服装",
+        "reading": "ふくそう",
+        "meaning": "clothes, attire, how someone is dressed",
+        "pos": "noun",
+        "example": "面接{めんせつ}にはきちんとした服装{ふくそう}で行{い}こう。",
+        "example_translation": "Let's go to the interview in proper clothes."
+      },
+      {
+        "word": "かなり",
+        "reading": "かなり",
+        "meaning": "fairly, quite, considerably",
+        "pos": "adverb",
+        "example": "この問題{もんだい}はかなり難{むずか}しい。",
+        "example_translation": "This problem is quite difficult."
+      },
+      {
+        "word": "〜ようだ",
+        "reading": "ようだ",
+        "meaning": "it seems ~, it looks like ~ (a guess based on what you observe)",
+        "pos": "expression",
+        "example": "部屋{へや}には誰{だれ}もいないようだ。",
+        "example_translation": "It seems nobody is in the room."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜からすると／〜からすれば",
+        "meaning": "judging from ~; from the standpoint of ~",
+        "formation": "Noun + からすると / からすれば",
+        "example": "あの話{はな}し方{かた}からすると、彼{かれ}は関西{かんさい}の出身{しゅっしん}だろう。",
+        "example_translation": "Judging from the way he talks, he's probably from the Kansai region."
+      },
+      {
+        "pattern": "〜に比べて",
+        "meaning": "compared with ~",
+        "formation": "Noun / Verb dictionary form + の + に比べて",
+        "example": "去年{きょねん}に比{くら}べて、今年{ことし}は雪{ゆき}が少{すく}ない。",
+        "example_translation": "Compared with last year, there is less snow this year."
+      },
+      {
+        "pattern": "〜をはじめ（として）",
+        "meaning": "starting with ~, ~ and others (a representative example first)",
+        "formation": "Noun + をはじめ（として）",
+        "example": "東京{とうきょう}をはじめ、大{おお}きな都市{とし}では家賃{やちん}が高{たか}い。",
+        "example_translation": "In big cities, starting with Tokyo, rents are high."
+      },
+      {
+        "pattern": "〜にかけて",
+        "meaning": "from ~ through ~ (a range of time or place)",
+        "formation": "Noun + から + Noun + にかけて",
+        "example": "今夜{こんや}から明日{あした}の朝{あさ}にかけて、雪{ゆき}が降{ふ}るでしょう。",
+        "example_translation": "It will probably snow from tonight through tomorrow morning."
+      }
+    ]
+  },
+  {
+    "id": "gf-019",
+    "section": "grammar_form",
+    "question": "日本{にほん}に住{す}んでいる（　　）、日本語{にほんご}が自然{しぜん}に上手{じょうず}になるとは限{かぎ}らない。",
+    "choices": [
+      "からといって",
+      "からこそ",
+      "からには",
+      "ことから"
+    ],
+    "answer": 0,
+    "full_sentence": "日本{にほん}に住{す}んでいるからといって、日本語{にほんご}が自然{しぜん}に上手{じょうず}になるとは限{かぎ}らない。",
+    "translation": "Just because you live in Japan doesn't necessarily mean your Japanese will get good naturally.",
+    "explanation": "〜からといって means 'just because ~, (it doesn't mean ~)'. It rejects a conclusion that people might jump to: living in Japan → automatically good at Japanese? Not necessarily. The key clue is the ending とは限らない 'is not necessarily so'. からといって is almost always followed by a negative ending such as 〜とは限らない, 〜わけではない or 〜てはいけない. Connection: plain form + からといって (住んでいるからといって); nouns and な-adjectives take だ (日本人だからといって). All four choices look alike, so focus on the end of the sentence.",
+    "choice_notes": [
+      "Correct. 住んでいるからといって〜とは限らない = 'just because you live there doesn't mean ~'. Plain form + からといって + negative ending.",
+      "Wrong. 〜からこそ means 'precisely because ~' and emphasizes a reason for a positive statement. It does not go with とは限らない. Correct use: 日本に住んでいるからこそ、分かることもある。(There are things you understand precisely because you live in Japan.)",
+      "Wrong. 〜からには means 'now that ~, since ~ (so one must / will)' and is followed by a duty or resolve. Correct use: 日本に住んでいるからには、日本語を勉強したい。(Since I live in Japan, I want to study Japanese.)",
+      "Wrong. 〜ことから means 'from the fact that ~' and gives the basis for a conclusion or a name (〜と呼ばれている, 〜と分かった). It does not combine with 'not necessarily'. Correct use: 指紋（しもん）が残っていたことから、犯人（はんにん）が分かった。(From the fact that fingerprints were left, they identified the culprit.)"
+    ],
+    "vocab": [
+      {
+        "word": "住む",
+        "reading": "すむ",
+        "meaning": "to live (in a place)",
+        "pos": "godan verb",
+        "example": "私{わたし}は大阪{おおさか}に住{す}んでいる。",
+        "example_translation": "I live in Osaka."
+      },
+      {
+        "word": "自然に",
+        "reading": "しぜんに",
+        "meaning": "naturally, by itself, without effort",
+        "pos": "adverb",
+        "example": "毎日{まいにち}聞{き}いていると、自然{しぜん}に覚{おぼ}えてしまう。",
+        "example_translation": "If you listen every day, you memorize it naturally."
+      },
+      {
+        "word": "上手",
+        "reading": "じょうず",
+        "meaning": "skillful, good at",
+        "pos": "na-adjective",
+        "example": "姉{あね}は料理{りょうり}が上手{じょうず}だ。",
+        "example_translation": "My older sister is good at cooking."
+      },
+      {
+        "word": "〜とは限らない",
+        "reading": "とはかぎらない",
+        "meaning": "is not necessarily ~, is not always ~",
+        "pos": "expression",
+        "example": "先生{せんせい}がいつも正{ただ}しいとは限{かぎ}らない。",
+        "example_translation": "Teachers are not always right."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜からといって",
+        "meaning": "just because ~ (it doesn't mean ~); followed by a negative",
+        "formation": "Plain form (Noun / な-adj + だ) + からといって",
+        "example": "一度{いちど}失敗{しっぱい}したからといって、あきらめてはいけない。",
+        "example_translation": "Just because you failed once, you mustn't give up."
+      },
+      {
+        "pattern": "〜からこそ",
+        "meaning": "precisely because ~ (emphasizes the reason)",
+        "formation": "Plain form (Noun / な-adj + だ) + からこそ",
+        "example": "君{きみ}を信{しん}じているからこそ、この仕事{しごと}を任{まか}せるんだ。",
+        "example_translation": "It's precisely because I trust you that I'm leaving this job to you."
+      },
+      {
+        "pattern": "〜からには",
+        "meaning": "now that ~, since ~ (so one must / will)",
+        "formation": "Plain form + からには",
+        "example": "約束{やくそく}したからには守{まも}らなければならない。",
+        "example_translation": "Since I promised, I have to keep it."
+      },
+      {
+        "pattern": "〜ことから",
+        "meaning": "from the fact that ~ (the basis for a judgment or a name)",
+        "formation": "Plain form (な-adj + な / である, Noun + である) + ことから",
+        "example": "この町{まち}は桜{さくら}が多{おお}いことから、「桜{さくら}の町{まち}」と呼{よ}ばれている。",
+        "example_translation": "This town is called 'Cherry Blossom Town' because it has so many cherry trees."
+      }
+    ]
+  },
+  {
+    "id": "gf-020",
+    "section": "grammar_form",
+    "question": "大会{たいかい}に出{で}る（　　）、絶対{ぜったい}に優勝{ゆうしょう}したい。",
+    "choices": [
+      "からといって",
+      "くせに",
+      "からには",
+      "わりに"
+    ],
+    "answer": 2,
+    "full_sentence": "大会{たいかい}に出{で}るからには、絶対{ぜったい}に優勝{ゆうしょう}したい。",
+    "translation": "Since I'm going to compete in the tournament, I absolutely want to win it.",
+    "explanation": "〜からには means 'now that ~, since ~ (it is decided), I must / I will / I want to ~'. The first half states a fact or a decision (I'm entering the tournament), and the second half shows the speaker's strong will, duty or determination (I definitely want to win). The clues are 絶対に 'absolutely' and 〜たい 'want to', which express strong resolve. Connection: plain form + からには (出るからには, 出たからには); nouns and な-adjectives take である or だ (選手であるからには 'since I am an athlete'). 〜以上（は） and 〜上は have nearly the same meaning.",
+    "choice_notes": [
+      "Wrong. 〜からといって 'just because ~ (doesn't mean)' must be followed by a negative ending like とは限らない. 'Just because I enter, I want to win' doesn't work. Correct use: 大会に出るからといって、優勝できるとは限らない。(Just because you enter a tournament doesn't mean you can win.)",
+      "Wrong. 〜くせに 'even though ~ (criticism)' is used to blame someone, not to express your own resolve. Correct use: 練習しないくせに、試合には出たがる。(He wants to play in matches even though he never practices.)",
+      "Correct. 出るからには = 'since I'm going to take part'. Plain form + からには, followed by strong determination.",
+      "Wrong. 〜わりに means 'considering ~, for ~' and introduces a result that differs from expectations. 'For someone entering, I want to win' makes no sense. Correct use: 彼は練習しないわりに、試合に強い。(He does well in matches considering he doesn't practice.)"
+    ],
+    "vocab": [
+      {
+        "word": "大会",
+        "reading": "たいかい",
+        "meaning": "tournament, competition; convention",
+        "pos": "noun",
+        "example": "来月{らいげつ}、水泳{すいえい}の大会{たいかい}がある。",
+        "example_translation": "There's a swimming competition next month."
+      },
+      {
+        "word": "〜に出る",
+        "reading": "にでる",
+        "meaning": "to take part in, to appear in (an event or program)",
+        "pos": "expression",
+        "example": "弟{おとうと}はテレビ番組{ばんぐみ}に出{で}たことがある。",
+        "example_translation": "My younger brother has been on a TV program."
+      },
+      {
+        "word": "絶対に",
+        "reading": "ぜったいに",
+        "meaning": "absolutely, definitely, no matter what",
+        "pos": "adverb",
+        "example": "絶対{ぜったい}に遅{おく}れないでください。",
+        "example_translation": "Please make absolutely sure you're not late."
+      },
+      {
+        "word": "優勝",
+        "reading": "ゆうしょう",
+        "meaning": "victory, winning the championship",
+        "pos": "noun / suru verb",
+        "example": "私{わたし}たちのチームが優勝{ゆうしょう}した。",
+        "example_translation": "Our team won the championship."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜からには",
+        "meaning": "now that ~, since ~ (so one must / will / wants to)",
+        "formation": "Plain form (Noun / な-adj + である) + からには",
+        "example": "やるからには、最後{さいご}まで頑張{がんば}ろう。",
+        "example_translation": "Since we're doing it, let's give it our all to the end."
+      },
+      {
+        "pattern": "〜からといって",
+        "meaning": "just because ~ (it doesn't mean ~); followed by a negative",
+        "formation": "Plain form (Noun / な-adj + だ) + からといって",
+        "example": "高{たか}いからといって、いい物{もの}だとは限{かぎ}らない。",
+        "example_translation": "Just because something is expensive doesn't mean it's good."
+      },
+      {
+        "pattern": "〜くせに",
+        "meaning": "even though ~ (with criticism, blame or contempt)",
+        "formation": "Plain form / な-adj + な / Noun + の + くせに",
+        "example": "彼{かれ}は知{し}っているくせに、何{なに}も教{おし}えてくれない。",
+        "example_translation": "Even though he knows, he won't tell me anything."
+      },
+      {
+        "pattern": "〜わりに（は）",
+        "meaning": "considering ~, for ~ (the result differs from what you'd expect)",
+        "formation": "Plain form / な-adj + な / Noun + の + わりに",
+        "example": "彼{かれ}は年{とし}のわりに若{わか}く見{み}える。",
+        "example_translation": "He looks young for his age."
+      }
+    ]
+  },
+  {
+    "id": "gf-021",
+    "section": "grammar_form",
+    "question": "今日{きょう}は朝{あさ}から風邪{かぜ}（　　）なので、早{はや}めに帰{かえ}らせていただけませんか。",
+    "choices": [
+      "がち",
+      "気味{ぎみ}",
+      "だらけ",
+      "げ"
+    ],
+    "answer": 1,
+    "full_sentence": "今日{きょう}は朝{あさ}から風邪{かぜ}気味{ぎみ}なので、早{はや}めに帰{かえ}らせていただけませんか。",
+    "translation": "I've had a bit of a cold since this morning, so could I please go home a little early today?",
+    "explanation": "〜気味（ぎみ） means 'a bit ~, slightly ~, a touch of ~'. It describes a mild condition someone is in right now, usually an unwelcome one: 風邪気味 'a slight cold', 疲れ気味 'a bit tired', 太り気味 'putting on weight'. The clue is 今日は朝から 'since this morning': it describes a current, temporary state, and the speaker uses it to politely explain why they want to leave early. Connection: noun + 気味 (風邪気味) or verb ます-stem + 気味 (疲れ気味), followed by だ / な (here 風邪気味なので) or の + noun. Note that 気味 is pronounced ぎみ when it is used as a suffix.",
+    "choice_notes": [
+      "Wrong. 〜がち means 'tend to ~, often ~' and describes a repeated habit or tendency (病気がち 'often sick'). 今日は朝から is about one present condition, not a habit. Correct use: 冬になると、風邪をひきがちだ。(I tend to catch colds in winter.)",
+      "Correct. 風邪気味 = 'having a slight cold'. Noun + 気味, describing a mild current state.",
+      "Wrong. 〜だらけ means 'full of ~, covered with ~' (間違いだらけ 'full of mistakes', 泥だらけ 'covered in mud'). 'Covered in colds' is nonsense. Correct use: この作文は間違いだらけだ。(This essay is full of mistakes.)",
+      "Wrong. 〜げ means 'looking ~' and attaches to adjective stems (楽しげ 'happy-looking', 寂しげ 'lonely-looking'), not to nouns like 風邪. Correct use: 子どもたちは楽しげに遊んでいる。(The children are playing happily.)"
+    ],
+    "vocab": [
+      {
+        "word": "風邪",
+        "reading": "かぜ",
+        "meaning": "a cold (illness)",
+        "pos": "noun",
+        "example": "風邪{かぜ}をひいて、学校{がっこう}を休{やす}んだ。",
+        "example_translation": "I caught a cold and stayed home from school."
+      },
+      {
+        "word": "早め",
+        "reading": "はやめ",
+        "meaning": "a little early, earlier than usual",
+        "pos": "noun / na-adjective",
+        "example": "今日{きょう}は早{はや}めに寝{ね}よう。",
+        "example_translation": "Let's go to bed a bit early tonight."
+      },
+      {
+        "word": "〜させていただけませんか",
+        "reading": "させていただけませんか",
+        "meaning": "would you please allow me to ~ (very polite request for permission)",
+        "pos": "expression",
+        "example": "少{すこ}し休{やす}ませていただけませんか。",
+        "example_translation": "Would you allow me to take a short rest?"
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜気味",
+        "meaning": "a bit ~, slightly ~, a touch of ~ (usually unwelcome)",
+        "formation": "Noun / Verb ます-stem + 気味 (ぎみ) + だ / な / の",
+        "example": "最近{さいきん}、寝不足{ねぶそく}気味{ぎみ}で頭{あたま}が痛{いた}い。",
+        "example_translation": "Lately I've been a bit short of sleep and I have a headache."
+      },
+      {
+        "pattern": "〜がち",
+        "meaning": "tend to ~, prone to ~ (often negative)",
+        "formation": "Verb ます-stem / Noun + がち",
+        "example": "冬{ふゆ}は運動不足{うんどうぶそく}になりがちだ。",
+        "example_translation": "In winter we tend not to get enough exercise."
+      },
+      {
+        "pattern": "〜だらけ",
+        "meaning": "full of ~, covered with ~ (something unpleasant)",
+        "formation": "Noun + だらけ",
+        "example": "子{こ}どもたちは泥{どろ}だらけになって遊{あそ}んでいた。",
+        "example_translation": "The children were playing, covered in mud."
+      },
+      {
+        "pattern": "〜げ",
+        "meaning": "looking ~, seeming ~ (an impression from someone's appearance)",
+        "formation": "い-adj stem / な-adj stem / Verb たい-stem + げ",
+        "example": "彼女{かのじょ}は何{なに}か言{い}いたげな顔{かお}をしていた。",
+        "example_translation": "She had a look on her face as if she wanted to say something."
+      }
+    ]
+  },
+  {
+    "id": "gf-022",
+    "section": "grammar_form",
+    "question": "兄{あに}は十年前{じゅうねんまえ}に留学{りゅうがく}のためアメリカへ行{い}った（　　）、一度{いちど}も帰{かえ}ってこない。",
+    "choices": [
+      "以来{いらい}",
+      "とたん",
+      "ところ",
+      "きり"
+    ],
+    "answer": 3,
+    "full_sentence": "兄{あに}は十年前{じゅうねんまえ}に留学{りゅうがく}のためアメリカへ行{い}ったきり、一度{いちど}も帰{かえ}ってこない。",
+    "translation": "My older brother went to America to study ten years ago, and he hasn't come back even once since.",
+    "explanation": "Verb た-form + きり means '(did ~) and then nothing after that': an action happened once, and the expected next thing (coming back, getting in touch) never happened. It is almost always followed by a negative: 行ったきり帰ってこない 'went and never came back', 会ったきり 'met only that one time'. The clue is 一度も〜ない 'not even once', describing a situation that has continued for ten years. Connection: verb た-form + きり (行ったきり); in casual speech it often becomes っきり (行ったっきり). 〜たまま has a similar meaning ('left in that state').",
+    "choice_notes": [
+      "Wrong. 〜以来（いらい） 'since ~' has the right meaning, but it must follow the て-form: 行って以来. 行った以来 is ungrammatical. Correct use: 兄はアメリカへ行って以来、一度も帰ってこない。(Since he went to America, my brother hasn't come back once.)",
+      "Wrong. 〜たとたん means 'the very moment ~ (a sudden change)'. It describes something instant, not a situation that has lasted ten years. Correct use: 空港に着いたとたん、雨が降り出した。(The moment we arrived at the airport, it started to rain.)",
+      "Wrong. 〜たところ means 'when I did ~ (I found out / the result was ~)'. It reports a discovery after trying something, usually by the speaker. Correct use: 兄に電話したところ、元気そうだった。(When I called my brother, he sounded well.)",
+      "Correct. 行ったきり = 'went and never (came back)'. た-form + きり, followed by a negative (一度も帰ってこない)."
+    ],
+    "vocab": [
+      {
+        "word": "留学",
+        "reading": "りゅうがく",
+        "meaning": "studying abroad",
+        "pos": "noun / suru verb",
+        "example": "来年{らいねん}、イギリスに留学{りゅうがく}する予定{よてい}だ。",
+        "example_translation": "I plan to study in the UK next year."
+      },
+      {
+        "word": "〜のため（に）",
+        "reading": "のために",
+        "meaning": "for ~, for the purpose of ~",
+        "pos": "expression",
+        "example": "健康{けんこう}のために毎朝{まいあさ}歩{ある}いている。",
+        "example_translation": "I walk every morning for my health."
+      },
+      {
+        "word": "一度も〜ない",
+        "reading": "いちども",
+        "meaning": "not even once, never",
+        "pos": "expression",
+        "example": "富士山{ふじさん}には一度{いちど}も登{のぼ}ったことがない。",
+        "example_translation": "I have never climbed Mt. Fuji, not even once."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜きり",
+        "meaning": "(did ~) and then nothing more since; only ~",
+        "formation": "Verb た-form + きり (casual: っきり), usually followed by a negative",
+        "example": "彼女{かのじょ}とは卒業式{そつぎょうしき}で会{あ}ったきり、一度{いちど}も会{あ}っていない。",
+        "example_translation": "I haven't seen her once since we met at the graduation ceremony."
+      },
+      {
+        "pattern": "〜以来",
+        "meaning": "since ~ (and continuing until now)",
+        "formation": "Verb て-form + 以来 / Noun + 以来",
+        "example": "日本{にほん}に来{き}て以来{いらい}、毎日{まいにち}自分{じぶん}で料理{りょうり}をしている。",
+        "example_translation": "Since coming to Japan, I've cooked for myself every day."
+      },
+      {
+        "pattern": "〜とたん（に）",
+        "meaning": "the moment ~, just as ~ (something unexpected happens right after)",
+        "formation": "Verb た-form + とたん（に）",
+        "example": "ベッドに入{はい}ったとたん、電話{でんわ}が鳴{な}った。",
+        "example_translation": "The moment I got into bed, the phone rang."
+      },
+      {
+        "pattern": "〜たところ",
+        "meaning": "when I did ~ (I found that / the result was ~)",
+        "formation": "Verb た-form + ところ",
+        "example": "先生{せんせい}に相談{そうだん}したところ、いいアドバイスをもらえた。",
+        "example_translation": "When I consulted my teacher, I got some good advice."
+      }
+    ]
+  },
+  {
+    "id": "gf-023",
+    "section": "grammar_form",
+    "question": "弟{おとうと}は自分{じぶん}では何{なに}もしない（　　）、人{ひと}のやり方{かた}にはいつも文句{もんく}を言{い}う。",
+    "choices": [
+      "くせに",
+      "おかげで",
+      "からこそ",
+      "以上{いじょう}は"
+    ],
+    "answer": 0,
+    "full_sentence": "弟{おとうと}は自分{じぶん}では何{なに}もしないくせに、人{ひと}のやり方{かた}にはいつも文句{もんく}を言{い}う。",
+    "translation": "My younger brother never does anything himself, and yet he's always complaining about the way other people do things.",
+    "explanation": "〜くせに means 'even though ~, (and yet)' and carries strong criticism, irritation or contempt toward the person. The speaker is annoyed: the brother does nothing himself, yet he complains about others, which is unfair. The shape 'he doesn't do X himself + he criticizes others' is a typical くせに situation. Connection: plain form + くせに (しないくせに); な-adj + な (下手なくせに); noun + の (子どものくせに). It is used about other people (not yourself), and the subject of both halves must be the same person. A more neutral 'even though' is 〜のに.",
+    "choice_notes": [
+      "Correct. 何もしないくせに = 'even though he does nothing'. Plain form + くせに, expressing the speaker's irritation.",
+      "Wrong. 〜おかげで means 'thanks to ~' and introduces a good result. Complaining is not a good result of doing nothing. Correct use: 兄が手伝ってくれたおかげで、早く終わった。(Thanks to my brother's help, I finished early.)",
+      "Wrong. 〜からこそ means 'precisely because ~' and emphasizes a reason. Doing nothing is not the reason he complains; the two facts are in contrast. Correct use: 自分でやってみたからこそ、その大変さが分かる。(It's precisely because I tried it myself that I understand how hard it is.)",
+      "Wrong. 〜以上は means 'now that ~, (so one must)'. 'Since he does nothing himself, he must complain' is illogical. Correct use: 自分でやらない以上は、文句を言うべきではない。(As long as you don't do it yourself, you shouldn't complain.)"
+    ],
+    "vocab": [
+      {
+        "word": "自分",
+        "reading": "じぶん",
+        "meaning": "oneself, myself (自分で = by oneself)",
+        "pos": "noun",
+        "example": "自分{じぶん}のことは自分{じぶん}でしなさい。",
+        "example_translation": "Take care of your own things yourself."
+      },
+      {
+        "word": "やり方",
+        "reading": "やりかた",
+        "meaning": "way of doing, method",
+        "pos": "noun",
+        "example": "彼{かれ}の仕事{しごと}のやり方{かた}はとても丁寧{ていねい}だ。",
+        "example_translation": "His way of working is very careful."
+      },
+      {
+        "word": "文句",
+        "reading": "もんく",
+        "meaning": "complaint, objection (文句を言う = to complain)",
+        "pos": "noun",
+        "example": "文句{もんく}ばかり言{い}わないで、手伝{てつだ}って。",
+        "example_translation": "Stop complaining and help me."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜くせに",
+        "meaning": "even though ~ (with criticism, blame or contempt)",
+        "formation": "Plain form / な-adj + な / Noun + の + くせに",
+        "example": "子{こ}どものくせに、生意気{なまいき}なことを言{い}うな。",
+        "example_translation": "Don't talk back like that - you're just a kid."
+      },
+      {
+        "pattern": "〜おかげで",
+        "meaning": "thanks to ~ (a good result)",
+        "formation": "Plain form / な-adj + な / Noun + の + おかげで",
+        "example": "先生{せんせい}のおかげで、試験{しけん}に合格{ごうかく}できた。",
+        "example_translation": "Thanks to my teacher, I was able to pass the exam."
+      },
+      {
+        "pattern": "〜からこそ",
+        "meaning": "precisely because ~ (emphasizes the reason)",
+        "formation": "Plain form (Noun / な-adj + だ) + からこそ",
+        "example": "失敗{しっぱい}したからこそ、学{まな}べたこともある。",
+        "example_translation": "There are things I could learn precisely because I failed."
+      },
+      {
+        "pattern": "〜以上（は）",
+        "meaning": "now that ~, since ~ (therefore one must / should / will)",
+        "formation": "Plain form (Noun / な-adj + である) + 以上（は）",
+        "example": "学生{がくせい}である以上{いじょう}、勉強{べんきょう}を一番{いちばん}に考{かんが}えるべきだ。",
+        "example_translation": "As long as you are a student, you should put studying first."
+      }
+    ]
+  },
+  {
+    "id": "gf-024",
+    "section": "grammar_form",
+    "question": "あんな会社{かいしゃ}で我慢{がまん}して働{はたら}き続{つづ}ける（　　）、アルバイトをしながら自由{じゆう}に暮{く}らしたほうがましだ。",
+    "choices": [
+      "からには",
+      "うちに",
+      "くらいなら",
+      "ものの"
+    ],
+    "answer": 2,
+    "full_sentence": "あんな会社{かいしゃ}で我慢{がまん}して働{はたら}き続{つづ}けるくらいなら、アルバイトをしながら自由{じゆう}に暮{く}らしたほうがましだ。",
+    "translation": "Rather than keep putting up with working at a company like that, I'd be better off living freely while doing part-time jobs.",
+    "explanation": "〜くらいなら (also ぐらいなら) means 'if it comes to (doing something as bad as) ~, I'd rather ~'. The speaker rejects the first option as very unpleasant and chooses the second one as the lesser evil. It is almost always followed by 〜ほうがいい, 〜ほうがましだ 'would be better', or an instruction. The clue is ほうがましだ at the end: まし means 'better (of two bad choices)'. Connection: verb dictionary form + くらいなら (働き続けるくらいなら). A typical example: 途中でやめるくらいなら、最初からやらないほうがいい 'If you're going to quit halfway, it's better not to start at all'.",
+    "choice_notes": [
+      "Wrong. 〜からには means 'now that ~ (so I must / will)'. 'Since I'll keep working there, it's better to live freely' contradicts itself. Correct use: この会社で働くからには、全力を尽くしたい。(Since I'm working at this company, I want to give it my all.)",
+      "Wrong. 〜うちに means 'while ~ (before a change)'. 'While I keep working there, it's better to live freely' makes no sense, and うちに does not lead into a comparison with ほうがましだ. Correct use: 働き続けているうちに、仕事が楽しくなってきた。(As I kept working, the job started to become fun.)",
+      "Correct. 働き続けるくらいなら = 'rather than keep working there'. Dictionary form + くらいなら, followed by ほうがましだ.",
+      "Wrong. 〜ものの means 'although ~'. 'Although I keep working there, it's better to live freely' doesn't connect logically. Correct use: 会社をやめたいと思うものの、なかなか言い出せない。(Although I want to quit the company, I can't bring myself to say so.)"
+    ],
+    "vocab": [
+      {
+        "word": "我慢",
+        "reading": "がまん",
+        "meaning": "patience, endurance; to put up with, to bear",
+        "pos": "noun / suru verb",
+        "example": "痛{いた}いけれど、もう少{すこ}し我慢{がまん}してください。",
+        "example_translation": "It hurts, but please bear it a little longer."
+      },
+      {
+        "word": "自由",
+        "reading": "じゆう",
+        "meaning": "freedom; free",
+        "pos": "na-adjective / noun",
+        "example": "週末{しゅうまつ}は自由{じゆう}な時間{じかん}が多{おお}い。",
+        "example_translation": "I have a lot of free time on weekends."
+      },
+      {
+        "word": "暮らす",
+        "reading": "くらす",
+        "meaning": "to live, to make a living",
+        "pos": "godan verb",
+        "example": "田舎{いなか}で静{しず}かに暮{く}らしたい。",
+        "example_translation": "I want to live quietly in the countryside."
+      },
+      {
+        "word": "まし",
+        "reading": "まし",
+        "meaning": "better (of two bad options), less bad",
+        "pos": "na-adjective",
+        "example": "雨{あめ}よりは雪{ゆき}のほうがまだましだ。",
+        "example_translation": "Snow is still better than rain."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜くらいなら／〜ぐらいなら",
+        "meaning": "rather than ~ (something very unpleasant), it would be better to ~",
+        "formation": "Verb dictionary form + くらいなら + 〜ほうがいい / ほうがましだ",
+        "example": "途中{とちゅう}でやめるくらいなら、最初{さいしょ}からやらないほうがいい。",
+        "example_translation": "If you're going to quit halfway, it's better not to start at all."
+      },
+      {
+        "pattern": "〜からには",
+        "meaning": "now that ~, since ~ (so one must / will / wants to)",
+        "formation": "Plain form (Noun / な-adj + である) + からには",
+        "example": "やるからには、最後{さいご}まで頑張{がんば}ろう。",
+        "example_translation": "Since we're doing it, let's give it our all to the end."
+      },
+      {
+        "pattern": "〜うちに",
+        "meaning": "while ~ (before a state changes / and before you know it, something changes)",
+        "formation": "Verb dictionary form / ている form / ない form, い-adj, な-adj + な, Noun + の + うちに",
+        "example": "若{わか}いうちに、いろいろな国{くに}へ行{い}ってみたい。",
+        "example_translation": "I want to visit many countries while I'm still young."
+      },
+      {
+        "pattern": "〜ものの",
+        "meaning": "although ~ (but what you would expect next does not happen)",
+        "formation": "Plain form (な-adj + な / である, Noun + である) + ものの",
+        "example": "薬{くすり}を飲{の}んだものの、熱{ねつ}はなかなか下{さ}がらない。",
+        "example_translation": "Although I took medicine, my fever just won't go down."
+      }
+    ]
+  },
+  {
+    "id": "gf-025",
+    "section": "grammar_form",
+    "question": "卒業式{そつぎょうしき}の日{ひ}、先生{せんせい}は少{すこ}し寂{さび}し（　　）な笑顔{えがお}で私{わたし}たちを見送{みおく}ってくれた。",
+    "choices": [
+      "がち",
+      "っぽい",
+      "まみれ",
+      "げ"
+    ],
+    "answer": 3,
+    "full_sentence": "卒業式{そつぎょうしき}の日{ひ}、先生{せんせい}は少{すこ}し寂{さび}しげな笑顔{えがお}で私{わたし}たちを見送{みおく}ってくれた。",
+    "translation": "On the day of the graduation ceremony, our teacher saw us off with a slightly lonely-looking smile.",
+    "explanation": "〜げ means 'looking ~, seeming ~': an impression the speaker gets from someone's face, voice or manner. It is similar to 〜そう (寂しそう) but sounds a little more literary, and it is often used for feelings: 寂しげ 'lonely-looking', 楽しげ 'happy-looking', 不安げ 'anxious-looking', 自信ありげ 'confident-looking'. Connection: い-adjective stem (drop the final い: 寂しい → 寂し) + げ, or な-adjective stem + げ. The result works like a な-adjective: げな + noun (寂しげな笑顔), げに + verb (楽しげに笑う). The blank sits between the adjective stem 寂し and な, so only a suffix that attaches to adjective stems and behaves like a な-adjective can fit. 寂しそうな would also be correct, but it is not among the choices.",
+    "choice_notes": [
+      "Wrong. 〜がち 'tend to ~' attaches to verb ます-stems and some nouns (遅れがち, 病気がち), not to adjective stems; 寂しがち is not used. Correct use: 彼は最近、学校を休みがちだ。(Recently he tends to miss school.)",
+      "Wrong. 〜っぽい '-ish' is itself an い-adjective, so it cannot be followed by な (っぽいな笑顔 is ungrammatical), and 寂しっぽい is not a word. Correct use: 彼は子どもっぽい笑顔を見せた。(He gave a childish grin.)",
+      "Wrong. 〜まみれ means 'covered with (something dirty or sticky)' and attaches only to nouns: 汗まみれ 'covered in sweat', 泥まみれ 'covered in mud'. Correct use: 彼は汗まみれになって働いた。(He worked until he was drenched in sweat.)",
+      "Correct. 寂しげな = 'lonely-looking'. い-adj stem + げ + な + noun."
+    ],
+    "vocab": [
+      {
+        "word": "卒業式",
+        "reading": "そつぎょうしき",
+        "meaning": "graduation ceremony",
+        "pos": "noun",
+        "example": "三月{さんがつ}に大学{だいがく}の卒業式{そつぎょうしき}がある。",
+        "example_translation": "The university graduation ceremony is in March."
+      },
+      {
+        "word": "寂しい",
+        "reading": "さびしい",
+        "meaning": "lonely, sad (from missing someone)",
+        "pos": "i-adjective",
+        "example": "一人{ひとり}で暮{く}らすのは寂{さび}しい。",
+        "example_translation": "Living alone is lonely."
+      },
+      {
+        "word": "笑顔",
+        "reading": "えがお",
+        "meaning": "smiling face, smile",
+        "pos": "noun",
+        "example": "彼女{かのじょ}の笑顔{えがお}を見{み}ると元気{げんき}になる。",
+        "example_translation": "Seeing her smile cheers me up."
+      },
+      {
+        "word": "見送る",
+        "reading": "みおくる",
+        "meaning": "to see (someone) off",
+        "pos": "godan verb",
+        "example": "駅{えき}で友達{ともだち}を見送{みおく}った。",
+        "example_translation": "I saw my friend off at the station."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜げ",
+        "meaning": "looking ~, seeming ~ (an impression from someone's appearance; slightly literary)",
+        "formation": "い-adj stem / な-adj stem / Verb たい-stem + げ (+ な + Noun / に + Verb / だ)",
+        "example": "子{こ}どもたちは楽{たの}しげに歌{うた}っていた。",
+        "example_translation": "The children were singing happily."
+      },
+      {
+        "pattern": "〜がち",
+        "meaning": "tend to ~, prone to ~ (often negative)",
+        "formation": "Verb ます-stem / Noun + がち",
+        "example": "彼{かれ}は最近{さいきん}、学校{がっこう}を休{やす}みがちだ。",
+        "example_translation": "Recently he tends to miss school."
+      },
+      {
+        "pattern": "〜っぽい",
+        "meaning": "-ish, -like; tends to ~ easily",
+        "formation": "Verb ます-stem / Noun / い-adj stem + っぽい (conjugates like an い-adjective)",
+        "example": "彼{かれ}には子{こ}どもっぽいところがある。",
+        "example_translation": "He has a childish side."
+      },
+      {
+        "pattern": "〜まみれ",
+        "meaning": "covered with ~ (something dirty or sticky, such as sweat, mud or blood)",
+        "formation": "Noun + まみれ",
+        "example": "汗{あせ}まみれになって働{はたら}いた。",
+        "example_translation": "I worked until I was covered in sweat."
+      }
+    ]
+  },
+  {
+    "id": "gf-026",
+    "section": "grammar_form",
+    "question": "息子{むすこ}が無事{ぶじ}に帰{かえ}ってきたと聞{き}いて、どんなに安心{あんしん}した（　　）。",
+    "choices": [
+      "ものか",
+      "ことか",
+      "ことだ",
+      "わけだ"
+    ],
+    "answer": 1,
+    "full_sentence": "息子{むすこ}が無事{ぶじ}に帰{かえ}ってきたと聞{き}いて、どんなに安心{あんしん}したことか。",
+    "translation": "When I heard that my son had come home safely, I can't tell you how relieved I was.",
+    "explanation": "〜ことか means 'how ~! / I can't tell you how ~!' and expresses a very strong feeling as an exclamation. It is almost always used with a word of degree such as どんなに, どれほど, 何度 or なんと: どんなに安心したことか 'how relieved I was!'. The clue is どんなに 'how (much)', which needs an ending like ことか or ことだろう to complete the exclamation. Connection: plain form + ことか (安心したことか); な-adj + な (どんなに幸せなことか 'how happy it is'). Although it ends in か like a question, it is not asking anything; it is an emotional exclamation.",
+    "choice_notes": [
+      "Wrong. 〜ものか means 'as if ~! / I'll never ~!', a strong denial. It expresses refusal, not relief, and it does not pair with どんなに. Correct use: あんなまずい店、二度と行くものか。(I'll never go to that awful restaurant again!)",
+      "Correct. どんなに安心したことか = 'how relieved I was!'. どんなに + plain form + ことか.",
+      "Wrong. 〜ことだ means 'you should ~' (advice) and follows the dictionary or ない form. 'How relieved... you should' makes no sense. Correct use: 疲れたら、無理をしないで休むことだ。(If you're tired, you should rest instead of pushing yourself.)",
+      "Wrong. 〜わけだ means 'that's why ~, no wonder ~' (a logical conclusion). It does not combine with the exclamation どんなに. Correct use: 息子さんが帰ってきたんですか。それでうれしそうなわけだ。(Your son came home? No wonder you look so happy.)"
+    ],
+    "vocab": [
+      {
+        "word": "息子",
+        "reading": "むすこ",
+        "meaning": "son (one's own son)",
+        "pos": "noun",
+        "example": "息子{むすこ}は今年{ことし}大学{だいがく}に入{はい}った。",
+        "example_translation": "My son entered university this year."
+      },
+      {
+        "word": "無事",
+        "reading": "ぶじ",
+        "meaning": "safe, without incident (無事に = safely)",
+        "pos": "na-adjective / noun",
+        "example": "荷物{にもつ}が無事{ぶじ}に届{とど}いた。",
+        "example_translation": "The package arrived safely."
+      },
+      {
+        "word": "安心",
+        "reading": "あんしん",
+        "meaning": "relief, peace of mind; to feel relieved",
+        "pos": "noun / suru verb",
+        "example": "家族{かぞく}の声{こえ}を聞{き}いて安心{あんしん}した。",
+        "example_translation": "I was relieved to hear my family's voices."
+      },
+      {
+        "word": "どんなに",
+        "reading": "どんなに",
+        "meaning": "how (much)!; however (much)",
+        "pos": "adverb",
+        "example": "どんなに忙{いそが}しくても、毎日{まいにち}運動{うんどう}する。",
+        "example_translation": "However busy I am, I exercise every day."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜ことか",
+        "meaning": "how ~! / I can't tell you how ~ (strong emotion)",
+        "formation": "どんなに / どれほど / 何度 + plain form (な-adj + な / である) + ことか",
+        "example": "合格{ごうかく}の知{し}らせを、どれほど待{ま}っていたことか。",
+        "example_translation": "How long I had been waiting for the news that I'd passed!"
+      },
+      {
+        "pattern": "〜ものか",
+        "meaning": "as if ~! / there's no way I'll ~ (strong denial)",
+        "formation": "Verb dictionary form / い-adj + ものか (casual: もんか)",
+        "example": "あんな店{みせ}、二度{にど}と行{い}くものか。",
+        "example_translation": "I'll never go to that shop again!"
+      },
+      {
+        "pattern": "〜ことだ",
+        "meaning": "you should ~ (advice)",
+        "formation": "Verb dictionary form / ない form + ことだ",
+        "example": "上手{じょうず}になりたければ、毎日{まいにち}練習{れんしゅう}することだ。",
+        "example_translation": "If you want to get good, you should practice every day."
+      },
+      {
+        "pattern": "〜わけだ",
+        "meaning": "that's why ~, no wonder ~ (a natural conclusion)",
+        "formation": "Plain form (な-adj + な, Noun + の / である) + わけだ",
+        "example": "毎日{まいにち}練習{れんしゅう}しているのだから、上手{じょうず}なわけだ。",
+        "example_translation": "He practices every day, so no wonder he's good."
+      }
+    ]
+  },
+  {
+    "id": "gf-027",
+    "section": "grammar_form",
+    "question": "この橋{はし}は、形{かたち}が虹{にじ}に似{に}ている（　　）、「虹{にじ}の橋{はし}」と呼{よ}ばれている。",
+    "choices": [
+      "ことから",
+      "ことに",
+      "ことなく",
+      "ことだから"
+    ],
+    "answer": 0,
+    "full_sentence": "この橋{はし}は、形{かたち}が虹{にじ}に似{に}ていることから、「虹{にじ}の橋{はし}」と呼{よ}ばれている。",
+    "translation": "This bridge is called the 'Rainbow Bridge' because its shape resembles a rainbow.",
+    "explanation": "〜ことから means 'from the fact that ~, because ~'. It gives the basis or origin for a name, a conclusion or a judgment. It is especially common in explanations of where a name comes from: 〜ことから、〜と呼ばれている / 〜という名前がついた. The clue here is 「虹の橋」と呼ばれている 'is called the Rainbow Bridge': the sentence explains the origin of the name. Connection: plain form + ことから (似ていることから); な-adj + な / である (有名なことから); noun + である (港町であることから 'from the fact that it is a port town'). All four choices start with こと, so you need to know what each one means.",
+    "choice_notes": [
+      "Correct. 似ていることから = 'from the fact that it resembles'. Plain form + ことから, giving the origin of a name (と呼ばれている).",
+      "Wrong. 〜ことに means 'to one's ~ (surprise, joy, regret...)' and attaches to words of emotion such as 驚いた, うれしい or 残念な. 似ている is not an emotion. Correct use: 驚いたことに、その橋は百年前に作られたそうだ。(Surprisingly, that bridge was apparently built a hundred years ago.)",
+      "Wrong. 〜ことなく means 'without ~'. 'It is called the Rainbow Bridge without resembling a rainbow' is the opposite of the intended meaning. Correct use: 彼は一日も休むことなく働いた。(He worked without taking a single day off.)",
+      "Wrong. 〜ことだから means 'knowing (someone's) character, surely ~' and usually follows a person + の: 田中さんのことだから. It does not attach to 似ている like this. Correct use: まじめな彼のことだから、きっと時間通りに来るだろう。(Knowing how serious he is, he'll surely come on time.)"
+    ],
+    "vocab": [
+      {
+        "word": "橋",
+        "reading": "はし",
+        "meaning": "bridge",
+        "pos": "noun",
+        "example": "川{かわ}に新{あたら}しい橋{はし}がかかった。",
+        "example_translation": "A new bridge was built over the river."
+      },
+      {
+        "word": "形",
+        "reading": "かたち",
+        "meaning": "shape, form",
+        "pos": "noun",
+        "example": "この石{いし}はハートの形{かたち}をしている。",
+        "example_translation": "This stone is shaped like a heart."
+      },
+      {
+        "word": "虹",
+        "reading": "にじ",
+        "meaning": "rainbow",
+        "pos": "noun",
+        "example": "雨{あめ}がやんで、空{そら}に虹{にじ}が出{で}た。",
+        "example_translation": "The rain stopped and a rainbow appeared in the sky."
+      },
+      {
+        "word": "似る",
+        "reading": "にる",
+        "meaning": "to resemble, to look like (〜に似ている)",
+        "pos": "ichidan verb",
+        "example": "私{わたし}は母{はは}に似{に}ているとよく言{い}われる。",
+        "example_translation": "People often tell me I look like my mother."
+      },
+      {
+        "word": "呼ぶ",
+        "reading": "よぶ",
+        "meaning": "to call, to name; to invite",
+        "pos": "godan verb",
+        "example": "友達{ともだち}は私{わたし}を「ケン」と呼{よ}ぶ。",
+        "example_translation": "My friends call me 'Ken'."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜ことから",
+        "meaning": "from the fact that ~ (the basis for a judgment or the origin of a name)",
+        "formation": "Plain form (な-adj + な / である, Noun + である) + ことから",
+        "example": "部屋{へや}の電気{でんき}がついていたことから、誰{だれ}かいると分{わ}かった。",
+        "example_translation": "From the fact that the light in the room was on, I knew someone was there."
+      },
+      {
+        "pattern": "〜ことに",
+        "meaning": "to one's ~ (surprise, joy, regret...); the speaker's feeling comes first",
+        "formation": "Emotion word: い-adj / な-adj + な / Verb た-form + ことに",
+        "example": "驚{おどろ}いたことに、彼{かれ}はもう結婚{けっこん}していた。",
+        "example_translation": "To my surprise, he was already married."
+      },
+      {
+        "pattern": "〜ことなく",
+        "meaning": "without ~ing (formal version of 〜ないで / 〜ずに)",
+        "formation": "Verb dictionary form + ことなく",
+        "example": "彼{かれ}は一日{いちにち}も休{やす}むことなく働{はたら}いた。",
+        "example_translation": "He worked without taking a single day off."
+      },
+      {
+        "pattern": "〜ことだから",
+        "meaning": "since it's ~ (knowing their character), surely ~",
+        "formation": "Noun (usually a person) + の + ことだから",
+        "example": "まじめな田中{たなか}さんのことだから、約束{やくそく}の時間{じかん}には来{く}るだろう。",
+        "example_translation": "Knowing how serious Mr. Tanaka is, he'll probably arrive at the agreed time."
+      }
+    ]
+  },
+  {
+    "id": "gf-028",
+    "section": "grammar_form",
+    "question": "彼女{かのじょ}は周{まわ}りに反対{はんたい}されても一度{いちど}もあきらめる（　　）、最後{さいご}まで夢{ゆめ}を追{お}い続{つづ}けた。",
+    "choices": [
+      "ことに",
+      "うちに",
+      "ことなく",
+      "ばかりか"
+    ],
+    "answer": 2,
+    "full_sentence": "彼女{かのじょ}は周{まわ}りに反対{はんたい}されても一度{いちど}もあきらめることなく、最後{さいご}まで夢{ゆめ}を追{お}い続{つづ}けた。",
+    "translation": "Even though the people around her opposed it, she never once gave up and kept chasing her dream to the very end.",
+    "explanation": "〜ことなく means 'without ~ing' and is a more formal, written version of 〜ないで / 〜ずに. It often appears with 一度も or 一日も to stress that something never happened, not even once: 一度もあきらめることなく 'without giving up even once'. The clues are 一度も 'even once', which needs a negative meaning, and 最後まで 'to the very end', which describes something that continued. Connection: verb dictionary form + ことなく (あきらめることなく). It is followed by an action that continued or was completed.",
+    "choice_notes": [
+      "Wrong. 〜ことに 'to one's ~ (surprise, regret...)' attaches to emotion words (残念なことに), and あきらめる is not an emotion. Correct use: うれしいことに、彼女の夢がかなった。(To our joy, her dream came true.)",
+      "Wrong. 〜うちに means 'while ~ / before ~ changes'. 'While giving up even once, she kept chasing her dream' contradicts itself, and 一度も needs a negative. Correct use: 夢を追い続けているうちに、十年がたった。(While she kept chasing her dream, ten years went by.)",
+      "Correct. あきらめることなく = 'without giving up'. Dictionary form + ことなく, matching 一度も.",
+      "Wrong. 〜ばかりか means 'not only ~ but also ~'. 'Not only did she give up, she kept chasing her dream' is illogical. Correct use: 彼女はあきらめなかったばかりか、ついに夢をかなえた。(Not only did she not give up, she finally made her dream come true.)"
+    ],
+    "vocab": [
+      {
+        "word": "周り",
+        "reading": "まわり",
+        "meaning": "surroundings; the people around one",
+        "pos": "noun",
+        "example": "周{まわ}りの人{ひと}に迷惑{めいわく}をかけないようにしよう。",
+        "example_translation": "Let's try not to bother the people around us."
+      },
+      {
+        "word": "反対",
+        "reading": "はんたい",
+        "meaning": "opposition; to oppose, to be against",
+        "pos": "noun / suru verb",
+        "example": "両親{りょうしん}は私{わたし}の留学{りゅうがく}に反対{はんたい}した。",
+        "example_translation": "My parents were against my studying abroad."
+      },
+      {
+        "word": "あきらめる",
+        "reading": "あきらめる",
+        "meaning": "to give up",
+        "pos": "ichidan verb",
+        "example": "最後{さいご}まであきらめないで。",
+        "example_translation": "Don't give up until the end."
+      },
+      {
+        "word": "夢",
+        "reading": "ゆめ",
+        "meaning": "dream",
+        "pos": "noun",
+        "example": "子{こ}どものころの夢{ゆめ}は医者{いしゃ}になることだった。",
+        "example_translation": "My childhood dream was to become a doctor."
+      },
+      {
+        "word": "追い続ける",
+        "reading": "おいつづける",
+        "meaning": "to keep chasing, to keep pursuing",
+        "pos": "ichidan verb",
+        "example": "彼{かれ}は二十年{にじゅうねん}も同{おな}じ目標{もくひょう}を追{お}い続{つづ}けている。",
+        "example_translation": "He has been pursuing the same goal for twenty years."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜ことなく",
+        "meaning": "without ~ing (formal version of 〜ないで / 〜ずに)",
+        "formation": "Verb dictionary form + ことなく",
+        "example": "電車{でんしゃ}は止{と}まることなく、終点{しゅうてん}まで走{はし}った。",
+        "example_translation": "The train ran all the way to the last stop without stopping."
+      },
+      {
+        "pattern": "〜ことに",
+        "meaning": "to one's ~ (surprise, joy, regret...); the speaker's feeling comes first",
+        "formation": "Emotion word: い-adj / な-adj + な / Verb た-form + ことに",
+        "example": "残念{ざんねん}なことに、その店{みせ}は閉店{へいてん}してしまった。",
+        "example_translation": "Unfortunately, that shop has closed down."
+      },
+      {
+        "pattern": "〜うちに",
+        "meaning": "while ~ (before a state changes / and before you know it, something changes)",
+        "formation": "Verb dictionary form / ている form / ない form, い-adj, な-adj + な, Noun + の + うちに",
+        "example": "話{はな}しているうちに、彼{かれ}のことが好{す}きになった。",
+        "example_translation": "As we talked, I came to like him."
+      },
+      {
+        "pattern": "〜ばかりか",
+        "meaning": "not only ~ but also",
+        "formation": "Plain form / Noun + ばかりか",
+        "example": "彼{かれ}は英語{えいご}ばかりか中国語{ちゅうごくご}も話{はな}せる。",
+        "example_translation": "He can speak not only English but also Chinese."
+      }
+    ]
+  },
+  {
+    "id": "gf-029",
+    "section": "grammar_form",
+    "question": "残念{ざんねん}な（　　）、楽{たの}しみにしていたコンサートは台風{たいふう}で中止{ちゅうし}になってしまった。",
+    "choices": [
+      "くせに",
+      "ことに",
+      "わりに",
+      "ばかりに"
+    ],
+    "answer": 1,
+    "full_sentence": "残念{ざんねん}なことに、楽{たの}しみにしていたコンサートは台風{たいふう}で中止{ちゅうし}になってしまった。",
+    "translation": "Unfortunately, the concert I had been looking forward to was canceled because of a typhoon.",
+    "explanation": "〜ことに means 'to one's ~, (I feel ~ about the following fact)'. It attaches to a word of emotion and puts the speaker's feeling first, before stating the fact: 残念なことに 'regrettably', うれしいことに 'happily', 驚いたことに 'surprisingly', 困ったことに 'troublingly'. The clue is that 残念な 'regrettable' is a feeling, and the rest of the sentence is the fact that causes that feeling. Connection: な-adj + な + ことに (残念なことに); い-adj + ことに (うれしいことに); verb た-form + ことに (驚いたことに). It is a slightly formal, written pattern.",
+    "choice_notes": [
+      "Wrong. 〜くせに 'even though ~ (criticism)' needs a person to criticize and a contrast; 残念なくせに 'even though it's a shame' makes no sense here. Correct use: 歌が下手なくせに、カラオケが大好きだ。(Even though he's a terrible singer, he loves karaoke.)",
+      "Correct. 残念なことに = 'regrettably, to my disappointment'. な-adj + な + ことに, followed by the fact that causes the feeling.",
+      "Wrong. 〜わりに means 'considering ~, for ~ (unexpected result)'. 'For how regrettable it was, the concert was canceled' has no logic. Correct use: このコンサートは、チケットが安いわりに楽しかった。(This concert was fun considering how cheap the tickets were.)",
+      "Wrong. 〜ばかりに 'just because ~ (bad result)' must state the cause of the bad result. 残念 is the speaker's feeling, not the cause of the cancellation (the typhoon was). Correct use: 寝坊したばかりに、コンサートに間に合わなかった。(Just because I overslept, I didn't make it to the concert.)"
+    ],
+    "vocab": [
+      {
+        "word": "残念",
+        "reading": "ざんねん",
+        "meaning": "regrettable, disappointing, a shame",
+        "pos": "na-adjective",
+        "example": "試合{しあい}に負{ま}けて残念{ざんねん}だった。",
+        "example_translation": "It was a shame we lost the match."
+      },
+      {
+        "word": "楽しみにする",
+        "reading": "たのしみにする",
+        "meaning": "to look forward to",
+        "pos": "expression",
+        "example": "夏休{なつやす}みを楽{たの}しみにしている。",
+        "example_translation": "I'm looking forward to summer vacation."
+      },
+      {
+        "word": "中止",
+        "reading": "ちゅうし",
+        "meaning": "cancellation, calling off (中止になる = to be canceled)",
+        "pos": "noun / suru verb",
+        "example": "雨{あめ}で運動会{うんどうかい}が中止{ちゅうし}になった。",
+        "example_translation": "The sports day was canceled due to rain."
+      },
+      {
+        "word": "〜てしまう",
+        "reading": "てしまう",
+        "meaning": "to end up ~ (often with regret); to finish ~ completely",
+        "pos": "expression",
+        "example": "大事{だいじ}な書類{しょるい}をなくしてしまった。",
+        "example_translation": "I ended up losing an important document."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜ことに",
+        "meaning": "to one's ~ (surprise, joy, regret...); the speaker's feeling comes first",
+        "formation": "Emotion word: い-adj / な-adj + な / Verb た-form + ことに",
+        "example": "うれしいことに、第一志望{だいいちしぼう}の大学{だいがく}に合格{ごうかく}した。",
+        "example_translation": "To my joy, I got into my first-choice university."
+      },
+      {
+        "pattern": "〜くせに",
+        "meaning": "even though ~ (with criticism, blame or contempt)",
+        "formation": "Plain form / な-adj + な / Noun + の + くせに",
+        "example": "彼{かれ}は知{し}っているくせに、何{なに}も教{おし}えてくれない。",
+        "example_translation": "Even though he knows, he won't tell me anything."
+      },
+      {
+        "pattern": "〜わりに（は）",
+        "meaning": "considering ~, for ~ (the result differs from what you'd expect)",
+        "formation": "Plain form / な-adj + な / Noun + の + わりに",
+        "example": "この店{みせ}のケーキは、値段{ねだん}のわりにおいしい。",
+        "example_translation": "This shop's cakes are tasty for the price."
+      },
+      {
+        "pattern": "〜ばかりに",
+        "meaning": "just because ~ (a bad result followed, often with regret)",
+        "formation": "Verb た-form / plain form + ばかりに",
+        "example": "彼{かれ}の話{はなし}を信{しん}じたばかりに、ひどい目{め}にあった。",
+        "example_translation": "Just because I believed his story, I had a terrible experience."
+      }
+    ]
+  },
+  {
+    "id": "gf-030",
+    "section": "grammar_form",
+    "question": "大雨{おおあめ}で道路{どうろ}が通行止{つうこうど}めになったので、旅行{りょこう}の計画{けいかく}を変更{へんこう}（　　）。",
+    "choices": [
+      "せずにはいられない",
+      "するわけにはいかない",
+      "するまでもない",
+      "せざるを得{え}ない"
+    ],
+    "answer": 3,
+    "full_sentence": "大雨{おおあめ}で道路{どうろ}が通行止{つうこうど}めになったので、旅行{りょこう}の計画{けいかく}を変更{へんこう}せざるを得{え}ない。",
+    "translation": "The roads have been closed because of the heavy rain, so we have no choice but to change our travel plans.",
+    "explanation": "〜ざるを得ない (ざるをえない) means 'have no choice but to ~, cannot avoid ~ing'. It is used when circumstances force you to do something you don't really want to do. Here the cause (roads closed by heavy rain) leaves no alternative: the plan has to change, even though we don't want it to. The form is tricky: take the ない form of the verb, drop ない, and add ざるを得ない (行かない → 行かざるを得ない). The big exception is する → せざるを得ない (not しざるを得ない), so 変更する → 変更せざるを得ない. 得ない here is read えない.",
+    "choice_notes": [
+      "Wrong. 〜ずにはいられない means 'can't help ~ing' and is used for an uncontrollable feeling or impulse (laughing, crying, worrying). Changing a plan because a road is closed is not an emotional impulse. Correct use: その話を聞いて、笑わずにはいられなかった。(When I heard that story, I couldn't help laughing.)",
+      "Wrong. 〜わけにはいかない means 'cannot (for social or moral reasons)'. 'The road is closed, so we can't change the plan' reverses the logic. Correct use: 大切な会議があるので、休むわけにはいかない。(I have an important meeting, so I can't take the day off.)",
+      "Wrong. 〜までもない means 'there is no need to ~ (it's obvious or unnecessary)'. With the road closed, changing the plan is necessary, not unnecessary. Correct use: こんな簡単なことは、説明するまでもない。(There's no need to explain something this simple.)",
+      "Correct. 変更せざるを得ない = 'have no choice but to change'. する → せざるを得ない, for an action forced by circumstances."
+    ],
+    "vocab": [
+      {
+        "word": "道路",
+        "reading": "どうろ",
+        "meaning": "road",
+        "pos": "noun",
+        "example": "道路{どうろ}が混{こ}んでいて、遅{おく}れてしまった。",
+        "example_translation": "The roads were crowded, so I ended up being late."
+      },
+      {
+        "word": "通行止め",
+        "reading": "つうこうどめ",
+        "meaning": "road closure, 'road closed'",
+        "pos": "noun",
+        "example": "事故{じこ}のため、この先{さき}は通行止{つうこうど}めです。",
+        "example_translation": "Due to an accident, the road ahead is closed."
+      },
+      {
+        "word": "計画",
+        "reading": "けいかく",
+        "meaning": "plan; to plan",
+        "pos": "noun / suru verb",
+        "example": "夏休{なつやす}みの計画{けいかく}を立{た}てた。",
+        "example_translation": "I made plans for summer vacation."
+      },
+      {
+        "word": "変更",
+        "reading": "へんこう",
+        "meaning": "change, alteration; to change (a plan or schedule)",
+        "pos": "noun / suru verb",
+        "example": "会議{かいぎ}の時間{じかん}が変更{へんこう}になった。",
+        "example_translation": "The meeting time was changed."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜ざるを得ない",
+        "meaning": "have no choice but to ~, cannot help but ~ (forced by circumstances)",
+        "formation": "Verb ない form minus ない + ざるを得ない (する → せざるを得ない)",
+        "example": "熱{ねつ}が高{たか}いので、今日{きょう}は学校{がっこう}を休{やす}まざるを得{え}ない。",
+        "example_translation": "My fever is high, so I have no choice but to stay home from school today."
+      },
+      {
+        "pattern": "〜ずにはいられない",
+        "meaning": "can't help ~ing, can't stop oneself from ~ing (a natural feeling or impulse)",
+        "formation": "Verb ない form minus ない + ずにはいられない (する → せずにはいられない)",
+        "example": "その話{はなし}を聞{き}いて、笑{わら}わずにはいられなかった。",
+        "example_translation": "When I heard that story, I couldn't help laughing."
+      },
+      {
+        "pattern": "〜わけにはいかない",
+        "meaning": "cannot (for social, moral or practical reasons)",
+        "formation": "Verb dictionary form + わけにはいかない",
+        "example": "明日{あした}は大事{だいじ}な試験{しけん}があるので、遊{あそ}びに行{い}くわけにはいかない。",
+        "example_translation": "I have an important exam tomorrow, so I can't go out and have fun."
+      },
+      {
+        "pattern": "〜までもない",
+        "meaning": "there's no need to ~ (it's obvious or not necessary)",
+        "formation": "Verb dictionary form + までもない",
+        "example": "そんな簡単{かんたん}なことは、説明{せつめい}するまでもない。",
+        "example_translation": "There's no need to explain something that simple."
+      }
+    ]
+  },
+  {
+    "id": "gf-031",
+    "section": "grammar_form",
+    "question": "詳{くわ}しいことが分{わ}かり（　　）、すぐにご連絡{れんらく}いたします。",
+    "choices": [
+      "次第{しだい}",
+      "ながら",
+      "がちで",
+      "かけて"
+    ],
+    "answer": 0,
+    "full_sentence": "詳{くわ}しいことが分{わ}かり次第{しだい}、すぐにご連絡{れんらく}いたします。",
+    "translation": "As soon as we find out the details, we will contact you right away.",
+    "explanation": "Verb ます-stem + 次第 (しだい) means 'as soon as ~, (I will do ~)'. It is a formal expression used in business and announcements to promise an action that will happen right after something else: 分かり次第ご連絡します 'we'll contact you as soon as we know', 到着し次第 'as soon as (we) arrive'. The clue is the polite promise すぐにご連絡いたします 'we will contact you right away'. Connection: verb ます-stem + 次第 (分かり次第); some する-nouns can also take it directly (到着次第). The second half must be a future intention or a request, never a past event, so you cannot say 着き次第、雨が降った.",
+    "choice_notes": [
+      "Correct. 分かり次第 = 'as soon as we know'. ます-stem + 次第, followed by a promised action (ご連絡いたします).",
+      "Wrong. 〜ながら means 'while ~ (doing two things at once)' or, with verbs like 知る and 分かる, 'although ~'. 分かりながら would mean 'although we know', which contradicts the promise. Correct use: 音楽を聞きながら勉強する。(I study while listening to music.)",
+      "Wrong. 〜がち means 'tend to ~'. 分かりがちで 'tending to understand' makes no sense here. Correct use: 忙しいと、返事が遅れがちになる。(When I'm busy, I tend to be late with replies.)",
+      "Wrong. 〜かける means 'start to ~ / be halfway through ~'. 分かりかけて 'starting to understand' does not fit a promise to contact someone. Correct use: 説明を聞いて、やっと分かりかけてきた。(After hearing the explanation, I'm finally starting to understand.)"
+    ],
+    "vocab": [
+      {
+        "word": "詳しい",
+        "reading": "くわしい",
+        "meaning": "detailed; knowing a lot about",
+        "pos": "i-adjective",
+        "example": "詳{くわ}しい説明{せつめい}は後{あと}でします。",
+        "example_translation": "I'll give a detailed explanation later."
+      },
+      {
+        "word": "連絡",
+        "reading": "れんらく",
+        "meaning": "contact, getting in touch; to contact",
+        "pos": "noun / suru verb",
+        "example": "何{なに}かあったら、すぐ連絡{れんらく}してください。",
+        "example_translation": "If anything happens, please contact me right away."
+      },
+      {
+        "word": "いたす",
+        "reading": "いたす",
+        "meaning": "to do (humble form of する); ご + noun + いたす = I (humbly) do ~",
+        "pos": "godan verb",
+        "example": "私{わたし}がご案内{あんない}いたします。",
+        "example_translation": "I will show you the way."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜次第",
+        "meaning": "as soon as ~ (then I will do ~ / please do ~); not for past events",
+        "formation": "Verb ます-stem / する-noun + 次第",
+        "example": "準備{じゅんび}ができ次第{しだい}、出発{しゅっぱつ}しましょう。",
+        "example_translation": "Let's leave as soon as we're ready."
+      },
+      {
+        "pattern": "〜ながら",
+        "meaning": "while ~ (two actions at once) / although ~ (with state verbs)",
+        "formation": "Verb ます-stem + ながら",
+        "example": "悪{わる}いと知{し}りながら、うそをついてしまった。",
+        "example_translation": "Although I knew it was wrong, I told a lie."
+      },
+      {
+        "pattern": "〜がち",
+        "meaning": "tend to ~, prone to ~ (often negative)",
+        "formation": "Verb ます-stem / Noun + がち",
+        "example": "冬{ふゆ}は運動不足{うんどうぶそく}になりがちだ。",
+        "example_translation": "In winter we tend not to get enough exercise."
+      },
+      {
+        "pattern": "〜かける",
+        "meaning": "to start to ~, to be about to ~ (and not finish)",
+        "formation": "Verb ます-stem + かける",
+        "example": "彼{かれ}は何{なに}か言{い}いかけて、やめた。",
+        "example_translation": "He started to say something, then stopped."
+      }
+    ]
+  },
+  {
+    "id": "gf-032",
+    "section": "grammar_form",
+    "question": "同{おな}じ才能{さいのう}を持{も}っていても、本人{ほんにん}の努力{どりょく}（　　）、結果{けっか}は大{おお}きく変{か}わる。",
+    "choices": [
+      "にとって",
+      "をめぐって",
+      "次第{しだい}で",
+      "に沿{そ}って"
+    ],
+    "answer": 2,
+    "full_sentence": "同{おな}じ才能{さいのう}を持{も}っていても、本人{ほんにん}の努力{どりょく}次第{しだい}で、結果{けっか}は大{おお}きく変{か}わる。",
+    "translation": "Even with the same talent, the results can differ greatly depending on the person's own effort.",
+    "explanation": "Noun + 次第で (しだいで) means 'depending on ~'. It says that X is the deciding factor: the result changes according to X. The clue is 結果は大きく変わる 'the results change greatly': something must decide how they change, and that is 本人の努力 'the person's own effort'. Connection: noun + 次第で (努力次第で), or at the end of a sentence noun + 次第だ (結果は努力次第だ 'the result depends on effort'). Don't confuse it with ます-stem + 次第 'as soon as' (分かり次第): it is the same word, but with a different connection and meaning. 〜によって also means 'depending on', but it is not among the choices.",
+    "choice_notes": [
+      "Wrong. 〜にとって means 'for ~, from the standpoint of ~' and is used with people or groups (私にとって). 'For effort, the results change' makes no sense. Correct use: 選手にとって、毎日の練習は大切だ。(For athletes, daily practice is important.)",
+      "Wrong. 〜をめぐって means 'over ~, concerning ~' (a topic that people argue or fight about). Effort is not a disputed issue here. Correct use: 新しい空港の建設をめぐって、意見が分かれている。(Opinions are divided over the construction of the new airport.)",
+      "Correct. 努力次第で = 'depending on effort'. Noun + 次第で, followed by something that changes (結果は大きく変わる).",
+      "Wrong. 〜に沿って means 'along ~, in line with ~' (a plan, a road, a policy). It means following something, not being decided by it, so 'the result changes in line with effort' is unnatural. Correct use: マニュアルに沿って作業を進めてください。(Please carry out the work according to the manual.)"
+    ],
+    "vocab": [
+      {
+        "word": "才能",
+        "reading": "さいのう",
+        "meaning": "talent, ability",
+        "pos": "noun",
+        "example": "彼女{かのじょ}には音楽{おんがく}の才能{さいのう}がある。",
+        "example_translation": "She has a talent for music."
+      },
+      {
+        "word": "本人",
+        "reading": "ほんにん",
+        "meaning": "the person in question, the person himself / herself",
+        "pos": "noun",
+        "example": "本人{ほんにん}に直接{ちょくせつ}聞{き}いてみよう。",
+        "example_translation": "Let's ask the person directly."
+      },
+      {
+        "word": "努力",
+        "reading": "どりょく",
+        "meaning": "effort; to make an effort",
+        "pos": "noun / suru verb",
+        "example": "毎日{まいにち}の努力{どりょく}が大切{たいせつ}だ。",
+        "example_translation": "Daily effort is important."
+      },
+      {
+        "word": "結果",
+        "reading": "けっか",
+        "meaning": "result, outcome",
+        "pos": "noun",
+        "example": "検査{けんさ}の結果{けっか}は明日{あした}わかる。",
+        "example_translation": "The test results will be known tomorrow."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜次第で／〜次第だ",
+        "meaning": "depending on ~ (X is what decides the outcome)",
+        "formation": "Noun + 次第で / 次第だ",
+        "example": "天気{てんき}次第{しだい}で、明日{あした}の予定{よてい}を決{き}めます。",
+        "example_translation": "We'll decide tomorrow's plans depending on the weather."
+      },
+      {
+        "pattern": "〜にとって",
+        "meaning": "for ~, from the standpoint of ~",
+        "formation": "Noun (usually a person or group) + にとって",
+        "example": "私{わたし}にとって、家族{かぞく}が一番{いちばん}大切{たいせつ}だ。",
+        "example_translation": "For me, family is the most important thing."
+      },
+      {
+        "pattern": "〜をめぐって",
+        "meaning": "over ~, concerning ~ (an issue people argue or compete about)",
+        "formation": "Noun + をめぐって (+ の + Noun: をめぐる)",
+        "example": "遺産{いさん}をめぐって、兄弟{きょうだい}が争{あらそ}っている。",
+        "example_translation": "The siblings are fighting over the inheritance."
+      },
+      {
+        "pattern": "〜に沿って",
+        "meaning": "along ~; in line with ~, following ~",
+        "formation": "Noun + に沿って (+ Noun: に沿った)",
+        "example": "川{かわ}に沿{そ}って桜{さくら}の木{き}が並{なら}んでいる。",
+        "example_translation": "Cherry trees line the river."
+      }
+    ]
+  },
+  {
+    "id": "gf-033",
+    "section": "grammar_form",
+    "question": "研究{けんきゅう}チームは何度{なんど}も失敗{しっぱい}を重{かさ}ねた（　　）、ついに新{あたら}しい薬{くすり}の開発{かいはつ}に成功{せいこう}した。",
+    "choices": [
+      "ついでに",
+      "末{すえ}に",
+      "とたんに",
+      "ところで"
+    ],
+    "answer": 1,
+    "full_sentence": "研究{けんきゅう}チームは何度{なんど}も失敗{しっぱい}を重{かさ}ねた末{すえ}に、ついに新{あたら}しい薬{くすり}の開発{かいはつ}に成功{せいこう}した。",
+    "translation": "After failing again and again, the research team finally succeeded in developing a new drug.",
+    "explanation": "〜末（に） (すえに) means 'after a long process of ~, finally ~'. It describes a result reached after a lot of effort, difficulty or thought. The clues are 何度も失敗を重ねた 'failed over and over' (a long, hard process) and ついに 'at last, finally' (the end result). Connection: verb た-form + 末（に） (重ねた末に), or noun + の + 末（に） (努力の末に 'after much effort'). Compare it with 〜あげく: あげく is almost always used for a bad or disappointing result, while 末に can be used for any result, including a good one like this success. So あげく would sound strange here, but 末に is perfect.",
+    "choice_notes": [
+      "Wrong. 〜ついでに means 'while doing ~ anyway, also do ~'. Success is not a side task done while failing. Correct use: 大阪へ出張したついでに、友達に会った。(While I was in Osaka on business, I met up with a friend.)",
+      "Correct. 失敗を重ねた末に = 'after failing over and over'. た-form + 末に, followed by the final result (ついに〜成功した).",
+      "Wrong. 〜たとたん（に） means 'the very moment ~ (something sudden happened)'. It describes an instant, while 何度も失敗を重ねる is a long process, and it clashes with ついに. Correct use: 薬を飲んだとたん、気分が悪くなった。(The moment I took the medicine, I felt sick.)",
+      "Wrong. 〜たところで means 'even if ~ (it's no use)' and is followed by a negative judgment. It cannot introduce a success that really happened. Correct use: 今さら謝ったところで、許してもらえないだろう。(Even if I apologize now, I probably won't be forgiven.)"
+    ],
+    "vocab": [
+      {
+        "word": "研究",
+        "reading": "けんきゅう",
+        "meaning": "research, study; to research",
+        "pos": "noun / suru verb",
+        "example": "大学{だいがく}で日本{にほん}の歴史{れきし}を研究{けんきゅう}している。",
+        "example_translation": "I'm researching Japanese history at university."
+      },
+      {
+        "word": "失敗",
+        "reading": "しっぱい",
+        "meaning": "failure, mistake; to fail",
+        "pos": "noun / suru verb",
+        "example": "失敗{しっぱい}を恐{おそ}れないでください。",
+        "example_translation": "Please don't be afraid of failure."
+      },
+      {
+        "word": "重ねる",
+        "reading": "かさねる",
+        "meaning": "to pile up, to repeat, to accumulate",
+        "pos": "ichidan verb",
+        "example": "経験{けいけん}を重{かさ}ねて、上手{じょうず}になった。",
+        "example_translation": "I got better by building up experience."
+      },
+      {
+        "word": "ついに",
+        "reading": "ついに",
+        "meaning": "finally, at last (after a long time or effort)",
+        "pos": "adverb",
+        "example": "三年{さんねん}かかって、ついに家{いえ}が完成{かんせい}した。",
+        "example_translation": "After three years, the house was finally completed."
+      },
+      {
+        "word": "開発",
+        "reading": "かいはつ",
+        "meaning": "development; to develop (a product or technology)",
+        "pos": "noun / suru verb",
+        "example": "この会社{かいしゃ}は新{あたら}しいゲームを開発{かいはつ}している。",
+        "example_translation": "This company is developing a new game."
+      },
+      {
+        "word": "成功",
+        "reading": "せいこう",
+        "meaning": "success; to succeed (〜に成功する)",
+        "pos": "noun / suru verb",
+        "example": "実験{じっけん}は成功{せいこう}した。",
+        "example_translation": "The experiment was a success."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜末（に）",
+        "meaning": "after a long process of ~, finally ~ (good or bad result)",
+        "formation": "Verb た-form + 末（に） / Noun + の + 末（に）",
+        "example": "何度{なんど}も話{はな}し合{あ}った末{すえ}に、計画{けいかく}が決{き}まった。",
+        "example_translation": "After many discussions, the plan was finally decided."
+      },
+      {
+        "pattern": "〜ついでに",
+        "meaning": "while doing ~ anyway, taking the opportunity to also do ~",
+        "formation": "Verb dictionary form / た-form + ついでに / Noun + の + ついでに",
+        "example": "買{か}い物{もの}のついでに、郵便局{ゆうびんきょく}に寄{よ}った。",
+        "example_translation": "While I was out shopping, I stopped by the post office."
+      },
+      {
+        "pattern": "〜とたん（に）",
+        "meaning": "the moment ~, just as ~ (something unexpected happens right after)",
+        "formation": "Verb た-form + とたん（に）",
+        "example": "窓{まど}を開{あ}けたとたん、強{つよ}い風{かぜ}が入{はい}ってきた。",
+        "example_translation": "The moment I opened the window, a strong wind blew in."
+      },
+      {
+        "pattern": "〜たところで",
+        "meaning": "even if ~ (it would be useless; nothing good would come of it)",
+        "formation": "Verb た-form + ところで",
+        "example": "今{いま}から急{いそ}いだところで、もう間{ま}に合{あ}わない。",
+        "example_translation": "Even if we hurry now, we won't make it in time."
+      }
+    ]
+  },
+  {
+    "id": "gf-034",
+    "section": "grammar_form",
+    "question": "昨日{きのう}見{み}た映画{えいが}は、最後{さいご}の場面{ばめん}があまりにも悲{かな}しくて、泣{な}か（　　）。",
+    "choices": [
+      "ないわけにはいかなかった",
+      "ざるを得{え}なかった",
+      "ないことはなかった",
+      "ずにはいられなかった"
+    ],
+    "answer": 3,
+    "full_sentence": "昨日{きのう}見{み}た映画{えいが}は、最後{さいご}の場面{ばめん}があまりにも悲{かな}しくて、泣{な}かずにはいられなかった。",
+    "translation": "The final scene of the movie I saw yesterday was so sad that I couldn't help crying.",
+    "explanation": "〜ずにはいられない means 'can't help ~ing, can't stop oneself from ~ing'. It describes a natural feeling or reaction that the speaker cannot hold back: 泣かずにはいられない 'can't help crying', 笑わずにはいられない 'can't help laughing'. The clue is あまりにも悲しくて 'it was so sad that...': the sadness causes an uncontrollable reaction (crying). Connection: ない form minus ない + ずにはいられない (泣かない → 泣かずにはいられない); する → せずにはいられない. All four choices attach correctly to 泣か, so this question is purely about meaning. The key contrast: ずにはいられない = an inner emotional impulse; ざるを得ない = outside circumstances force a reluctant choice.",
+    "choice_notes": [
+      "Wrong. 〜ないわけにはいかない means 'must, can't not ~' because of social duty or obligation. Crying at a movie is not an obligation. Correct use: 先輩の結婚式なので、出席しないわけにはいかなかった。(It was my senior colleague's wedding, so I couldn't not attend.)",
+      "Wrong. 〜ざるを得ない means 'have no choice but to ~' because outside circumstances force you into a reluctant decision. Crying is an emotional reaction, not a decision you are forced into. Correct use: 雨がひどくて、試合を中止せざるを得なかった。(The rain was so bad that we had no choice but to cancel the match.)",
+      "Wrong. 〜ないことはない means 'it's not that ~ not; I could ~ if I had to', a weak, hesitant 'yes'. 'It's not that I didn't cry' does not match あまりにも悲しくて. Correct use: 辛い料理も、食べられないことはない。(It's not that I can't eat spicy food.)",
+      "Correct. 泣かずにはいられなかった = 'couldn't help crying'. ない form minus ない + ずにはいられない, for an uncontrollable emotional reaction."
+    ],
+    "vocab": [
+      {
+        "word": "場面",
+        "reading": "ばめん",
+        "meaning": "scene (in a movie or story); situation",
+        "pos": "noun",
+        "example": "この映画{えいが}で一番{いちばん}好{す}きな場面{ばめん}はどこですか。",
+        "example_translation": "Which is your favorite scene in this movie?"
+      },
+      {
+        "word": "あまりにも",
+        "reading": "あまりにも",
+        "meaning": "too, so very, excessively (so that ~)",
+        "pos": "adverb",
+        "example": "あまりにも疲{つか}れていて、何{なに}もできなかった。",
+        "example_translation": "I was so exhausted that I couldn't do anything."
+      },
+      {
+        "word": "悲しい",
+        "reading": "かなしい",
+        "meaning": "sad",
+        "pos": "i-adjective",
+        "example": "友達{ともだち}と別{わか}れるのは悲{かな}しい。",
+        "example_translation": "It's sad to part from friends."
+      },
+      {
+        "word": "最後",
+        "reading": "さいご",
+        "meaning": "the end, the last",
+        "pos": "noun",
+        "example": "最後{さいご}まで話{はなし}を聞{き}いてください。",
+        "example_translation": "Please listen to the end."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜ずにはいられない",
+        "meaning": "can't help ~ing, can't stop oneself from ~ing (a natural feeling or impulse)",
+        "formation": "Verb ない form minus ない + ずにはいられない (する → せずにはいられない)",
+        "example": "彼{かれ}の話{はなし}を聞{き}いて、笑{わら}わずにはいられなかった。",
+        "example_translation": "Hearing his story, I couldn't help laughing."
+      },
+      {
+        "pattern": "〜ないわけにはいかない",
+        "meaning": "must ~, can't not ~ (because of social duty or obligation)",
+        "formation": "Verb ない form + わけにはいかない",
+        "example": "先輩{せんぱい}に誘{さそ}われたので、行{い}かないわけにはいかない。",
+        "example_translation": "My senior invited me, so I can't not go."
+      },
+      {
+        "pattern": "〜ざるを得ない",
+        "meaning": "have no choice but to ~ (forced by circumstances)",
+        "formation": "Verb ない form minus ない + ざるを得ない (する → せざるを得ない)",
+        "example": "熱{ねつ}が高{たか}いので、学校{がっこう}を休{やす}まざるを得{え}ない。",
+        "example_translation": "My fever is high, so I have no choice but to stay home from school."
+      },
+      {
+        "pattern": "〜ないことはない",
+        "meaning": "it's not that ~ not; ~ is possible (a weak, hesitant yes)",
+        "formation": "Verb ない form + ことはない",
+        "example": "辛{から}い料理{りょうり}も、食{た}べられないことはない。",
+        "example_translation": "It's not that I can't eat spicy food."
+      }
+    ]
+  },
+  {
+    "id": "gf-035",
+    "section": "grammar_form",
+    "question": "昨夜{ゆうべ}遅{おそ}くまで起{お}きていた（　　）、今日{きょう}は朝{あさ}から頭{あたま}が重{おも}い。",
+    "choices": [
+      "せいか",
+      "からには",
+      "くせに",
+      "ものの"
+    ],
+    "answer": 0,
+    "full_sentence": "昨夜{ゆうべ}遅{おそ}くまで起{お}きていたせいか、今日{きょう}は朝{あさ}から頭{あたま}が重{おも}い。",
+    "translation": "Maybe because I stayed up late last night, my head has felt heavy since this morning.",
+    "explanation": "〜せいか means 'perhaps because ~, maybe it's because ~'. It gives a possible cause that the speaker is not completely sure about (the か adds 'maybe'), and the result is usually something bad. Here: staying up late (possible cause) → a heavy head (bad result). The clue is the bad physical condition 頭が重い 'my head feels heavy' and the natural cause-and-effect between the two halves. Connection: plain form + せいか (起きていたせいか); な-adj + な (静かなせいか); noun + の (年のせいか 'maybe because of my age'). For a good result, use 〜おかげか 'perhaps thanks to ~' instead.",
+    "choice_notes": [
+      "Correct. 起きていたせいか = 'perhaps because I stayed up'. Plain form + せいか, giving an uncertain cause for a bad result.",
+      "Wrong. 〜からには 'now that ~ (so one must / will)' must be followed by a duty or resolve, not by a physical condition. Correct use: 夜遅くまで起きているからには、宿題を全部終わらせよう。(Since I'm staying up late anyway, let's finish all the homework.)",
+      "Wrong. 〜くせに 'even though ~' criticizes someone and needs a contrast; staying up late and having a heavy head are not in contrast. Correct use: 弟は早く寝たくせに、朝起きられなかった。(My brother went to bed early, and yet he couldn't get up in the morning.)",
+      "Wrong. 〜ものの means 'although ~'. 'Although I stayed up late, my head is heavy' has no contrast; a heavy head is exactly what you would expect. Correct use: 早く寝たものの、なかなか眠れなかった。(Although I went to bed early, I just couldn't fall asleep.)"
+    ],
+    "vocab": [
+      {
+        "word": "昨夜",
+        "reading": "ゆうべ",
+        "meaning": "last night (also read さくや in formal speech)",
+        "pos": "noun",
+        "example": "昨夜{ゆうべ}は雨{あめ}がひどかった。",
+        "example_translation": "The rain was terrible last night."
+      },
+      {
+        "word": "遅くまで",
+        "reading": "おそくまで",
+        "meaning": "until late",
+        "pos": "expression",
+        "example": "昨日{きのう}は遅{おそ}くまで仕事{しごと}をした。",
+        "example_translation": "I worked until late yesterday."
+      },
+      {
+        "word": "頭が重い",
+        "reading": "あたまがおもい",
+        "meaning": "one's head feels heavy (dull, slight headache)",
+        "pos": "expression",
+        "example": "寝不足{ねぶそく}で、朝{あさ}から頭{あたま}が重{おも}い。",
+        "example_translation": "From lack of sleep, my head has felt heavy since morning."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜せいか",
+        "meaning": "perhaps because ~, maybe it's due to ~ (an uncertain cause, usually of a bad result)",
+        "formation": "Plain form / な-adj + な / Noun + の + せいか",
+        "example": "年{とし}のせいか、最近{さいきん}疲{つか}れやすい。",
+        "example_translation": "Maybe it's my age, but I get tired easily these days."
+      },
+      {
+        "pattern": "〜からには",
+        "meaning": "now that ~, since ~ (so one must / will / wants to)",
+        "formation": "Plain form (Noun / な-adj + である) + からには",
+        "example": "約束{やくそく}したからには守{まも}らなければならない。",
+        "example_translation": "Since I promised, I have to keep it."
+      },
+      {
+        "pattern": "〜くせに",
+        "meaning": "even though ~ (with criticism, blame or contempt)",
+        "formation": "Plain form / な-adj + な / Noun + の + くせに",
+        "example": "彼{かれ}は知{し}っているくせに、何{なに}も教{おし}えてくれない。",
+        "example_translation": "Even though he knows, he won't tell me anything."
+      },
+      {
+        "pattern": "〜ものの",
+        "meaning": "although ~ (but what you would expect next does not happen)",
+        "formation": "Plain form (な-adj + な / である, Noun + である) + ものの",
+        "example": "薬{くすり}を飲{の}んだものの、熱{ねつ}はなかなか下{さ}がらない。",
+        "example_translation": "Although I took medicine, my fever just won't go down."
+      }
+    ]
+  }
+]

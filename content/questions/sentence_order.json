@@ -1,0 +1,2556 @@
+[
+  {
+    "id": "so-001",
+    "section": "sentence_order",
+    "question": "パスポートを {{1}} {{2}} {{3}} {{4}} を確認{かくにん}してください。",
+    "choices": [
+      "に際{さい}して",
+      "書類{しょるい}",
+      "申請{しんせい}する",
+      "必要{ひつよう}な"
+    ],
+    "star": 3,
+    "correct_order": [
+      2,
+      0,
+      3,
+      1
+    ],
+    "answer": 3,
+    "full_sentence": "パスポートを申請{しんせい}するに際{さい}して必要{ひつよう}な書類{しょるい}を確認{かくにん}してください。",
+    "translation": "When applying for a passport, please check the necessary documents.",
+    "explanation": "The fixed text パスポートを ends with the object marker を, so the next piece must be a verb that takes パスポート as its object: 申請する（しんせいする）'to apply for'. The N2 pattern 〜に際して（にさいして）'when ~, on the occasion of ~ (formal)' attaches straight to a dictionary-form verb, so it comes next: 申請するに際して 'when applying'. After the slots comes を確認してください 'please check ~', so the last slot must be the noun being checked: 書類（しょるい）'documents'. 必要な（ひつような）'necessary' ends in な, which only appears in front of a noun, so it goes directly before 書類: 必要な書類 'the necessary documents'. Order: 申請する → に際して → 必要な → 書類. The ★ is the 3rd slot: 必要な.",
+    "choice_notes": [
+      "に際して goes in slot 2. に際して attaches directly to a dictionary-form verb (or a noun): 申請するに際して 'when applying'. It cannot follow 必要な or 書類.",
+      "書類 goes in slot 4. The fixed text after the slots begins with を (〜を確認してください 'please check ~'), so the last slot must be the noun that is checked: 書類を確認してください.",
+      "申請する goes in slot 1. The fixed text パスポートを ends with the object marker を, so a verb must come right after it. 申請する 'to apply for' is the only verb: パスポートを申請する 'apply for a passport'.",
+      "Correct. 必要な is in slot 3, the ★ position. 必要な is a na-adjective in its noun-modifying form (〜な + noun), so it must stand right before the noun 書類: 必要な書類 'the necessary documents'."
+    ],
+    "vocab": [
+      {
+        "word": "申請",
+        "reading": "しんせい",
+        "meaning": "application (an official request); to apply for",
+        "pos": "noun / suru verb",
+        "example": "ビザの申請{しんせい}には一{いっ}か月{げつ}ぐらいかかる。",
+        "example_translation": "Applying for a visa takes about a month."
+      },
+      {
+        "word": "書類",
+        "reading": "しょるい",
+        "meaning": "documents, papers",
+        "pos": "noun",
+        "example": "会議{かいぎ}の前{まえ}に書類{しょるい}をコピーしておいた。",
+        "example_translation": "I copied the documents before the meeting."
+      },
+      {
+        "word": "必要",
+        "reading": "ひつよう",
+        "meaning": "necessary, needed",
+        "pos": "na-adjective / noun",
+        "example": "旅行{りょこう}に必要{ひつよう}な物{もの}をかばんに入{い}れた。",
+        "example_translation": "I put the things I need for the trip in my bag."
+      },
+      {
+        "word": "確認",
+        "reading": "かくにん",
+        "meaning": "check, confirmation; to check, to confirm",
+        "pos": "noun / suru verb",
+        "example": "出{で}かける前{まえ}に天気予報{てんきよほう}を確認{かくにん}した。",
+        "example_translation": "I checked the weather forecast before going out."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜に際して",
+        "meaning": "when ~, on the occasion of ~ (formal; used for special or official occasions)",
+        "formation": "Noun / Verb dictionary form + に際して (more formal: に際し)",
+        "example": "帰国{きこく}に際{さい}して、お世話{せわ}になった人{ひと}たちにお礼{れい}を言{い}った。",
+        "example_translation": "When returning to my country, I thanked the people who had helped me."
+      }
+    ]
+  },
+  {
+    "id": "so-002",
+    "section": "sentence_order",
+    "question": "遺産{いさん}の {{1}} {{2}} {{3}} {{4}} 争{あらそ}いが起{お}きた。",
+    "choices": [
+      "兄弟{きょうだい}",
+      "をめぐって",
+      "の間{あいだ}で",
+      "相続{そうぞく}"
+    ],
+    "star": 2,
+    "correct_order": [
+      3,
+      1,
+      0,
+      2
+    ],
+    "answer": 1,
+    "full_sentence": "遺産{いさん}の相続{そうぞく}をめぐって兄弟{きょうだい}の間{あいだ}で争{あらそ}いが起{お}きた。",
+    "translation": "A dispute arose among the siblings over the inheritance of the estate.",
+    "explanation": "The fixed text 遺産の（いさんの）'of the estate' ends with の, so a noun must follow. 相続（そうぞく）'inheritance' fits (遺産の相続 'inheriting the estate'), but 兄弟 'siblings' does not, because 'the estate's siblings' is nonsense. The N2 pattern 〜をめぐって 'over ~, concerning ~ (a dispute or debate)' attaches straight to a noun, so 相続をめぐって 'over the inheritance' comes next. That leaves 兄弟（きょうだい）and の間で（のあいだで）'among', which join as 兄弟の間で 'among the siblings' and tell us who is fighting. This sits just before 争いが起きた 'a dispute arose'. Order: 相続 → をめぐって → 兄弟 → の間で. The ★ is the 2nd slot: をめぐって.",
+    "choice_notes": [
+      "兄弟 goes in slot 3. の間で needs a noun for a group of people in front of it, and 兄弟 'siblings' is that group: 兄弟の間で 'among the siblings'.",
+      "Correct. をめぐって is in slot 2, the ★ position. をめぐって attaches directly to a noun that is the subject of a dispute: 相続をめぐって 'over the inheritance'.",
+      "の間で goes in slot 4. の間で 'among' attaches to 兄弟 and tells where the dispute happens. It comes right before the fixed text 争いが起きた.",
+      "相続 goes in slot 1. The fixed text 遺産の ends in の, so a noun must follow. 遺産の相続 'the inheritance of the estate' makes sense; 遺産の兄弟 'the estate's siblings' does not."
+    ],
+    "vocab": [
+      {
+        "word": "遺産",
+        "reading": "いさん",
+        "meaning": "inheritance, estate; heritage",
+        "pos": "noun",
+        "example": "祖父{そふ}は家族{かぞく}に大{おお}きな遺産{いさん}を残{のこ}した。",
+        "example_translation": "My grandfather left a large estate to the family."
+      },
+      {
+        "word": "相続",
+        "reading": "そうぞく",
+        "meaning": "inheritance, succession; to inherit",
+        "pos": "noun / suru verb",
+        "example": "父{ちち}の家{いえ}は長男{ちょうなん}が相続{そうぞく}した。",
+        "example_translation": "The eldest son inherited our father's house."
+      },
+      {
+        "word": "兄弟",
+        "reading": "きょうだい",
+        "meaning": "siblings, brothers (and sisters)",
+        "pos": "noun",
+        "example": "私{わたし}は三人{さんにん}兄弟{きょうだい}の真{ま}ん中{なか}だ。",
+        "example_translation": "I'm the middle one of three siblings."
+      },
+      {
+        "word": "間",
+        "reading": "あいだ",
+        "meaning": "between, among; interval",
+        "pos": "noun",
+        "example": "若者{わかもの}の間{あいだ}でこの歌{うた}が流行{はや}っている。",
+        "example_translation": "This song is popular among young people."
+      },
+      {
+        "word": "争い",
+        "reading": "あらそい",
+        "meaning": "dispute, conflict, quarrel",
+        "pos": "noun",
+        "example": "土地{とち}をめぐる争{あらそ}いは今{いま}も続{つづ}いている。",
+        "example_translation": "The dispute over the land is still going on."
+      },
+      {
+        "word": "起きる",
+        "reading": "おきる",
+        "meaning": "to happen, to occur; to wake up",
+        "pos": "ichidan verb",
+        "example": "昨日{きのう}、駅{えき}の近{ちか}くで事故{じこ}が起{お}きた。",
+        "example_translation": "Yesterday an accident happened near the station."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜をめぐって",
+        "meaning": "over ~, concerning ~ (used for disputes, debates or rivalry around one issue)",
+        "formation": "Noun + をめぐって; Noun + をめぐる + Noun",
+        "example": "新{あたら}しい法律{ほうりつ}をめぐって、国会{こっかい}で議論{ぎろん}が続{つづ}いている。",
+        "example_translation": "Debate continues in the Diet over the new law."
+      }
+    ]
+  },
+  {
+    "id": "so-003",
+    "section": "sentence_order",
+    "question": "お世話{せわ}になった先輩{せんぱい}の {{1}} {{2}} {{3}} {{4}} と思{おも}った。",
+    "choices": [
+      "わけにはいかない",
+      "頼{たの}み",
+      "断{ことわ}る",
+      "だから"
+    ],
+    "star": 4,
+    "correct_order": [
+      1,
+      3,
+      2,
+      0
+    ],
+    "answer": 0,
+    "full_sentence": "お世話{せわ}になった先輩{せんぱい}の頼{たの}みだから断{ことわ}るわけにはいかないと思{おも}った。",
+    "translation": "Since it was a request from a senior who had done so much for me, I thought I couldn't refuse.",
+    "explanation": "The fixed text お世話になった先輩の 'of my senior who took care of me' ends with の, so a noun must follow: 頼み（たのみ）'request'. だから 'because it is' attaches to a noun, giving 先輩の頼みだから 'because it is my senior's request'. Next comes the conclusion. The pattern 〜わけにはいかない 'cannot (for social or moral reasons)' needs a dictionary-form verb in front of it, so 断る（ことわる）'to refuse' comes before it: 断るわけにはいかない 'I can't (bring myself to) refuse'. This whole thought is quoted by the fixed と思った 'I thought'. Order: 頼み → だから → 断る → わけにはいかない. The ★ is the 4th slot: わけにはいかない.",
+    "choice_notes": [
+      "Correct. わけにはいかない is in slot 4, the ★ position. わけにはいかない completes 断るわけにはいかない 'I can't refuse' and is directly followed by と思った, which quotes the thought.",
+      "頼み goes in slot 1. The fixed text 先輩の ends in の, so a noun must come next. 頼み 'request' is the only noun: 先輩の頼み 'my senior's request'.",
+      "断る goes in slot 3. わけにはいかない needs a dictionary-form verb right before it, and 断る 'to refuse' is that verb.",
+      "だから goes in slot 2. だから 'because it is' follows a noun: 頼みだから 'because it is (my senior's) request'. It gives the reason for what follows."
+    ],
+    "vocab": [
+      {
+        "word": "お世話になる",
+        "reading": "おせわになる",
+        "meaning": "to be taken care of by someone, to be indebted to someone for their help",
+        "pos": "expression",
+        "example": "日本{にほん}にいる間{あいだ}、ホストファミリーにとてもお世話{せわ}になった。",
+        "example_translation": "While I was in Japan, my host family took great care of me."
+      },
+      {
+        "word": "先輩",
+        "reading": "せんぱい",
+        "meaning": "senior (someone who started school or work before you)",
+        "pos": "noun",
+        "example": "会社{かいしゃ}の先輩{せんぱい}に仕事{しごと}のやり方{かた}を教{おそ}わった。",
+        "example_translation": "I learned how to do the job from a senior at my company."
+      },
+      {
+        "word": "頼み",
+        "reading": "たのみ",
+        "meaning": "request, favor",
+        "pos": "noun",
+        "example": "友達{ともだち}の頼{たの}みで、引{ひ}っ越{こ}しを手伝{てつだ}った。",
+        "example_translation": "At my friend's request, I helped with the move."
+      },
+      {
+        "word": "断る",
+        "reading": "ことわる",
+        "meaning": "to refuse, to decline",
+        "pos": "godan verb",
+        "example": "忙{いそが}しかったので、パーティーの誘{さそ}いを断{ことわ}った。",
+        "example_translation": "I was busy, so I declined the party invitation."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜わけにはいかない",
+        "meaning": "cannot ~ (because of social, moral or practical reasons, not physical inability)",
+        "formation": "Verb dictionary form + わけにはいかない (Verb ない-form + わけにはいかない = 'must, can't not')",
+        "example": "明日{あした}は試験{しけん}だから、休{やす}むわけにはいかない。",
+        "example_translation": "Tomorrow is the exam, so I can't take the day off."
+      }
+    ]
+  },
+  {
+    "id": "so-004",
+    "section": "sentence_order",
+    "question": "あの店{みせ}は {{1}} {{2}} {{3}} {{4}} 、店員{てんいん}の態度{たいど}も悪{わる}い。",
+    "choices": [
+      "高{たか}い",
+      "ばかりか",
+      "料理{りょうり}の",
+      "値段{ねだん}が"
+    ],
+    "star": 1,
+    "correct_order": [
+      2,
+      3,
+      0,
+      1
+    ],
+    "answer": 2,
+    "full_sentence": "あの店{みせ}は料理{りょうり}の値段{ねだん}が高{たか}いばかりか、店員{てんいん}の態度{たいど}も悪{わる}い。",
+    "translation": "At that restaurant, not only are the food prices high, but the staff's attitude is also bad.",
+    "explanation": "First find what ばかりか 'not only ~ (but also)' attaches to: it follows a plain-form predicate, and the only predicate among the pieces is 高い（たかい）'expensive, high'. What is high? 値段が（ねだんが）'the price'. The price of what? 料理の（りょうりの）'of the food', which ends in の and so must sit directly before the noun 値段. This gives 料理の値段が高いばかりか 'not only are the food prices high'. The fixed text after the comma, 店員の態度も悪い 'the staff's attitude is also bad', adds a second negative point with も, which is exactly the 'not only A but also B' shape of ばかりか. Order: 料理の → 値段が → 高い → ばかりか. The ★ is the 1st slot: 料理の.",
+    "choice_notes": [
+      "高い goes in slot 3. 高い is the predicate, and it is in the plain form that ばかりか needs.",
+      "ばかりか goes in slot 4. ばかりか attaches to the plain form 高い and leads into the added point after the comma, 店員の態度も悪い (note the も 'also').",
+      "Correct. 料理の is in slot 1, the ★ position. 料理の ends in の, so it must stand directly before a noun: 料理の値段 'the price of the food'. It cannot come after 値段が or 高い.",
+      "値段が goes in slot 2. 値段が is the subject of the adjective 高い: 値段が高い 'the prices are high'."
+    ],
+    "vocab": [
+      {
+        "word": "値段",
+        "reading": "ねだん",
+        "meaning": "price",
+        "pos": "noun",
+        "example": "野菜{やさい}の値段{ねだん}が上{あ}がっている。",
+        "example_translation": "Vegetable prices are going up."
+      },
+      {
+        "word": "店員",
+        "reading": "てんいん",
+        "meaning": "shop staff, store clerk",
+        "pos": "noun",
+        "example": "店員{てんいん}に試着室{しちゃくしつ}の場所{ばしょ}を聞{き}いた。",
+        "example_translation": "I asked a clerk where the fitting room was."
+      },
+      {
+        "word": "態度",
+        "reading": "たいど",
+        "meaning": "attitude, manner, behavior",
+        "pos": "noun",
+        "example": "彼{かれ}は先生{せんせい}に対{たい}する態度{たいど}が悪{わる}い。",
+        "example_translation": "He has a bad attitude toward the teacher."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜ばかりか",
+        "meaning": "not only ~ but also ~ (adds a second point in the same direction, often with も or さえ)",
+        "formation": "Plain form (な-adj + な / である; noun directly) + ばかりか",
+        "example": "彼{かれ}は遅刻{ちこく}したばかりか、宿題{しゅくだい}も忘{わす}れてきた。",
+        "example_translation": "Not only was he late, he also forgot his homework."
+      }
+    ]
+  },
+  {
+    "id": "so-005",
+    "section": "sentence_order",
+    "question": "大学{だいがく}を {{1}} {{2}} {{3}} {{4}} なかなか見{み}つからない。",
+    "choices": [
+      "卒業{そつぎょう}した",
+      "希望{きぼう}する",
+      "ものの",
+      "仕事{しごと}が"
+    ],
+    "star": 3,
+    "correct_order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "answer": 1,
+    "full_sentence": "大学{だいがく}を卒業{そつぎょう}したものの希望{きぼう}する仕事{しごと}がなかなか見{み}つからない。",
+    "translation": "Although I graduated from university, I can't find the kind of job I want.",
+    "explanation": "The fixed text 大学を ends with を, so a verb must come next; 大学を卒業した（そつぎょうした）'graduated from university' is the natural combination. The N2 pattern 〜ものの 'although ~' attaches to a plain-form verb, so 卒業したものの follows. The second half describes the disappointing reality. The fixed ending なかなか見つからない 'just can't be found' needs a subject with が: 仕事が（しごとが）'a job'. 希望する（きぼうする）'to hope for' goes in front of 仕事 as a relative clause: 希望する仕事 'the job I hope for'. Order: 卒業した → ものの → 希望する → 仕事が. The ★ is the 3rd slot: 希望する.",
+    "choice_notes": [
+      "卒業した goes in slot 1. The fixed text 大学を ends in を, so a verb must come next. 大学を卒業した 'graduated from university' is the natural combination.",
+      "Correct. 希望する is in slot 3, the ★ position. 希望する is a plain-form verb placed in front of a noun, so it works as a relative clause: 希望する仕事 'the job I want'.",
+      "ものの goes in slot 2. ものの attaches to a plain-form verb, here the past form 卒業した: 卒業したものの 'although I graduated'.",
+      "仕事が goes in slot 4. 仕事が is the subject of the fixed ending なかなか見つからない 'just can't be found', so it comes directly before it."
+    ],
+    "vocab": [
+      {
+        "word": "卒業",
+        "reading": "そつぎょう",
+        "meaning": "graduation; to graduate",
+        "pos": "noun / suru verb",
+        "example": "兄{あに}は去年{きょねん}、高校{こうこう}を卒業{そつぎょう}した。",
+        "example_translation": "My older brother graduated from high school last year."
+      },
+      {
+        "word": "希望",
+        "reading": "きぼう",
+        "meaning": "hope, wish; to hope for",
+        "pos": "noun / suru verb",
+        "example": "希望{きぼう}の大学{だいがく}に合格{ごうかく}できた。",
+        "example_translation": "I got into the university I wanted."
+      },
+      {
+        "word": "なかなか",
+        "reading": "なかなか",
+        "meaning": "(with a negative) not easily, just won't; (with a positive) quite",
+        "pos": "adverb",
+        "example": "バスがなかなか来{こ}ない。",
+        "example_translation": "The bus just won't come."
+      },
+      {
+        "word": "見つかる",
+        "reading": "みつかる",
+        "meaning": "to be found",
+        "pos": "godan verb",
+        "example": "なくした鍵{かぎ}がやっと見{み}つかった。",
+        "example_translation": "The key I had lost was finally found."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜ものの",
+        "meaning": "although ~, (but) ~ (the result is not what the first part would lead you to expect)",
+        "formation": "Plain form (な-adj + な / である; noun + である) + ものの",
+        "example": "新{あたら}しいパソコンを買{か}ったものの、使{つか}い方{かた}がよく分{わ}からない。",
+        "example_translation": "Although I bought a new computer, I don't really know how to use it."
+      }
+    ]
+  },
+  {
+    "id": "so-006",
+    "section": "sentence_order",
+    "question": "アルバイトの給料{きゅうりょう}は、 {{1}} {{2}} {{3}} {{4}} ことになっている。",
+    "choices": [
+      "時間{じかん}",
+      "働{はたら}いた",
+      "支払{しはら}われる",
+      "に応{おう}じて"
+    ],
+    "star": 2,
+    "correct_order": [
+      1,
+      0,
+      3,
+      2
+    ],
+    "answer": 0,
+    "full_sentence": "アルバイトの給料{きゅうりょう}は、働{はたら}いた時間{じかん}に応{おう}じて支払{しはら}われることになっている。",
+    "translation": "Part-time wages are (set up to be) paid according to the number of hours worked.",
+    "explanation": "The topic is アルバイトの給料 'part-time wages'. The main verb about wages is 支払われる（しはらわれる）'are paid', the passive of 支払う, and it must sit directly before ことになっている 'it is arranged that ~', which follows a dictionary-form verb. Paid according to what? The N2 pattern 〜に応じて（におうじて）'according to, in proportion to' needs a noun in front: 時間に応じて 'according to the hours'. Which hours? 働いた（はたらいた）'worked' describes 時間 as a relative clause: 働いた時間 'the hours (one) worked'. Order: 働いた → 時間 → に応じて → 支払われる. The ★ is the 2nd slot: 時間.",
+    "choice_notes": [
+      "Correct. 時間 is in slot 2, the ★ position. 時間 is the noun described by 働いた, and it is also the noun that に応じて attaches to.",
+      "働いた goes in slot 1. 働いた is a plain past-tense verb, and a plain verb in front of a noun describes that noun: 働いた時間 'the hours (that one) worked'.",
+      "支払われる goes in slot 4. 支払われる 'is paid' is the main verb about 給料. The fixed ことになっている needs a dictionary-form verb right before it.",
+      "に応じて goes in slot 3. に応じて attaches to a noun: 時間に応じて 'in accordance with the hours'."
+    ],
+    "vocab": [
+      {
+        "word": "給料",
+        "reading": "きゅうりょう",
+        "meaning": "salary, wages, pay",
+        "pos": "noun",
+        "example": "今月{こんげつ}は給料{きゅうりょう}が少{すこ}し上{あ}がった。",
+        "example_translation": "My pay went up a little this month."
+      },
+      {
+        "word": "支払う",
+        "reading": "しはらう",
+        "meaning": "to pay",
+        "pos": "godan verb",
+        "example": "料金{りょうきん}はカードで支払{しはら}うことができる。",
+        "example_translation": "You can pay the fee by card."
+      },
+      {
+        "word": "アルバイト",
+        "reading": "アルバイト",
+        "meaning": "part-time job",
+        "pos": "noun / suru verb",
+        "example": "大学生{だいがくせい}の時{とき}、コンビニでアルバイトをしていた。",
+        "example_translation": "When I was a university student, I worked part-time at a convenience store."
+      },
+      {
+        "word": "働く",
+        "reading": "はたらく",
+        "meaning": "to work",
+        "pos": "godan verb",
+        "example": "姉{あね}は病院{びょういん}で働{はたら}いている。",
+        "example_translation": "My older sister works at a hospital."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜に応じて",
+        "meaning": "according to ~, in response to ~ (something changes to match a factor that varies)",
+        "formation": "Noun + に応じて; Noun + に応じた + Noun",
+        "example": "季節{きせつ}に応{おう}じて、メニューを変{か}えている。",
+        "example_translation": "We change the menu according to the season."
+      },
+      {
+        "pattern": "〜ことになっている",
+        "meaning": "it is arranged that ~, it is the rule that ~",
+        "formation": "Verb dictionary form / ない-form + ことになっている",
+        "example": "会議{かいぎ}は毎週{まいしゅう}月曜日{げつようび}に開{ひら}くことになっている。",
+        "example_translation": "The meeting is set to be held every Monday."
+      }
+    ]
+  },
+  {
+    "id": "so-007",
+    "section": "sentence_order",
+    "question": "日本{にほん}に {{1}} {{2}} {{3}} {{4}} わけではない。",
+    "choices": [
+      "いる",
+      "からといって",
+      "日本語{にほんご}が話{はな}せる",
+      "住{す}んで"
+    ],
+    "star": 4,
+    "correct_order": [
+      3,
+      0,
+      1,
+      2
+    ],
+    "answer": 2,
+    "full_sentence": "日本{にほん}に住{す}んでいるからといって日本語{にほんご}が話{はな}せるわけではない。",
+    "translation": "Just because someone lives in Japan doesn't mean they can speak Japanese.",
+    "explanation": "日本に 'in Japan' marks a place, so it needs a verb such as 住む（すむ）'to live'. 住んで + いる makes 住んでいる 'is living'. The N2 pattern 〜からといって 'just because ~' attaches to a plain-form clause, so it comes right after: 住んでいるからといって. This pattern is almost always followed by a negative ending such as 〜わけではない 'it doesn't mean that ~' or 〜とは限らない 'not necessarily'. Here the fixed ending is わけではない, and in front of it we need the idea that is being denied: 日本語が話せる（にほんごがはなせる）'can speak Japanese'. Order: 住んで → いる → からといって → 日本語が話せる. The ★ is the 4th slot: 日本語が話せる.",
+    "choice_notes": [
+      "いる goes in slot 2. いる follows the て-form to make 住んでいる 'is living' (a continuing state).",
+      "からといって goes in slot 3. からといって attaches to a plain-form clause: 住んでいるからといって 'just because (someone) lives (in Japan)'.",
+      "Correct. 日本語が話せる is in slot 4, the ★ position. The fixed ending わけではない needs a plain-form clause before it, and 日本語が話せる 'can speak Japanese' is the idea being denied.",
+      "住んで goes in slot 1. 日本に marks a place, and 日本に住む 'live in Japan' is the natural phrase. 住んで is the て-form, which joins with いる."
+    ],
+    "vocab": [
+      {
+        "word": "住む",
+        "reading": "すむ",
+        "meaning": "to live (somewhere), to reside",
+        "pos": "godan verb",
+        "example": "私{わたし}は駅{えき}の近{ちか}くに住{す}んでいる。",
+        "example_translation": "I live near the station."
+      },
+      {
+        "word": "話せる",
+        "reading": "はなせる",
+        "meaning": "to be able to speak",
+        "pos": "ichidan verb",
+        "example": "彼女{かのじょ}は三{みっ}つの言語{げんご}が話{はな}せる。",
+        "example_translation": "She can speak three languages."
+      },
+      {
+        "word": "必ずしも",
+        "reading": "かならずしも",
+        "meaning": "(not) necessarily - used with a negative ending; often appears together with からといって",
+        "pos": "adverb",
+        "example": "有名{ゆうめい}な店{みせ}が必{かなら}ずしもおいしいわけではない。",
+        "example_translation": "A famous restaurant is not necessarily tasty."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜からといって",
+        "meaning": "just because ~ (it doesn't follow that ~)",
+        "formation": "Plain form + からといって, followed by 〜わけではない / 〜とは限らない / a negative",
+        "example": "安{やす}いからといって、たくさん買{か}うのはよくない。",
+        "example_translation": "Just because something is cheap doesn't mean it's good to buy a lot of it."
+      },
+      {
+        "pattern": "〜わけではない",
+        "meaning": "it doesn't mean that ~, it's not (necessarily) the case that ~",
+        "formation": "Plain form (な-adj + な; noun + という) + わけではない",
+        "example": "肉{にく}が嫌{きら}いなわけではないが、あまり食{た}べない。",
+        "example_translation": "It's not that I dislike meat, but I don't eat it much."
+      }
+    ]
+  },
+  {
+    "id": "so-008",
+    "section": "sentence_order",
+    "question": "{{1}} {{2}} {{3}} {{4}} 、この計画{けいかく}は進{すす}められない。",
+    "choices": [
+      "出{で}ない",
+      "ことには",
+      "許可{きょか}が",
+      "社長{しゃちょう}の"
+    ],
+    "star": 1,
+    "correct_order": [
+      3,
+      2,
+      0,
+      1
+    ],
+    "answer": 3,
+    "full_sentence": "社長{しゃちょう}の許可{きょか}が出{で}ないことには、この計画{けいかく}は進{すす}められない。",
+    "translation": "Unless the company president grants permission, this plan cannot go ahead.",
+    "explanation": "The N2 pattern 〜ないことには 'unless ~ (first)' is built from a ない-form verb + ことには, and it is followed by a negative result (here この計画は進められない 'this plan cannot go ahead'). The ない-form piece is 出ない（でない）, and ことには must follow it directly: 出ないことには. What does not 'come out'? 許可が（きょかが）'permission': 許可が出る is the set phrase for 'permission is granted'. Whose permission? 社長の（しゃちょうの）'the president's', which ends in の and must stand directly before 許可. Result: 社長の許可が出ないことには 'unless the president's permission is granted'. Order: 社長の → 許可が → 出ない → ことには. The ★ is the 1st slot: 社長の.",
+    "choice_notes": [
+      "出ない goes in slot 3. 出ない is the negative (ない-form) of 出る, which is exactly the form ないことには is built on: 許可が出ないことには.",
+      "ことには goes in slot 4. ことには completes 出ないことには 'unless (permission) is granted' and sits right before the comma and the negative result.",
+      "許可が goes in slot 2. 許可が is the subject of 出ない: 許可が出る 'permission is granted' (literally 'permission comes out') is a set phrase.",
+      "Correct. 社長の is in slot 1, the ★ position. 社長の ends in の, so it must come directly before a noun: 社長の許可 'the president's permission'. It is the only piece that can open the sentence."
+    ],
+    "vocab": [
+      {
+        "word": "社長",
+        "reading": "しゃちょう",
+        "meaning": "company president",
+        "pos": "noun",
+        "example": "社長{しゃちょう}は今日{きょう}、出張{しゅっちょう}で大阪{おおさか}にいる。",
+        "example_translation": "The president is in Osaka on a business trip today."
+      },
+      {
+        "word": "許可",
+        "reading": "きょか",
+        "meaning": "permission; to permit (許可が出る = permission is granted)",
+        "pos": "noun / suru verb",
+        "example": "ここで写真{しゃしん}を撮{と}るには許可{きょか}が必要{ひつよう}だ。",
+        "example_translation": "You need permission to take photos here."
+      },
+      {
+        "word": "計画",
+        "reading": "けいかく",
+        "meaning": "plan; to plan",
+        "pos": "noun / suru verb",
+        "example": "新{あたら}しい計画{けいかく}について部長{ぶちょう}に説明{せつめい}した。",
+        "example_translation": "I explained the new plan to the department manager."
+      },
+      {
+        "word": "進める",
+        "reading": "すすめる",
+        "meaning": "to move (a plan or task) forward, to proceed with",
+        "pos": "ichidan verb",
+        "example": "工事{こうじ}は予定{よてい}どおりに進{すす}められている。",
+        "example_translation": "The construction is proceeding as scheduled."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜ないことには",
+        "meaning": "unless ~ (first), nothing can happen / you can't ~ (followed by a negative result)",
+        "formation": "Verb ない-form + ことには + negative expression",
+        "example": "本人{ほんにん}に聞{き}いてみないことには、本当{ほんとう}の理由{りゆう}は分{わ}からない。",
+        "example_translation": "Unless we ask the person himself, we won't know the real reason."
+      }
+    ]
+  },
+  {
+    "id": "so-009",
+    "section": "sentence_order",
+    "question": "激{はげ}しい雨{あめ}が {{1}} {{2}} {{3}} {{4}} 最後{さいご}まで行{おこな}われた。",
+    "choices": [
+      "にもかかわらず",
+      "降{ふ}って",
+      "試合{しあい}は",
+      "いた"
+    ],
+    "star": 3,
+    "correct_order": [
+      1,
+      3,
+      0,
+      2
+    ],
+    "answer": 0,
+    "full_sentence": "激{はげ}しい雨{あめ}が降{ふ}っていたにもかかわらず試合{しあい}は最後{さいご}まで行{おこな}われた。",
+    "translation": "Even though it was raining heavily, the match was played to the end.",
+    "explanation": "激しい雨が 'heavy rain (subject)' needs its verb: 降る（ふる）'to fall'. 降って + いた makes 降っていた 'was falling'. The N2 pattern 〜にもかかわらず 'despite ~, even though ~' attaches to a plain-form clause, so it comes next: 降っていたにもかかわらず. The second half states the surprising result; its subject is 試合は（しあいは）'the match', which connects to the fixed ending 最後まで行われた 'was held until the end'. Order: 降って → いた → にもかかわらず → 試合は. The ★ is the 3rd slot: にもかかわらず.",
+    "choice_notes": [
+      "Correct. にもかかわらず is in slot 3, the ★ position. にもかかわらず attaches to a plain-form clause: 降っていたにもかかわらず 'even though it was raining'.",
+      "降って goes in slot 1. The fixed text 激しい雨が needs its verb, and 雨が降る 'rain falls' is the set combination. 降って is the て-form that joins with いた.",
+      "試合は goes in slot 4. 試合は is the topic of the second half and the subject of the fixed ending 最後まで行われた 'was held to the end'.",
+      "いた goes in slot 2. いた follows the て-form to make the past continuous 降っていた 'was falling'."
+    ],
+    "vocab": [
+      {
+        "word": "激しい",
+        "reading": "はげしい",
+        "meaning": "violent, intense, fierce",
+        "pos": "i-adjective",
+        "example": "昨日{きのう}の夜{よる}は風{かぜ}が激{はげ}しく吹{ふ}いていた。",
+        "example_translation": "The wind was blowing fiercely last night."
+      },
+      {
+        "word": "試合",
+        "reading": "しあい",
+        "meaning": "match, game",
+        "pos": "noun",
+        "example": "明日{あした}はサッカーの試合{しあい}がある。",
+        "example_translation": "There is a soccer match tomorrow."
+      },
+      {
+        "word": "最後",
+        "reading": "さいご",
+        "meaning": "the last, the end",
+        "pos": "noun",
+        "example": "その映画{えいが}を最後{さいご}まで見{み}た。",
+        "example_translation": "I watched the movie to the end."
+      },
+      {
+        "word": "行う",
+        "reading": "おこなう",
+        "meaning": "to hold (an event), to carry out",
+        "pos": "godan verb",
+        "example": "卒業式{そつぎょうしき}は体育館{たいいくかん}で行{おこな}われる。",
+        "example_translation": "The graduation ceremony will be held in the gym."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜にもかかわらず",
+        "meaning": "despite ~, even though ~ (formal; the result goes against what you would expect)",
+        "formation": "Plain form / Noun + にもかかわらず (な-adj and nouns can also take である: 静かであるにもかかわらず)",
+        "example": "彼{かれ}は熱{ねつ}があるにもかかわらず、仕事{しごと}に来{き}た。",
+        "example_translation": "Despite having a fever, he came to work."
+      }
+    ]
+  },
+  {
+    "id": "so-010",
+    "section": "sentence_order",
+    "question": "{{1}} {{2}} {{3}} {{4}} 、毎朝{まいあさ}ジョギングをするようになった。",
+    "choices": [
+      "健康診断{けんこうしんだん}で",
+      "きっかけに",
+      "注意{ちゅうい}された",
+      "のを"
+    ],
+    "star": 2,
+    "correct_order": [
+      0,
+      2,
+      3,
+      1
+    ],
+    "answer": 2,
+    "full_sentence": "健康診断{けんこうしんだん}で注意{ちゅうい}されたのをきっかけに、毎朝{まいあさ}ジョギングをするようになった。",
+    "translation": "Being warned at my health checkup prompted me to start jogging every morning.",
+    "explanation": "The N2 pattern 〜をきっかけに 'prompted by ~, with ~ as the trigger' needs a noun before を. When the trigger is a verb clause, の is added to turn it into a noun: Verb + のをきっかけに. So のを must be followed by きっかけに and preceded by a plain-form verb: 注意された（ちゅういされた）'was warned'. 健康診断で（けんこうしんだんで）'at a health checkup' tells where the warning happened, so it goes before the verb. Result: 健康診断で注意されたのをきっかけに 'prompted by being warned at my checkup', followed by the change 毎朝ジョギングをするようになった 'I started jogging every morning'. Order: 健康診断で → 注意された → のを → きっかけに. The ★ is the 2nd slot: 注意された.",
+    "choice_notes": [
+      "健康診断で goes in slot 1. 健康診断で 'at the health checkup' tells where the warning happened. A で-phrase comes before the verb it modifies, so it goes before 注意された.",
+      "きっかけに goes in slot 4. きっかけに completes 〜のをきっかけに 'with ~ as the trigger' and connects to the result after the comma.",
+      "Correct. 注意された is in slot 2, the ★ position. 注意された 'was warned' is a plain-form verb, which the following の can turn into a noun.",
+      "のを goes in slot 3. のを turns the clause into a noun (の) and adds を, the first part of をきっかけに."
+    ],
+    "vocab": [
+      {
+        "word": "健康診断",
+        "reading": "けんこうしんだん",
+        "meaning": "health checkup, medical examination",
+        "pos": "noun",
+        "example": "会社{かいしゃ}では年{ねん}に一回{いっかい}健康診断{けんこうしんだん}がある。",
+        "example_translation": "At my company there is a health checkup once a year."
+      },
+      {
+        "word": "注意",
+        "reading": "ちゅうい",
+        "meaning": "warning, caution, attention; to warn, to be careful",
+        "pos": "noun / suru verb",
+        "example": "道{みち}が凍{こお}っているので注意{ちゅうい}してください。",
+        "example_translation": "The road is icy, so please be careful."
+      },
+      {
+        "word": "きっかけ",
+        "reading": "きっかけ",
+        "meaning": "trigger, chance, starting point",
+        "pos": "noun",
+        "example": "この本{ほん}を読{よ}んだのがきっかけで、歴史{れきし}が好{す}きになった。",
+        "example_translation": "Reading this book was what got me into history."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜をきっかけに",
+        "meaning": "prompted by ~, with ~ as the trigger or turning point",
+        "formation": "Noun + をきっかけに(して); Verb plain form + のをきっかけに",
+        "example": "結婚{けっこん}をきっかけに、料理{りょうり}を始{はじ}めた。",
+        "example_translation": "Getting married prompted me to start cooking."
+      },
+      {
+        "pattern": "〜ようになる",
+        "meaning": "to come to (do), to start (doing) - describes a change in habit or ability",
+        "formation": "Verb dictionary form / ない-form + ようになる",
+        "example": "毎日{まいにち}練習{れんしゅう}して、泳{およ}げるようになった。",
+        "example_translation": "By practicing every day, I became able to swim."
+      }
+    ]
+  },
+  {
+    "id": "so-011",
+    "section": "sentence_order",
+    "question": "市{し}は {{1}} {{2}} {{3}} {{4}} 、住民{じゅうみん}への説明会{せつめいかい}を開{ひら}いた。",
+    "choices": [
+      "始{はじ}める",
+      "工事{こうじ}を",
+      "道路{どうろ}の",
+      "に先立{さきだ}って"
+    ],
+    "star": 4,
+    "correct_order": [
+      2,
+      1,
+      0,
+      3
+    ],
+    "answer": 3,
+    "full_sentence": "市{し}は道路{どうろ}の工事{こうじ}を始{はじ}めるに先立{さきだ}って、住民{じゅうみん}への説明会{せつめいかい}を開{ひら}いた。",
+    "translation": "Before starting the road construction, the city held an information session for residents.",
+    "explanation": "The N2 pattern 〜に先立って（にさきだって）'prior to ~, before ~ (formal, for official events)' attaches to a noun or a dictionary-form verb, and it comes right before the comma, because the main action (住民への説明会を開いた 'held a briefing for residents') follows. The verb in front of it is 始める（はじめる）'to start'. What is started? 工事を（こうじを）'the construction (object)'. Which construction? 道路の（どうろの）'of the road' ends in の, so it goes directly before 工事: 道路の工事を始めるに先立って. Order: 道路の → 工事を → 始める → に先立って. The ★ is the 4th slot: に先立って.",
+    "choice_notes": [
+      "始める goes in slot 3. 始める is a dictionary-form verb, which is the form に先立って attaches to here.",
+      "工事を goes in slot 2. 工事を is the object of 始める: 工事を始める 'start the construction'.",
+      "道路の goes in slot 1. 道路の ends in の, so it must come directly before a noun: 道路の工事 'the road construction'.",
+      "Correct. に先立って is in slot 4, the ★ position. に先立って completes 始めるに先立って 'prior to starting' and sits right before the comma and the main action."
+    ],
+    "vocab": [
+      {
+        "word": "道路",
+        "reading": "どうろ",
+        "meaning": "road",
+        "pos": "noun",
+        "example": "雪{ゆき}で道路{どうろ}が通{とお}れなくなった。",
+        "example_translation": "The road became impassable because of the snow."
+      },
+      {
+        "word": "工事",
+        "reading": "こうじ",
+        "meaning": "construction work",
+        "pos": "noun / suru verb",
+        "example": "家{いえ}の前{まえ}で工事{こうじ}をしていて、うるさい。",
+        "example_translation": "There is construction in front of my house, and it's noisy."
+      },
+      {
+        "word": "住民",
+        "reading": "じゅうみん",
+        "meaning": "residents, inhabitants",
+        "pos": "noun",
+        "example": "市{し}は住民{じゅうみん}の意見{いけん}を聞{き}いて計画{けいかく}を決{き}めた。",
+        "example_translation": "The city decided on the plan after hearing the residents' opinions."
+      },
+      {
+        "word": "説明会",
+        "reading": "せつめいかい",
+        "meaning": "briefing, information session",
+        "pos": "noun",
+        "example": "来週{らいしゅう}、会社{かいしゃ}の説明会{せつめいかい}に参加{さんか}する。",
+        "example_translation": "Next week I'll attend a company information session."
+      },
+      {
+        "word": "市",
+        "reading": "し",
+        "meaning": "city (as a local government)",
+        "pos": "noun",
+        "example": "市{し}の図書館{としょかん}は月曜日{げつようび}が休{やす}みだ。",
+        "example_translation": "The city library is closed on Mondays."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜に先立って",
+        "meaning": "prior to ~, before ~ (formal; preparation before an important event)",
+        "formation": "Noun / Verb dictionary form + に先立って (に先立ち); Noun + に先立つ + Noun",
+        "example": "試合{しあい}に先立{さきだ}って、開会式{かいかいしき}が行{おこな}われた。",
+        "example_translation": "Prior to the match, an opening ceremony was held."
+      }
+    ]
+  },
+  {
+    "id": "so-012",
+    "section": "sentence_order",
+    "question": "契約書{けいやくしょ}の {{1}} {{2}} {{3}} {{4}} 、サインしてください。",
+    "choices": [
+      "上{うえ}で",
+      "内容{ないよう}を",
+      "十分{じゅうぶん}に",
+      "確認{かくにん}した"
+    ],
+    "star": 1,
+    "correct_order": [
+      1,
+      2,
+      3,
+      0
+    ],
+    "answer": 1,
+    "full_sentence": "契約書{けいやくしょ}の内容{ないよう}を十分{じゅうぶん}に確認{かくにん}した上{うえ}で、サインしてください。",
+    "translation": "Please sign after thoroughly checking the contents of the contract.",
+    "explanation": "The fixed text 契約書の（けいやくしょの）'of the contract' ends in の, so a noun must follow: 内容を（ないようを）'the contents (object)'. The object needs a verb: 確認した（かくにんした）'checked'. The adverb 十分に（じゅうぶんに）'thoroughly' describes that verb, so it sits between them. The N2 pattern 〜た上で（たうえで）'after doing ~ (properly), then ~' needs a た-form verb in front, so 上で comes right after 確認した. The second action, サインしてください 'please sign', follows the comma. Order: 内容を → 十分に → 確認した → 上で. The ★ is the 1st slot: 内容を.",
+    "choice_notes": [
+      "上で goes in slot 4. 上で follows the た-form and means 'after doing (it properly), then...'. It connects to the next action, サインしてください.",
+      "Correct. 内容を is in slot 1, the ★ position. The fixed text 契約書の ends in の and needs a noun right after it: 契約書の内容 'the contents of the contract'. 内容を is the only noun piece.",
+      "十分に goes in slot 2. 十分に 'thoroughly' is an adverb, so it goes before the verb it describes, 確認した.",
+      "確認した goes in slot 3. 確認した is the past (た) form that 上で requires: 確認した上で."
+    ],
+    "vocab": [
+      {
+        "word": "契約書",
+        "reading": "けいやくしょ",
+        "meaning": "contract (the document)",
+        "pos": "noun",
+        "example": "部屋{へや}を借{か}りる時{とき}、契約書{けいやくしょ}にはんこを押{お}した。",
+        "example_translation": "When I rented the room, I stamped my seal on the contract."
+      },
+      {
+        "word": "内容",
+        "reading": "ないよう",
+        "meaning": "contents, substance",
+        "pos": "noun",
+        "example": "授業{じゅぎょう}の内容{ないよう}が難{むずか}しくて分{わ}からない。",
+        "example_translation": "The content of the class is so difficult that I don't understand it."
+      },
+      {
+        "word": "十分",
+        "reading": "じゅうぶん",
+        "meaning": "enough, sufficient; (十分に) thoroughly, fully",
+        "pos": "na-adjective / adverb",
+        "example": "試験{しけん}の前{まえ}は十分{じゅうぶん}に寝{ね}たほうがいい。",
+        "example_translation": "You should get enough sleep before an exam."
+      },
+      {
+        "word": "サイン",
+        "reading": "サイン",
+        "meaning": "signature; to sign",
+        "pos": "noun / suru verb",
+        "example": "ここにサインをお願{ねが}いします。",
+        "example_translation": "Please sign here."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜た上で",
+        "meaning": "after doing ~ (carefully), then ~; once ~ has been done",
+        "formation": "Verb た-form + 上で; Noun + の + 上で",
+        "example": "家族{かぞく}と相談{そうだん}した上{うえ}で、お返事{へんじ}します。",
+        "example_translation": "I will give you an answer after discussing it with my family."
+      }
+    ]
+  },
+  {
+    "id": "so-013",
+    "section": "sentence_order",
+    "question": "この映画{えいが}は、原作{げんさく}の小説{しょうせつ}を {{1}} {{2}} {{3}} {{4}} かもしれない。",
+    "choices": [
+      "分{わ}かりにくい",
+      "からでないと",
+      "内容{ないよう}が",
+      "読{よ}んで"
+    ],
+    "star": 3,
+    "correct_order": [
+      3,
+      1,
+      2,
+      0
+    ],
+    "answer": 2,
+    "full_sentence": "この映画{えいが}は、原作{げんさく}の小説{しょうせつ}を読{よ}んでからでないと内容{ないよう}が分{わ}かりにくいかもしれない。",
+    "translation": "This movie may be hard to follow unless you read the original novel first.",
+    "explanation": "原作の小説を 'the original novel (object)' ends in を, so it needs a verb: 読んで（よんで）'read' in the て-form. The N2 pattern 〜てからでないと 'unless you first do ~ (something else can't happen)' attaches to a て-form, so からでないと follows directly: 読んでからでないと 'unless you read it first'. This pattern is followed by a negative or difficult result: 内容が分かりにくい 'the content is hard to understand', with 内容が（ないようが）as the subject of 分かりにくい（わかりにくい）. That predicate then connects to the fixed かもしれない 'may'. Order: 読んで → からでないと → 内容が → 分かりにくい. The ★ is the 3rd slot: 内容が.",
+    "choice_notes": [
+      "分かりにくい goes in slot 4. The fixed ending かもしれない 'may' needs a plain predicate before it, and 分かりにくい 'hard to understand' is that predicate.",
+      "からでないと goes in slot 2. からでないと attaches to the て-form: 読んでからでないと 'unless you read it first'.",
+      "Correct. 内容が is in slot 3, the ★ position. 内容が is the subject of 分かりにくい: 内容が分かりにくい 'the content is hard to understand'.",
+      "読んで goes in slot 1. The fixed text 小説を ends in を and needs a verb. 読んで is the て-form that からでないと requires."
+    ],
+    "vocab": [
+      {
+        "word": "原作",
+        "reading": "げんさく",
+        "meaning": "the original work (that a film or drama is based on)",
+        "pos": "noun",
+        "example": "このドラマは原作{げんさく}の漫画{まんが}とかなり違{ちが}う。",
+        "example_translation": "This drama is quite different from the original manga."
+      },
+      {
+        "word": "小説",
+        "reading": "しょうせつ",
+        "meaning": "novel",
+        "pos": "noun",
+        "example": "彼{かれ}の書{か}いた小説{しょうせつ}が映画{えいが}になった。",
+        "example_translation": "The novel he wrote was made into a movie."
+      },
+      {
+        "word": "内容",
+        "reading": "ないよう",
+        "meaning": "contents, substance, what something says",
+        "pos": "noun",
+        "example": "手紙{てがみ}の内容{ないよう}を母{はは}に話{はな}した。",
+        "example_translation": "I told my mother what the letter said."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜てからでないと",
+        "meaning": "unless/until you first do ~ (you can't, or it's hard to, do something else)",
+        "formation": "Verb て-form + からでないと / からでなければ + negative or difficult result",
+        "example": "部長{ぶちょう}に聞{き}いてからでないと、お答{こた}えできません。",
+        "example_translation": "I can't answer until I've asked the department manager."
+      },
+      {
+        "pattern": "〜にくい",
+        "meaning": "hard to ~, difficult to ~",
+        "formation": "Verb ます-stem + にくい",
+        "example": "この靴{くつ}は重{おも}くて歩{ある}きにくい。",
+        "example_translation": "These shoes are heavy and hard to walk in."
+      }
+    ]
+  },
+  {
+    "id": "so-014",
+    "section": "sentence_order",
+    "question": "インターネットの普及{ふきゅう}により、 {{1}} {{2}} {{3}} {{4}} 。",
+    "choices": [
+      "一方{いっぽう}だ",
+      "減{へ}る",
+      "新聞{しんぶん}を読{よ}む",
+      "人{ひと}は"
+    ],
+    "star": 2,
+    "correct_order": [
+      2,
+      3,
+      1,
+      0
+    ],
+    "answer": 3,
+    "full_sentence": "インターネットの普及{ふきゅう}により、新聞{しんぶん}を読{よ}む人{ひと}は減{へ}る一方{いっぽう}だ。",
+    "translation": "With the spread of the internet, the number of people who read newspapers just keeps falling.",
+    "explanation": "The sentence ends right after the slots, so the last piece must be the sentence ending: 一方だ（いっぽうだ）. The N2 pattern 〜一方だ 'keeps ~ing, more and more (a trend moving in one direction)' needs a dictionary-form verb of change in front: 減る（へる）'to decrease'. Who decreases? 人は 'people (topic)'. Which people? 新聞を読む 'who read newspapers' is a describing clause, and in Japanese it always comes before the noun it describes: 新聞を読む人は減る一方だ. Order: 新聞を読む → 人は → 減る → 一方だ. The ★ is the 2nd slot: 人は.",
+    "choice_notes": [
+      "一方だ goes in slot 4. 一方だ ends the sentence (right before 。), completing 減る一方だ 'keeps decreasing'.",
+      "減る goes in slot 3. 減る 'to decrease' is the dictionary-form verb of change that 一方だ attaches to.",
+      "新聞を読む goes in slot 1. 新聞を読む 'read newspapers' is a describing clause. In Japanese a clause that describes a noun comes before it, so it goes right before 人: 新聞を読む人 'people who read newspapers'.",
+      "Correct. 人は is in slot 2, the ★ position. 人は is the topic and subject of 減る: (新聞を読む)人は減る 'people (who read newspapers) decrease'."
+    ],
+    "vocab": [
+      {
+        "word": "普及",
+        "reading": "ふきゅう",
+        "meaning": "spread, becoming widely used; to spread",
+        "pos": "noun / suru verb",
+        "example": "スマートフォンが普及{ふきゅう}して、生活{せいかつ}が便利{べんり}になった。",
+        "example_translation": "Smartphones have spread, and life has become more convenient."
+      },
+      {
+        "word": "減る",
+        "reading": "へる",
+        "meaning": "to decrease, to go down",
+        "pos": "godan verb",
+        "example": "最近{さいきん}、この町{まち}の子{こ}どもの数{かず}が減{へ}っている。",
+        "example_translation": "Recently the number of children in this town has been decreasing."
+      },
+      {
+        "word": "一方",
+        "reading": "いっぽう",
+        "meaning": "one side, one direction; (as a conjunction) on the other hand",
+        "pos": "noun",
+        "example": "兄{あに}は背{せ}が高{たか}い。一方{いっぽう}、弟{おとうと}は小{ちい}さい。",
+        "example_translation": "My older brother is tall. On the other hand, my younger brother is small."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜一方だ",
+        "meaning": "keeps ~ing, more and more (a change continuing in one direction, often a bad one)",
+        "formation": "Verb dictionary form (change verbs such as 増える, 減る, 悪くなる) + 一方だ",
+        "example": "物価{ぶっか}は上{あ}がる一方{いっぽう}だ。",
+        "example_translation": "Prices just keep going up."
+      },
+      {
+        "pattern": "〜により（〜によって）",
+        "meaning": "due to ~, because of ~; by means of ~ (formal)",
+        "formation": "Noun + により / によって",
+        "example": "台風{たいふう}により、電車{でんしゃ}が止{と}まった。",
+        "example_translation": "The trains stopped due to the typhoon."
+      }
+    ]
+  },
+  {
+    "id": "so-015",
+    "section": "sentence_order",
+    "question": "温暖化{おんだんか}の影響{えいきょう}で、 {{1}} {{2}} {{3}} {{4}} と言{い}われている。",
+    "choices": [
+      "北極{ほっきょく}の",
+      "つつある",
+      "溶{と}け",
+      "氷{こおり}が"
+    ],
+    "star": 4,
+    "correct_order": [
+      0,
+      3,
+      2,
+      1
+    ],
+    "answer": 1,
+    "full_sentence": "温暖化{おんだんか}の影響{えいきょう}で、北極{ほっきょく}の氷{こおり}が溶{と}けつつあると言{い}われている。",
+    "translation": "It is said that, due to global warming, the Arctic ice is steadily melting.",
+    "explanation": "The N2 pattern 〜つつある 'is in the process of ~ing, is steadily ~ing' attaches to a verb's ます-stem (the part before ます). 溶け（とけ）is the stem of 溶ける 'to melt' (溶けます), so 溶けつつある. What is melting? 氷が（こおりが）'the ice (subject)'. Which ice? 北極の（ほっきょくの）'of the Arctic', which ends in の and must come right before 氷. The whole clause is then quoted by the fixed と言われている 'it is said that ~'. Order: 北極の → 氷が → 溶け → つつある. The ★ is the 4th slot: つつある.",
+    "choice_notes": [
+      "北極の goes in slot 1. 北極の ends in の, so it must come directly before a noun: 北極の氷 'the Arctic ice'.",
+      "Correct. つつある is in slot 4, the ★ position. つつある completes 溶けつつある 'is steadily melting', which the fixed と言われている then quotes.",
+      "溶け goes in slot 3. 溶け is the ます-stem of 溶ける (溶けます), and つつある attaches to the ます-stem.",
+      "氷が goes in slot 2. 氷が is the subject of the verb 溶ける: 氷が溶ける 'the ice melts'."
+    ],
+    "vocab": [
+      {
+        "word": "温暖化",
+        "reading": "おんだんか",
+        "meaning": "(global) warming",
+        "pos": "noun",
+        "example": "温暖化{おんだんか}のせいで、夏{なつ}が暑{あつ}くなっている。",
+        "example_translation": "Because of global warming, summers are getting hotter."
+      },
+      {
+        "word": "影響",
+        "reading": "えいきょう",
+        "meaning": "influence, effect, impact",
+        "pos": "noun / suru verb",
+        "example": "台風{たいふう}の影響{えいきょう}で、飛行機{ひこうき}が遅{おく}れた。",
+        "example_translation": "The flight was delayed because of the typhoon."
+      },
+      {
+        "word": "北極",
+        "reading": "ほっきょく",
+        "meaning": "the North Pole, the Arctic",
+        "pos": "noun",
+        "example": "北極{ほっきょく}にはホッキョクグマが住{す}んでいる。",
+        "example_translation": "Polar bears live in the Arctic."
+      },
+      {
+        "word": "氷",
+        "reading": "こおり",
+        "meaning": "ice",
+        "pos": "noun",
+        "example": "ジュースに氷{こおり}を入{い}れた。",
+        "example_translation": "I put ice in the juice."
+      },
+      {
+        "word": "溶ける",
+        "reading": "とける",
+        "meaning": "to melt, to dissolve",
+        "pos": "ichidan verb",
+        "example": "暖{あたた}かくなって、雪{ゆき}が溶{と}けた。",
+        "example_translation": "It got warmer and the snow melted."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜つつある",
+        "meaning": "is in the process of ~, is gradually ~ing (a change in progress; written style)",
+        "formation": "Verb ます-stem + つつある",
+        "example": "日本{にほん}の人口{じんこう}は減{へ}りつつある。",
+        "example_translation": "Japan's population is gradually decreasing."
+      },
+      {
+        "pattern": "〜と言われている",
+        "meaning": "it is said that ~, people say that ~",
+        "formation": "Plain form + と言われている",
+        "example": "緑茶{りょくちゃ}は体{からだ}にいいと言{い}われている。",
+        "example_translation": "Green tea is said to be good for your health."
+      }
+    ]
+  },
+  {
+    "id": "so-016",
+    "section": "sentence_order",
+    "question": "今回{こんかい}見{み}つかった問題{もんだい}は、 {{1}} {{2}} {{3}} {{4}} と専門家{せんもんか}は言{い}う。",
+    "choices": [
+      "全体{ぜんたい}の",
+      "一部{いちぶ}",
+      "にすぎない",
+      "ほんの"
+    ],
+    "star": 1,
+    "correct_order": [
+      0,
+      3,
+      1,
+      2
+    ],
+    "answer": 0,
+    "full_sentence": "今回{こんかい}見{み}つかった問題{もんだい}は、全体{ぜんたい}のほんの一部{いちぶ}にすぎないと専門家{せんもんか}は言{い}う。",
+    "translation": "Experts say the problems found this time are only a tiny part of the whole.",
+    "explanation": "The N2 pattern 〜にすぎない 'is merely ~, is nothing more than ~' attaches to a noun, and it ends the quoted statement before と専門家は言う 'the experts say'. The noun is 一部（いちぶ）'a part': 一部にすぎない. ほんの 'just, a mere' is a pre-noun word that must stand immediately before a word for a small amount, so ほんの一部 'just a tiny part'. 全体の（ぜんたいの）'of the whole' tells what it is a part of. It cannot go between ほんの and 一部, so it comes first: 全体のほんの一部にすぎない. Order: 全体の → ほんの → 一部 → にすぎない. The ★ is the 1st slot: 全体の.",
+    "choice_notes": [
+      "Correct. 全体の is in slot 1, the ★ position. 全体の 'of the whole' ends in の and describes 一部. It cannot stand between ほんの and 一部, so it must come first: 全体のほんの一部.",
+      "一部 goes in slot 3. 一部 'a part' is the noun that にすぎない attaches to.",
+      "にすぎない goes in slot 4. にすぎない completes 一部にすぎない 'is only a part', and the fixed と専門家は言う quotes it.",
+      "ほんの goes in slot 2. ほんの 'just, a mere' is a pre-noun word that must sit directly in front of a word for a small amount: ほんの一部 'just a small part'."
+    ],
+    "vocab": [
+      {
+        "word": "今回",
+        "reading": "こんかい",
+        "meaning": "this time, on this occasion",
+        "pos": "noun",
+        "example": "今回{こんかい}の旅行{りょこう}はとても楽{たの}しかった。",
+        "example_translation": "This trip was very enjoyable."
+      },
+      {
+        "word": "全体",
+        "reading": "ぜんたい",
+        "meaning": "the whole, entirety",
+        "pos": "noun",
+        "example": "クラス全体{ぜんたい}で文化祭{ぶんかさい}の準備{じゅんび}をした。",
+        "example_translation": "The whole class prepared for the school festival."
+      },
+      {
+        "word": "ほんの",
+        "reading": "ほんの",
+        "meaning": "just, mere, only (a little)",
+        "pos": "pre-noun adjectival",
+        "example": "ほんの少{すこ}しですが、どうぞ召{め}し上{あ}がってください。",
+        "example_translation": "It's just a little something, but please help yourself."
+      },
+      {
+        "word": "一部",
+        "reading": "いちぶ",
+        "meaning": "a part, a portion, some",
+        "pos": "noun",
+        "example": "一部{いちぶ}の店{みせ}は日曜日{にちようび}も開{あ}いている。",
+        "example_translation": "Some of the shops are open on Sundays too."
+      },
+      {
+        "word": "専門家",
+        "reading": "せんもんか",
+        "meaning": "expert, specialist",
+        "pos": "noun",
+        "example": "専門家{せんもんか}に意見{いけん}を聞{き}いた。",
+        "example_translation": "We asked an expert for their opinion."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜にすぎない",
+        "meaning": "is merely ~, is nothing more than ~ (stresses that something is small or unimportant)",
+        "formation": "Noun / plain form + にすぎない",
+        "example": "これは私{わたし}の想像{そうぞう}にすぎない。",
+        "example_translation": "This is merely my imagination."
+      }
+    ]
+  },
+  {
+    "id": "so-017",
+    "section": "sentence_order",
+    "question": "この公園{こうえん}は、 {{1}} {{2}} {{3}} {{4}} 人気{にんき}がある。",
+    "choices": [
+      "も",
+      "に限{かぎ}らず",
+      "地元{じもと}の人{ひと}",
+      "観光客{かんこうきゃく}に"
+    ],
+    "star": 3,
+    "correct_order": [
+      2,
+      1,
+      3,
+      0
+    ],
+    "answer": 3,
+    "full_sentence": "この公園{こうえん}は、地元{じもと}の人{ひと}に限{かぎ}らず観光客{かんこうきゃく}にも人気{にんき}がある。",
+    "translation": "This park is popular not only with local people but also with tourists.",
+    "explanation": "The N2 pattern 〜に限らず（にかぎらず）'not only ~, not limited to ~' attaches to a noun and is followed by a wider group marked with も. 地元の人（じもとのひと）'local people' has no particle, so it is the noun that comes before に限らず: 地元の人に限らず. 観光客に（かんこうきゃくに）'with tourists' already carries に, which belongs to the expression 〜に人気がある 'to be popular with ~'. も 'also' attaches after it: 観光客にも. The fixed text 人気がある then completes the sentence. Order: 地元の人 → に限らず → 観光客に → も. The ★ is the 3rd slot: 観光客に.",
+    "choice_notes": [
+      "も goes in slot 4. も 'also' attaches after 観光客に (観光客にも 'with tourists too') and connects to the fixed 人気がある. A も in the second half is typical with に限らず.",
+      "に限らず goes in slot 2. に限らず attaches directly to a noun: 地元の人に限らず 'not only local people'.",
+      "地元の人 goes in slot 1. 地元の人 'local people' has no particle after it, so it must be the noun directly before に限らず.",
+      "Correct. 観光客に is in slot 3, the ★ position. 観光客に already carries に, which belongs to the expression 〜に人気がある 'popular with ~'. It names the wider, second group."
+    ],
+    "vocab": [
+      {
+        "word": "地元",
+        "reading": "じもと",
+        "meaning": "local area, one's home town",
+        "pos": "noun",
+        "example": "地元{じもと}の野菜{やさい}を使{つか}った料理{りょうり}が人気{にんき}だ。",
+        "example_translation": "Dishes made with local vegetables are popular."
+      },
+      {
+        "word": "観光客",
+        "reading": "かんこうきゃく",
+        "meaning": "tourist",
+        "pos": "noun",
+        "example": "京都{きょうと}には一年中{いちねんじゅう}観光客{かんこうきゃく}が来{く}る。",
+        "example_translation": "Tourists come to Kyoto all year round."
+      },
+      {
+        "word": "人気",
+        "reading": "にんき",
+        "meaning": "popularity",
+        "pos": "noun",
+        "example": "この歌手{かしゅ}は若者{わかもの}に人気{にんき}がある。",
+        "example_translation": "This singer is popular with young people."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜に限らず",
+        "meaning": "not only ~ (but also ...), not limited to ~",
+        "formation": "Noun + に限らず + (wider group) + も",
+        "example": "この店{みせ}は週末{しゅうまつ}に限{かぎ}らず、平日{へいじつ}も混{こ}んでいる。",
+        "example_translation": "This shop is crowded not only on weekends but on weekdays too."
+      }
+    ]
+  },
+  {
+    "id": "so-018",
+    "section": "sentence_order",
+    "question": "この仕事{しごと}は、 {{1}} {{2}} {{3}} {{4}} できます。",
+    "choices": [
+      "有無{うむ}",
+      "応募{おうぼ}",
+      "を問{と}わず",
+      "経験{けいけん}の"
+    ],
+    "star": 2,
+    "correct_order": [
+      3,
+      0,
+      2,
+      1
+    ],
+    "answer": 0,
+    "full_sentence": "この仕事{しごと}は、経験{けいけん}の有無{うむ}を問{と}わず応募{おうぼ}できます。",
+    "translation": "For this job, you can apply regardless of whether you have experience.",
+    "explanation": "The fixed ending できます 'can do' attaches to a する-noun to mean 'can ~': 応募できます（おうぼできます）'can apply', so 応募 takes the last slot. The N2 pattern 〜を問わず（をとわず）'regardless of ~' attaches to a noun, very often a noun that contains two opposites, such as 男女 'men and women' or 有無 'having or not having'. So: 有無を問わず 'regardless of whether or not'. 経験の（けいけんの）'of experience' ends in の, so it must come right before 有無（うむ）: 経験の有無を問わず 'regardless of whether you have experience'. Order: 経験の → 有無 → を問わず → 応募. The ★ is the 2nd slot: 有無.",
+    "choice_notes": [
+      "Correct. 有無 is in slot 2, the ★ position. 有無 'presence or absence' is the noun that を問わず attaches to.",
+      "応募 goes in slot 4. 応募 'application' is a する-noun, and it joins with the fixed できます to make 応募できます 'can apply'.",
+      "を問わず goes in slot 3. を問わず attaches to a noun: 有無を問わず 'regardless of whether or not'.",
+      "経験の goes in slot 1. 経験の ends in の, so it must come directly before a noun: 経験の有無 'whether or not one has experience'."
+    ],
+    "vocab": [
+      {
+        "word": "経験",
+        "reading": "けいけん",
+        "meaning": "experience; to experience",
+        "pos": "noun / suru verb",
+        "example": "海外{かいがい}で働{はたら}いた経験{けいけん}がある。",
+        "example_translation": "I have experience working abroad."
+      },
+      {
+        "word": "有無",
+        "reading": "うむ",
+        "meaning": "presence or absence, whether or not (there is)",
+        "pos": "noun",
+        "example": "参加{さんか}の有無{うむ}を金曜日{きんようび}までに教{おし}えてください。",
+        "example_translation": "Please let us know by Friday whether or not you will participate."
+      },
+      {
+        "word": "応募",
+        "reading": "おうぼ",
+        "meaning": "application (for a job, contest, etc.); to apply, to enter",
+        "pos": "noun / suru verb",
+        "example": "写真{しゃしん}コンテストに応募{おうぼ}した。",
+        "example_translation": "I entered a photo contest."
+      },
+      {
+        "word": "問う",
+        "reading": "とう",
+        "meaning": "to ask, to question; to take into account",
+        "pos": "godan verb",
+        "example": "国民{こくみん}に意見{いけん}を問{と}う。",
+        "example_translation": "To ask the people for their opinion."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜を問わず",
+        "meaning": "regardless of ~, without distinction of ~",
+        "formation": "Noun + を問わず (often with paired or opposite nouns: 男女, 昼夜, 有無, 年齢)",
+        "example": "このイベントは年齢{ねんれい}を問{と}わず、誰{だれ}でも参加{さんか}できる。",
+        "example_translation": "Anyone can join this event, regardless of age."
+      }
+    ]
+  },
+  {
+    "id": "so-019",
+    "section": "sentence_order",
+    "question": "作業{さぎょう}は、マニュアルに {{1}} {{2}} {{3}} {{4}} ください。",
+    "choices": [
+      "手順{てじゅん}",
+      "書{か}かれた",
+      "に沿{そ}って",
+      "進{すす}めて"
+    ],
+    "star": 4,
+    "correct_order": [
+      1,
+      0,
+      2,
+      3
+    ],
+    "answer": 3,
+    "full_sentence": "作業{さぎょう}は、マニュアルに書{か}かれた手順{てじゅん}に沿{そ}って進{すす}めてください。",
+    "translation": "Please carry out the work following the procedure written in the manual.",
+    "explanation": "The fixed ending ください needs a て-form verb in front of it: 進めて（すすめて）'proceed with'. The fixed text マニュアルに 'in the manual' needs a verb too, and 書かれた（かかれた）'(was) written' fits: マニュアルに書かれた. A plain-form verb in front of a noun makes a describing clause, so 書かれた describes 手順（てじゅん）'procedure': マニュアルに書かれた手順 'the procedure written in the manual'. The N2 pattern 〜に沿って（にそって）'following ~, in line with ~' attaches to that noun: 手順に沿って進めてください. Order: 書かれた → 手順 → に沿って → 進めて. The ★ is the 4th slot: 進めて.",
+    "choice_notes": [
+      "手順 goes in slot 2. 手順 'procedure' is the noun described by マニュアルに書かれた, and it is what に沿って attaches to.",
+      "書かれた goes in slot 1. The fixed text マニュアルに 'in the manual' needs a verb, and マニュアルに書かれた 'written in the manual' is the only one that fits.",
+      "に沿って goes in slot 3. に沿って attaches to a noun: 手順に沿って 'following the procedure'.",
+      "Correct. 進めて is in slot 4, the ★ position. The fixed ending ください needs a て-form verb right before it: 進めてください 'please proceed'."
+    ],
+    "vocab": [
+      {
+        "word": "作業",
+        "reading": "さぎょう",
+        "meaning": "work, task, operation",
+        "pos": "noun / suru verb",
+        "example": "この作業{さぎょう}は二時間{にじかん}ぐらいかかる。",
+        "example_translation": "This task takes about two hours."
+      },
+      {
+        "word": "マニュアル",
+        "reading": "マニュアル",
+        "meaning": "manual, instruction book",
+        "pos": "noun",
+        "example": "新{あたら}しい機械{きかい}のマニュアルを読{よ}んだ。",
+        "example_translation": "I read the manual for the new machine."
+      },
+      {
+        "word": "手順",
+        "reading": "てじゅん",
+        "meaning": "procedure, steps, process",
+        "pos": "noun",
+        "example": "料理{りょうり}の手順{てじゅん}を紙{かみ}に書{か}いておいた。",
+        "example_translation": "I wrote the cooking steps down on paper."
+      },
+      {
+        "word": "進める",
+        "reading": "すすめる",
+        "meaning": "to advance, to proceed with, to move forward",
+        "pos": "ichidan verb",
+        "example": "会議{かいぎ}を予定{よてい}どおりに進{すす}めた。",
+        "example_translation": "We ran the meeting as planned."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜に沿って",
+        "meaning": "along ~, following ~, in line with ~ (a plan, rules, wishes, or a road or river)",
+        "formation": "Noun + に沿って; Noun + に沿った + Noun",
+        "example": "川{かわ}に沿{そ}って桜{さくら}の木{き}が並{なら}んでいる。",
+        "example_translation": "Cherry trees are lined up along the river."
+      }
+    ]
+  },
+  {
+    "id": "so-020",
+    "section": "sentence_order",
+    "question": "この小説{しょうせつ}は、作者{さくしゃ}の {{1}} {{2}} {{3}} {{4}} そうだ。",
+    "choices": [
+      "体験{たいけん}",
+      "をもとに",
+      "子{こ}どものころの",
+      "書{か}かれた"
+    ],
+    "star": 1,
+    "correct_order": [
+      2,
+      0,
+      1,
+      3
+    ],
+    "answer": 2,
+    "full_sentence": "この小説{しょうせつ}は、作者{さくしゃ}の子{こ}どものころの体験{たいけん}をもとに書{か}かれたそうだ。",
+    "translation": "I hear this novel was written based on the author's own childhood experiences.",
+    "explanation": "The fixed ending そうだ 'I hear that ~' follows a plain-form predicate, and the only predicate is 書かれた（かかれた）'was written', so it takes the last slot. The N2 pattern 〜をもとに 'based on ~, using ~ as the source' attaches to a noun and then modifies a verb such as 書く or 作る. The noun is 体験（たいけん）'experience': 体験をもとに書かれた 'was written based on the experiences'. Whose experiences, and from when? 作者の子どものころの体験 'the author's childhood experiences'. 子どものころの ends in の, so it must stand directly before 体験. Order: 子どものころの → 体験 → をもとに → 書かれた. The ★ is the 1st slot: 子どものころの.",
+    "choice_notes": [
+      "体験 goes in slot 2. 体験 'experience' is the noun that をもとに attaches to, so it comes right before it.",
+      "をもとに goes in slot 3. をもとに attaches to a noun: 体験をもとに 'based on the experiences'. It then modifies a verb of making, here 書かれた.",
+      "Correct. 子どものころの is in slot 1, the ★ position. The fixed text 作者の needs a noun. 子どものころの 'of childhood' ends in の and describes 体験, so it goes between 作者の and 体験.",
+      "書かれた goes in slot 4. 書かれた 'was written' is the main verb, and the fixed そうだ 'I hear' needs a plain-form predicate before it."
+    ],
+    "vocab": [
+      {
+        "word": "作者",
+        "reading": "さくしゃ",
+        "meaning": "author, creator (of a work)",
+        "pos": "noun",
+        "example": "この絵{え}の作者{さくしゃ}は分{わ}かっていない。",
+        "example_translation": "The creator of this painting is unknown."
+      },
+      {
+        "word": "体験",
+        "reading": "たいけん",
+        "meaning": "(personal) experience; to experience",
+        "pos": "noun / suru verb",
+        "example": "農業{のうぎょう}を体験{たいけん}するツアーに参加{さんか}した。",
+        "example_translation": "I joined a tour where you get to try farming."
+      },
+      {
+        "word": "ころ",
+        "reading": "ころ",
+        "meaning": "(around) the time when, period",
+        "pos": "noun",
+        "example": "子{こ}どものころ、よくこの川{かわ}で遊{あそ}んだ。",
+        "example_translation": "When I was a child, I often played in this river."
+      },
+      {
+        "word": "小説",
+        "reading": "しょうせつ",
+        "meaning": "novel",
+        "pos": "noun",
+        "example": "寝{ね}る前{まえ}に小説{しょうせつ}を読{よ}むのが好{す}きだ。",
+        "example_translation": "I like reading novels before going to bed."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜をもとに",
+        "meaning": "based on ~, using ~ as a source or model",
+        "formation": "Noun + をもとに(して) + verb (書く, 作る, 決める); Noun + をもとにした + Noun",
+        "example": "アンケートの結果{けっか}をもとに、新{あたら}しい商品{しょうひん}を作{つく}った。",
+        "example_translation": "We made a new product based on the survey results."
+      },
+      {
+        "pattern": "〜そうだ (hearsay)",
+        "meaning": "I hear that ~, they say that ~",
+        "formation": "Plain form + そうだ",
+        "example": "天気予報{てんきよほう}によると、明日{あした}は雪{ゆき}が降{ふ}るそうだ。",
+        "example_translation": "According to the forecast, it will snow tomorrow."
+      }
+    ]
+  },
+  {
+    "id": "so-021",
+    "section": "sentence_order",
+    "question": "{{1}} {{2}} {{3}} {{4}} 、そのチームは一回戦{いっかいせん}で負{ま}けてしまった。",
+    "choices": [
+      "優勝{ゆうしょう}する",
+      "という",
+      "予想{よそう}に反{はん}して",
+      "だろう"
+    ],
+    "star": 3,
+    "correct_order": [
+      0,
+      3,
+      1,
+      2
+    ],
+    "answer": 1,
+    "full_sentence": "優勝{ゆうしょう}するだろうという予想{よそう}に反{はん}して、そのチームは一回戦{いっかいせん}で負{ま}けてしまった。",
+    "translation": "Contrary to the prediction that they would win the championship, that team lost in the first round.",
+    "explanation": "The N2 pattern 〜に反して（にはんして）'contrary to ~' attaches to nouns such as 予想 'prediction' or 期待 'expectation', and here it comes right before the comma. What was the prediction? To give the content of a noun like 予想, Japanese uses という: [content] + という + 予想 'the prediction that ~'. The content is 優勝するだろう（ゆうしょうするだろう）'(they) will probably win the championship', with だろう after the dictionary-form verb. So: 優勝する → だろう → という → 予想に反して, followed by the surprising result 一回戦で負けてしまった 'lost in the first round'. Order: 優勝する → だろう → という → 予想に反して. The ★ is the 3rd slot: という.",
+    "choice_notes": [
+      "優勝する goes in slot 1. 優勝する 'win the championship' is the content of the prediction. It must come before だろう, which follows a plain verb.",
+      "Correct. という is in slot 3, the ★ position. という connects a statement to a noun that names its content: 〜だろうという予想 'the prediction that ~'.",
+      "予想に反して goes in slot 4. 予想に反して contains the noun 予想 that という describes, plus に反して 'contrary to'. It comes just before the comma.",
+      "だろう goes in slot 2. だろう 'probably will' follows the dictionary form: 優勝するだろう 'they will probably win'."
+    ],
+    "vocab": [
+      {
+        "word": "優勝",
+        "reading": "ゆうしょう",
+        "meaning": "championship, overall victory; to win the title",
+        "pos": "noun / suru verb",
+        "example": "私{わたし}たちの学校{がっこう}が大会{たいかい}で優勝{ゆうしょう}した。",
+        "example_translation": "Our school won the tournament."
+      },
+      {
+        "word": "予想",
+        "reading": "よそう",
+        "meaning": "prediction, expectation; to predict",
+        "pos": "noun / suru verb",
+        "example": "テストは予想{よそう}より簡単{かんたん}だった。",
+        "example_translation": "The test was easier than I expected."
+      },
+      {
+        "word": "一回戦",
+        "reading": "いっかいせん",
+        "meaning": "first round (of a tournament)",
+        "pos": "noun",
+        "example": "一回戦{いっかいせん}で強{つよ}いチームと当{あ}たった。",
+        "example_translation": "In the first round, we were matched against a strong team."
+      },
+      {
+        "word": "負ける",
+        "reading": "まける",
+        "meaning": "to lose (a game or fight)",
+        "pos": "ichidan verb",
+        "example": "昨日{きのう}の試合{しあい}は三対一{さんたいいち}で負{ま}けた。",
+        "example_translation": "We lost yesterday's game 3 to 1."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜に反して",
+        "meaning": "contrary to ~ (expectations, wishes, predictions)",
+        "formation": "Noun (予想, 期待, 意志) + に反して; Noun + に反した + Noun",
+        "example": "親{おや}の期待{きたい}に反{はん}して、彼{かれ}は大学{だいがく}に行{い}かなかった。",
+        "example_translation": "Contrary to his parents' expectations, he didn't go to university."
+      },
+      {
+        "pattern": "〜という + Noun",
+        "meaning": "the (noun) that ~ (gives the content of a noun such as 話, 予想, ニュース)",
+        "formation": "Plain form + という + Noun",
+        "example": "彼{かれ}が結婚{けっこん}するという話{はなし}を聞{き}いた。",
+        "example_translation": "I heard (the news) that he is getting married."
+      }
+    ]
+  },
+  {
+    "id": "so-022",
+    "section": "sentence_order",
+    "question": "友達{ともだち}に引{ひ}っ越{こ}しを {{1}} {{2}} {{3}} {{4}} ことにした。",
+    "choices": [
+      "かわりに",
+      "手伝{てつだ}って",
+      "もらう",
+      "晩{ばん}ご飯{はん}をおごる"
+    ],
+    "star": 2,
+    "correct_order": [
+      1,
+      2,
+      0,
+      3
+    ],
+    "answer": 2,
+    "full_sentence": "友達{ともだち}に引{ひ}っ越{こ}しを手伝{てつだ}ってもらうかわりに晩{ばん}ご飯{はん}をおごることにした。",
+    "translation": "I decided to treat my friend to dinner in exchange for having them help me move.",
+    "explanation": "引っ越しを（ひっこしを）'the move (object)' needs a verb: 手伝って（てつだって）'help'. Because the friend is doing me a favor, 〜てもらう 'have someone do (for me)' is used: 友達に引っ越しを手伝ってもらう. The pattern 〜かわりに here means 'in exchange for ~' and attaches to a plain-form verb, so it comes next. After it comes what I give back: 晩ご飯をおごる（ばんごはんをおごる）'treat (them) to dinner'. The fixed ことにした 'decided to' needs a dictionary-form verb in front, and おごる fits. Order: 手伝って → もらう → かわりに → 晩ご飯をおごる. The ★ is the 2nd slot: もらう.",
+    "choice_notes": [
+      "かわりに goes in slot 3. かわりに attaches to a plain-form verb: 手伝ってもらうかわりに 'in exchange for being helped'.",
+      "手伝って goes in slot 1. The fixed text 引っ越しを ends in を and needs a verb: 引っ越しを手伝う 'help with a move'. 手伝って is the て-form that joins with もらう.",
+      "Correct. もらう is in slot 2, the ★ position. もらう follows the て-form: 手伝ってもらう 'have (my friend) help me'. 友達に marks the person doing the favor.",
+      "晩ご飯をおごる goes in slot 4. 晩ご飯をおごる 'treat (them) to dinner' is what I do in return. The fixed ことにした 'decided to' needs a dictionary-form verb right before it."
+    ],
+    "vocab": [
+      {
+        "word": "引っ越し",
+        "reading": "ひっこし",
+        "meaning": "moving (house)",
+        "pos": "noun / suru verb",
+        "example": "来月{らいげつ}、引{ひ}っ越{こ}しをする予定{よてい}だ。",
+        "example_translation": "I plan to move next month."
+      },
+      {
+        "word": "手伝う",
+        "reading": "てつだう",
+        "meaning": "to help, to assist",
+        "pos": "godan verb",
+        "example": "母{はは}の料理{りょうり}を手伝{てつだ}った。",
+        "example_translation": "I helped my mother with the cooking."
+      },
+      {
+        "word": "晩ご飯",
+        "reading": "ばんごはん",
+        "meaning": "dinner, supper",
+        "pos": "noun",
+        "example": "今日{きょう}の晩{ばん}ご飯{はん}はカレーだ。",
+        "example_translation": "Tonight's dinner is curry."
+      },
+      {
+        "word": "おごる",
+        "reading": "おごる",
+        "meaning": "to treat (someone to food or drink), to pay for others",
+        "pos": "godan verb",
+        "example": "給料日{きゅうりょうび}だから、今日{きょう}は私{わたし}がおごるよ。",
+        "example_translation": "It's payday, so today it's my treat."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜かわりに",
+        "meaning": "in exchange for ~; instead of ~",
+        "formation": "Verb plain form + かわりに; Noun + の + かわりに",
+        "example": "英語{えいご}を教{おし}えるかわりに、日本語{にほんご}を教{おし}えてもらった。",
+        "example_translation": "In exchange for teaching English, I was taught Japanese."
+      },
+      {
+        "pattern": "〜てもらう",
+        "meaning": "to have someone do ~ (for you), to receive the favor of ~",
+        "formation": "Verb て-form + もらう (the person doing it is marked with に)",
+        "example": "兄{あに}に自転車{じてんしゃ}を直{なお}してもらった。",
+        "example_translation": "I had my older brother fix my bicycle."
+      },
+      {
+        "pattern": "〜ことにする",
+        "meaning": "to decide to ~",
+        "formation": "Verb dictionary form / ない-form + ことにする",
+        "example": "健康{けんこう}のために、たばこをやめることにした。",
+        "example_translation": "I decided to quit smoking for my health."
+      }
+    ]
+  },
+  {
+    "id": "so-023",
+    "section": "sentence_order",
+    "question": "この計画{けいかく}は、 {{1}} {{2}} {{3}} {{4}} と考{かんが}えています。",
+    "choices": [
+      "実現{じつげん}できない",
+      "抜{ぬ}きには",
+      "協力{きょうりょく}",
+      "地域{ちいき}の皆{みな}さんの"
+    ],
+    "star": 4,
+    "correct_order": [
+      3,
+      2,
+      1,
+      0
+    ],
+    "answer": 0,
+    "full_sentence": "この計画{けいかく}は、地域{ちいき}の皆{みな}さんの協力{きょうりょく}抜{ぬ}きには実現{じつげん}できないと考{かんが}えています。",
+    "translation": "We believe this plan cannot be realized without the cooperation of everyone in the community.",
+    "explanation": "The N2 pattern 〜抜きには（ぬきには）'without ~ (something can't be done)' attaches directly to a noun and is followed by a negative or impossible result. The noun is 協力（きょうりょく）'cooperation': 協力抜きには. Whose cooperation? 地域の皆さんの（ちいきのみなさんの）'of everyone in the community' ends in の, so it goes right before 協力. The negative result 実現できない（じつげんできない）'cannot be realized' comes after 抜きには, and the fixed と考えています 'we think that ~' quotes the whole idea. Order: 地域の皆さんの → 協力 → 抜きには → 実現できない. The ★ is the 4th slot: 実現できない.",
+    "choice_notes": [
+      "Correct. 実現できない is in slot 4, the ★ position. 抜きには is followed by a negative result, 実現できない 'cannot be realized'. The fixed と考えています then quotes the whole idea.",
+      "抜きには goes in slot 3. 抜きには attaches directly to a noun, with no particle in between: 協力抜きには 'without the cooperation'.",
+      "協力 goes in slot 2. 協力 'cooperation' is the noun that 抜きには attaches to.",
+      "地域の皆さんの goes in slot 1. 地域の皆さんの ends in の, so it must come directly before a noun: 皆さんの協力 'everyone's cooperation'."
+    ],
+    "vocab": [
+      {
+        "word": "計画",
+        "reading": "けいかく",
+        "meaning": "plan; to plan",
+        "pos": "noun / suru verb",
+        "example": "夏休{なつやす}みの計画{けいかく}を立{た}てた。",
+        "example_translation": "I made plans for the summer vacation."
+      },
+      {
+        "word": "地域",
+        "reading": "ちいき",
+        "meaning": "region, area, local community",
+        "pos": "noun",
+        "example": "この地域{ちいき}は冬{ふゆ}に雪{ゆき}が多{おお}い。",
+        "example_translation": "This area gets a lot of snow in winter."
+      },
+      {
+        "word": "協力",
+        "reading": "きょうりょく",
+        "meaning": "cooperation; to cooperate",
+        "pos": "noun / suru verb",
+        "example": "みんなで協力{きょうりょく}して教室{きょうしつ}を掃除{そうじ}した。",
+        "example_translation": "We all worked together to clean the classroom."
+      },
+      {
+        "word": "実現",
+        "reading": "じつげん",
+        "meaning": "realization, coming true; to realize, to make happen",
+        "pos": "noun / suru verb",
+        "example": "長年{ながねん}の夢{ゆめ}がやっと実現{じつげん}した。",
+        "example_translation": "My long-held dream finally came true."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜抜きには / 〜抜きで",
+        "meaning": "without ~ (抜きには + negative: 'can't do without ~'; 抜きで: 'leaving out ~')",
+        "formation": "Noun + 抜きには + negative; Noun + 抜きで / 抜きの + Noun",
+        "example": "朝{あさ}ご飯{はん}抜{ぬ}きで学校{がっこう}に行{い}った。",
+        "example_translation": "I went to school without (eating) breakfast."
+      }
+    ]
+  },
+  {
+    "id": "so-024",
+    "section": "sentence_order",
+    "question": "薬{くすり}を飲{の}んだのに、 {{1}} {{2}} {{3}} {{4}} 。",
+    "choices": [
+      "どころか",
+      "熱{ねつ}が",
+      "かえって上{あ}がってしまった",
+      "下{さ}がる"
+    ],
+    "star": 1,
+    "correct_order": [
+      1,
+      3,
+      0,
+      2
+    ],
+    "answer": 1,
+    "full_sentence": "薬{くすり}を飲{の}んだのに、熱{ねつ}が下{さ}がるどころかかえって上{あ}がってしまった。",
+    "translation": "Even though I took medicine, far from going down, my fever actually went up.",
+    "explanation": "The N2 pattern 〜どころか 'far from ~ (the reality is the opposite)' attaches to a plain-form verb and is followed by a result in the opposite direction. The verb in front of it is 下がる（さがる）'to go down', whose subject is 熱が（ねつが）'the fever': 熱が下がるどころか 'far from the fever going down'. The opposite result, かえって上がってしまった（かえってあがってしまった）'it actually went up', comes last and ends the sentence. かえって 'on the contrary' is a word that often appears after どころか. Order: 熱が → 下がる → どころか → かえって上がってしまった. The ★ is the 1st slot: 熱が.",
+    "choice_notes": [
+      "どころか goes in slot 3. どころか follows the plain form: 下がるどころか 'far from going down'.",
+      "Correct. 熱が is in slot 1, the ★ position. 熱が 'the fever' is the subject of 下がる, so it starts the clause.",
+      "かえって上がってしまった goes in slot 4. After どころか comes the opposite result. かえって上がってしまった 'it actually went up' ends the sentence.",
+      "下がる goes in slot 2. 下がる 'go down' is the plain-form verb that どころか attaches to."
+    ],
+    "vocab": [
+      {
+        "word": "熱",
+        "reading": "ねつ",
+        "meaning": "fever; heat",
+        "pos": "noun",
+        "example": "風邪{かぜ}をひいて、熱{ねつ}が三十八度{さんじゅうはちど}ある。",
+        "example_translation": "I caught a cold and have a fever of 38 degrees."
+      },
+      {
+        "word": "下がる",
+        "reading": "さがる",
+        "meaning": "to go down, to fall, to drop",
+        "pos": "godan verb",
+        "example": "夜{よる}になって気温{きおん}が下{さ}がった。",
+        "example_translation": "The temperature dropped at night."
+      },
+      {
+        "word": "かえって",
+        "reading": "かえって",
+        "meaning": "on the contrary, rather (the opposite of what you expected)",
+        "pos": "adverb",
+        "example": "タクシーに乗{の}ったら、渋滞{じゅうたい}でかえって遅{おそ}くなった。",
+        "example_translation": "I took a taxi, but because of the traffic jam it actually took longer."
+      },
+      {
+        "word": "上がる",
+        "reading": "あがる",
+        "meaning": "to go up, to rise",
+        "pos": "godan verb",
+        "example": "来月{らいげつ}から電車{でんしゃ}の料金{りょうきん}が上{あ}がる。",
+        "example_translation": "Train fares will go up from next month."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜どころか",
+        "meaning": "far from ~, let alone ~ (the reality is the opposite, or much more extreme)",
+        "formation": "Plain form / Noun (な-adj stem or + な) + どころか",
+        "example": "雨{あめ}はやむどころか、ますます強{つよ}くなった。",
+        "example_translation": "Far from stopping, the rain got even heavier."
+      },
+      {
+        "pattern": "〜のに",
+        "meaning": "even though ~ (with surprise or dissatisfaction)",
+        "formation": "Plain form (な-adj / noun + な) + のに",
+        "example": "一生懸命{いっしょうけんめい}勉強{べんきょう}したのに、試験{しけん}に落{お}ちた。",
+        "example_translation": "Even though I studied hard, I failed the exam."
+      }
+    ]
+  },
+  {
+    "id": "so-025",
+    "section": "sentence_order",
+    "question": "この町{まち}は川沿{かわぞ}いに {{1}} {{2}} {{3}} {{4}} 「桜{さくら}の町{まち}」と呼{よ}ばれている。",
+    "choices": [
+      "木{き}が",
+      "ことから",
+      "多{おお}い",
+      "桜{さくら}の"
+    ],
+    "star": 3,
+    "correct_order": [
+      3,
+      0,
+      2,
+      1
+    ],
+    "answer": 2,
+    "full_sentence": "この町{まち}は川沿{かわぞ}いに桜{さくら}の木{き}が多{おお}いことから「桜{さくら}の町{まち}」と呼{よ}ばれている。",
+    "translation": "This town is called 'the Town of Cherry Blossoms' because there are many cherry trees along its river.",
+    "explanation": "The N2 pattern 〜ことから 'from the fact that ~, because ~' explains the reason behind a name, a judgment, or a conclusion. It attaches to a plain-form predicate, and the only predicate is 多い（おおい）'many, plentiful'. What is plentiful? 木が（きが）'trees'. What kind of trees? 桜の（さくらの）'cherry', which ends in の and must stand directly before 木. So: 川沿いに桜の木が多いことから 'because there are many cherry trees along the river', followed by the name 「桜の町」と呼ばれている 'is called the Town of Cherry Blossoms'. Order: 桜の → 木が → 多い → ことから. The ★ is the 3rd slot: 多い.",
+    "choice_notes": [
+      "木が goes in slot 2. 木が is the subject of 多い: 木が多い 'there are many trees'.",
+      "ことから goes in slot 4. ことから completes 多いことから 'from the fact that there are many', giving the reason for the name 「桜の町」.",
+      "Correct. 多い is in slot 3, the ★ position. 多い is the plain-form predicate that ことから attaches to.",
+      "桜の goes in slot 1. 桜の ends in の, so it must come directly before a noun: 桜の木 'cherry trees'. The fixed 川沿いに 'along the river' tells where they are."
+    ],
+    "vocab": [
+      {
+        "word": "桜",
+        "reading": "さくら",
+        "meaning": "cherry blossom, cherry tree",
+        "pos": "noun",
+        "example": "四月{しがつ}になると桜{さくら}が咲{さ}く。",
+        "example_translation": "Cherry blossoms bloom in April."
+      },
+      {
+        "word": "川沿い",
+        "reading": "かわぞい",
+        "meaning": "along the river, riverside",
+        "pos": "noun",
+        "example": "川沿{かわぞ}いの道{みち}を散歩{さんぽ}した。",
+        "example_translation": "I took a walk along the riverside path."
+      },
+      {
+        "word": "呼ぶ",
+        "reading": "よぶ",
+        "meaning": "to call, to name",
+        "pos": "godan verb",
+        "example": "みんなは彼{かれ}を「たっちゃん」と呼{よ}んでいる。",
+        "example_translation": "Everyone calls him 'Tat-chan'."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜ことから",
+        "meaning": "from the fact that ~, because ~ (explains the reason for a name, judgment or conclusion)",
+        "formation": "Plain form (な-adj + な / である; noun + である) + ことから",
+        "example": "顔{かお}がよく似{に}ていることから、二人{ふたり}は兄弟{きょうだい}だと分{わ}かった。",
+        "example_translation": "From the fact that their faces looked very alike, I could tell the two were brothers."
+      },
+      {
+        "pattern": "〜と呼ばれる",
+        "meaning": "to be called ~",
+        "formation": "Name + と呼ばれる (passive of 呼ぶ)",
+        "example": "東京{とうきょう}は昔{むかし}、「江戸{えど}」と呼{よ}ばれていた。",
+        "example_translation": "Tokyo was once called 'Edo'."
+      }
+    ]
+  },
+  {
+    "id": "so-026",
+    "section": "sentence_order",
+    "question": "{{1}} {{2}} {{3}} {{4}} 、洗濯物{せんたくもの}を取{と}り込{こ}んでおこう。",
+    "choices": [
+      "降{ふ}り",
+      "出{だ}さない",
+      "雨{あめ}が",
+      "うちに"
+    ],
+    "star": 2,
+    "correct_order": [
+      2,
+      0,
+      1,
+      3
+    ],
+    "answer": 0,
+    "full_sentence": "雨{あめ}が降{ふ}り出{だ}さないうちに、洗濯物{せんたくもの}を取{と}り込{こ}んでおこう。",
+    "translation": "Let's bring in the laundry before it starts to rain.",
+    "explanation": "The pattern 〜ないうちに 'before ~ happens (while it still hasn't)' attaches to a ない-form verb and urges you to act now. The ない-form piece is 出さない, so うちに must follow it: 出さないうちに. 出さない alone makes no sense here; it is the second half of the compound verb 降り出す（ふりだす）'to start falling', made from the ます-stem 降り + 出す. So 降り comes right before 出さない. Its subject is 雨が 'rain', which goes first: 雨が降り出さないうちに 'before it starts to rain'. Order: 雨が → 降り → 出さない → うちに. The ★ is the 2nd slot: 降り.",
+    "choice_notes": [
+      "Correct. 降り is in slot 2, the ★ position. 降り is the ます-stem of 降る. It is the first half of the compound verb 降り出す 'start to rain', so it must touch 出さない.",
+      "出さない goes in slot 3. 出さない is the negative of 出す. 降り + 出さない = 降り出さない 'doesn't start raining', the ない-form that うちに needs.",
+      "雨が goes in slot 1. 雨が 'rain' is the subject of 降り出す, so it starts the clause.",
+      "うちに goes in slot 4. うちに completes 降り出さないうちに 'before it starts raining' and sits right before the comma."
+    ],
+    "vocab": [
+      {
+        "word": "降り出す",
+        "reading": "ふりだす",
+        "meaning": "to start to rain (or snow)",
+        "pos": "godan verb",
+        "example": "午後{ごご}から雨{あめ}が降{ふ}り出{だ}した。",
+        "example_translation": "It started raining in the afternoon."
+      },
+      {
+        "word": "洗濯物",
+        "reading": "せんたくもの",
+        "meaning": "laundry (clothes to be washed or being dried)",
+        "pos": "noun",
+        "example": "天気{てんき}がいいので、洗濯物{せんたくもの}を外{そと}に干{ほ}した。",
+        "example_translation": "The weather was nice, so I hung the laundry outside."
+      },
+      {
+        "word": "取り込む",
+        "reading": "とりこむ",
+        "meaning": "to take in, to bring in (laundry, etc.)",
+        "pos": "godan verb",
+        "example": "夕方{ゆうがた}になったので、布団{ふとん}を取{と}り込{こ}んだ。",
+        "example_translation": "It was evening, so I brought the futon in."
+      },
+      {
+        "word": "うち",
+        "reading": "うち",
+        "meaning": "within, while (a certain state lasts)",
+        "pos": "noun",
+        "example": "若{わか}いうちにいろいろな国{くに}へ行{い}きたい。",
+        "example_translation": "I want to visit many countries while I'm young."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜ないうちに",
+        "meaning": "before ~ (happens); while it still hasn't ~",
+        "formation": "Verb ない-form + うちに",
+        "example": "暗{くら}くならないうちに、家{いえ}に帰{かえ}りましょう。",
+        "example_translation": "Let's go home before it gets dark."
+      },
+      {
+        "pattern": "〜出す",
+        "meaning": "to start ~ing (suddenly)",
+        "formation": "Verb ます-stem + 出す",
+        "example": "赤{あか}ちゃんが急{きゅう}に泣{な}き出{だ}した。",
+        "example_translation": "The baby suddenly started crying."
+      }
+    ]
+  },
+  {
+    "id": "so-027",
+    "section": "sentence_order",
+    "question": "その映画{えいが}の {{1}} {{2}} {{3}} {{4}} 。",
+    "choices": [
+      "最後{さいご}の",
+      "場面{ばめん}では",
+      "にはいられなかった",
+      "泣{な}かず"
+    ],
+    "star": 4,
+    "correct_order": [
+      0,
+      1,
+      3,
+      2
+    ],
+    "answer": 2,
+    "full_sentence": "その映画{えいが}の最後{さいご}の場面{ばめん}では泣{な}かずにはいられなかった。",
+    "translation": "In the last scene of that movie, I couldn't help crying.",
+    "explanation": "The N2 pattern 〜ずにはいられない 'can't help ~ing, can't stop oneself from ~' is made from the ず-form of a verb (an older way of saying ない) + にはいられない. 泣かず（なかず）comes from 泣く 'to cry' (泣かない → 泣かず), so 泣かずにはいられなかった 'couldn't help crying' must be the last two pieces. The fixed text その映画の 'of that movie' ends in の, so a noun phrase must follow: 最後の場面では 'in the final scene'. 最後の also ends in の, so it goes right before 場面では. Order: 最後の → 場面では → 泣かず → にはいられなかった. The ★ is the 4th slot: にはいられなかった.",
+    "choice_notes": [
+      "最後の goes in slot 1. The fixed text その映画の needs a noun phrase next. 最後の 'last' ends in の, so it must stand right before 場面では: 最後の場面 'the last scene'.",
+      "場面では goes in slot 2. 場面では 'in the scene' is the noun described by 最後の. では marks the situation in which the feeling happened.",
+      "Correct. にはいられなかった is in slot 4, the ★ position. にはいられなかった completes 泣かずにはいられなかった 'couldn't help crying' and ends the sentence.",
+      "泣かず goes in slot 3. 泣かず is the ず-form of 泣く (= 泣かない), which is the form にはいられない attaches to."
+    ],
+    "vocab": [
+      {
+        "word": "最後",
+        "reading": "さいご",
+        "meaning": "the last, the end",
+        "pos": "noun",
+        "example": "彼{かれ}に最後{さいご}に会{あ}ったのは三年前{さんねんまえ}だ。",
+        "example_translation": "The last time I saw him was three years ago."
+      },
+      {
+        "word": "場面",
+        "reading": "ばめん",
+        "meaning": "scene, situation",
+        "pos": "noun",
+        "example": "この小説{しょうせつ}は、主人公{しゅじんこう}が旅{たび}に出{で}る場面{ばめん}から始{はじ}まる。",
+        "example_translation": "This novel begins with the scene where the main character sets out on a journey."
+      },
+      {
+        "word": "泣く",
+        "reading": "なく",
+        "meaning": "to cry",
+        "pos": "godan verb",
+        "example": "子{こ}どもが転{ころ}んで泣{な}いている。",
+        "example_translation": "A child fell down and is crying."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜ずにはいられない",
+        "meaning": "can't help ~ing (an action or feeling you cannot hold back)",
+        "formation": "Verb ない-stem + ずにはいられない (する → せずにはいられない)",
+        "example": "彼{かれ}の話{はなし}を聞{き}いて、笑{わら}わずにはいられなかった。",
+        "example_translation": "Hearing his story, I couldn't help laughing."
+      }
+    ]
+  },
+  {
+    "id": "so-028",
+    "section": "sentence_order",
+    "question": "雨{あめ}の日{ひ}にそんなに {{1}} {{2}} {{3}} {{4}} よ。",
+    "choices": [
+      "起{お}こしかねない",
+      "出{だ}すと",
+      "事故{じこ}を",
+      "スピードを"
+    ],
+    "star": 1,
+    "correct_order": [
+      3,
+      1,
+      2,
+      0
+    ],
+    "answer": 3,
+    "full_sentence": "雨{あめ}の日{ひ}にそんなにスピードを出{だ}すと事故{じこ}を起{お}こしかねないよ。",
+    "translation": "If you drive that fast on a rainy day, you could cause an accident.",
+    "explanation": "スピードを出す（スピードをだす）'to go fast, to speed' is a set phrase, so スピードを comes right before 出すと. The と in 出すと means 'if/when (you do this)', and the result follows it. The result uses the N2 pattern 〜かねない 'could (well) ~, there is a risk of ~ (something bad)', attached to the ます-stem: 起こし + かねない. Its object is 事故を（じこを）'an accident': 事故を起こしかねない. The fixed よ at the end makes it a warning. Order: スピードを → 出すと → 事故を → 起こしかねない. The ★ is the 1st slot: スピードを.",
+    "choice_notes": [
+      "起こしかねない goes in slot 4. 起こしかねない 'could cause' is the result. It goes right before the fixed よ, which turns the sentence into a warning.",
+      "出すと goes in slot 2. 出すと 'if you go (that fast)': と after a dictionary-form verb means 'if/when', and the result follows.",
+      "事故を goes in slot 3. 事故を 'an accident' is the object of 起こす: 事故を起こす 'cause an accident'.",
+      "Correct. スピードを is in slot 1, the ★ position. スピードを is the object of 出す: スピードを出す 'to speed, to drive fast' is a set phrase, and the fixed そんなに 'that much' describes it."
+    ],
+    "vocab": [
+      {
+        "word": "スピード",
+        "reading": "スピード",
+        "meaning": "speed",
+        "pos": "noun",
+        "example": "坂道{さかみち}ではスピードを落{お}としてください。",
+        "example_translation": "Please slow down on slopes."
+      },
+      {
+        "word": "事故",
+        "reading": "じこ",
+        "meaning": "accident",
+        "pos": "noun",
+        "example": "交差点{こうさてん}で交通事故{こうつうじこ}があった。",
+        "example_translation": "There was a traffic accident at the intersection."
+      },
+      {
+        "word": "起こす",
+        "reading": "おこす",
+        "meaning": "to cause, to bring about; to wake (someone) up",
+        "pos": "godan verb",
+        "example": "小{ちい}さな不注意{ふちゅうい}が大{おお}きな問題{もんだい}を起{お}こすことがある。",
+        "example_translation": "A small moment of carelessness can cause a big problem."
+      },
+      {
+        "word": "そんなに",
+        "reading": "そんなに",
+        "meaning": "that much, so (much)",
+        "pos": "adverb",
+        "example": "そんなに急{いそ}がなくても大丈夫{だいじょうぶ}だよ。",
+        "example_translation": "You don't need to hurry that much."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜かねない",
+        "meaning": "could ~, might well ~ (there is a risk of a bad outcome)",
+        "formation": "Verb ます-stem + かねない",
+        "example": "寝不足{ねぶそく}が続{つづ}くと、病気{びょうき}になりかねない。",
+        "example_translation": "If your lack of sleep continues, you could get sick."
+      },
+      {
+        "pattern": "〜と (conditional)",
+        "meaning": "if/when ~ (a natural or certain result follows)",
+        "formation": "Verb dictionary form + と",
+        "example": "このボタンを押{お}すと、ドアが開{ひら}く。",
+        "example_translation": "When you press this button, the door opens."
+      }
+    ]
+  },
+  {
+    "id": "so-029",
+    "section": "sentence_order",
+    "question": "申{もう}し訳{わけ}ございませんが、 {{1}} {{2}} {{3}} {{4}} 。",
+    "choices": [
+      "お答{こた}え",
+      "個人的{こじんてき}な",
+      "ご質問{しつもん}には",
+      "しかねます"
+    ],
+    "star": 3,
+    "correct_order": [
+      1,
+      2,
+      0,
+      3
+    ],
+    "answer": 0,
+    "full_sentence": "申{もう}し訳{わけ}ございませんが、個人的{こじんてき}なご質問{しつもん}にはお答{こた}えしかねます。",
+    "translation": "I'm very sorry, but I'm unable to answer personal questions.",
+    "explanation": "This is polite business language. The N2 pattern 〜かねる 'cannot (bring oneself to), is unable to' attaches to a ます-stem and is a soft, polite way to refuse. Here it combines with the humble form お + stem + する: お答えする 'to answer (humble)' → お答えしかねます 'I'm afraid I cannot answer'. So お答え must be followed by しかねます, which ends the sentence. What can't be answered? ご質問には（ごしつもんには）'to the question'. 個人的な（こじんてきな）'personal' must come right before it, because a な-form adjective needs a noun after it. Order: 個人的な → ご質問には → お答え → しかねます. The ★ is the 3rd slot: お答え.",
+    "choice_notes": [
+      "Correct. お答え is in slot 3, the ★ position. お答え is the first half of the humble form お + ます-stem + する (お答えする 'to answer'). It must be followed by しかねます.",
+      "個人的な goes in slot 1. 個人的な ends in な, which only appears before a noun, so it must come directly before (ご)質問: 個人的なご質問 'personal questions'.",
+      "ご質問には goes in slot 2. ご質問には 'to the question' marks what cannot be answered. ご is a polite prefix.",
+      "しかねます goes in slot 4. しかねます = し (from する) + かねます 'cannot'. It completes お答えしかねます 'I'm afraid I cannot answer' and ends the sentence."
+    ],
+    "vocab": [
+      {
+        "word": "申し訳ございません",
+        "reading": "もうしわけございません",
+        "meaning": "I am terribly sorry (very polite apology)",
+        "pos": "expression",
+        "example": "お待{ま}たせして、申{もう}し訳{わけ}ございません。",
+        "example_translation": "I'm very sorry to have kept you waiting."
+      },
+      {
+        "word": "個人的",
+        "reading": "こじんてき",
+        "meaning": "personal, private",
+        "pos": "na-adjective",
+        "example": "これは個人的{こじんてき}な意見{いけん}ですが、この案{あん}には反対{はんたい}です。",
+        "example_translation": "This is my personal opinion, but I'm against this proposal."
+      },
+      {
+        "word": "質問",
+        "reading": "しつもん",
+        "meaning": "question; to ask a question",
+        "pos": "noun / suru verb",
+        "example": "分{わ}からないことがあれば、遠慮{えんりょ}なく質問{しつもん}してください。",
+        "example_translation": "If there's anything you don't understand, please feel free to ask."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜かねる",
+        "meaning": "cannot ~, find it difficult to ~ (a polite refusal; mostly used in business)",
+        "formation": "Verb ます-stem + かねる (polite: かねます)",
+        "example": "残念{ざんねん}ですが、そのご意見{いけん}には賛成{さんせい}しかねます。",
+        "example_translation": "I'm sorry, but I can't agree with that opinion."
+      },
+      {
+        "pattern": "お + ます-stem + する (humble)",
+        "meaning": "humble form: I (humbly) do ~ (for you)",
+        "formation": "お + Verb ます-stem + する (for する-nouns: ご + noun + する)",
+        "example": "お荷物{にもつ}をお持{も}ちします。",
+        "example_translation": "Let me carry your luggage."
+      }
+    ]
+  },
+  {
+    "id": "so-030",
+    "section": "sentence_order",
+    "question": "昨夜{ゆうべ}は {{1}} {{2}} {{3}} {{4}} 、なかなか眠{ねむ}れなかった。",
+    "choices": [
+      "コーヒーを飲{の}んだ",
+      "前{まえ}に",
+      "せいか",
+      "寝{ね}る"
+    ],
+    "star": 2,
+    "correct_order": [
+      3,
+      1,
+      0,
+      2
+    ],
+    "answer": 1,
+    "full_sentence": "昨夜{ゆうべ}は寝{ね}る前{まえ}にコーヒーを飲{の}んだせいか、なかなか眠{ねむ}れなかった。",
+    "translation": "Last night, maybe because I drank coffee before going to bed, I had trouble falling asleep.",
+    "explanation": "The N2 pattern 〜せいか 'perhaps because ~ (a possible cause of a bad result)' attaches to a plain-form clause and comes right before the comma, since the bad result (なかなか眠れなかった 'I just couldn't get to sleep') follows it. The clause it attaches to is コーヒーを飲んだ 'drank coffee'. When? 寝る前に 'before going to bed': 前に（まえに）needs a dictionary-form verb in front, so 寝る（ねる）comes directly before it. Result: 寝る前にコーヒーを飲んだせいか. Order: 寝る → 前に → コーヒーを飲んだ → せいか. The ★ is the 2nd slot: 前に.",
+    "choice_notes": [
+      "コーヒーを飲んだ goes in slot 3. コーヒーを飲んだ 'drank coffee' is the plain past-form clause that せいか attaches to.",
+      "Correct. 前に is in slot 2, the ★ position. 前に follows the dictionary form and tells when the coffee was drunk: 寝る前に.",
+      "せいか goes in slot 4. せいか completes 飲んだせいか 'perhaps because I drank' and sits before the comma and the bad result.",
+      "寝る goes in slot 1. 寝る 'go to bed' is the dictionary-form verb that 前に attaches to: 寝る前に 'before going to bed'."
+    ],
+    "vocab": [
+      {
+        "word": "昨夜",
+        "reading": "ゆうべ",
+        "meaning": "last night",
+        "pos": "noun",
+        "example": "昨夜{ゆうべ}は遅{おそ}くまで勉強{べんきょう}した。",
+        "example_translation": "I studied until late last night."
+      },
+      {
+        "word": "眠る",
+        "reading": "ねむる",
+        "meaning": "to sleep, to fall asleep",
+        "pos": "godan verb",
+        "example": "疲{つか}れていたので、すぐに眠{ねむ}ってしまった。",
+        "example_translation": "I was tired, so I fell asleep right away."
+      },
+      {
+        "word": "なかなか",
+        "reading": "なかなか",
+        "meaning": "(with a negative) not easily, just won't",
+        "pos": "adverb",
+        "example": "この問題{もんだい}はなかなか解{と}けない。",
+        "example_translation": "I just can't solve this problem."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜せいか",
+        "meaning": "perhaps because ~, maybe due to ~ (an uncertain cause, usually of a bad result)",
+        "formation": "Plain form (な-adj + な; noun + の) + せいか",
+        "example": "年{とし}のせいか、最近{さいきん}疲{つか}れやすい。",
+        "example_translation": "Maybe it's my age, but I get tired easily these days."
+      }
+    ]
+  },
+  {
+    "id": "so-031",
+    "section": "sentence_order",
+    "question": "彼女{かのじょ}は三年前{さんねんまえ}に {{1}} {{2}} {{3}} {{4}} 国{くに}に帰{かえ}っていない。",
+    "choices": [
+      "以来{いらい}",
+      "一度{いちど}も",
+      "日本{にほん}へ",
+      "来{き}て"
+    ],
+    "star": 4,
+    "correct_order": [
+      2,
+      3,
+      0,
+      1
+    ],
+    "answer": 1,
+    "full_sentence": "彼女{かのじょ}は三年前{さんねんまえ}に日本{にほん}へ来{き}て以来{いらい}一度{いちど}も国{くに}に帰{かえ}っていない。",
+    "translation": "Since coming to Japan three years ago, she hasn't gone back to her home country even once.",
+    "explanation": "The N2 pattern 〜て以来（ていらい）'ever since ~' attaches to a て-form verb and describes a state that has continued from that point until now. The only て-form is 来て（きて）'came', so 来て以来. Where did she come? 日本へ 'to Japan', which goes before the verb: 三年前に日本へ来て以来 'since coming to Japan three years ago'. 一度も（いちども）'(not) even once' must be followed by a negative, so it takes the last slot, right before 国に帰っていない 'has not gone back to her country'. Order: 日本へ → 来て → 以来 → 一度も. The ★ is the 4th slot: 一度も.",
+    "choice_notes": [
+      "以来 goes in slot 3. 以来 follows the て-form directly: 来て以来 'ever since (she) came'.",
+      "Correct. 一度も is in slot 4, the ★ position. 一度も '(not) even once' must be followed by a negative, so it goes last, right before the fixed 国に帰っていない.",
+      "日本へ goes in slot 1. 日本へ 'to Japan' is the destination of 来る, so it goes before 来て.",
+      "来て goes in slot 2. 来て is the て-form, which 以来 requires."
+    ],
+    "vocab": [
+      {
+        "word": "以来",
+        "reading": "いらい",
+        "meaning": "since, ever since",
+        "pos": "noun",
+        "example": "卒業{そつぎょう}以来{いらい}、彼{かれ}とは会{あ}っていない。",
+        "example_translation": "I haven't seen him since graduation."
+      },
+      {
+        "word": "国",
+        "reading": "くに",
+        "meaning": "country; one's home country",
+        "pos": "noun",
+        "example": "夏休{なつやす}みに国{くに}へ帰{かえ}る予定{よてい}だ。",
+        "example_translation": "I plan to go back to my home country during summer vacation."
+      },
+      {
+        "word": "一度も",
+        "reading": "いちども",
+        "meaning": "(not) even once, never",
+        "pos": "adverb",
+        "example": "私{わたし}は一度{いちど}も海外{かいがい}に行{い}ったことがない。",
+        "example_translation": "I have never been abroad, not even once."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜て以来",
+        "meaning": "ever since ~ (a state continuing from that point until now)",
+        "formation": "Verb て-form + 以来; Noun + 以来",
+        "example": "日本{にほん}に来{き}て以来{いらい}、毎日{まいにち}日本語{にほんご}で日記{にっき}を書{か}いている。",
+        "example_translation": "Ever since coming to Japan, I have been writing a diary in Japanese every day."
+      }
+    ]
+  },
+  {
+    "id": "so-032",
+    "section": "sentence_order",
+    "question": "旅行{りょこう}に行{い}くかどうかは、 {{1}} {{2}} {{3}} {{4}} 。",
+    "choices": [
+      "明日{あした}の",
+      "決{き}めよう",
+      "天気{てんき}",
+      "次第{しだい}で"
+    ],
+    "star": 1,
+    "correct_order": [
+      0,
+      2,
+      3,
+      1
+    ],
+    "answer": 0,
+    "full_sentence": "旅行{りょこう}に行{い}くかどうかは、明日{あした}の天気{てんき}次第{しだい}で決{き}めよう。",
+    "translation": "Let's decide whether to go on the trip depending on tomorrow's weather.",
+    "explanation": "The sentence ends after the slots, so the last piece must be a sentence-ending verb: 決めよう（きめよう）'let's decide', the volitional form of 決める. The N2 pattern 〜次第で（しだいで）'depending on ~' attaches directly to a noun: 天気次第で 'depending on the weather'. Which weather? 明日の 'tomorrow's' ends in の, so it must come right before 天気. The fixed topic 旅行に行くかどうかは 'as for whether to go on the trip' is the thing that will be decided. Order: 明日の → 天気 → 次第で → 決めよう. The ★ is the 1st slot: 明日の.",
+    "choice_notes": [
+      "Correct. 明日の is in slot 1, the ★ position. 明日の ends in の, so it must come directly before a noun: 明日の天気 'tomorrow's weather'.",
+      "決めよう goes in slot 4. 決めよう 'let's decide' is the only verb, and it ends the sentence (right before 。).",
+      "天気 goes in slot 2. 天気 'weather' is the noun that 次第で attaches to.",
+      "次第で goes in slot 3. 次第で attaches directly to a noun, with no particle in between: 天気次第で 'depending on the weather'."
+    ],
+    "vocab": [
+      {
+        "word": "旅行",
+        "reading": "りょこう",
+        "meaning": "trip, travel; to travel",
+        "pos": "noun / suru verb",
+        "example": "来月{らいげつ}、家族{かぞく}で沖縄{おきなわ}へ旅行{りょこう}する。",
+        "example_translation": "Next month my family is traveling to Okinawa."
+      },
+      {
+        "word": "決める",
+        "reading": "きめる",
+        "meaning": "to decide",
+        "pos": "ichidan verb",
+        "example": "誕生日{たんじょうび}のプレゼントを何{なに}にするか決{き}めた。",
+        "example_translation": "I decided what to get for the birthday present."
+      },
+      {
+        "word": "次第",
+        "reading": "しだい",
+        "meaning": "(〜次第) depending on ~; (verb stem + 次第) as soon as ~",
+        "pos": "noun",
+        "example": "合格{ごうかく}できるかどうかは、あなたの努力{どりょく}次第{しだい}だ。",
+        "example_translation": "Whether you pass depends on your effort."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜次第で / 〜次第だ",
+        "meaning": "depending on ~ / it depends on ~",
+        "formation": "Noun + 次第で + (result); Noun + 次第だ",
+        "example": "値段{ねだん}次第{しだい}で、買{か}うかどうか決{き}める。",
+        "example_translation": "I'll decide whether to buy it depending on the price."
+      },
+      {
+        "pattern": "〜かどうか",
+        "meaning": "whether or not ~",
+        "formation": "Plain form (noun / な-adj without だ) + かどうか",
+        "example": "彼{かれ}が来{く}るかどうか分{わ}からない。",
+        "example_translation": "I don't know whether he will come."
+      }
+    ]
+  },
+  {
+    "id": "so-033",
+    "section": "sentence_order",
+    "question": "あの先生{せんせい}の授業{じゅぎょう}に一分{いっぷん}でも {{1}} {{2}} {{3}} {{4}} もらえない。",
+    "choices": [
+      "入{い}れて",
+      "ものなら",
+      "遅{おく}れよう",
+      "教室{きょうしつ}に"
+    ],
+    "star": 3,
+    "correct_order": [
+      2,
+      1,
+      3,
+      0
+    ],
+    "answer": 3,
+    "full_sentence": "あの先生{せんせい}の授業{じゅぎょう}に一分{いっぷん}でも遅{おく}れようものなら教室{きょうしつ}に入{い}れてもらえない。",
+    "translation": "If you are late for that teacher's class by even one minute, you won't be let into the classroom.",
+    "explanation": "The fixed text 授業に一分でも 'for the class, even by one minute' needs a verb, and 授業に遅れる 'be late for class' is the natural one. The N2 pattern 〜ようものなら 'if you (dare to) do ~, (something terrible will happen)' uses the volitional form: 遅れる → 遅れよう（おくれよう）, so 遅れようものなら. The terrible result follows. The fixed ending もらえない needs a て-form: 入れて（いれて）, giving 入れてもらえない 'won't be allowed in' (literally 'can't receive the favor of being let in'). Into where? 教室に 'into the classroom', placed right before 入れて. Order: 遅れよう → ものなら → 教室に → 入れて. The ★ is the 3rd slot: 教室に.",
+    "choice_notes": [
+      "入れて goes in slot 4. The fixed ending もらえない needs a て-form verb: 入れてもらえない 'won't be let in'.",
+      "ものなら goes in slot 2. ものなら attaches to the volitional form: 遅れようものなら 'if you dare to be late'.",
+      "遅れよう goes in slot 1. The fixed text 授業に一分でも needs a verb: 授業に遅れる 'be late for class'. ものなら needs the volitional form, 遅れよう.",
+      "Correct. 教室に is in slot 3, the ★ position. 教室に 'into the classroom' is the destination of 入れる, so it goes right before 入れて."
+    ],
+    "vocab": [
+      {
+        "word": "授業",
+        "reading": "じゅぎょう",
+        "meaning": "class, lesson",
+        "pos": "noun",
+        "example": "今日{きょう}の授業{じゅぎょう}は三時{さんじ}に終{お}わる。",
+        "example_translation": "Today's class ends at three."
+      },
+      {
+        "word": "遅れる",
+        "reading": "おくれる",
+        "meaning": "to be late, to be delayed",
+        "pos": "ichidan verb",
+        "example": "寝坊{ねぼう}して、会社{かいしゃ}に遅{おく}れた。",
+        "example_translation": "I overslept and was late for work."
+      },
+      {
+        "word": "入れる",
+        "reading": "いれる",
+        "meaning": "to put in; to let (someone) in",
+        "pos": "ichidan verb",
+        "example": "寒{さむ}いから、猫{ねこ}を家{いえ}の中{なか}に入{い}れてあげた。",
+        "example_translation": "It was cold, so I let the cat into the house."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜ようものなら",
+        "meaning": "if (someone) were to (dare to) do ~, then something terrible would happen",
+        "formation": "Verb volitional form (〜よう / 〜おう) + ものなら",
+        "example": "母{はは}の前{まえ}で料理{りょうり}に文句{もんく}を言{い}おうものなら、すごく怒{おこ}られる。",
+        "example_translation": "If I dare to complain about the food in front of my mother, I get scolded badly."
+      },
+      {
+        "pattern": "〜てもらえない",
+        "meaning": "can't get someone to ~, won't be ~ed (for you)",
+        "formation": "Verb て-form + もらえない (negative potential of もらう)",
+        "example": "いくら頼{たの}んでも、お金{かね}を貸{か}してもらえなかった。",
+        "example_translation": "No matter how much I asked, they wouldn't lend me the money."
+      }
+    ]
+  },
+  {
+    "id": "so-034",
+    "section": "sentence_order",
+    "question": "この店{みせ}は、料理{りょうり}の {{1}} {{2}} {{3}} {{4}} 評判{ひょうばん}だ。",
+    "choices": [
+      "値段{ねだん}の",
+      "安{やす}さでも",
+      "はもちろん",
+      "味{あじ}"
+    ],
+    "star": 2,
+    "correct_order": [
+      3,
+      2,
+      0,
+      1
+    ],
+    "answer": 2,
+    "full_sentence": "この店{みせ}は、料理{りょうり}の味{あじ}はもちろん値段{ねだん}の安{やす}さでも評判{ひょうばん}だ。",
+    "translation": "This restaurant is well known not only for the taste of its food, of course, but also for its low prices.",
+    "explanation": "The pattern 〜はもちろん 'not only ~ (of course), but also ~' attaches to a noun, and the second item is marked with も. The fixed text 料理の 'of the food' needs a noun right after it: 味（あじ）'taste', so 料理の味はもちろん 'the taste of the food, of course'. The second item is 安さでも（やすさでも）'also for the cheapness': 安さ is the noun form of 安い, and でも here is で 'for, because of' + も 'also'. 値段の（ねだんの）ends in の, so it goes right before 安さ: 値段の安さでも. The fixed ending 評判だ 'is well known' completes the sentence. Order: 味 → はもちろん → 値段の → 安さでも. The ★ is the 2nd slot: はもちろん.",
+    "choice_notes": [
+      "値段の goes in slot 3. 値段の ends in の, so it must come directly before the noun 安さ: 値段の安さ 'the cheapness of the prices'.",
+      "安さでも goes in slot 4. 安さでも = 安さ 'cheapness' + で 'for' + も 'also'. It is the second item that はもちろん leads to, and it connects to the fixed 評判だ.",
+      "Correct. はもちろん is in slot 2, the ★ position. はもちろん attaches to a noun: 味はもちろん 'the taste, of course'.",
+      "味 goes in slot 1. The fixed text 料理の ends in の and needs a noun right after it: 料理の味 'the taste of the food'."
+    ],
+    "vocab": [
+      {
+        "word": "評判",
+        "reading": "ひょうばん",
+        "meaning": "reputation; (〜と評判だ) well known for ~",
+        "pos": "noun",
+        "example": "あの医者{いしゃ}は優{やさ}しいと評判{ひょうばん}だ。",
+        "example_translation": "That doctor has a reputation for being kind."
+      },
+      {
+        "word": "味",
+        "reading": "あじ",
+        "meaning": "taste, flavor",
+        "pos": "noun",
+        "example": "このスープは少{すこ}し味{あじ}が薄{うす}い。",
+        "example_translation": "This soup tastes a little bland."
+      },
+      {
+        "word": "値段",
+        "reading": "ねだん",
+        "meaning": "price",
+        "pos": "noun",
+        "example": "値段{ねだん}を見{み}てびっくりした。",
+        "example_translation": "I was surprised when I saw the price."
+      },
+      {
+        "word": "安さ",
+        "reading": "やすさ",
+        "meaning": "cheapness, low price",
+        "pos": "noun",
+        "example": "この店{みせ}の魅力{みりょく}は安{やす}さだ。",
+        "example_translation": "This shop's appeal is its low prices."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜はもちろん",
+        "meaning": "not only ~ (which goes without saying) but also ~",
+        "formation": "Noun + はもちろん + (second item) + も",
+        "example": "この歌{うた}は子{こ}どもはもちろん、大人{おとな}にも人気{にんき}がある。",
+        "example_translation": "This song is popular with children, of course, and with adults as well."
+      },
+      {
+        "pattern": "〜さ (adjective → noun)",
+        "meaning": "turns an adjective into a noun for its degree (安い → 安さ 'cheapness')",
+        "formation": "い-adj stem / な-adj stem + さ",
+        "example": "冬{ふゆ}の北海道{ほっかいどう}の寒{さむ}さに驚{おどろ}いた。",
+        "example_translation": "I was surprised by how cold Hokkaido is in winter."
+      }
+    ]
+  },
+  {
+    "id": "so-035",
+    "section": "sentence_order",
+    "question": "今回{こんかい}の成功{せいこう}は、チーム全員{ぜんいん}が {{1}} {{2}} {{3}} {{4}} にほかならない。",
+    "choices": [
+      "結果{けっか}",
+      "努力{どりょく}を",
+      "きた",
+      "続{つづ}けて"
+    ],
+    "star": 1,
+    "correct_order": [
+      1,
+      3,
+      2,
+      0
+    ],
+    "answer": 1,
+    "full_sentence": "今回{こんかい}の成功{せいこう}は、チーム全員{ぜんいん}が努力{どりょく}を続{つづ}けてきた結果{けっか}にほかならない。",
+    "translation": "This success is nothing other than the result of the whole team continuing to work hard.",
+    "explanation": "The N2 pattern 〜にほかならない 'is nothing other than ~, is precisely ~' attaches to a noun, so the last slot must be the noun 結果（けっか）'result'. In Japanese a clause that describes a noun comes directly before it, so a plain-form verb must stand right before 結果. That verb is きた: after a て-form, 〜てきた means 'have been doing (up to now)', so 続けて（つづけて）+ きた = 続けてきた 'have kept on'. What has the team kept on doing? 努力を（どりょくを）'effort (object)', which follows the fixed subject チーム全員が and comes before the verb: チーム全員が努力を続けてきた結果にほかならない. Order: 努力を → 続けて → きた → 結果. The ★ is the 1st slot: 努力を.",
+    "choice_notes": [
+      "結果 goes in slot 4. The fixed にほかならない needs a noun right before it, and 結果 'result' is that noun. 続けてきた describes it: 続けてきた結果 'the result of having kept on'.",
+      "Correct. 努力を is in slot 1, the ★ position. 努力を 'effort' is the object of 続ける, and it comes right after the fixed subject チーム全員が: 努力を続ける 'keep making efforts'.",
+      "きた goes in slot 3. きた (past of くる) after a て-form shows an action continuing up to the present: 続けてきた 'have kept on'. As a plain-form verb it can describe the noun 結果.",
+      "続けて goes in slot 2. 続けて is the て-form, which must be followed by きた to make 続けてきた 'have kept on (until now)'."
+    ],
+    "vocab": [
+      {
+        "word": "成功",
+        "reading": "せいこう",
+        "meaning": "success; to succeed",
+        "pos": "noun / suru verb",
+        "example": "実験{じっけん}は三回目{さんかいめ}で成功{せいこう}した。",
+        "example_translation": "The experiment succeeded on the third try."
+      },
+      {
+        "word": "全員",
+        "reading": "ぜんいん",
+        "meaning": "all members, everyone",
+        "pos": "noun",
+        "example": "クラスの全員{ぜんいん}が試験{しけん}に合格{ごうかく}した。",
+        "example_translation": "Everyone in the class passed the exam."
+      },
+      {
+        "word": "努力",
+        "reading": "どりょく",
+        "meaning": "effort, hard work; to make an effort",
+        "pos": "noun / suru verb",
+        "example": "夢{ゆめ}をかなえるために努力{どりょく}している。",
+        "example_translation": "I am working hard to make my dream come true."
+      },
+      {
+        "word": "結果",
+        "reading": "けっか",
+        "meaning": "result, outcome",
+        "pos": "noun",
+        "example": "試験{しけん}の結果{けっか}は来週{らいしゅう}分{わ}かる。",
+        "example_translation": "The exam results will be known next week."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜にほかならない",
+        "meaning": "is nothing other than ~, is precisely ~ (a strong, formal assertion)",
+        "formation": "Noun + にほかならない; reason clause + から / ため + にほかならない",
+        "example": "彼{かれ}が合格{ごうかく}できたのは、毎日{まいにち}勉強{べんきょう}を続{つづ}けたからにほかならない。",
+        "example_translation": "The reason he passed is none other than that he kept studying every day."
+      },
+      {
+        "pattern": "〜てくる（〜てきた）",
+        "meaning": "have been ~ing (an action or change continuing from the past up to now)",
+        "formation": "Verb て-form + くる (past: てきた)",
+        "example": "父{ちち}は三十年間{さんじゅうねんかん}、この店{みせ}を守{まも}ってきた。",
+        "example_translation": "My father has kept this shop going for thirty years."
+      }
+    ]
+  }
+]

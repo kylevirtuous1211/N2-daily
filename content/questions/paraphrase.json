@@ -1,0 +1,3085 @@
+[
+  {
+    "id": "pp-001",
+    "section": "paraphrase",
+    "question": "工事{こうじ}のため、この道{みち}は[[当分{とうぶん}]]通{とお}れません。",
+    "choices": [
+      "一日{いちにち}だけ",
+      "いつまでも",
+      "しばらく",
+      "夜{よる}だけ"
+    ],
+    "answer": 2,
+    "translation": "Because of construction work, this road cannot be used for the time being.",
+    "explanation": "当分（とうぶん）means 'for the time being, for a while (from now on)'. It describes a fairly long period that starts now and will end at some point in the future, so its closest everyday synonym is しばらく. It often appears with negative or continuing situations: 当分休みます 'I'll be off for a while', 当分の間 'for the time being', 当分雨が続く 'the rain will continue for a while'. Unlike いつまでも 'forever', 当分 always implies the situation is temporary. One small difference: 当分 looks forward from now, while しばらく can also describe a past period (しばらく会っていない 'I haven't seen him for a while').",
+    "choice_notes": [
+      "Wrong. 一日だけ 'for just one day' is too short and too specific; 当分 is an unspecified, fairly long period.",
+      "Wrong. いつまでも 'forever, no matter how long' suggests there is no end. 当分 implies the situation is temporary.",
+      "Correct. しばらく 'for a while, for some time' is the standard paraphrase of 当分.",
+      "Wrong. 夜だけ 'only at night' talks about a time of day, not a length of time."
+    ],
+    "vocab": [
+      {
+        "word": "当分",
+        "reading": "とうぶん",
+        "meaning": "for the time being, for a while (from now on)",
+        "pos": "adverb / noun",
+        "example": "当分{とうぶん}の間{あいだ}、甘{あま}いものは食{た}べないことにした。",
+        "example_translation": "I've decided not to eat sweets for the time being."
+      },
+      {
+        "word": "しばらく",
+        "reading": "しばらく",
+        "meaning": "for a while, for some time",
+        "pos": "adverb",
+        "example": "しばらく休{やす}んだら、元気{げんき}になった。",
+        "example_translation": "After resting for a while, I felt better."
+      },
+      {
+        "word": "工事",
+        "reading": "こうじ",
+        "meaning": "construction work",
+        "pos": "noun / suru verb",
+        "example": "駅前{えきまえ}で道路{どうろ}の工事{こうじ}をしている。",
+        "example_translation": "There is road construction going on in front of the station."
+      },
+      {
+        "word": "通る",
+        "reading": "とおる",
+        "meaning": "to pass (through), to go along",
+        "pos": "godan verb",
+        "example": "この道{みち}は車{くるま}がたくさん通{とお}る。",
+        "example_translation": "A lot of cars go along this road."
+      },
+      {
+        "word": "いつまでも",
+        "reading": "いつまでも",
+        "meaning": "forever, for as long as one likes",
+        "pos": "adverb",
+        "example": "いつまでも元気{げんき}でいてください。",
+        "example_translation": "Please stay healthy forever."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜ため（に）",
+        "meaning": "because of ~, due to ~ (formal reason)",
+        "formation": "Noun + の + ため（に） / Plain form + ため（に）",
+        "example": "雪{ゆき}のため、電車{でんしゃ}が止{と}まった。",
+        "example_translation": "The trains stopped because of the snow."
+      }
+    ]
+  },
+  {
+    "id": "pp-002",
+    "section": "paraphrase",
+    "question": "その新{あたら}しいゲームは、発売{はつばい}されると[[たちまち]]売{う}り切{き}れた。",
+    "choices": [
+      "あっという間{ま}に",
+      "少{すこ}しずつ",
+      "思{おも}ったとおり",
+      "しばらくしてから"
+    ],
+    "answer": 0,
+    "translation": "That new game sold out in no time once it was released.",
+    "explanation": "たちまち means 'in an instant, immediately, in no time'. It describes something that happens very quickly right after a trigger, usually a change of state: たちまち売り切れる 'sell out instantly', たちまち人気になる 'become popular in no time', 空がたちまち暗くなった 'the sky turned dark in an instant'. The expression あっという間に (literally 'in the time it takes to say \"ah\"') has the same meaning. たちまち is used to describe events that happen (or happened) by themselves; it is not used in requests - you cannot say ×たちまち来てください (use すぐに instead).",
+    "choice_notes": [
+      "Correct. あっという間に 'in the blink of an eye' = たちまち.",
+      "Wrong. 少しずつ 'little by little' is the opposite: a slow, gradual change.",
+      "Wrong. 思ったとおり 'just as expected' is about expectation, not speed (that idea is 案の定).",
+      "Wrong. しばらくしてから 'after a while' means there was a delay; たちまち means there was no delay."
+    ],
+    "vocab": [
+      {
+        "word": "たちまち",
+        "reading": "たちまち",
+        "meaning": "in an instant, in no time, immediately",
+        "pos": "adverb",
+        "example": "空{そら}がたちまち暗{くら}くなった。",
+        "example_translation": "The sky turned dark in an instant."
+      },
+      {
+        "word": "あっという間に",
+        "reading": "あっというまに",
+        "meaning": "in the blink of an eye, in no time",
+        "pos": "expression",
+        "example": "夏休{なつやす}みはあっという間{ま}に終{お}わった。",
+        "example_translation": "Summer vacation was over in the blink of an eye."
+      },
+      {
+        "word": "発売",
+        "reading": "はつばい",
+        "meaning": "release, putting on sale (of a new product)",
+        "pos": "noun / suru verb",
+        "example": "新{あたら}しいスマートフォンが来月{らいげつ}発売{はつばい}される。",
+        "example_translation": "A new smartphone will go on sale next month."
+      },
+      {
+        "word": "売り切れる",
+        "reading": "うりきれる",
+        "meaning": "to be sold out",
+        "pos": "ichidan verb",
+        "example": "人気{にんき}のパンは朝{あさ}のうちに売{う}り切{き}れる。",
+        "example_translation": "The popular bread sells out in the morning."
+      },
+      {
+        "word": "少しずつ",
+        "reading": "すこしずつ",
+        "meaning": "little by little, bit by bit",
+        "pos": "adverb",
+        "example": "毎日{まいにち}少{すこ}しずつ貯金{ちょきん}している。",
+        "example_translation": "I save a little money every day."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜と",
+        "meaning": "when ~, as soon as ~ (one event is followed naturally by another)",
+        "formation": "Verb dictionary form + と",
+        "example": "春{はる}になると、桜{さくら}が咲{さ}く。",
+        "example_translation": "When spring comes, the cherry trees bloom."
+      },
+      {
+        "pattern": "〜（ら）れる（受身）",
+        "meaning": "passive: is done, gets done",
+        "formation": "Godan: ない-stem + れる (読む → 読まれる) / Ichidan: stem + られる / する → される",
+        "example": "この本{ほん}は多{おお}くの人{ひと}に読{よ}まれている。",
+        "example_translation": "This book is read by many people."
+      }
+    ]
+  },
+  {
+    "id": "pp-003",
+    "section": "paraphrase",
+    "question": "使{つか}わなくなった自転車{じてんしゃ}を、近所{きんじょ}の子{こ}どもに[[ゆずった]]。",
+    "choices": [
+      "貸{か}した",
+      "返{かえ}した",
+      "預{あず}けた",
+      "あげた"
+    ],
+    "answer": 3,
+    "translation": "I gave the bicycle I no longer use to a child in my neighborhood.",
+    "explanation": "ゆずる（譲る）basically means 'to hand over something of yours to someone else'. Here it means giving away something you no longer need: 自転車を譲る ≈ 自転車をあげる. Other very common uses: 席を譲る 'give up one's seat (on a train)', 道を譲る 'make way for someone', 社長の座を息子に譲る 'hand over the president's position to one's son'. In the negative, 意見を譲らない means 'not to back down'. The key point is that after 譲る the thing belongs to the other person and does not come back, which is why 貸す and 預ける (both temporary) are wrong. (譲る is also used when selling something second-hand, e.g. 安く譲ります, but the core idea is always a transfer of ownership.)",
+    "choice_notes": [
+      "Wrong. 貸す 'to lend' means the bicycle will come back to you; 譲る transfers it for good.",
+      "Wrong. 返す 'to return' is used for something that originally belonged to the other person.",
+      "Wrong. 預ける 'to leave in someone's care' is temporary - you plan to take it back later.",
+      "Correct. あげる 'to give' matches 譲る 'to hand over (something of yours) to someone'."
+    ],
+    "vocab": [
+      {
+        "word": "譲る",
+        "reading": "ゆずる",
+        "meaning": "to hand over, to give (away), to give up (a seat), to concede",
+        "pos": "godan verb",
+        "example": "父{ちち}は店{みせ}を息子{むすこ}に譲{ゆず}った。",
+        "example_translation": "My father handed the shop over to his son."
+      },
+      {
+        "word": "貸す",
+        "reading": "かす",
+        "meaning": "to lend",
+        "pos": "godan verb",
+        "example": "友達{ともだち}に傘{かさ}を貸{か}した。",
+        "example_translation": "I lent my umbrella to a friend."
+      },
+      {
+        "word": "返す",
+        "reading": "かえす",
+        "meaning": "to return (something), to give back",
+        "pos": "godan verb",
+        "example": "借{か}りたお金{かね}を返{かえ}した。",
+        "example_translation": "I paid back the money I had borrowed."
+      },
+      {
+        "word": "預ける",
+        "reading": "あずける",
+        "meaning": "to leave (something) in someone's care, to deposit",
+        "pos": "ichidan verb",
+        "example": "旅行{りょこう}の間{あいだ}、犬{いぬ}を友達{ともだち}に預{あず}けた。",
+        "example_translation": "I left my dog with a friend during the trip."
+      },
+      {
+        "word": "近所",
+        "reading": "きんじょ",
+        "meaning": "neighborhood, vicinity",
+        "pos": "noun",
+        "example": "近所{きんじょ}に新{あたら}しいスーパーができた。",
+        "example_translation": "A new supermarket opened in my neighborhood."
+      },
+      {
+        "word": "自転車",
+        "reading": "じてんしゃ",
+        "meaning": "bicycle",
+        "pos": "noun",
+        "example": "毎日{まいにち}自転車{じてんしゃ}で会社{かいしゃ}に行{い}く。",
+        "example_translation": "I go to work by bicycle every day."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜なくなる",
+        "meaning": "to no longer do ~, to stop doing ~",
+        "formation": "Verb ない-form without い + くなる (使わない → 使わなくなる)",
+        "example": "最近{さいきん}、テレビを見{み}なくなった。",
+        "example_translation": "Recently I've stopped watching TV."
+      }
+    ]
+  },
+  {
+    "id": "pp-004",
+    "section": "paraphrase",
+    "question": "先生{せんせい}の合図{あいず}で、生徒{せいと}たちは[[一斉{いっせい}に]]走{はし}り出{だ}した。",
+    "choices": [
+      "次々{つぎつぎ}に",
+      "同時{どうじ}に",
+      "順番{じゅんばん}に",
+      "急{いそ}いで"
+    ],
+    "answer": 1,
+    "translation": "At the teacher's signal, the students all started running at once.",
+    "explanation": "一斉に（いっせいに）means 'all at once, all together, simultaneously'. It is used when many people or things do the same action at the same moment: 一斉に立ち上がる 'all stand up at once', 一斉に拍手する 'all applaud together', 花が一斉に咲く 'the flowers bloom all at once'. The closest simple paraphrase is 同時に 'at the same time'. 一斉 also works as a noun prefix: 一斉送信 'sending (a message) to everyone at once'. Watch out for 次々に and 順番に, which describe actions that happen one by one - the opposite picture.",
+    "choice_notes": [
+      "Wrong. 次々に 'one after another' means they started at different moments, in a series.",
+      "Correct. 同時に 'at the same time' = 一斉に.",
+      "Wrong. 順番に 'in order, by turns' means one by one - the opposite idea.",
+      "Wrong. 急いで 'in a hurry' describes speed, not that everyone moved at the same moment."
+    ],
+    "vocab": [
+      {
+        "word": "一斉に",
+        "reading": "いっせいに",
+        "meaning": "all at once, all together, simultaneously",
+        "pos": "adverb",
+        "example": "春{はる}になると、花{はな}が一斉{いっせい}に咲{さ}く。",
+        "example_translation": "In spring, the flowers bloom all at once."
+      },
+      {
+        "word": "同時に",
+        "reading": "どうじに",
+        "meaning": "at the same time, simultaneously",
+        "pos": "adverb",
+        "example": "二人{ふたり}は同時{どうじ}にゴールした。",
+        "example_translation": "The two crossed the finish line at the same time."
+      },
+      {
+        "word": "合図",
+        "reading": "あいず",
+        "meaning": "signal, sign",
+        "pos": "noun / suru verb",
+        "example": "手{て}を上{あ}げて合図{あいず}をした。",
+        "example_translation": "I raised my hand as a signal."
+      },
+      {
+        "word": "次々に",
+        "reading": "つぎつぎに",
+        "meaning": "one after another, in succession",
+        "pos": "adverb",
+        "example": "駅前{えきまえ}に新{あたら}しい店{みせ}が次々{つぎつぎ}にできている。",
+        "example_translation": "New shops are opening one after another in front of the station."
+      },
+      {
+        "word": "順番",
+        "reading": "じゅんばん",
+        "meaning": "order, turn",
+        "pos": "noun",
+        "example": "順番{じゅんばん}に並{なら}んでください。",
+        "example_translation": "Please line up in order."
+      },
+      {
+        "word": "走り出す",
+        "reading": "はしりだす",
+        "meaning": "to start running",
+        "pos": "godan verb",
+        "example": "信号{しんごう}が青{あお}になると、車{くるま}が走{はし}り出{だ}した。",
+        "example_translation": "When the light turned green, the cars started moving."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜出す",
+        "meaning": "to start doing ~ (often suddenly)",
+        "formation": "Verb ます-stem + 出す",
+        "example": "急{きゅう}に雨{あめ}が降{ふ}り出{だ}した。",
+        "example_translation": "It suddenly started to rain."
+      }
+    ]
+  },
+  {
+    "id": "pp-005",
+    "section": "paraphrase",
+    "question": "一日中{いちにちじゅう}歩{ある}き回{まわ}ったので、[[くたくた]]だ。",
+    "choices": [
+      "おなかがすいている",
+      "とても疲{つか}れている",
+      "足{あし}がとても痛{いた}い",
+      "とても眠{ねむ}い"
+    ],
+    "answer": 1,
+    "translation": "I walked around all day, so I'm exhausted.",
+    "explanation": "くたくた is a mimetic word meaning 'completely exhausted, worn out'. Typical patterns are くたくただ, くたくたになる, and くたくたに疲れる. It describes tiredness of the whole body, usually after hard work or a lot of exercise, so the paraphrase is とても疲れている. A second use is for cloth or vegetables that have gone limp: くたくたのシャツ 'a worn-out shirt', 野菜をくたくたに煮る 'boil vegetables until very soft'. A similar word is へとへと 'exhausted'.",
+    "choice_notes": [
+      "Wrong. 'Hungry' is おなかがすく (or the mimetic ぺこぺこ), not くたくた.",
+      "Correct. とても疲れている 'very tired' = くたくた.",
+      "Wrong. Your feet may hurt after walking, but くたくた means the whole body is exhausted, not a specific pain.",
+      "Wrong. 'Very sleepy' is 眠い; you can be くたくた without being sleepy."
+    ],
+    "vocab": [
+      {
+        "word": "くたくた",
+        "reading": "くたくた",
+        "meaning": "exhausted, worn out; (of cloth, vegetables) limp",
+        "pos": "na-adjective / adverb",
+        "example": "残業{ざんぎょう}が続{つづ}いて、くたくたに疲{つか}れた。",
+        "example_translation": "The overtime kept going, and I got completely worn out."
+      },
+      {
+        "word": "疲れる",
+        "reading": "つかれる",
+        "meaning": "to get tired",
+        "pos": "ichidan verb",
+        "example": "今日{きょう}はたくさん働{はたら}いて疲{つか}れた。",
+        "example_translation": "I worked a lot today and got tired."
+      },
+      {
+        "word": "歩き回る",
+        "reading": "あるきまわる",
+        "meaning": "to walk around (all over a place)",
+        "pos": "godan verb",
+        "example": "駅{えき}の周{まわ}りを一時間{いちじかん}歩{ある}き回{まわ}った。",
+        "example_translation": "I walked around the station area for an hour."
+      },
+      {
+        "word": "へとへと",
+        "reading": "へとへと",
+        "meaning": "exhausted, dead tired",
+        "pos": "na-adjective",
+        "example": "山{やま}に登{のぼ}って、へとへとになった。",
+        "example_translation": "I climbed a mountain and was dead tired."
+      },
+      {
+        "word": "眠い",
+        "reading": "ねむい",
+        "meaning": "sleepy",
+        "pos": "i-adjective",
+        "example": "昨日{きのう}は遅{おそ}くまで起{お}きていたので眠{ねむ}い。",
+        "example_translation": "I'm sleepy because I stayed up late last night."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜回る",
+        "meaning": "to do ~ around, all over (a place)",
+        "formation": "Verb ます-stem + 回る",
+        "example": "子{こ}どもたちが公園{こうえん}を走{はし}り回{まわ}っている。",
+        "example_translation": "The children are running around the park."
+      },
+      {
+        "pattern": "〜中（じゅう）",
+        "meaning": "throughout ~, all over ~",
+        "formation": "Time or place noun + 中 (一日中, 一年中, 世界中)",
+        "example": "夏休{なつやす}みは一日中{いちにちじゅう}ゲームをしていた。",
+        "example_translation": "During summer vacation I played games all day long."
+      }
+    ]
+  },
+  {
+    "id": "pp-006",
+    "section": "paraphrase",
+    "question": "私{わたし}は人{ひと}に[[指図{さしず}]]されるのが嫌{きら}いだ。",
+    "choices": [
+      "注意{ちゅうい}",
+      "相談{そうだん}",
+      "批判{ひはん}",
+      "命令{めいれい}"
+    ],
+    "answer": 3,
+    "translation": "I hate being told what to do by other people.",
+    "explanation": "指図（さしず）means 'instructions, orders, directions' - telling someone what to do. 指図する = to give orders, to boss someone around. It often carries a slightly negative feeling of someone controlling you: 人の指図は受けない 'I won't take orders from anyone', 細かく指図する 'give detailed orders'. The closest word among the choices is 命令（めいれい）'order, command'. 指示（しじ）'instruction' is also a close synonym. In this sentence, 指図される is the passive form: 'to be ordered (by someone)'.",
+    "choice_notes": [
+      "Wrong. 注意 'warning, caution' means pointing out a mistake or danger, not telling someone what to do.",
+      "Wrong. 相談 'consultation' is asking for advice - quite a different relationship.",
+      "Wrong. 批判 'criticism' is judging something as bad, not giving orders.",
+      "Correct. 命令 'order, command' = 指図."
+    ],
+    "vocab": [
+      {
+        "word": "指図",
+        "reading": "さしず",
+        "meaning": "instructions, orders, directions (telling someone what to do)",
+        "pos": "noun / suru verb",
+        "example": "あなたの指図{さしず}は受{う}けません。",
+        "example_translation": "I won't take orders from you."
+      },
+      {
+        "word": "命令",
+        "reading": "めいれい",
+        "meaning": "order, command",
+        "pos": "noun / suru verb",
+        "example": "社長{しゃちょう}の命令{めいれい}で、大阪{おおさか}へ出張{しゅっちょう}した。",
+        "example_translation": "On the president's orders, I went on a business trip to Osaka."
+      },
+      {
+        "word": "指示",
+        "reading": "しじ",
+        "meaning": "instruction, direction",
+        "pos": "noun / suru verb",
+        "example": "先生{せんせい}の指示{しじ}に従{したが}ってください。",
+        "example_translation": "Please follow the teacher's instructions."
+      },
+      {
+        "word": "注意",
+        "reading": "ちゅうい",
+        "meaning": "caution, warning; attention",
+        "pos": "noun / suru verb",
+        "example": "授業中{じゅぎょうちゅう}に話{はな}していて、先生{せんせい}に注意{ちゅうい}された。",
+        "example_translation": "I was told off by the teacher for talking during class."
+      },
+      {
+        "word": "相談",
+        "reading": "そうだん",
+        "meaning": "consultation, asking for advice",
+        "pos": "noun / suru verb",
+        "example": "将来{しょうらい}のことを親{おや}に相談{そうだん}した。",
+        "example_translation": "I talked to my parents about my future."
+      },
+      {
+        "word": "批判",
+        "reading": "ひはん",
+        "meaning": "criticism",
+        "pos": "noun / suru verb",
+        "example": "その計画{けいかく}は多{おお}くの人{ひと}に批判{ひはん}された。",
+        "example_translation": "That plan was criticized by many people."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜（ら）れる（受身）",
+        "meaning": "passive: to be done (by someone)",
+        "formation": "Person + に + passive verb (する → される)",
+        "example": "子{こ}どものころ、よく母{はは}に叱{しか}られた。",
+        "example_translation": "When I was a child, I was often scolded by my mother."
+      },
+      {
+        "pattern": "〜のが好き／嫌いだ",
+        "meaning": "to like / dislike doing ~ (の turns a verb into a noun)",
+        "formation": "Verb plain form + のが好きだ／嫌いだ",
+        "example": "私{わたし}は朝早{あさはや}く起{お}きるのが嫌{きら}いだ。",
+        "example_translation": "I hate getting up early in the morning."
+      }
+    ]
+  },
+  {
+    "id": "pp-007",
+    "section": "paraphrase",
+    "question": "[[あいにく]]、その日{ひ}は予定{よてい}があって、パーティーに行{い}けません。",
+    "choices": [
+      "残念{ざんねん}ですが",
+      "実{じつ}は",
+      "たまたま",
+      "やはり"
+    ],
+    "answer": 0,
+    "translation": "Unfortunately, I have plans that day, so I can't go to the party.",
+    "explanation": "あいにく means 'unfortunately, I'm sorry but...'. It is used when something is inconvenient or does not go the way the listener (or speaker) hoped. It is very common in polite refusals and in customer service: あいにく満席です 'I'm afraid we're full', あいにく品切れです 'I'm sorry, it's sold out'. It can also be used before a noun: あいにくの雨 'unfortunate rain (on a day you hoped for good weather)'. The paraphrase is 残念ですが / 残念ながら 'regrettably'. Using あいにく makes a refusal sound softer and more polite.",
+    "choice_notes": [
+      "Correct. 残念ですが 'I'm sorry, but / unfortunately' = あいにく.",
+      "Wrong. 実は 'actually, to tell the truth' introduces hidden information; it does not express regret.",
+      "Wrong. たまたま 'by chance' only says something happened accidentally, with no sense of 'I'm sorry'.",
+      "Wrong. やはり 'as expected, after all' says something matches expectation."
+    ],
+    "vocab": [
+      {
+        "word": "あいにく",
+        "reading": "あいにく",
+        "meaning": "unfortunately, I'm sorry but",
+        "pos": "adverb / na-adjective",
+        "example": "あいにく、その商品{しょうひん}は売{う}り切{き}れです。",
+        "example_translation": "Unfortunately, that item is sold out."
+      },
+      {
+        "word": "残念",
+        "reading": "ざんねん",
+        "meaning": "regrettable, disappointing, a pity",
+        "pos": "na-adjective",
+        "example": "試合{しあい}に負{ま}けて残念{ざんねん}だった。",
+        "example_translation": "It was a pity that we lost the match."
+      },
+      {
+        "word": "実は",
+        "reading": "じつは",
+        "meaning": "actually, to tell the truth",
+        "pos": "adverb",
+        "example": "実{じつ}は、来月{らいげつ}結婚{けっこん}するんです。",
+        "example_translation": "Actually, I'm getting married next month."
+      },
+      {
+        "word": "たまたま",
+        "reading": "たまたま",
+        "meaning": "by chance, happen to",
+        "pos": "adverb",
+        "example": "たまたま入{はい}った店{みせ}がとてもおいしかった。",
+        "example_translation": "The restaurant I happened to walk into was really good."
+      },
+      {
+        "word": "やはり",
+        "reading": "やはり",
+        "meaning": "as expected, after all (casual: やっぱり)",
+        "pos": "adverb",
+        "example": "やはり彼{かれ}の言{い}ったとおりだった。",
+        "example_translation": "It was just as he had said, after all."
+      },
+      {
+        "word": "予定",
+        "reading": "よてい",
+        "meaning": "plan, schedule",
+        "pos": "noun",
+        "example": "週末{しゅうまつ}の予定{よてい}はもう決{き}まった。",
+        "example_translation": "My plans for the weekend are already decided."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜て（理由）",
+        "meaning": "because ~, ~ and so (the て-form showing a cause)",
+        "formation": "Verb / adjective て-form + result",
+        "example": "風邪{かぜ}をひいて、学校{がっこう}を休{やす}んだ。",
+        "example_translation": "I caught a cold, so I stayed home from school."
+      }
+    ]
+  },
+  {
+    "id": "pp-008",
+    "section": "paraphrase",
+    "question": "彼女{かのじょ}は[[見事{みごと}な]]演技{えんぎ}で、大会{たいかい}で優勝{ゆうしょう}した。",
+    "choices": [
+      "珍{めずら}しい",
+      "新{あたら}しい",
+      "すばらしい",
+      "難{むずか}しい"
+    ],
+    "answer": 2,
+    "translation": "She won the competition with a splendid performance.",
+    "explanation": "見事（みごと）is a na-adjective meaning 'splendid, wonderful, admirable, beautifully done'. It praises a result, a skill, or a sight: 見事な演技 'a superb performance', 見事な桜 'magnificent cherry blossoms', 見事に合格した 'passed brilliantly'. The simplest synonym is すばらしい. Interestingly, 見事に can also be used ironically for a complete failure: 見事に失敗した 'failed spectacularly'. In both cases the core idea is 'completely, perfectly'.",
+    "choice_notes": [
+      "Wrong. 珍しい 'rare, unusual' says the performance is uncommon, not that it is excellent.",
+      "Wrong. 新しい 'new' says nothing about quality.",
+      "Correct. すばらしい 'wonderful, splendid' = 見事な.",
+      "Wrong. 難しい 'difficult' describes the level of difficulty, not how well it was done."
+    ],
+    "vocab": [
+      {
+        "word": "見事",
+        "reading": "みごと",
+        "meaning": "splendid, wonderful, admirable; (見事に) completely",
+        "pos": "na-adjective",
+        "example": "庭{にわ}の桜{さくら}が見事{みごと}に咲{さ}いた。",
+        "example_translation": "The cherry tree in the garden bloomed magnificently."
+      },
+      {
+        "word": "すばらしい",
+        "reading": "すばらしい",
+        "meaning": "wonderful, splendid",
+        "pos": "i-adjective",
+        "example": "山{やま}の上{うえ}からの景色{けしき}はすばらしかった。",
+        "example_translation": "The view from the top of the mountain was wonderful."
+      },
+      {
+        "word": "演技",
+        "reading": "えんぎ",
+        "meaning": "performance, acting",
+        "pos": "noun / suru verb",
+        "example": "あの俳優{はいゆう}の演技{えんぎ}はとても自然{しぜん}だ。",
+        "example_translation": "That actor's acting is very natural."
+      },
+      {
+        "word": "大会",
+        "reading": "たいかい",
+        "meaning": "tournament, competition, convention",
+        "pos": "noun",
+        "example": "来月{らいげつ}、テニスの大会{たいかい}に出{で}る。",
+        "example_translation": "I'm entering a tennis tournament next month."
+      },
+      {
+        "word": "優勝",
+        "reading": "ゆうしょう",
+        "meaning": "winning (a championship), victory",
+        "pos": "noun / suru verb",
+        "example": "私{わたし}たちのチームが優勝{ゆうしょう}した。",
+        "example_translation": "Our team won the championship."
+      },
+      {
+        "word": "珍しい",
+        "reading": "めずらしい",
+        "meaning": "rare, unusual",
+        "pos": "i-adjective",
+        "example": "公園{こうえん}で珍{めずら}しい鳥{とり}を見{み}つけた。",
+        "example_translation": "I found a rare bird in the park."
+      }
+    ],
+    "grammar": []
+  },
+  {
+    "id": "pp-009",
+    "section": "paraphrase",
+    "question": "仕事{しごと}が[[ひとまず]]終{お}わったので、お茶{ちゃ}にしましょう。",
+    "choices": [
+      "やっと",
+      "すべて",
+      "もう一度{いちど}",
+      "とりあえず"
+    ],
+    "answer": 3,
+    "translation": "The work is done for now, so let's have some tea.",
+    "explanation": "ひとまず means 'for now, for the time being, for the moment'. It marks something as a temporary step before continuing: ひとまず休もう 'let's take a break for now', ひとまず安心した 'I was relieved for the moment'. It implies there is still more to do later, or that the situation is not completely settled. Synonyms: とりあえず, いったん, 一応. Do not confuse it with やっと 'at last', which stresses the long effort or wait before something finished.",
+    "choice_notes": [
+      "Wrong. やっと 'finally, at last' focuses on the long effort; it does not mean 'for now'.",
+      "Wrong. すべて 'all, entirely' says everything is finished, but ひとまず suggests there is still more to do later.",
+      "Wrong. もう一度 'once more' is about repetition.",
+      "Correct. とりあえず 'for now, for the time being' = ひとまず."
+    ],
+    "vocab": [
+      {
+        "word": "ひとまず",
+        "reading": "ひとまず",
+        "meaning": "for now, for the time being, for the moment",
+        "pos": "adverb",
+        "example": "ひとまず家{いえ}に帰{かえ}って、明日{あした}また考{かんが}えよう。",
+        "example_translation": "Let's go home for now and think about it again tomorrow."
+      },
+      {
+        "word": "とりあえず",
+        "reading": "とりあえず",
+        "meaning": "for now, first of all, for the time being",
+        "pos": "adverb",
+        "example": "とりあえず、飲{の}み物{もの}を注文{ちゅうもん}しよう。",
+        "example_translation": "Let's order drinks first, for now."
+      },
+      {
+        "word": "やっと",
+        "reading": "やっと",
+        "meaning": "finally, at last (after effort or waiting)",
+        "pos": "adverb",
+        "example": "やっと宿題{しゅくだい}が終{お}わった。",
+        "example_translation": "I've finally finished my homework."
+      },
+      {
+        "word": "すべて",
+        "reading": "すべて",
+        "meaning": "all, everything, entirely",
+        "pos": "noun / adverb",
+        "example": "問題{もんだい}はすべて解決{かいけつ}した。",
+        "example_translation": "All the problems have been solved."
+      },
+      {
+        "word": "いったん",
+        "reading": "いったん",
+        "meaning": "once; for a moment, temporarily",
+        "pos": "adverb",
+        "example": "いったん休憩{きゅうけい}してから、また始{はじ}めましょう。",
+        "example_translation": "Let's take a short break and then start again."
+      },
+      {
+        "word": "一応",
+        "reading": "いちおう",
+        "meaning": "for the time being; just in case; more or less",
+        "pos": "adverb",
+        "example": "一応{いちおう}、傘{かさ}を持{も}って行{い}こう。",
+        "example_translation": "I'll take an umbrella, just in case."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜にする",
+        "meaning": "to decide on ~, to have ~ (お茶にする 'let's have a tea break')",
+        "formation": "Noun + にする",
+        "example": "飲{の}み物{もの}はコーヒーにします。",
+        "example_translation": "I'll have coffee to drink."
+      }
+    ]
+  },
+  {
+    "id": "pp-010",
+    "section": "paraphrase",
+    "question": "この書類{しょるい}を[[至急{しきゅう}]]送{おく}ってください。",
+    "choices": [
+      "必{かなら}ず",
+      "直接{ちょくせつ}",
+      "大急{おおいそ}ぎで",
+      "あとで"
+    ],
+    "answer": 2,
+    "translation": "Please send these documents urgently.",
+    "explanation": "至急（しきゅう）means 'urgently, as soon as possible, immediately'. It is a formal word often used in business and on notices: 至急ご連絡ください 'please contact us urgently', 至急の用事 'an urgent matter', 大至急 'extremely urgent'. It can be used as an adverb by itself (至急送る) or with の before a noun (至急の連絡). The plain paraphrase is 大急ぎで / できるだけ早く / すぐに.",
+    "choice_notes": [
+      "Wrong. 必ず 'without fail' stresses certainty, not speed.",
+      "Wrong. 直接 'directly (without anyone in between), in person' is about the route, not the timing.",
+      "Correct. 大急ぎで 'in a great hurry' = 至急.",
+      "Wrong. あとで 'later' is the opposite."
+    ],
+    "vocab": [
+      {
+        "word": "至急",
+        "reading": "しきゅう",
+        "meaning": "urgently, as soon as possible",
+        "pos": "noun / adverb",
+        "example": "至急{しきゅう}、確認{かくにん}をお願{ねが}いします。",
+        "example_translation": "Please check this urgently."
+      },
+      {
+        "word": "大急ぎ",
+        "reading": "おおいそぎ",
+        "meaning": "great haste, a big hurry",
+        "pos": "noun / na-adjective",
+        "example": "寝坊{ねぼう}したので、大急{おおいそ}ぎで支度{したく}をした。",
+        "example_translation": "I overslept, so I got ready in a big hurry."
+      },
+      {
+        "word": "書類",
+        "reading": "しょるい",
+        "meaning": "documents, papers",
+        "pos": "noun",
+        "example": "必要{ひつよう}な書類{しょるい}をそろえてください。",
+        "example_translation": "Please gather the necessary documents."
+      },
+      {
+        "word": "直接",
+        "reading": "ちょくせつ",
+        "meaning": "directly, in person",
+        "pos": "noun / adverb",
+        "example": "大事{だいじ}な話{はなし}は直接{ちょくせつ}会{あ}って話{はな}したい。",
+        "example_translation": "I want to talk about important matters in person."
+      },
+      {
+        "word": "必ず",
+        "reading": "かならず",
+        "meaning": "without fail, certainly, always",
+        "pos": "adverb",
+        "example": "明日{あした}は必{かなら}ず来{き}てください。",
+        "example_translation": "Please be sure to come tomorrow."
+      },
+      {
+        "word": "連絡",
+        "reading": "れんらく",
+        "meaning": "contact, getting in touch",
+        "pos": "noun / suru verb",
+        "example": "駅{えき}に着{つ}いたら連絡{れんらく}します。",
+        "example_translation": "I'll contact you when I get to the station."
+      }
+    ],
+    "grammar": []
+  },
+  {
+    "id": "pp-011",
+    "section": "paraphrase",
+    "question": "警察{けいさつ}は事件{じけん}の[[手{て}がかり]]を探{さが}している。",
+    "choices": [
+      "犯人{はんにん}",
+      "ヒント",
+      "原因{げんいん}",
+      "目撃者{もくげきしゃ}"
+    ],
+    "answer": 1,
+    "translation": "The police are looking for clues to the case.",
+    "explanation": "手がかり（てがかり）means 'a clue, a lead' - a piece of information that helps you solve a problem or find something. Typical phrases: 事件の手がかり 'a clue to the case', 解決の手がかり 'a lead toward a solution', 手がかりをつかむ 'to get hold of a clue', 手がかりがない 'there are no clues'. The katakana word ヒント 'hint' expresses the same idea. (The word comes from 手 'hand' + かかり 'something to hold on to', like a handhold when climbing.) The distractors are all words connected with crimes, so read carefully: a 手がかり is information, not a person and not the cause itself.",
+    "choice_notes": [
+      "Wrong. 犯人 'the criminal' is the person the police want to catch, not a clue.",
+      "Correct. ヒント 'hint, clue' = 手がかり.",
+      "Wrong. 原因 'cause' is the reason something happened; a 手がかり is information that helps find the answer.",
+      "Wrong. 目撃者 'witness' is a person who saw the event. A witness may give a clue, but the two words do not mean the same."
+    ],
+    "vocab": [
+      {
+        "word": "手がかり",
+        "reading": "てがかり",
+        "meaning": "clue, lead",
+        "pos": "noun",
+        "example": "なくした財布{さいふ}の手{て}がかりは何{なに}もない。",
+        "example_translation": "There's no clue at all about where my lost wallet is."
+      },
+      {
+        "word": "ヒント",
+        "reading": "ヒント",
+        "meaning": "hint, clue",
+        "pos": "noun",
+        "example": "先生{せんせい}がヒントをくれたので、答{こた}えがわかった。",
+        "example_translation": "The teacher gave me a hint, so I figured out the answer."
+      },
+      {
+        "word": "警察",
+        "reading": "けいさつ",
+        "meaning": "police",
+        "pos": "noun",
+        "example": "道{みち}で拾{ひろ}った財布{さいふ}を警察{けいさつ}に届{とど}けた。",
+        "example_translation": "I took the wallet I found on the street to the police."
+      },
+      {
+        "word": "事件",
+        "reading": "じけん",
+        "meaning": "incident, case (often a crime)",
+        "pos": "noun",
+        "example": "昨日{きのう}、近所{きんじょ}で事件{じけん}があった。",
+        "example_translation": "There was an incident in my neighborhood yesterday."
+      },
+      {
+        "word": "犯人",
+        "reading": "はんにん",
+        "meaning": "criminal, culprit",
+        "pos": "noun",
+        "example": "犯人{はんにん}はまだ捕{つか}まっていない。",
+        "example_translation": "The culprit has not been caught yet."
+      },
+      {
+        "word": "原因",
+        "reading": "げんいん",
+        "meaning": "cause",
+        "pos": "noun",
+        "example": "事故{じこ}の原因{げんいん}を調{しら}べている。",
+        "example_translation": "They are investigating the cause of the accident."
+      },
+      {
+        "word": "目撃者",
+        "reading": "もくげきしゃ",
+        "meaning": "witness, eyewitness",
+        "pos": "noun",
+        "example": "事故{じこ}の目撃者{もくげきしゃ}を探{さが}しています。",
+        "example_translation": "We are looking for witnesses to the accident."
+      }
+    ],
+    "grammar": []
+  },
+  {
+    "id": "pp-012",
+    "section": "paraphrase",
+    "question": "最近{さいきん}この辺{へん}で泥棒{どろぼう}が多{おお}いので、[[用心{ようじん}した]]ほうがいい。",
+    "choices": [
+      "気{き}をつけた",
+      "引{ひ}っ越{こ}した",
+      "警察{けいさつ}に知{し}らせた",
+      "早{はや}く帰{かえ}った"
+    ],
+    "answer": 0,
+    "translation": "There have been a lot of burglaries around here lately, so you'd better be careful.",
+    "explanation": "用心する（ようじんする）means 'to be careful, to take precautions, to be on guard' against danger or trouble. 用心 is used especially for crime, fire, and illness: 火の用心 'beware of fire' (a traditional slogan), 用心深い 'very cautious', 用心のため 'as a precaution, just to be safe'. The everyday paraphrase is 気をつける. Choices 2-4 are concrete actions someone might take because of burglaries, but 用心する itself only means 'to be careful'.",
+    "choice_notes": [
+      "Correct. 気をつける 'to be careful' = 用心する.",
+      "Wrong. 引っ越す 'to move house' is a specific action, not the general idea of being careful.",
+      "Wrong. 警察に知らせる 'to inform the police' is something you do after a problem happens.",
+      "Wrong. 早く帰る 'to go home early' could be one precaution, but it is not the meaning of 用心する."
+    ],
+    "vocab": [
+      {
+        "word": "用心",
+        "reading": "ようじん",
+        "meaning": "care, caution, precaution",
+        "pos": "noun / suru verb",
+        "example": "風邪{かぜ}がはやっているので、用心{ようじん}してください。",
+        "example_translation": "Colds are going around, so please take care."
+      },
+      {
+        "word": "気をつける",
+        "reading": "きをつける",
+        "meaning": "to be careful, to pay attention",
+        "pos": "expression (ichidan verb)",
+        "example": "車{くるま}に気{き}をつけて帰{かえ}ってね。",
+        "example_translation": "Watch out for cars on your way home."
+      },
+      {
+        "word": "泥棒",
+        "reading": "どろぼう",
+        "meaning": "thief, burglar; theft",
+        "pos": "noun",
+        "example": "泥棒{どろぼう}に自転車{じてんしゃ}を盗{ぬす}まれた。",
+        "example_translation": "My bicycle was stolen by a thief."
+      },
+      {
+        "word": "引っ越す",
+        "reading": "ひっこす",
+        "meaning": "to move (house)",
+        "pos": "godan verb",
+        "example": "来月{らいげつ}、東京{とうきょう}に引{ひ}っ越{こ}す。",
+        "example_translation": "I'm moving to Tokyo next month."
+      },
+      {
+        "word": "知らせる",
+        "reading": "しらせる",
+        "meaning": "to inform, to notify, to let know",
+        "pos": "ichidan verb",
+        "example": "試験{しけん}の結果{けっか}を家族{かぞく}に知{し}らせた。",
+        "example_translation": "I told my family the results of the exam."
+      },
+      {
+        "word": "この辺",
+        "reading": "このへん",
+        "meaning": "this area, around here",
+        "pos": "noun",
+        "example": "この辺{へん}にコンビニはありますか。",
+        "example_translation": "Is there a convenience store around here?"
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜たほうがいい",
+        "meaning": "you had better ~, it would be better to ~ (advice)",
+        "formation": "Verb た-form + ほうがいい",
+        "example": "熱{ねつ}があるなら、早{はや}く寝{ね}たほうがいい。",
+        "example_translation": "If you have a fever, you'd better go to bed early."
+      }
+    ]
+  },
+  {
+    "id": "pp-013",
+    "section": "paraphrase",
+    "question": "彼{かれ}はいつも遅{おく}れてくるが、今日{きょう}も[[案{あん}の定{じょう}]]遅刻{ちこく}した。",
+    "choices": [
+      "思{おも}ったとおり",
+      "珍{めずら}しく",
+      "急{きゅう}に",
+      "少{すこ}しだけ"
+    ],
+    "answer": 0,
+    "translation": "He always comes late, and today too, just as I expected, he was late.",
+    "explanation": "案の定（あんのじょう）means 'just as expected, sure enough' - something happened exactly as you had predicted, usually something bad or undesirable: 案の定雨が降ってきた 'sure enough, it started to rain', 案の定失敗した 'failed, just as I thought he would'. Paraphrases: 思ったとおり, やはり / やっぱり. The opposite idea is 意外に / 予想外 'unexpectedly'. In this sentence the clue is いつも遅れてくる 'he is always late': being late again is exactly what the speaker predicted.",
+    "choice_notes": [
+      "Correct. 思ったとおり 'just as I thought' = 案の定.",
+      "Wrong. 珍しく 'unusually' is the opposite: he is always late, so being late is not unusual.",
+      "Wrong. 急に 'suddenly' does not express that the event matched a prediction.",
+      "Wrong. 少しだけ 'only a little' describes how late he was, not that it was expected."
+    ],
+    "vocab": [
+      {
+        "word": "案の定",
+        "reading": "あんのじょう",
+        "meaning": "just as expected, sure enough",
+        "pos": "adverb",
+        "example": "傘{かさ}を持{も}たずに出{で}かけたら、案{あん}の定{じょう}雨{あめ}が降{ふ}ってきた。",
+        "example_translation": "I went out without an umbrella and, sure enough, it started to rain."
+      },
+      {
+        "word": "思ったとおり",
+        "reading": "おもったとおり",
+        "meaning": "just as I thought, as expected",
+        "pos": "expression",
+        "example": "思{おも}ったとおり、試験{しけん}は難{むずか}しかった。",
+        "example_translation": "Just as I thought, the exam was difficult."
+      },
+      {
+        "word": "遅刻",
+        "reading": "ちこく",
+        "meaning": "being late (for school, work, an appointment)",
+        "pos": "noun / suru verb",
+        "example": "寝坊{ねぼう}して学校{がっこう}に遅刻{ちこく}した。",
+        "example_translation": "I overslept and was late for school."
+      },
+      {
+        "word": "やっぱり",
+        "reading": "やっぱり",
+        "meaning": "as expected, after all (casual form of やはり)",
+        "pos": "adverb",
+        "example": "迷{まよ}ったけど、やっぱり赤{あか}いほうを買{か}った。",
+        "example_translation": "I hesitated, but in the end I bought the red one after all."
+      },
+      {
+        "word": "遅れる",
+        "reading": "おくれる",
+        "meaning": "to be late, to be delayed",
+        "pos": "ichidan verb",
+        "example": "バスが十分{じゅっぷん}遅{おく}れて来{き}た。",
+        "example_translation": "The bus came ten minutes late."
+      },
+      {
+        "word": "珍しく",
+        "reading": "めずらしく",
+        "meaning": "unusually, for a change",
+        "pos": "adverb",
+        "example": "今朝{けさ}は珍{めずら}しく早{はや}く起{お}きた。",
+        "example_translation": "This morning I got up early for a change."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜とおり（に）",
+        "meaning": "just as ~, in the same way as ~",
+        "formation": "Verb plain form + とおり（に） / Noun + の + とおり（に） / Noun + どおり（に）",
+        "example": "説明書{せつめいしょ}に書{か}いてあるとおりに組{く}み立{た}てた。",
+        "example_translation": "I assembled it exactly as written in the instructions."
+      }
+    ]
+  },
+  {
+    "id": "pp-014",
+    "section": "paraphrase",
+    "question": "それは[[ありふれた]]話{はなし}で、特{とく}に驚{おどろ}くようなことではない。",
+    "choices": [
+      "珍{めずら}しい",
+      "よくある",
+      "本当{ほんとう}の",
+      "昔{むかし}の"
+    ],
+    "answer": 1,
+    "translation": "That's a very common story; it's nothing particularly surprising.",
+    "explanation": "ありふれた means 'common, ordinary, commonplace, nothing special'. It comes from the verb ありふれる 'to be found everywhere' and is almost always used in the form ありふれた + noun: ありふれた名前 'a common name', ありふれたデザイン 'an ordinary design', ありふれた日常 'everyday life'. It often has a slightly negative feeling of 'not original, nothing special'. Paraphrases: よくある, どこにでもある, 珍しくない. The opposite is 珍しい 'rare'. The second half of the sentence (特に驚くようなことではない 'nothing especially surprising') is the clue.",
+    "choice_notes": [
+      "Wrong. 珍しい 'rare, unusual' is the opposite of ありふれた.",
+      "Correct. よくある 'common, often seen' = ありふれた.",
+      "Wrong. 本当の 'true, real' is about truth, not about how common the story is.",
+      "Wrong. 昔の 'old, from long ago' is about time."
+    ],
+    "vocab": [
+      {
+        "word": "ありふれた",
+        "reading": "ありふれた",
+        "meaning": "common, ordinary, commonplace",
+        "pos": "expression (from the verb ありふれる; used before nouns)",
+        "example": "ありふれた名前{なまえ}なので、すぐ忘{わす}れられてしまう。",
+        "example_translation": "It's such a common name that people forget it right away."
+      },
+      {
+        "word": "よくある",
+        "reading": "よくある",
+        "meaning": "common, that often happens",
+        "pos": "expression",
+        "example": "それは初心者{しょしんしゃ}によくある間違{まちが}いだ。",
+        "example_translation": "That's a common mistake among beginners."
+      },
+      {
+        "word": "珍しい",
+        "reading": "めずらしい",
+        "meaning": "rare, unusual",
+        "pos": "i-adjective",
+        "example": "彼{かれ}が休{やす}むなんて珍{めずら}しい。",
+        "example_translation": "It's unusual for him to take a day off."
+      },
+      {
+        "word": "驚く",
+        "reading": "おどろく",
+        "meaning": "to be surprised, to be amazed",
+        "pos": "godan verb",
+        "example": "値段{ねだん}の高{たか}さに驚{おどろ}いた。",
+        "example_translation": "I was surprised at how expensive it was."
+      },
+      {
+        "word": "特に",
+        "reading": "とくに",
+        "meaning": "especially, particularly",
+        "pos": "adverb",
+        "example": "特{とく}に問題{もんだい}はありません。",
+        "example_translation": "There are no particular problems."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜ような + noun",
+        "meaning": "the kind of (noun) that ~, (noun) such that ~",
+        "formation": "Verb plain form + ような + noun",
+        "example": "泣{な}きたくなるような悲{かな}しい映画{えいが}だった。",
+        "example_translation": "It was the kind of sad movie that makes you want to cry."
+      }
+    ]
+  },
+  {
+    "id": "pp-015",
+    "section": "paraphrase",
+    "question": "兄{あに}からもらった靴{くつ}は、私{わたし}には[[ぶかぶか]]だ。",
+    "choices": [
+      "小{ちい}さすぎる",
+      "重{おも}すぎる",
+      "大{おお}きすぎる",
+      "古{ふる}すぎる"
+    ],
+    "answer": 2,
+    "translation": "The shoes I got from my older brother are much too big for me.",
+    "explanation": "ぶかぶか is a mimetic word describing clothes, shoes, or hats that are much too big or loose for the wearer: ぶかぶかの服 'baggy clothes', 靴がぶかぶかだ 'my shoes are too big'. The paraphrase is 大きすぎる. The opposite feeling (too tight) is きつい, or 窮屈（きゅうくつ）for clothes that feel cramped. Note that ぶかぶか is only about size and fit, not about weight or age. The context also helps: shoes handed down from an older brother are likely to be too big.",
+    "choice_notes": [
+      "Wrong. 小さすぎる 'too small' is the opposite; for that you would say きつい.",
+      "Wrong. 重すぎる 'too heavy' is about weight, not size.",
+      "Correct. 大きすぎる 'too big' = ぶかぶか.",
+      "Wrong. 古すぎる 'too old' is about age."
+    ],
+    "vocab": [
+      {
+        "word": "ぶかぶか",
+        "reading": "ぶかぶか",
+        "meaning": "too big, loose-fitting, baggy (clothes, shoes)",
+        "pos": "na-adjective",
+        "example": "父{ちち}のシャツを着{き}たら、ぶかぶかだった。",
+        "example_translation": "When I put on my father's shirt, it was way too big."
+      },
+      {
+        "word": "きつい",
+        "reading": "きつい",
+        "meaning": "tight; hard, tough",
+        "pos": "i-adjective",
+        "example": "太{ふと}ったので、ズボンがきつくなった。",
+        "example_translation": "I gained weight, so my trousers got tight."
+      },
+      {
+        "word": "窮屈",
+        "reading": "きゅうくつ",
+        "meaning": "cramped, tight; constrained",
+        "pos": "na-adjective",
+        "example": "この服{ふく}は肩{かた}のところが窮屈{きゅうくつ}だ。",
+        "example_translation": "These clothes feel tight around the shoulders."
+      },
+      {
+        "word": "靴",
+        "reading": "くつ",
+        "meaning": "shoes",
+        "pos": "noun",
+        "example": "新{あたら}しい靴{くつ}をはいて出{で}かけた。",
+        "example_translation": "I went out wearing my new shoes."
+      },
+      {
+        "word": "重い",
+        "reading": "おもい",
+        "meaning": "heavy",
+        "pos": "i-adjective",
+        "example": "この箱{はこ}は重{おも}くて一人{ひとり}では持{も}てない。",
+        "example_translation": "This box is so heavy I can't carry it alone."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜すぎる",
+        "meaning": "too ~, excessively ~",
+        "formation": "i-adjective stem (大き) / na-adjective / Verb ます-stem + すぎる",
+        "example": "食{た}べすぎて、おなかが痛{いた}い。",
+        "example_translation": "I ate too much and my stomach hurts."
+      }
+    ]
+  },
+  {
+    "id": "pp-016",
+    "section": "paraphrase",
+    "question": "火事{かじ}を見{み}つけたら、[[ただちに]]119番{ばん}に電話{でんわ}してください。",
+    "choices": [
+      "必{かなら}ず",
+      "落{お}ち着{つ}いて",
+      "自分{じぶん}で",
+      "すぐに"
+    ],
+    "answer": 3,
+    "translation": "If you discover a fire, call 119 immediately.",
+    "explanation": "ただちに（直ちに）means 'immediately, at once, without delay'. It is a formal, written-style word often used in rules, announcements and news: ただちに避難してください 'please evacuate immediately', ただちに中止する 'stop at once'. In everyday conversation people usually say すぐに. Compare たちまち: たちまち describes something that happens quickly by itself (たちまち売り切れた), while ただちに is mostly used for actions people should take or took deliberately (ただちに連絡する). (119 is the emergency number for fire and ambulance in Japan.)",
+    "choice_notes": [
+      "Wrong. 必ず 'without fail' is about certainty, not timing.",
+      "Wrong. 落ち着いて 'calmly' describes the manner, not the timing.",
+      "Wrong. 自分で 'by yourself' is about who does it.",
+      "Correct. すぐに 'right away' = ただちに."
+    ],
+    "vocab": [
+      {
+        "word": "直ちに",
+        "reading": "ただちに",
+        "meaning": "immediately, at once (formal)",
+        "pos": "adverb",
+        "example": "けが人{にん}は直{ただ}ちに病院{びょういん}に運{はこ}ばれた。",
+        "example_translation": "The injured were immediately taken to the hospital."
+      },
+      {
+        "word": "すぐに",
+        "reading": "すぐに",
+        "meaning": "right away, immediately",
+        "pos": "adverb",
+        "example": "家{いえ}に帰{かえ}ったら、すぐに寝{ね}た。",
+        "example_translation": "When I got home, I went straight to bed."
+      },
+      {
+        "word": "火事",
+        "reading": "かじ",
+        "meaning": "fire (a building or place on fire)",
+        "pos": "noun",
+        "example": "昨夜{さくや}、近{ちか}くで火事{かじ}があった。",
+        "example_translation": "There was a fire nearby last night."
+      },
+      {
+        "word": "見つける",
+        "reading": "みつける",
+        "meaning": "to find, to discover",
+        "pos": "ichidan verb",
+        "example": "やっといいアパートを見{み}つけた。",
+        "example_translation": "I finally found a good apartment."
+      },
+      {
+        "word": "落ち着く",
+        "reading": "おちつく",
+        "meaning": "to calm down, to be calm",
+        "pos": "godan verb",
+        "example": "落{お}ち着{つ}いて、ゆっくり話{はな}してください。",
+        "example_translation": "Please calm down and speak slowly."
+      },
+      {
+        "word": "避難",
+        "reading": "ひなん",
+        "meaning": "evacuation, taking refuge",
+        "pos": "noun / suru verb",
+        "example": "地震{じしん}のあと、住民{じゅうみん}は学校{がっこう}に避難{ひなん}した。",
+        "example_translation": "After the earthquake, the residents took refuge at the school."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜たら",
+        "meaning": "if ~, when ~ (once ~ happens)",
+        "formation": "Verb た-form + ら",
+        "example": "駅{えき}に着{つ}いたら、電話{でんわ}してください。",
+        "example_translation": "When you get to the station, please call me."
+      }
+    ]
+  },
+  {
+    "id": "pp-017",
+    "section": "paraphrase",
+    "question": "もうすぐ出{で}かけるから、早{はや}く[[支度{したく}]]をしなさい。",
+    "choices": [
+      "約束{やくそく}",
+      "掃除{そうじ}",
+      "準備{じゅんび}",
+      "連絡{れんらく}"
+    ],
+    "answer": 2,
+    "translation": "We're leaving soon, so hurry up and get ready.",
+    "explanation": "支度（したく）means 'preparation, getting ready', especially everyday preparations such as getting dressed to go out or preparing a meal: 出かける支度 'getting ready to go out', 夕食の支度 'preparing dinner', 身支度 'getting oneself dressed and ready'. The general word is 準備（じゅんび）'preparation'. 支度 sounds a little more traditional and is mostly used for personal or household preparations, while 準備 can be used for anything (試験の準備, 会議の準備).",
+    "choice_notes": [
+      "Wrong. 約束 'promise, appointment' does not fit 'hurry up and do ~ because we're leaving'.",
+      "Wrong. 掃除 'cleaning' is a different task.",
+      "Correct. 準備 'preparation' = 支度.",
+      "Wrong. 連絡 'contacting someone' does not mean getting ready."
+    ],
+    "vocab": [
+      {
+        "word": "支度",
+        "reading": "したく",
+        "meaning": "preparation, getting ready",
+        "pos": "noun / suru verb",
+        "example": "母{はは}は台所{だいどころ}で夕食{ゆうしょく}の支度{したく}をしている。",
+        "example_translation": "My mother is preparing dinner in the kitchen."
+      },
+      {
+        "word": "準備",
+        "reading": "じゅんび",
+        "meaning": "preparation",
+        "pos": "noun / suru verb",
+        "example": "試験{しけん}の準備{じゅんび}はできましたか。",
+        "example_translation": "Are you ready for the exam?"
+      },
+      {
+        "word": "身支度",
+        "reading": "みじたく",
+        "meaning": "getting dressed, getting oneself ready",
+        "pos": "noun / suru verb",
+        "example": "急{いそ}いで身支度{みじたく}をして家{いえ}を出{で}た。",
+        "example_translation": "I quickly got myself ready and left the house."
+      },
+      {
+        "word": "約束",
+        "reading": "やくそく",
+        "meaning": "promise, appointment",
+        "pos": "noun / suru verb",
+        "example": "約束{やくそく}を守{まも}るのは大切{たいせつ}だ。",
+        "example_translation": "Keeping promises is important."
+      },
+      {
+        "word": "掃除",
+        "reading": "そうじ",
+        "meaning": "cleaning",
+        "pos": "noun / suru verb",
+        "example": "週末{しゅうまつ}に部屋{へや}を掃除{そうじ}した。",
+        "example_translation": "I cleaned my room on the weekend."
+      },
+      {
+        "word": "連絡",
+        "reading": "れんらく",
+        "meaning": "contact, getting in touch",
+        "pos": "noun / suru verb",
+        "example": "遅{おく}れるときは連絡{れんらく}してください。",
+        "example_translation": "Please let me know when you're going to be late."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜なさい",
+        "meaning": "do ~ (a command, e.g. from a parent or teacher)",
+        "formation": "Verb ます-stem + なさい",
+        "example": "もう遅{おそ}いから、早{はや}く寝{ね}なさい。",
+        "example_translation": "It's late, so go to bed now."
+      }
+    ]
+  },
+  {
+    "id": "pp-018",
+    "section": "paraphrase",
+    "question": "徹夜{てつや}して、レポートを一晩{ひとばん}で[[仕上{しあ}げた]]。",
+    "choices": [
+      "完成{かんせい}させた",
+      "書{か}き始{はじ}めた",
+      "書{か}き直{なお}した",
+      "提出{ていしゅつ}した"
+    ],
+    "answer": 0,
+    "translation": "I stayed up all night and finished the report in one night.",
+    "explanation": "仕上げる（しあげる）means 'to finish, to complete, to put the finishing touches on' a piece of work: レポートを仕上げる 'finish a report', 絵を仕上げる 'finish a painting', 仕事を期限までに仕上げる 'finish the job by the deadline'. The noun is 仕上げ 'finishing (touches)'. The paraphrase is 完成させる 'to complete'. It is about the work reaching its finished state, not about handing it in (提出する) - a common trap.",
+    "choice_notes": [
+      "Correct. 完成させる 'to complete' = 仕上げる.",
+      "Wrong. 書き始める 'to start writing' is the opposite end of the process.",
+      "Wrong. 書き直す 'to rewrite' means doing it again.",
+      "Wrong. 提出する 'to submit' is what you do after finishing; it is a different action."
+    ],
+    "vocab": [
+      {
+        "word": "仕上げる",
+        "reading": "しあげる",
+        "meaning": "to finish, to complete (a piece of work)",
+        "pos": "ichidan verb",
+        "example": "この絵{え}は三{さん}か月{げつ}かけて仕上{しあ}げた。",
+        "example_translation": "I spent three months finishing this painting."
+      },
+      {
+        "word": "完成",
+        "reading": "かんせい",
+        "meaning": "completion",
+        "pos": "noun / suru verb",
+        "example": "新{あたら}しい駅{えき}が来年{らいねん}完成{かんせい}する。",
+        "example_translation": "The new station will be completed next year."
+      },
+      {
+        "word": "徹夜",
+        "reading": "てつや",
+        "meaning": "staying up all night",
+        "pos": "noun / suru verb",
+        "example": "試験{しけん}の前{まえ}の日{ひ}に徹夜{てつや}してしまった。",
+        "example_translation": "I ended up staying up all night the day before the exam."
+      },
+      {
+        "word": "一晩",
+        "reading": "ひとばん",
+        "meaning": "one night, overnight",
+        "pos": "noun",
+        "example": "友達{ともだち}の家{いえ}に一晩{ひとばん}泊{と}めてもらった。",
+        "example_translation": "I stayed one night at a friend's house."
+      },
+      {
+        "word": "提出",
+        "reading": "ていしゅつ",
+        "meaning": "submission, handing in",
+        "pos": "noun / suru verb",
+        "example": "レポートは金曜日{きんようび}までに提出{ていしゅつ}してください。",
+        "example_translation": "Please hand in the report by Friday."
+      },
+      {
+        "word": "書き直す",
+        "reading": "かきなおす",
+        "meaning": "to rewrite",
+        "pos": "godan verb",
+        "example": "字{じ}が汚{きたな}かったので、手紙{てがみ}を書{か}き直{なお}した。",
+        "example_translation": "My handwriting was messy, so I rewrote the letter."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜させる（使役）",
+        "meaning": "causative: to make / let something happen or someone do ~",
+        "formation": "Godan: ない-stem + せる / Ichidan: stem + させる / する → させる (完成する → 完成させる)",
+        "example": "母{はは}は弟{おとうと}に野菜{やさい}を食{た}べさせた。",
+        "example_translation": "My mother made my younger brother eat his vegetables."
+      },
+      {
+        "pattern": "〜直す",
+        "meaning": "to redo ~, to do ~ again (to fix it)",
+        "formation": "Verb ます-stem + 直す",
+        "example": "答{こた}えを間違{まちが}えたので、もう一度{いちど}計算{けいさん}し直{なお}した。",
+        "example_translation": "I got the answer wrong, so I recalculated it."
+      }
+    ]
+  },
+  {
+    "id": "pp-019",
+    "section": "paraphrase",
+    "question": "時間{じかん}にルーズなところが、彼{かれ}の一番{いちばん}の[[欠点{けってん}]]だ。",
+    "choices": [
+      "得意{とくい}なところ",
+      "変{か}わったところ",
+      "面白{おもしろ}いところ",
+      "よくないところ"
+    ],
+    "answer": 3,
+    "translation": "Being careless about time is his biggest flaw.",
+    "explanation": "欠点（けってん）means 'fault, weak point, shortcoming, flaw'. The kanji 欠 means 'lack' and 点 means 'point'. It is used for people and for things: 彼の欠点 'his flaw', この車の欠点は燃費が悪いことだ 'this car's weak point is its poor fuel economy'. Synonyms: 短所（たんしょ）, 弱点（じゃくてん）. Opposites: 長所（ちょうしょ）, 利点（りてん）. The simple paraphrase is よくないところ / 悪いところ. Note: 時間にルーズ (from English 'loose') means 'careless about time, unpunctual'.",
+    "choice_notes": [
+      "Wrong. 得意なところ 'strong point' is the opposite (close to 長所).",
+      "Wrong. 変わったところ 'unusual point' means strange, not necessarily bad.",
+      "Wrong. 面白いところ 'interesting / funny point' is positive.",
+      "Correct. よくないところ 'bad point' = 欠点."
+    ],
+    "vocab": [
+      {
+        "word": "欠点",
+        "reading": "けってん",
+        "meaning": "fault, flaw, weak point",
+        "pos": "noun",
+        "example": "この車{くるま}の欠点{けってん}は、ガソリンをたくさん使{つか}うことだ。",
+        "example_translation": "This car's weak point is that it uses a lot of gasoline."
+      },
+      {
+        "word": "短所",
+        "reading": "たんしょ",
+        "meaning": "weak point, shortcoming",
+        "pos": "noun",
+        "example": "自分{じぶん}の短所{たんしょ}を直{なお}したい。",
+        "example_translation": "I want to fix my weak points."
+      },
+      {
+        "word": "長所",
+        "reading": "ちょうしょ",
+        "meaning": "strong point, merit",
+        "pos": "noun",
+        "example": "彼{かれ}の長所{ちょうしょ}は誰{だれ}にでも優{やさ}しいところだ。",
+        "example_translation": "His strong point is that he is kind to everyone."
+      },
+      {
+        "word": "ルーズ",
+        "reading": "ルーズ",
+        "meaning": "careless, sloppy (about time or money)",
+        "pos": "na-adjective",
+        "example": "お金{かね}にルーズな人{ひと}にはお金{かね}を貸{か}したくない。",
+        "example_translation": "I don't want to lend money to people who are careless with money."
+      },
+      {
+        "word": "得意",
+        "reading": "とくい",
+        "meaning": "good at, one's strong point",
+        "pos": "na-adjective",
+        "example": "私{わたし}は数学{すうがく}が得意{とくい}だ。",
+        "example_translation": "I'm good at math."
+      },
+      {
+        "word": "変わった",
+        "reading": "かわった",
+        "meaning": "unusual, strange, odd",
+        "pos": "expression (verb 変わる + た, used before nouns)",
+        "example": "彼{かれ}は少{すこ}し変{か}わった趣味{しゅみ}を持{も}っている。",
+        "example_translation": "He has a somewhat unusual hobby."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜ところ（性質）",
+        "meaning": "the side / aspect of a person that ~ (a trait)",
+        "formation": "Plain form / na-adjective + な / i-adjective + ところ",
+        "example": "彼女{かのじょ}の優{やさ}しいところが好{す}きだ。",
+        "example_translation": "I like how kind she is."
+      }
+    ]
+  },
+  {
+    "id": "pp-020",
+    "section": "paraphrase",
+    "question": "週末{しゅうまつ}は家{いえ}で音楽{おんがく}を聞{き}きながら[[くつろいで]]いる。",
+    "choices": [
+      "働{はたら}いて",
+      "勉強{べんきょう}して",
+      "のんびりして",
+      "掃除{そうじ}して"
+    ],
+    "answer": 2,
+    "translation": "On weekends I relax at home while listening to music.",
+    "explanation": "くつろぐ means 'to relax, to make oneself at home, to feel at ease' in body and mind. Typical phrases: 家でくつろぐ 'relax at home', ソファーでくつろぐ, and the polite set phrase どうぞおくつろぎください 'please make yourself at home', which hosts say to guests. The paraphrase is のんびりする 'to take it easy', ゆっくりする, or リラックスする. All the wrong choices are activities that take effort, the opposite of くつろぐ.",
+    "choice_notes": [
+      "Wrong. 働く 'to work' is the opposite of relaxing.",
+      "Wrong. 勉強する 'to study' is an activity that takes effort.",
+      "Correct. のんびりする 'to take it easy, to relax' = くつろぐ.",
+      "Wrong. 掃除する 'to clean' is housework, not relaxing."
+    ],
+    "vocab": [
+      {
+        "word": "くつろぐ",
+        "reading": "くつろぐ",
+        "meaning": "to relax, to make oneself at home",
+        "pos": "godan verb",
+        "example": "どうぞ、ごゆっくりおくつろぎください。",
+        "example_translation": "Please make yourself at home and relax."
+      },
+      {
+        "word": "のんびり",
+        "reading": "のんびり",
+        "meaning": "leisurely, carefree, relaxed",
+        "pos": "adverb / suru verb",
+        "example": "休{やす}みの日{ひ}は田舎{いなか}でのんびり過{す}ごしたい。",
+        "example_translation": "On my days off I want to spend time relaxing in the countryside."
+      },
+      {
+        "word": "リラックス",
+        "reading": "リラックス",
+        "meaning": "relaxing, relaxation",
+        "pos": "noun / suru verb",
+        "example": "温泉{おんせん}に入{はい}ってリラックスした。",
+        "example_translation": "I bathed in a hot spring and relaxed."
+      },
+      {
+        "word": "週末",
+        "reading": "しゅうまつ",
+        "meaning": "weekend",
+        "pos": "noun",
+        "example": "週末{しゅうまつ}は家族{かぞく}と出{で}かけることが多{おお}い。",
+        "example_translation": "On weekends I often go out with my family."
+      },
+      {
+        "word": "働く",
+        "reading": "はたらく",
+        "meaning": "to work",
+        "pos": "godan verb",
+        "example": "兄{あに}は銀行{ぎんこう}で働{はたら}いている。",
+        "example_translation": "My older brother works at a bank."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜ながら",
+        "meaning": "while doing ~ (two actions by the same person at once)",
+        "formation": "Verb ます-stem + ながら",
+        "example": "歌{うた}を歌{うた}いながら料理{りょうり}をする。",
+        "example_translation": "I cook while singing."
+      }
+    ]
+  },
+  {
+    "id": "pp-021",
+    "section": "paraphrase",
+    "question": "長年{ながねん}の悩{なや}みを、親友{しんゆう}に[[打{う}ち明{あ}けた]]。",
+    "choices": [
+      "手紙{てがみ}で伝{つた}えた",
+      "隠{かく}さずに話{はな}した",
+      "解決{かいけつ}してもらった",
+      "黙{だま}っていた"
+    ],
+    "answer": 1,
+    "translation": "I confided my long-standing worry to my best friend.",
+    "explanation": "打ち明ける（うちあける）means 'to confide, to open up about, to reveal frankly' something you had kept to yourself, such as a secret, a worry, or your feelings: 秘密を打ち明ける 'reveal a secret', 悩みを打ち明ける 'confide one's worries', 気持ちを打ち明ける 'confess one's feelings (of love)'. The core idea is telling it honestly without hiding anything, so the paraphrase is 隠さずに話す or 正直に話す. It says nothing about the method (letter, phone) or about the result (whether the problem was solved).",
+    "choice_notes": [
+      "Wrong. 手紙で伝える 'to tell by letter' adds a method; 打ち明ける does not mean 'by letter'.",
+      "Correct. 隠さずに話す 'to talk without hiding anything' = 打ち明ける.",
+      "Wrong. 解決してもらう 'to have someone solve it' is about the result, not about telling.",
+      "Wrong. 黙っている 'to keep quiet (about it)' is the opposite."
+    ],
+    "vocab": [
+      {
+        "word": "打ち明ける",
+        "reading": "うちあける",
+        "meaning": "to confide, to open up about, to reveal frankly",
+        "pos": "ichidan verb",
+        "example": "彼{かれ}は初{はじ}めて自分{じぶん}の気持{きも}ちを打{う}ち明{あ}けた。",
+        "example_translation": "He revealed his feelings for the first time."
+      },
+      {
+        "word": "隠す",
+        "reading": "かくす",
+        "meaning": "to hide, to conceal",
+        "pos": "godan verb",
+        "example": "母{はは}はプレゼントを棚{たな}の奥{おく}に隠{かく}した。",
+        "example_translation": "My mother hid the present at the back of the shelf."
+      },
+      {
+        "word": "悩み",
+        "reading": "なやみ",
+        "meaning": "worry, trouble, problem",
+        "pos": "noun",
+        "example": "何{なに}か悩{なや}みがあったら、いつでも話{はな}してね。",
+        "example_translation": "If you have any worries, talk to me anytime."
+      },
+      {
+        "word": "親友",
+        "reading": "しんゆう",
+        "meaning": "best friend, close friend",
+        "pos": "noun",
+        "example": "彼女{かのじょ}とは小学校{しょうがっこう}のときからの親友{しんゆう}だ。",
+        "example_translation": "She has been my best friend since elementary school."
+      },
+      {
+        "word": "長年",
+        "reading": "ながねん",
+        "meaning": "many years, long-standing",
+        "pos": "noun / adverb",
+        "example": "長年{ながねん}住{す}んだ町{まち}を離{はな}れることになった。",
+        "example_translation": "I have to leave the town I've lived in for many years."
+      },
+      {
+        "word": "黙る",
+        "reading": "だまる",
+        "meaning": "to be silent, to say nothing",
+        "pos": "godan verb",
+        "example": "彼{かれ}は何{なに}を聞{き}かれても黙{だま}っていた。",
+        "example_translation": "Whatever he was asked, he stayed silent."
+      },
+      {
+        "word": "解決",
+        "reading": "かいけつ",
+        "meaning": "solution, settlement",
+        "pos": "noun / suru verb",
+        "example": "話{はな}し合{あ}いで問題{もんだい}を解決{かいけつ}した。",
+        "example_translation": "We solved the problem by talking it over."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜ずに",
+        "meaning": "without doing ~ (formal version of 〜ないで)",
+        "formation": "Verb ない-stem + ずに (する → せずに)",
+        "example": "朝{あさ}ご飯{はん}を食{た}べずに家{いえ}を出{で}た。",
+        "example_translation": "I left home without eating breakfast."
+      },
+      {
+        "pattern": "〜てもらう",
+        "meaning": "to have someone do ~ (for me)",
+        "formation": "Person + に + Verb て-form + もらう",
+        "example": "友達{ともだち}に宿題{しゅくだい}を手伝{てつだ}ってもらった。",
+        "example_translation": "I had a friend help me with my homework."
+      }
+    ]
+  },
+  {
+    "id": "pp-022",
+    "section": "paraphrase",
+    "question": "知{し}らない人{ひと}に[[いきなり]]話{はな}しかけられて、びっくりした。",
+    "choices": [
+      "何度{なんど}も",
+      "突然{とつぜん}",
+      "大{おお}きな声{こえ}で",
+      "丁寧{ていねい}に"
+    ],
+    "answer": 1,
+    "translation": "I was startled when a stranger suddenly spoke to me.",
+    "explanation": "いきなり means 'suddenly, abruptly, without warning'. It is used when something happens without any preparation or signal, often with a sense of surprise: いきなり怒り出す 'suddenly get angry', いきなりドアが開いた 'the door suddenly opened'. It can also mean 'right away, straight off (skipping the normal steps)': いきなり本番 'go straight to the real performance without a rehearsal'. The paraphrase is 突然（とつぜん）or 急に. In this sentence, びっくりした 'was startled' supports the 'without warning' meaning.",
+    "choice_notes": [
+      "Wrong. 何度も 'many times' is about frequency.",
+      "Correct. 突然 'suddenly' = いきなり.",
+      "Wrong. 大きな声で 'in a loud voice' describes the voice; it could also be surprising, but it is not the meaning of いきなり.",
+      "Wrong. 丁寧に 'politely' describes the manner."
+    ],
+    "vocab": [
+      {
+        "word": "いきなり",
+        "reading": "いきなり",
+        "meaning": "suddenly, abruptly, without warning",
+        "pos": "adverb",
+        "example": "いきなりドアが開{あ}いて、びっくりした。",
+        "example_translation": "The door suddenly opened and I was startled."
+      },
+      {
+        "word": "突然",
+        "reading": "とつぜん",
+        "meaning": "suddenly, unexpectedly",
+        "pos": "adverb / na-adjective",
+        "example": "突然{とつぜん}、電気{でんき}が消{き}えた。",
+        "example_translation": "Suddenly the lights went out."
+      },
+      {
+        "word": "話しかける",
+        "reading": "はなしかける",
+        "meaning": "to speak to, to start talking to (someone)",
+        "pos": "ichidan verb",
+        "example": "電車{でんしゃ}で隣{となり}の人{ひと}に話{はな}しかけた。",
+        "example_translation": "I started talking to the person next to me on the train."
+      },
+      {
+        "word": "びっくりする",
+        "reading": "びっくりする",
+        "meaning": "to be surprised, to be startled",
+        "pos": "suru verb",
+        "example": "大{おお}きな音{おと}にびっくりした。",
+        "example_translation": "I was startled by the loud noise."
+      },
+      {
+        "word": "丁寧",
+        "reading": "ていねい",
+        "meaning": "polite; careful, thorough",
+        "pos": "na-adjective",
+        "example": "店員{てんいん}さんが丁寧{ていねい}に説明{せつめい}してくれた。",
+        "example_translation": "The shop clerk explained it to me politely."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜（ら）れる（迷惑の受身）",
+        "meaning": "passive that shows the speaker was affected (often troubled or surprised)",
+        "formation": "Person + に + passive verb (話しかける → 話しかけられる)",
+        "example": "雨{あめ}に降{ふ}られて、服{ふく}がぬれた。",
+        "example_translation": "I got caught in the rain and my clothes got wet."
+      }
+    ]
+  },
+  {
+    "id": "pp-023",
+    "section": "paraphrase",
+    "question": "この料理{りょうり}はおいしいけれど、量{りょう}が少{すく}なくて少{すこ}し[[物足{ものた}りない]]。",
+    "choices": [
+      "食{た}べにくい",
+      "高{たか}すぎる",
+      "体{からだ}に悪{わる}い",
+      "満足{まんぞく}できない"
+    ],
+    "answer": 3,
+    "translation": "This dish is tasty, but the portion is small, so it's a little unsatisfying.",
+    "explanation": "物足りない（ものたりない）means 'unsatisfying, not quite enough, something is missing'. It is literally 物 'thing' + 足りない 'not enough'. It describes a feeling that something lacks a little: 量が物足りない 'the portion isn't enough', 説明が物足りない 'the explanation is lacking', 一人だと物足りない 'it feels like something is missing when I'm alone'. It is not strongly negative - it means 'almost satisfied, but not quite'. The paraphrase is 満足できない or 何か足りない感じがする. The clue in the sentence is 量が少なくて 'the portion is small'.",
+    "choice_notes": [
+      "Wrong. 食べにくい 'hard to eat' is about how easy it is to eat.",
+      "Wrong. 高すぎる 'too expensive' is about price.",
+      "Wrong. 体に悪い 'bad for your health' is unrelated to the amount.",
+      "Correct. 満足できない 'cannot be satisfied' = 物足りない."
+    ],
+    "vocab": [
+      {
+        "word": "物足りない",
+        "reading": "ものたりない",
+        "meaning": "unsatisfying, not quite enough, lacking something",
+        "pos": "i-adjective",
+        "example": "この映画{えいが}は最後{さいご}が少{すこ}し物足{ものた}りなかった。",
+        "example_translation": "The ending of this movie was a little unsatisfying."
+      },
+      {
+        "word": "満足",
+        "reading": "まんぞく",
+        "meaning": "satisfaction; satisfied",
+        "pos": "noun / na-adjective / suru verb",
+        "example": "今{いま}の生活{せいかつ}に満足{まんぞく}している。",
+        "example_translation": "I'm satisfied with my current life."
+      },
+      {
+        "word": "量",
+        "reading": "りょう",
+        "meaning": "amount, quantity, portion",
+        "pos": "noun",
+        "example": "この店{みせ}はご飯{はん}の量{りょう}が多{おお}い。",
+        "example_translation": "This restaurant serves large portions of rice."
+      },
+      {
+        "word": "足りる",
+        "reading": "たりる",
+        "meaning": "to be enough, to be sufficient",
+        "pos": "ichidan verb",
+        "example": "千円{せんえん}あれば足{た}りると思{おも}う。",
+        "example_translation": "I think a thousand yen will be enough."
+      },
+      {
+        "word": "体に悪い",
+        "reading": "からだにわるい",
+        "meaning": "bad for one's health",
+        "pos": "expression",
+        "example": "夜{よる}遅{おそ}くに食{た}べるのは体{からだ}に悪{わる}い。",
+        "example_translation": "Eating late at night is bad for your health."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜にくい",
+        "meaning": "hard to ~, difficult to ~",
+        "formation": "Verb ます-stem + にくい",
+        "example": "この字{じ}は小{ちい}さくて読{よ}みにくい。",
+        "example_translation": "These characters are small and hard to read."
+      },
+      {
+        "pattern": "〜けれど（も）",
+        "meaning": "but ~, although ~",
+        "formation": "Plain or polite form + けれど（も）",
+        "example": "この部屋{へや}は狭{せま}いけれど、駅{えき}に近{ちか}い。",
+        "example_translation": "This room is small, but it's close to the station."
+      }
+    ]
+  },
+  {
+    "id": "pp-024",
+    "section": "paraphrase",
+    "question": "彼{かれ}は何{なん}でも[[大{おお}げさに]]言{い}うので、あまり信用{しんよう}できない。",
+    "choices": [
+      "実際{じっさい}より大{おお}きく",
+      "わかりやすく",
+      "楽{たの}しそうに",
+      "大{おお}きな声{こえ}で"
+    ],
+    "answer": 0,
+    "translation": "He exaggerates everything, so I can't really trust what he says.",
+    "explanation": "大げさ（おおげさ）is a na-adjective meaning 'exaggerated, overblown'. 大げさに言う means 'to exaggerate, to make something sound bigger or more serious than it really is': ちょっと転んだだけなのに大げさだ 'you only tripped a little - you're making a big deal of it', 大げさな表現 'an exaggerated expression'. So the paraphrase is 実際より大きく 'bigger than it really is'. The trap is the last choice: 大 'big' also appears in 大きな声, but 大げさ is about the content of what is said, not the volume. The second half of the sentence (信用できない 'can't trust him') supports the meaning 'exaggerating'.",
+    "choice_notes": [
+      "Correct. 実際より大きく 'bigger than reality' = 大げさに.",
+      "Wrong. わかりやすく 'in an easy-to-understand way' would make him more trustworthy, not less.",
+      "Wrong. 楽しそうに 'cheerfully, looking happy' describes his mood.",
+      "Wrong. 大きな声で 'in a loud voice' is about volume; 大げさ is about exaggerating the content."
+    ],
+    "vocab": [
+      {
+        "word": "大げさ",
+        "reading": "おおげさ",
+        "meaning": "exaggerated, overblown",
+        "pos": "na-adjective",
+        "example": "ちょっと転{ころ}んだだけなのに、大{おお}げさに泣{な}いている。",
+        "example_translation": "He only tripped a little, but he's crying as if it were a big deal."
+      },
+      {
+        "word": "実際",
+        "reading": "じっさい",
+        "meaning": "reality; actually, in fact",
+        "pos": "noun / adverb",
+        "example": "写真{しゃしん}より実際{じっさい}のほうがきれいだった。",
+        "example_translation": "It was prettier in reality than in the photos."
+      },
+      {
+        "word": "信用",
+        "reading": "しんよう",
+        "meaning": "trust, confidence, credibility",
+        "pos": "noun / suru verb",
+        "example": "あの店{みせ}は古{ふる}くからあって信用{しんよう}できる。",
+        "example_translation": "That shop has been around a long time and can be trusted."
+      },
+      {
+        "word": "何でも",
+        "reading": "なんでも",
+        "meaning": "anything, everything",
+        "pos": "adverb / pronoun",
+        "example": "困{こま}ったことがあったら、何{なん}でも聞{き}いてください。",
+        "example_translation": "If you have any trouble, ask me anything."
+      },
+      {
+        "word": "わかりやすい",
+        "reading": "わかりやすい",
+        "meaning": "easy to understand",
+        "pos": "i-adjective",
+        "example": "先生{せんせい}の説明{せつめい}はとてもわかりやすい。",
+        "example_translation": "The teacher's explanations are very easy to understand."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜やすい",
+        "meaning": "easy to ~",
+        "formation": "Verb ます-stem + やすい",
+        "example": "このペンは軽{かる}くて書{か}きやすい。",
+        "example_translation": "This pen is light and easy to write with."
+      },
+      {
+        "pattern": "〜そうに",
+        "meaning": "looking ~, in a way that seems ~ (describes how someone appears)",
+        "formation": "i-adjective stem / na-adjective + そうに + verb",
+        "example": "子{こ}どもたちが楽{たの}しそうに遊{あそ}んでいる。",
+        "example_translation": "The children are playing happily."
+      }
+    ]
+  },
+  {
+    "id": "pp-025",
+    "section": "paraphrase",
+    "question": "参加{さんか}する方{かた}は、[[あらかじめ]]名前{なまえ}を登録{とうろく}しておいてください。",
+    "choices": [
+      "必{かなら}ず",
+      "前{まえ}もって",
+      "あとで",
+      "インターネットで"
+    ],
+    "answer": 1,
+    "translation": "Those who will participate, please register your name in advance.",
+    "explanation": "あらかじめ means 'in advance, beforehand'. It is used when you do something before an event to prepare for it, and it very often appears together with 〜ておく 'do in advance': あらかじめ予約しておく 'make a reservation beforehand', あらかじめご了承ください 'please note in advance'. The paraphrase is 前もって or 事前に. It is a slightly formal word, common in notices and announcements. 必ず is a tempting choice because notices often say 必ず登録してください, but 必ず is about obligation, not timing.",
+    "choice_notes": [
+      "Wrong. 必ず 'without fail' stresses obligation, not timing.",
+      "Correct. 前もって 'beforehand' = あらかじめ.",
+      "Wrong. あとで 'later' is the opposite.",
+      "Wrong. インターネットで 'online' is the method, not the timing."
+    ],
+    "vocab": [
+      {
+        "word": "あらかじめ",
+        "reading": "あらかじめ",
+        "meaning": "in advance, beforehand",
+        "pos": "adverb",
+        "example": "質問{しつもん}があれば、あらかじめメールで送{おく}ってください。",
+        "example_translation": "If you have questions, please send them by email in advance."
+      },
+      {
+        "word": "前もって",
+        "reading": "まえもって",
+        "meaning": "beforehand, in advance",
+        "pos": "adverb",
+        "example": "休{やす}むときは前{まえ}もって知{し}らせてください。",
+        "example_translation": "Please let us know beforehand when you'll be absent."
+      },
+      {
+        "word": "事前に",
+        "reading": "じぜんに",
+        "meaning": "in advance, beforehand",
+        "pos": "adverb",
+        "example": "このツアーは事前{じぜん}に予約{よやく}が必要{ひつよう}です。",
+        "example_translation": "This tour requires a reservation in advance."
+      },
+      {
+        "word": "登録",
+        "reading": "とうろく",
+        "meaning": "registration",
+        "pos": "noun / suru verb",
+        "example": "このサイトに会員{かいいん}登録{とうろく}した。",
+        "example_translation": "I registered as a member on this website."
+      },
+      {
+        "word": "参加",
+        "reading": "さんか",
+        "meaning": "participation",
+        "pos": "noun / suru verb",
+        "example": "来週{らいしゅう}のボランティア活動{かつどう}に参加{さんか}する。",
+        "example_translation": "I'll take part in the volunteer activity next week."
+      },
+      {
+        "word": "方",
+        "reading": "かた",
+        "meaning": "person (polite word for 人)",
+        "pos": "noun",
+        "example": "あちらの方{かた}はどなたですか。",
+        "example_translation": "Who is that person over there?"
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜ておく",
+        "meaning": "to do ~ in advance (in preparation)",
+        "formation": "Verb て-form + おく",
+        "example": "旅行{りょこう}の前{まえ}にホテルを予約{よやく}しておいた。",
+        "example_translation": "I booked the hotel in advance before the trip."
+      }
+    ]
+  },
+  {
+    "id": "pp-026",
+    "section": "paraphrase",
+    "question": "この地方{ちほう}で雪{ゆき}が積{つ}もるのは[[まれだ]]。",
+    "choices": [
+      "よくあることだ",
+      "危{あぶ}ないことだ",
+      "めったにないことだ",
+      "毎年{まいとし}のことだ"
+    ],
+    "answer": 2,
+    "translation": "It is rare for snow to pile up in this region.",
+    "explanation": "まれ（稀）is a na-adjective meaning 'rare, seldom'. Common forms: まれだ, まれな + noun, and the adverb まれに 'rarely, on rare occasions': まれな例 'a rare case', まれに見る大雪 'a heavy snowfall seldom seen'. The paraphrase is めったにない 'hardly ever happens'. (めったに is always used with a negative: めったに雪が降らない.) The opposites are よくある and 毎年のこと.",
+    "choice_notes": [
+      "Wrong. よくあることだ 'it happens often' is the opposite.",
+      "Wrong. 危ないことだ 'it's dangerous' is about danger, not frequency.",
+      "Correct. めったにないことだ 'it hardly ever happens' = まれだ.",
+      "Wrong. 毎年のことだ 'it happens every year' is the opposite."
+    ],
+    "vocab": [
+      {
+        "word": "まれ",
+        "reading": "まれ",
+        "meaning": "rare, seldom",
+        "pos": "na-adjective",
+        "example": "彼{かれ}が会議{かいぎ}に遅{おく}れるのはまれなことだ。",
+        "example_translation": "It's rare for him to be late for a meeting."
+      },
+      {
+        "word": "めったに",
+        "reading": "めったに",
+        "meaning": "rarely, hardly ever (used with a negative)",
+        "pos": "adverb",
+        "example": "このあたりでは、めったに雪{ゆき}が降{ふ}らない。",
+        "example_translation": "It hardly ever snows around here."
+      },
+      {
+        "word": "地方",
+        "reading": "ちほう",
+        "meaning": "region, area; the provinces",
+        "pos": "noun",
+        "example": "この地方{ちほう}はりんごで有名{ゆうめい}だ。",
+        "example_translation": "This region is famous for apples."
+      },
+      {
+        "word": "積もる",
+        "reading": "つもる",
+        "meaning": "to pile up, to accumulate (snow, dust)",
+        "pos": "godan verb",
+        "example": "机{つくえ}の上{うえ}にほこりが積{つ}もっている。",
+        "example_translation": "Dust has piled up on the desk."
+      },
+      {
+        "word": "危ない",
+        "reading": "あぶない",
+        "meaning": "dangerous",
+        "pos": "i-adjective",
+        "example": "道路{どうろ}で遊{あそ}ぶのは危{あぶ}ない。",
+        "example_translation": "Playing in the road is dangerous."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "めったに〜ない",
+        "meaning": "rarely ~, hardly ever ~",
+        "formation": "めったに + Verb ない-form",
+        "example": "父{ちち}はめったに怒{おこ}らない。",
+        "example_translation": "My father hardly ever gets angry."
+      },
+      {
+        "pattern": "〜のは",
+        "meaning": "the fact of ~ing, ~ing (turns a clause into the topic)",
+        "formation": "Verb plain form + のは",
+        "example": "毎朝{まいあさ}早{はや}く起{お}きるのは大変{たいへん}だ。",
+        "example_translation": "Getting up early every morning is hard."
+      }
+    ]
+  },
+  {
+    "id": "pp-027",
+    "section": "paraphrase",
+    "question": "時間{じかん}に[[ゆとり]]を持{も}って、早{はや}めに家{いえ}を出{で}た。",
+    "choices": [
+      "余裕{よゆう}",
+      "自信{じしん}",
+      "興味{きょうみ}",
+      "責任{せきにん}"
+    ],
+    "answer": 0,
+    "translation": "I left home early to give myself plenty of time.",
+    "explanation": "ゆとり means 'room, margin, leeway, something extra (time, money, space, or peace of mind)'. Typical phrases: 時間にゆとりを持つ 'allow plenty of time', 生活にゆとりがある 'live comfortably (with money to spare)', 心のゆとり 'peace of mind'. The synonym is 余裕（よゆう）, which is used in exactly the same patterns (時間に余裕を持つ, 時間に余裕がある). Both words describe having more than the minimum, which lets you feel relaxed. The clue here is 早めに家を出た 'left home a little early'.",
+    "choice_notes": [
+      "Correct. 余裕 'margin, room to spare' = ゆとり.",
+      "Wrong. 自信 'confidence' - 時間に自信を持つ does not make sense.",
+      "Wrong. 興味 'interest' - being interested in time has nothing to do with leaving early.",
+      "Wrong. 責任 'responsibility' does not fit 時間に〜を持つ."
+    ],
+    "vocab": [
+      {
+        "word": "ゆとり",
+        "reading": "ゆとり",
+        "meaning": "room, margin, leeway (time, money, space, mind)",
+        "pos": "noun",
+        "example": "仕事{しごと}が忙{いそが}しくて、心{こころ}にゆとりがない。",
+        "example_translation": "Work is so busy that I have no peace of mind."
+      },
+      {
+        "word": "余裕",
+        "reading": "よゆう",
+        "meaning": "margin, room to spare; composure",
+        "pos": "noun",
+        "example": "時間{じかん}に余裕{よゆう}があるので、コーヒーでも飲{の}もう。",
+        "example_translation": "We have time to spare, so let's have a coffee or something."
+      },
+      {
+        "word": "自信",
+        "reading": "じしん",
+        "meaning": "confidence, self-confidence",
+        "pos": "noun",
+        "example": "今度{こんど}の試験{しけん}には自信{じしん}がある。",
+        "example_translation": "I feel confident about the upcoming exam."
+      },
+      {
+        "word": "興味",
+        "reading": "きょうみ",
+        "meaning": "interest",
+        "pos": "noun",
+        "example": "日本{にほん}の歴史{れきし}に興味{きょうみ}を持{も}っている。",
+        "example_translation": "I'm interested in Japanese history."
+      },
+      {
+        "word": "責任",
+        "reading": "せきにん",
+        "meaning": "responsibility",
+        "pos": "noun",
+        "example": "失敗{しっぱい}の責任{せきにん}は私{わたし}にある。",
+        "example_translation": "The responsibility for the failure is mine."
+      },
+      {
+        "word": "早めに",
+        "reading": "はやめに",
+        "meaning": "a little early, ahead of time",
+        "pos": "adverb",
+        "example": "道{みち}が混{こ}むので、早{はや}めに出発{しゅっぱつ}しよう。",
+        "example_translation": "The roads get crowded, so let's leave a bit early."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜め",
+        "meaning": "a little more ~, on the ~ side",
+        "formation": "i-adjective stem + め (早め, 多め, 大きめ, 少なめ)",
+        "example": "ご飯{はん}を少{すこ}し多{おお}めに炊{た}いた。",
+        "example_translation": "I cooked a little more rice than usual."
+      }
+    ]
+  },
+  {
+    "id": "pp-028",
+    "section": "paraphrase",
+    "question": "計画{けいかく}の途中{とちゅう}で、思{おも}わぬ問題{もんだい}が[[生{しょう}じた]]。",
+    "choices": [
+      "解決{かいけつ}した",
+      "なくなった",
+      "残{のこ}った",
+      "起{お}きた"
+    ],
+    "answer": 3,
+    "translation": "Partway through the project, an unexpected problem arose.",
+    "explanation": "生じる（しょうじる）means 'to arise, to occur, to come about'. It is a formal, written-style verb used for problems, changes, differences, and doubts: 問題が生じる 'a problem arises', 誤解が生じる 'a misunderstanding arises', 差が生じる 'a gap appears', 疑問が生じる 'a question comes up'. In everyday speech you would say 起きる / 起こる or 出てくる. Be careful with the reading: 生 has many readings, and here it is しょう (not せい or い).",
+    "choice_notes": [
+      "Wrong. 解決する 'to be solved' is what happens after a problem arises.",
+      "Wrong. なくなる 'to disappear' is the opposite.",
+      "Wrong. 残る 'to remain' means it was already there and stayed.",
+      "Correct. 起きる 'to happen, to occur' = 生じる."
+    ],
+    "vocab": [
+      {
+        "word": "生じる",
+        "reading": "しょうじる",
+        "meaning": "to arise, to occur, to come about (formal)",
+        "pos": "ichidan verb",
+        "example": "二人{ふたり}の間{あいだ}に誤解{ごかい}が生{しょう}じた。",
+        "example_translation": "A misunderstanding arose between the two of them."
+      },
+      {
+        "word": "起きる",
+        "reading": "おきる",
+        "meaning": "to happen, to occur; to wake up",
+        "pos": "ichidan verb",
+        "example": "昨日{きのう}、駅{えき}の近{ちか}くで事故{じこ}が起{お}きた。",
+        "example_translation": "An accident happened near the station yesterday."
+      },
+      {
+        "word": "思わぬ",
+        "reading": "おもわぬ",
+        "meaning": "unexpected, unforeseen",
+        "pos": "pre-noun adjective",
+        "example": "思{おも}わぬところで財布{さいふ}が見{み}つかった。",
+        "example_translation": "My wallet turned up in an unexpected place."
+      },
+      {
+        "word": "途中",
+        "reading": "とちゅう",
+        "meaning": "on the way, midway, partway through",
+        "pos": "noun",
+        "example": "映画{えいが}の途中{とちゅう}で寝{ね}てしまった。",
+        "example_translation": "I fell asleep in the middle of the movie."
+      },
+      {
+        "word": "計画",
+        "reading": "けいかく",
+        "meaning": "plan, project",
+        "pos": "noun / suru verb",
+        "example": "夏休{なつやす}みの旅行{りょこう}の計画{けいかく}を立{た}てた。",
+        "example_translation": "I made plans for a summer vacation trip."
+      },
+      {
+        "word": "残る",
+        "reading": "のこる",
+        "meaning": "to remain, to be left over",
+        "pos": "godan verb",
+        "example": "パーティーの料理{りょうり}がたくさん残{のこ}った。",
+        "example_translation": "A lot of the party food was left over."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜ぬ（文語の否定）",
+        "meaning": "not ~ (old/formal negative, same as ない, used before nouns)",
+        "formation": "Verb ない-stem + ぬ + noun (思わぬ = 思わない, 知らぬ = 知らない)",
+        "example": "旅行先{りょこうさき}で思{おも}わぬ人{ひと}に会{あ}った。",
+        "example_translation": "I met someone I never expected to see on my trip."
+      }
+    ]
+  },
+  {
+    "id": "pp-029",
+    "section": "paraphrase",
+    "question": "先生{せんせい}にしかられて、その子{こ}は黙{だま}って[[うつむいた]]。",
+    "choices": [
+      "上{うえ}を見{み}た",
+      "横{よこ}を向{む}いた",
+      "下{した}を向{む}いた",
+      "目{め}を閉{と}じた"
+    ],
+    "answer": 2,
+    "translation": "After being scolded by the teacher, the child silently looked down.",
+    "explanation": "うつむく（俯く）means 'to look down, to hang one's head' - to turn your face downward, often because you feel sad, ashamed, shy, or guilty: 恥ずかしそうにうつむく 'look down shyly', うつむいたまま答える 'answer with one's head down'. The paraphrase is 下を向く. The opposite is 上を向く or 見上げる 'to look up'. In this sentence, being scolded (しかられて) explains why the child hangs their head.",
+    "choice_notes": [
+      "Wrong. 上を見る 'to look up' is the opposite direction.",
+      "Wrong. 横を向く 'to turn one's face to the side, to look away' is a different direction (often a sign of ignoring someone).",
+      "Correct. 下を向く 'to face downward' = うつむく.",
+      "Wrong. 目を閉じる 'to close one's eyes' is not about the direction of the head."
+    ],
+    "vocab": [
+      {
+        "word": "うつむく",
+        "reading": "うつむく",
+        "meaning": "to look down, to hang one's head",
+        "pos": "godan verb",
+        "example": "彼女{かのじょ}は恥{は}ずかしそうにうつむいた。",
+        "example_translation": "She looked down shyly."
+      },
+      {
+        "word": "下を向く",
+        "reading": "したをむく",
+        "meaning": "to look down, to face downward",
+        "pos": "expression (godan verb)",
+        "example": "下{した}を向{む}いて歩{ある}くと危{あぶ}ないよ。",
+        "example_translation": "It's dangerous to walk looking down."
+      },
+      {
+        "word": "叱る",
+        "reading": "しかる",
+        "meaning": "to scold",
+        "pos": "godan verb",
+        "example": "いたずらをして、父{ちち}に叱{しか}られた。",
+        "example_translation": "I played a prank and was scolded by my father."
+      },
+      {
+        "word": "黙る",
+        "reading": "だまる",
+        "meaning": "to be silent, to say nothing",
+        "pos": "godan verb",
+        "example": "黙{だま}って人{ひと}の話{はなし}を聞{き}きなさい。",
+        "example_translation": "Be quiet and listen to what people say."
+      },
+      {
+        "word": "閉じる",
+        "reading": "とじる",
+        "meaning": "to close, to shut",
+        "pos": "ichidan verb",
+        "example": "目{め}を閉{と}じて、深呼吸{しんこきゅう}してください。",
+        "example_translation": "Please close your eyes and take a deep breath."
+      },
+      {
+        "word": "見上げる",
+        "reading": "みあげる",
+        "meaning": "to look up at",
+        "pos": "ichidan verb",
+        "example": "夜空{よぞら}を見上{みあ}げると、月{つき}がきれいだった。",
+        "example_translation": "When I looked up at the night sky, the moon was beautiful."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜（ら）れる（受身）",
+        "meaning": "passive: to be done (by someone)",
+        "formation": "Person + に + passive verb (しかる → しかられる)",
+        "example": "宿題{しゅくだい}を忘{わす}れて、先生{せんせい}に注意{ちゅうい}された。",
+        "example_translation": "I forgot my homework and was told off by the teacher."
+      }
+    ]
+  },
+  {
+    "id": "pp-030",
+    "section": "paraphrase",
+    "question": "[[気兼{きが}ね]]しないで、何{なん}でも言{い}ってください。",
+    "choices": [
+      "急{いそ}がないで",
+      "遠慮{えんりょ}しないで",
+      "怒{おこ}らないで",
+      "うそをつかないで"
+    ],
+    "answer": 1,
+    "translation": "Please don't hold back - say anything you like.",
+    "explanation": "気兼ね（きがね）means 'holding back out of concern for other people's feelings, feeling constrained'. 気兼ねする means 'to feel you must hold back so as not to bother or upset others'. Typical phrases: 気兼ねなく 'freely, without feeling constrained', 誰にも気兼ねせずに 'without worrying about anyone', 家族に気兼ねする 'feel constrained around one's family'. The paraphrase is 遠慮（えんりょ）: 遠慮しないで / 遠慮なく mean the same as 気兼ねしないで / 気兼ねなく.",
+    "choice_notes": [
+      "Wrong. 急がないで 'don't hurry' is about speed.",
+      "Correct. 遠慮しないで 'don't hold back' = 気兼ねしないで.",
+      "Wrong. 怒らないで 'don't get angry' is about emotion.",
+      "Wrong. うそをつかないで 'don't lie' is about honesty, not about holding back out of consideration."
+    ],
+    "vocab": [
+      {
+        "word": "気兼ね",
+        "reading": "きがね",
+        "meaning": "holding back out of concern for others, feeling constrained",
+        "pos": "noun / suru verb",
+        "example": "一人暮{ひとりぐ}らしなので、誰{だれ}にも気兼{きが}ねせずに生活{せいかつ}できる。",
+        "example_translation": "I live alone, so I can live without worrying about anyone."
+      },
+      {
+        "word": "遠慮",
+        "reading": "えんりょ",
+        "meaning": "reserve, holding back; politely declining",
+        "pos": "noun / suru verb",
+        "example": "遠慮{えんりょ}しないで、たくさん食{た}べてください。",
+        "example_translation": "Don't be shy - please eat a lot."
+      },
+      {
+        "word": "うそをつく",
+        "reading": "うそをつく",
+        "meaning": "to tell a lie",
+        "pos": "expression (godan verb)",
+        "example": "子{こ}どものころ、母{はは}にうそをついて叱{しか}られた。",
+        "example_translation": "When I was a child, I lied to my mother and got scolded."
+      },
+      {
+        "word": "怒る",
+        "reading": "おこる",
+        "meaning": "to get angry; to scold",
+        "pos": "godan verb",
+        "example": "遅刻{ちこく}して先生{せんせい}に怒{おこ}られた。",
+        "example_translation": "I was late and the teacher got angry at me."
+      },
+      {
+        "word": "何でも",
+        "reading": "なんでも",
+        "meaning": "anything, everything",
+        "pos": "adverb / pronoun",
+        "example": "このお店{みせ}は何{なん}でも安{やす}い。",
+        "example_translation": "Everything in this shop is cheap."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜ないで（ください）",
+        "meaning": "please don't ~",
+        "formation": "Verb ない-form + で（ください）",
+        "example": "ここで写真{しゃしん}を撮{と}らないでください。",
+        "example_translation": "Please don't take photos here."
+      }
+    ]
+  },
+  {
+    "id": "pp-031",
+    "section": "paraphrase",
+    "question": "みんなの前{まえ}で褒{ほ}められて、弟{おとうと}は[[照{て}れて]]いた。",
+    "choices": [
+      "喜{よろこ}んで",
+      "驚{おどろ}いて",
+      "怒{おこ}って",
+      "恥{は}ずかしがって"
+    ],
+    "answer": 3,
+    "translation": "My little brother was bashful when he was praised in front of everyone.",
+    "explanation": "照れる（てれる）means 'to be bashful, to feel shy or embarrassed', usually in a pleasant situation - when you are praised, thanked, or become the center of attention: 褒められて照れる 'get bashful when praised', 照れくさい 'embarrassing, awkward', 照れ笑い 'a sheepish smile'. The paraphrase is 恥ずかしがる 'to act embarrassed, to be shy'. Someone who 照れる is often secretly happy too, which is why 喜ぶ is a tempting choice, but the core meaning of 照れる is the shy, embarrassed feeling itself.",
+    "choice_notes": [
+      "Wrong. 喜ぶ 'to be happy' - he may be happy too, but 照れる specifically means feeling shy or embarrassed.",
+      "Wrong. 驚く 'to be surprised' is a different feeling.",
+      "Wrong. 怒る 'to get angry' does not fit being praised.",
+      "Correct. 恥ずかしがる 'to feel embarrassed, to be shy' = 照れる."
+    ],
+    "vocab": [
+      {
+        "word": "照れる",
+        "reading": "てれる",
+        "meaning": "to be bashful, to feel shy or embarrassed (often when praised)",
+        "pos": "ichidan verb",
+        "example": "「かわいいね」と言{い}われて、娘{むすめ}は照{て}れていた。",
+        "example_translation": "When someone told my daughter she was cute, she got bashful."
+      },
+      {
+        "word": "恥ずかしがる",
+        "reading": "はずかしがる",
+        "meaning": "to act shy, to be embarrassed",
+        "pos": "godan verb",
+        "example": "息子{むすこ}は恥{は}ずかしがって、なかなか挨拶{あいさつ}しない。",
+        "example_translation": "My son is shy and doesn't readily say hello."
+      },
+      {
+        "word": "褒める",
+        "reading": "ほめる",
+        "meaning": "to praise",
+        "pos": "ichidan verb",
+        "example": "上司{じょうし}に仕事{しごと}を褒{ほ}められた。",
+        "example_translation": "My boss praised my work."
+      },
+      {
+        "word": "喜ぶ",
+        "reading": "よろこぶ",
+        "meaning": "to be glad, to be delighted",
+        "pos": "godan verb",
+        "example": "プレゼントをあげたら、母{はは}はとても喜{よろこ}んだ。",
+        "example_translation": "When I gave my mother a present, she was delighted."
+      },
+      {
+        "word": "驚く",
+        "reading": "おどろく",
+        "meaning": "to be surprised",
+        "pos": "godan verb",
+        "example": "久{ひさ}しぶりに会{あ}った友達{ともだち}が大人{おとな}っぽくなっていて驚{おどろ}いた。",
+        "example_translation": "I was surprised at how grown-up my friend looked when I saw her after a long time."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜がる",
+        "meaning": "to show signs of feeling ~ (used for other people's feelings)",
+        "formation": "i-adjective stem + がる (恥ずかしい → 恥ずかしがる, 怖い → 怖がる)",
+        "example": "妹{いもうと}は大{おお}きな犬{いぬ}を怖{こわ}がっている。",
+        "example_translation": "My little sister is scared of big dogs."
+      }
+    ]
+  },
+  {
+    "id": "pp-032",
+    "section": "paraphrase",
+    "question": "[[わずかな]]時間{じかん}でも、毎日{まいにち}続{つづ}けることが大切{たいせつ}だ。",
+    "choices": [
+      "少{すこ}しの",
+      "自由{じゆう}な",
+      "決{き}まった",
+      "朝{あさ}の"
+    ],
+    "answer": 0,
+    "translation": "Even if it's only a little time, it's important to keep at it every day.",
+    "explanation": "わずか（僅か）means 'only a little, slight, a small amount'. Before a noun it takes な: わずかな時間 'a little time', わずかな差 'a slight difference', わずかなお金 'a small amount of money'. It is also used as an adverb before numbers: わずか三日で 'in just three days'. It often stresses that the amount is surprisingly small. The paraphrase is 少しの / ほんの少しの. The 〜でも 'even' after 時間 is the clue: 'even a small amount of time'.",
+    "choice_notes": [
+      "Correct. 少しの 'a little' = わずかな.",
+      "Wrong. 自由な 'free (to use as you like)' is about freedom, not amount.",
+      "Wrong. 決まった 'fixed, set' means the time is decided in advance.",
+      "Wrong. 朝の 'morning' is about the time of day."
+    ],
+    "vocab": [
+      {
+        "word": "わずか",
+        "reading": "わずか",
+        "meaning": "only a little, slight, few",
+        "pos": "na-adjective / adverb",
+        "example": "彼{かれ}はわずか三日{みっか}でその仕事{しごと}を終{お}わらせた。",
+        "example_translation": "He finished that job in just three days."
+      },
+      {
+        "word": "続ける",
+        "reading": "つづける",
+        "meaning": "to continue, to keep doing",
+        "pos": "ichidan verb",
+        "example": "十年間{じゅうねんかん}日記{にっき}を書{か}き続{つづ}けている。",
+        "example_translation": "I have kept writing a diary for ten years."
+      },
+      {
+        "word": "差",
+        "reading": "さ",
+        "meaning": "difference, gap",
+        "pos": "noun",
+        "example": "一位{いちい}と二位{にい}の差{さ}はわずかだった。",
+        "example_translation": "The difference between first and second place was slight."
+      },
+      {
+        "word": "ほんの",
+        "reading": "ほんの",
+        "meaning": "just, only, mere",
+        "pos": "pre-noun adjective",
+        "example": "ほんの少{すこ}しだけ待{ま}ってください。",
+        "example_translation": "Please wait just a little bit."
+      },
+      {
+        "word": "自由",
+        "reading": "じゆう",
+        "meaning": "freedom; free",
+        "pos": "noun / na-adjective",
+        "example": "休{やす}みの日{ひ}は自由{じゆう}に過{す}ごしたい。",
+        "example_translation": "On my days off I want to spend my time freely."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜でも",
+        "meaning": "even ~",
+        "formation": "Noun + でも",
+        "example": "これは子{こ}どもでもわかる問題{もんだい}だ。",
+        "example_translation": "This is a problem even a child can understand."
+      },
+      {
+        "pattern": "〜ことが大切だ",
+        "meaning": "it is important to ~",
+        "formation": "Verb dictionary form + ことが大切だ",
+        "example": "毎日{まいにち}少{すこ}しずつ練習{れんしゅう}することが大切{たいせつ}だ。",
+        "example_translation": "It's important to practice a little every day."
+      }
+    ]
+  },
+  {
+    "id": "pp-033",
+    "section": "paraphrase",
+    "question": "台風{たいふう}が近{ちか}づいているので、旅行{りょこう}の中止{ちゅうし}は[[やむを得{え}ない]]。",
+    "choices": [
+      "当然{とうぜん}だ",
+      "困{こま}る",
+      "仕方{しかた}がない",
+      "考{かんが}えられない"
+    ],
+    "answer": 2,
+    "translation": "A typhoon is approaching, so cancelling the trip can't be helped.",
+    "explanation": "やむを得ない（止むを得ない）is a set expression meaning 'unavoidable, it can't be helped, there is no other choice'. Literally it means 'cannot (得ない) stop (止む)'. It is used when you accept something undesirable because the circumstances leave no alternative: やむを得ない事情 'unavoidable circumstances', やむを得ず欠席する 'be absent because there is no other choice'. The everyday paraphrase is 仕方がない / しょうがない. Note the reading: 得 is read え here (得る can be read える or うる).",
+    "choice_notes": [
+      "Wrong. 当然だ 'it's only natural, obviously right' expresses that something is clearly correct; やむを得ない expresses reluctant acceptance because there is no choice.",
+      "Wrong. 困る 'to be troubled' says the cancellation causes a problem, not that the speaker accepts it.",
+      "Correct. 仕方がない 'it can't be helped' = やむを得ない.",
+      "Wrong. 考えられない 'unthinkable' is close to the opposite."
+    ],
+    "vocab": [
+      {
+        "word": "やむを得ない",
+        "reading": "やむをえない",
+        "meaning": "unavoidable, it can't be helped",
+        "pos": "expression (i-adjective)",
+        "example": "やむを得{え}ない事情{じじょう}で、会議{かいぎ}を欠席{けっせき}した。",
+        "example_translation": "I missed the meeting due to unavoidable circumstances."
+      },
+      {
+        "word": "仕方がない",
+        "reading": "しかたがない",
+        "meaning": "it can't be helped, there's nothing one can do",
+        "pos": "expression",
+        "example": "終{お}わったことを悔{く}やんでも仕方{しかた}がない。",
+        "example_translation": "There's no point regretting what's already over."
+      },
+      {
+        "word": "台風",
+        "reading": "たいふう",
+        "meaning": "typhoon",
+        "pos": "noun",
+        "example": "台風{たいふう}で電車{でんしゃ}が止{と}まった。",
+        "example_translation": "The trains stopped because of the typhoon."
+      },
+      {
+        "word": "近づく",
+        "reading": "ちかづく",
+        "meaning": "to approach, to draw near",
+        "pos": "godan verb",
+        "example": "試験{しけん}の日{ひ}が近{ちか}づいてきた。",
+        "example_translation": "The day of the exam is drawing near."
+      },
+      {
+        "word": "中止",
+        "reading": "ちゅうし",
+        "meaning": "cancellation, calling off",
+        "pos": "noun / suru verb",
+        "example": "雨{あめ}で花火大会{はなびたいかい}が中止{ちゅうし}になった。",
+        "example_translation": "The fireworks festival was cancelled because of rain."
+      },
+      {
+        "word": "当然",
+        "reading": "とうぜん",
+        "meaning": "natural, only to be expected, of course",
+        "pos": "na-adjective / adverb",
+        "example": "約束{やくそく}を守{まも}るのは当然{とうぜん}のことだ。",
+        "example_translation": "Keeping a promise is only natural."
+      },
+      {
+        "word": "事情",
+        "reading": "じじょう",
+        "meaning": "circumstances, reasons, situation",
+        "pos": "noun",
+        "example": "家庭{かてい}の事情{じじょう}で引{ひ}っ越{こ}すことになった。",
+        "example_translation": "I have to move for family reasons."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜ず（に）",
+        "meaning": "without ~, not ~ (formal negative; やむを得ず = 'having no choice')",
+        "formation": "Verb ない-stem + ず (する → せず)",
+        "example": "雨{あめ}のため、やむを得{え}ず試合{しあい}を中止{ちゅうし}した。",
+        "example_translation": "Because of the rain, we had no choice but to cancel the match."
+      },
+      {
+        "pattern": "〜ので",
+        "meaning": "because ~, since ~ (softer than から)",
+        "formation": "Plain form + ので (na-adjective / noun + なので)",
+        "example": "道{みち}が混{こ}んでいるので、遅{おく}れそうです。",
+        "example_translation": "The roads are crowded, so I think I'll be late."
+      }
+    ]
+  },
+  {
+    "id": "pp-034",
+    "section": "paraphrase",
+    "question": "毎日{まいにち}練習{れんしゅう}したので、ピアノの[[腕{うで}が上{あ}がった]]。",
+    "choices": [
+      "音{おと}が大{おお}きくなった",
+      "上手{じょうず}になった",
+      "練習{れんしゅう}が楽{たの}しくなった",
+      "腕{うで}が疲{つか}れた"
+    ],
+    "answer": 1,
+    "translation": "I practiced every day, so my piano playing got better.",
+    "explanation": "腕（うで）literally means 'arm', but it also means 'skill, ability'. So the set expression 腕が上がる means 'one's skill improves', and 腕を上げる means 'to improve one's skill'. Related expressions: 腕がいい 'skilled', 腕を磨く 'to polish one's skills', 料理の腕 'cooking skills', 腕の見せどころ 'a chance to show one's skill'. The paraphrase is 上手になる. This idiom has nothing to do with lifting or tiring your arm - choice 4 is a trap built on the literal meaning.",
+    "choice_notes": [
+      "Wrong. 音が大きくなった 'the sound got louder' is about volume.",
+      "Correct. 上手になった 'got better, became more skillful' = 腕が上がった.",
+      "Wrong. 練習が楽しくなった 'practice became fun' is about feelings.",
+      "Wrong. 腕が疲れた 'my arms got tired' uses the literal meaning of 腕; the idiom 腕が上がる is about skill."
+    ],
+    "vocab": [
+      {
+        "word": "腕が上がる",
+        "reading": "うでがあがる",
+        "meaning": "one's skill improves",
+        "pos": "expression (godan verb)",
+        "example": "毎日{まいにち}作{つく}っているうちに、料理{りょうり}の腕{うで}が上{あ}がった。",
+        "example_translation": "While cooking every day, my cooking skills improved."
+      },
+      {
+        "word": "腕",
+        "reading": "うで",
+        "meaning": "arm; skill, ability",
+        "pos": "noun",
+        "example": "あの大工{だいく}さんは腕{うで}がいい。",
+        "example_translation": "That carpenter is very skilled."
+      },
+      {
+        "word": "腕を磨く",
+        "reading": "うでをみがく",
+        "meaning": "to polish one's skills",
+        "pos": "expression (godan verb)",
+        "example": "彼{かれ}はフランスで料理{りょうり}の腕{うで}を磨{みが}いた。",
+        "example_translation": "He polished his cooking skills in France."
+      },
+      {
+        "word": "練習",
+        "reading": "れんしゅう",
+        "meaning": "practice",
+        "pos": "noun / suru verb",
+        "example": "毎朝{まいあさ}サッカーの練習{れんしゅう}をしている。",
+        "example_translation": "I practice soccer every morning."
+      },
+      {
+        "word": "上手",
+        "reading": "じょうず",
+        "meaning": "skillful, good at",
+        "pos": "na-adjective",
+        "example": "兄{あに}は歌{うた}が上手{じょうず}だ。",
+        "example_translation": "My older brother is good at singing."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜ので",
+        "meaning": "because ~, since ~",
+        "formation": "Plain form + ので (na-adjective / noun + なので)",
+        "example": "雨{あめ}が降{ふ}っているので、今日{きょう}は出{で}かけない。",
+        "example_translation": "It's raining, so I'm not going out today."
+      }
+    ]
+  },
+  {
+    "id": "pp-035",
+    "section": "paraphrase",
+    "question": "会議{かいぎ}の前{まえ}に、この資料{しりょう}に[[目{め}を通{とお}して]]おいてください。",
+    "choices": [
+      "サインして",
+      "コピーして",
+      "まとめて",
+      "ざっと読{よ}んで"
+    ],
+    "answer": 3,
+    "translation": "Please look over these materials before the meeting.",
+    "explanation": "目を通す（めをとおす）is a set expression meaning 'to look over, to read through (quickly), to skim'. It is used for documents, newspapers, emails, and so on: 書類に目を通す 'look over the documents', 新聞に目を通す 'skim the newspaper'. Note the particle: you 目を通す に something (資料に目を通す), not を. The paraphrase is ざっと読む 'to read through quickly'. The idea is checking the whole content once, not studying it in detail.",
+    "choice_notes": [
+      "Wrong. サインする 'to sign' is a different action.",
+      "Wrong. コピーする 'to copy' does not involve reading.",
+      "Wrong. まとめる 'to summarize, to put together' means creating something new from the materials.",
+      "Correct. ざっと読む 'to read through quickly' = 目を通す."
+    ],
+    "vocab": [
+      {
+        "word": "目を通す",
+        "reading": "めをとおす",
+        "meaning": "to look over, to read through, to skim",
+        "pos": "expression (godan verb)",
+        "example": "毎朝{まいあさ}、新聞{しんぶん}に目{め}を通{とお}してから出勤{しゅっきん}する。",
+        "example_translation": "Every morning I look over the newspaper before going to work."
+      },
+      {
+        "word": "ざっと",
+        "reading": "ざっと",
+        "meaning": "roughly, briefly, quickly",
+        "pos": "adverb",
+        "example": "説明書{せつめいしょ}をざっと読{よ}んでから使{つか}い始{はじ}めた。",
+        "example_translation": "I skimmed the manual and then started using it."
+      },
+      {
+        "word": "資料",
+        "reading": "しりょう",
+        "meaning": "materials, data, documents",
+        "pos": "noun",
+        "example": "会議{かいぎ}の資料{しりょう}を十部{じゅうぶ}コピーしてください。",
+        "example_translation": "Please make ten copies of the meeting materials."
+      },
+      {
+        "word": "まとめる",
+        "reading": "まとめる",
+        "meaning": "to summarize, to put together, to organize",
+        "pos": "ichidan verb",
+        "example": "調{しら}べたことをレポートにまとめた。",
+        "example_translation": "I put what I had researched together into a report."
+      },
+      {
+        "word": "書類",
+        "reading": "しょるい",
+        "meaning": "documents, papers",
+        "pos": "noun",
+        "example": "この書類{しょるい}にサインをお願{ねが}いします。",
+        "example_translation": "Please sign this document."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜ておく",
+        "meaning": "to do ~ in advance (in preparation)",
+        "formation": "Verb て-form + おく",
+        "example": "お客{きゃく}さんが来{く}る前{まえ}に、部屋{へや}を片付{かたづ}けておいた。",
+        "example_translation": "I tidied the room before the guests arrived."
+      }
+    ]
+  },
+  {
+    "id": "pp-036",
+    "section": "paraphrase",
+    "question": "父{ちち}は[[気{き}が短{みじか}い]]ので、レストランで長{なが}く待{ま}つのが苦手{にがて}だ。",
+    "choices": [
+      "すぐに怒{おこ}る",
+      "体{からだ}が弱{よわ}い",
+      "時間{じかん}がない",
+      "おなかがすきやすい"
+    ],
+    "answer": 0,
+    "translation": "My father is short-tempered, so he can't stand waiting a long time at restaurants.",
+    "explanation": "気が短い（きがみじかい）is a set expression meaning 'short-tempered, impatient, quick to get angry'. 気 means 'mind, temperament', so it literally says 'one's temper is short'. The opposite is 気が長い 'patient, easygoing'. A related noun is 短気（たんき）'a short temper'. Other common 気 expressions: 気が強い 'strong-willed', 気が弱い 'timid', 気が利く 'thoughtful, attentive'. The paraphrase is すぐに怒る or いらいらしやすい 'easily irritated'.",
+    "choice_notes": [
+      "Correct. すぐに怒る 'gets angry quickly' = 気が短い.",
+      "Wrong. 体が弱い 'physically weak' is about health.",
+      "Wrong. 時間がない 'has no time' plays on 短い 'short', but 気が短い is about temperament, not time.",
+      "Wrong. おなかがすきやすい 'gets hungry easily' is unrelated."
+    ],
+    "vocab": [
+      {
+        "word": "気が短い",
+        "reading": "きがみじかい",
+        "meaning": "short-tempered, impatient",
+        "pos": "expression (i-adjective)",
+        "example": "彼{かれ}は気{き}が短{みじか}くて、すぐに大声{おおごえ}を出{だ}す。",
+        "example_translation": "He's short-tempered and quickly starts shouting."
+      },
+      {
+        "word": "気が長い",
+        "reading": "きがながい",
+        "meaning": "patient, easygoing",
+        "pos": "expression (i-adjective)",
+        "example": "祖母{そぼ}は気{き}が長{なが}いので、怒{おこ}ったところを見{み}たことがない。",
+        "example_translation": "My grandmother is so patient that I've never seen her angry."
+      },
+      {
+        "word": "短気",
+        "reading": "たんき",
+        "meaning": "short temper; short-tempered",
+        "pos": "noun / na-adjective",
+        "example": "短気{たんき}な性格{せいかく}を直{なお}したい。",
+        "example_translation": "I want to fix my short temper."
+      },
+      {
+        "word": "苦手",
+        "reading": "にがて",
+        "meaning": "weak at, not good with, dislike",
+        "pos": "na-adjective",
+        "example": "私{わたし}は人前{ひとまえ}で話{はな}すのが苦手{にがて}だ。",
+        "example_translation": "I'm not good at speaking in front of people."
+      },
+      {
+        "word": "いらいら",
+        "reading": "いらいら",
+        "meaning": "irritated, frustrated, on edge",
+        "pos": "adverb / suru verb",
+        "example": "電車{でんしゃ}がなかなか来{こ}なくて、いらいらした。",
+        "example_translation": "The train just wouldn't come, and I got irritated."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜のが苦手だ",
+        "meaning": "to be bad at doing ~, to not like doing ~",
+        "formation": "Verb plain form + のが苦手だ",
+        "example": "朝早{あさはや}く起{お}きるのが苦手{にがて}だ。",
+        "example_translation": "I'm bad at getting up early."
+      },
+      {
+        "pattern": "〜やすい",
+        "meaning": "easy to ~, tend to ~",
+        "formation": "Verb ます-stem + やすい",
+        "example": "この季節{きせつ}は風邪{かぜ}をひきやすい。",
+        "example_translation": "It's easy to catch a cold in this season."
+      }
+    ]
+  },
+  {
+    "id": "pp-037",
+    "section": "paraphrase",
+    "question": "彼{かれ}はどんなに小{ちい}さな仕事{しごと}でも[[手{て}を抜{ぬ}かない]]。",
+    "choices": [
+      "休{やす}まない",
+      "人{ひと}に頼{たの}まない",
+      "いいかげんにしない",
+      "文句{もんく}を言{い}わない"
+    ],
+    "answer": 2,
+    "translation": "No matter how small the job is, he never cuts corners.",
+    "explanation": "手を抜く（てをぬく）is a set expression meaning 'to cut corners, to skimp, to do a job without full effort'. The noun form is 手抜き 'cutting corners, sloppy work': 手抜き工事 'shoddy construction', 手抜き料理 'a lazy (quick) meal'. 手を抜かない therefore means 'always do things properly and carefully'. The paraphrase is いいかげんにする 'to do something in a sloppy, half-hearted way', so 手を抜かない = いいかげんにしない. (Be careful: the scolding phrase いいかげんにしなさい! means 'that's enough!' - a different use.)",
+    "choice_notes": [
+      "Wrong. 休まない 'doesn't rest' is about taking breaks, not about the quality of the work.",
+      "Wrong. 人に頼まない 'doesn't ask others (to do it)' is about delegating.",
+      "Correct. いいかげんにしない 'doesn't do it sloppily' = 手を抜かない.",
+      "Wrong. 文句を言わない 'doesn't complain' is about attitude, not about the quality of the work."
+    ],
+    "vocab": [
+      {
+        "word": "手を抜く",
+        "reading": "てをぬく",
+        "meaning": "to cut corners, to skimp on effort",
+        "pos": "expression (godan verb)",
+        "example": "掃除{そうじ}の手{て}を抜{ぬ}いたら、母{はは}にすぐ気{き}づかれた。",
+        "example_translation": "When I cut corners on the cleaning, my mother noticed right away."
+      },
+      {
+        "word": "手抜き",
+        "reading": "てぬき",
+        "meaning": "cutting corners, sloppy work",
+        "pos": "noun",
+        "example": "今日{きょう}の夕飯{ゆうはん}は手抜{てぬ}きだけど、おいしい。",
+        "example_translation": "Tonight's dinner was a lazy one, but it's tasty."
+      },
+      {
+        "word": "いいかげん",
+        "reading": "いいかげん",
+        "meaning": "sloppy, irresponsible, half-hearted",
+        "pos": "na-adjective",
+        "example": "いいかげんな返事{へんじ}をしないでください。",
+        "example_translation": "Please don't give me a half-hearted answer."
+      },
+      {
+        "word": "頼む",
+        "reading": "たのむ",
+        "meaning": "to ask, to request",
+        "pos": "godan verb",
+        "example": "友達{ともだち}に引{ひ}っ越{こ}しの手伝{てつだ}いを頼{たの}んだ。",
+        "example_translation": "I asked a friend to help me move."
+      },
+      {
+        "word": "文句",
+        "reading": "もんく",
+        "meaning": "complaint",
+        "pos": "noun",
+        "example": "彼{かれ}はいつも料理{りょうり}に文句{もんく}を言{い}う。",
+        "example_translation": "He always complains about the food."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "どんなに〜ても／でも",
+        "meaning": "no matter how ~",
+        "formation": "どんなに + Verb / i-adjective て-form + も / どんなに + na-adjective / noun + でも",
+        "example": "どんなに疲{つか}れていても、毎晩{まいばん}日記{にっき}を書{か}く。",
+        "example_translation": "No matter how tired I am, I write in my diary every night."
+      }
+    ]
+  },
+  {
+    "id": "pp-038",
+    "section": "paraphrase",
+    "question": "二時間{にじかん}も並{なら}んで、[[ようやく]]店{みせ}に入{はい}ることができた。",
+    "choices": [
+      "すぐに",
+      "やっと",
+      "もう一度{いちど}",
+      "急{いそ}いで"
+    ],
+    "answer": 1,
+    "translation": "After lining up for a full two hours, I was finally able to get into the shop.",
+    "explanation": "ようやく means 'at last, finally': something you have been waiting for or working toward finally happens after a long time or a lot of effort: ようやく春が来た 'spring has finally come', ようやく完成した 'it was finally completed'. The synonym is やっと. Both carry a feeling of relief. ようやく sounds a little more formal than やっと. The clue in this sentence is 二時間も 'as long as two hours' - the particle も emphasizes that it was a long wait, which is the typical context for ようやく / やっと.",
+    "choice_notes": [
+      "Wrong. すぐに 'immediately' contradicts waiting two hours.",
+      "Correct. やっと 'finally (after a long wait)' = ようやく.",
+      "Wrong. もう一度 'once more' is about repetition.",
+      "Wrong. 急いで 'hurriedly' describes speed."
+    ],
+    "vocab": [
+      {
+        "word": "ようやく",
+        "reading": "ようやく",
+        "meaning": "finally, at last",
+        "pos": "adverb",
+        "example": "長{なが}い冬{ふゆ}が終{お}わって、ようやく春{はる}が来{き}た。",
+        "example_translation": "The long winter ended and spring finally came."
+      },
+      {
+        "word": "やっと",
+        "reading": "やっと",
+        "meaning": "finally, at last (after effort or waiting)",
+        "pos": "adverb",
+        "example": "三回目{さんかいめ}でやっと試験{しけん}に合格{ごうかく}した。",
+        "example_translation": "I finally passed the exam on my third try."
+      },
+      {
+        "word": "並ぶ",
+        "reading": "ならぶ",
+        "meaning": "to line up, to stand in a row",
+        "pos": "godan verb",
+        "example": "人気{にんき}のラーメン屋{や}の前{まえ}に人{ひと}が並{なら}んでいる。",
+        "example_translation": "People are lining up in front of the popular ramen shop."
+      },
+      {
+        "word": "急ぐ",
+        "reading": "いそぐ",
+        "meaning": "to hurry",
+        "pos": "godan verb",
+        "example": "時間{じかん}がないので、急{いそ}いでください。",
+        "example_translation": "There's no time, so please hurry."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "Number + も",
+        "meaning": "as many / as much as ~ (emphasizes that the amount is large)",
+        "formation": "Number + counter + も",
+        "example": "彼{かれ}は本{ほん}を千冊{せんさつ}も持{も}っている。",
+        "example_translation": "He has as many as a thousand books."
+      },
+      {
+        "pattern": "〜ことができる",
+        "meaning": "can ~, be able to ~",
+        "formation": "Verb dictionary form + ことができる",
+        "example": "彼{かれ}は三{みっ}つの言語{げんご}を話{はな}すことができる。",
+        "example_translation": "He can speak three languages."
+      }
+    ]
+  },
+  {
+    "id": "pp-039",
+    "section": "paraphrase",
+    "question": "薬{くすり}を飲{の}み始{はじ}めてから、病気{びょうき}は[[徐々{じょじょ}に]]よくなっている。",
+    "choices": [
+      "少{すこ}しずつ",
+      "急{きゅう}に",
+      "すっかり",
+      "再{ふたた}び"
+    ],
+    "answer": 0,
+    "translation": "Since I started taking the medicine, my illness has been gradually getting better.",
+    "explanation": "徐々に（じょじょに）means 'gradually, little by little, step by step'. It describes a slow, steady change over time: 徐々に増える 'increase gradually', 徐々に慣れる 'get used to something bit by bit', 徐々に暖かくなる 'gradually get warmer'. The paraphrase is 少しずつ or だんだん. The opposite is 急に 'suddenly'. The kanji 徐 itself means 'slowly'; the mark 々 repeats the previous kanji (徐徐 → 徐々). The 〜ている form (よくなっている 'is getting better') shows an ongoing process, which fits a gradual change.",
+    "choice_notes": [
+      "Correct. 少しずつ 'little by little' = 徐々に.",
+      "Wrong. 急に 'suddenly' is the opposite.",
+      "Wrong. すっかり 'completely' describes the final result, not a slow process.",
+      "Wrong. 再び 'again' would mean it is getting better once more."
+    ],
+    "vocab": [
+      {
+        "word": "徐々に",
+        "reading": "じょじょに",
+        "meaning": "gradually, little by little",
+        "pos": "adverb",
+        "example": "新{あたら}しい仕事{しごと}にも徐々{じょじょ}に慣{な}れてきた。",
+        "example_translation": "I've gradually gotten used to my new job."
+      },
+      {
+        "word": "少しずつ",
+        "reading": "すこしずつ",
+        "meaning": "little by little, bit by bit",
+        "pos": "adverb",
+        "example": "少{すこ}しずつ寒{さむ}くなってきた。",
+        "example_translation": "It's been getting colder little by little."
+      },
+      {
+        "word": "だんだん",
+        "reading": "だんだん",
+        "meaning": "gradually, more and more",
+        "pos": "adverb",
+        "example": "空{そら}がだんだん明{あか}るくなってきた。",
+        "example_translation": "The sky is gradually getting brighter."
+      },
+      {
+        "word": "すっかり",
+        "reading": "すっかり",
+        "meaning": "completely, totally",
+        "pos": "adverb",
+        "example": "風邪{かぜ}はすっかり治{なお}った。",
+        "example_translation": "My cold is completely gone."
+      },
+      {
+        "word": "再び",
+        "reading": "ふたたび",
+        "meaning": "again, once more",
+        "pos": "adverb",
+        "example": "十年後{じゅうねんご}、再{ふたた}びこの町{まち}を訪{おとず}れた。",
+        "example_translation": "Ten years later, I visited this town again."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜始める",
+        "meaning": "to start doing ~",
+        "formation": "Verb ます-stem + 始める",
+        "example": "去年{きょねん}からピアノを習{なら}い始{はじ}めた。",
+        "example_translation": "I started learning the piano last year."
+      },
+      {
+        "pattern": "〜てから",
+        "meaning": "since ~, after ~",
+        "formation": "Verb て-form + から",
+        "example": "日本{にほん}に来{き}てから、毎日{まいにち}日本語{にほんご}を使{つか}っている。",
+        "example_translation": "Since coming to Japan, I've been using Japanese every day."
+      }
+    ]
+  },
+  {
+    "id": "pp-040",
+    "section": "paraphrase",
+    "question": "駅{えき}で、高校{こうこう}時代{じだい}の友人{ゆうじん}に[[ばったり]]会{あ}った。",
+    "choices": [
+      "久{ひさ}しぶりに",
+      "約束{やくそく}して",
+      "急{いそ}いで",
+      "偶然{ぐうぜん}"
+    ],
+    "answer": 3,
+    "translation": "At the station, I bumped into a friend from my high school days.",
+    "explanation": "ばったり means 'unexpectedly, by chance' and is almost always used with 会う or 出会う: ばったり会う 'to bump into (someone)', 道でばったり出会う 'run into someone on the street'. The paraphrase is 偶然（ぐうぜん）'by chance'. It emphasizes the surprise of meeting without any plan. (ばったり has one more use: ばったり倒れる 'to collapse suddenly'.) 久しぶりに 'for the first time in a long while' is the trap: you probably had not seen a high school friend for a long time, but ばったり is about chance, not about time.",
+    "choice_notes": [
+      "Wrong. 久しぶりに 'after a long time' is about time; ばったり is about meeting by chance.",
+      "Wrong. 約束して 'by appointment' is the opposite of meeting by chance.",
+      "Wrong. 急いで 'in a hurry' describes speed.",
+      "Correct. 偶然 'by chance' = ばったり."
+    ],
+    "vocab": [
+      {
+        "word": "ばったり",
+        "reading": "ばったり",
+        "meaning": "(meet) by chance, unexpectedly; (fall) suddenly",
+        "pos": "adverb",
+        "example": "スーパーで先生{せんせい}とばったり会{あ}った。",
+        "example_translation": "I bumped into my teacher at the supermarket."
+      },
+      {
+        "word": "偶然",
+        "reading": "ぐうぜん",
+        "meaning": "by chance; coincidence",
+        "pos": "noun / na-adjective / adverb",
+        "example": "旅行先{りょこうさき}で偶然{ぐうぜん}、同{おな}じクラスの人{ひと}に会{あ}った。",
+        "example_translation": "I happened to meet a classmate on my trip."
+      },
+      {
+        "word": "久しぶり",
+        "reading": "ひさしぶり",
+        "meaning": "(for the first time) in a long while",
+        "pos": "noun / na-adjective",
+        "example": "久{ひさ}しぶりに家族{かぞく}で食事{しょくじ}をした。",
+        "example_translation": "We had a family meal together for the first time in a long while."
+      },
+      {
+        "word": "友人",
+        "reading": "ゆうじん",
+        "meaning": "friend (more formal than 友達)",
+        "pos": "noun",
+        "example": "大学{だいがく}時代{じだい}の友人{ゆうじん}と旅行{りょこう}に行{い}った。",
+        "example_translation": "I went on a trip with a friend from my university days."
+      },
+      {
+        "word": "時代",
+        "reading": "じだい",
+        "meaning": "era, period; days (of one's life)",
+        "pos": "noun",
+        "example": "子{こ}ども時代{じだい}はこの町{まち}で過{す}ごした。",
+        "example_translation": "I spent my childhood in this town."
+      },
+      {
+        "word": "出会う",
+        "reading": "であう",
+        "meaning": "to meet (by chance), to come across",
+        "pos": "godan verb",
+        "example": "旅{たび}で出会{であ}った人{ひと}と今{いま}も連絡{れんらく}を取{と}っている。",
+        "example_translation": "I'm still in touch with someone I met while traveling."
+      }
+    ],
+    "grammar": []
+  }
+]

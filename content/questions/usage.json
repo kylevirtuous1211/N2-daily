@@ -1,0 +1,2190 @@
+[
+  {
+    "id": "us-001",
+    "section": "usage",
+    "question": "[[目立{めだ}つ]]",
+    "choices": [
+      "この薬{くすり}は、飲{の}んでから三十分{さんじゅっぷん}ほどで目立{めだ}ってくる。",
+      "彼女{かのじょ}は背{せ}が高{たか}いので、大勢{おおぜい}の中{なか}にいてもよく目立{めだ}つ。",
+      "毎朝{まいあさ}六時{ろくじ}に目立{めだ}って、公園{こうえん}を散歩{さんぽ}している。",
+      "山{やま}の上{うえ}から見{み}ると、町{まち}全体{ぜんたい}がよく目立{めだ}つ。"
+    ],
+    "answer": 1,
+    "translation": "She is tall, so she stands out even in a big crowd.",
+    "explanation": "目立つ（めだつ）means 'to stand out, to be conspicuous, to catch the eye': something is easy to notice because it is different from its surroundings. Typical uses: 目立つ色 'a color that stands out', 赤い服は目立つ 'red clothes stand out', 最近ミスが目立つ 'mistakes have become noticeable lately', 目立たないように 'so as not to attract attention'. The thing that is noticed is the subject (Xが目立つ); the word does not describe the act of looking. Sentence 2 is correct because being tall makes her easy to spot among many people. The wrong sentences confuse 目立つ with 効く 'take effect', 目覚める 'wake up', and 見渡せる 'can see over a wide area'.",
+    "choice_notes": [
+      "Wrong. For medicine starting to work, use 効く（きく）: 三十分ほどで効いてくる.",
+      "Correct. Being easy to spot in a crowd because of one's height is the core meaning of 目立つ.",
+      "Wrong. Waking up is 目覚める（めざめる）or 起きる: 毎朝六時に目覚めて. 目立つ only shares the kanji 目.",
+      "Wrong. Being able to see the whole town from above is 見渡せる（みわたせる）or 見える: 町全体がよく見渡せる. 目立つ means standing out from the surroundings, not being visible from far away."
+    ],
+    "vocab": [
+      {
+        "word": "目立つ",
+        "reading": "めだつ",
+        "meaning": "to stand out, to be conspicuous",
+        "pos": "godan verb",
+        "example": "赤{あか}い服{ふく}を着{き}ていると目立{めだ}つ。",
+        "example_translation": "You stand out when you wear red clothes."
+      },
+      {
+        "word": "効く",
+        "reading": "きく",
+        "meaning": "to be effective, to work (medicine, treatment)",
+        "pos": "godan verb",
+        "example": "この薬{くすり}は頭痛{ずつう}によく効{き}く。",
+        "example_translation": "This medicine works well for headaches."
+      },
+      {
+        "word": "目覚める",
+        "reading": "めざめる",
+        "meaning": "to wake up",
+        "pos": "ichidan verb",
+        "example": "鳥{とり}の声{こえ}で目覚{めざ}めた。",
+        "example_translation": "I woke up to the sound of birds."
+      },
+      {
+        "word": "見渡す",
+        "reading": "みわたす",
+        "meaning": "to look out over, to survey (a wide area)",
+        "pos": "godan verb",
+        "example": "屋上{おくじょう}から町{まち}を見渡{みわた}した。",
+        "example_translation": "I looked out over the town from the rooftop."
+      },
+      {
+        "word": "大勢",
+        "reading": "おおぜい",
+        "meaning": "a crowd, a large number of people",
+        "pos": "noun",
+        "example": "駅前{えきまえ}に大勢{おおぜい}の人{ひと}が集{あつ}まっていた。",
+        "example_translation": "A large crowd had gathered in front of the station."
+      },
+      {
+        "word": "背",
+        "reading": "せ",
+        "meaning": "height, stature; back",
+        "pos": "noun",
+        "example": "弟{おとうと}は私{わたし}より背{せ}が高{たか}い。",
+        "example_translation": "My younger brother is taller than me."
+      },
+      {
+        "word": "全体",
+        "reading": "ぜんたい",
+        "meaning": "the whole, entirety",
+        "pos": "noun",
+        "example": "クラス全体{ぜんたい}で話{はな}し合{あ}った。",
+        "example_translation": "The whole class discussed it together."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜ても",
+        "meaning": "even if ~, even though ~",
+        "formation": "Verb / i-adjective て-form + も (na-adjective / noun + でも)",
+        "example": "雨{あめ}が降{ふ}っても、試合{しあい}は行{おこな}われる。",
+        "example_translation": "Even if it rains, the match will be held."
+      }
+    ]
+  },
+  {
+    "id": "us-002",
+    "section": "usage",
+    "question": "[[中断{ちゅうだん}]]",
+    "choices": [
+      "雨{あめ}が中断{ちゅうだん}したので、傘{かさ}をたたんだ。",
+      "体調{たいちょう}を崩{くず}して、大学{だいがく}を中断{ちゅうだん}することになった。",
+      "この道{みち}は、橋{はし}が壊{こわ}れて中断{ちゅうだん}している。",
+      "突然{とつぜん}の大雨{おおあめ}で、試合{しあい}が一時間{いちじかん}ほど中断{ちゅうだん}された。"
+    ],
+    "answer": 3,
+    "translation": "Because of the sudden heavy rain, the match was suspended for about an hour.",
+    "explanation": "中断（ちゅうだん）means 'interruption, suspension': an activity that is in progress is stopped partway through, usually with the idea that it may continue later. 中断する can mean both 'to interrupt (something)' (会議を中断する 'interrupt the meeting') and 'to be interrupted' (放送が中断する 'the broadcast is interrupted'); the passive 中断される is also very common. Typical subjects are human activities: 試合, 会議, 放送, 工事, 作業. Sentence 4 is correct: the match was stopped partway and presumably restarted. 中断 is not used for natural phenomena like rain stopping, for leaving school, or for closed roads.",
+    "choice_notes": [
+      "Wrong. Rain stopping is やむ（止む）: 雨がやんだので.",
+      "Wrong. Leaving university without graduating is 中退（ちゅうたい）: 大学を中退することになった. (Taking time off temporarily is 休学（きゅうがく）.)",
+      "Wrong. A road being closed to traffic is 通行止め（つうこうどめ）: 通行止めになっている.",
+      "Correct. A match being stopped partway because of rain is a typical use of 中断."
+    ],
+    "vocab": [
+      {
+        "word": "中断",
+        "reading": "ちゅうだん",
+        "meaning": "interruption, suspension (stopping partway)",
+        "pos": "noun / suru verb",
+        "example": "電話{でんわ}が鳴{な}って、仕事{しごと}を中断{ちゅうだん}した。",
+        "example_translation": "The phone rang, so I stopped working for a moment."
+      },
+      {
+        "word": "止む",
+        "reading": "やむ",
+        "meaning": "to stop (rain, wind, noise)",
+        "pos": "godan verb",
+        "example": "やっと雨{あめ}がやんだ。",
+        "example_translation": "The rain has finally stopped."
+      },
+      {
+        "word": "中退",
+        "reading": "ちゅうたい",
+        "meaning": "dropping out (of school)",
+        "pos": "noun / suru verb",
+        "example": "彼{かれ}は高校{こうこう}を中退{ちゅうたい}して働{はたら}き始{はじ}めた。",
+        "example_translation": "He dropped out of high school and started working."
+      },
+      {
+        "word": "休学",
+        "reading": "きゅうがく",
+        "meaning": "taking a leave of absence from school",
+        "pos": "noun / suru verb",
+        "example": "病気{びょうき}のため、一年間{いちねんかん}休学{きゅうがく}した。",
+        "example_translation": "I took a year off school because of illness."
+      },
+      {
+        "word": "通行止め",
+        "reading": "つうこうどめ",
+        "meaning": "road closed (to traffic)",
+        "pos": "noun",
+        "example": "事故{じこ}のため、この先{さき}は通行止{つうこうど}めです。",
+        "example_translation": "The road ahead is closed because of an accident."
+      },
+      {
+        "word": "体調を崩す",
+        "reading": "たいちょうをくずす",
+        "meaning": "to get sick, to get out of shape physically",
+        "pos": "expression (godan verb)",
+        "example": "季節{きせつ}の変{か}わり目{め}は体調{たいちょう}を崩{くず}しやすい。",
+        "example_translation": "It's easy to get sick when the seasons change."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜ことになる",
+        "meaning": "it has been decided that ~, it turns out that ~ (decided by circumstances or others)",
+        "formation": "Verb dictionary / ない-form + ことになる",
+        "example": "来月{らいげつ}、大阪{おおさか}に転勤{てんきん}することになった。",
+        "example_translation": "It's been decided that I'll be transferred to Osaka next month."
+      },
+      {
+        "pattern": "Number + ほど",
+        "meaning": "about ~, approximately ~",
+        "formation": "Number + counter + ほど",
+        "example": "駅{えき}まで歩{ある}いて十分{じゅっぷん}ほどです。",
+        "example_translation": "It's about a ten-minute walk to the station."
+      }
+    ]
+  },
+  {
+    "id": "us-003",
+    "section": "usage",
+    "question": "[[適度{てきど}]]",
+    "choices": [
+      "健康{けんこう}のためには、適度{てきど}な運動{うんどう}を続{つづ}けることが大切{たいせつ}だ。",
+      "彼{かれ}の答{こた}えは適度{てきど}だったので、先生{せんせい}にほめられた。",
+      "彼女{かのじょ}には、看護師{かんごし}としての適度{てきど}があると思{おも}う。",
+      "被害{ひがい}の適度{てきど}は、まだわかっていない。"
+    ],
+    "answer": 0,
+    "translation": "For your health, it's important to keep doing a moderate amount of exercise.",
+    "explanation": "適度（てきど）means 'moderate, the right amount or degree - not too much and not too little'. It is used as a na-adjective before a noun or as an adverb with に: 適度な運動 'moderate exercise', 適度な休憩 'a reasonable amount of rest', 適度に水をやる 'water (plants) in moderation', 適度な湿度 'a comfortable level of humidity'. It is always about an amount or degree. Sentence 1 is the textbook collocation. The wrong sentences use 適度 where similar-looking words belong: 適切 'appropriate, correct for the situation', 適性 'aptitude', and 程度 'degree, extent' (a noun asking 'how much').",
+    "choice_notes": [
+      "Correct. 適度な運動 'moderate exercise' is the most typical collocation of 適度.",
+      "Wrong. An answer that is right for the situation is 適切（てきせつ）: 彼の答えは適切だった.",
+      "Wrong. Having the aptitude for a job is 適性（てきせい）: 看護師としての適性がある.",
+      "Wrong. The extent of the damage is 程度（ていど）: 被害の程度はまだわかっていない."
+    ],
+    "vocab": [
+      {
+        "word": "適度",
+        "reading": "てきど",
+        "meaning": "moderate, the right amount (not too much, not too little)",
+        "pos": "na-adjective / noun",
+        "example": "植物{しょくぶつ}には適度{てきど}に水{みず}をやってください。",
+        "example_translation": "Please water the plants in moderation."
+      },
+      {
+        "word": "適切",
+        "reading": "てきせつ",
+        "meaning": "appropriate, proper, suitable",
+        "pos": "na-adjective",
+        "example": "状況{じょうきょう}に合{あ}わせて、適切{てきせつ}に判断{はんだん}してください。",
+        "example_translation": "Please make an appropriate judgment according to the situation."
+      },
+      {
+        "word": "適性",
+        "reading": "てきせい",
+        "meaning": "aptitude, suitability (for a job or role)",
+        "pos": "noun",
+        "example": "就職{しゅうしょく}の前{まえ}に適性{てきせい}検査{けんさ}を受{う}けた。",
+        "example_translation": "I took an aptitude test before getting a job."
+      },
+      {
+        "word": "程度",
+        "reading": "ていど",
+        "meaning": "degree, extent, level",
+        "pos": "noun",
+        "example": "けがの程度{ていど}は軽{かる}かった。",
+        "example_translation": "The injury was minor."
+      },
+      {
+        "word": "被害",
+        "reading": "ひがい",
+        "meaning": "damage, harm",
+        "pos": "noun",
+        "example": "台風{たいふう}で大{おお}きな被害{ひがい}が出{で}た。",
+        "example_translation": "The typhoon caused serious damage."
+      },
+      {
+        "word": "看護師",
+        "reading": "かんごし",
+        "meaning": "nurse",
+        "pos": "noun",
+        "example": "姉{あね}は病院{びょういん}で看護師{かんごし}として働{はたら}いている。",
+        "example_translation": "My older sister works as a nurse at a hospital."
+      },
+      {
+        "word": "健康",
+        "reading": "けんこう",
+        "meaning": "health; healthy",
+        "pos": "noun / na-adjective",
+        "example": "健康{けんこう}のために、野菜{やさい}をたくさん食{た}べている。",
+        "example_translation": "I eat a lot of vegetables for my health."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜ためには",
+        "meaning": "in order to ~, for the sake of ~ (followed by what is needed)",
+        "formation": "Noun + の + ためには / Verb dictionary form + ためには",
+        "example": "合格{ごうかく}するためには、毎日{まいにち}の勉強{べんきょう}が必要{ひつよう}だ。",
+        "example_translation": "To pass, you need to study every day."
+      },
+      {
+        "pattern": "〜として",
+        "meaning": "as ~ (in the role or capacity of ~)",
+        "formation": "Noun + として",
+        "example": "彼{かれ}は通訳{つうやく}として働{はたら}いている。",
+        "example_translation": "He works as an interpreter."
+      }
+    ]
+  },
+  {
+    "id": "us-004",
+    "section": "usage",
+    "question": "[[冷静{れいせい}]]",
+    "choices": [
+      "冷蔵庫{れいぞうこ}に入{い}れておいたので、ジュースが冷静{れいせい}になった。",
+      "今朝{けさ}は冷静{れいせい}な風{かぜ}が吹{ふ}いていて、とても寒{さむ}かった。",
+      "地震{じしん}のときこそ、慌{あわ}てずに冷静{れいせい}に行動{こうどう}することが大切{たいせつ}だ。",
+      "彼女{かのじょ}は人{ひと}に冷静{れいせい}で、困{こま}っている人{ひと}がいても助{たす}けようとしない。"
+    ],
+    "answer": 2,
+    "translation": "It is precisely during an earthquake that it's important to act calmly without panicking.",
+    "explanation": "冷静（れいせい）is a na-adjective meaning 'calm, composed, cool-headed': a person's mind or behavior is not disturbed by emotion. Typical phrases: 冷静な判断 'a calm judgment', 冷静に話し合う 'discuss calmly', 冷静になる 'calm down', 冷静さを失う 'lose one's composure'. Even though it contains 冷 'cold', it is never about physical temperature, and it is not negative like 冷たい 'cold-hearted'. Sentence 3 is correct: acting calmly instead of panicking (慌てずに) in an emergency.",
+    "choice_notes": [
+      "Wrong. Juice getting cold is 冷える（ひえる）: ジュースが冷えた.",
+      "Wrong. A cold wind is 冷たい風（つめたいかぜ）.",
+      "Correct. Acting calmly without panicking is the core use of 冷静.",
+      "Wrong. Being cold-hearted toward people is 冷たい（つめたい）or 冷淡（れいたん）: 人に冷たくて."
+    ],
+    "vocab": [
+      {
+        "word": "冷静",
+        "reading": "れいせい",
+        "meaning": "calm, composed, cool-headed",
+        "pos": "na-adjective",
+        "example": "冷静{れいせい}になって、もう一度{いちど}考{かんが}えてみよう。",
+        "example_translation": "Let's calm down and think about it once more."
+      },
+      {
+        "word": "冷える",
+        "reading": "ひえる",
+        "meaning": "to get cold, to cool down",
+        "pos": "ichidan verb",
+        "example": "冷{ひ}えたビールが飲{の}みたい。",
+        "example_translation": "I want to drink a cold beer."
+      },
+      {
+        "word": "冷たい",
+        "reading": "つめたい",
+        "meaning": "cold (to the touch); cold-hearted",
+        "pos": "i-adjective",
+        "example": "彼{かれ}の冷{つめ}たい言葉{ことば}に傷{きず}ついた。",
+        "example_translation": "I was hurt by his cold words."
+      },
+      {
+        "word": "冷淡",
+        "reading": "れいたん",
+        "meaning": "cold, indifferent (in attitude)",
+        "pos": "na-adjective",
+        "example": "困{こま}っている人{ひと}に冷淡{れいたん}な態度{たいど}をとってはいけない。",
+        "example_translation": "You must not be cold toward people in trouble."
+      },
+      {
+        "word": "慌てる",
+        "reading": "あわてる",
+        "meaning": "to panic, to be flustered",
+        "pos": "ichidan verb",
+        "example": "寝坊{ねぼう}して、慌{あわ}てて家{いえ}を出{で}た。",
+        "example_translation": "I overslept and rushed out of the house."
+      },
+      {
+        "word": "行動",
+        "reading": "こうどう",
+        "meaning": "action, behavior",
+        "pos": "noun / suru verb",
+        "example": "考{かんが}えるだけでなく、行動{こうどう}することが大切{たいせつ}だ。",
+        "example_translation": "It's important not just to think, but to act."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜こそ",
+        "meaning": "precisely ~, it is exactly ~ (strong emphasis)",
+        "formation": "Noun + こそ (also 〜ときこそ 'precisely when ~')",
+        "example": "今年{ことし}こそ試験{しけん}に合格{ごうかく}したい。",
+        "example_translation": "This year, for sure, I want to pass the exam."
+      },
+      {
+        "pattern": "〜ずに",
+        "meaning": "without doing ~",
+        "formation": "Verb ない-stem + ずに (する → せずに)",
+        "example": "傘{かさ}を持{も}たずに出{で}かけた。",
+        "example_translation": "I went out without an umbrella."
+      }
+    ]
+  },
+  {
+    "id": "us-005",
+    "section": "usage",
+    "question": "[[普及{ふきゅう}]]",
+    "choices": [
+      "このニュースは、あっという間{ま}に町中{まちじゅう}に普及{ふきゅう}した。",
+      "壊{こわ}れたパソコンを、店{みせ}で普及{ふきゅう}してもらった。",
+      "スマートフォンが普及{ふきゅう}して、人々{ひとびと}の生活{せいかつ}は大{おお}きく変{か}わった。",
+      "大雨{おおあめ}で止{と}まっていた電車{でんしゃ}が、やっと普及{ふきゅう}した。"
+    ],
+    "answer": 2,
+    "translation": "Smartphones became widespread, and people's lives changed greatly.",
+    "explanation": "普及（ふきゅう）means 'spread, coming into wide use': a product, technology, idea, or custom is adopted widely across society. Typical uses: インターネットの普及 'the spread of the internet', 電気自動車が普及する 'electric cars become common', 普及率 'adoption rate', 普及させる 'popularize'. It is used for things that people adopt and use, so sentence 3 (smartphones) is a perfect example. It is not used for news or rumors spreading (広まる), for repairs (修理), or for train service being restored (復旧, which sounds similar).",
+    "choice_notes": [
+      "Wrong. News or rumors spreading is 広まる（ひろまる）: 町中に広まった.",
+      "Wrong. Repairing a broken computer is 修理（しゅうり）: 店で修理してもらった.",
+      "Correct. A technology coming into wide use is exactly 普及.",
+      "Wrong. Train service being restored is 復旧（ふっきゅう）: 電車がやっと復旧した. Be careful: ふきゅう and ふっきゅう sound similar."
+    ],
+    "vocab": [
+      {
+        "word": "普及",
+        "reading": "ふきゅう",
+        "meaning": "spread, coming into wide use, popularization",
+        "pos": "noun / suru verb",
+        "example": "電気自動車{でんきじどうしゃ}が少{すこ}しずつ普及{ふきゅう}している。",
+        "example_translation": "Electric cars are gradually becoming common."
+      },
+      {
+        "word": "広まる",
+        "reading": "ひろまる",
+        "meaning": "to spread (news, rumors, customs)",
+        "pos": "godan verb",
+        "example": "そのうわさはすぐに学校中{がっこうじゅう}に広{ひろ}まった。",
+        "example_translation": "The rumor quickly spread throughout the school."
+      },
+      {
+        "word": "修理",
+        "reading": "しゅうり",
+        "meaning": "repair",
+        "pos": "noun / suru verb",
+        "example": "自転車{じてんしゃ}を修理{しゅうり}に出{だ}した。",
+        "example_translation": "I took my bicycle in for repair."
+      },
+      {
+        "word": "復旧",
+        "reading": "ふっきゅう",
+        "meaning": "restoration (of service), recovery",
+        "pos": "noun / suru verb",
+        "example": "停電{ていでん}は二時間後{にじかんご}に復旧{ふっきゅう}した。",
+        "example_translation": "The power came back two hours later."
+      },
+      {
+        "word": "町中",
+        "reading": "まちじゅう",
+        "meaning": "the whole town, all over town",
+        "pos": "noun",
+        "example": "お祭{まつ}りの日{ひ}は町中{まちじゅう}がにぎやかになる。",
+        "example_translation": "On festival day, the whole town becomes lively."
+      },
+      {
+        "word": "人々",
+        "reading": "ひとびと",
+        "meaning": "people",
+        "pos": "noun",
+        "example": "多{おお}くの人々{ひとびと}がその映画{えいが}を見{み}た。",
+        "example_translation": "Many people saw that movie."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜てもらう",
+        "meaning": "to have someone do ~ (for me)",
+        "formation": "Person + に + Verb て-form + もらう",
+        "example": "母{はは}に駅{えき}まで送{おく}ってもらった。",
+        "example_translation": "I had my mother drive me to the station."
+      }
+    ]
+  },
+  {
+    "id": "us-006",
+    "section": "usage",
+    "question": "[[発揮{はっき}]]",
+    "choices": [
+      "本番{ほんばん}で実力{じつりょく}を十分{じゅうぶん}に発揮{はっき}できるように、毎日{まいにち}練習{れんしゅう}している。",
+      "新{あたら}しい法律{ほうりつ}が、来月{らいげつ}から発揮{はっき}される。",
+      "彼{かれ}は会議{かいぎ}で新{あたら}しい案{あん}を発揮{はっき}した。",
+      "工場{こうじょう}で事故{じこ}が発揮{はっき}し、けが人{にん}が出{で}た。"
+    ],
+    "answer": 0,
+    "translation": "I practice every day so that I can fully show my true ability in the actual performance.",
+    "explanation": "発揮（はっき）means 'displaying, demonstrating, bringing out (one's ability or power)'. It is used with abilities, strengths, or effects that a person or thing has inside: 実力を発揮する 'show one's true ability', 力を発揮する 'show one's strength', リーダーシップを発揮する 'show leadership', 効果を発揮する 'have an effect'. The object is always some kind of power or ability, so sentence 1 is correct. The wrong sentences confuse it with other words: 発表 'announce, present', 発生 'occur, break out', and 施行 'put (a law) into effect'.",
+    "choice_notes": [
+      "Correct. 実力を発揮する 'show one's true ability' is the standard collocation.",
+      "Wrong. A law coming into effect is 施行（しこう）される or 実施（じっし）される: 来月から施行される.",
+      "Wrong. Presenting a new plan is 発表（はっぴょう）or 提案（ていあん）: 新しい案を発表した.",
+      "Wrong. An accident occurring is 発生（はっせい）: 工場で事故が発生し."
+    ],
+    "vocab": [
+      {
+        "word": "発揮",
+        "reading": "はっき",
+        "meaning": "displaying, demonstrating (one's ability or power)",
+        "pos": "noun / suru verb",
+        "example": "彼女{かのじょ}はチームのリーダーとして力{ちから}を発揮{はっき}した。",
+        "example_translation": "She showed her abilities as the team's leader."
+      },
+      {
+        "word": "実力",
+        "reading": "じつりょく",
+        "meaning": "real ability, true capability",
+        "pos": "noun",
+        "example": "彼{かれ}は実力{じつりょく}のある選手{せんしゅ}だ。",
+        "example_translation": "He is a truly capable player."
+      },
+      {
+        "word": "本番",
+        "reading": "ほんばん",
+        "meaning": "the real thing, the actual performance (not practice)",
+        "pos": "noun",
+        "example": "練習{れんしゅう}ではうまくいったのに、本番{ほんばん}で失敗{しっぱい}した。",
+        "example_translation": "It went well in practice, but I failed in the real performance."
+      },
+      {
+        "word": "発表",
+        "reading": "はっぴょう",
+        "meaning": "announcement, presentation",
+        "pos": "noun / suru verb",
+        "example": "明日{あした}、授業{じゅぎょう}で研究{けんきゅう}の発表{はっぴょう}をする。",
+        "example_translation": "Tomorrow I'll present my research in class."
+      },
+      {
+        "word": "発生",
+        "reading": "はっせい",
+        "meaning": "occurrence, outbreak",
+        "pos": "noun / suru verb",
+        "example": "昨夜{さくや}、大{おお}きな地震{じしん}が発生{はっせい}した。",
+        "example_translation": "A big earthquake occurred last night."
+      },
+      {
+        "word": "施行",
+        "reading": "しこう",
+        "meaning": "putting (a law) into effect, enforcement",
+        "pos": "noun / suru verb",
+        "example": "新{あたら}しい法律{ほうりつ}は四月{しがつ}から施行{しこう}される。",
+        "example_translation": "The new law will take effect in April."
+      },
+      {
+        "word": "案",
+        "reading": "あん",
+        "meaning": "plan, proposal, idea",
+        "pos": "noun",
+        "example": "何{なに}かいい案{あん}はありませんか。",
+        "example_translation": "Does anyone have a good idea?"
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜ように",
+        "meaning": "so that ~, in order that ~ (a goal you can't fully control)",
+        "formation": "Verb dictionary / potential / ない-form + ように",
+        "example": "忘{わす}れないように、手帳{てちょう}に書{か}いておく。",
+        "example_translation": "I'll write it in my planner so that I don't forget."
+      }
+    ]
+  },
+  {
+    "id": "us-007",
+    "section": "usage",
+    "question": "[[深刻{しんこく}]]",
+    "choices": [
+      "この湖{みずうみ}は深刻{しんこく}で、底{そこ}が見{み}えない。",
+      "その地域{ちいき}では、水不足{みずぶそく}が深刻{しんこく}な問題{もんだい}になっている。",
+      "道{みち}が混{こ}んでいて、約束{やくそく}の時間{じかん}に深刻{しんこく}してしまった。",
+      "先生{せんせい}の話{はなし}を深刻{しんこく}に聞{き}いて、ノートにメモした。"
+    ],
+    "answer": 1,
+    "translation": "In that region, water shortage has become a serious problem.",
+    "explanation": "深刻（しんこく）is a na-adjective meaning 'serious, grave, severe', used for problems or situations that are bad and worrying: 深刻な問題 'a serious problem', 深刻な状況 'a grave situation', 被害が深刻だ 'the damage is severe', 深刻な顔 'a grave expression'. It is always about something negative. It is NOT about physical depth (深い), and it is not the same as 真剣 'serious, earnest (in attitude)'. In English both 深刻 and 真剣 are translated 'serious', which is the main trap: 深刻 = the situation is serious; 真剣 = the person is serious about something.",
+    "choice_notes": [
+      "Wrong. Physical depth of a lake is 深い（ふかい）: この湖は深くて.",
+      "Correct. 深刻な問題 'a serious problem' is the most typical collocation.",
+      "Wrong. Being late for an appointment is 遅刻（ちこく）: 約束の時間に遅刻してしまった.",
+      "Wrong. Listening earnestly is 真剣に（しんけんに）: 先生の話を真剣に聞いて."
+    ],
+    "vocab": [
+      {
+        "word": "深刻",
+        "reading": "しんこく",
+        "meaning": "serious, grave, severe (of a problem or situation)",
+        "pos": "na-adjective",
+        "example": "彼{かれ}は深刻{しんこく}な顔{かお}で相談{そうだん}に来{き}た。",
+        "example_translation": "He came to me for advice with a grave look on his face."
+      },
+      {
+        "word": "深い",
+        "reading": "ふかい",
+        "meaning": "deep",
+        "pos": "i-adjective",
+        "example": "この川{かわ}は思{おも}ったより深{ふか}い。",
+        "example_translation": "This river is deeper than I thought."
+      },
+      {
+        "word": "遅刻",
+        "reading": "ちこく",
+        "meaning": "being late",
+        "pos": "noun / suru verb",
+        "example": "電車{でんしゃ}が遅{おく}れて、会社{かいしゃ}に遅刻{ちこく}した。",
+        "example_translation": "The train was delayed, so I was late for work."
+      },
+      {
+        "word": "真剣",
+        "reading": "しんけん",
+        "meaning": "serious, earnest (in attitude)",
+        "pos": "na-adjective",
+        "example": "子{こ}どもたちは真剣{しんけん}な顔{かお}で先生{せんせい}の話{はなし}を聞{き}いていた。",
+        "example_translation": "The children were listening to the teacher with serious faces."
+      },
+      {
+        "word": "水不足",
+        "reading": "みずぶそく",
+        "meaning": "water shortage",
+        "pos": "noun",
+        "example": "雨{あめ}が少{すく}なくて、今年{ことし}の夏{なつ}は水不足{みずぶそく}になった。",
+        "example_translation": "There was little rain, so this summer there was a water shortage."
+      },
+      {
+        "word": "地域",
+        "reading": "ちいき",
+        "meaning": "region, area, local community",
+        "pos": "noun",
+        "example": "この地域{ちいき}にはお年寄{としよ}りが多{おお}い。",
+        "example_translation": "There are many elderly people in this area."
+      },
+      {
+        "word": "底",
+        "reading": "そこ",
+        "meaning": "bottom",
+        "pos": "noun",
+        "example": "海{うみ}の底{そこ}にはどんな生{い}き物{もの}がいるのだろう。",
+        "example_translation": "I wonder what kinds of creatures live at the bottom of the sea."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜になっている",
+        "meaning": "has become ~ (and is so now)",
+        "formation": "Noun / na-adjective + になっている",
+        "example": "この町{まち}は外国人{がいこくじん}に人気{にんき}の観光地{かんこうち}になっている。",
+        "example_translation": "This town has become a popular tourist spot for foreigners."
+      }
+    ]
+  },
+  {
+    "id": "us-008",
+    "section": "usage",
+    "question": "[[携{たずさ}わる]]",
+    "choices": [
+      "旅行{りょこう}のときは、いつもカメラを携{たずさ}わって出{で}かける。",
+      "駅{えき}で、知{し}らない人{ひと}に道{みち}を携{たずさ}わった。",
+      "子{こ}どもと手{て}を携{たずさ}わって、横断歩道{おうだんほどう}を渡{わた}った。",
+      "父{ちち}は三十年間{さんじゅうねんかん}、医療{いりょう}の仕事{しごと}に携{たずさ}わってきた。"
+    ],
+    "answer": 3,
+    "translation": "My father has worked in the medical field for thirty years.",
+    "explanation": "携わる（たずさわる）means 'to be engaged in, to be involved in, to work in (a job, field, or project)'. It is a slightly formal word, and the pattern is always [field / work] + に携わる: 教育に携わる 'work in education', 研究に携わる 'be engaged in research', 映画の制作に携わる 'be involved in making a film'. It usually describes long-term or professional involvement, so sentence 4 is correct. Don't confuse it with 携える（たずさえる）'to carry with you', with 尋ねる（たずねる）'to ask', which sounds similar, or with 手をつなぐ 'to hold hands'.",
+    "choice_notes": [
+      "Wrong. Carrying a camera is 持つ or 携帯する（けいたいする）: カメラを持って出かける. (The formal verb 携える たずさえる 'to carry' also exists, but 携わる does not mean 'carry'.)",
+      "Wrong. Asking a stranger the way is 尋ねる（たずねる）: 道を尋ねた.",
+      "Wrong. Holding a child's hand is 手をつなぐ: 子どもと手をつないで.",
+      "Correct. 医療の仕事に携わる 'be engaged in medical work' is the typical [field]に携わる pattern."
+    ],
+    "vocab": [
+      {
+        "word": "携わる",
+        "reading": "たずさわる",
+        "meaning": "to be engaged in, to be involved in (work, a field)",
+        "pos": "godan verb",
+        "example": "将来{しょうらい}は教育{きょういく}に携{たずさ}わる仕事{しごと}がしたい。",
+        "example_translation": "In the future I want a job in education."
+      },
+      {
+        "word": "携帯",
+        "reading": "けいたい",
+        "meaning": "carrying (with you); mobile phone",
+        "pos": "noun / suru verb",
+        "example": "パスポートは常{つね}に携帯{けいたい}してください。",
+        "example_translation": "Please carry your passport with you at all times."
+      },
+      {
+        "word": "携える",
+        "reading": "たずさえる",
+        "meaning": "to carry in one's hand, to take along (formal)",
+        "pos": "ichidan verb",
+        "example": "彼{かれ}は花束{はなたば}を携{たずさ}えて病院{びょういん}を訪{おとず}れた。",
+        "example_translation": "He visited the hospital carrying a bouquet of flowers."
+      },
+      {
+        "word": "尋ねる",
+        "reading": "たずねる",
+        "meaning": "to ask, to inquire",
+        "pos": "ichidan verb",
+        "example": "受付{うけつけ}で会議室{かいぎしつ}の場所{ばしょ}を尋{たず}ねた。",
+        "example_translation": "I asked at reception where the meeting room was."
+      },
+      {
+        "word": "つなぐ",
+        "reading": "つなぐ",
+        "meaning": "to connect, to tie; to hold (hands)",
+        "pos": "godan verb",
+        "example": "二人{ふたり}は手{て}をつないで歩{ある}いていた。",
+        "example_translation": "The two were walking hand in hand."
+      },
+      {
+        "word": "医療",
+        "reading": "いりょう",
+        "meaning": "medical care, medicine (as a field)",
+        "pos": "noun",
+        "example": "この町{まち}は医療{いりょう}のサービスが充実{じゅうじつ}している。",
+        "example_translation": "This town has excellent medical services."
+      },
+      {
+        "word": "横断歩道",
+        "reading": "おうだんほどう",
+        "meaning": "pedestrian crossing, crosswalk",
+        "pos": "noun",
+        "example": "横断歩道{おうだんほどう}を渡{わた}るときは、左右{さゆう}をよく見{み}なさい。",
+        "example_translation": "When you cross at a crosswalk, look carefully left and right."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜てきた",
+        "meaning": "have been doing ~ (from the past up to now)",
+        "formation": "Verb て-form + きた",
+        "example": "この店{みせ}は百年{ひゃくねん}も続{つづ}いてきた。",
+        "example_translation": "This shop has carried on for a hundred years."
+      }
+    ]
+  },
+  {
+    "id": "us-009",
+    "section": "usage",
+    "question": "[[手軽{てがる}]]",
+    "choices": [
+      "このかばんは手軽{てがる}で、たくさん物{もの}を入{い}れても重{おも}くならない。",
+      "彼{かれ}は手軽{てがる}な性格{せいかく}で、誰{だれ}とでもすぐに仲良{なかよ}くなる。",
+      "このアプリを使{つか}えば、料理{りょうり}のレシピを手軽{てがる}に調{しら}べられる。",
+      "今日{きょう}の試験{しけん}は手軽{てがる}だったので、全部{ぜんぶ}の問題{もんだい}に答{こた}えられた。"
+    ],
+    "answer": 2,
+    "translation": "If you use this app, you can easily look up cooking recipes.",
+    "explanation": "手軽（てがる）is a na-adjective meaning 'easy, simple, handy - needing little effort, time, or money'. It describes how easily a person can do, get, or use something: 手軽に楽しめる 'can be enjoyed easily', 手軽な料理 'a quick, simple dish', 手軽な値段 'a reasonable price', 手軽に始められる 'easy to get started with'. Sentence 3 is correct: the app lets you look up recipes with little effort. Although 手軽 contains 軽 'light', it is not about weight (軽い), a person's character (気さく), or how difficult a test is (簡単, やさしい).",
+    "choice_notes": [
+      "Wrong. A bag that isn't heavy is 軽い（かるい）: このかばんは軽くて.",
+      "Wrong. A friendly, easygoing personality is 気さく（きさく）: 気さくな性格で.",
+      "Correct. 手軽に調べられる 'can be looked up easily, with little effort' is a natural use of 手軽.",
+      "Wrong. An easy test is 簡単（かんたん）or やさしい: 今日の試験は簡単だった."
+    ],
+    "vocab": [
+      {
+        "word": "手軽",
+        "reading": "てがる",
+        "meaning": "easy, simple, handy (needing little effort, time or money)",
+        "pos": "na-adjective",
+        "example": "コンビニで手軽{てがる}に昼{ひる}ご飯{はん}を買{か}った。",
+        "example_translation": "I quickly bought lunch at a convenience store."
+      },
+      {
+        "word": "軽い",
+        "reading": "かるい",
+        "meaning": "light (in weight)",
+        "pos": "i-adjective",
+        "example": "このパソコンは軽{かる}くて持{も}ち運{はこ}びやすい。",
+        "example_translation": "This laptop is light and easy to carry around."
+      },
+      {
+        "word": "気さく",
+        "reading": "きさく",
+        "meaning": "friendly, easygoing, unpretentious",
+        "pos": "na-adjective",
+        "example": "社長{しゃちょう}は気{き}さくな人{ひと}で、誰{だれ}にでも話{はな}しかける。",
+        "example_translation": "The company president is a friendly person who talks to everyone."
+      },
+      {
+        "word": "簡単",
+        "reading": "かんたん",
+        "meaning": "easy, simple",
+        "pos": "na-adjective",
+        "example": "この料理{りょうり}は簡単{かんたん}に作{つく}れる。",
+        "example_translation": "This dish is easy to make."
+      },
+      {
+        "word": "性格",
+        "reading": "せいかく",
+        "meaning": "personality, character",
+        "pos": "noun",
+        "example": "姉{あね}と私{わたし}は性格{せいかく}がまったく違{ちが}う。",
+        "example_translation": "My older sister and I have completely different personalities."
+      },
+      {
+        "word": "仲良くなる",
+        "reading": "なかよくなる",
+        "meaning": "to become friends, to get along",
+        "pos": "expression (godan verb)",
+        "example": "留学中{りゅうがくちゅう}に、いろいろな国{くに}の人{ひと}と仲良{なかよ}くなった。",
+        "example_translation": "While studying abroad, I became friends with people from many countries."
+      },
+      {
+        "word": "調べる",
+        "reading": "しらべる",
+        "meaning": "to look up, to investigate",
+        "pos": "ichidan verb",
+        "example": "わからない言葉{ことば}を辞書{じしょ}で調{しら}べた。",
+        "example_translation": "I looked up the words I didn't know in a dictionary."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜ば",
+        "meaning": "if ~ (condition)",
+        "formation": "Godan: change final -u to -eba (使う → 使えば) / Ichidan: stem + れば / i-adjective: 〜ければ",
+        "example": "急{いそ}げば、まだ間{ま}に合{あ}う。",
+        "example_translation": "If you hurry, you'll still make it."
+      },
+      {
+        "pattern": "可能形（〜られる / 〜える）",
+        "meaning": "potential form: can ~",
+        "formation": "Godan: change final -u to -eru (書く → 書ける) / Ichidan: stem + られる (調べる → 調べられる)",
+        "example": "このアプリで、電車{でんしゃ}の時間{じかん}が調{しら}べられる。",
+        "example_translation": "You can check train times with this app."
+      }
+    ]
+  },
+  {
+    "id": "us-010",
+    "section": "usage",
+    "question": "[[甘{あま}やかす]]",
+    "choices": [
+      "祖父母{そふぼ}は孫{まご}を甘{あま}やかして、欲{ほ}しがる物{もの}を何{なん}でも買{か}ってあげる。",
+      "このケーキは砂糖{さとう}を入{い}れすぎて、甘{あま}やかしてしまった。",
+      "彼{かれ}は先輩{せんぱい}に甘{あま}やかして、よく昼{ひる}ご飯{はん}をおごってもらっている。",
+      "泣{な}いている赤{あか}ちゃんを優{やさ}しく甘{あま}やかして寝{ね}かせた。"
+    ],
+    "answer": 0,
+    "translation": "The grandparents spoil their grandchild and buy anything he wants.",
+    "explanation": "甘やかす（あまやかす）means 'to spoil, to indulge, to pamper': to be too soft on someone and let them do or have whatever they want. Typical uses: 子どもを甘やかす 'spoil a child', 甘やかして育てる 'bring up (a child) spoiled', 自分を甘やかす 'go easy on oneself'. It is transitive: [A] が [B] を甘やかす, where A is the one who is too kind. Its partner 甘える（あまえる）is intransitive: [B] が [A] に甘える 'to act like a spoiled child toward A, to rely on A's kindness'. Sentence 1 is correct; sentence 3 mixes up these two verbs, which is the most common mistake.",
+    "choice_notes": [
+      "Correct. Grandparents spoiling a grandchild by buying anything he wants is the typical use of 甘やかす.",
+      "Wrong. A cake becoming too sweet is 甘くなる / 甘くしすぎる: 甘くなりすぎてしまった.",
+      "Wrong. Relying on a senior's kindness is 甘える（あまえる）: 先輩に甘えて.",
+      "Wrong. Soothing a crying baby is あやす: 優しくあやして寝かせた."
+    ],
+    "vocab": [
+      {
+        "word": "甘やかす",
+        "reading": "あまやかす",
+        "meaning": "to spoil, to indulge, to pamper",
+        "pos": "godan verb",
+        "example": "子{こ}どもを甘{あま}やかしすぎるのはよくない。",
+        "example_translation": "It's not good to spoil children too much."
+      },
+      {
+        "word": "甘える",
+        "reading": "あまえる",
+        "meaning": "to act spoiled toward, to depend on someone's kindness",
+        "pos": "ichidan verb",
+        "example": "では、お言葉{ことば}に甘{あま}えて、お先{さき}に失礼{しつれい}します。",
+        "example_translation": "Then I'll accept your kind offer and leave first."
+      },
+      {
+        "word": "あやす",
+        "reading": "あやす",
+        "meaning": "to soothe, to comfort (a baby)",
+        "pos": "godan verb",
+        "example": "父{ちち}が泣{な}いている赤{あか}ちゃんをあやしている。",
+        "example_translation": "My father is soothing the crying baby."
+      },
+      {
+        "word": "孫",
+        "reading": "まご",
+        "meaning": "grandchild",
+        "pos": "noun",
+        "example": "祖母{そぼ}は孫{まご}に会{あ}うのを楽{たの}しみにしている。",
+        "example_translation": "My grandmother is looking forward to seeing her grandchildren."
+      },
+      {
+        "word": "祖父母",
+        "reading": "そふぼ",
+        "meaning": "grandparents",
+        "pos": "noun",
+        "example": "夏休{なつやす}みに祖父母{そふぼ}の家{いえ}に遊{あそ}びに行{い}った。",
+        "example_translation": "During summer vacation I visited my grandparents' house."
+      },
+      {
+        "word": "欲しがる",
+        "reading": "ほしがる",
+        "meaning": "to want (said of someone else)",
+        "pos": "godan verb",
+        "example": "弟{おとうと}は新{あたら}しいゲームを欲{ほ}しがっている。",
+        "example_translation": "My younger brother wants a new game."
+      },
+      {
+        "word": "おごる",
+        "reading": "おごる",
+        "meaning": "to treat (someone to a meal or drink)",
+        "pos": "godan verb",
+        "example": "今日{きょう}は私{わたし}がおごるよ。",
+        "example_translation": "It's my treat today."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜てあげる",
+        "meaning": "to do ~ for someone (as a favor)",
+        "formation": "Verb て-form + あげる",
+        "example": "妹{いもうと}に絵本{えほん}を読{よ}んであげた。",
+        "example_translation": "I read a picture book to my little sister."
+      },
+      {
+        "pattern": "〜がる",
+        "meaning": "to show signs of ~ (feelings or wishes of other people)",
+        "formation": "i-adjective stem + がる (欲しい → 欲しがる)",
+        "example": "子{こ}どもたちは犬{いぬ}を飼{か}いたがっている。",
+        "example_translation": "The children want to have a dog."
+      }
+    ]
+  },
+  {
+    "id": "us-011",
+    "section": "usage",
+    "question": "[[引退{いんたい}]]",
+    "choices": [
+      "来月{らいげつ}、駅前{えきまえ}の古{ふる}いアパートから新{あたら}しいマンションに引退{いんたい}する。",
+      "その選手{せんしゅ}は、けがのため三十歳{さんじゅっさい}で現役{げんえき}を引退{いんたい}した。",
+      "台風{たいふう}が近{ちか}づいてきたので、船{ふね}は近{ちか}くの港{みなと}に引退{いんたい}した。",
+      "熱{ねつ}が出{で}たので、昼{ひる}で学校{がっこう}を引退{いんたい}した。"
+    ],
+    "answer": 1,
+    "translation": "That athlete retired from active competition at thirty because of an injury.",
+    "explanation": "引退（いんたい）means 'retirement (from an active career or position)': an athlete, entertainer, politician, or similar person permanently leaves their career. Typical uses: 現役を引退する 'retire from active play', 引退試合 'a farewell match', 芸能界を引退する 'retire from show business', 社長を引退する 'retire as company president'. For ordinary employees reaching retirement age, 定年退職（ていねんたいしょく）is more common. 引退 is about ending a career for good, so sentence 2 is correct. It is not used for moving house, taking shelter, or leaving school early - other words containing 引 or 退 cover those.",
+    "choice_notes": [
+      "Wrong. Moving to a new home is 引っ越す（ひっこす）: 新しいマンションに引っ越す.",
+      "Correct. An athlete retiring from active play is the standard use of 引退.",
+      "Wrong. A ship taking shelter in a harbor from a typhoon is 避難（ひなん）: 近くの港に避難した.",
+      "Wrong. Leaving school early because you are ill is 早退（そうたい）: 昼で学校を早退した."
+    ],
+    "vocab": [
+      {
+        "word": "引退",
+        "reading": "いんたい",
+        "meaning": "retirement (from an active career)",
+        "pos": "noun / suru verb",
+        "example": "あの歌手{かしゅ}は来年{らいねん}引退{いんたい}するそうだ。",
+        "example_translation": "I hear that singer is going to retire next year."
+      },
+      {
+        "word": "現役",
+        "reading": "げんえき",
+        "meaning": "active service; still active (in one's career)",
+        "pos": "noun",
+        "example": "祖父{そふ}は八十歳{はちじゅっさい}だが、まだ現役{げんえき}で働{はたら}いている。",
+        "example_translation": "My grandfather is eighty, but he's still working."
+      },
+      {
+        "word": "選手",
+        "reading": "せんしゅ",
+        "meaning": "athlete, player",
+        "pos": "noun",
+        "example": "彼{かれ}は有名{ゆうめい}なサッカー選手{せんしゅ}だ。",
+        "example_translation": "He is a famous soccer player."
+      },
+      {
+        "word": "引っ越す",
+        "reading": "ひっこす",
+        "meaning": "to move (house)",
+        "pos": "godan verb",
+        "example": "大学{だいがく}に入{はい}ってから、一人{ひとり}で東京{とうきょう}に引{ひ}っ越{こ}した。",
+        "example_translation": "After entering university, I moved to Tokyo on my own."
+      },
+      {
+        "word": "避難",
+        "reading": "ひなん",
+        "meaning": "evacuation, taking shelter",
+        "pos": "noun / suru verb",
+        "example": "大雨{おおあめ}のため、川{かわ}の近{ちか}くの住民{じゅうみん}が避難{ひなん}した。",
+        "example_translation": "Because of heavy rain, residents near the river evacuated."
+      },
+      {
+        "word": "早退",
+        "reading": "そうたい",
+        "meaning": "leaving (school or work) early",
+        "pos": "noun / suru verb",
+        "example": "頭{あたま}が痛{いた}かったので、会社{かいしゃ}を早退{そうたい}した。",
+        "example_translation": "I had a headache, so I left work early."
+      },
+      {
+        "word": "定年退職",
+        "reading": "ていねんたいしょく",
+        "meaning": "retirement at the mandatory age",
+        "pos": "noun / suru verb",
+        "example": "父{ちち}は六十五歳{ろくじゅうごさい}で定年退職{ていねんたいしょく}した。",
+        "example_translation": "My father retired at sixty-five."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜ため（に）",
+        "meaning": "because of ~, due to ~ (formal reason)",
+        "formation": "Noun + の + ため（に） / Plain form + ため（に）",
+        "example": "大雪{おおゆき}のため、学校{がっこう}が休{やす}みになった。",
+        "example_translation": "School was closed because of heavy snow."
+      }
+    ]
+  },
+  {
+    "id": "us-012",
+    "section": "usage",
+    "question": "[[解散{かいさん}]]",
+    "choices": [
+      "この薬{くすり}は水{みず}に入{い}れると、すぐに解散{かいさん}する。",
+      "長年{ながねん}の疑問{ぎもん}が、先生{せんせい}の説明{せつめい}でやっと解散{かいさん}した。",
+      "大雨{おおあめ}のため、明日{あした}の遠足{えんそく}は解散{かいさん}になった。",
+      "工場{こうじょう}の見学{けんがく}が終{お}わったら、駅前{えきまえ}で解散{かいさん}します。"
+    ],
+    "answer": 3,
+    "translation": "When the factory tour is over, we will break up (and go our separate ways) in front of the station.",
+    "explanation": "解散（かいさん）means 'breaking up, dispersal, disbanding': a group of people who had gathered separates and each person goes their own way. There are two typical uses: (1) the end of a group activity, as in sentence 4: 駅前で解散する 'break up at the station', 現地解散 'dismissed at the site'; (2) an organization ceasing to exist: バンドが解散する 'the band breaks up', 国会を解散する 'dissolve the Diet'. The opposite is 集合（しゅうごう）'gathering, assembling'. 解散 is not used for substances dissolving (溶ける), for questions being cleared up (解ける), or for events being cancelled (中止).",
+    "choice_notes": [
+      "Wrong. Medicine dissolving in water is 溶ける（とける）: すぐに溶ける.",
+      "Wrong. A long-held question being cleared up is 解ける（とける）or 解消（かいしょう）する: 疑問がやっと解けた.",
+      "Wrong. An excursion being called off is 中止（ちゅうし）: 遠足は中止になった.",
+      "Correct. A group breaking up after an activity (駅前で解散します) is the classic use of 解散."
+    ],
+    "vocab": [
+      {
+        "word": "解散",
+        "reading": "かいさん",
+        "meaning": "breaking up, dispersal (of a group); disbanding",
+        "pos": "noun / suru verb",
+        "example": "人気{にんき}のバンドが去年{きょねん}解散{かいさん}した。",
+        "example_translation": "A popular band broke up last year."
+      },
+      {
+        "word": "集合",
+        "reading": "しゅうごう",
+        "meaning": "gathering, assembling (at a place)",
+        "pos": "noun / suru verb",
+        "example": "明日{あした}は朝{あさ}八時{はちじ}に駅前{えきまえ}に集合{しゅうごう}してください。",
+        "example_translation": "Tomorrow, please gather in front of the station at 8 a.m."
+      },
+      {
+        "word": "溶ける",
+        "reading": "とける",
+        "meaning": "to melt, to dissolve",
+        "pos": "ichidan verb",
+        "example": "砂糖{さとう}はお湯{ゆ}にすぐ溶{と}ける。",
+        "example_translation": "Sugar dissolves quickly in hot water."
+      },
+      {
+        "word": "解ける",
+        "reading": "とける",
+        "meaning": "to be solved; to be cleared up (a doubt, misunderstanding)",
+        "pos": "ichidan verb",
+        "example": "やっと数学{すうがく}の問題{もんだい}が解{と}けた。",
+        "example_translation": "I finally solved the math problem."
+      },
+      {
+        "word": "疑問",
+        "reading": "ぎもん",
+        "meaning": "question, doubt",
+        "pos": "noun",
+        "example": "この説明{せつめい}にはまだ疑問{ぎもん}が残{のこ}る。",
+        "example_translation": "Some doubts still remain about this explanation."
+      },
+      {
+        "word": "中止",
+        "reading": "ちゅうし",
+        "meaning": "cancellation, calling off",
+        "pos": "noun / suru verb",
+        "example": "雨{あめ}で運動会{うんどうかい}が中止{ちゅうし}になった。",
+        "example_translation": "The sports day was cancelled because of rain."
+      },
+      {
+        "word": "遠足",
+        "reading": "えんそく",
+        "meaning": "school excursion, outing",
+        "pos": "noun",
+        "example": "明日{あした}は動物園{どうぶつえん}へ遠足{えんそく}に行{い}く。",
+        "example_translation": "Tomorrow we're going on a school trip to the zoo."
+      },
+      {
+        "word": "見学",
+        "reading": "けんがく",
+        "meaning": "study visit, tour (to observe and learn)",
+        "pos": "noun / suru verb",
+        "example": "社会{しゃかい}の授業{じゅぎょう}で、新聞社{しんぶんしゃ}を見学{けんがく}した。",
+        "example_translation": "In social studies class, we toured a newspaper company."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜たら",
+        "meaning": "when ~, after ~ (once ~ is done)",
+        "formation": "Verb た-form + ら",
+        "example": "仕事{しごと}が終{お}わったら、飲{の}みに行{い}きましょう。",
+        "example_translation": "When work is over, let's go for a drink."
+      }
+    ]
+  },
+  {
+    "id": "us-013",
+    "section": "usage",
+    "question": "[[補{おぎな}う]]",
+    "choices": [
+      "雨{あめ}が降{ふ}ってきたので、急{いそ}いで洗濯物{せんたくもの}を補{おぎな}った。",
+      "電車{でんしゃ}の中{なか}で、お年寄{としよ}りに席{せき}を補{おぎな}った。",
+      "食事{しょくじ}だけでは足{た}りない栄養{えいよう}を、サプリメントで補{おぎな}っている。",
+      "壊{こわ}れたいすを、自分{じぶん}で補{おぎな}った。"
+    ],
+    "answer": 2,
+    "translation": "I make up for the nutrients I can't get from meals alone with supplements.",
+    "explanation": "補う（おぎなう）means 'to make up for, to compensate for, to supplement': you add something to fill a lack or a shortage. Typical uses: 不足を補う 'make up for a shortage', 栄養を補う 'supplement one's nutrition', 説明を補う 'add to an explanation', 欠点を補う 'make up for a weak point', 互いに補い合う 'complement each other'. The object is usually something that is missing or insufficient, so sentence 3 (nutrients that are 足りない) is a perfect fit. A related noun is 補足（ほそく）'supplement, additional explanation'. It is not used for bringing in laundry, giving up seats, or repairing things.",
+    "choice_notes": [
+      "Wrong. Bringing in the laundry is 取り込む（とりこむ）: 洗濯物を取り込んだ.",
+      "Wrong. Giving up your seat is 譲る（ゆずる）: お年寄りに席を譲った.",
+      "Correct. Making up for missing nutrients with supplements is the core meaning of 補う.",
+      "Wrong. Repairing a broken chair is 直す（なおす）or 修理する: 壊れたいすを自分で直した."
+    ],
+    "vocab": [
+      {
+        "word": "補う",
+        "reading": "おぎなう",
+        "meaning": "to make up for, to compensate for, to supplement",
+        "pos": "godan verb",
+        "example": "経験{けいけん}の不足{ふそく}を努力{どりょく}で補{おぎな}った。",
+        "example_translation": "I made up for my lack of experience with hard work."
+      },
+      {
+        "word": "栄養",
+        "reading": "えいよう",
+        "meaning": "nutrition, nourishment",
+        "pos": "noun",
+        "example": "野菜{やさい}には栄養{えいよう}がたくさんある。",
+        "example_translation": "Vegetables are full of nutrients."
+      },
+      {
+        "word": "取り込む",
+        "reading": "とりこむ",
+        "meaning": "to bring in (laundry); to take in",
+        "pos": "godan verb",
+        "example": "夕方{ゆうがた}になったので、洗濯物{せんたくもの}を取{と}り込{こ}んだ。",
+        "example_translation": "It was evening, so I brought in the laundry."
+      },
+      {
+        "word": "譲る",
+        "reading": "ゆずる",
+        "meaning": "to give up (a seat), to hand over",
+        "pos": "godan verb",
+        "example": "おばあさんに席{せき}を譲{ゆず}ったら、お礼{れい}を言{い}われた。",
+        "example_translation": "When I gave my seat to an elderly woman, she thanked me."
+      },
+      {
+        "word": "直す",
+        "reading": "なおす",
+        "meaning": "to fix, to repair, to correct",
+        "pos": "godan verb",
+        "example": "父{ちち}が壊{こわ}れたおもちゃを直{なお}してくれた。",
+        "example_translation": "My father fixed my broken toy."
+      },
+      {
+        "word": "洗濯物",
+        "reading": "せんたくもの",
+        "meaning": "laundry (clothes to be washed or drying)",
+        "pos": "noun",
+        "example": "天気{てんき}がいいので、洗濯物{せんたくもの}がよく乾{かわ}く。",
+        "example_translation": "The weather is nice, so the laundry dries well."
+      },
+      {
+        "word": "補足",
+        "reading": "ほそく",
+        "meaning": "supplement, additional explanation",
+        "pos": "noun / suru verb",
+        "example": "前{まえ}の説明{せつめい}に少{すこ}し補足{ほそく}します。",
+        "example_translation": "Let me add a little to the previous explanation."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜だけでは",
+        "meaning": "with only ~ (it is not enough)",
+        "formation": "Noun / Verb plain form + だけでは + negative or insufficiency",
+        "example": "アルバイトだけでは生活{せいかつ}できない。",
+        "example_translation": "I can't make a living from part-time work alone."
+      }
+    ]
+  },
+  {
+    "id": "us-014",
+    "section": "usage",
+    "question": "[[見逃{みのが}す]]",
+    "choices": [
+      "楽{たの}しみにしていたドラマの最終回{さいしゅうかい}を、うっかり見逃{みのが}してしまった。",
+      "空港{くうこう}で、外国{がいこく}へ留学{りゅうがく}する友達{ともだち}を見逃{みのが}した。",
+      "公園{こうえん}で遊{あそ}んでいる子{こ}どもたちを、母親{ははおや}たちがベンチから見逃{みのが}していた。",
+      "夜空{よぞら}を見逃{みのが}すと、星{ほし}がたくさん光{ひか}っていた。"
+    ],
+    "answer": 0,
+    "translation": "I carelessly missed the final episode of the drama I had been looking forward to.",
+    "explanation": "見逃す（みのがす）has two main meanings: (1) to miss seeing something, to fail to notice: ドラマを見逃す 'miss a TV show', チャンスを見逃す 'miss a chance', 間違いを見逃す 'overlook a mistake'; (2) to let something pass, to turn a blind eye: 今回だけは見逃してあげる 'I'll let it go just this once'. Both share the idea of something passing by without your eyes catching it (逃す = 'to let escape'). It often comes with うっかり 'carelessly' and 〜てしまう (regret), as in sentence 1. The wrong sentences use other 見〜 compound verbs that learners mix up: 見送る 'see off', 見守る 'watch over', 見上げる 'look up at'.",
+    "choice_notes": [
+      "Correct. Missing the final episode of a drama is a typical use of 見逃す.",
+      "Wrong. Seeing a friend off at the airport is 見送る（みおくる）: 友達を見送った.",
+      "Wrong. Watching over children from a bench is 見守る（みまもる）: ベンチから見守っていた.",
+      "Wrong. Looking up at the night sky is 見上げる（みあげる）: 夜空を見上げると."
+    ],
+    "vocab": [
+      {
+        "word": "見逃す",
+        "reading": "みのがす",
+        "meaning": "to miss (seeing); to overlook; to let pass",
+        "pos": "godan verb",
+        "example": "テストで簡単{かんたん}な間違{まちが}いを見逃{みのが}してしまった。",
+        "example_translation": "I overlooked a simple mistake on the test."
+      },
+      {
+        "word": "見送る",
+        "reading": "みおくる",
+        "meaning": "to see (someone) off; to let pass, to postpone",
+        "pos": "godan verb",
+        "example": "駅{えき}まで友達{ともだち}を見送{みおく}りに行{い}った。",
+        "example_translation": "I went to the station to see my friend off."
+      },
+      {
+        "word": "見守る",
+        "reading": "みまもる",
+        "meaning": "to watch over, to keep an eye on",
+        "pos": "godan verb",
+        "example": "両親{りょうしん}はいつも私{わたし}を温{あたた}かく見守{みまも}ってくれた。",
+        "example_translation": "My parents always watched over me warmly."
+      },
+      {
+        "word": "見上げる",
+        "reading": "みあげる",
+        "meaning": "to look up at",
+        "pos": "ichidan verb",
+        "example": "子{こ}どもたちは空{そら}を見上{みあ}げて、飛行機{ひこうき}を探{さが}した。",
+        "example_translation": "The children looked up at the sky, searching for the plane."
+      },
+      {
+        "word": "うっかり",
+        "reading": "うっかり",
+        "meaning": "carelessly, absent-mindedly",
+        "pos": "adverb / suru verb",
+        "example": "うっかり財布{さいふ}を家{いえ}に忘{わす}れてきた。",
+        "example_translation": "I carelessly left my wallet at home."
+      },
+      {
+        "word": "最終回",
+        "reading": "さいしゅうかい",
+        "meaning": "final episode, last round",
+        "pos": "noun",
+        "example": "このアニメは来週{らいしゅう}が最終回{さいしゅうかい}だ。",
+        "example_translation": "Next week is the final episode of this anime."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜てしまう",
+        "meaning": "to end up doing ~, to do ~ by mistake (regret); to finish ~ completely",
+        "formation": "Verb て-form + しまう",
+        "example": "大切{たいせつ}な約束{やくそく}を忘{わす}れてしまった。",
+        "example_translation": "I ended up forgetting an important appointment."
+      },
+      {
+        "pattern": "〜を楽しみにする",
+        "meaning": "to look forward to ~",
+        "formation": "Noun + を楽しみにする / Verb dictionary form + のを楽しみにする",
+        "example": "夏休{なつやす}みの旅行{りょこう}を楽{たの}しみにしている。",
+        "example_translation": "I'm looking forward to my summer vacation trip."
+      }
+    ]
+  },
+  {
+    "id": "us-015",
+    "section": "usage",
+    "question": "[[改善{かいぜん}]]",
+    "choices": [
+      "古{ふる}くなった家{いえ}を改善{かいぜん}して、カフェとして使{つか}っている。",
+      "社員{しゃいん}の意見{いけん}を取{と}り入{い}れて、働{はたら}き方{かた}を改善{かいぜん}した。",
+      "けがをしていた選手{せんしゅ}が、ようやく改善{かいぜん}して試合{しあい}に戻{もど}ってきた。",
+      "パスワードを忘{わす}れてしまったので、新{あたら}しいものに改善{かいぜん}した。"
+    ],
+    "answer": 1,
+    "translation": "We took employees' opinions on board and improved the way we work.",
+    "explanation": "改善（かいぜん）means 'improvement': making a bad or insufficient situation better by fixing its problems. Typical uses: 改善する, 改善点 'points to improve', 生活習慣を改善する 'improve one's lifestyle habits', 状況が改善される 'the situation is improved', 体質改善 'improving one's constitution'. The object or subject is usually a system, method, condition, or situation - not a building and not a person. Sentence 2 (improving the way people work) is a textbook example. The wrong sentences need 改装 'renovation', 回復 'recovery', and 変更 'change'.",
+    "choice_notes": [
+      "Wrong. Renovating an old house is 改装（かいそう）or リフォーム: 古くなった家を改装して.",
+      "Correct. Improving a way of working (a method or system) is a typical use of 改善.",
+      "Wrong. A player recovering from an injury is 回復（かいふく）: ようやく回復して. (You can say 体調が改善する, but a person is not the subject of 改善.)",
+      "Wrong. Changing a password is 変更（へんこう）: 新しいものに変更した."
+    ],
+    "vocab": [
+      {
+        "word": "改善",
+        "reading": "かいぜん",
+        "meaning": "improvement (fixing problems to make things better)",
+        "pos": "noun / suru verb",
+        "example": "生活{せいかつ}習慣{しゅうかん}を改善{かいぜん}したら、体重{たいじゅう}が減{へ}った。",
+        "example_translation": "When I improved my lifestyle habits, I lost weight."
+      },
+      {
+        "word": "改装",
+        "reading": "かいそう",
+        "meaning": "renovation, remodeling",
+        "pos": "noun / suru verb",
+        "example": "駅前{えきまえ}のデパートは改装{かいそう}のため休{やす}んでいる。",
+        "example_translation": "The department store in front of the station is closed for renovation."
+      },
+      {
+        "word": "回復",
+        "reading": "かいふく",
+        "meaning": "recovery",
+        "pos": "noun / suru verb",
+        "example": "手術{しゅじゅつ}のあと、母{はは}は順調{じゅんちょう}に回復{かいふく}している。",
+        "example_translation": "After the operation, my mother is recovering well."
+      },
+      {
+        "word": "変更",
+        "reading": "へんこう",
+        "meaning": "change, alteration",
+        "pos": "noun / suru verb",
+        "example": "会議{かいぎ}の時間{じかん}が三時{さんじ}に変更{へんこう}された。",
+        "example_translation": "The meeting time was changed to three o'clock."
+      },
+      {
+        "word": "取り入れる",
+        "reading": "とりいれる",
+        "meaning": "to adopt, to take in, to incorporate",
+        "pos": "ichidan verb",
+        "example": "新{あたら}しいアイデアを授業{じゅぎょう}に取{と}り入{い}れた。",
+        "example_translation": "I incorporated new ideas into my lessons."
+      },
+      {
+        "word": "社員",
+        "reading": "しゃいん",
+        "meaning": "company employee",
+        "pos": "noun",
+        "example": "この会社{かいしゃ}には社員{しゃいん}が百人{ひゃくにん}いる。",
+        "example_translation": "This company has a hundred employees."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜方（かた）",
+        "meaning": "way of doing ~, how to ~",
+        "formation": "Verb ます-stem + 方",
+        "example": "このカメラの使{つか}い方{かた}を教{おし}えてください。",
+        "example_translation": "Please show me how to use this camera."
+      }
+    ]
+  },
+  {
+    "id": "us-016",
+    "section": "usage",
+    "question": "[[延長{えんちょう}]]",
+    "choices": [
+      "雨{あめ}のため、運動会{うんどうかい}は来週{らいしゅう}に延長{えんちょう}された。",
+      "このゴムは、引{ひ}っ張{ぱ}るとよく延長{えんちょう}する。",
+      "事故{じこ}の影響{えいきょう}で、電車{でんしゃ}が三十分{さんじゅっぷん}延長{えんちょう}した。",
+      "お客{きゃく}さんが多{おお}いので、展覧会{てんらんかい}の期間{きかん}を一週間{いっしゅうかん}延長{えんちょう}することになった。"
+    ],
+    "answer": 3,
+    "translation": "Because there were many visitors, it was decided to extend the exhibition by one week.",
+    "explanation": "延長（えんちょう）means 'extension, prolongation': making a period of time or a length longer than originally planned. Typical uses: 期間を延長する 'extend the period', 会議が三十分延長された 'the meeting ran thirty minutes over', 延長戦 'extra time / overtime (in sports)', ビザを延長する 'extend a visa'. The key point is that the end point moves later (or farther) while the thing continues without a break, as in sentence 4. The most common trap is 延期（えんき）'postponement', where the whole event is moved to a later date and does not take place as scheduled.",
+    "choice_notes": [
+      "Wrong. Moving the sports day to next week is 延期（えんき）'postponement': 来週に延期された.",
+      "Wrong. Rubber stretching is 伸びる（のびる）: 引っ張るとよく伸びる.",
+      "Wrong. A train running late is 遅れる（おくれる）: 電車が三十分遅れた.",
+      "Correct. Extending the exhibition period by a week is the typical use of 延長."
+    ],
+    "vocab": [
+      {
+        "word": "延長",
+        "reading": "えんちょう",
+        "meaning": "extension, prolongation",
+        "pos": "noun / suru verb",
+        "example": "サッカーの試合{しあい}は延長戦{えんちょうせん}に入{はい}った。",
+        "example_translation": "The soccer match went into extra time."
+      },
+      {
+        "word": "延期",
+        "reading": "えんき",
+        "meaning": "postponement",
+        "pos": "noun / suru verb",
+        "example": "台風{たいふう}で、出発{しゅっぱつ}が明日{あした}に延期{えんき}された。",
+        "example_translation": "Because of the typhoon, the departure was postponed until tomorrow."
+      },
+      {
+        "word": "伸びる",
+        "reading": "のびる",
+        "meaning": "to stretch, to grow longer",
+        "pos": "ichidan verb",
+        "example": "この一年{いちねん}で背{せ}が五{ご}センチ伸{の}びた。",
+        "example_translation": "I've grown five centimeters taller this year."
+      },
+      {
+        "word": "遅れる",
+        "reading": "おくれる",
+        "meaning": "to be late, to be delayed",
+        "pos": "ichidan verb",
+        "example": "雪{ゆき}でバスが二十分{にじゅっぷん}遅{おく}れた。",
+        "example_translation": "The bus was twenty minutes late because of the snow."
+      },
+      {
+        "word": "展覧会",
+        "reading": "てんらんかい",
+        "meaning": "exhibition",
+        "pos": "noun",
+        "example": "美術館{びじゅつかん}で絵{え}の展覧会{てんらんかい}が開{ひら}かれている。",
+        "example_translation": "A painting exhibition is being held at the art museum."
+      },
+      {
+        "word": "期間",
+        "reading": "きかん",
+        "meaning": "period, term",
+        "pos": "noun",
+        "example": "セールの期間{きかん}は今週{こんしゅう}の日曜日{にちようび}までだ。",
+        "example_translation": "The sale runs until this Sunday."
+      },
+      {
+        "word": "影響",
+        "reading": "えいきょう",
+        "meaning": "influence, effect",
+        "pos": "noun / suru verb",
+        "example": "台風{たいふう}の影響{えいきょう}で、飛行機{ひこうき}が飛{と}ばなかった。",
+        "example_translation": "Because of the typhoon, the planes didn't fly."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜ことになる",
+        "meaning": "it has been decided that ~ (by circumstances or others)",
+        "formation": "Verb dictionary / ない-form + ことになる",
+        "example": "来年{らいねん}から、この駅{えき}に急行{きゅうこう}が止{と}まることになった。",
+        "example_translation": "It's been decided that express trains will stop at this station from next year."
+      }
+    ]
+  },
+  {
+    "id": "us-017",
+    "section": "usage",
+    "question": "[[夢中{むちゅう}]]",
+    "choices": [
+      "弟{おとうと}はゲームに夢中{むちゅう}になって、晩{ばん}ご飯{はん}の時間{じかん}も忘{わす}れていた。",
+      "明日{あした}の試験{しけん}のことが夢中{むちゅう}で、なかなか眠{ねむ}れなかった。",
+      "疲{つか}れていたので、電車{でんしゃ}の中{なか}で夢中{むちゅう}になって寝{ね}てしまった。",
+      "私{わたし}の将来{しょうらい}の夢中{むちゅう}は、医者{いしゃ}になることだ。"
+    ],
+    "answer": 0,
+    "translation": "My younger brother got so absorbed in his game that he even forgot about dinner time.",
+    "explanation": "夢中（むちゅう）means 'absorbed in, crazy about, totally focused on (forgetting everything else)'. The basic patterns are 〜に夢中になる 'get absorbed in ~', 〜に夢中だ 'be crazy about ~', and 夢中で + verb 'do ~ with total focus, desperately' (夢中で走った 'ran for dear life'). It is a positive or neutral word for strong concentration or passion, so sentence 1 is correct. Although it contains 夢 'dream', it does not mean 'a dream': for dreams while sleeping or goals for the future, use 夢（ゆめ）. It is also not about worrying (心配) or deep sleep (ぐっすり).",
+    "choice_notes": [
+      "Correct. ゲームに夢中になる 'get absorbed in a game' is the typical pattern.",
+      "Wrong. Worrying about tomorrow's exam is 心配（しんぱい）: 試験のことが心配で.",
+      "Wrong. Sleeping deeply is ぐっすり: 電車の中でぐっすり寝てしまった.",
+      "Wrong. A dream for the future is 夢（ゆめ）: 将来の夢は医者になることだ."
+    ],
+    "vocab": [
+      {
+        "word": "夢中",
+        "reading": "むちゅう",
+        "meaning": "absorbed in, crazy about, totally focused",
+        "pos": "na-adjective / noun",
+        "example": "子{こ}どもたちは夢中{むちゅう}でボールを追{お}いかけていた。",
+        "example_translation": "The children were chasing the ball with total focus."
+      },
+      {
+        "word": "夢",
+        "reading": "ゆめ",
+        "meaning": "dream (while sleeping); dream, goal",
+        "pos": "noun",
+        "example": "昨夜{さくや}、空{そら}を飛{と}ぶ夢{ゆめ}を見{み}た。",
+        "example_translation": "Last night I had a dream that I was flying."
+      },
+      {
+        "word": "心配",
+        "reading": "しんぱい",
+        "meaning": "worry, concern",
+        "pos": "noun / na-adjective / suru verb",
+        "example": "母{はは}は私{わたし}の健康{けんこう}をいつも心配{しんぱい}している。",
+        "example_translation": "My mother always worries about my health."
+      },
+      {
+        "word": "ぐっすり",
+        "reading": "ぐっすり",
+        "meaning": "soundly, deeply (of sleep)",
+        "pos": "adverb",
+        "example": "昨夜{さくや}は疲{つか}れていたので、ぐっすり眠{ねむ}れた。",
+        "example_translation": "I was tired last night, so I slept soundly."
+      },
+      {
+        "word": "将来",
+        "reading": "しょうらい",
+        "meaning": "future",
+        "pos": "noun",
+        "example": "将来{しょうらい}は海外{かいがい}で働{はたら}きたい。",
+        "example_translation": "In the future I want to work abroad."
+      },
+      {
+        "word": "晩ご飯",
+        "reading": "ばんごはん",
+        "meaning": "dinner, evening meal",
+        "pos": "noun",
+        "example": "今日{きょう}の晩{ばん}ご飯{はん}はカレーだ。",
+        "example_translation": "Tonight's dinner is curry."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜も（強調）",
+        "meaning": "even ~ (emphasis)",
+        "formation": "Noun + も",
+        "example": "忙{いそが}しくて、昼{ひる}ご飯{はん}を食{た}べる時間{じかん}もない。",
+        "example_translation": "I'm so busy that I don't even have time to eat lunch."
+      },
+      {
+        "pattern": "〜てしまう",
+        "meaning": "to end up doing ~ (often unintentionally, with regret)",
+        "formation": "Verb て-form + しまう (casual: 〜ちゃう)",
+        "example": "映画{えいが}を見{み}ながら寝{ね}てしまった。",
+        "example_translation": "I fell asleep while watching the movie."
+      }
+    ]
+  },
+  {
+    "id": "us-018",
+    "section": "usage",
+    "question": "[[返却{へんきゃく}]]",
+    "choices": [
+      "友達{ともだち}にメールを送{おく}ったが、まだ返却{へんきゃく}が来{こ}ない。",
+      "道{みち}を間違{まちが}えたので、来{き}た道{みち}を返却{へんきゃく}した。",
+      "図書館{としょかん}で借{か}りた本{ほん}は、二週間{にしゅうかん}以内{いない}に返却{へんきゃく}してください。",
+      "先生{せんせい}の質問{しつもん}に、大{おお}きな声{こえ}で返却{へんきゃく}した。"
+    ],
+    "answer": 2,
+    "translation": "Please return books borrowed from the library within two weeks.",
+    "explanation": "返却（へんきゃく）means 'returning (something borrowed or entrusted) to its owner'. It is a formal word used for books, rental items, documents, deposits, and so on: 本を返却する 'return a book', 返却期限 'due date', 返却口 'return slot', レンタカーを返却する 'return a rental car'. In casual speech people simply say 返す. It is only used for things (or money held for you), so sentence 3 (library books) is correct. It is not used for replies to messages (返信, 返事), for answering questions (答える), or for going back the way you came (引き返す).",
+    "choice_notes": [
+      "Wrong. A reply to an email is 返信（へんしん）or 返事（へんじ）: まだ返信が来ない.",
+      "Wrong. Going back the way you came is 引き返す（ひきかえす）: 来た道を引き返した.",
+      "Correct. Returning library books is the most typical use of 返却.",
+      "Wrong. Answering a question is 答える（こたえる）: 大きな声で答えた."
+    ],
+    "vocab": [
+      {
+        "word": "返却",
+        "reading": "へんきゃく",
+        "meaning": "returning (something borrowed)",
+        "pos": "noun / suru verb",
+        "example": "レンタカーは夜{よる}八時{はちじ}までに返却{へんきゃく}してください。",
+        "example_translation": "Please return the rental car by 8 p.m."
+      },
+      {
+        "word": "返信",
+        "reading": "へんしん",
+        "meaning": "reply (to a letter, email, or message)",
+        "pos": "noun / suru verb",
+        "example": "メールの返信{へんしん}が遅{おそ}くなってすみません。",
+        "example_translation": "Sorry for the late reply to your email."
+      },
+      {
+        "word": "返事",
+        "reading": "へんじ",
+        "meaning": "reply, answer, response",
+        "pos": "noun / suru verb",
+        "example": "名前{なまえ}を呼{よ}ばれたら、大{おお}きな声{こえ}で返事{へんじ}をしてください。",
+        "example_translation": "When your name is called, please answer in a loud voice."
+      },
+      {
+        "word": "引き返す",
+        "reading": "ひきかえす",
+        "meaning": "to turn back, to go back",
+        "pos": "godan verb",
+        "example": "忘{わす}れ物{もの}に気{き}づいて、家{いえ}に引{ひ}き返{かえ}した。",
+        "example_translation": "I noticed I'd forgotten something and went back home."
+      },
+      {
+        "word": "答える",
+        "reading": "こたえる",
+        "meaning": "to answer, to reply",
+        "pos": "ichidan verb",
+        "example": "インタビューの質問{しつもん}に丁寧{ていねい}に答{こた}えた。",
+        "example_translation": "I answered the interview questions carefully."
+      },
+      {
+        "word": "以内",
+        "reading": "いない",
+        "meaning": "within (a limit)",
+        "pos": "noun (suffix)",
+        "example": "駅{えき}から歩{ある}いて十分{じゅっぷん}以内{いない}のアパートを探{さが}している。",
+        "example_translation": "I'm looking for an apartment within a ten-minute walk of the station."
+      },
+      {
+        "word": "期限",
+        "reading": "きげん",
+        "meaning": "deadline, time limit",
+        "pos": "noun",
+        "example": "レポートの期限{きげん}は明日{あした}だ。",
+        "example_translation": "The deadline for the report is tomorrow."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜以内に",
+        "meaning": "within ~ (a time or amount limit)",
+        "formation": "Number + counter + 以内に",
+        "example": "三日{みっか}以内{いない}に連絡{れんらく}してください。",
+        "example_translation": "Please contact us within three days."
+      }
+    ]
+  },
+  {
+    "id": "us-019",
+    "section": "usage",
+    "question": "[[頑丈{がんじょう}]]",
+    "choices": [
+      "彼{かれ}は頑丈{がんじょう}な性格{せいかく}で、一度{いちど}決{き}めたことは絶対{ぜったい}に変{か}えない。",
+      "この机{つくえ}は頑丈{がんじょう}に作{つく}られているので、上{うえ}に乗{の}っても壊{こわ}れない。",
+      "このスープは味{あじ}が頑丈{がんじょう}で、少{すこ}ししょっぱい。",
+      "毎日{まいにち}頑丈{がんじょう}に勉強{べんきょう}したので、試験{しけん}に合格{ごうかく}できた。"
+    ],
+    "answer": 1,
+    "translation": "This desk is built so solidly that it won't break even if you stand on it.",
+    "explanation": "頑丈（がんじょう）is a na-adjective meaning 'sturdy, solid, strong, robust': something is physically strong and hard to break. It is used mainly for objects and structures: 頑丈な箱 'a sturdy box', 頑丈な建物 'a solid building', 頑丈なかばん 'a tough bag', 頑丈に作られている 'is solidly built'. It can also describe a strongly built body (頑丈な体). Sentence 2 is correct. It is not about personality (頑固 'stubborn'), taste (濃い 'strong'), or effort (頑張る 'try hard'). All three traps share the kanji 頑 or the English word 'strong'.",
+    "choice_notes": [
+      "Wrong. A stubborn personality is 頑固（がんこ）: 頑固な性格で.",
+      "Correct. A desk built so solidly that it won't break is exactly 頑丈.",
+      "Wrong. A strong (rich, salty) taste is 濃い（こい）: 味が濃くて.",
+      "Wrong. Studying hard is 頑張って勉強した or 熱心に（ねっしんに）勉強した."
+    ],
+    "vocab": [
+      {
+        "word": "頑丈",
+        "reading": "がんじょう",
+        "meaning": "sturdy, solid, robust",
+        "pos": "na-adjective",
+        "example": "このかばんは頑丈{がんじょう}で、十年{じゅうねん}使{つか}っても壊{こわ}れない。",
+        "example_translation": "This bag is so sturdy it hasn't broken even after ten years."
+      },
+      {
+        "word": "頑固",
+        "reading": "がんこ",
+        "meaning": "stubborn, obstinate",
+        "pos": "na-adjective",
+        "example": "祖父{そふ}は頑固{がんこ}で、人{ひと}の意見{いけん}を聞{き}かない。",
+        "example_translation": "My grandfather is stubborn and doesn't listen to other people's opinions."
+      },
+      {
+        "word": "濃い",
+        "reading": "こい",
+        "meaning": "strong (taste), thick, dark (color)",
+        "pos": "i-adjective",
+        "example": "このコーヒーは濃{こ}すぎる。",
+        "example_translation": "This coffee is too strong."
+      },
+      {
+        "word": "頑張る",
+        "reading": "がんばる",
+        "meaning": "to try hard, to do one's best",
+        "pos": "godan verb",
+        "example": "合格{ごうかく}できるように頑張{がんば}ります。",
+        "example_translation": "I'll do my best so that I can pass."
+      },
+      {
+        "word": "熱心",
+        "reading": "ねっしん",
+        "meaning": "eager, enthusiastic, earnest",
+        "pos": "na-adjective",
+        "example": "彼女{かのじょ}は熱心{ねっしん}に日本語{にほんご}を勉強{べんきょう}している。",
+        "example_translation": "She is studying Japanese eagerly."
+      },
+      {
+        "word": "絶対に",
+        "reading": "ぜったいに",
+        "meaning": "absolutely, definitely (with a negative: never)",
+        "pos": "adverb",
+        "example": "この秘密{ひみつ}は絶対{ぜったい}に誰{だれ}にも言{い}わないで。",
+        "example_translation": "Never tell anyone this secret."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜ても",
+        "meaning": "even if ~",
+        "formation": "Verb / i-adjective て-form + も",
+        "example": "何度{なんど}失敗{しっぱい}しても、あきらめない。",
+        "example_translation": "No matter how many times I fail, I won't give up."
+      },
+      {
+        "pattern": "〜（ら）れている（受身の状態）",
+        "meaning": "is made / done in a certain way (passive describing a state)",
+        "formation": "Passive form て-form + いる (作る → 作られている)",
+        "example": "この橋{はし}は石{いし}で作{つく}られている。",
+        "example_translation": "This bridge is made of stone."
+      }
+    ]
+  },
+  {
+    "id": "us-020",
+    "section": "usage",
+    "question": "[[取{と}り組{く}む]]",
+    "choices": [
+      "棚{たな}の上{うえ}の箱{はこ}を取{と}り組{く}もうとしたが、手{て}が届{とど}かなかった。",
+      "今年{ことし}、その会社{かいしゃ}は新{あたら}しい社員{しゃいん}を三人{さんにん}取{と}り組{く}んだ。",
+      "その会社{かいしゃ}は、新{あたら}しい技術{ぎじゅつ}を製品{せいひん}に取{と}り組{く}んでいる。",
+      "市{し}は、ごみ問題{もんだい}に積極的{せっきょくてき}に取{と}り組{く}んでいる。"
+    ],
+    "answer": 3,
+    "translation": "The city is actively tackling the garbage problem.",
+    "explanation": "取り組む（とりくむ）means 'to tackle, to work on, to grapple with (a problem or task) seriously'. The pattern is [problem / task]に取り組む: 問題に取り組む 'tackle a problem', 研究に取り組む 'work on research', 環境問題に取り組む 'tackle environmental issues'. The noun 取り組み means 'efforts, initiative'. It implies serious, continued effort and is often paired with 積極的に 'actively' or 真剣に 'earnestly', as in sentence 4. The wrong sentences confuse it with look-alike verbs: 取る 'to take', 採用する 'to hire', and 取り入れる 'to adopt, to incorporate'.",
+    "choice_notes": [
+      "Wrong. Taking a box from a high shelf is 取る（とる）: 箱を取ろうとしたが.",
+      "Wrong. Hiring new employees is 採用（さいよう）する: 新しい社員を三人採用した.",
+      "Wrong. Incorporating new technology into products is 取り入れる（とりいれる）: 新しい技術を製品に取り入れている.",
+      "Correct. ごみ問題に取り組む 'tackle the garbage problem' is the typical [problem]に取り組む pattern."
+    ],
+    "vocab": [
+      {
+        "word": "取り組む",
+        "reading": "とりくむ",
+        "meaning": "to tackle, to work on (seriously)",
+        "pos": "godan verb",
+        "example": "環境{かんきょう}問題{もんだい}に真剣{しんけん}に取{と}り組{く}む必要{ひつよう}がある。",
+        "example_translation": "We need to tackle environmental problems seriously."
+      },
+      {
+        "word": "取る",
+        "reading": "とる",
+        "meaning": "to take, to pick up, to pass (something)",
+        "pos": "godan verb",
+        "example": "すみません、その塩{しお}を取{と}ってください。",
+        "example_translation": "Excuse me, could you pass me that salt?"
+      },
+      {
+        "word": "採用",
+        "reading": "さいよう",
+        "meaning": "hiring, employment; adoption (of an idea)",
+        "pos": "noun / suru verb",
+        "example": "大学{だいがく}を卒業{そつぎょう}して、銀行{ぎんこう}に採用{さいよう}された。",
+        "example_translation": "After graduating from university, I was hired by a bank."
+      },
+      {
+        "word": "取り入れる",
+        "reading": "とりいれる",
+        "meaning": "to adopt, to incorporate, to take in",
+        "pos": "ichidan verb",
+        "example": "日本{にほん}は外国{がいこく}の文化{ぶんか}をたくさん取{と}り入{い}れてきた。",
+        "example_translation": "Japan has adopted a lot from foreign cultures."
+      },
+      {
+        "word": "積極的",
+        "reading": "せっきょくてき",
+        "meaning": "active, proactive, positive",
+        "pos": "na-adjective",
+        "example": "授業{じゅぎょう}では積極的{せっきょくてき}に質問{しつもん}しよう。",
+        "example_translation": "Let's ask questions actively in class."
+      },
+      {
+        "word": "技術",
+        "reading": "ぎじゅつ",
+        "meaning": "technology, technique, skill",
+        "pos": "noun",
+        "example": "この会社{かいしゃ}は高{たか}い技術{ぎじゅつ}を持{も}っている。",
+        "example_translation": "This company has advanced technology."
+      },
+      {
+        "word": "製品",
+        "reading": "せいひん",
+        "meaning": "product, manufactured goods",
+        "pos": "noun",
+        "example": "この工場{こうじょう}では電気{でんき}製品{せいひん}を作{つく}っている。",
+        "example_translation": "This factory makes electrical products."
+      },
+      {
+        "word": "届く",
+        "reading": "とどく",
+        "meaning": "to reach; to be delivered",
+        "pos": "godan verb",
+        "example": "昨日{きのう}注文{ちゅうもん}した本{ほん}が今日{きょう}届{とど}いた。",
+        "example_translation": "The book I ordered yesterday arrived today."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜ようとする",
+        "meaning": "to try to ~, to be about to ~",
+        "formation": "Verb volitional form + とする (取る → 取ろうとする)",
+        "example": "出{で}かけようとしたとき、電話{でんわ}が鳴{な}った。",
+        "example_translation": "Just as I was about to go out, the phone rang."
+      }
+    ]
+  },
+  {
+    "id": "us-021",
+    "section": "usage",
+    "question": "[[保{たも}つ]]",
+    "choices": [
+      "約束{やくそく}は必{かなら}ず保{たも}つようにしている。",
+      "旅行{りょこう}の間{あいだ}、隣{となり}の家{いえ}の人{ひと}に犬{いぬ}を保{たも}ってもらった。",
+      "健康{けんこう}を保{たも}つために、毎朝{まいあさ}ジョギングをしている。",
+      "家{いえ}で猫{ねこ}を二匹{にひき}保{たも}っている。"
+    ],
+    "answer": 2,
+    "translation": "I jog every morning to stay healthy.",
+    "explanation": "保つ（たもつ）means 'to keep, to maintain, to preserve (a state or level)'. The object is usually a condition: 健康を保つ 'stay healthy', 若さを保つ 'stay young', 温度を一定に保つ 'keep the temperature constant', 距離を保つ 'keep one's distance', 清潔に保つ 'keep clean'. The idea is keeping a state unchanged over time, so sentence 3 is correct. In English all four sentences use 'keep', which is the trap: keeping a promise is 守る, looking after something for someone is 預かる, and keeping a pet is 飼う.",
+    "choice_notes": [
+      "Wrong. Keeping a promise is 守る（まもる）: 約束は必ず守るようにしている.",
+      "Wrong. Looking after someone's dog is 預かる（あずかる）: 隣の家の人に犬を預かってもらった.",
+      "Correct. 健康を保つ 'maintain one's health' is a typical collocation of 保つ.",
+      "Wrong. Keeping a pet is 飼う（かう）: 猫を二匹飼っている."
+    ],
+    "vocab": [
+      {
+        "word": "保つ",
+        "reading": "たもつ",
+        "meaning": "to keep, to maintain, to preserve (a state)",
+        "pos": "godan verb",
+        "example": "部屋{へや}の温度{おんど}を二十度{にじゅうど}に保{たも}っている。",
+        "example_translation": "I keep the room temperature at twenty degrees."
+      },
+      {
+        "word": "守る",
+        "reading": "まもる",
+        "meaning": "to keep (a promise, rule); to protect",
+        "pos": "godan verb",
+        "example": "交通{こうつう}ルールを守{まも}りましょう。",
+        "example_translation": "Let's follow the traffic rules."
+      },
+      {
+        "word": "預かる",
+        "reading": "あずかる",
+        "meaning": "to look after, to keep (something for someone)",
+        "pos": "godan verb",
+        "example": "旅行{りょこう}の間{あいだ}、友達{ともだち}の猫{ねこ}を預{あず}かった。",
+        "example_translation": "I looked after my friend's cat while she was traveling."
+      },
+      {
+        "word": "飼う",
+        "reading": "かう",
+        "meaning": "to keep (a pet), to raise (animals)",
+        "pos": "godan verb",
+        "example": "子{こ}どものころ、犬{いぬ}を飼{か}っていた。",
+        "example_translation": "When I was a child, I had a dog."
+      },
+      {
+        "word": "健康",
+        "reading": "けんこう",
+        "meaning": "health; healthy",
+        "pos": "noun / na-adjective",
+        "example": "健康{けんこう}のために、たばこをやめた。",
+        "example_translation": "I quit smoking for my health."
+      },
+      {
+        "word": "一定",
+        "reading": "いってい",
+        "meaning": "constant, fixed, set",
+        "pos": "noun / na-adjective",
+        "example": "この部屋{へや}の温度{おんど}は一年中{いちねんじゅう}一定{いってい}だ。",
+        "example_translation": "The temperature of this room is constant all year round."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜ために",
+        "meaning": "in order to ~ (purpose, with a verb you control)",
+        "formation": "Verb dictionary form + ために / Noun + の + ために",
+        "example": "留学{りゅうがく}するために、お金{かね}をためている。",
+        "example_translation": "I'm saving money in order to study abroad."
+      },
+      {
+        "pattern": "〜ようにしている",
+        "meaning": "to make a habit of ~, to try to always ~",
+        "formation": "Verb dictionary / ない-form + ようにしている",
+        "example": "毎日{まいにち}野菜{やさい}を食{た}べるようにしている。",
+        "example_translation": "I make a point of eating vegetables every day."
+      }
+    ]
+  },
+  {
+    "id": "us-022",
+    "section": "usage",
+    "question": "[[生{い}かす]]",
+    "choices": [
+      "庭{にわ}に雑草{ざっそう}がたくさん生{い}かしている。",
+      "留学{りゅうがく}の経験{けいけん}を生{い}かして、通訳{つうやく}の仕事{しごと}をしている。",
+      "祖母{そぼ}は百歳{ひゃくさい}まで元気{げんき}に生{い}かした。",
+      "暗{くら}くなってきたので、部屋{へや}の電気{でんき}を生{い}かした。"
+    ],
+    "answer": 1,
+    "translation": "Making use of my experience of studying abroad, I work as an interpreter.",
+    "explanation": "生かす（いかす）has two meanings: (1) 'to make good use of, to put to use, to take advantage of' an ability, experience, or feature: 経験を生かす 'make use of one's experience', 特技を生かす 'use one's special skill', 素材の味を生かす 'bring out the natural flavor of the ingredients'; (2) 'to keep alive' (釣った魚を生かしておく 'keep a caught fish alive'). At N2, meaning (1) is the most important, usually in the pattern 〜を生かして + action, exactly as in sentence 2. 生かす is transitive (someone 生かす something). Do not confuse it with 生きる 'to live', 生える 'to grow (plants, hair)', or つける 'to switch on'.",
+    "choice_notes": [
+      "Wrong. Weeds growing is 生える（はえる）: 雑草がたくさん生えている.",
+      "Correct. 経験を生かして 'making use of one's experience' is the typical pattern of 生かす.",
+      "Wrong. Living to 100 is 生きる（いきる）: 百歳まで元気に生きた.",
+      "Wrong. Turning on the light is 電気をつける: 部屋の電気をつけた."
+    ],
+    "vocab": [
+      {
+        "word": "生かす",
+        "reading": "いかす",
+        "meaning": "to make good use of, to take advantage of; to keep alive",
+        "pos": "godan verb",
+        "example": "彼女{かのじょ}は語学力{ごがくりょく}を生{い}かして、旅行{りょこう}会社{がいしゃ}で働{はたら}いている。",
+        "example_translation": "She makes use of her language skills working at a travel agency."
+      },
+      {
+        "word": "生える",
+        "reading": "はえる",
+        "meaning": "to grow (plants, hair, teeth)",
+        "pos": "ichidan verb",
+        "example": "赤{あか}ちゃんに初{はじ}めて歯{は}が生{は}えた。",
+        "example_translation": "The baby's first tooth came in."
+      },
+      {
+        "word": "生きる",
+        "reading": "いきる",
+        "meaning": "to live, to be alive",
+        "pos": "ichidan verb",
+        "example": "人間{にんげん}は水{みず}がなければ生{い}きられない。",
+        "example_translation": "Humans cannot live without water."
+      },
+      {
+        "word": "電気をつける",
+        "reading": "でんきをつける",
+        "meaning": "to turn on the light",
+        "pos": "expression (ichidan verb)",
+        "example": "暗{くら}いので、電気{でんき}をつけてください。",
+        "example_translation": "It's dark, so please turn on the light."
+      },
+      {
+        "word": "経験",
+        "reading": "けいけん",
+        "meaning": "experience",
+        "pos": "noun / suru verb",
+        "example": "海外{かいがい}で働{はたら}いた経験{けいけん}がある。",
+        "example_translation": "I have experience working abroad."
+      },
+      {
+        "word": "通訳",
+        "reading": "つうやく",
+        "meaning": "interpreting; interpreter",
+        "pos": "noun / suru verb",
+        "example": "社長{しゃちょう}の通訳{つうやく}として会議{かいぎ}に出{で}た。",
+        "example_translation": "I attended the meeting as the president's interpreter."
+      },
+      {
+        "word": "雑草",
+        "reading": "ざっそう",
+        "meaning": "weeds",
+        "pos": "noun",
+        "example": "週末{しゅうまつ}に庭{にわ}の雑草{ざっそう}を抜{ぬ}いた。",
+        "example_translation": "I pulled the weeds in the garden on the weekend."
+      }
+    ],
+    "grammar": []
+  },
+  {
+    "id": "us-023",
+    "section": "usage",
+    "question": "[[有効{ゆうこう}]]",
+    "choices": [
+      "彼{かれ}はクラスで一番{いちばん}有効{ゆうこう}な学生{がくせい}で、いつも成績{せいせき}がいい。",
+      "この町{まち}は、きれいな海{うみ}があることで有効{ゆうこう}だ。",
+      "日本{にほん}とその国{くに}は、長{なが}い間{あいだ}有効{ゆうこう}な関係{かんけい}を築{きず}いてきた。",
+      "このチケットは、買{か}った日{ひ}から一週間{いっしゅうかん}有効{ゆうこう}です。"
+    ],
+    "answer": 3,
+    "translation": "This ticket is valid for one week from the day of purchase.",
+    "explanation": "有効（ゆうこう）has two related meanings: (1) 'valid, in force' for tickets, passports, contracts, votes, and so on: 一週間有効 'valid for one week', 有効期限 'expiration date', 有効な投票 'a valid vote'; (2) 'effective, useful': 時間を有効に使う 'use one's time effectively', 有効な方法 'an effective method'. The opposite is 無効（むこう）'invalid'. Sentence 4 uses meaning (1). Be careful with the homophone 友好（ゆうこう）'friendship (between countries or groups)', which sounds exactly the same, and with other words starting with 有 or 優: 有名 'famous', 優秀 'excellent'.",
+    "choice_notes": [
+      "Wrong. An excellent student is 優秀（ゆうしゅう）: クラスで一番優秀な学生.",
+      "Wrong. Being well known for something is 有名（ゆうめい）: きれいな海があることで有名だ.",
+      "Wrong. Friendly relations between countries is 友好（ゆうこう）: 友好関係 / 友好的な関係を築いてきた. Same pronunciation, different kanji and meaning.",
+      "Correct. A ticket being valid for one week is a typical use of 有効."
+    ],
+    "vocab": [
+      {
+        "word": "有効",
+        "reading": "ゆうこう",
+        "meaning": "valid, in force; effective",
+        "pos": "na-adjective",
+        "example": "時間{じかん}を有効{ゆうこう}に使{つか}いたい。",
+        "example_translation": "I want to use my time effectively."
+      },
+      {
+        "word": "無効",
+        "reading": "むこう",
+        "meaning": "invalid, void",
+        "pos": "noun / na-adjective",
+        "example": "期限{きげん}が過{す}ぎたクーポンは無効{むこう}です。",
+        "example_translation": "Expired coupons are invalid."
+      },
+      {
+        "word": "優秀",
+        "reading": "ゆうしゅう",
+        "meaning": "excellent, outstanding",
+        "pos": "na-adjective",
+        "example": "彼女{かのじょ}は優秀{ゆうしゅう}な成績{せいせき}で大学{だいがく}を卒業{そつぎょう}した。",
+        "example_translation": "She graduated from university with excellent grades."
+      },
+      {
+        "word": "有名",
+        "reading": "ゆうめい",
+        "meaning": "famous, well known",
+        "pos": "na-adjective",
+        "example": "京都{きょうと}はお寺{てら}が多{おお}いことで有名{ゆうめい}だ。",
+        "example_translation": "Kyoto is famous for having many temples."
+      },
+      {
+        "word": "友好",
+        "reading": "ゆうこう",
+        "meaning": "friendship (between countries or groups)",
+        "pos": "noun",
+        "example": "両国{りょうこく}の友好{ゆうこう}関係{かんけい}はますます深{ふか}まっている。",
+        "example_translation": "Friendly relations between the two countries are growing deeper and deeper."
+      },
+      {
+        "word": "築く",
+        "reading": "きずく",
+        "meaning": "to build (relationships, a career, a castle)",
+        "pos": "godan verb",
+        "example": "彼{かれ}は努力{どりょく}して今{いま}の地位{ちい}を築{きず}いた。",
+        "example_translation": "He built his current position through hard work."
+      },
+      {
+        "word": "成績",
+        "reading": "せいせき",
+        "meaning": "grades, results, performance",
+        "pos": "noun",
+        "example": "今学期{こんがっき}は成績{せいせき}が上{あ}がった。",
+        "example_translation": "My grades went up this semester."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜で有名だ",
+        "meaning": "famous for ~",
+        "formation": "Noun + で有名だ / Verb plain form + ことで有名だ",
+        "example": "この町{まち}は温泉{おんせん}で有名{ゆうめい}だ。",
+        "example_translation": "This town is famous for its hot springs."
+      },
+      {
+        "pattern": "〜てきた",
+        "meaning": "have been doing ~ (from the past up to now)",
+        "formation": "Verb て-form + きた",
+        "example": "二人{ふたり}は二十年間{にじゅうねんかん}協力{きょうりょく}し合{あ}ってきた。",
+        "example_translation": "The two have been helping each other for twenty years."
+      }
+    ]
+  },
+  {
+    "id": "us-024",
+    "section": "usage",
+    "question": "[[分担{ぶんたん}]]",
+    "choices": [
+      "うちでは、家事{かじ}を家族{かぞく}みんなで分担{ぶんたん}している。",
+      "大{おお}きなケーキを八{やっ}つに分担{ぶんたん}して、みんなで食{た}べた。",
+      "ごみは、燃{も}えるごみと燃{も}えないごみに分担{ぶんたん}して出{だ}してください。",
+      "兄{あに}と私{わたし}は、性格{せいかく}がまったく分担{ぶんたん}している。"
+    ],
+    "answer": 0,
+    "translation": "In our home, the whole family shares the housework.",
+    "explanation": "分担（ぶんたん）means 'division of work or responsibility, sharing (a task or a cost)': several people each take on part of a job or burden. Typical uses: 家事を分担する 'share the housework', 役割分担 'division of roles', 費用を分担する 'split the costs', 分担して作業する 'divide up the work'. The object is always work, roles, or costs, so sentence 1 is correct. It is not used for cutting up physical objects (分ける), sorting garbage (分別), or being different (違う). The kanji 担 means 'to carry (a burden)', as in 担当 'being in charge'.",
+    "choice_notes": [
+      "Correct. Sharing housework among family members is the typical use of 分担.",
+      "Wrong. Cutting a cake into eight pieces is 分ける（わける）or 切り分ける: 八つに切り分けて.",
+      "Wrong. Sorting garbage into burnable and non-burnable is 分別（ぶんべつ）する or 分ける: 分別して出してください.",
+      "Wrong. Personalities being different is 違う（ちがう）: 性格がまったく違っている."
+    ],
+    "vocab": [
+      {
+        "word": "分担",
+        "reading": "ぶんたん",
+        "meaning": "sharing (work, roles, costs), division of labor",
+        "pos": "noun / suru verb",
+        "example": "旅行{りょこう}の費用{ひよう}は、四人{よにん}で分担{ぶんたん}することにした。",
+        "example_translation": "We decided to split the cost of the trip among the four of us."
+      },
+      {
+        "word": "分ける",
+        "reading": "わける",
+        "meaning": "to divide, to separate, to share out",
+        "pos": "ichidan verb",
+        "example": "お菓子{かし}を弟{おとうと}と半分{はんぶん}に分{わ}けた。",
+        "example_translation": "I split the sweets half and half with my younger brother."
+      },
+      {
+        "word": "分別",
+        "reading": "ぶんべつ",
+        "meaning": "sorting, separation (of garbage)",
+        "pos": "noun / suru verb",
+        "example": "この町{まち}では、ごみを九種類{きゅうしゅるい}に分別{ぶんべつ}する。",
+        "example_translation": "In this town, garbage is sorted into nine types."
+      },
+      {
+        "word": "違う",
+        "reading": "ちがう",
+        "meaning": "to differ, to be different; to be wrong",
+        "pos": "godan verb",
+        "example": "国{くに}によって習慣{しゅうかん}が違{ちが}う。",
+        "example_translation": "Customs differ from country to country."
+      },
+      {
+        "word": "家事",
+        "reading": "かじ",
+        "meaning": "housework, household chores",
+        "pos": "noun",
+        "example": "仕事{しごと}をしながら家事{かじ}をするのは大変{たいへん}だ。",
+        "example_translation": "Doing housework while working is hard."
+      },
+      {
+        "word": "担当",
+        "reading": "たんとう",
+        "meaning": "being in charge (of), the person in charge",
+        "pos": "noun / suru verb",
+        "example": "この仕事{しごと}の担当{たんとう}は田中{たなか}さんです。",
+        "example_translation": "Mr. Tanaka is in charge of this job."
+      },
+      {
+        "word": "燃える",
+        "reading": "もえる",
+        "meaning": "to burn",
+        "pos": "ichidan verb",
+        "example": "燃{も}えるごみは月曜日{げつようび}と木曜日{もくようび}に出{だ}してください。",
+        "example_translation": "Please put out burnable garbage on Mondays and Thursdays."
+      }
+    ],
+    "grammar": []
+  },
+  {
+    "id": "us-025",
+    "section": "usage",
+    "question": "[[相次{あいつ}ぐ]]",
+    "choices": [
+      "母{はは}の後{あと}を相次{あいつ}いで、私{わたし}も教師{きょうし}になった。",
+      "今年{ことし}の夏{なつ}は、各地{かくち}で大雨{おおあめ}による被害{ひがい}が相次{あいつ}いだ。",
+      "わからないことがあれば、いつでも先生{せんせい}に相次{あいつ}いでください。",
+      "彼{かれ}はこの会社{かいしゃ}に二十年{にじゅうねん}相次{あいつ}いで勤{つと}めている。"
+    ],
+    "answer": 1,
+    "translation": "This summer, damage from heavy rain occurred one after another in many places.",
+    "explanation": "相次ぐ（あいつぐ）means 'to happen one after another, to occur in succession': several similar events happen in a row within a short period. It is typical of news language, and the events are often negative: 事故が相次ぐ 'accidents happen one after another', 苦情が相次ぐ 'complaints keep coming in', 相次いで発表する 'announce one after another'. The subject is a series of separate events, so sentence 2 (damage in many places) is correct. It is not used for succeeding someone (継ぐ, which shares the sound つぐ), for consulting (相談する, which shares the kanji 相), or for one continuous action (続ける).",
+    "choice_notes": [
+      "Wrong. Following in one's mother's footsteps is 継ぐ（つぐ）: 母の後を継いで.",
+      "Correct. Damage from heavy rain occurring in many places one after another is the typical use of 相次ぐ.",
+      "Wrong. Consulting a teacher is 相談（そうだん）する: いつでも先生に相談してください.",
+      "Wrong. Working at one company continuously is 続けて or ずっと: 二十年続けて勤めている. 相次ぐ is for separate events happening one after another, not one continuous action."
+    ],
+    "vocab": [
+      {
+        "word": "相次ぐ",
+        "reading": "あいつぐ",
+        "meaning": "to happen one after another, to occur in succession",
+        "pos": "godan verb",
+        "example": "最近{さいきん}、この交差点{こうさてん}で事故{じこ}が相次{あいつ}いでいる。",
+        "example_translation": "Recently there have been one accident after another at this intersection."
+      },
+      {
+        "word": "継ぐ",
+        "reading": "つぐ",
+        "meaning": "to succeed (to), to inherit, to take over",
+        "pos": "godan verb",
+        "example": "彼{かれ}は父親{ちちおや}の店{みせ}を継{つ}いだ。",
+        "example_translation": "He took over his father's shop."
+      },
+      {
+        "word": "相談",
+        "reading": "そうだん",
+        "meaning": "consultation, asking for advice",
+        "pos": "noun / suru verb",
+        "example": "困{こま}ったときは、一人{ひとり}で悩{なや}まずに相談{そうだん}してください。",
+        "example_translation": "When you're in trouble, don't worry alone - come and talk to us."
+      },
+      {
+        "word": "続ける",
+        "reading": "つづける",
+        "meaning": "to continue, to keep doing",
+        "pos": "ichidan verb",
+        "example": "雨{あめ}の日{ひ}も休{やす}まずに、ジョギングを続{つづ}けている。",
+        "example_translation": "I keep jogging without a break, even on rainy days."
+      },
+      {
+        "word": "各地",
+        "reading": "かくち",
+        "meaning": "various places, every region",
+        "pos": "noun",
+        "example": "全国{ぜんこく}各地{かくち}から人{ひと}が集{あつ}まった。",
+        "example_translation": "People gathered from all over the country."
+      },
+      {
+        "word": "被害",
+        "reading": "ひがい",
+        "meaning": "damage, harm",
+        "pos": "noun",
+        "example": "地震{じしん}の被害{ひがい}を受{う}けた町{まち}を訪{おとず}れた。",
+        "example_translation": "I visited a town that had been damaged by the earthquake."
+      },
+      {
+        "word": "勤める",
+        "reading": "つとめる",
+        "meaning": "to work for, to be employed at",
+        "pos": "ichidan verb",
+        "example": "姉{あね}は旅行{りょこう}会社{がいしゃ}に勤{つと}めている。",
+        "example_translation": "My older sister works for a travel agency."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜による",
+        "meaning": "caused by ~, due to ~ (before a noun)",
+        "formation": "Noun + による + noun",
+        "example": "地震{じしん}による被害{ひがい}は大{おお}きかった。",
+        "example_translation": "The damage caused by the earthquake was great."
+      },
+      {
+        "pattern": "〜ば",
+        "meaning": "if ~ (condition)",
+        "formation": "ある → あれば / Godan: -u → -eba / Ichidan: stem + れば",
+        "example": "時間{じかん}があれば、手伝{てつだ}います。",
+        "example_translation": "If I have time, I'll help."
+      }
+    ]
+  }
+]

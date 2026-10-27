@@ -56,7 +56,8 @@ class AppHarness:
             with urllib.request.urlopen(request) as response:
                 status, payload = response.status, response.read()
         except urllib.error.HTTPError as error:
-            status, payload = error.code, error.read()
+            with error:
+                status, payload = error.code, error.read()
         if status != expect:
             raise AssertionError(f"{method} {path} -> {status}: {payload[:300]!r}")
         return json.loads(payload) if path.startswith("/api/") else payload

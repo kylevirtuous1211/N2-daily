@@ -3,7 +3,12 @@
     "id": "kr-ex-001",
     "section": "kanji_reading",
     "question": "この問題{もんだい}については、もっと[[慎重]]に考{かんが}えるべきだ。",
-    "choices": ["しんちょう", "しんじゅう", "じんちょう", "しんちょ"],
+    "choices": [
+      "しんちょう",
+      "しんじゅう",
+      "じんちょう",
+      "しんちょ"
+    ],
     "answer": 0,
     "translation": "We should think about this problem more carefully.",
     "explanation": "慎重 is read しんちょう and means 'careful, cautious'. 慎 is read しん (as in 謹慎 きんしん), and 重 is read ちょう in on'yomi compounds such as 貴重 きちょう and 尊重 そんちょう. The common trap is the じゅう reading of 重 (as in 体重 たいじゅう), but in 慎重 it is ちょう with a long vowel.",
@@ -14,20 +19,59 @@
       "Wrong. The long vowel is missing: it must be ちょう, not ちょ."
     ],
     "vocab": [
-      {"word": "慎重", "reading": "しんちょう", "meaning": "careful, cautious, prudent", "pos": "na-adjective", "example": "大事{だいじ}なことは慎重{しんちょう}に決{き}めたほうがいい。", "example_translation": "It is better to decide important things carefully."},
-      {"word": "問題", "reading": "もんだい", "meaning": "problem, question, issue", "pos": "noun", "example": "この問題{もんだい}は難{むずか}しすぎる。", "example_translation": "This problem is too difficult."},
-      {"word": "〜について", "reading": "について", "meaning": "about, concerning", "pos": "expression", "example": "日本{にほん}の文化{ぶんか}について調{しら}べた。", "example_translation": "I researched Japanese culture."},
-      {"word": "考える", "reading": "かんがえる", "meaning": "to think, to consider", "pos": "ichidan verb", "example": "将来{しょうらい}のことをよく考{かんが}えなさい。", "example_translation": "Think carefully about your future."}
+      {
+        "word": "慎重",
+        "reading": "しんちょう",
+        "meaning": "careful, cautious, prudent",
+        "pos": "na-adjective",
+        "example": "大事{だいじ}なことは慎重{しんちょう}に決{き}めたほうがいい。",
+        "example_translation": "It is better to decide important things carefully."
+      },
+      {
+        "word": "問題",
+        "reading": "もんだい",
+        "meaning": "problem, question, issue",
+        "pos": "noun",
+        "example": "この問題{もんだい}は難{むずか}しすぎる。",
+        "example_translation": "This problem is too difficult."
+      },
+      {
+        "word": "〜について",
+        "reading": "について",
+        "meaning": "about, concerning",
+        "pos": "expression",
+        "example": "日本{にほん}の文化{ぶんか}について調{しら}べた。",
+        "example_translation": "I researched Japanese culture."
+      },
+      {
+        "word": "考える",
+        "reading": "かんがえる",
+        "meaning": "to think, to consider",
+        "pos": "ichidan verb",
+        "example": "将来{しょうらい}のことをよく考{かんが}えなさい。",
+        "example_translation": "Think carefully about your future."
+      }
     ],
     "grammar": [
-      {"pattern": "〜べきだ", "meaning": "should, ought to (a strong opinion about what is right)", "formation": "Verb dictionary form + べきだ (する → するべき / すべき)", "example": "約束{やくそく}は守{まも}るべきだ。", "example_translation": "You should keep your promises."}
+      {
+        "pattern": "〜べきだ",
+        "meaning": "should, ought to (a strong opinion about what is right)",
+        "formation": "Verb dictionary form + べきだ (する → するべき / すべき)",
+        "example": "約束{やくそく}は守{まも}るべきだ。",
+        "example_translation": "You should keep your promises."
+      }
     ]
   },
   {
     "id": "or-ex-001",
     "section": "orthography",
     "question": "大{おお}きな荷物{にもつ}を[[あずけて]]から、買{か}い物{もの}に行{い}った。",
-    "choices": ["預けて", "頼けて", "任けて", "託けて"],
+    "choices": [
+      "預けて",
+      "頼けて",
+      "任けて",
+      "託けて"
+    ],
     "answer": 0,
     "translation": "After checking in (leaving) my big luggage, I went shopping.",
     "explanation": "あずける 'to leave something in someone's care, to deposit' is written 預ける. The kanji 預 also appears in 預金 よきん 'bank deposit'. The distractors are kanji with related meanings ('rely', 'entrust') but they are not written with the okurigana けて.",
@@ -38,21 +82,67 @@
       "Wrong. 託 is read たく as in 託す（たくす）'to entrust'. 託ける is not standard."
     ],
     "vocab": [
-      {"word": "預ける", "reading": "あずける", "meaning": "to leave (something) with someone, to deposit, to check (luggage)", "pos": "ichidan verb", "example": "コートをクロークに預{あず}けた。", "example_translation": "I left my coat at the cloakroom."},
-      {"word": "荷物", "reading": "にもつ", "meaning": "luggage, baggage", "pos": "noun", "example": "荷物{にもつ}が重{おも}くて大変{たいへん}だ。", "example_translation": "The luggage is heavy and it's tough."},
-      {"word": "頼る", "reading": "たよる", "meaning": "to rely on, to depend on", "pos": "godan verb", "example": "親{おや}に頼{たよ}らないで生活{せいかつ}したい。", "example_translation": "I want to live without depending on my parents."},
-      {"word": "任せる", "reading": "まかせる", "meaning": "to entrust, to leave (a task) to someone", "pos": "ichidan verb", "example": "この仕事{しごと}は彼{かれ}に任{まか}せよう。", "example_translation": "Let's leave this job to him."},
-      {"word": "託す", "reading": "たくす", "meaning": "to entrust (a hope, a message, an item)", "pos": "godan verb", "example": "夢{ゆめ}を子{こ}どもに託{たく}す。", "example_translation": "To entrust one's dreams to one's children."}
+      {
+        "word": "預ける",
+        "reading": "あずける",
+        "meaning": "to leave (something) with someone, to deposit, to check (luggage)",
+        "pos": "ichidan verb",
+        "example": "コートをクロークに預{あず}けた。",
+        "example_translation": "I left my coat at the cloakroom."
+      },
+      {
+        "word": "荷物",
+        "reading": "にもつ",
+        "meaning": "luggage, baggage",
+        "pos": "noun",
+        "example": "荷物{にもつ}が重{おも}くて大変{たいへん}だ。",
+        "example_translation": "The luggage is heavy and it's tough."
+      },
+      {
+        "word": "頼る",
+        "reading": "たよる",
+        "meaning": "to rely on, to depend on",
+        "pos": "godan verb",
+        "example": "親{おや}に頼{たよ}らないで生活{せいかつ}したい。",
+        "example_translation": "I want to live without depending on my parents."
+      },
+      {
+        "word": "任せる",
+        "reading": "まかせる",
+        "meaning": "to entrust, to leave (a task) to someone",
+        "pos": "ichidan verb",
+        "example": "この仕事{しごと}は彼{かれ}に任{まか}せよう。",
+        "example_translation": "Let's leave this job to him."
+      },
+      {
+        "word": "託す",
+        "reading": "たくす",
+        "meaning": "to entrust (a hope, a message, an item)",
+        "pos": "godan verb",
+        "example": "夢{ゆめ}を子{こ}どもに託{たく}す。",
+        "example_translation": "To entrust one's dreams to one's children."
+      }
     ],
     "grammar": [
-      {"pattern": "〜てから", "meaning": "after doing ~ (and then)", "formation": "Verb て-form + から", "example": "手{て}を洗{あら}ってから食{た}べてください。", "example_translation": "Please eat after washing your hands."}
+      {
+        "pattern": "〜てから",
+        "meaning": "after doing ~ (and then)",
+        "formation": "Verb て-form + から",
+        "example": "手{て}を洗{あら}ってから食{た}べてください。",
+        "example_translation": "Please eat after washing your hands."
+      }
     ]
   },
   {
     "id": "wf-ex-001",
     "section": "word_formation",
     "question": "この機械{きかい}は（　　）自動{じどう}で、ボタンを押{お}すだけで動{うご}く。",
-    "choices": ["全", "完", "総", "満"],
+    "choices": [
+      "全",
+      "完",
+      "総",
+      "満"
+    ],
     "answer": 0,
     "full_sentence": "この機械{きかい}は全自動{ぜんじどう}で、ボタンを押{お}すだけで動{うご}く。",
     "translation": "This machine is fully automatic; it runs just by pressing a button.",
@@ -64,21 +154,67 @@
       "Wrong. 満 means 'full, filled' as in 満員 'full of people', 満点 'perfect score'; 満自動 is not a word."
     ],
     "vocab": [
-      {"word": "全自動", "reading": "ぜんじどう", "meaning": "fully automatic", "pos": "noun / na-adjective", "example": "全自動{ぜんじどう}の洗濯機{せんたくき}を買{か}った。", "example_translation": "I bought a fully automatic washing machine."},
-      {"word": "機械", "reading": "きかい", "meaning": "machine", "pos": "noun", "example": "この機械{きかい}の使{つか}い方{かた}を教{おし}えてください。", "example_translation": "Please teach me how to use this machine."},
-      {"word": "押す", "reading": "おす", "meaning": "to push, to press", "pos": "godan verb", "example": "赤{あか}いボタンを押{お}してください。", "example_translation": "Please press the red button."},
-      {"word": "完全", "reading": "かんぜん", "meaning": "complete, perfect", "pos": "na-adjective", "example": "病気{びょうき}が完全{かんぜん}に治{なお}った。", "example_translation": "The illness was completely cured."},
-      {"word": "満員", "reading": "まんいん", "meaning": "full (of people), no vacancy", "pos": "noun", "example": "朝{あさ}の電車{でんしゃ}はいつも満員{まんいん}だ。", "example_translation": "Morning trains are always packed."}
+      {
+        "word": "全自動",
+        "reading": "ぜんじどう",
+        "meaning": "fully automatic",
+        "pos": "noun / na-adjective",
+        "example": "全自動{ぜんじどう}の洗濯機{せんたくき}を買{か}った。",
+        "example_translation": "I bought a fully automatic washing machine."
+      },
+      {
+        "word": "機械",
+        "reading": "きかい",
+        "meaning": "machine",
+        "pos": "noun",
+        "example": "この機械{きかい}の使{つか}い方{かた}を教{おし}えてください。",
+        "example_translation": "Please teach me how to use this machine."
+      },
+      {
+        "word": "押す",
+        "reading": "おす",
+        "meaning": "to push, to press",
+        "pos": "godan verb",
+        "example": "赤{あか}いボタンを押{お}してください。",
+        "example_translation": "Please press the red button."
+      },
+      {
+        "word": "完全",
+        "reading": "かんぜん",
+        "meaning": "complete, perfect",
+        "pos": "na-adjective",
+        "example": "病気{びょうき}が完全{かんぜん}に治{なお}った。",
+        "example_translation": "The illness was completely cured."
+      },
+      {
+        "word": "満員",
+        "reading": "まんいん",
+        "meaning": "full (of people), no vacancy",
+        "pos": "noun",
+        "example": "朝{あさ}の電車{でんしゃ}はいつも満員{まんいん}だ。",
+        "example_translation": "Morning trains are always packed."
+      }
     ],
     "grammar": [
-      {"pattern": "〜だけで", "meaning": "just by ~, only with ~", "formation": "Verb dictionary form / noun + だけで", "example": "見{み}ているだけで楽{たの}しい。", "example_translation": "It's fun just to watch."}
+      {
+        "pattern": "〜だけで",
+        "meaning": "just by ~, only with ~",
+        "formation": "Verb dictionary form / noun + だけで",
+        "example": "見{み}ているだけで楽{たの}しい。",
+        "example_translation": "It's fun just to watch."
+      }
     ]
   },
   {
     "id": "cx-ex-001",
     "section": "context",
     "question": "彼{かれ}は約束{やくそく}の時間{じかん}に遅{おく}れたことを何度{なんど}も（　　）。",
-    "choices": ["わびた", "ほめた", "ゆずった", "うやまった"],
+    "choices": [
+      "わびた",
+      "ほめた",
+      "ゆずった",
+      "うやまった"
+    ],
     "answer": 0,
     "full_sentence": "彼{かれ}は約束{やくそく}の時間{じかん}に遅{おく}れたことを何度{なんど}もわびた。",
     "translation": "He apologized many times for being late for the appointed time.",
@@ -90,12 +226,54 @@
       "Wrong. うやまう（敬う）'to respect, to honor' (e.g., お年寄りを敬う) does not fit."
     ],
     "vocab": [
-      {"word": "詫びる", "reading": "わびる", "meaning": "to apologize (formal)", "pos": "ichidan verb", "example": "迷惑{めいわく}をかけたことを心{こころ}から詫{わ}びます。", "example_translation": "I sincerely apologize for the trouble I caused."},
-      {"word": "約束", "reading": "やくそく", "meaning": "promise, appointment", "pos": "noun / suru verb", "example": "友達{ともだち}と三時{さんじ}に会{あ}う約束{やくそく}をした。", "example_translation": "I made plans to meet a friend at three."},
-      {"word": "遅れる", "reading": "おくれる", "meaning": "to be late, to be delayed", "pos": "ichidan verb", "example": "電車{でんしゃ}が十分{じゅっぷん}遅{おく}れた。", "example_translation": "The train was ten minutes late."},
-      {"word": "褒める", "reading": "ほめる", "meaning": "to praise", "pos": "ichidan verb", "example": "先生{せんせい}に作文{さくぶん}を褒{ほ}められた。", "example_translation": "My teacher praised my essay."},
-      {"word": "譲る", "reading": "ゆずる", "meaning": "to give up (a seat), to hand over, to concede", "pos": "godan verb", "example": "電車{でんしゃ}でお年寄{としよ}りに席{せき}を譲{ゆず}った。", "example_translation": "I gave my seat to an elderly person on the train."},
-      {"word": "敬う", "reading": "うやまう", "meaning": "to respect, to revere", "pos": "godan verb", "example": "親{おや}を敬{うやま}うことは大切{たいせつ}だ。", "example_translation": "Respecting your parents is important."}
+      {
+        "word": "詫びる",
+        "reading": "わびる",
+        "meaning": "to apologize (formal)",
+        "pos": "ichidan verb",
+        "example": "迷惑{めいわく}をかけたことを心{こころ}から詫{わ}びます。",
+        "example_translation": "I sincerely apologize for the trouble I caused."
+      },
+      {
+        "word": "約束",
+        "reading": "やくそく",
+        "meaning": "promise, appointment",
+        "pos": "noun / suru verb",
+        "example": "友達{ともだち}と三時{さんじ}に会{あ}う約束{やくそく}をした。",
+        "example_translation": "I made plans to meet a friend at three."
+      },
+      {
+        "word": "遅れる",
+        "reading": "おくれる",
+        "meaning": "to be late, to be delayed",
+        "pos": "ichidan verb",
+        "example": "電車{でんしゃ}が十分{じゅっぷん}遅{おく}れた。",
+        "example_translation": "The train was ten minutes late."
+      },
+      {
+        "word": "褒める",
+        "reading": "ほめる",
+        "meaning": "to praise",
+        "pos": "ichidan verb",
+        "example": "先生{せんせい}に作文{さくぶん}を褒{ほ}められた。",
+        "example_translation": "My teacher praised my essay."
+      },
+      {
+        "word": "譲る",
+        "reading": "ゆずる",
+        "meaning": "to give up (a seat), to hand over, to concede",
+        "pos": "godan verb",
+        "example": "電車{でんしゃ}でお年寄{としよ}りに席{せき}を譲{ゆず}った。",
+        "example_translation": "I gave my seat to an elderly person on the train."
+      },
+      {
+        "word": "敬う",
+        "reading": "うやまう",
+        "meaning": "to respect, to revere",
+        "pos": "godan verb",
+        "example": "親{おや}を敬{うやま}うことは大切{たいせつ}だ。",
+        "example_translation": "Respecting your parents is important."
+      }
     ],
     "grammar": []
   },
@@ -103,7 +281,12 @@
     "id": "pp-ex-001",
     "section": "paraphrase",
     "question": "昨日{きのう}の会議{かいぎ}は[[あっけなく]]終{お}わった。",
-    "choices": ["思{おも}ったより簡単{かんたん}に", "思{おも}ったより長{なが}く", "急{きゅう}に途中{とちゅう}で", "とても楽{たの}しく"],
+    "choices": [
+      "思{おも}ったより簡単{かんたん}に",
+      "思{おも}ったより長{なが}く",
+      "急{きゅう}に途中{とちゅう}で",
+      "とても楽{たの}しく"
+    ],
     "answer": 0,
     "translation": "Yesterday's meeting ended surprisingly quickly (more simply than expected).",
     "explanation": "あっけない means 'disappointingly quick or simple; over before you know it'. So あっけなく終わった ≈ 思ったより簡単に終わった 'ended more simply/quickly than expected'. It carries a nuance of surprise or slight disappointment.",
@@ -114,13 +297,47 @@
       "Wrong. 'Very enjoyably' is unrelated to あっけない."
     ],
     "vocab": [
-      {"word": "あっけない", "reading": "あっけない", "meaning": "disappointingly quick/simple, over too soon", "pos": "i-adjective", "example": "試合{しあい}はあっけなく終{お}わってしまった。", "example_translation": "The match ended disappointingly quickly."},
-      {"word": "会議", "reading": "かいぎ", "meaning": "meeting, conference", "pos": "noun", "example": "午後{ごご}から会議{かいぎ}がある。", "example_translation": "There is a meeting in the afternoon."},
-      {"word": "途中", "reading": "とちゅう", "meaning": "on the way, midway", "pos": "noun", "example": "帰{かえ}る途中{とちゅう}で雨{あめ}が降{ふ}ってきた。", "example_translation": "It started raining on my way home."},
-      {"word": "急に", "reading": "きゅうに", "meaning": "suddenly", "pos": "adverb", "example": "急{きゅう}に空{そら}が暗{くら}くなった。", "example_translation": "The sky suddenly turned dark."}
+      {
+        "word": "あっけない",
+        "reading": "あっけない",
+        "meaning": "disappointingly quick/simple, over too soon",
+        "pos": "i-adjective",
+        "example": "試合{しあい}はあっけなく終{お}わってしまった。",
+        "example_translation": "The match ended disappointingly quickly."
+      },
+      {
+        "word": "会議",
+        "reading": "かいぎ",
+        "meaning": "meeting, conference",
+        "pos": "noun",
+        "example": "午後{ごご}から会議{かいぎ}がある。",
+        "example_translation": "There is a meeting in the afternoon."
+      },
+      {
+        "word": "途中",
+        "reading": "とちゅう",
+        "meaning": "on the way, midway",
+        "pos": "noun",
+        "example": "帰{かえ}る途中{とちゅう}で雨{あめ}が降{ふ}ってきた。",
+        "example_translation": "It started raining on my way home."
+      },
+      {
+        "word": "急に",
+        "reading": "きゅうに",
+        "meaning": "suddenly",
+        "pos": "adverb",
+        "example": "急{きゅう}に空{そら}が暗{くら}くなった。",
+        "example_translation": "The sky suddenly turned dark."
+      }
     ],
     "grammar": [
-      {"pattern": "〜より", "meaning": "than ~ (comparison)", "formation": "Noun / clause + より", "example": "今日{きょう}は昨日{きのう}より寒{さむ}い。", "example_translation": "Today is colder than yesterday."}
+      {
+        "pattern": "〜より",
+        "meaning": "than ~ (comparison)",
+        "formation": "Noun / clause + より",
+        "example": "今日{きょう}は昨日{きのう}より寒{さむ}い。",
+        "example_translation": "Today is colder than yesterday."
+      }
     ]
   },
   {
@@ -143,11 +360,46 @@
       "Wrong. 'Looking at a far-away mountain' should be 眺める（ながめる）or 見る."
     ],
     "vocab": [
-      {"word": "見直す", "reading": "みなおす", "meaning": "to look over again, to re-examine; to think better of (someone)", "pos": "godan verb", "example": "計画{けいかく}を一{いち}から見直{みなお}す必要{ひつよう}がある。", "example_translation": "We need to rethink the plan from scratch."},
-      {"word": "見かける", "reading": "みかける", "meaning": "to happen to see, to notice", "pos": "ichidan verb", "example": "最近{さいきん}、あの猫{ねこ}をよく見{み}かける。", "example_translation": "I often see that cat recently."},
-      {"word": "眺める", "reading": "ながめる", "meaning": "to gaze at, to look out at (scenery)", "pos": "ichidan verb", "example": "窓{まど}から海{うみ}を眺{なが}めた。", "example_translation": "I gazed at the sea from the window."},
-      {"word": "間違い", "reading": "まちがい", "meaning": "mistake, error", "pos": "noun", "example": "答{こた}えに間違{まちが}いがないか確認{かくにん}した。", "example_translation": "I checked whether there were mistakes in the answers."},
-      {"word": "積もる", "reading": "つもる", "meaning": "to pile up, to accumulate (snow, dust)", "pos": "godan verb", "example": "一晩{ひとばん}で雪{ゆき}が三十{さんじゅう}センチ積{つ}もった。", "example_translation": "Thirty centimeters of snow piled up overnight."}
+      {
+        "word": "見直す",
+        "reading": "みなおす",
+        "meaning": "to look over again, to re-examine; to think better of (someone)",
+        "pos": "godan verb",
+        "example": "計画{けいかく}を一{いち}から見直{みなお}す必要{ひつよう}がある。",
+        "example_translation": "We need to rethink the plan from scratch."
+      },
+      {
+        "word": "見かける",
+        "reading": "みかける",
+        "meaning": "to happen to see, to notice",
+        "pos": "ichidan verb",
+        "example": "最近{さいきん}、あの猫{ねこ}をよく見{み}かける。",
+        "example_translation": "I often see that cat recently."
+      },
+      {
+        "word": "眺める",
+        "reading": "ながめる",
+        "meaning": "to gaze at, to look out at (scenery)",
+        "pos": "ichidan verb",
+        "example": "窓{まど}から海{うみ}を眺{なが}めた。",
+        "example_translation": "I gazed at the sea from the window."
+      },
+      {
+        "word": "間違い",
+        "reading": "まちがい",
+        "meaning": "mistake, error",
+        "pos": "noun",
+        "example": "答{こた}えに間違{まちが}いがないか確認{かくにん}した。",
+        "example_translation": "I checked whether there were mistakes in the answers."
+      },
+      {
+        "word": "積もる",
+        "reading": "つもる",
+        "meaning": "to pile up, to accumulate (snow, dust)",
+        "pos": "godan verb",
+        "example": "一晩{ひとばん}で雪{ゆき}が三十{さんじゅう}センチ積{つ}もった。",
+        "example_translation": "Thirty centimeters of snow piled up overnight."
+      }
     ],
     "grammar": []
   },
@@ -155,7 +407,12 @@
     "id": "gf-ex-001",
     "section": "grammar_form",
     "question": "この店{みせ}のケーキは、値段{ねだん}が高{たか}い（　　）、あまりおいしくない。",
-    "choices": ["わりに", "うえに", "からには", "ばかりか"],
+    "choices": [
+      "わりに",
+      "うえに",
+      "からには",
+      "ばかりか"
+    ],
     "answer": 0,
     "full_sentence": "この店{みせ}のケーキは、値段{ねだん}が高{たか}いわりに、あまりおいしくない。",
     "translation": "This shop's cakes aren't very tasty considering how expensive they are.",
@@ -167,23 +424,71 @@
       "Wrong. 〜ばかりか 'not only ~ but also' adds in the same direction, not a contrast."
     ],
     "vocab": [
-      {"word": "値段", "reading": "ねだん", "meaning": "price", "pos": "noun", "example": "この服{ふく}は値段{ねだん}が手頃{てごろ}だ。", "example_translation": "These clothes are reasonably priced."},
-      {"word": "店", "reading": "みせ", "meaning": "shop, store", "pos": "noun", "example": "駅前{えきまえ}に新{あたら}しい店{みせ}ができた。", "example_translation": "A new shop opened in front of the station."}
+      {
+        "word": "値段",
+        "reading": "ねだん",
+        "meaning": "price",
+        "pos": "noun",
+        "example": "この服{ふく}は値段{ねだん}が手頃{てごろ}だ。",
+        "example_translation": "These clothes are reasonably priced."
+      },
+      {
+        "word": "店",
+        "reading": "みせ",
+        "meaning": "shop, store",
+        "pos": "noun",
+        "example": "駅前{えきまえ}に新{あたら}しい店{みせ}ができた。",
+        "example_translation": "A new shop opened in front of the station."
+      }
     ],
     "grammar": [
-      {"pattern": "〜わりに（は）", "meaning": "considering ~, for ~ (result differs from expectation)", "formation": "Plain form / な-adj + な / noun + の + わりに", "example": "彼{かれ}は年{とし}のわりに若{わか}く見{み}える。", "example_translation": "He looks young for his age."},
-      {"pattern": "〜うえに", "meaning": "in addition to ~, on top of ~ (same direction)", "formation": "Plain form / な-adj + な / noun + である + うえに", "example": "今日{きょう}は雨{あめ}が降{ふ}っているうえに風{かぜ}も強{つよ}い。", "example_translation": "Today it's raining, and on top of that the wind is strong."},
-      {"pattern": "〜からには", "meaning": "now that ~, since ~ (so one must)", "formation": "Plain form + からには", "example": "約束{やくそく}したからには守{まも}らなければならない。", "example_translation": "Since I promised, I have to keep it."},
-      {"pattern": "〜ばかりか", "meaning": "not only ~ but also", "formation": "Plain form / noun + ばかりか", "example": "彼{かれ}は英語{えいご}ばかりか中国語{ちゅうごくご}も話{はな}せる。", "example_translation": "He can speak not only English but also Chinese."}
+      {
+        "pattern": "〜わりに（は）",
+        "meaning": "considering ~, for ~ (result differs from expectation)",
+        "formation": "Plain form / な-adj + な / noun + の + わりに",
+        "example": "彼{かれ}は年{とし}のわりに若{わか}く見{み}える。",
+        "example_translation": "He looks young for his age."
+      },
+      {
+        "pattern": "〜うえに",
+        "meaning": "in addition to ~, on top of ~ (same direction)",
+        "formation": "Plain form / な-adj + な / noun + である + うえに",
+        "example": "今日{きょう}は雨{あめ}が降{ふ}っているうえに風{かぜ}も強{つよ}い。",
+        "example_translation": "Today it's raining, and on top of that the wind is strong."
+      },
+      {
+        "pattern": "〜からには",
+        "meaning": "now that ~, since ~ (so one must)",
+        "formation": "Plain form + からには",
+        "example": "約束{やくそく}したからには守{まも}らなければならない。",
+        "example_translation": "Since I promised, I have to keep it."
+      },
+      {
+        "pattern": "〜ばかりか",
+        "meaning": "not only ~ but also",
+        "formation": "Plain form / noun + ばかりか",
+        "example": "彼{かれ}は英語{えいご}ばかりか中国語{ちゅうごくご}も話{はな}せる。",
+        "example_translation": "He can speak not only English but also Chinese."
+      }
     ]
   },
   {
     "id": "so-ex-001",
     "section": "sentence_order",
     "question": "日本語{にほんご}が上手{じょうず}になる {{1}} {{2}} {{3}} {{4}} と思{おも}う。",
-    "choices": ["毎日{まいにち}", "には", "続{つづ}けることが大切{たいせつ}だ", "少{すこ}しずつでも"],
+    "choices": [
+      "毎日{まいにち}",
+      "には",
+      "続{つづ}けることが大切{たいせつ}だ",
+      "少{すこ}しずつでも"
+    ],
     "star": 3,
-    "correct_order": [1, 0, 3, 2],
+    "correct_order": [
+      1,
+      0,
+      3,
+      2
+    ],
     "answer": 3,
     "full_sentence": "日本語{にほんご}が上手{じょうず}になるには毎日{まいにち}少{すこ}しずつでも続{つづ}けることが大切{たいせつ}だと思{おも}う。",
     "translation": "I think that to get good at Japanese, it's important to keep at it every day, even a little at a time.",
@@ -195,14 +500,54 @@
       "Correct. 少しずつでも is in slot 3, the ★ position."
     ],
     "vocab": [
-      {"word": "少しずつ", "reading": "すこしずつ", "meaning": "little by little, bit by bit", "pos": "adverb", "example": "少{すこ}しずつ日本語{にほんご}が分{わ}かるようになった。", "example_translation": "Little by little, I came to understand Japanese."},
-      {"word": "続ける", "reading": "つづける", "meaning": "to continue, to keep doing", "pos": "ichidan verb", "example": "雨{あめ}の中{なか}を歩{ある}き続{つづ}けた。", "example_translation": "I kept walking in the rain."},
-      {"word": "大切", "reading": "たいせつ", "meaning": "important, precious", "pos": "na-adjective", "example": "時間{じかん}を大切{たいせつ}にしよう。", "example_translation": "Let's value our time."},
-      {"word": "上手", "reading": "じょうず", "meaning": "skillful, good at", "pos": "na-adjective", "example": "姉{あね}は料理{りょうり}が上手{じょうず}だ。", "example_translation": "My older sister is good at cooking."}
+      {
+        "word": "少しずつ",
+        "reading": "すこしずつ",
+        "meaning": "little by little, bit by bit",
+        "pos": "adverb",
+        "example": "少{すこ}しずつ日本語{にほんご}が分{わ}かるようになった。",
+        "example_translation": "Little by little, I came to understand Japanese."
+      },
+      {
+        "word": "続ける",
+        "reading": "つづける",
+        "meaning": "to continue, to keep doing",
+        "pos": "ichidan verb",
+        "example": "雨{あめ}の中{なか}を歩{ある}き続{つづ}けた。",
+        "example_translation": "I kept walking in the rain."
+      },
+      {
+        "word": "大切",
+        "reading": "たいせつ",
+        "meaning": "important, precious",
+        "pos": "na-adjective",
+        "example": "時間{じかん}を大切{たいせつ}にしよう。",
+        "example_translation": "Let's value our time."
+      },
+      {
+        "word": "上手",
+        "reading": "じょうず",
+        "meaning": "skillful, good at",
+        "pos": "na-adjective",
+        "example": "姉{あね}は料理{りょうり}が上手{じょうず}だ。",
+        "example_translation": "My older sister is good at cooking."
+      }
     ],
     "grammar": [
-      {"pattern": "〜には", "meaning": "in order to ~ (followed by what is necessary)", "formation": "Verb dictionary form + には", "example": "駅{えき}へ行{い}くには、このバスが便利{べんり}だ。", "example_translation": "To get to the station, this bus is convenient."},
-      {"pattern": "〜でも", "meaning": "even ~ (minimum acceptable)", "formation": "Noun / adverb + でも", "example": "五分{ごふん}でもいいから休{やす}みたい。", "example_translation": "I want to rest, even if just for five minutes."}
+      {
+        "pattern": "〜には",
+        "meaning": "in order to ~ (followed by what is necessary)",
+        "formation": "Verb dictionary form + には",
+        "example": "駅{えき}へ行{い}くには、このバスが便利{べんり}だ。",
+        "example_translation": "To get to the station, this bus is convenient."
+      },
+      {
+        "pattern": "〜でも",
+        "meaning": "even ~ (minimum acceptable)",
+        "formation": "Noun / adverb + でも",
+        "example": "五分{ごふん}でもいいから休{やす}みたい。",
+        "example_translation": "I want to rest, even if just for five minutes."
+      }
     ]
   },
   {
@@ -227,18 +572,85 @@
       "Wrong. Paper versus smartphone reading is not judged in the passage."
     ],
     "vocab": [
-      {"word": "減る", "reading": "へる", "meaning": "to decrease, to diminish", "pos": "godan verb", "example": "最近{さいきん}、体重{たいじゅう}が二{に}キロ減{へ}った。", "example_translation": "Recently I lost two kilograms."},
-      {"word": "小説", "reading": "しょうせつ", "meaning": "novel", "pos": "noun", "example": "寝{ね}る前{まえ}に小説{しょうせつ}を読{よ}む。", "example_translation": "I read a novel before going to bed."},
-      {"word": "道具", "reading": "どうぐ", "meaning": "tool, instrument", "pos": "noun", "example": "料理{りょうり}の道具{どうぐ}をそろえた。", "example_translation": "I gathered cooking tools."},
-      {"word": "文字", "reading": "もじ", "meaning": "letter, character, text", "pos": "noun", "example": "この文字{もじ}は小{ちい}さくて読{よ}めない。", "example_translation": "These characters are too small to read."},
-      {"word": "必ずしも", "reading": "かならずしも", "meaning": "(not) necessarily, (not) always - used with a negative", "pos": "adverb", "example": "高{たか}い物{もの}が必{かなら}ずしもいい物{もの}だとは限{かぎ}らない。", "example_translation": "Expensive things are not necessarily good things."},
-      {"word": "言い切る", "reading": "いいきる", "meaning": "to declare, to say definitively", "pos": "godan verb", "example": "絶対{ぜったい}に正{ただ}しいとは言{い}い切{き}れない。", "example_translation": "I can't say for sure that it is absolutely right."},
-      {"word": "筆者", "reading": "ひっしゃ", "meaning": "the writer, the author (of a passage)", "pos": "noun", "example": "筆者{ひっしゃ}が一番{いちばん}言{い}いたいことは何{なん}ですか。", "example_translation": "What does the writer most want to say?"}
+      {
+        "word": "減る",
+        "reading": "へる",
+        "meaning": "to decrease, to diminish",
+        "pos": "godan verb",
+        "example": "最近{さいきん}、体重{たいじゅう}が二{に}キロ減{へ}った。",
+        "example_translation": "Recently I lost two kilograms."
+      },
+      {
+        "word": "小説",
+        "reading": "しょうせつ",
+        "meaning": "novel",
+        "pos": "noun",
+        "example": "寝{ね}る前{まえ}に小説{しょうせつ}を読{よ}む。",
+        "example_translation": "I read a novel before going to bed."
+      },
+      {
+        "word": "道具",
+        "reading": "どうぐ",
+        "meaning": "tool, instrument",
+        "pos": "noun",
+        "example": "料理{りょうり}の道具{どうぐ}をそろえた。",
+        "example_translation": "I gathered cooking tools."
+      },
+      {
+        "word": "文字",
+        "reading": "もじ",
+        "meaning": "letter, character, text",
+        "pos": "noun",
+        "example": "この文字{もじ}は小{ちい}さくて読{よ}めない。",
+        "example_translation": "These characters are too small to read."
+      },
+      {
+        "word": "必ずしも",
+        "reading": "かならずしも",
+        "meaning": "(not) necessarily, (not) always - used with a negative",
+        "pos": "adverb",
+        "example": "高{たか}い物{もの}が必{かなら}ずしもいい物{もの}だとは限{かぎ}らない。",
+        "example_translation": "Expensive things are not necessarily good things."
+      },
+      {
+        "word": "言い切る",
+        "reading": "いいきる",
+        "meaning": "to declare, to say definitively",
+        "pos": "godan verb",
+        "example": "絶対{ぜったい}に正{ただ}しいとは言{い}い切{き}れない。",
+        "example_translation": "I can't say for sure that it is absolutely right."
+      },
+      {
+        "word": "筆者",
+        "reading": "ひっしゃ",
+        "meaning": "the writer, the author (of a passage)",
+        "pos": "noun",
+        "example": "筆者{ひっしゃ}が一番{いちばん}言{い}いたいことは何{なん}ですか。",
+        "example_translation": "What does the writer most want to say?"
+      }
     ],
     "grammar": [
-      {"pattern": "必ずしも〜ない", "meaning": "not necessarily ~", "formation": "必ずしも + (plain form) + とは言えない / とは限らない / わけではない", "example": "日本人{にほんじん}が必{かなら}ずしも敬語{けいご}が上手{じょうず}だとは限{かぎ}らない。", "example_translation": "Japanese people are not necessarily good at honorific language."},
-      {"pattern": "〜と言われる", "meaning": "it is said that ~", "formation": "Plain form + と言われる / と言われている", "example": "この寺{てら}は千年前{せんねんまえ}に建{た}てられたと言{い}われている。", "example_translation": "It is said this temple was built a thousand years ago."},
-      {"pattern": "つまり", "meaning": "in other words, that is to say", "formation": "Sentence. + つまり、 + restatement", "example": "彼{かれ}は母{はは}の兄{あに}、つまり私{わたし}のおじだ。", "example_translation": "He is my mother's older brother, in other words my uncle."}
+      {
+        "pattern": "必ずしも〜ない",
+        "meaning": "not necessarily ~",
+        "formation": "必ずしも + (plain form) + とは言えない / とは限らない / わけではない",
+        "example": "日本人{にほんじん}が必{かなら}ずしも敬語{けいご}が上手{じょうず}だとは限{かぎ}らない。",
+        "example_translation": "Japanese people are not necessarily good at honorific language."
+      },
+      {
+        "pattern": "〜と言われる",
+        "meaning": "it is said that ~",
+        "formation": "Plain form + と言われる / と言われている",
+        "example": "この寺{てら}は千年前{せんねんまえ}に建{た}てられたと言{い}われている。",
+        "example_translation": "It is said this temple was built a thousand years ago."
+      },
+      {
+        "pattern": "つまり",
+        "meaning": "in other words, that is to say",
+        "formation": "Sentence. + つまり、 + restatement",
+        "example": "彼{かれ}は母{はは}の兄{あに}、つまり私{わたし}のおじだ。",
+        "example_translation": "He is my mother's older brother, in other words my uncle."
+      }
     ]
   }
 ]
