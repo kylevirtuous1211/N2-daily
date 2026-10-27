@@ -431,7 +431,12 @@ async function viewTest(testId) {
   const nextButton = app.querySelector("[data-next]");
   const prevButton = app.querySelector("[data-prev]");
 
+  const compactNavigator = test.questions.length > 30;
   const renderDots = () => {
+    if (compactNavigator) {
+      dots.innerHTML = compactNavigatorHtml(test, progress);
+      return;
+    }
     dots.innerHTML = test.questions.map((question, index) => `
       <button class="dot ${index === progress.current ? "current" : ""} ${progress.answers[index] != null ? "answered" : ""}"
         data-goto="${index}" title="Question ${index + 1}" aria-label="Question ${index + 1}">${index + 1}</button>`).join("");
@@ -494,6 +499,9 @@ async function viewTest(testId) {
     const dot = event.target.closest("[data-goto]");
     if (dot) move(Number(dot.dataset.goto));
   });
+  dots.addEventListener("change", (event) => {
+    if (event.target.matches("[data-jump]")) move(Number(event.target.value));
+  });
   prevButton.addEventListener("click", () => move(progress.current - 1));
   nextButton.addEventListener("click", () => (progress.current === test.questions.length - 1 ? finish() : move(progress.current + 1)));
   app.querySelector("[data-furigana]").addEventListener("change", (event) => {
@@ -539,8 +547,38 @@ function officialImage(path, alt) {
   return `<img class="official-image" src="/official/${encodeURI(path)}" alt="${escapeHtml(alt)}" loading="lazy">`;
 }
 
+// Long official tests: a progress meter plus a jump menu grouped by 問題 instead of 75 numbered dots.
+function compactNavigatorHtml(test, progress) {
+  const answered = Object.keys(progress.answers).length;
+  const groups = [];
+  test.questions.forEach((question, index) => {
+    const label = question.official ? `問題${question.official.mondai} ${test.sections[question.section].ja}` : test.sections[question.section].ja;
+    if (!groups.length || groups[groups.length - 1].label !== label) groups.push({ label, items: [] });
+    groups[groups.length - 1].items.push(index);
+  });
+  const options = groups.map((group) => `
+    <optgroup label="${escapeHtml(group.label)}">
+      ${group.items.map((index) => `<option value="${index}" ${index === progress.current ? "selected" : ""}>${index + 1}${progress.answers[index] != null ? "  ✓" : ""}</option>`).join("")}
+    </optgroup>`).join("");
+  return `
+    <div class="compact-nav">
+      <select class="jump-select" data-jump aria-label="Jump to question">${options}</select>
+      <div class="meter compact-meter" title="${answered} of ${test.questions.length} answered"><span style="width:${percent(answered, test.questions.length)}%"></span></div>
+      <span class="muted small">${answered} / ${test.questions.length} answered</span>
+    </div>`;
+}
+
+function highlightCurrentBlank(html, question) {
+  if (question.section !== "text_grammar") return html;
+  const number = plainJa(question.question).match(/\d+/)?.[0];
+  if (!number) return html;
+  return html.replace(new RegExp(`[（(]\\s*${number}\\s*[）)]`, "g"), (blank) => `<span class="current-blank">${blank}</span>`);
+}
+
 function passageBlock(question) {
-  const text = question.passage ? `<div class="passage ja">${renderJa(question.passage).replaceAll("\n", "<br>")}</div>` : "";
+  const text = question.passage
+    ? `<div class="passage ja">${highlightCurrentBlank(renderJa(question.passage), question).replaceAll("\n", "<br>")}</div>`
+    : "";
   if (!question.passage_image) return text;
   return `
     <div class="passage-image">${officialImage(question.passage_image, "Passage as printed in the test booklet")}</div>

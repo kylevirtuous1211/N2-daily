@@ -381,3 +381,10 @@ rt { font-size: 0.55em; color: var(--ink-soft); font-weight: 400; letter-spacing
 .script-block .label { font-size: 12px; font-weight: 700; color: var(--ink-soft); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 6px; }
 .script-block .passage { margin-top: 0; font-size: 17px; }
 .choices-hidden + .muted { margin-top: 12px; }
+
+.compact-nav { display: flex; align-items: center; gap: 14px; min-width: 0; flex: 1; }
+.jump-select { min-height: 36px; padding: 4px 10px; border: 1px solid var(--line); border-radius: 10px; font: inherit; font-weight: 600; background: var(--surface); color: var(--ink); }
+.compact-meter { max-width: 260px; }
+.current-blank { background: #fff1c2; border-radius: 4px; padding: 0 2px; box-shadow: 0 0 0 2px #f5d77a; }
+.passage-image .official-image { border: none; border-radius: 0; }
+.test-toolbar .progress-dots { flex: 1; min-width: 0; }
