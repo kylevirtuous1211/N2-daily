@@ -199,7 +199,7 @@
       {
         "pattern": "〜だけで",
         "meaning": "just by ~, only with ~",
-        "formation": "Verb dictionary form / noun + だけで",
+        "formation": "Verb plain form (押す / 見ている / 聞いた) / noun + だけで",
         "example": "見{み}ているだけで楽{たの}しい。",
         "example_translation": "It's fun just to watch."
       }
@@ -348,16 +348,16 @@
       "書{か}き終{お}わったレポートをもう一度{いちど}見直{みなお}したら、間違{まちが}いが三{みっ}つ見{み}つかった。",
       "毎朝{まいあさ}、駅{えき}の前{まえ}で見直{みなお}す人{ひと}に会{あ}う。",
       "入院{にゅういん}している祖母{そぼ}を見直{みなお}しに、病院{びょういん}へ行{い}った。",
-      "遠{とお}くの山{やま}を見直{みなお}すと、雪{ゆき}が積{つ}もっていた。"
+      "晴{は}れた日{ひ}は、ベランダから遠{とお}くの山{やま}を見直{みなお}すのが好{す}きだ。"
     ],
     "answer": 0,
     "translation": "When I looked over the report I had finished writing once more, I found three mistakes.",
-    "explanation": "見直す has two main meanings: 'to look over again, to re-examine' (レポートを見直す) and 'to see someone in a better light' (彼を見直した). The report sentence uses the first meaning correctly. The others use 見直す as if it meant 'to run into (someone)', 'to visit (a sick person)', or 'to look at (scenery)'.",
+    "explanation": "見直す has two main meanings: 'to look over again, to re-examine' (レポートを見直す) and 'to see someone in a better light' (彼を見直した). The report sentence uses the first meaning correctly. The others use 見直す as if it meant 'to run into (someone)', 'to visit (a sick person)', or 'to gaze at (scenery) for pleasure'. Note that 見直す can mean simply 'to look at again' to check something (写真を見直す), but it is never used for enjoying a view.",
     "choice_notes": [
       "Correct. 'Re-checking a finished report' is the core meaning of 見直す.",
       "Wrong. 'To run into/see someone' should be 見かける（みかける）: 駅の前で見かける人.",
       "Wrong. 'Visiting a sick person' should be 見舞う（みまう）: 祖母を見舞いに病院へ行った. 見直す never means 'to visit'.",
-      "Wrong. 'Looking at a far-away mountain' should be 眺める（ながめる）or 見る."
+      "Wrong. 'Gazing at far-away mountains' for pleasure should be 眺める（ながめる）: 遠くの山を眺めるのが好きだ. 見直す means looking at something again to check or re-evaluate it, never enjoying a view."
     ],
     "vocab": [
       {
@@ -393,12 +393,12 @@
         "example_translation": "I checked whether there were mistakes in the answers."
       },
       {
-        "word": "積もる",
-        "reading": "つもる",
-        "meaning": "to pile up, to accumulate (snow, dust)",
-        "pos": "godan verb",
-        "example": "一晩{ひとばん}で雪{ゆき}が三十{さんじゅう}センチ積{つ}もった。",
-        "example_translation": "Thirty centimeters of snow piled up overnight."
+        "word": "晴れる",
+        "reading": "はれる",
+        "meaning": "to clear up, to be sunny (weather)",
+        "pos": "ichidan verb",
+        "example": "明日{あした}は晴{は}れるそうだ。",
+        "example_translation": "I hear it will be sunny tomorrow."
       },
       {
         "word": "見舞う",
@@ -460,7 +460,7 @@
       {
         "pattern": "〜うえに",
         "meaning": "in addition to ~, on top of ~ (same direction)",
-        "formation": "Plain form / な-adj + な / noun + である + うえに",
+        "formation": "Plain form / な-adj + な / noun + の or である + うえに",
         "example": "今日{きょう}は雨{あめ}が降{ふ}っているうえに風{かぜ}も強{つよ}い。",
         "example_translation": "Today it's raining, and on top of that the wind is strong."
       },

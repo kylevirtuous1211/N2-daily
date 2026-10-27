@@ -82,7 +82,7 @@
     ],
     "answer": 0,
     "translation": "That new game sold out in no time once it was released.",
-    "explanation": "たちまち means 'in an instant, immediately, in no time'. It describes something that happens very quickly right after a trigger, usually a change of state: たちまち売り切れる 'sell out instantly', たちまち人気になる 'become popular in no time', 空がたちまち暗くなった 'the sky turned dark in an instant'. The expression あっという間に (literally 'in the time it takes to say \"ah\"') has the same meaning. たちまち is used to describe events that happen (or happened) by themselves; it is not used in requests - you cannot say ×たちまち来てください (use すぐに instead).",
+    "explanation": "たちまち means 'in an instant, immediately, in no time'. It describes something that happens very quickly right after a trigger, usually a change of state: たちまち売り切れる 'sell out instantly', たちまち人気になる 'become popular in no time', 空がたちまち暗くなった 'the sky turned dark in an instant'. The expression あっという間に (literally 'in the time it takes to say \"ah\"') has the same meaning. たちまち describes how quickly something actually happens or happened, as an observed fact (it can also describe a person's action, e.g. 料理をたちまち平らげた 'polished off the food in no time'); it is not used in requests, commands, or statements of intention - you cannot say ×たちまち来てください (use すぐに instead).",
     "choice_notes": [
       "Correct. あっという間に 'in the blink of an eye' = たちまち.",
       "Wrong. 少しずつ 'little by little' is the opposite: a slow, gradual change.",
@@ -2575,7 +2575,7 @@
   {
     "id": "pp-034",
     "section": "paraphrase",
-    "question": "毎日{まいにち}練習{れんしゅう}したので、ピアノの[[腕{うで}が上{あ}がった]]。",
+    "question": "毎日{まいにち}ピアノを練習{れんしゅう}したので、[[腕{うで}が上{あ}がった]]。",
     "choices": [
       "音{おと}が大{おお}きくなった",
       "上手{じょうず}になった",
@@ -2583,7 +2583,7 @@
       "腕{うで}が疲{つか}れた"
     ],
     "answer": 1,
-    "translation": "I practiced every day, so my piano playing got better.",
+    "translation": "I practiced the piano every day, so my playing got better.",
     "explanation": "腕（うで）literally means 'arm', but it also means 'skill, ability'. So the set expression 腕が上がる means 'one's skill improves', and 腕を上げる means 'to improve one's skill'. Related expressions: 腕がいい 'skilled', 腕を磨く 'to polish one's skills', 料理の腕 'cooking skills', 腕の見せどころ 'a chance to show one's skill'. The paraphrase is 上手になる. This idiom has nothing to do with lifting or tiring your arm - 腕が疲れた is a trap built on the literal meaning.",
     "choice_notes": [
       "Wrong. 音が大きくなった 'the sound got louder' is about volume.",
@@ -2646,21 +2646,21 @@
   {
     "id": "pp-035",
     "section": "paraphrase",
-    "question": "会議{かいぎ}の前{まえ}に、この資料{しりょう}に[[目{め}を通{とお}して]]おいてください。",
+    "question": "会議{かいぎ}の前{まえ}に、この[[資料{しりょう}に目{め}を通{とお}して]]おいてください。",
     "choices": [
-      "サインして",
-      "コピーして",
-      "まとめて",
-      "ざっと読{よ}んで"
+      "資料{しりょう}にサインして",
+      "資料{しりょう}をコピーして",
+      "資料{しりょう}をまとめて",
+      "資料{しりょう}をざっと読{よ}んで"
     ],
     "answer": 3,
     "translation": "Please look over these materials before the meeting.",
-    "explanation": "目を通す（めをとおす）is a set expression meaning 'to look over, to read through (quickly), to skim'. It is used for documents, newspapers, emails, and so on: 書類に目を通す 'look over the documents', 新聞に目を通す 'skim the newspaper'. Note the particle: the thing you look over is marked with に (資料に目を通す), not を (を is already used in 目を). The paraphrase is ざっと読む 'to read through quickly'. The idea is checking the whole content once, not studying it in detail.",
+    "explanation": "目を通す（めをとおす）is a set expression meaning 'to look over, to read through (quickly), to skim'. It is used for documents, newspapers, emails, and so on: 書類に目を通す 'look over the documents', 新聞に目を通す 'skim the newspaper'. Note the particle: the thing you look over is marked with に (資料に目を通す), not を (を is already used in 目を). The paraphrase is ざっと読む 'to read through quickly'. Because 読む takes a direct object, the particle changes when you paraphrase: 資料に目を通す → 資料をざっと読む (資料にざっと読む is wrong). The idea is checking the whole content once, not studying it in detail.",
     "choice_notes": [
-      "Wrong. サインする 'to sign' is a different action.",
-      "Wrong. コピーする 'to copy' does not involve reading.",
-      "Wrong. まとめる 'to summarize, to put together' means creating something new from the materials.",
-      "Correct. ざっと読む 'to read through quickly' = 目を通す."
+      "Wrong. 資料にサインする 'to sign the materials' is a different action.",
+      "Wrong. 資料をコピーする 'to copy the materials' does not involve reading.",
+      "Wrong. 資料をまとめる 'to summarize, to put the materials together' means creating something new from them.",
+      "Correct. 資料をざっと読む 'to read through the materials quickly' = 資料に目を通す. Note the particle change: に becomes を."
     ],
     "vocab": [
       {

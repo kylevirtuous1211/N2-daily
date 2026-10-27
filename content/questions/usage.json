@@ -427,7 +427,7 @@
         "meaning": "to have someone do ~ (for me)",
         "formation": "Person + に + Verb て-form + もらう",
         "example": "母{はは}に駅{えき}まで送{おく}ってもらった。",
-        "example_translation": "I had my mother drive me to the station."
+        "example_translation": "I had my mother take me to the station."
       }
     ]
   },
@@ -443,7 +443,7 @@
     ],
     "answer": 0,
     "translation": "I practice every day so that I can fully show my true ability in the actual performance.",
-    "explanation": "発揮（はっき）means 'displaying, demonstrating, bringing out (one's ability or power)'. It is used with abilities, strengths, or effects that a person or thing has inside: 実力を発揮する 'show one's true ability', 力を発揮する 'show one's strength', リーダーシップを発揮する 'show leadership', 効果を発揮する 'have an effect'. The object is always some kind of power or ability, so 実力を十分に発揮できるように 'so that I can fully show my true ability' is correct. The wrong sentences confuse it with other words: 発表 'announce, present', 発生 'occur, break out', and 施行 'put (a law) into effect'.",
+    "explanation": "発揮（はっき）means 'displaying, demonstrating, bringing out (one's ability or power)'. It is used with abilities, strengths, or effects that a person or thing has inside: 実力を発揮する 'show one's true ability', 力を発揮する 'show one's strength', リーダーシップを発揮する 'show leadership', 効果を発揮する 'have an effect'. The object is always some kind of power, ability, or effect, so 実力を十分に発揮できるように 'so that I can fully show my true ability' is correct. The wrong sentences confuse it with other words: 発表 'announce, present', 発生 'occur, break out', and 施行 'put (a law) into effect'.",
     "choice_notes": [
       "Correct. 実力を発揮する 'show one's true ability' is the standard collocation.",
       "Wrong. A law coming into effect is 施行（しこう）される or 実施（じっし）される: 来月から施行される.",
@@ -874,7 +874,7 @@
       {
         "pattern": "〜がる",
         "meaning": "to show signs of ~ (feelings or wishes of other people)",
-        "formation": "i-adjective stem + がる (欲しい → 欲しがる)",
+        "formation": "i-adjective / na-adjective stem + がる (欲しい → 欲しがる, 嫌だ → 嫌がる); Verb ます-stem + たがる (飼う → 飼いたがる)",
         "example": "子{こ}どもたちは犬{いぬ}を飼{か}いたがっている。",
         "example_translation": "The children want to have a dog."
       }
@@ -1161,7 +1161,7 @@
     ],
     "answer": 0,
     "translation": "I carelessly missed the final episode of the drama I had been looking forward to.",
-    "explanation": "見逃す（みのがす）has two main meanings: (1) to miss seeing something, to fail to notice: ドラマを見逃す 'miss a TV show', チャンスを見逃す 'miss a chance', 間違いを見逃す 'overlook a mistake'; (2) to let something pass, to turn a blind eye: 今回だけは見逃してあげる 'I'll let it go just this once'. Both share the idea of letting something slip past you, either without noticing it or on purpose (逃す = 'to let escape'). It often comes with うっかり 'carelessly' and 〜てしまう (regret), as in the correct sentence ドラマの最終回を、うっかり見逃してしまった. The wrong sentences use other 見〜 compound verbs that learners mix up: 見送る 'see off', 見守る 'watch over', 見上げる 'look up at'.",
+    "explanation": "見逃す（みのがす）has two main meanings: (1) to miss seeing something, to fail to notice: ドラマを見逃す 'miss a TV show', チャンスを見逃す 'miss a chance', 間違いを見逃す 'overlook a mistake'; (2) to let something pass, to turn a blind eye: 今回だけは見逃してあげる 'I'll let it go just this once'. Both share the idea of letting something slip past you, either without noticing it or on purpose (逃す = 'to let escape'). It often comes with うっかり 'carelessly' and 〜てしまう (regret), as in the correct sentence ドラマの最終回を、うっかり見逃してしまった. The wrong sentences use 見逃す where a different 見〜 compound verb is needed, ones learners often mix up with it: 見送る 'see off', 見守る 'watch over', 見上げる 'look up at'.",
     "choice_notes": [
       "Correct. Missing the final episode of a drama is a typical use of 見逃す.",
       "Wrong. Seeing a friend off at the airport is 見送る（みおくる）: 友達を見送った.",
@@ -1481,7 +1481,7 @@
       {
         "pattern": "〜てしまう",
         "meaning": "to end up doing ~ (often unintentionally, with regret)",
-        "formation": "Verb て-form + しまう (casual: 〜ちゃう)",
+        "formation": "Verb て-form + しまう (casual: 〜てしまう → 〜ちゃう, 〜でしまう → 〜じゃう)",
         "example": "映画{えいが}を見{み}ながら寝{ね}てしまった。",
         "example_translation": "I fell asleep while watching the movie."
       }
@@ -1600,7 +1600,7 @@
         "meaning": "sturdy, solid, robust",
         "pos": "na-adjective",
         "example": "このかばんは頑丈{がんじょう}で、十年{じゅうねん}使{つか}っても壊{こわ}れない。",
-        "example_translation": "This bag is so sturdy it hasn't broken even after ten years."
+        "example_translation": "This bag is so sturdy that it won't break even after ten years of use."
       },
       {
         "word": "頑固",
@@ -1819,7 +1819,7 @@
         "word": "一定",
         "reading": "いってい",
         "meaning": "constant, fixed, set",
-        "pos": "noun / na-adjective",
+        "pos": "noun / no-adjective",
         "example": "この部屋{へや}の温度{おんど}は一年中{いちねんじゅう}一定{いってい}だ。",
         "example_translation": "The temperature of this room is constant all year round."
       }

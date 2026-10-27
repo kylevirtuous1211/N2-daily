@@ -14,7 +14,7 @@
     "explanation": "範囲 is read はんい and means 'range, scope, extent' (試験の範囲 = the material an exam covers). 範 is read はん, as in 模範 もはん 'model, example' and 規範 きはん 'norm, standard'. 囲 is read い in on'yomi compounds such as 周囲 しゅうい 'surroundings' and 包囲 ほうい 'encirclement'; its kun'yomi is かこむ (囲む 'to surround'). The two traps are adding a dakuten to 範 (ばん) and adding an extra ん at the end (はんいん). Remember: it is simply は-ん-い, three sounds.",
     "choice_notes": [
       "Wrong. 範 is read はん without a dakuten. ばん is the reading of other kanji such as 番 (番号 ばんごう) and 晩 (今晩 こんばん).",
-      "Wrong. There is no extra ん at the end. 囲 is read い, so はんいん is not a word.",
+      "Wrong. There is no extra ん at the end. 囲 is read い, not いん. (はんいん is a different word: 班員 'group member'.)",
       "Correct. はんい = 範囲 'range, scope'.",
       "Wrong. へんい is the reading of 変異 'mutation, variation'. 範 is read はん, not へん."
     ],
@@ -356,7 +356,7 @@
     ],
     "answer": 3,
     "translation": "The library pressed me to return the books I had borrowed soon.",
-    "explanation": "催促 is read さいそく and means 'pressing, urging, a reminder to do something (pay, reply, return)'. 催 is read さい, as in 開催 かいさい 'holding (an event)' and 主催 しゅさい 'sponsorship'; its kun'yomi is もよおす (催す 'to hold an event'). 促 is read そく, as in 促進 そくしん 'promotion'; its kun'yomi is うながす (促す 'to urge'). The trap is the voiced ぞく (which belongs to kanji like 続 and 族) and the similar-sounding real word 菜食 さいしょく.",
+    "explanation": "催促 is read さいそく and means 'pressing, urging, a reminder to do something (pay, reply, return)'. 催 is read さい, as in 開催 かいさい 'holding (an event)' and 主催 しゅさい 'hosting, organizing (an event)'; its kun'yomi is もよおす (催す 'to hold an event'). 促 is read そく, as in 促進 そくしん 'promotion'; its kun'yomi is うながす (促す 'to urge'). The trap is the voiced ぞく (which belongs to kanji like 続 and 族) and the similar-sounding real word 菜食 さいしょく.",
     "choice_notes": [
       "Wrong. 促 is read そく without a dakuten. ぞく is the reading of 続 (継続 けいぞく) or 族 (家族 かぞく).",
       "Wrong. さいしょく is 菜食 'vegetarian diet'. 促 is not read しょく.",
@@ -1374,7 +1374,7 @@
     ],
     "answer": 1,
     "translation": "Because its sales did not grow, the company withdrew from the overseas market.",
-    "explanation": "撤退 is read てったい and means 'withdrawal, pulling out' (from a market, a battle, etc.). 撤 is read てつ, as in 撤回 てっかい 'retraction' and 撤去 てっきょ 'removal'; like 圧 (あつ → あっ), てつ shrinks to てっ before a k- or t- sound. 退 is read たい, as in 引退 いんたい 'retirement' and 退院 たいいん 'leaving hospital'; its kun'yomi is しりぞく (退く 'to retreat'). The funniest trap is てつだい, which is a real but totally different word: 手伝い 'help'.",
+    "explanation": "撤退 is read てったい and means 'withdrawal, pulling out' (from a market, a battle, etc.). The on'yomi of 撤 is てつ, but like 圧 (あつ → あっ), てつ shrinks to てっ before a k-, s-, t- or h- sound, and a following h- sound changes to p-: 撤回 てっかい 'retraction', 撤去 てっきょ 'removal', 撤収 てっしゅう 'withdrawal, clearing out', 撤廃 てっぱい 'abolition'. 退 is read たい, as in 引退 いんたい 'retirement' and 退院 たいいん 'leaving hospital'; its kun'yomi is しりぞく (退く 'to retreat'). The funniest trap is てつだい, which is a real but totally different word: 手伝い 'help'.",
     "choice_notes": [
       "Wrong. The small っ is missing. てつ becomes てっ before た.",
       "Correct. てったい = 撤退 'withdrawal'.",
@@ -1516,7 +1516,7 @@
     ],
     "answer": 3,
     "translation": "The residents complained to city hall that the noise from the factory was terrible.",
-    "explanation": "訴えた is the past form of 訴える（うったえる）. It has several meanings: 'to complain of, to appeal to' (市役所に訴える 'complain to city hall'), 'to complain of (pain)' (痛みを訴える), and 'to sue' (裁判所に訴える 'take to court'). The key point is the small っ: う・っ・た・え・る. The on'yomi is そ, as in 訴訟 そしょう 'lawsuit' and 起訴 きそ 'indictment'. The trap うたえた looks like 歌えた 'could sing', and うつたえた uses a big つ instead of the small っ.",
+    "explanation": "訴えた is the past form of 訴える（うったえる）. It has several meanings: 'to complain to, to appeal to' (市役所に訴える 'complain to city hall'), 'to complain of (pain or symptoms)' (痛みを訴える), and 'to sue' (裁判所に訴える 'take to court'). The key point is the small っ: う・っ・た・え・る. The on'yomi is そ, as in 訴訟 そしょう 'lawsuit' and 起訴 きそ 'indictment'. The trap うたえた looks like 歌えた 'could sing', and うつたえた uses a big つ instead of the small っ.",
     "choice_notes": [
       "Wrong. The small っ is missing. (うたえた would be 歌えた 'was able to sing'.)",
       "Wrong. The つ must be a small っ: うったえた, not うつたえた.",
@@ -2136,7 +2136,7 @@
     ],
     "answer": 2,
     "translation": "Japan carries out trade with many countries.",
-    "explanation": "貿易 is read ぼうえき and means 'trade (between countries)'. 貿 is read ぼう with a dakuten and a long vowel; it appears almost only in this word. 易 has two on'yomi with different meanings: えき 'exchange' (貿易, 交易 こうえき) and い 'easy' (容易 ようい 'easy', 安易 あんい 'easygoing', 簡易 かんい 'simple'). Its kun'yomi is やさしい (易しい 'easy'). In 貿易 it is えき, so ぼうい is the 'other reading of the same kanji' trap.",
+    "explanation": "貿易 is read ぼうえき and means 'trade (between countries)'. 貿 is read ぼう with a dakuten and a long vowel; it appears almost only in this word. 易 has two on'yomi with different meanings: えき 'exchange' (貿易, 交易 こうえき) and い 'easy' (容易 ようい 'easy', 安易 あんい 'too easy, facile', 簡易 かんい 'simple'). Its kun'yomi is やさしい (易しい 'easy'). In 貿易 it is えき, so ぼうい is the 'other reading of the same kanji' trap.",
     "choice_notes": [
       "Wrong. い is a real reading of 易 (容易 ようい 'easy'), but 貿易 uses えき.",
       "Wrong. 貿 is read ぼう with a dakuten, not ほう.",
@@ -2289,7 +2289,7 @@
       {
         "word": "看護",
         "reading": "かんご",
-        "meaning": "nursing (in a hospital)",
+        "meaning": "nursing (medical care of the sick or injured)",
         "pos": "noun / suru verb",
         "example": "姉{あね}は病院{びょういん}で看護師{かんごし}として働{はたら}いている。",
         "example_translation": "My older sister works as a nurse at a hospital."
@@ -2733,7 +2733,7 @@
     ],
     "answer": 2,
     "translation": "It is precisely when an earthquake happens that it is important to act calmly.",
-    "explanation": "冷静 is read れいせい and means 'calm, composed, cool-headed'. 冷 is read れい, as in 冷蔵庫 れいぞうこ 'refrigerator' and 冷房 れいぼう 'air conditioning'; its kun'yomi are つめたい (冷たい) and ひえる (冷える). 静 is usually read せい, as in 安静 あんせい 'rest' and 静止 せいし 'standstill'; its kun'yomi is しずか (静か). 静 has a rare second on'yomi じょう (静脈 じょうみゃく 'vein'), which is the trap れいじょう. Also, 静 is never voiced to ぜい.",
+    "explanation": "冷静 is read れいせい and means 'calm, composed, cool-headed'. 冷 is read れい, as in 冷蔵庫 れいぞうこ 'refrigerator' and 冷房 れいぼう 'air conditioning'; its kun'yomi include つめたい (冷たい), ひえる (冷える), and さめる (冷める). 静 is usually read せい, as in 安静 あんせい 'rest' and 静止 せいし 'standstill'; its kun'yomi is しずか (静か). 静 has a rare second on'yomi じょう (静脈 じょうみゃく 'vein'), which is the trap れいじょう. Also, 静 is never voiced to ぜい.",
     "choice_notes": [
       "Wrong. じょう is a rare reading of 静 (静脈 じょうみゃく), and れいじょう is 礼状 'thank-you letter' or 令嬢 'young lady'. 冷静 uses せい.",
       "Wrong. 静 is read せい without a dakuten.",
@@ -2785,7 +2785,7 @@
     "grammar": [
       {
         "pattern": "〜こそ",
-        "meaning": "precisely ~, ~ of all things (strong emphasis)",
+        "meaning": "precisely ~, ~ indeed (strong emphasis on the word before it)",
         "formation": "Noun / 〜とき / 〜から + こそ",
         "example": "今度{こんど}こそ試験{しけん}に合格{ごうかく}したい。",
         "example_translation": "This time for sure, I want to pass the exam."

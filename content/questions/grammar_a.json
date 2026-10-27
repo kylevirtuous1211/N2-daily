@@ -229,7 +229,7 @@
         "meaning": "now that ~, since ~ (therefore one must / should / will)",
         "formation": "Plain form (Noun / な-adj + である) + 以上（は）",
         "example": "学生{がくせい}である以上{いじょう}、勉強{べんきょう}を一番{いちばん}に考{かんが}えるべきだ。",
-        "example_translation": "As long as you are a student, you should put studying first."
+        "example_translation": "Since you are a student, you should put studying first."
       },
       {
         "pattern": "〜たところで",
@@ -1008,7 +1008,7 @@
     "answer": 1,
     "full_sentence": "申{もう}し訳{わけ}ございませんが、そのようなご要望{ようぼう}にはお応{こた}えしかねます。",
     "translation": "We are very sorry, but we are unable to meet that kind of request.",
-    "explanation": "〜かねる (polite: かねます) means 'cannot ~, be unable to ~ (for some reason, even if one would like to)'. It is a soft, polite way to refuse, used very often by shop staff and companies and in business emails (分かりかねます 'I'm afraid I can't say', お答えしかねます 'I'm unable to answer'). The clue is 申し訳ございませんが 'we're terribly sorry, but', which always introduces a polite refusal or bad news. Connection: verb ます-stem + かねる / かねます (お応えし + かねます). Watch out for this confusing pair: かねる (looks positive) = 'cannot', while かねない (looks negative) = 'might well (do something bad)'.",
+    "explanation": "〜かねる (polite: かねます) means 'cannot ~, be unable to ~ (for some reason, even if one would like to)'. It is a soft, polite way to refuse, used very often by shop staff and companies and in business emails (分かりかねます 'I'm afraid I can't say', お答えしかねます 'I'm unable to answer'). The clue is 申し訳ございませんが 'we're terribly sorry, but', which introduces something unwelcome for the listener (a refusal, bad news, or a request); followed by そのようなご要望には, it signals a polite refusal. Connection: verb ます-stem + かねる / かねます (お応えし + かねます). Watch out for this confusing pair: かねる (looks positive) = 'cannot', while かねない (looks negative) = 'might well (do something bad)'.",
     "choice_notes": [
       "Wrong. 〜かねません is the polite form of 〜かねない 'might well ~ (something bad)'. 'We might well meet your request' contradicts 申し訳ございませんが. Correct use: このままでは、大きな事故になりかねません。(If things stay like this, it could well turn into a major accident.)",
       "Correct. お応えしかねます = 'we are unable to respond to (your request)'. ます-stem + かねます, a polite refusal.",
@@ -1477,7 +1477,7 @@
       {
         "pattern": "〜に比べて",
         "meaning": "compared with ~",
-        "formation": "Noun / Verb dictionary form + の + に比べて",
+        "formation": "Noun + に比べて / Verb dictionary form + の + に比べて",
         "example": "去年{きょねん}に比{くら}べて、今年{ことし}は雪{ゆき}が少{すく}ない。",
         "example_translation": "Compared with last year, there is less snow this year."
       },
@@ -1707,7 +1707,7 @@
       {
         "word": "〜させていただけませんか",
         "reading": "させていただけませんか",
-        "meaning": "would you please allow me to ~ (very polite request for permission)",
+        "meaning": "would you please allow me to ~ (very polite request for permission); uses the causative て-form: godan verbs take 〜せて (帰る → 帰らせて, 休む → 休ませて), ichidan verbs take 〜させて (食べる → 食べさせて)",
         "pos": "expression",
         "example": "少{すこ}し休{やす}ませていただけませんか。",
         "example_translation": "Would you allow me to take a short rest?"

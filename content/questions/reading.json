@@ -559,7 +559,7 @@
       {
         "pattern": "〜いたします",
         "meaning": "humble form of する (the writer lowers himself to be polite)",
-        "formation": "お + Verb ます-stem + いたします / する-noun + いたします",
+        "formation": "お + Verb ます-stem + いたします (お願いいたします) / ご + する-noun + いたします (ご連絡いたします); する-noun + いたします without ご is also possible",
         "example": "結果{けっか}は後日{ごじつ}ご連絡{れんらく}いたします。",
         "example_translation": "We will contact you about the results at a later date."
       },
@@ -952,9 +952,9 @@
         "example_translation": "Because the train was delayed, I didn't make it to the meeting."
       },
       {
-        "pattern": "〜ていただけますと幸いです",
+        "pattern": "〜ていただけますと幸いです／お（ご）〜いただけますと幸いです",
         "meaning": "I would be grateful if you could ~ (polite business request)",
-        "formation": "Verb て-form + いただけますと幸いです",
+        "formation": "Verb て-form + いただけますと幸いです / お + Verb ます-stem + いただけますと幸いです (お知らせいただけますと) / ご + する-noun + いただけますと幸いです (ご確認いただけますと)",
         "example": "お手数{てすう}ですが、ご確認{かくにん}いただけますと幸{さいわ}いです。",
         "example_translation": "Sorry for the trouble, but I would be grateful if you could check it."
       },
@@ -1336,10 +1336,10 @@
       },
       {
         "pattern": "〜までに（は）",
-        "meaning": "by (the time) ~ (a deadline before which something happens)",
+        "meaning": "before ~, by the time ~ (marks the point up to which time passes; with 時間がかかる: it takes time before ~ happens)",
         "formation": "Verb dictionary form / Noun + までに（は）",
-        "example": "駅{えき}に着{つ}くまでには、雨{あめ}もやむだろう。",
-        "example_translation": "By the time we get to the station, the rain will probably have stopped."
+        "example": "新{あたら}しい駅{えき}が完成{かんせい}するまでには、まだ何年{なんねん}もかかる。",
+        "example_translation": "It will still take many years before the new station is finished."
       },
       {
         "pattern": "どうしても",
@@ -1744,8 +1744,8 @@
         "pattern": "〜くらいなら",
         "meaning": "if it is only (something as small as) ~",
         "formation": "Verb dictionary form / Noun + くらいなら",
-        "example": "簡単{かんたん}なあいさつくらいなら、私{わたし}にも話{はな}せる。",
-        "example_translation": "If it's just simple greetings, even I can speak."
+        "example": "簡単{かんたん}な英語{えいご}くらいなら、私{わたし}にも話{はな}せる。",
+        "example_translation": "If it's just simple English, even I can speak it."
       },
       {
         "pattern": "〜ということは",
@@ -2812,7 +2812,7 @@
     "id": "rd-015",
     "section": "reading",
     "passage": "スマートフォンの通知{つうち}を、ほとんどすべて切{き}ってみた。メッセージが届{とど}くたびに画面{がめん}を確認{かくにん}するのが習慣{しゅうかん}になっていて、一{ひと}つの作業{さぎょう}に集中{しゅうちゅう}できなくなっていたからだ。初{はじ}めの数日{すうじつ}は、大事{だいじ}な連絡{れんらく}を見逃{みのが}すのではないかと不安{ふあん}で、かえって何度{なんど}も画面{がめん}を開{ひら}いてしまった。しかし、一週間{いっしゅうかん}もすると、すぐに返事{へんじ}をしなくても困{こま}ることはほとんどないと分{わ}かってきた。今{いま}は、昼休{ひるやす}みと夜{よる}にまとめてメッセージを読{よ}むようにしている。おかげで、一{ひと}つのことにじっくり取{と}り組{く}めるようになり、[[時間{じかん}を取{と}り戻{もど}した]]ような気{き}がしている。",
-    "passage_translation": "I tried turning off almost all of my smartphone's notifications. It had become a habit to check the screen every time a message arrived, and I could no longer concentrate on a single task. For the first few days, I was anxious that I might miss an important message, and I actually ended up opening the screen even more often. But after a week or so, I came to realize that not replying right away hardly ever caused any problems. Now I try to read my messages all at once at lunchtime and in the evening. Thanks to this, I can now work on one thing calmly and thoroughly, and I feel as if I have got my time back.",
+    "passage_translation": "I tried turning off almost all of my smartphone's notifications. That was because it had become a habit to check the screen every time a message arrived, and I could no longer concentrate on a single task. For the first few days, I was anxious that I might miss an important message, and I actually ended up opening the screen even more often. But after a week or so, I came to realize that not replying right away hardly ever caused any problems. Now I try to read my messages all at once at lunchtime and in the evening. Thanks to this, I can now work on one thing calmly and thoroughly, and I feel as if I have got my time back.",
     "question": "筆者{ひっしゃ}が「時間{じかん}を取{と}り戻{もど}した」ように感{かん}じているのはなぜか。",
     "choices": [
       "通知{つうち}を切{き}ったことで、大事{だいじ}な連絡{れんらく}を見逃{みのが}さなくなったから。",
@@ -2974,7 +2974,7 @@
       },
       {
         "pattern": "〜もすると",
-        "meaning": "after as much as ~ (passes), once ~ has passed",
+        "meaning": "after about ~ (passes), once ~ or so has passed",
         "formation": "Time period + もすると",
         "example": "一{いっ}か月{げつ}もすると、新{あたら}しい仕事{しごと}にも慣{な}れるでしょう。",
         "example_translation": "After a month or so, you'll probably get used to the new job."
@@ -3213,7 +3213,7 @@
       {
         "pattern": "〜ほど",
         "meaning": "so much that ~ (degree)",
-        "formation": "Verb plain form + ほど + Noun / adjective",
+        "formation": "Verb plain form + ほど + verb / adjective; Verb plain form + ほどの + Noun (食べきれないほどの実)",
         "example": "泣{な}きたくなるほど疲{つか}れた。",
         "example_translation": "I was so tired I felt like crying."
       },
@@ -3431,7 +3431,7 @@
     "id": "rd-018",
     "section": "reading",
     "passage": "新入社員{しんにゅうしゃいん}の指導{しどう}を任{まか}されたとき、先輩{せんぱい}から一{ひと}つだけ助言{じょげん}をもらった。「教{おし}えるより先{さき}に、聞{き}きやすい空気{くうき}を作{つく}りなさい」というものだ。初{はじ}めはその意味{いみ}がよく分{わ}からなかった。しかし、実際{じっさい}に指導{しどう}してみると、新人{しんじん}は忙{いそが}しそうな先輩{せんぱい}に遠慮{えんりょ}して、分{わ}からないことを一人{ひとり}で抱{かか}え込{こ}んでしまうことが多{おお}かった。そこで、毎日{まいにち}夕方{ゆうがた}に五分{ごふん}だけ、どんな小{ちい}さなことでも質問{しつもん}できる時間{じかん}を設{もう}けることにした。[[これ]]を始{はじ}めてから、新人{しんじん}のミスは目{め}に見{み}えて減{へ}っていった。",
-    "passage_translation": "When I was put in charge of training new employees, a senior colleague gave me just one piece of advice: 'Before you teach, create an atmosphere where it is easy to ask questions.' At first I didn't really understand what that meant. But when I actually started training them, I found that the newcomers often held back out of consideration for their busy-looking seniors and kept the things they didn't understand to themselves. So I decided to set aside five minutes every evening during which they could ask about anything, however small. After I started this, the newcomers' mistakes decreased visibly.",
+    "passage_translation": "When I was put in charge of training new employees, a senior colleague gave me just one piece of advice: 'Before you teach, create an atmosphere where it is easy to ask questions.' At first I didn't really understand what that meant. But when I actually started training them, I found that the newcomers often held back out of consideration for their busy-looking seniors and kept the things they didn't understand to themselves. So I decided to set aside just five minutes every evening during which they could ask about anything, however small. After I started this, the newcomers' mistakes decreased visibly.",
     "question": "「これ」とは何{なに}か。",
     "choices": [
       "先輩{せんぱい}から、新人{しんじん}の指導{しどう}について助言{じょげん}をもらうこと",
@@ -3441,11 +3441,11 @@
     ],
     "answer": 1,
     "translation": "What does 'this' refer to? - Creating, at a fixed time every day, a place where the newcomers can ask questions freely.",
-    "explanation": "これを始めてから 'after I started this' tells us これ is something the writer STARTED doing. Look at the sentence just before: そこで、毎日夕方に五分だけ、どんな小さなことでも質問できる時間を設けることにした 'so I decided to set aside just five minutes every evening when they could ask anything, however small'. 設ける means 'to set up, to establish'. The correct answer restates this: 毎日決まった時間 = 毎日夕方に五分, and 気軽に質問できる場 = どんな小さなことでも質問できる時間. Check by substitution: '質問できる時間を作ることを始めてから、ミスは減っていった' makes sense. 先輩から助言をもらうこと happened before the training began and is not something the writer 'started'. 自分一人で解決すること and 先輩に遠慮すること describe the newcomers' problem (遠慮して…一人で抱え込んでしまう); they caused mistakes, so they could not be what reduced them.",
+    "explanation": "これを始めてから 'after I started this' tells us これ is something the writer STARTED doing. Look at the sentence just before: そこで、毎日夕方に五分だけ、どんな小さなことでも質問できる時間を設けることにした 'so I decided to set aside just five minutes every evening when they could ask anything, however small'. 設ける means 'to set up, to establish'. The correct answer restates this: 毎日決まった時間 = 毎日夕方に五分, and 気軽に質問できる場 = どんな小さなことでも質問できる時間. Check by substitution: '質問できる時間を作ることを始めてから、ミスは減っていった' makes sense. 先輩から助言をもらうこと happened before the training began and is not something the writer 'started'. 先輩に遠慮すること is the newcomers' problem itself (遠慮して…); it caused the mistakes, so it could not be what reduced them. 自分一人で解決すること twists the passage: the newcomers did not solve things on their own, they kept their questions to themselves without asking (一人で抱え込んでしまう 'end up carrying it all alone'). Both of these describe what the newcomers did, not something the writer started.",
     "choice_notes": [
       "Wrong. Getting advice happened once at the start; it is not the action that reduced mistakes.",
       "Correct. これ = 毎日夕方に五分だけ、どんな小さなことでも質問できる時間を設けること.",
-      "Wrong. Keeping problems to oneself (一人で抱え込んでしまう) was the problem, not the solution.",
+      "Wrong. The passage never says the newcomers solved things alone; they kept their questions to themselves without asking (一人で抱え込んでしまう), and that was the problem. It is also something the newcomers did, not something the writer started.",
       "Wrong. Holding back out of consideration (遠慮) is what made newcomers not ask questions. It is the cause of the problem."
     ],
     "vocab": [
@@ -4056,7 +4056,7 @@
     "translation": "Which matches the writer's opinion? - There are things you can understand deeply precisely because you have built up life experience.",
     "explanation": "The writer's opinion appears in the last part. First, from personal experience: 仕事や子育てを経験したからこそ、昔の人々の苦労や判断が身近に感じられるのだ 'precisely because I have experienced work and child-raising, the hardships and decisions of people long ago feel close to me'. Then the general conclusion: 年齢を重ねてこそ見えてくるものがあると思う 'I think there are things you only come to see by growing older'. Both 〜からこそ and 〜てこそ mean 'precisely because ~ / only by ~'. The correct answer, 人生の経験を積んだからこそ、深く理解できることがある, paraphrases this. 大人が大学で学ぶのは、主に仕事の資格を取るためだ misreads 資格を取るためだけでなく 'NOT ONLY to get qualifications'; the writer says many people have other reasons. 歴史を学ぶには、まず年号を覚えることが大切だ reverses the writer's view: memorizing dates was what made history boring. 学生のうちに、いろいろな分野に興味を持っておくべきだ is never stated; in fact the writer suggests that some interests come later in life.",
     "choice_notes": [
-      "Wrong. The passage says 資格を取るためだけでなく 'not only for qualifications', so qualifications are not the main reason.",
+      "Wrong. The passage says 資格を取るためだけでなく 'not only for qualifications': many people also want to relearn fields that did not interest them when young. Nothing says qualifications are the main reason.",
       "Wrong. The writer describes 年号を暗記するだけ 'just memorizing dates' as what made history boring at school.",
       "Wrong. Never stated. The writer's point is the opposite: some things become interesting only later in life.",
       "Correct. Matches 経験したからこそ…身近に感じられる and 年齢を重ねてこそ見えてくるものがある."
@@ -4434,7 +4434,7 @@
     "grammar": [
       {
         "pattern": "〜も珍しくない",
-        "meaning": "~ is no longer unusual, it's common for ~",
+        "meaning": "it's not unusual for ~, ~ is common (with 〜なくなった: ~ is no longer unusual)",
         "formation": "Noun + も珍しくない / Plain form + の + も珍しくない",
         "example": "最近{さいきん}は、七十代{ななじゅうだい}で働{はたら}く人{ひと}も珍{めずら}しくない。",
         "example_translation": "These days, it's not unusual for people in their seventies to work."
@@ -5132,7 +5132,7 @@
       {
         "word": "破れる",
         "reading": "やぶれる",
-        "meaning": "to tear, to rip",
+        "meaning": "to get torn, to tear, to rip (intransitive; transitive partner: 破る)",
         "pos": "ichidan verb",
         "example": "ズボンが破{やぶ}れてしまった。",
         "example_translation": "My pants got torn."
@@ -5746,7 +5746,7 @@
       "Wrong. The writer argues the opposite: others' lives only LOOK better because SNS shows special moments.",
       "Correct. 他人の一番輝いている瞬間と、自分の普段の姿を比べているのだから is the reason given.",
       "Wrong. Nothing says the photos are lies. They are real but special (特別な一場面).",
-      "Wrong. This sentence shows that everyone has dull days too; it is not the reason for feeling down."
+      "Wrong. The passage only says 誰にでも、疲れた日や退屈な日はあるはずだ (everyone has dull days too); it never says such days make people feel down, and it is not the reason given."
     ],
     "vocab": [
       {
@@ -7156,7 +7156,7 @@
     ],
     "answer": 3,
     "translation": "Which items must Kimura bring on the day? - An apron, a towel, a bag, and the participation fee.",
-    "explanation": "Go through the email and list everything the reader must bring. First, エプロンとタオルはご持参ください 'please bring an apron and towel' (持参 = bringing something with you). Next, 焼き上がったパンをお持ち帰りいただくための袋もお持ちください 'also bring a bag for taking home your bread'; the も 'also' adds it to the list. Finally, 参加費の2,000円は、当日受付でお支払いください 'pay the 2,000 yen on the day at reception', so the fee must be brought too. That gives エプロン、タオル、袋、参加費. The traps are items the organizers provide or things that are not physical items: 材料と道具はこちらで用意いたします 'WE will prepare the ingredients and tools' (こちら = the organizers), which rules out the choices containing パンの材料 and 調理の道具. As for アレルギーについての書類: allergies are to be reported by contacting the organizers before the day (前日までにご連絡ください), not by bringing a document.",
+    "explanation": "Go through the email and list everything the reader must bring. First, エプロンとタオルはご持参ください 'please bring an apron and towel' (持参 = bringing something with you). Next, 焼き上がったパンをお持ち帰りいただくための袋もお持ちください 'also bring a bag for taking home your bread'; the も 'also' adds it to the list. Finally, 参加費の2,000円は、当日受付でお支払いください 'pay the 2,000 yen on the day at reception', so the fee must be brought too. That gives エプロン、タオル、袋、参加費. The traps are items the organizers provide and an item the email never asks for. 材料と道具はこちらで用意いたします 'WE will prepare the ingredients and tools' (こちら = the organizers), which rules out the choices containing パンの材料 and 調理の道具. As for アレルギーについての書類: allergies are to be reported by contacting the organizers before the day (前日までにご連絡ください), not by bringing a document.",
     "choice_notes": [
       "Wrong. The ingredients (材料) are provided by the organizers: 材料と道具はこちらで用意いたします.",
       "Wrong. The cooking tools (道具) are also provided by the organizers, and the apron and bag are missing.",
@@ -7325,8 +7325,8 @@
         "pattern": "〜ための＋名詞",
         "meaning": "a ~ for (the purpose of) ~",
         "formation": "Verb dictionary form + ための + Noun",
-        "example": "これは雨{あめ}の日{ひ}に使{つか}うための靴{くつ}だ。",
-        "example_translation": "These are shoes for using on rainy days."
+        "example": "これは雨{あめ}の日{ひ}に履{は}くための靴{くつ}だ。",
+        "example_translation": "These are shoes for wearing on rainy days."
       },
       {
         "pattern": "また",

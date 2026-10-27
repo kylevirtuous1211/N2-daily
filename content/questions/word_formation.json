@@ -1566,7 +1566,7 @@
     "answer": 3,
     "full_sentence": "このスープは水{みず}っぽくて、あまり味{あじ}がしない。",
     "translation": "This soup is watery and doesn't have much flavor.",
-    "explanation": "〜っぽい turns a noun or verb stem into an い-adjective meaning '-ish, having a lot of ~, seeming like ~'. 水 'water' + っぽい = 水っぽい 'watery, thin (in taste)'. It is often slightly negative. Main uses: (1) feeling like or containing a lot of ~: 水っぽい 'watery', 白っぽい 'whitish', 安っぽい 'cheap-looking'; (2) easily doing ~ (after a verb stem): 忘れっぽい 'forgetful', 怒りっぽい 'short-tempered'; (3) like ~ although not actually ~: 子どもっぽい 'childish'. Because it is an い-adjective, its て-form is っぽくて.",
+    "explanation": "〜っぽい turns a noun, verb ます-stem or い-adjective stem into an い-adjective meaning '-ish, having a lot of ~, seeming like ~'. 水 'water' + っぽい = 水っぽい 'watery, thin (in taste)'. It is often slightly negative. Main uses: (1) feeling like or containing a lot of ~: 水っぽい 'watery', 白っぽい 'whitish', 安っぽい 'cheap-looking' (from 安い); (2) easily doing ~ (after a verb stem): 忘れっぽい 'forgetful', 怒りっぽい 'short-tempered'; (3) like ~ although not actually ~: 子どもっぽい 'childish'. Because it is an い-adjective, its て-form is っぽくて.",
     "choice_notes": [
       "Wrong. 〜がち 'tend to ~' is for repeated tendencies (休みがち 'often absent'). 水がち is not a word.",
       "Wrong. 〜気味 'slightly ~' is for mild states like 風邪気味 'a slight cold'. 水気味 is not a word.",
@@ -1671,7 +1671,7 @@
       },
       {
         "word": "ジョギング",
-        "reading": "じょぎんぐ",
+        "reading": "ジョギング",
         "meaning": "jogging",
         "pos": "noun / suru verb",
         "example": "健康{けんこう}のためにジョギングを始{はじ}めた。",

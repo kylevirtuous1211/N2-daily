@@ -95,7 +95,7 @@
       "Wrong. 攻める is a real word, but it is read せめる and means 'to attack'. It also appears in 攻撃（こうげき）'attack'.",
       "Wrong. 故 is read こ, as in 故障（こしょう）'breakdown' and 故郷（こきょう）'hometown'. 故める is not a word.",
       "Correct. 改める（あらためる）'to change, to revise, to correct'.",
-      "Wrong. 敗 means 'defeat' and is read やぶ(れる) in 敗れる 'to be defeated', or はい in 失敗（しっぱい）'failure'. 敗める is not a word."
+      "Wrong. 敗 means 'defeat' and is read やぶ(れる) in 敗れる 'to be defeated', or はい in 敗北（はいぼく）'defeat' (it changes to ぱい in 失敗（しっぱい）'failure'). 敗める is not a word."
     ],
     "vocab": [
       {
@@ -483,7 +483,7 @@
       "断る"
     ],
     "answer": 3,
-    "translation": "Turning down a friend's invitation always makes me feel uneasy.",
+    "translation": "Turning down a friend's invitation always weighs on me.",
     "explanation": "ことわる 'to refuse, to turn down' is written 断る with only る as okurigana. 断 means 'to cut off, to decide', as in 判断（はんだん）'judgment' and 横断（おうだん）'crossing'. Refusing is like cutting off a request, which helps you remember it. 継 looks very similar to 断 (both contain 米-like parts), and 拒 and 絶 have related meanings ('refuse', 'cut off'), but their verbs are 継ぐ, 拒む and 絶つ, not ～る.",
     "choice_notes": [
       "Wrong. 継 is read つ(ぐ) in 継ぐ 'to inherit, to succeed to', as in 家業を継ぐ 'to take over the family business'. 継る is not a word.",
@@ -514,7 +514,7 @@
         "meaning": "to feel reluctant, to feel heavy-hearted",
         "pos": "expression",
         "example": "明日{あした}の発表{はっぴょう}のことを考{かんが}えると気{き}が重{おも}い。",
-        "example_translation": "Thinking about tomorrow's presentation makes me feel depressed."
+        "example_translation": "Thinking about tomorrow's presentation makes me feel heavy-hearted."
       },
       {
         "word": "継ぐ",
@@ -1237,7 +1237,7 @@
       {
         "pattern": "〜ため（に）(reason)",
         "meaning": "because of ~, due to ~ (formal)",
-        "formation": "Plain form / noun + の + ため",
+        "formation": "Verb / い-adjective plain form + ため (中断した → 中断したため); な-adjective stem + な + ため (静か → 静かなため); noun + の + ため (大雪 → 大雪のため). In the past tense, な-adjectives and nouns take だった + ため (静かだったため, 雨だったため)",
         "example": "大雪{おおゆき}のため、電車{でんしゃ}が止{と}まった。",
         "example_translation": "The trains stopped due to heavy snow."
       },
@@ -2096,7 +2096,7 @@
     ],
     "answer": 1,
     "translation": "Many people wish from the bottom of their hearts for world peace.",
-    "explanation": "のぞむ has two kanji. 望む means 'to hope for, to wish for' (平和を望む), as in 希望（きぼう）'hope' and 望遠鏡（ぼうえんきょう）'telescope'. 臨む means 'to face, to take part in (an important event)' (試合に臨む 'to face a match', 海に臨むホテル 'a hotel facing the sea'). Here the object is 平和 'peace' marked by を and the meaning is 'wish for', so 望む is correct. Tip: 臨む usually takes に, while 望む takes を. 忘 and 妄 contain 亡 like 望, so they look similar but are unrelated.",
+    "explanation": "のぞむ has two kanji. 望む means 'to hope for, to wish for' (平和を望む), as in 希望（きぼう）'hope'. 望 can also mean 'to gaze into the distance', which is why it appears in 望遠鏡（ぼうえんきょう）'telescope'. 臨む means 'to face, to take part in (an important event)' (試合に臨む 'to face a match', 海に臨むホテル 'a hotel facing the sea'). Here the object is 平和 'peace' marked by を and the meaning is 'wish for', so 望む is correct. Tip: 臨む usually takes に, while 望む takes を. 忘 and 妄 contain 亡 like 望, so they look similar but are unrelated.",
     "choice_notes": [
       "Wrong. 臨む（のぞむ）is a real homophone meaning 'to face, to attend': 本番に臨む 'to face the real performance'. It takes に, not を, and does not mean 'wish for'.",
       "Correct. 望む（のぞむ）'to wish for, to hope for, to desire'.",
@@ -3027,7 +3027,7 @@
     "translation": "I am saving a little money every month for the future.",
     "explanation": "たくわえる 'to save, to store up' is written 蓄える, with only える as okurigana. 蓄 has the grass radical 艹 on top of 畜, originally meaning storing up crops. It also appears in 貯蓄（ちょちく）'savings' and 蓄積（ちくせき）'accumulation'. 畜 is 蓄 without the grass radical, and it means 'livestock' (家畜 かちく). 築 is also read ちく but means 'to build' (築く きずく). 蓄わえる adds an extra わ.",
     "choice_notes": [
-      "Wrong. 畜 is 蓄 without the grass radical 艹. It means 'livestock', as in 家畜（かちく）'domestic animals'. 畜える is not a word.",
+      "Wrong. 畜 is 蓄 without the grass radical 艹. In modern Japanese it is used for 'livestock', as in 家畜（かちく）'domestic animals'. The standard way to write たくわえる is 蓄える, not 畜える.",
       "Correct. 蓄える（たくわえる）'to save, to store up'.",
       "Wrong. The kanji is right, but the okurigana is wrong. The て-form is 蓄えて, not 蓄わえて.",
       "Wrong. 築 is read ちく like 蓄, but it means 'to build', as in 築く（きずく）'to build' and 建築（けんちく）'architecture'. 築える is not a word."

@@ -259,7 +259,7 @@
     "answer": 1,
     "full_sentence": "こんなにたくさんの宿題{しゅくだい}、一晩{ひとばん}でなんか終{お}わりっこないよ。",
     "translation": "There's no way I can finish this much homework in a single night.",
-    "explanation": "〜っこない is a casual, spoken way to say 'there's no way ~, ~ is impossible'. It is the conversational version of 〜わけがない / 〜はずがない. The clues are こんなにたくさん 'this much' and 〜なんか, which the speaker uses to dismiss something as unrealistic ('in one night? no way'). The sentence-final よ also fits casual speech. Connection: verb ます-stem + っこない (終わります → 終わり + っこない). It is used mostly with verbs of possibility such as できる (できっこない), わかる (わかりっこない), 勝てる (勝てっこない), and 終わる. Because two choices look almost the same, this question also tests the connection rule.",
+    "explanation": "〜っこない is a casual, spoken way to say 'there's no way ~, ~ is impossible'. It is the conversational version of 〜わけがない / 〜はずがない. The clues are こんなにたくさん 'this much' and 〜なんか, which the speaker uses to dismiss something as unrealistic ('in one night? no way'). The sentence-final よ also fits casual speech. Connection: verb ます-stem + っこない (終わります → 終わり + っこない). It is used mostly with potential or ability verbs such as できる (できっこない), わかる (わかりっこない) and 勝てる (勝てっこない), but it also works with other verbs like 終わる when the meaning is 'it can't possibly happen' (終わりっこない 'it can't possibly get finished'). Because two choices look almost the same, this question also tests the connection rule.",
     "choice_notes": [
       "Wrong. This is a connection error. っこない attaches to the ます-stem, not to the dictionary form: 終わる → 終わり + っこない. 終わるっこない does not exist. Compare: できっこない, わかりっこない.",
       "Correct. 終わりっこない 'it can't possibly be finished'. ます-stem 終わり + っこない. A casual, strong denial of possibility.",
@@ -606,7 +606,7 @@
         "meaning": "to the extent of ~, almost ~ (also ぐらい)",
         "pos": "particle",
         "example": "泣{な}きたいくらい悔{くや}しかった。",
-        "example_translation": "I was so frustrated I almost wanted to cry."
+        "example_translation": "I was frustrated to the point of wanting to cry."
       },
       {
         "word": "暖かい",

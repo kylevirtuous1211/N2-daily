@@ -310,7 +310,7 @@
     ],
     "answer": 1,
     "full_sentence": "大学{だいがく}を卒業{そつぎょう}したものの希望{きぼう}する仕事{しごと}がなかなか見{み}つからない。",
-    "translation": "Although I graduated from university, I can't find the kind of job I want.",
+    "translation": "Although I graduated from university, I just can't find the kind of job I want.",
     "explanation": "The fixed text 大学を ends with を, so a verb must come next; 大学を卒業した（そつぎょうした）'graduated from university' is the natural combination. The N2 pattern 〜ものの 'although ~' attaches to a plain-form verb, so 卒業したものの follows. The second half describes the disappointing reality. The fixed ending なかなか見つからない 'just can't be found' needs a subject with が: 仕事が（しごとが）'a job'. 希望する（きぼうする）'to hope for' goes in front of 仕事 as a relative clause: 希望する仕事 'the job I hope for'. Order: 卒業した → ものの → 希望する → 仕事が. The ★ is the 3rd slot: 希望する.",
     "choice_notes": [
       "卒業した goes in slot 1. The fixed text 大学を ends in を, so a verb must come next. 大学を卒業した 'graduated from university' is the natural combination.",
@@ -1173,7 +1173,7 @@
         "meaning": "is merely ~, is nothing more than ~ (stresses that something is small or unimportant)",
         "formation": "Noun / plain form + にすぎない",
         "example": "これは私{わたし}の想像{そうぞう}にすぎない。",
-        "example_translation": "This is merely my imagination."
+        "example_translation": "This is nothing more than my guess."
       }
     ]
   },
@@ -1697,29 +1697,29 @@
   {
     "id": "so-024",
     "section": "sentence_order",
-    "question": "薬{くすり}を飲{の}んだのに、 {{1}} {{2}} {{3}} {{4}} 。",
+    "question": "薬{くすり}を飲{の}んだのに、熱{ねつ}が {{1}} {{2}} {{3}} {{4}} 。",
     "choices": [
       "どころか",
-      "熱{ねつ}が",
-      "かえって上{あ}がってしまった",
+      "かえって",
+      "上{あ}がってしまった",
       "下{さ}がる"
     ],
-    "star": 1,
+    "star": 2,
     "correct_order": [
-      1,
       3,
       0,
+      1,
       2
     ],
-    "answer": 1,
+    "answer": 0,
     "full_sentence": "薬{くすり}を飲{の}んだのに、熱{ねつ}が下{さ}がるどころかかえって上{あ}がってしまった。",
     "translation": "Even though I took medicine, far from going down, my fever actually went up.",
-    "explanation": "The N2 pattern 〜どころか 'far from ~ (the reality is the opposite)' attaches to a plain-form verb and is followed by a result in the opposite direction. The verb in front of it is 下がる（さがる）'to go down', whose subject is 熱が（ねつが）'the fever': 熱が下がるどころか 'far from the fever going down'. The opposite result, かえって上がってしまった（かえってあがってしまった）'it actually went up', comes last and ends the sentence. かえって 'on the contrary' is a word that often appears after どころか. Order: 熱が → 下がる → どころか → かえって上がってしまった. The ★ is the 1st slot: 熱が.",
+    "explanation": "The N2 pattern 〜どころか 'far from ~ (the reality is the opposite)' attaches to a plain-form verb and is followed by a result in the opposite direction. The fixed text 熱が（ねつが）'the fever' needs a verb, and 下がる（さがる）'to go down' fits: 熱が下がる. どころか attaches to it: 熱が下がるどころか 'far from the fever going down'. The opposite result 上がってしまった（あがってしまった）'(it) went up' ends the sentence, so it takes the last slot. かえって 'on the contrary' is an adverb that often appears after どころか and modifies the opposite result: かえって上がってしまった 'it actually went up'. It cannot go before 下がる, because the fever going down was what you expected, not a surprise. Order: 下がる → どころか → かえって → 上がってしまった. The ★ is the 2nd slot: どころか.",
     "choice_notes": [
-      "どころか goes in slot 3. どころか follows the plain form: 下がるどころか 'far from going down'.",
-      "Correct. 熱が is in slot 1, the ★ position. 熱が 'the fever' is the subject of 下がる, so it starts the clause.",
-      "かえって上がってしまった goes in slot 4. After どころか comes the opposite result. かえって上がってしまった 'it actually went up' ends the sentence.",
-      "下がる goes in slot 2. 下がる 'go down' is the plain-form verb that どころか attaches to."
+      "Correct. どころか is in slot 2, the ★ position. どころか follows the plain form: 下がるどころか 'far from going down', and the opposite result comes after it.",
+      "かえって goes in slot 3. かえって 'on the contrary' modifies the opposite result: かえって上がってしまった 'it actually went up'. It often comes right after どころか.",
+      "上がってしまった goes in slot 4. After どころか comes the opposite result, and 上がってしまった 'it went up' ends the sentence.",
+      "下がる goes in slot 1. The fixed 熱が 'the fever' is its subject: 熱が下がる 'the fever goes down'. 下がる is the plain-form verb that どころか attaches to."
     ],
     "vocab": [
       {

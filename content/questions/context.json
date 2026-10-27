@@ -282,8 +282,8 @@
     ],
     "answer": 1,
     "full_sentence": "この山{やま}は道{みち}がとても険{けわ}しいので、頂上{ちょうじょう}まで登{のぼ}るのに五時間{ごじかん}以上{いじょう}かかる。",
-    "translation": "The trail on this mountain is very steep, so it takes more than five hours to climb to the summit.",
-    "explanation": "The result clause says it takes more than five hours to reach the summit, so the path must be hard to climb. 険しい（けわしい）describes a mountain or path that is steep and rugged. It is also used for faces and situations: 険しい表情 'a stern, grim expression', 険しい道のり 'a hard road (to success)'. Remember the difference: 険しい is for physical steepness or a harsh look, while 厳しい（きびしい）is for strict people, strict rules, and severe weather.",
+    "translation": "The trail on this mountain is very steep, so it takes five hours or more to climb to the summit.",
+    "explanation": "The result clause says it takes five hours or more to reach the summit, so the path must be hard to climb. 険しい（けわしい）describes a mountain or path that is steep and rugged. It is also used for faces and situations: 険しい表情 'a stern, grim expression', 険しい道のり 'a hard road (to success)'. Remember the difference: 険しい is for physical steepness or a harsh look, while 厳しい（きびしい）is for strict people, strict rules, and severe weather.",
     "choice_notes": [
       "Wrong. 激しい（はげしい）means 'violent, intense, fierce'. Correct usage: 激しい雨 'heavy rain', 激しい競争 'fierce competition'. A path is not described as 激しい.",
       "Correct. 険しい（けわしい）'steep, rugged (mountain or path)'; also 'stern (expression)'.",
@@ -342,7 +342,7 @@
       {
         "word": "以上",
         "reading": "いじょう",
-        "meaning": "or more, more than",
+        "meaning": "or more, not less than (the number itself is included)",
         "pos": "noun",
         "example": "この仕事{しごと}には三年{さんねん}以上{いじょう}の経験{けいけん}が必要{ひつよう}だ。",
         "example_translation": "This job requires three or more years of experience."
@@ -449,7 +449,7 @@
     ],
     "answer": 3,
     "full_sentence": "面接{めんせつ}では、自分{じぶん}の長所{ちょうしょ}をしっかりアピールすることが大切{たいせつ}だ。",
-    "translation": "In a job interview, it is important to clearly present your strengths.",
+    "translation": "In a job interview, it is important to properly showcase your strengths.",
     "explanation": "The setting is a job interview (面接) and the object is 自分の長所 'your own strong points'. In an interview you have to show your strengths to the interviewer, so the answer is アピール. It comes from English 'appeal', but in Japanese アピールする mostly means 'to actively present, promote, or sell something (or yourself) to others'. Common uses: 自己アピール 'self-promotion, a self-PR statement', 魅力をアピールする 'to show off one's appeal', 商品をアピールする 'to promote a product'.",
     "choice_notes": [
       "Wrong. リサイクル means 'recycling'. Correct usage: ペットボトルをリサイクルする 'to recycle plastic bottles'. You cannot recycle your strong points.",
@@ -759,7 +759,7 @@
       {
         "pattern": "〜ように (purpose)",
         "meaning": "so that ~, so as not to ~",
-        "formation": "Verb dictionary form (usually a non-volitional verb such as なる, わかる, 見える) / ない-form / potential form + ように (when the same person deliberately does an action for a goal, use 〜ために instead)",
+        "formation": "Non-volitional verb dictionary form (なる, わかる, 見える, etc.) / potential form / ない-form + ように. ように is also used when the purpose clause has a different subject from the main clause. If the purpose clause has a positive volitional verb with the same subject (買う, 行く, etc.), use 〜ために instead: 車を買うために貯金する.",
         "example": "忘{わす}れないように、メモしておこう。",
         "example_translation": "Let's write it down so we don't forget."
       }
@@ -1690,7 +1690,7 @@
         "meaning": "to protect; to keep (a promise or rule)",
         "pos": "godan verb",
         "example": "ヘルメットをかぶって頭{あたま}を守{まも}る。",
-        "example_translation": "Wear a helmet to protect your head."
+        "example_translation": "You put on a helmet to protect your head."
       }
     ],
     "grammar": [
@@ -3065,7 +3065,7 @@
     ],
     "answer": 3,
     "full_sentence": "店{みせ}は毎日{まいにち}忙{いそが}しいのに人手{ひとで}が足{た}りなくて、店長{てんちょう}は困{こま}っている。",
-    "translation": "The shop is busy every day, but it doesn't have enough staff, so the manager is in trouble.",
+    "translation": "The shop is busy every day, but it doesn't have enough staff, so the manager is having a hard time.",
     "explanation": "The shop is busy every day (毎日忙しい), but something is 足りない 'not enough'. In a busy shop, what is lacking is workers. 人手（ひとで）means 'workers, hands, manpower'. The set phrases are 人手が足りない 'to be short-handed' and 人手不足 'a labor shortage', which is a common topic in Japanese news. Other uses: 人手を集める 'to gather helpers', 人手がいる 'to need extra hands'.",
     "choice_notes": [
       "Wrong. 人目（ひとめ）means 'other people's eyes, public attention'. Correct usage: 人目を気にする 'to worry about what others think'. It cannot be 'not enough' in a shop.",
@@ -3128,7 +3128,7 @@
         "meaning": "to be in trouble, to be at a loss",
         "pos": "godan verb",
         "example": "道{みち}が分{わ}からなくて困{こま}った。",
-        "example_translation": "I was in trouble because I didn't know the way."
+        "example_translation": "I didn't know the way and was at a loss."
       }
     ],
     "grammar": [
@@ -3839,7 +3839,7 @@
     "answer": 2,
     "full_sentence": "午後{ごご}から雨{あめ}の勢{いきお}いが強{つよ}くなってきたので、試合{しあい}は中止{ちゅうし}になった。",
     "translation": "The rain grew heavier from the afternoon, so the match was called off.",
-    "explanation": "The subject is 雨 'rain' and the predicate is 強くなってきた 'has become stronger'. The word for the force or intensity of rain, water, fire, or wind is 勢い（いきおい）'force, vigor, momentum'. Common collocations: 雨の勢い 'how hard the rain is falling', 火の勢い 'the strength of a fire', 勢いがある 'to have momentum', 勢いよく 'vigorously' (勢いよくドアを開ける 'to fling a door open'). It can also describe people or companies on the rise: 勢いのある会社 'a company with momentum'.",
+    "explanation": "The blank is a noun that belongs to 雨 'rain' (雨の＿＿) and is the subject of 強くなってきた 'has become stronger'. The word for the force or intensity of rain, water, fire, or wind is 勢い（いきおい）'force, vigor, momentum'. Common collocations: 雨の勢い 'how hard the rain is falling', 火の勢い 'the strength of a fire', 勢いがある 'to have momentum', 勢いよく 'vigorously' (勢いよくドアを開ける 'to fling a door open'). It can also describe people or companies on the rise: 勢いのある会社 'a company with momentum'.",
     "choice_notes": [
       "Wrong. 調子（ちょうし）means 'condition, how something is going, tone'. Correct usage: 体の調子がいい 'I'm in good shape', 機械の調子が悪い 'the machine isn't working well'. 雨の調子 is not used.",
       "Wrong. 具合（ぐあい）means 'condition, health, state'. Correct usage: 具合が悪い 'to feel sick'. 具合が強くなる is not an expression.",
@@ -4338,8 +4338,8 @@
         "pattern": "〜のが大変だ",
         "meaning": "doing ~ is hard (の turns a verb into a noun)",
         "formation": "Verb dictionary form + のが + adjective",
-        "example": "朝{あさ}早{はや}く起{お}きるのが苦手{にがて}だ。",
-        "example_translation": "I'm bad at getting up early."
+        "example": "毎朝{まいあさ}早{はや}く起{お}きるのが大変{たいへん}だ。",
+        "example_translation": "Getting up early every morning is hard."
       }
     ]
   },
