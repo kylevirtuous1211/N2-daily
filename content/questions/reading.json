@@ -13,7 +13,7 @@
     ],
     "answer": 1,
     "translation": "Which matches the writer's opinion? - Going to a shop is good because you make unexpected discoveries.",
-    "explanation": "The passage turns at しかし. Before it, the writer admits that online grocery delivery is useful (忙しい人にとっては、ありがたいサービスだろう). After it comes the writer's own position: 私はできるだけ自分で店に足を運ぶようにしている 'I try to go to the shops in person as much as I can'. The reason follows: in a shop 今どんなものが旬なのかが分かるし、予定になかった料理を思いつくこともある 'I can tell what is in season, and I sometimes think of a dish I hadn't planned', whereas online そうした偶然の出会いはなかなか起こらない 'such chance encounters rarely happen'. 偶然の出会い 'chance encounters' is paraphrased in choice 2 as 思いがけない発見 'unexpected discoveries'. The last sentence ends in 〜のではないだろうか 'isn't it that ~?'; this is not a real question but a soft way for the writer to state an opinion: something is lost in exchange for convenience. Traps: choice 1 contradicts ありがたいサービス; choice 3 reverses 早く見つけることはできても 'you CAN find things quickly'; choice 4 takes the word 旬 from the passage and adds an idea (price) that is never mentioned.",
+    "explanation": "The passage turns at しかし. Before it, the writer admits that online grocery delivery is useful (忙しい人にとっては、ありがたいサービスだろう). After it comes the writer's own position: 私はできるだけ自分で店に足を運ぶようにしている 'I try to go to the shops in person as much as I can'. The reason follows: in a shop 今どんなものが旬なのかが分かるし、予定になかった料理を思いつくこともある 'I can tell what is in season, and I sometimes think of a dish I hadn't planned', whereas online そうした偶然の出会いはなかなか起こらない 'such chance encounters rarely happen'. 偶然の出会い 'chance encounters' is paraphrased in the correct answer as 思いがけない発見 'unexpected discoveries'. The last sentence ends in 〜のではないだろうか 'isn't it that ~?'; this is not a real question but a soft way for the writer to state an opinion: something is lost in exchange for convenience. Traps: 忙しい人にも勧められない contradicts ありがたいサービス; 欲しい物を見つけるのに時間がかかる reverses 早く見つけることはできても 'you CAN find things quickly'; 旬の野菜は、店で買ったほうが安い takes the word 旬 from the passage and adds an idea (price) that is never mentioned.",
     "choice_notes": [
       "Wrong. The opposite of the passage: the writer calls online delivery ありがたいサービス 'a welcome service' for busy people. The writer only says that he/she personally prefers shops.",
       "Correct. Learning what is in season and thinking of an unplanned dish are the 偶然の出会い 'chance encounters' of shopping in person = 思いがけない発見 'unexpected discoveries'.",
@@ -223,7 +223,7 @@
     ],
     "answer": 2,
     "translation": "What does 'that' refer to? - Participants reading the materials in advance before gathering for the meeting.",
-    "explanation": "A demonstrative like それ almost always points back to the sentence just before it. That sentence is: 今の職場では、全員が事前に資料に目を通してから集まるため、会議が始まるとすぐに意見を出し合うことができる 'at my current workplace everyone looks through the materials in advance before gathering, so we can exchange opinions as soon as the meeting starts'. Then それによって 'because of that / thanks to that' introduces the result: meetings became half as long. So それ = everyone reading the materials beforehand. 事前に目を通す 'look through in advance' is paraphrased as 前もって資料を読む in choice 3. Check by substitution: '参加者が前もって資料を読んでから会議に集まること によって、会議の時間は半分ほどになった' makes perfect sense. Choices 1 and 2 describe the PREVIOUS company, the situation that made meetings slow, so they could not shorten the meetings. Choice 4 is the result that comes after それによって; something cannot be the cause of itself.",
+    "explanation": "A demonstrative like それ almost always points back to the sentence just before it. That sentence is: 今の職場では、全員が事前に資料に目を通してから集まるため、会議が始まるとすぐに意見を出し合うことができる 'at my current workplace everyone looks through the materials in advance before gathering, so we can exchange opinions as soon as the meeting starts'. Then それによって 'because of that / thanks to that' introduces the result: meetings became half as long. So それ = everyone reading the materials beforehand. 事前に目を通す 'look through in advance' is paraphrased in the correct answer as 前もって資料を読む. Check by substitution: '参加者が前もって資料を読んでから会議に集まること によって、会議の時間は半分ほどになった' makes perfect sense. 会議の場で、初めて資料の説明を聞くこと and 会議の内容を理解するだけで精一杯なこと both describe the PREVIOUS company, the situation that made meetings slow, so they could not shorten the meetings. 会議の時間が、以前の半分ほどになること is the result that comes after それによって; something cannot be the cause of itself.",
     "choice_notes": [
       "Wrong. This was the practice at the previous company (前の会社では). It made meetings inefficient, so it cannot be what made them shorter.",
       "Wrong. This also describes the previous company. It is a problem, not the cause of the improvement.",
@@ -411,7 +411,7 @@
     ],
     "answer": 0,
     "translation": "What must a resident who has read this notice do? - If the water is cloudy after the inspection, let it run until it becomes clear before using it.",
-    "explanation": "In a notice, look for the sentences that ask the reader to do something: 〜てください, ご〜ください, お願いします. Apart from the general ご協力をお願いいたします 'we ask for your cooperation', the only concrete instruction is in the first ※ note: 濁った水が出ることがあります。その場合は、水が透明になるまで数分間流してからご使用ください 'cloudy water may come out; in that case, let it run for a few minutes until it is clear, then use it'. ご使用ください is the polite form of 使ってください. Choice 1 says exactly this. Choice 2: the notice never asks residents to contact the office. Choice 3: storing water in advance might be sensible, but the notice does not ask for it; in JLPT reading, never add your own common sense. Choice 4 is the opposite of the second ※ note: 当日ご不在でも特別な手続きは必要ありません 'even if you are out, no special procedure is needed'.",
+    "explanation": "In a notice, look for the sentences that ask the reader to do something: 〜てください, ご〜ください, お願いします. Apart from the general ご協力をお願いいたします 'we ask for your cooperation', the only concrete instruction is in the first ※ note: 濁った水が出ることがあります。その場合は、水が透明になるまで数分間流してからご使用ください 'cloudy water may come out; in that case, let it run for a few minutes until it is clear, then use it'. ご使用ください is the polite form of 使ってください. The correct answer, 水が濁っていたら、透明になるまで流してから使う, says exactly this. 管理事務所に確認してから水を使う: the notice never asks residents to contact the office. 必要な量の水をためておく: storing water in advance might be sensible, but the notice does not ask for it; in JLPT reading, never add your own common sense. 前もって管理事務所に届け出る is the opposite of the second ※ note: 当日ご不在でも特別な手続きは必要ありません 'even if you are out, no special procedure is needed'.",
     "choice_notes": [
       "Correct. 濁った水が出た場合は、透明になるまで流してからご使用ください is the one instruction residents must follow.",
       "Wrong. Contacting the management office is never mentioned. The end time (15時) is already given in the notice.",
@@ -607,7 +607,7 @@
     ],
     "answer": 3,
     "translation": "Why does the writer not use a map app on days off? - Because when you walk while getting lost, the town stays well in your memory.",
-    "explanation": "The writer compares two ways of walking. With the app: 迷わずに目的地に着ける 'you get there without getting lost', but 画面ばかり見て歩いていると…どんな道を通ったのかほとんど思い出せない 'if you only look at the screen, you can hardly remember which streets you took'. Without the app (一方 'on the other hand'): 迷いながら歩いた道は、不思議なほどよく記憶に残っている 'streets walked while getting lost stay in memory surprisingly well'. The last sentence gives the writer's value: その町を自分の体で覚えることのほうが、私には大切なのである. So the reason is choice 4. Watch the traps: choice 1 contradicts the passage, which says the app gets you there without getting lost (so it is accurate); choice 2 may be true in real life, but safety is never mentioned; choice 3 twists the comparison: the writer says arriving quickly is LESS important, not that it makes the holiday boring.",
+    "explanation": "The writer compares two ways of walking. With the app: 迷わずに目的地に着ける 'you get there without getting lost', but 画面ばかり見て歩いていると…どんな道を通ったのかほとんど思い出せない 'if you only look at the screen, you can hardly remember which streets you took'. Without the app (一方 'on the other hand'): 迷いながら歩いた道は、不思議なほどよく記憶に残っている 'streets walked while getting lost stay in memory surprisingly well'. The last sentence gives the writer's value: その町を自分の体で覚えることのほうが、私には大切なのである. So the reason is 迷いながら歩くと、町のことがよく記憶に残るから. Watch the traps: アプリの案内は、間違っていることが多い contradicts the passage, which says the app gets you there without getting lost (so it is accurate); 画面を見ながら歩くのは、危ない may be true in real life, but safety is never mentioned; 早く着きすぎると、休日がつまらなくなる twists the comparison: the writer says arriving quickly is LESS important, not that it makes the holiday boring.",
     "choice_notes": [
       "Wrong. The passage implies the app works well: アプリに従えば、迷わずに目的地に着ける.",
       "Wrong. Safety is never mentioned. This is common sense, not the writer's reason.",
@@ -816,7 +816,7 @@
     ],
     "answer": 1,
     "translation": "What must Tanaka, who read this email, do? - Tell Yamamoto by Friday which suits him/her better, the afternoon of the 18th or the morning of the 19th.",
-    "explanation": "In business emails, the request to the reader is usually marked by very polite phrases such as 〜ていただけないでしょうか 'could you ~?' or 〜ていただけますと幸いです 'I would be grateful if you could ~'. The request to Tanaka is: この中からご都合のよい日時を、今週の金曜日までにお知らせいただけますと幸いです 'please let me know by this Friday which of these times suits you'. この中 'among these' refers to the two options just mentioned: 18日（水）の午後 or 19日（木）の午前. So choice 2 is what Tanaka must do. Choice 1 reverses the roles: 前日までに私からお送りします means the writer, Yamamoto, will send the materials (お送りします is humble language for the writer's own action). Choice 3: Takahashi's schedule is already known (高橋の都合がよいのは…); it is Tanaka's availability that is needed. Choice 4: the 17th is exactly the date that Yamamoto wants to change. Business note: Yamamoto writes 部長の高橋 with no さん because when you talk to someone outside your company, you refer to your own boss humbly, without honorifics.",
+    "explanation": "In business emails, the request to the reader is usually marked by very polite phrases such as 〜ていただけないでしょうか 'could you ~?' or 〜ていただけますと幸いです 'I would be grateful if you could ~'. The request to Tanaka is: この中からご都合のよい日時を、今週の金曜日までにお知らせいただけますと幸いです 'please let me know by this Friday which of these times suits you'. この中 'among these' refers to the two options just mentioned: 18日（水）の午後 or 19日（木）の午前. So 18日の午後か19日の午前のうち、都合のよいほうを金曜日までに伝える is what Tanaka must do. 打ち合わせで使う資料を、前日までに山本さんに送る reverses the roles: 前日までに私からお送りします means the writer, Yamamoto, will send the materials (お送りします is humble language for the writer's own action). 高橋部長が打ち合わせに参加できるかどうかを、金曜日までに確認する is wrong because Takahashi's schedule is already known (高橋の都合がよいのは…); it is Tanaka's availability that is needed. 予定どおり、17日の14時に打ち合わせに行く is wrong because the 17th is exactly the date that Yamamoto wants to change. Business note: Yamamoto writes 部長の高橋 with no さん because when you talk to someone outside your company, you refer to your own boss humbly, without honorifics.",
     "choice_notes": [
       "Wrong. Roles are reversed: 私からお送りします means Yamamoto (the writer) will send the materials to Tanaka.",
       "Correct. The email asks Tanaka to choose one of the two options and reply by Friday (金曜日までにお知らせいただけますと幸いです).",
@@ -978,7 +978,7 @@
     "id": "rd-006",
     "section": "reading",
     "passage": "子{こ}どもが失敗{しっぱい}しそうになると、つい手{て}を出{だ}してしまう親{おや}は多{おお}い。宿題{しゅくだい}の間違{まちが}いをすぐに直{なお}してあげたり、忘{わす}れ物{もの}を学校{がっこう}まで届{とど}けたりするのも、子{こ}どもを思{おも}う気持{きも}ちからだろう。だが、小{ちい}さな失敗{しっぱい}を経験{けいけん}しないまま大人{おとな}になると、大{おお}きな問題{もんだい}にぶつかったときに、どうすればいいのか分{わ}からなくなってしまう。忘{わす}れ物{もの}をして困{こま}った子{こ}どもは、次{つぎ}からは前{まえ}の晩{ばん}に自分{じぶん}で準備{じゅんび}をするようになるかもしれない。失敗{しっぱい}から学{まな}ぶ機会{きかい}を奪{うば}わないことも、親{おや}の大切{たいせつ}な役割{やくわり}ではないだろうか。",
-    "passage_translation": "Many parents can't help stepping in when their child is about to fail. Correcting mistakes in their homework right away or bringing things they forgot to school probably comes from caring about the child. However, if a child grows up without experiencing small failures, then when they run into a big problem as an adult, they won't know what to do. A child who forgot something and got into trouble may start getting ready by themselves the night before from then on. Isn't not taking away the chance to learn from failure also an important role for parents?",
+    "passage_translation": "Many parents can't help stepping in when their child is about to fail. Correcting mistakes in their homework right away or bringing things they forgot to school probably comes from caring about the child. However, if a child grows up without experiencing small failures, then when they run into a big problem as an adult, they won't know what to do. A child who forgot something and had a hard time because of it may, from then on, start getting ready by themselves the night before. Isn't not taking away the chance to learn from failure also an important role for parents?",
     "question": "筆者{ひっしゃ}の考{かんが}えに最{もっと}も近{ちか}いものはどれか。",
     "choices": [
       "親{おや}が手{て}を出{だ}すのは、子{こ}どものことを大切{たいせつ}に思{おも}っていないからだ。",
@@ -988,7 +988,7 @@
     ],
     "answer": 3,
     "translation": "Which is closest to the writer's opinion? - There is value in children experiencing small failures.",
-    "explanation": "The passage first describes what many parents do (つい手を出してしまう 'can't help stepping in') and admits it comes from love: 子どもを思う気持ちからだろう. Then だが 'however' introduces the writer's view: 小さな失敗を経験しないまま大人になると…どうすればいいのか分からなくなってしまう 'if they become adults without experiencing small failures, they won't know what to do'. The example of the forgotten item shows that failure teaches (次からは前の晩に自分で準備をするようになる). The conclusion is the last sentence: 失敗から学ぶ機会を奪わないことも、親の大切な役割ではないだろうか. 〜ではないだろうか is the writer's opinion stated softly. So small failures have value: choice 4. Choice 1 contradicts 子どもを思う気持ちから. Choice 2 is the parents' behavior the writer questions. Choice 3 picks up the 忘れ物 example and the word 役割, but the writer's point is about learning from failure, not about never forgetting things.",
+    "explanation": "The passage first describes what many parents do (つい手を出してしまう 'can't help stepping in') and admits it comes from love: 子どもを思う気持ちからだろう. Then だが 'however' introduces the writer's view: 小さな失敗を経験しないまま大人になると…どうすればいいのか分からなくなってしまう 'if they become adults without experiencing small failures, they won't know what to do'. The example of the forgotten item shows that failure teaches (次からは前の晩に自分で準備をするようになる). The conclusion is the last sentence: 失敗から学ぶ機会を奪わないことも、親の大切な役割ではないだろうか. 〜ではないだろうか is the writer's opinion stated softly. So small failures have value: 子どもが小さな失敗を経験することには、意味がある. The choice saying parents step in because they 大切に思っていない contradicts 子どもを思う気持ちから. The choice saying parents should help as much as possible (できるだけ手伝うべきだ) is the parents' behavior the writer questions. The choice about raising a child who doesn't forget things (忘れ物をしない子どもに育てる) picks up the 忘れ物 example and the word 役割, but the writer's point is about learning from failure, not about never forgetting things.",
     "choice_notes": [
       "Wrong. The opposite: the writer says stepping in comes from caring about the child (子どもを思う気持ちからだろう).",
       "Wrong. This is the habit the writer questions with だが. The writer wants parents NOT to take away chances to fail.",
@@ -1133,8 +1133,8 @@
       },
       {
         "pattern": "〜からだろう",
-        "meaning": "it is probably because ~",
-        "formation": "Plain form / Noun + から + だろう",
+        "meaning": "it is probably because ~; it probably comes from ~",
+        "formation": "Plain form + から + だろう (Noun / な-adjective + だからだろう); Noun + から + だろう = 'probably comes from ~' (気持ちからだろう)",
         "example": "彼{かれ}が元気{げんき}がないのは、疲{つか}れているからだろう。",
         "example_translation": "He's probably down because he's tired."
       },
@@ -1182,7 +1182,7 @@
     ],
     "answer": 0,
     "translation": "What kind of relationship is a 'relationship where you can see each other's faces'? - A relationship in which you know in everyday life how your neighbors live.",
-    "explanation": "When the passage introduces a phrase like this, the explanation usually follows right after it. The next sentences list what you should know: 隣にどんな人が住んでいて、家族は何人か、一人で歩くのが難しいお年寄りはいないか 'who lives next door, how many people are in the family, whether there are elderly people who can't walk alone'. Then: 普段からそうしたことを知っていれば… 'if you know such things in everyday life…'. So 顔の見える関係 means knowing your neighbors' circumstances in daily life: choice 1. 顔の見える is a set expression meaning 'personal, where you actually know the other person', not about literally seeing faces. Choice 2 brings in the rescue professionals, but the passage says neighbors must help each other BEFORE the professionals arrive. Choice 3 goes too far: the writer only asks for 日頃のあいさつ 'everyday greetings', not close friendship. Choice 4 takes 顔 literally (photos of faces), which is a typical trap.",
+    "explanation": "When the passage introduces a phrase like this, the explanation usually follows right after it. The next sentences list what you should know: 隣にどんな人が住んでいて、家族は何人か、一人で歩くのが難しいお年寄りはいないか 'who lives next door, how many people are in the family, whether there are elderly people who can't walk alone'. Then: 普段からそうしたことを知っていれば… 'if you know such things in everyday life…'. So 顔の見える関係 means knowing your neighbors' circumstances in daily life: 近所の人がどんな暮らしをしているか、普段から知っている関係. 顔の見える is a set expression meaning 'personal, where you actually know the other person', not about literally seeing faces. The choice about contacting rescue professionals (救助の専門家とすぐに連絡が取れる) brings in the professionals, but the passage says neighbors must help each other BEFORE the professionals arrive. The choice about being close enough to go out together (一緒に出かけるほど親しい) goes too far: the writer only asks for 日頃のあいさつ 'everyday greetings', not close friendship. The choice about a 名簿 with photos and names takes 顔 literally (photos of faces), which is a typical trap.",
     "choice_notes": [
       "Correct. It matches 隣にどんな人が住んでいて…普段からそうしたことを知っていれば.",
       "Wrong. The point is about neighbors, who help each other before the professionals (救助の専門家) arrive.",
@@ -1392,7 +1392,7 @@
     ],
     "answer": 2,
     "translation": "Which matches the content of this notice? - CDs due during the closure are not considered late even if they are returned after the library reopens.",
-    "explanation": "Check each choice against each bullet point. The second bullet says CDs and DVDs must NOT go in the box (ポストには入れず) and should be brought to the counter after reopening (開館後にカウンターへお持ちください), and この場合、返却の遅れとはみなしません 'in this case it is not regarded as a late return'. みなす means 'to regard as, to treat as'. So choice 3 is correct: 遅れたことにならない 'it does not count as being late' is a paraphrase of 遅れとはみなしません. Choice 1: reservations are accepted, but 貸し出しは開館後となります 'lending will be after reopening', so you cannot borrow during the closure. Choice 2 is exactly what the second bullet forbids. Choice 4: books CAN be returned during the closure, through the return box (返却ポストにお返しください).",
+    "explanation": "Check each choice against each bullet point. The second bullet says CDs and DVDs must NOT go in the box (ポストには入れず) and should be brought to the counter after reopening (開館後にカウンターへお持ちください), and この場合、返却の遅れとはみなしません 'in this case it is not regarded as a late return'. みなす means 'to regard as, to treat as'. So the CD choice is correct: 開館後に返しても遅れたことにならない 'it does not count as being late even if returned after reopening' is a paraphrase of 遅れとはみなしません. The choice about borrowing reserved books during the closure is wrong: reservations are accepted, but 貸し出しは開館後となります 'lending will be after reopening', so you cannot borrow during the closure. Putting DVDs in the return box (返却ポストに入れればよい) is exactly what the second bullet forbids. The choice saying books cannot be returned during the closure (返すことができない) is wrong: books CAN be returned during the closure, through the return box (返却ポストにお返しください).",
     "choice_notes": [
       "Wrong. You can reserve online, but 貸し出しは開館後となります: you can only borrow after the library reopens.",
       "Wrong. DVDs must not go in the box: CD・DVDは…ポストには入れず.",
@@ -1595,7 +1595,7 @@
     ],
     "answer": 2,
     "translation": "What does the writer most want to say? - Learning a foreign language leads to building trust with other people.",
-    "explanation": "This passage uses a very common N2 structure: 確かに A。しかし B 'Certainly A. However, B.' The writer first concedes A (for simple travel tasks 機械で十分だろう 'a machine is probably enough'), and then states the real opinion B after しかし. The main point is in the last sentence: 相手の文化に近づこうとするその努力こそが、人と人との信頼を生むのだと私は思う 'it is precisely the effort to approach the other person's culture that creates trust'. 〜こそ 'precisely ~' and 〜と私は思う both mark the writer's key claim. Choice 3 paraphrases 信頼を生む as 信頼を築くことにつながる. Choice 1 is the concession: it agrees with the passage partly, but it is not what the writer MOST wants to say; this is the most common trap in 筆者の主張 questions. Choice 2 is never said; the writer actually admits the software is good enough for simple tasks. Choice 4 contradicts 単に単語を別の単語に置き換えることではない 'it is not simply replacing words'.",
+    "explanation": "This passage uses a very common N2 structure: 確かに A。しかし B 'Certainly A. However, B.' The writer first concedes A (for simple travel tasks 機械で十分だろう 'a machine is probably enough'), and then states the real opinion B after しかし. The main point is in the last sentence: 相手の文化に近づこうとするその努力こそが、人と人との信頼を生むのだと私は思う 'it is precisely the effort to approach the other person's culture that creates trust'. 〜こそ 'precisely ~' and 〜と私は思う both mark the writer's key claim. 外国語を学ぶことは、相手との信頼を築くことにつながる paraphrases 信頼を生む as 信頼を築くことにつながる. 旅行のときは、翻訳ソフトを使えば十分だ is the concession: it agrees with the passage partly, but it is not what the writer MOST wants to say; this is the most common trap in 筆者の主張 questions. まだ十分とは言えない 'the software is not good enough yet' is never said; the writer actually admits the software is good enough for simple tasks. まず単語をたくさん覚えることが大切だ contradicts 単に単語を別の単語に置き換えることではない 'it is not simply replacing words'.",
     "choice_notes": [
       "Wrong (trap). The writer concedes this with 確かに, but the main point comes after しかし. A concession is not the main point.",
       "Wrong. The writer never criticizes the software's quality; it is called good enough for simple travel situations.",
@@ -1805,7 +1805,7 @@
     ],
     "answer": 1,
     "translation": "What started the writer cutting down on clothes? - Noticing, while preparing to move, that there were many clothes he/she had not worn.",
-    "explanation": "きっかけ means 'trigger, the thing that started something'. The passage states it directly: きっかけは引っ越しだった 'the trigger was a move'. The next sentence explains what happened: 荷物をまとめていると、一度も着ていない服が何枚も出てきたのだ 'while packing, many clothes I had never worn turned up'. 荷物をまとめる 'pack one's things' = 引っ越しの準備をする, so choice 2 is correct. Be careful with order (cause vs. result): choice 1, spending less time choosing clothes in the morning, is a RESULT that came after reducing clothes (迷う時間も減った), not the trigger. Choice 3 is directly denied: おしゃれを楽しむ気持ちがなくなったわけではない 'it is not that I lost the wish to enjoy fashion'. Choice 4: the clothes were bought only because they were cheap, but the writer never says cheap clothes become unwearable quickly.",
+    "explanation": "きっかけ means 'trigger, the thing that started something'. The passage states it directly: きっかけは引っ越しだった 'the trigger was a move'. The next sentence explains what happened: 荷物をまとめていると、一度も着ていない服が何枚も出てきたのだ 'while packing, many clothes I had never worn turned up'. 荷物をまとめる 'pack one's things' = 引っ越しの準備をする, so 引っ越しの準備をしていて、着ていない服が多いと気づいたこと is correct. Be careful with order (cause vs. result): the choice about taking time every morning to choose clothes (着る服を選ぶのに時間がかかっていた) is wrong, because the passage mentions morning time only as a RESULT that came after reducing clothes (迷う時間も減った), not as the trigger. おしゃれを楽しむ気持ちがなくなったこと is directly denied: おしゃれを楽しむ気持ちがなくなったわけではない 'it is not that I lost the wish to enjoy fashion'. The choice about cheap clothes (安い服は、すぐに着られなくなる): the clothes were bought only because they were cheap, but the writer never says cheap clothes become unwearable quickly.",
     "choice_notes": [
       "Wrong. This is a result of having fewer clothes (迷う時間も減った), not what started it.",
       "Correct. きっかけは引っ越しだった: while packing (荷物をまとめていると) the writer found many never-worn clothes.",
@@ -2006,7 +2006,7 @@
     ],
     "answer": 3,
     "translation": "What does 'that way' (そう) refer to? - That things became easier because there was no need to commute.",
-    "explanation": "そう感じていた means 'I felt so / I felt that way', so そう must point back to a feeling or opinion mentioned BEFORE it. The sentence just before is: 在宅勤務が広がり、通勤の時間がなくなって楽になったという声をよく聞く 'I often hear people say it has become easier since there is no commuting time'. 私も 'I too' confirms that the writer shared this same opinion at first. So そう = 通勤の時間がなくなって楽になった, which is choice 4. Note the time words: 初めは 'at first' → ところが、半年ほどたつと 'however, after about half a year'. Choices 1, 2, and 3 all describe what the writer noticed LATER, after ところが. They come after そう, and they are the opposite of the feeling the writer had at first.",
+    "explanation": "そう感じていた means 'I felt so / I felt that way', so そう must point back to a feeling or opinion mentioned BEFORE it. The sentence just before is: 在宅勤務が広がり、通勤の時間がなくなって楽になったという声をよく聞く 'I often hear people say it has become easier since there is no commuting time'. 私も 'I too' confirms that the writer shared this same opinion at first. So そう = 通勤の時間がなくなって楽になった, which is restated as 通勤しなくてよくなって、楽になった. Note the time words: 初めは 'at first' → ところが、半年ほどたつと 'however, after about half a year'. The other choices (区切りがつかなくなった, 休日にも仕事をしてしまう, and 通勤は…大切な時間だ) all describe what the writer noticed LATER, after ところが. They come after そう, so そう cannot point to them, and they are the opposite of the easy feeling the writer had at first.",
     "choice_notes": [
       "Wrong. This is the problem the writer noticed later (ところが、半年ほどたつと…), not the first feeling.",
       "Wrong. This is the writer's later realization (考えてみれば…). It is the opposite of the early feeling.",
@@ -2192,7 +2192,7 @@
     ],
     "answer": 0,
     "translation": "According to the writer, what role does the mobile sales truck play for its users, apart from shopping? - It has become a place to meet neighbors and talk.",
-    "explanation": "The question asks about a role OTHER than shopping (買い物のほかに). The passage signals this with ただ、利用者が楽しみにしているのは、買い物だけではない 'however, shopping is not the only thing users look forward to'. The answer comes next: 販売車の周りには自然と人が集まり、互いの近況を話し合う場になっているのだ 'people naturally gather around the truck, and it has become a place to talk about how everyone is doing', and for people living alone it is 誰かと言葉を交わす貴重な機会 'a precious chance to exchange words with someone'. Choice 1 summarizes this. Choice 2: prices are never compared. Choice 3 is the opposite: the truck comes TO the villages (集落を回る), so people do not need to go to town. Choice 4 twists 場 'place': it is a place for talking, not for selling one's own vegetables.",
+    "explanation": "The question asks about a role OTHER than shopping (買い物のほかに). The passage signals this with ただ、利用者が楽しみにしているのは、買い物だけではない 'however, shopping is not the only thing users look forward to'. The answer comes next: 販売車の周りには自然と人が集まり、互いの近況を話し合う場になっているのだ 'people naturally gather around the truck, and it has become a place to talk about how everyone is doing', and for people living alone it is 誰かと言葉を交わす貴重な機会 'a precious chance to exchange words with someone'. 近所の人と会って話をする場 summarizes this. 町のスーパーより安く: prices are never compared. 町まで出かけるきっかけ is the opposite: the truck comes TO the villages (集落を回る), so people do not need to go to town. 野菜を売って、収入を得る場 twists 場 'place': it is a place for talking, not for selling one's own vegetables.",
     "choice_notes": [
       "Correct. 互いの近況を話し合う場 and 誰かと言葉を交わす貴重な機会 = a place to meet and talk with neighbors.",
       "Wrong. The passage never compares prices with town supermarkets.",
@@ -2341,7 +2341,7 @@
       {
         "pattern": "〜ようになる",
         "meaning": "to come to ~, to begin to ~ (a change of state)",
-        "formation": "Verb dictionary form / ない-form (なく) + ようになる",
+        "formation": "Verb dictionary form / potential form + ようになる (negative: Verb ない-form + ようになる, or more commonly 〜なくなる)",
         "example": "引{ひ}っ越{こ}してから、よく眠{ねむ}れるようになった。",
         "example_translation": "Since I moved, I've been able to sleep well."
       },
@@ -2417,7 +2417,7 @@
     ],
     "answer": 1,
     "translation": "What must an employee who is away on a business trip on both the 18th and the 19th do? - Consult the General Affairs Section and get examined at the designated hospital.",
-    "explanation": "In 'what should this person do' questions about notices, first identify which condition the person matches. This employee cannot come on either day (18日も19日も…いない). The matching bullet is the last one: 両日とも都合がつかない方は、総務課にご相談ください 'those for whom neither day is convenient, please consult General Affairs'. 両日とも = 'both days' and 都合がつかない = 'cannot make it'. The next sentence says what happens then: 指定の病院で個別に受診していただきます 'you will be examined individually at a designated hospital'. So choice 2. Choice 1 is the instruction for employees who CAN come on one of the two days. Choice 3 is a trap: the hospital is 指定の 'designated (by the company)', not one you choose yourself. Choice 4: the checkup is only held on the 18th and 19th; there is no checkup in the conference room on another day.",
+    "explanation": "In 'what should this person do' questions about notices, first identify which condition the person matches. This employee cannot come on either day (18日も19日も…いない). The matching bullet is the last one: 両日とも都合がつかない方は、総務課にご相談ください 'those for whom neither day is convenient, please consult General Affairs'. 両日とも = 'both days' and 都合がつかない = 'cannot make it'. The next sentence says what happens then: 指定の病院で個別に受診していただきます 'you will be examined individually at a designated hospital'. So the answer is 総務課に相談して、指定された病院で受診する. Registering the date in the system by the 11th is the instruction for employees who CAN come on one of the two days. 自分で病院を選んで is a trap: the hospital is 指定の 'designated (by the company)', not one you choose yourself. Going to the 大会議室 on the day you return is also wrong: the checkup is only held on the 18th and 19th; there is no checkup in the conference room on another day.",
     "choice_notes": [
       "Wrong. Registering a date in the system is for people who can attend on the 18th or 19th.",
       "Correct. 両日とも都合がつかない方は、総務課にご相談ください, and then 指定の病院で個別に受診.",
@@ -2620,7 +2620,7 @@
     ],
     "answer": 0,
     "translation": "Which matches the writer's opinion? - Saying you don't understand also benefits the whole class.",
-    "explanation": "The writer (a teacher) argues against students' fear of asking. The conclusion is in the final sentence, marked by 〜のである: わからないと口に出すことは、恥ずかしいことではなく、教室全体の学びに貢献することなのである 'saying you don't understand is not shameful; it contributes to the learning of the whole class'. The sentence before supports it: 一人が質問すれば、同じところでつまずいていた他の学生も助かる 'if one person asks, the others stuck at the same point are helped too'. Choice 1 paraphrases 教室全体の学びに貢献する as クラス全体のためにもなる. Choice 2 misreads the second sentence: students fear being THOUGHT less capable (思われるのが怖い); the writer never says less capable students ask less. Choice 3 twists 気づかされ 'I am made to realize': the teacher realizes thanks to the student's question, not on his/her own. Choice 4 is the opposite of the writer's view that a question helps the other students.",
+    "explanation": "The writer (a teacher) argues against students' fear of asking. The conclusion is in the final sentence, marked by 〜のである: わからないと口に出すことは、恥ずかしいことではなく、教室全体の学びに貢献することなのである 'saying you don't understand is not shameful; it contributes to the learning of the whole class'. The sentence before supports it: 一人が質問すれば、同じところでつまずいていた他の学生も助かる 'if one person asks, the others stuck at the same point are helped too'. The correct choice paraphrases 教室全体の学びに貢献する as クラス全体のためにもなる. 能力の低い学生ほど…質問をしない misreads the second sentence: students fear being THOUGHT less capable (思われるのが怖い); the writer never says less capable students ask less. 教師は…自分で気づくべきだ twists 気づかされ 'I am made to realize': the teacher realizes thanks to the student's question, not on his/her own. 授業の後でするべきだ is the opposite of the writer's view that a question in class helps the other students.",
     "choice_notes": [
       "Correct. Matches 教室全体の学びに貢献する and 他の学生も助かる.",
       "Wrong. The passage is about the fear of being seen as less capable (能力が低いと思われるのが怖い), not about actual ability.",
@@ -2822,7 +2822,7 @@
     ],
     "answer": 3,
     "translation": "Why does the writer feel that he/she has 'got time back'? - Because he/she can now concentrate on tasks without being interrupted by notifications.",
-    "explanation": "The underlined phrase is in the last sentence, which begins with おかげで 'thanks to this': おかげで、一つのことにじっくり取り組めるようになり、時間を取り戻したような気がしている. So the feeling comes from being able to work on one thing thoroughly. Connect this with the second sentence, which gave the original problem: 一つの作業に集中できなくなっていた 'I could no longer concentrate on a single task' because of checking the screen at every message. After turning notifications off and reading messages at set times, the problem is solved. Choice 4 combines both parts. Choice 1: the writer worried about missing messages at first, but the point is that late replies hardly matter, not that he/she now misses fewer messages. Choice 2 is the opposite: the writer now replies LATER, at lunchtime and in the evening. Choice 3 takes 時間を取り戻した literally; lunch breaks did not get longer.",
+    "explanation": "The underlined phrase is in the last sentence, which begins with おかげで 'thanks to this': おかげで、一つのことにじっくり取り組めるようになり、時間を取り戻したような気がしている. So the feeling comes from being able to work on one thing thoroughly. Connect this with the second sentence, which gave the original problem: 一つの作業に集中できなくなっていた 'I could no longer concentrate on a single task' because of checking the screen at every message. After turning notifications off and reading messages at set times, the problem is solved. 通知に邪魔されずに、作業に集中できるようになった combines both parts. 大事な連絡を見逃さなくなった: the writer worried about missing messages at first, but the point is that late replies hardly matter, not that he/she now misses fewer messages. 前よりも早く返事ができる is the opposite: the writer now replies LATER, at lunchtime and in the evening. 昼休みが長くなり takes 時間を取り戻した literally; lunch breaks did not get longer.",
     "choice_notes": [
       "Wrong. Missing messages was only an early worry (見逃すのではないかと不安). Turning off notifications did not make the writer miss fewer messages.",
       "Wrong. The opposite: the writer now reads and replies in batches, so replies are slower.",
@@ -3023,7 +3023,7 @@
     ],
     "answer": 2,
     "translation": "Which matches the content of this passage? - By changing how he/she watered the plants, the writer was able to harvest a lot of fruit.",
-    "explanation": "For 'true statement' questions, check each choice against the passage one by one. The key sentence is: 今年は、土の表面が乾いてから水をやるようにしたところ、夏には食べきれないほどの実がなった 'this year I began watering after the soil surface dried, and in summer the plants bore more fruit than I could eat'. 〜たところ means 'when I did ~, (the result was) ~'. Watering daily → watering only when the soil is dry is a change in how the plants were watered, and 食べきれないほどの実 'more fruit than one can eat' = たくさんの実. So choice 3 is correct. Choice 1 contradicts 最初の年は…ほとんど実がならなかった. Choice 2 is the writer's mistaken belief (思い込んでいた 'had wrongly assumed'); the passage shows the opposite. Choice 4: the writer only says the lesson may also apply to people (同じかもしれない); nothing is said about which is more difficult.",
+    "explanation": "For 'true statement' questions, check each choice against the passage one by one. The key sentence is: 今年は、土の表面が乾いてから水をやるようにしたところ、夏には食べきれないほどの実がなった 'this year I began watering after the soil surface dried, and in summer the plants bore more fruit than I could eat'. 〜たところ means 'when I did ~, (the result was) ~'. Watering daily → watering only when the soil is dry is a change in how the plants were watered, and 食べきれないほどの実 'more fruit than one can eat' = たくさんの実. So 水のやり方を変えたことで、たくさんの実を収穫できた is correct. 最初の年から、トマトをたくさん収穫できた contradicts 最初の年は…ほとんど実がならなかった. 毎日たっぷり水をやったほうがよく育つ is the writer's mistaken belief (思い込んでいた 'had wrongly assumed'); the passage shows the opposite. 人間関係より植物を育てるほうが難しい: the writer only says the lesson may also apply to people (同じかもしれない); nothing is said about which is more difficult.",
     "choice_notes": [
       "Wrong. In the first year the plants bore almost no fruit (ほとんど実がならなかった).",
       "Wrong. This was the writer's mistaken assumption (思い込んでいた). Too much water rotted the roots.",
@@ -3247,7 +3247,7 @@
     ],
     "answer": 3,
     "translation": "Which matches the writer's opinion? - Young people not owning cars is a decision that suits their surroundings.",
-    "explanation": "The passage follows a classic pattern: (1) the common view, (2) だが、本当にそうだろうか 'but is that really true?', (3) the writer's own view. The common view is 物を欲しがらなくなったからだと説明されることが多い 'it is often explained as young people no longer wanting things'. The rhetorical question 本当にそうだろうか signals that the writer disagrees. The writer then lists features of the city environment (convenient trains, expensive parking, car-rental services) and concludes: そうした環境で車を持たないのは、むしろ合理的な判断だと言える 'in such an environment, not owning a car is actually a rational decision'. Choice 4 paraphrases this as 周りの環境に合わせた判断 'a decision suited to the surroundings'. Choice 1 is exactly the common view the writer rejects. Choice 2: the writer mentions rental services as a fact but never says there should be more. Choice 3: income is never mentioned.",
+    "explanation": "The passage follows a classic pattern: (1) the common view, (2) だが、本当にそうだろうか 'but is that really true?', (3) the writer's own view. The common view is 物を欲しがらなくなったからだと説明されることが多い 'it is often explained as young people no longer wanting things'. The rhetorical question 本当にそうだろうか signals that the writer disagrees. The writer then lists features of the city environment (convenient trains, expensive parking, car-rental services) and concludes: そうした環境で車を持たないのは、むしろ合理的な判断だと言える 'in such an environment, not owning a car is actually a rational decision'. The correct answer paraphrases this as 周りの環境に合わせた判断 'a decision suited to the surroundings'. 物を欲しがらなくなったので、車を買わなくなった is exactly the common view the writer rejects. 車を借りられるサービスをもっと増やすべきだ: the writer mentions rental services as a fact but never says there should be more. 収入が少ないからだ: income is never mentioned.",
     "choice_notes": [
       "Wrong (trap). This is the common explanation (〜と説明されることが多い) that the writer questions with だが、本当にそうだろうか.",
       "Wrong. Rental services are only given as a fact about the environment; the writer makes no proposal about them.",
@@ -3441,7 +3441,7 @@
     ],
     "answer": 1,
     "translation": "What does 'this' refer to? - Creating, at a fixed time every day, a place where the newcomers can ask questions freely.",
-    "explanation": "これを始めてから 'after I started this' tells us これ is something the writer STARTED doing. Look at the sentence just before: そこで、毎日夕方に五分だけ、どんな小さなことでも質問できる時間を設けることにした 'so I decided to set aside just five minutes every evening when they could ask anything, however small'. 設ける means 'to set up, to establish'. Choice 2 restates this: 毎日決まった時間 = 毎日夕方に五分, and 気軽に質問できる場 = どんな小さなことでも質問できる時間. Check by substitution: '質問できる時間を作ることを始めてから、ミスは減っていった' makes sense. Choice 1 happened before the training began and is not something the writer 'started'. Choices 3 and 4 describe the newcomers' problem (遠慮して…一人で抱え込んでしまう); they caused mistakes, so they could not be what reduced them.",
+    "explanation": "これを始めてから 'after I started this' tells us これ is something the writer STARTED doing. Look at the sentence just before: そこで、毎日夕方に五分だけ、どんな小さなことでも質問できる時間を設けることにした 'so I decided to set aside just five minutes every evening when they could ask anything, however small'. 設ける means 'to set up, to establish'. The correct answer restates this: 毎日決まった時間 = 毎日夕方に五分, and 気軽に質問できる場 = どんな小さなことでも質問できる時間. Check by substitution: '質問できる時間を作ることを始めてから、ミスは減っていった' makes sense. 先輩から助言をもらうこと happened before the training began and is not something the writer 'started'. 自分一人で解決すること and 先輩に遠慮すること describe the newcomers' problem (遠慮して…一人で抱え込んでしまう); they caused mistakes, so they could not be what reduced them.",
     "choice_notes": [
       "Wrong. Getting advice happened once at the start; it is not the action that reduced mistakes.",
       "Correct. これ = 毎日夕方に五分だけ、どんな小さなことでも質問できる時間を設けること.",
@@ -3642,7 +3642,7 @@
     ],
     "answer": 2,
     "translation": "What must people who want to join the clean-up do? - Apply to their group leader by the 15th, and on the day go in clothes that can get dirty.",
-    "explanation": "Collect all the instructions aimed at participants (〜ください): (1) 汚れてもよい服装でお越しください 'come in clothes that may get dirty' (お越しください is the respectful form of 来てください); (2) 11月15日（日）までに各班の班長にお申し込みください 'apply to your group leader by the 15th'; (3) children must come with a guardian. Choice 3 combines (1) and (2), so it is correct. Choice 1 mixes up two pieces of information: 7 a.m. on the day is when a CANCELLATION would be announced on the website; applications go to the group leader. Choice 2 is the opposite of ごみ袋と軍手は自治会で用意します 'the association will provide bags and gloves'. Choice 4: children may NOT take part alone; 必ず保護者の方と一緒に 'always together with a guardian'.",
+    "explanation": "Collect all the instructions aimed at participants (〜ください): (1) 汚れてもよい服装でお越しください 'come in clothes that may get dirty' (お越しください is the respectful form of 来てください); (2) 11月15日（日）までに各班の班長にお申し込みください 'apply to your group leader by the 15th'; (3) children must come with a guardian. 15日までに班長に申し込み、当日は汚れてもいい服で行く combines (1) and (2), so it is correct. 当日の朝7時までに、ホームページから参加を申し込む mixes up two pieces of information: 7 a.m. on the day is when a CANCELLATION would be announced on the website; applications go to the group leader. ごみ袋と軍手を自分で用意して is the opposite of ごみ袋と軍手は自治会で用意します 'the association will provide bags and gloves'. 子どもだけで参加させる場合は…: children may NOT take part alone; 必ず保護者の方と一緒に 'always together with a guardian'.",
     "choice_notes": [
       "Wrong. 7 a.m. on the day is when a cancellation is announced. Applications go to the group leader by the 15th.",
       "Wrong. The association provides the bags and gloves (自治会で用意します).",
@@ -3853,7 +3853,7 @@
     ],
     "answer": 0,
     "translation": "Why does the writer keep using a paper planner? - Because he/she can see a whole week's schedule together.",
-    "explanation": "The reason is given with the structure 〜のは…からだ 'the reason ~ is that…': それでも紙を手放せないのは、一週間の予定を一度に見渡せるからだ 'the reason I still can't let go of paper is that I can survey a week's schedule at once'. 見渡す means 'to look out over, to survey the whole'; 一度に見渡せる is paraphrased in choice 1 as まとめて見ることができる 'can see all together'. The following sentences support it (ひと目で分かる 'you can tell at a glance'; on a phone 全体の流れはつかみにくい 'the overall flow is hard to grasp'). Choice 2 is the opposite: スマートフォンのほうがずっと速い. Choice 3: the writer buys a planner every year, but never says choosing one is enjoyable. Choice 4 is also the opposite: on a phone その日の予定は確認できても 'you CAN check that day's schedule'; what is difficult is seeing the whole.",
+    "explanation": "The reason is given with the structure 〜のは…からだ 'the reason ~ is that…': それでも紙を手放せないのは、一週間の予定を一度に見渡せるからだ 'the reason I still can't let go of paper is that I can survey a week's schedule at once'. 見渡す means 'to look out over, to survey the whole'; 一度に見渡せる is paraphrased in the correct answer as まとめて見ることができる 'can see all together'. The following sentences support it (ひと目で分かる 'you can tell at a glance'; on a phone 全体の流れはつかみにくい 'the overall flow is hard to grasp'). 予定を書き込むのが、スマートフォンより速い is the opposite: スマートフォンのほうがずっと速い. 毎年新しい手帳を選ぶのが楽しみ: the writer buys a planner every year, but never says choosing one is enjoyable. スマートフォンでは、その日の予定が確認しにくい is also the opposite: on a phone その日の予定は確認できても 'you CAN check that day's schedule'; what is difficult is seeing the whole.",
     "choice_notes": [
       "Correct. 一週間の予定を一度に見渡せるから = 一週間の予定をまとめて見ることができるから.",
       "Wrong. The opposite: entering appointments is much faster on a smartphone (スマートフォンのほうがずっと速い).",
@@ -4054,7 +4054,7 @@
     ],
     "answer": 3,
     "translation": "Which matches the writer's opinion? - There are things you can understand deeply precisely because you have built up life experience.",
-    "explanation": "The writer's opinion appears in the last part. First, from personal experience: 仕事や子育てを経験したからこそ、昔の人々の苦労や判断が身近に感じられるのだ 'precisely because I have experienced work and child-raising, the hardships and decisions of people long ago feel close to me'. Then the general conclusion: 年齢を重ねてこそ見えてくるものがあると思う 'I think there are things you only come to see by growing older'. Both 〜からこそ and 〜てこそ mean 'precisely because ~ / only by ~'. Choice 4 paraphrases this: 経験を積んだからこそ、深く理解できることがある. Choice 1 misreads 資格を取るためだけでなく 'NOT ONLY to get qualifications'; the writer says many people have other reasons. Choice 2 reverses the writer's view: memorizing dates was what made history boring. Choice 3 is never stated; in fact the writer suggests that some interests come later in life.",
+    "explanation": "The writer's opinion appears in the last part. First, from personal experience: 仕事や子育てを経験したからこそ、昔の人々の苦労や判断が身近に感じられるのだ 'precisely because I have experienced work and child-raising, the hardships and decisions of people long ago feel close to me'. Then the general conclusion: 年齢を重ねてこそ見えてくるものがあると思う 'I think there are things you only come to see by growing older'. Both 〜からこそ and 〜てこそ mean 'precisely because ~ / only by ~'. The correct answer, 人生の経験を積んだからこそ、深く理解できることがある, paraphrases this. 大人が大学で学ぶのは、主に仕事の資格を取るためだ misreads 資格を取るためだけでなく 'NOT ONLY to get qualifications'; the writer says many people have other reasons. 歴史を学ぶには、まず年号を覚えることが大切だ reverses the writer's view: memorizing dates was what made history boring. 学生のうちに、いろいろな分野に興味を持っておくべきだ is never stated; in fact the writer suggests that some interests come later in life.",
     "choice_notes": [
       "Wrong. The passage says 資格を取るためだけでなく 'not only for qualifications', so qualifications are not the main reason.",
       "Wrong. The writer describes 年号を暗記するだけ 'just memorizing dates' as what made history boring at school.",
@@ -4266,7 +4266,7 @@
       {
         "pattern": "〜うちに",
         "meaning": "while ~ (before the situation changes)",
-        "formation": "Noun + の + うちに / Verb dictionary form + うちに",
+        "formation": "Noun + の / い-adj (若い) / な-adj + な / Verb dictionary form (mainly stative: ある, いる), ている form, or ない form + うちに (e.g. 時間があるうちに, 忘れないうちに)",
         "example": "若{わか}いうちに、いろいろな国{くに}へ行{い}っておきたい。",
         "example_translation": "I want to visit many countries while I'm young."
       }
@@ -4286,7 +4286,7 @@
     ],
     "answer": 2,
     "translation": "Which matches the content of this passage? - When you pay in cash, it is easy to feel that your money is going down.",
-    "explanation": "The key sentence is: 現金なら財布の中身が減っていくのが目に見えるが、画面の数字ではそれを実感しにくいのだろう 'with cash you can see the wallet's contents decreasing, but with numbers on a screen it is probably hard to feel it'. So with cash, the decrease is easy to feel: choice 3 (実感しやすい is the opposite of 実感しにくい, applied to cash). Choice 1: the writer does not use only cash; he/she checks spending in an app (アプリで毎月の支出を…確認する), which suggests he/she uses cashless payment. Choice 2 is the opposite of 支払いは一瞬で済み 'payment takes only an instant'. Choice 4 goes too far: the conclusion is not to stop using it, but to use convenient tools consciously (意識して付き合う必要がある).",
+    "explanation": "The key sentence is: 現金なら財布の中身が減っていくのが目に見えるが、画面の数字ではそれを実感しにくいのだろう 'with cash you can see the wallet's contents decreasing, but with numbers on a screen it is probably hard to feel it'. So with cash, the decrease is easy to feel: 現金で払うと、お金が減っていくことを実感しやすい is correct (実感しやすい is the opposite of 実感しにくい, applied to cash). 現金だけで支払っている is wrong: the writer never says he/she pays only in cash; he/she checks spending in an app (アプリで毎月の支出を…確認する), which suggests he/she uses cashless payment. 現金より支払いに時間がかかる is the opposite of 支払いは一瞬で済み 'payment takes only an instant'. キャッシュレス決済を使うのはやめるべきだ goes too far: the conclusion is not to stop using it, but to use convenient tools consciously (意識して付き合う必要がある).",
     "choice_notes": [
       "Wrong. The writer manages spending by checking it in an app, not by paying only with cash.",
       "Wrong. The opposite: 支払いは一瞬で済み 'payment is over in an instant'.",
@@ -4435,7 +4435,7 @@
       {
         "pattern": "〜も珍しくない",
         "meaning": "~ is no longer unusual, it's common for ~",
-        "formation": "Noun / Plain form + の + も珍しくない",
+        "formation": "Noun + も珍しくない / Plain form + の + も珍しくない",
         "example": "最近{さいきん}は、七十代{ななじゅうだい}で働{はたら}く人{ひと}も珍{めずら}しくない。",
         "example_translation": "These days, it's not unusual for people in their seventies to work."
       },
@@ -4504,7 +4504,7 @@
     ],
     "answer": 1,
     "translation": "What should students who were going to submit their report on the 17th do? - Submit the report through the course support system by the 28th.",
-    "explanation": "Find the paragraph about the report (it starts with なお 'in addition'). It gives two facts: (1) 提出期限を補講の日まで延長します 'the deadline is extended to the day of the make-up class', and the make-up class is on 11月28日; (2) レポートは授業支援システムから提出してください。紙での提出は受け付けません 'submit through the course support system; paper is not accepted'. Combine them: by the 28th, through the system = choice 2. Choice 1 is wrong twice: the deadline is no longer the 17th, and paper is not accepted. Choice 3: handing it to the teacher is a paper submission, which is refused. Choice 4 mixes up two rules: the 25th is the deadline for students who cannot ATTEND the make-up class, not for the report; and the report is not late, because the deadline was extended.",
+    "explanation": "Find the paragraph about the report (it starts with なお 'in addition'). It gives two facts. First, 提出期限を補講の日まで延長します 'the deadline is extended to the day of the make-up class', and the make-up class is on 11月28日. Second, レポートは授業支援システムから提出してください。紙での提出は受け付けません 'submit through the course support system; paper is not accepted'. Combine them: by the 28th, through the system = 28日までに、授業支援システムからレポートを出す. Handing a printed report to the office by the 17th is wrong twice: the deadline is no longer the 17th, and paper is not accepted. Handing the report to 佐藤先生 at the make-up class is a paper submission, which is refused. Notifying the office by the 25th mixes up two rules: the 25th is the deadline for students who cannot ATTEND the make-up class, not for the report; and the report is not late, because the deadline was extended.",
     "choice_notes": [
       "Wrong. The deadline was extended to the 28th, and 紙での提出は受け付けません 'paper submissions are not accepted'.",
       "Correct. Deadline = 補講の日 (the 28th); method = 授業支援システムから提出.",
@@ -4692,7 +4692,7 @@
     ],
     "answer": 0,
     "translation": "Which matches the writer's opinion? - Rather than just banning it, we should think of ways for residents and children to use the park together.",
-    "explanation": "The writer first concedes: 安全を考えれば、仕方のない決定なのかもしれない 'considering safety, it may be an unavoidable decision'. 〜かもしれない + しかし is a sign that the real opinion comes next. After しかし: 禁止するだけでは、子どもたちの居場所がまた一つ消えてしまう 'just banning it takes away yet another place for children'. The last sentence is the conclusion: 住民と子どもが共存できる方法を、まずは話し合うべきではないだろうか 'shouldn't we first discuss ways for residents and children to coexist?'. 共存できる 'can coexist' = ともに公園を使える 'can use the park together', so choice 1 is correct. Choice 2 is the concession, stated much more strongly (当然 'naturally') than the writer's 仕方のない…かもしれない; it is not the writer's main opinion. Choice 3 is never mentioned. Choice 4: the writer never blames the residents; the proposed solutions respect both sides.",
+    "explanation": "The writer first concedes: 安全を考えれば、仕方のない決定なのかもしれない 'considering safety, it may be an unavoidable decision'. 〜かもしれない + しかし is a sign that the real opinion comes next. After しかし: 禁止するだけでは、子どもたちの居場所がまた一つ消えてしまう 'just banning it takes away yet another place for children'. The last sentence is the conclusion: 住民と子どもが共存できる方法を、まずは話し合うべきではないだろうか 'shouldn't we first discuss ways for residents and children to coexist?'. 共存できる 'can coexist' = ともに公園を使える 'can use the park together', so 禁止するだけでなく、住民と子どもがともに公園を使える方法を考えるべきだ is correct. 禁止するのは当然だ is the concession, stated much more strongly (当然 'naturally') than the writer's 仕方のない…かもしれない; it is not the writer's main opinion. The idea of playing in the 学校の校庭 'school playground' is never mentioned. 苦情を言った住民は、子どもの気持ちを考えていない is wrong: the writer never blames the residents; the proposed solutions respect both sides.",
     "choice_notes": [
       "Correct. Matches 禁止するだけでは… and 住民と子どもが共存できる方法を…話し合うべきではないだろうか.",
       "Wrong (trap). The writer only concedes it may be unavoidable (〜かもしれない), then argues against simply banning with しかし.",
@@ -4902,7 +4902,7 @@
     ],
     "answer": 0,
     "translation": "Which matches the content of this email? - Nakamura is asking the professor's permission to swap presentation turns with Mori.",
-    "explanation": "The important sentence is: 先生にお許しいただけましたら、私は来週発表したいと考えております 'if you will permit it, I would like to present next week'. お許しいただけましたら is a very polite way of saying 'if I can receive your permission'. So Nakamura and Mori have agreed to swap, but Nakamura still needs the professor's approval: choice 1 (許可を求める = 'to ask for permission'). Choice 2 is the opposite: Nakamura wants to present next week, so he/she plans to attend. Choice 3: Mori will present tomorrow because they swapped turns, which means Mori gives his/her OWN presentation (originally planned for next week); nothing says Mori will use Nakamura's materials. Nakamura attaches the materials only 念のため 'just in case', to show they are ready. Choice 4 contradicts 発表資料はすでに完成しています 'the materials are already finished'.",
+    "explanation": "The important sentence is: 先生にお許しいただけましたら、私は来週発表したいと考えております 'if you will permit it, I would like to present next week'. お許しいただけましたら is a very polite way of saying 'if I can receive your permission'. So Nakamura and Mori have agreed to swap, but Nakamura still needs the professor's approval: 先生の許可を求めている is correct (許可を求める = 'to ask for permission'). 来週のゼミも休むつもりだ is the opposite: Nakamura wants to present next week, so he/she plans to attend. 中村さんの資料を使って発表する is wrong: Mori will present tomorrow because they swapped turns, which means Mori gives his/her OWN presentation (originally planned for next week); nothing says Mori will use Nakamura's materials. Nakamura attaches the materials only 念のため 'just in case', to show they are ready. 資料をまだ作り終えていない contradicts 発表資料はすでに完成しています 'the materials are already finished'.",
     "choice_notes": [
       "Correct. 先生にお許しいただけましたら… shows that Nakamura is asking for the professor's permission to swap.",
       "Wrong. Nakamura wants to present next week (来週発表したい), so he/she plans to attend.",
@@ -5035,8 +5035,8 @@
         "reading": "かえる",
         "meaning": "to exchange, to swap, to replace",
         "pos": "ichidan verb",
-        "example": "友達{ともだち}と席{せき}を替{か}えてもらった。",
-        "example_translation": "I had my friend swap seats with me."
+        "example": "先生{せんせい}にお願{ねが}いして、友達{ともだち}と席{せき}を替{か}えてもらった。",
+        "example_translation": "I asked my teacher and got my seat swapped with my friend's."
       }
     ],
     "grammar": [
@@ -5071,7 +5071,7 @@
       {
         "pattern": "お〜いただけましたら",
         "meaning": "if I could (humbly) receive your ~ / if you would kindly ~",
-        "formation": "お + Verb ます-stem + いただけましたら",
+        "formation": "お／ご + Verb ます-stem / する-noun + いただけましたら",
         "example": "お返事{へんじ}いただけましたら幸{さいわ}いです。",
         "example_translation": "I would be grateful if you could reply."
       },
@@ -5105,7 +5105,7 @@
     ],
     "answer": 1,
     "translation": "What are 'those words'? - 'It can still be used.'",
-    "explanation": "あの points to something in the past that the writer remembers (思い出した 'remembered'), so we are looking for words someone said earlier. The only words actually spoken in the passage are the grandmother's: 何でも「まだ使える」と言って捨てない人だった. The situation at the end matches them perfectly: the writer repaired a broken shoe instead of throwing it away, and the shoe came back usable. At that moment the writer remembers the grandmother's 「まだ使える」 = choice 2. Choice 1 is not a spoken phrase but the writer's own childish thought (新しい物を買えばいいのに), and the ending shows the writer moving away from it. Choice 3 is the writer's current careless attitude, also something the writer is reflecting on, not 'remembering'. Choice 4 sounds like something a grandmother might say, but it never appears in the passage; never choose words that are not in the text.",
+    "explanation": "あの points to something in the past that the writer remembers (思い出した 'remembered'), so we are looking for words someone said earlier. The only words actually spoken in the passage are the grandmother's: 何でも「まだ使える」と言って捨てない人だった. The situation at the end matches them perfectly: the writer repaired a broken shoe instead of throwing it away, and the shoe came back usable. At that moment the writer remembers the grandmother's 「まだ使える」. 「新しい物を買えばいい」 is not a spoken phrase but the writer's own childish thought (新しい物を買えばいいのに), and the ending shows the writer moving away from it. 「壊れたら買い替えればいい」 is the writer's current careless attitude, also something the writer is reflecting on, not 'remembering'. 「物を丁寧に扱いなさい」 sounds like something a grandmother might say, but it never appears in the passage; never choose words that are not in the text.",
     "choice_notes": [
       "Wrong. This was the writer's own thought as a child (〜ばいいのに), not words someone said that he/she 'remembered'.",
       "Correct. The grandmother's phrase 「まだ使える」; the repaired shoe proves it can still be used.",
@@ -5286,8 +5286,8 @@
       },
       {
         "pattern": "〜てくる（移動）",
-        "meaning": "to ~ and come back / to come back ~ed",
-        "formation": "Verb て-form + くる (戻る → 戻ってくる)",
+        "meaning": "to come ~ (movement toward the speaker or toward where the speaker is)",
+        "formation": "Verb て-form + くる (戻る → 戻ってくる 'to come back')",
         "example": "貸{か}した本{ほん}が一年後{いちねんご}に戻{もど}ってきた。",
         "example_translation": "The book I lent came back a year later."
       }
@@ -5297,7 +5297,7 @@
     "id": "rd-027",
     "section": "reading",
     "passage": "「遅{おそ}くまで残{のこ}って働{はたら}く人{ひと}ほど評価{ひょうか}される」。かつての日本{にほん}の職場{しょくば}には、そうした雰囲気{ふんいき}があった。しかし、長{なが}く働{はたら}けばそれだけ成果{せいか}が上{あ}がるとは限{かぎ}らない。疲{つか}れた状態{じょうたい}で机{つくえ}に向{む}かっていても、判断{はんだん}は鈍{にぶ}り、ミスも増{ふ}える。大切{たいせつ}なのは、どれだけ長{なが}く働{はたら}いたかではなく、限{かぎ}られた時間{じかん}で何{なに}を成{な}し遂{と}げたかである。そのためには、上司{じょうし}が自{みずか}ら定時{ていじ}に帰{かえ}り、部下{ぶか}が帰{かえ}りやすい空気{くうき}を作{つく}ることも必要{ひつよう}だろう。働{はたら}き方{かた}を変{か}えるには、個人{こじん}の努力{どりょく}だけでなく、職場{しょくば}全体{ぜんたい}の意識{いしき}を変{か}えなければならない。",
-    "passage_translation": "'The later you stay at work, the more highly you are rated.' Workplaces in Japan used to have that kind of atmosphere. However, working longer does not necessarily mean getting better results. Even if you sit at your desk while exhausted, your judgment becomes dull and your mistakes increase. What matters is not how long you worked, but what you accomplished within a limited time. For that, it will probably also be necessary for bosses themselves to go home on time and create an atmosphere in which their staff can easily leave. To change the way we work, we must change not only individual efforts but the mindset of the whole workplace.",
+    "passage_translation": "'The later you stay at work, the more highly you are rated.' Workplaces in Japan used to have that kind of atmosphere. However, working longer does not necessarily mean getting better results. Even if you sit at your desk while exhausted, your judgment becomes dull and your mistakes increase. What matters is not how long you worked, but what you accomplished within a limited time. For that, it will probably also be necessary for bosses themselves to go home on time and create an atmosphere in which their staff can easily leave. To change the way we work, individual effort alone is not enough; we must change the mindset of the whole workplace.",
     "question": "筆者{ひっしゃ}の考{かんが}えに合{あ}うものはどれか。",
     "choices": [
       "遅{おそ}くまで残{のこ}って働{はたら}く人{ひと}は、もっと評価{ひょうか}されるべきだ。",
@@ -5307,7 +5307,7 @@
     ],
     "answer": 3,
     "translation": "Which matches the writer's opinion? - To change the way people work, the whole workplace needs to work on it together.",
-    "explanation": "The passage opens with an old belief in quotation marks and says it belonged to かつての日本の職場 'Japanese workplaces of the past'. Then しかし introduces the writer's view: 長く働けばそれだけ成果が上がるとは限らない 'working longer does not necessarily bring better results'. 〜とは限らない = 'not necessarily'. The final sentence is the conclusion: 働き方を変えるには、個人の努力だけでなく、職場全体の意識を変えなければならない 'to change how we work, we must change not just individual effort but the mindset of the entire workplace'. Choice 4 paraphrases this. Choice 1 is the old belief the writer rejects. Choice 2 is the opposite: the writer wants bosses to leave on time so that staff can leave easily (部下が帰りやすい空気). Choice 3 takes the sentence about tired workers making mistakes too far; the writer talks about working hours, not about taking days off.",
+    "explanation": "The passage opens with an old belief in quotation marks and says it belonged to かつての日本の職場 'Japanese workplaces of the past'. Then しかし introduces the writer's view: 長く働けばそれだけ成果が上がるとは限らない 'working longer does not necessarily bring better results'. 〜とは限らない = 'not necessarily'. The final sentence is the conclusion: 働き方を変えるには、個人の努力だけでなく、職場全体の意識を変えなければならない 'to change how we work, individual effort alone is not enough; we must change the mindset of the entire workplace'. 働き方を変えるには、職場全体で取り組む必要がある paraphrases this. 遅くまで残って働く人は、もっと評価されるべきだ is the old belief the writer rejects. 部下は、上司より先に帰ってはいけない is the opposite: the writer wants bosses to leave on time so that staff can leave easily (部下が帰りやすい空気). 疲れているときは、仕事を休むべきだ takes the sentence about tired workers making mistakes too far; the writer talks about working hours, not about taking days off.",
     "choice_notes": [
       "Wrong. This is the old workplace belief (かつての…雰囲気) that the writer argues against with しかし.",
       "Wrong. The opposite: bosses should go home on time so that staff feel free to leave (部下が帰りやすい空気).",
@@ -5531,7 +5531,7 @@
     ],
     "answer": 2,
     "translation": "Which matches the content of this passage? - That store stations staff for customers who are not used to self-checkout.",
-    "explanation": "The key sentence starts with そこで 'so (as a response)': そこでその店では、店員がいる普通のレジを一つ残し、セルフレジのそばにも店員を一人置いて、困っている客を手伝えるようにしている. 店員を置く 'to station a staff member' = 店員を配置する, and 困っている客 refers back to the elderly customers who are 機械の操作に慣れない 'not used to operating the machines'. So choice 3 is correct. Choice 1 is wrong because one ordinary register is kept (普通のレジを一つ残し). Choice 2 is the opposite of レジに並ぶ時間が短くなる. Choice 4 is a hypothetical that the writer introduces and rejects: 効率だけを考えれば…いいのだろう。しかし… The しかし shows the writer's real opinion: caring for every customer is also the store's job.",
+    "explanation": "The key sentence starts with そこで 'so (as a response)': そこでその店では、店員がいる普通のレジを一つ残し、セルフレジのそばにも店員を一人置いて、困っている客を手伝えるようにしている. 店員を置く 'to station a staff member' = 店員を配置する, and 困っている客 refers back to the elderly customers who are 機械の操作に慣れない 'not used to operating the machines'. So 「その店では、セルフレジに慣れない客のために店員を配置している」 is correct. 「その店では、すべてのレジがセルフレジになった」 is wrong because one ordinary register is kept (普通のレジを一つ残し). 「セルフレジが導入されて、客がレジに並ぶ時間は長くなった」 is the opposite of レジに並ぶ時間が短くなる. 「筆者は、効率のために、すべてを機械に任せるべきだと考えている」 is a hypothetical that the writer introduces and rejects: 効率だけを考えれば…いいのだろう。しかし… The しかし shows the writer's real opinion: caring for every customer is also the store's job.",
     "choice_notes": [
       "Wrong. The store kept one ordinary register with a cashier (普通のレジを一つ残し).",
       "Wrong. The opposite: レジに並ぶ時間が短くなる 'waiting time becomes shorter'.",
@@ -5694,8 +5694,8 @@
         "pattern": "〜ようにしている",
         "meaning": "to make arrangements so that ~ is possible; to make a point of ~",
         "formation": "Verb potential / dictionary form + ようにしている",
-        "example": "誰{だれ}でも使{つか}えるように、説明書{せつめい}を置{お}いている。",
-        "example_translation": "We keep instructions there so that anyone can use it."
+        "example": "この図書館{としょかん}では、閉館後{へいかんご}も本{ほん}を返{かえ}せるようにしている。",
+        "example_translation": "This library has made it possible to return books even after closing time."
       },
       {
         "pattern": "〜だけを考えれば",
@@ -5741,7 +5741,7 @@
     ],
     "answer": 1,
     "translation": "Why does the writer say 'it is only natural to feel down'? - Because he/she is comparing other people's special moments with his/her own everyday life.",
-    "explanation": "The reason is in the same sentence as the underlined part, marked by 〜のだから 'since ~': 他人の一番輝いている瞬間と、自分の普段の姿を比べているのだから、落ち込むのは当然なのである 'since I'm comparing others' most brilliant moments with my everyday self, it's natural to feel down'. 一番輝いている瞬間 'most brilliant moment' = 特別な場面 'special scene' (from the earlier sentence 特別な一場面にすぎない), and 普段の姿 = ふだんの生活. So choice 2 is correct. Choice 1 is the opposite of the writer's point: the friends' lives are NOT actually better; we only see their special moments. Choice 3 goes too far: the writer never says the photos are fake, only that they show special moments. Choice 4 twists 誰にでも、疲れた日や退屈な日はあるはずだ: the writer says this to show that other people also have ordinary days, not to explain why one feels down.",
+    "explanation": "The reason is in the same sentence as the underlined part, marked by 〜のだから 'since ~': 他人の一番輝いている瞬間と、自分の普段の姿を比べているのだから、落ち込むのは当然なのである 'since I'm comparing others' most brilliant moments with my everyday self, it's natural to feel down'. 一番輝いている瞬間 'most brilliant moment' = 特別な場面 'special scene' (from the earlier sentence 特別な一場面にすぎない), and 普段の姿 = ふだんの生活. So 「他人の特別な場面と、自分のふだんの生活を比べているから」 is correct. 「友人の生活は、実際に自分の生活より楽しいものだから」 is the opposite of the writer's point: the friends' lives are NOT actually better; we only see their special moments. 「SNSには、うその写真がたくさん載せられているから」 goes too far: the writer never says the photos are fake, only that they show special moments. 「誰でも、疲れた日や退屈な日には気分が落ち込むから」 twists 誰にでも、疲れた日や退屈な日はあるはずだ: the writer says this to show that other people also have ordinary days, not to explain why one feels down.",
     "choice_notes": [
       "Wrong. The writer argues the opposite: others' lives only LOOK better because SNS shows special moments.",
       "Correct. 他人の一番輝いている瞬間と、自分の普段の姿を比べているのだから is the reason given.",
@@ -5881,7 +5881,7 @@
       {
         "pattern": "〜ことがある",
         "meaning": "sometimes ~",
-        "formation": "Verb dictionary form + ことがある",
+        "formation": "Verb dictionary form / ない-form + ことがある",
         "example": "忙{いそが}しいと、昼{ひる}ご飯{はん}を食{た}べないことがある。",
         "example_translation": "When I'm busy, I sometimes skip lunch."
       },
@@ -5895,7 +5895,7 @@
       {
         "pattern": "〜に思えてくる",
         "meaning": "to start to seem ~",
-        "formation": "Noun / adjective + に思えてくる (思える + 〜てくる)",
+        "formation": "Noun / な-adjective + に思えてくる; い-adjective (〜く) + 思えてくる (思える + 〜てくる)",
         "example": "何度{なんど}も読{よ}むうちに、その話{はなし}が本当{ほんとう}のことに思{おも}えてきた。",
         "example_translation": "As I read it again and again, the story started to seem true."
       },
@@ -5943,7 +5943,7 @@
     ],
     "answer": 3,
     "translation": "Why does the writer have high hopes for this experiment? - Because he/she thinks that deciding what to study by oneself develops the ability to make plans.",
-    "explanation": "The writer states the position (私はこの試みに期待している) and then gives two supports. First, a criticism of ordinary homework: the same amount for everyone is 退屈 'boring' for some and 苦痛でしかない 'nothing but painful' for others. Second, the school's new method: 家で何を学ぶかを子ども自身が決める 'children decide for themselves what to learn at home', followed by the reason in 〜からだ form: 自分に必要なことを考え、計画を立てる力は、与えられた問題を解くだけでは身につかないからだ 'because the ability to think about what you need and to plan is not gained by just solving given problems'. Put together: choosing one's own study content builds planning ability = choice 4. Choice 1: free time and play are never mentioned. Choice 2 is the opposite of the passage's situation: some people still WORRY that ability will fall (心配する声もある), so nothing has been proven. Choice 3: the teachers' workload is never mentioned.",
+    "explanation": "The writer states the position (私はこの試みに期待している) and then gives two supports. First, a criticism of ordinary homework: the same amount for everyone is 退屈 'boring' for some and 苦痛でしかない 'nothing but painful' for others. Second, the school's new method: 家で何を学ぶかを子ども自身が決める 'children decide for themselves what to learn at home', followed by the reason in 〜からだ form: 自分に必要なことを考え、計画を立てる力は、与えられた問題を解くだけでは身につかないからだ 'because the ability to think about what you need and to plan is not gained by just solving given problems'. Put together: choosing one's own study content builds planning ability, which is exactly 「学ぶ内容を自分で決めることで、計画を立てる力が育つと考えるから」. 「宿題がなくなれば、子どもが遊ぶ時間が増えるから」: free time and play are never mentioned. 「宿題をなくしても、学力が下がらないことが証明されたから」 is the opposite of the passage's situation: some people still WORRY that ability will fall (心配する声もある), so nothing has been proven. 「全員に同じ宿題を出すと、教師の負担が大きくなるから」: the teachers' workload is never mentioned.",
     "choice_notes": [
       "Wrong. Play time is never mentioned; the children still study at home, on topics they choose.",
       "Wrong. Nothing has been proven. Some people still worry that academic ability will drop.",
@@ -6152,7 +6152,7 @@
     ],
     "answer": 2,
     "translation": "Which of these must the Sales Department staff who read this email do? - Pack the things in their desks into boxes by 17:00 on the 18th.",
-    "explanation": "List the instructions: (1) 各自の机の中の物は…段ボール箱に詰め、箱に名前を書いてください 'pack the contents of your desk into the boxes and write your name'; (2) unneeded papers go in the collection box, BUT (ただし) papers with personal information must be shredded; (3) パソコンなどの機器は業者が運びますので、梱包は不要です 'computers will be moved by the movers, so no packing is needed'; and the deadline: 箱詰めは、18日（金）の17時までに終えてください. Choice 3 combines (1) with the deadline, so it is correct. Choice 1 contradicts (3): computers do not need to be packed. Choice 2 is exactly what ただし forbids: 個人情報を含む書類は回収箱に入れず. Choice 4: nothing says employees carry their own boxes; the move happens on the 19th, and the movers handle at least the equipment.",
+    "explanation": "List the instructions: first, 各自の机の中の物は…段ボール箱に詰め、箱に名前を書いてください 'pack the contents of your desk into the boxes and write your name'; next, unneeded papers go in the collection box, BUT (ただし) papers with personal information must be shredded; then, パソコンなどの機器は業者が運びますので、梱包は不要です 'computers will be moved by the movers, so no packing is needed'; and the deadline: 箱詰めは、18日（金）の17時までに終えてください. 「18日の17時までに、机の中の物を箱に詰める。」 combines the desk-packing instruction with the deadline, so it is correct. 「パソコンを段ボール箱に入れて、箱に名前を書く。」 contradicts the equipment instruction: computers do not need to be packed. 「個人情報が書かれた不要な書類を、廊下の回収箱に入れる。」 is exactly what ただし forbids: 個人情報を含む書類は回収箱に入れず. 「19日に、新しい事務所まで自分の荷物を運ぶ。」: nothing says employees carry their own boxes; the move happens on the 19th, and the movers handle at least the equipment.",
     "choice_notes": [
       "Wrong. Computers are moved by the movers and 梱包は不要 'packing is not necessary'.",
       "Wrong. ただし: documents with personal information must NOT go in the collection box; they must be shredded.",
@@ -6329,7 +6329,7 @@
       {
         "pattern": "〜ず（に）",
         "meaning": "without ~ / do not ~ and (written form of 〜ないで)",
-        "formation": "Verb ない-form minus ない + ず",
+        "formation": "Verb ない-form minus ない + ず (exception: する → せず)",
         "example": "このボタンは押{お}さずに、そのままお待{ま}ちください。",
         "example_translation": "Please don't press this button; just wait as you are."
       },
@@ -6353,7 +6353,7 @@
     "id": "rd-032",
     "section": "reading",
     "passage": "ボランティアというと、困{こま}っている人{ひと}を助{たす}ける立派{りっぱ}な活動{かつどう}だと考{かんが}える人{ひと}が多{おお}いだろう。もちろん、それは間違{まちが}いではない。しかし、実際{じっさい}に参加{さんか}してみると、助{たす}けられているのはむしろ自分{じぶん}のほうだと感{かん}じることが少{すく}なくない。私{わたし}は週末{しゅうまつ}に、地域{ちいき}の子{こ}どもたちに勉強{べんきょう}を教{おし}える活動{かつどう}をしている。子{こ}どもたちの素直{すなお}な質問{しつもん}に答{こた}えようとするうちに、自分{じぶん}が当{あ}たり前{まえ}だと思{おも}っていたことを、もう一度{いちど}考{かんが}え直{なお}すようになった。ボランティアは、[[一方通行{いっぽうつうこう}の活動{かつどう}ではない]]のだ。",
-    "passage_translation": "When people hear the word 'volunteering', many probably think of it as admirable activity that helps people in need. Of course, that is not wrong. However, when you actually take part, you often feel that, if anything, you are the one being helped. On weekends I take part in an activity teaching local children. While trying to answer the children's honest questions, I have come to rethink things that I had taken for granted. Volunteering is not a one-way activity.",
+    "passage_translation": "When people hear the word 'volunteering', many probably think of it as an admirable activity that helps people in need. Of course, that is not wrong. However, when you actually take part, you often feel that, if anything, you are the one being helped. On weekends I take part in an activity teaching local children. While trying to answer the children's honest questions, I have come to rethink things that I had taken for granted. Volunteering is not a one-way activity.",
     "question": "「一方通行{いっぽうつうこう}の活動{かつどう}ではない」とはどういうことか。",
     "choices": [
       "手伝{てつだ}う側{がわ}も、活動{かつどう}を通{とお}して得{え}るものがあるということ",
@@ -6363,7 +6363,7 @@
     ],
     "answer": 0,
     "translation": "What does 'not a one-way activity' mean? - That the people who help also gain something through the activity.",
-    "explanation": "一方通行 literally means 'one-way traffic'. Here it is used as a metaphor: help flowing only in one direction, from the volunteer to the person in need. The writer says volunteering is NOT like that, and the reason is given earlier: 助けられているのはむしろ自分のほうだと感じることが少なくない 'I often feel that I am actually the one being helped', and the example: answering children's questions made the writer 当たり前だと思っていたことを、もう一度考え直すようになった 'rethink what I had taken for granted'. So help goes both ways: the volunteer also gains something = choice 1. Choice 2 takes 一方 'one side' as 'one person'; that is a word-level trap. Choice 3 goes too far: the writer says the common view is not wrong (もちろん、それは間違いではない); volunteering does help people. Choice 4 is never discussed.",
+    "explanation": "一方通行 literally means 'one-way traffic'. Here it is used as a metaphor: help flowing only in one direction, from the volunteer to the person in need. The writer says volunteering is NOT like that, and the reason is given earlier: 助けられているのはむしろ自分のほうだと感じることが少なくない 'I often feel that I am actually the one being helped', and the example: answering children's questions made the writer 当たり前だと思っていたことを、もう一度考え直すようになった 'rethink what I had taken for granted'. So help goes both ways: the volunteer also gains something = 「手伝う側も、活動を通して得るものがあるということ」. 「一人ではなく大勢で行う活動だ」 takes 一方 'one side' as 'one person'; that is a word-level trap. 「困っている人を助ける活動ではない」 goes too far: the writer says the common view is not wrong (もちろん、それは間違いではない); volunteering does help people. Whether volunteering should also be aimed at adults (子どもだけでなく大人も対象にするべき) is never discussed.",
     "choice_notes": [
       "Correct. The volunteer is also 'helped' (助けられているのはむしろ自分のほう) by learning to rethink things.",
       "Wrong. 一方通行 is about the direction of help, not about the number of people.",
@@ -6547,7 +6547,7 @@
     "id": "rd-033",
     "section": "reading",
     "passage": "オンライン会議{かいぎ}が当{あ}たり前{まえ}になり、遠{とお}くにいる人{ひと}とも気軽{きがる}に話{はな}し合{あ}えるようになった。移動{いどう}の時間{じかん}や交通費{こうつうひ}がかからないのは、大{おお}きな利点{りてん}だ。ただ、画面越{がめんご}しでは、相手{あいて}の表情{ひょうじょう}の細{こま}かい変化{へんか}が読{よ}み取{と}りにくい。対面{たいめん}であれば、発言{はつげん}していない人{ひと}が納得{なっとく}していない様子{ようす}にも気{き}づけるが、オンラインではそれが難{むずか}しい。そのため、私{わたし}が司会{しかい}をするときは、議題{ぎだい}ごとに一人{ひとり}ずつ名前{なまえ}を呼{よ}んで、意見{いけん}を聞{き}くようにしている。少{すこ}し時間{じかん}はかかるが、黙{だま}っている人{ひと}の本当{ほんとう}の考{かんが}えを知{し}る機会{きかい}になっている。",
-    "passage_translation": "Online meetings have become the norm, and we can now easily talk with people who are far away. Not spending time traveling or money on transportation is a big advantage. However, through a screen it is hard to read subtle changes in the other person's expression. Face to face, you can notice even when someone who isn't speaking looks unconvinced, but online that is difficult. For that reason, when I chair a meeting, I make a point of calling on each person by name for every agenda item to ask their opinion. It takes a little time, but it has become a chance to learn what the quiet people really think.",
+    "passage_translation": "Online meetings have become the norm, and we can now casually talk things over with people who are far away. Not spending time traveling or money on transportation is a big advantage. However, through a screen it is hard to read subtle changes in the other person's expression. Face to face, you can notice even when someone who isn't speaking looks unconvinced, but online that is difficult. For that reason, when I chair a meeting, I make a point of calling on each person by name for every agenda item to ask their opinion. It takes a little time, but it has become a chance to learn what the quiet people really think.",
     "question": "筆者{ひっしゃ}が、司会{しかい}のときに一人{ひとり}ずつ名前{なまえ}を呼{よ}んで意見{いけん}を聞{き}くのはなぜか。",
     "choices": [
       "オンライン会議{かいぎ}は、できるだけ短{みじか}い時間{じかん}で終{お}わらせたいから。",
@@ -6557,7 +6557,7 @@
     ],
     "answer": 2,
     "translation": "Why does the writer call on each person by name to ask their opinion when chairing? - Because over a screen it is hard to notice what people who don't speak are thinking.",
-    "explanation": "そのため 'for that reason' at the start of the sentence tells you the reason is in the sentences just before it. They say: 画面越しでは、相手の表情の細かい変化が読み取りにくい 'through a screen it's hard to read small changes in expression', and 対面であれば、発言していない人が納得していない様子にも気づけるが、オンラインではそれが難しい 'face to face you can notice that a silent person is unconvinced, but online that's hard'. So the writer calls on people because silent participants' real thoughts are hard to notice online = choice 3. Choice 1 is the opposite: the writer admits this method takes extra time (少し時間はかかるが). Choice 2 is never mentioned; the problem is reading faces, not identifying speakers. Choice 4 is also not stated; the passage suggests the problem is people who stay silent.",
+    "explanation": "そのため 'for that reason' at the start of the sentence tells you the reason is in the sentences just before it. They say: 画面越しでは、相手の表情の細かい変化が読み取りにくい 'through a screen it's hard to read small changes in expression', and 対面であれば、発言していない人が納得していない様子にも気づけるが、オンラインではそれが難しい 'face to face you can notice that a silent person is unconvinced, but online that's hard'. So the writer calls on people because silent participants' real thoughts are hard to notice online = 「画面越しでは、発言しない人の考えに気づきにくいから。」. 「できるだけ短い時間で終わらせたいから」 is the opposite: the writer admits this method takes extra time (少し時間はかかるが). 「誰が話しているのか分からないから」 is never mentioned; the problem is reading faces, not identifying speakers. 「対面より発言する人が多くなるから」 is also not stated; the passage suggests the problem is people who stay silent.",
     "choice_notes": [
       "Wrong. The opposite: calling on everyone 少し時間はかかる 'takes a little time'.",
       "Wrong. Not knowing who is talking is never mentioned.",
@@ -6576,10 +6576,10 @@
       {
         "word": "気軽",
         "reading": "きがる",
-        "meaning": "easily, casually, without hesitation",
+        "meaning": "casual, lighthearted, without hesitation (気軽に = casually, feel free to)",
         "pos": "na-adjective",
         "example": "この店{みせ}は一人{ひとり}でも気軽{きがる}に入{はい}れる。",
-        "example_translation": "You can easily go into this shop even alone."
+        "example_translation": "You can drop into this shop casually, even on your own."
       },
       {
         "word": "移動",
@@ -6767,7 +6767,7 @@
     ],
     "answer": 0,
     "translation": "If a person with an appointment wants to cancel tomorrow's appointment at 8 p.m. today, what should he/she do? - Contact the clinic by phone.",
-    "explanation": "This is a 'calculate the condition' question. The appointment is tomorrow, so 'the day before' (前日) is today. The rule says: 予約の変更・取り消しは、前日の18時までにホームページから行ってください。それ以降は、お電話でご連絡ください 'change or cancel on the website by 18:00 the day before; after that, contact us by phone'. 8 p.m. = 20時, which is after 18時 (それ以降 'after that'). So the person must phone the clinic = choice 1. Watch the trap in the first paragraph: お電話での新しいご予約はお受けできません 'NEW appointments cannot be made by phone'; this is about making new appointments, not about late cancellations. Choice 2 would be correct only before 18:00. Choice 3: registration is needed to make appointments online, not to cancel after 18:00. Choice 4 is never mentioned.",
+    "explanation": "This is a 'calculate the condition' question. The appointment is tomorrow, so 'the day before' (前日) is today. The rule says: 予約の変更・取り消しは、前日の18時までにホームページから行ってください。それ以降は、お電話でご連絡ください 'change or cancel on the website by 18:00 the day before; after that, contact us by phone'. 8 p.m. = 20時, which is after 18時 (それ以降 'after that'). So the person must phone the clinic = 「クリニックに電話で連絡する。」. Watch the trap in the first paragraph: お電話での新しいご予約はお受けできません 'NEW appointments cannot be made by phone'; this is about making new appointments, not about late cancellations. 「ホームページから予約を取り消す。」 would be correct only before 18:00. 「診察券の番号で会員登録をしてから取り消す。」: registration is needed to make appointments online, not to cancel after 18:00. Going to the clinic at the appointment time and telling reception (予約の時間にクリニックへ行って、受付で伝える) is never mentioned.",
     "choice_notes": [
       "Correct. 20:00 is after the 18:00 limit (それ以降), so お電話でご連絡ください applies.",
       "Wrong. Website cancellation is possible only until 18:00 the day before. 8 p.m. is too late.",
@@ -6946,7 +6946,7 @@
     ],
     "answer": 1,
     "translation": "Which matches the writer's opinion? - It is more important for the family to live comfortably than to do the housework perfectly.",
-    "explanation": "The writer's opinion is in the last sentence: 家事は、家族が気持ちよく暮らすための手段であって、目的ではないのだと思う 'housework is a means for the family to live comfortably, not a goal'. 〜であって〜ではない means 'is A, not B'. The sentence before shows the experience behind it: 完璧を求めるのをやめたら…雰囲気がよくなった 'when we stopped demanding perfection, the atmosphere improved'. So comfort is more important than perfect housework = choice 2. Choice 1: splitting the work equally is never proposed; the rule is that 気づいた人がやればいい 'whoever notices does it'. Choice 3 is the husband's attitude, not the writer's conclusion; the couple still keeps a minimum standard, such as nothing on the floor. Choice 4: the rules were decided by both together (二人で話し合い).",
+    "explanation": "The writer's opinion is in the last sentence: 家事は、家族が気持ちよく暮らすための手段であって、目的ではないのだと思う 'housework is a means for the family to live comfortably, not a goal'. 〜であって〜ではない means 'is A, not B'. The sentence before shows the experience behind it: 完璧を求めるのをやめたら…雰囲気がよくなった 'when we stopped demanding perfection, the atmosphere improved'. So comfort is more important than perfect housework = 「家事を完璧にすることより、家族が気持ちよく暮らすことのほうが大切だ。」. 「夫婦で同じ量ずつ分けるべきだ」: splitting the work equally is never proposed; the rule is that 気づいた人がやればいい 'whoever notices does it'. 「部屋が散らかっていても、気にしないほうがいい」 is the husband's attitude, not the writer's conclusion; the couple still keeps a minimum standard, such as nothing on the floor. 「散らかっているのが気になる人が決めるべきだ」: the rules were decided by both together (二人で話し合い).",
     "choice_notes": [
       "Wrong. An equal split is never mentioned; beyond the minimum rules, whoever notices does it.",
       "Correct. Matches 家事は…気持ちよく暮らすための手段であって、目的ではない and 完璧を求めるのをやめたら…よくなった.",
@@ -7156,7 +7156,7 @@
     ],
     "answer": 3,
     "translation": "Which items must Kimura bring on the day? - An apron, a towel, a bag, and the participation fee.",
-    "explanation": "Go through the email and list everything the reader must bring. (1) エプロンとタオルはご持参ください 'please bring an apron and towel' (持参 = bringing something with you). (2) 焼き上がったパンをお持ち帰りいただくための袋もお持ちください 'also bring a bag for taking home your bread'; the も 'also' adds it to the list. (3) 参加費の2,000円は、当日受付でお支払いください 'pay the 2,000 yen on the day at reception', so the fee must be brought too. That is choice 4. The traps are items the organizers provide or things that are not physical items: 材料と道具はこちらで用意いたします 'WE will prepare the ingredients and tools' (こちら = the organizers), which rules out choices 1 and 2. Choice 3: allergies are to be reported by contacting the organizers before the day (前日までにご連絡ください), not by bringing a document.",
+    "explanation": "Go through the email and list everything the reader must bring. First, エプロンとタオルはご持参ください 'please bring an apron and towel' (持参 = bringing something with you). Next, 焼き上がったパンをお持ち帰りいただくための袋もお持ちください 'also bring a bag for taking home your bread'; the も 'also' adds it to the list. Finally, 参加費の2,000円は、当日受付でお支払いください 'pay the 2,000 yen on the day at reception', so the fee must be brought too. That gives エプロン、タオル、袋、参加費. The traps are items the organizers provide or things that are not physical items: 材料と道具はこちらで用意いたします 'WE will prepare the ingredients and tools' (こちら = the organizers), which rules out the choices containing パンの材料 and 調理の道具. As for アレルギーについての書類: allergies are to be reported by contacting the organizers before the day (前日までにご連絡ください), not by bringing a document.",
     "choice_notes": [
       "Wrong. The ingredients (材料) are provided by the organizers: 材料と道具はこちらで用意いたします.",
       "Wrong. The cooking tools (道具) are also provided by the organizers, and the apron and bag are missing.",
@@ -7351,7 +7351,7 @@
     ],
     "answer": 0,
     "translation": "What does 'that' refer to? - Small hidden mistakes piling up and causing a serious accident.",
-    "explanation": "それを防ぐ 'to prevent that' tells us それ is something BAD that we want to stop. Look at the sentence right before: 隠された小さなミスが重なると、やがて大きな事故につながりかねない 'when hidden small mistakes pile up, they could eventually lead to a big accident'. 〜かねない means 'could (unfortunately) ~', a warning about a bad possibility. So それ = small hidden mistakes piling up into a big accident: choice 1. The last sentence confirms it: after the system started, 事故の件数が大幅に減った 'the number of accidents dropped sharply', so accidents are what is being prevented. Choice 2 is the factory's solution, not something to prevent. Choice 3 is a bad thing, but it is mentioned two sentences earlier and the solution in the next sentence (sharing failures and building a system so the same thing won't happen) is aimed at accidents. Choice 4 is the method used to prevent それ, not それ itself.",
+    "explanation": "それを防ぐ 'to prevent that' tells us それ is something BAD that we want to stop. Look at the sentence right before: 隠された小さなミスが重なると、やがて大きな事故につながりかねない 'when hidden small mistakes pile up, they could eventually lead to a big accident'. 〜かねない means 'could (unfortunately) ~', a warning about a bad possibility. So それ = small hidden mistakes piling up into a big accident. The last sentence confirms it: after the system started, 事故の件数が大幅に減った 'the number of accidents dropped sharply', so accidents are what is being prevented. Employees being praised through the system is the factory's solution, not something to prevent. Employees being scolded for reporting is a bad thing, but it is mentioned two sentences earlier, and the solution in the next sentence (sharing failures and building a system so the same thing won't happen) is aimed at accidents. Sharing failures with everyone is the method used to prevent それ, not それ itself.",
     "choice_notes": [
       "Correct. それ points back to 隠された小さなミスが重なると、やがて大きな事故につながりかねない.",
       "Wrong. Praising people is the factory's solution, not the problem to be prevented.",
@@ -7560,8 +7560,8 @@
       "方言{ほうげん}は、地域{ちいき}の人々{ひとびと}が受{う}け継{つ}いできた大切{たいせつ}なものだ。"
     ],
     "answer": 3,
-    "translation": "What does the writer most want to say about dialects? - A dialect is a precious thing that the people of a region have handed down.",
-    "explanation": "This passage tells a personal story first and gives the general opinion at the end, marked by 〜のだ: 方言は、その土地の人々が長い時間をかけて育ててきた財産なのだ 'a dialect is an asset that local people have nurtured over a long time'. 財産 'asset, treasure' = 大切なもの, and 育ててきた 'have raised/nurtured up to now' ≈ 受け継いできた 'have handed down'. So choice 4 is the main point. Choice 1 is the writer's OLD behavior, which he/she stopped after ところが (無理に話し方を変えるのはやめた). Choice 2 overinterprets the friend's comment; the writer never says dialect helps you make friends. Choice 3 goes too far: the writer only says some subtle feelings are hard to express in standard Japanese (標準語ではうまく言い表せない微妙な気持ち), not that standard Japanese is bad at expressing feelings in general.",
+    "translation": "What does the writer most want to say about dialects? - A dialect is a precious thing that the people of a region have inherited and carried on.",
+    "explanation": "This passage tells a personal story first and gives the general opinion at the end, marked by 〜のだ: 方言は、その土地の人々が長い時間をかけて育ててきた財産なのだ 'a dialect is an asset that local people have nurtured over a long time'. 財産 'asset, treasure' = 大切なもの, and 育ててきた 'have raised/nurtured up to now' ≈ 受け継いできた 'have inherited and carried on (from earlier generations)'. So 方言は、地域の人々が受け継いできた大切なものだ is the main point. 大学では、できるだけ標準語で話すべきだ is the writer's OLD behavior, which he/she stopped after ところが (無理に話し方を変えるのはやめた). 方言を話すと、友人ができやすい overinterprets the friend's comment; the writer never says dialect helps you make friends. 標準語は、気持ちを伝えるのに向いていない goes too far: the writer only says some subtle feelings are hard to express in standard Japanese (標準語ではうまく言い表せない微妙な気持ち), not that standard Japanese is bad at expressing feelings in general.",
     "choice_notes": [
       "Wrong. This was the writer's early behavior, which he/she gave up (それ以来、無理に話し方を変えるのはやめた).",
       "Wrong. The friend praised the dialect, but making friends is never claimed as an effect.",
@@ -7676,7 +7676,7 @@
       {
         "word": "受け継ぐ",
         "reading": "うけつぐ",
-        "meaning": "to inherit, to carry on, to hand down",
+        "meaning": "to inherit, to take over, to carry on (something from those before you)",
         "pos": "godan verb",
         "example": "父{ちち}の店{みせ}を受{う}け継{つ}ぐことにした。",
         "example_translation": "I decided to take over my father's shop."
@@ -7770,7 +7770,7 @@
     ],
     "answer": 2,
     "translation": "Why does the teacher say it is 'worrying'? - Because the children look it up and finish there before thinking for themselves or discussing.",
-    "explanation": "The reason follows directly after the quote, ending in 〜からだという 'he/she says it is because ~': わからないことにぶつかったとき、自分で予想を立てたり、友達と意見を出し合ったりする前に、検索して終わりにしてしまうからだという. 予想を立てる 'make a guess/hypothesis' and 意見を出し合う 'exchange opinions' are paraphrased in choice 3 as 自分で考えたり話し合ったりする, and 検索して終わりにしてしまう 'search and end it there' = 調べて済ませてしまう. Also note かえって 'on the contrary': finding answers quickly is normally a merit (便利だ), but the teacher sees it as a reason to worry. Choices 1, 2, and 4 are all realistic worries about tablets (wrong information, eyesight, children who can't use them), but none of them appears in the passage. They are typical 'common sense' traps.",
+    "explanation": "The reason follows directly after the quote, ending in 〜からだという 'he/she says it is because ~': わからないことにぶつかったとき、自分で予想を立てたり、友達と意見を出し合ったりする前に、検索して終わりにしてしまうからだという. 予想を立てる 'make a guess/hypothesis' and 意見を出し合う 'exchange opinions' are paraphrased in the correct answer as 自分で考えたり話し合ったりする, and 検索して終わりにしてしまう 'search and end it there' = 調べて済ませてしまう. Also note かえって 'on the contrary': finding answers quickly is normally a merit (便利だ), but the teacher sees it as a reason to worry. The other choices (information that may be wrong, eyesight, children who can't use the tablets) are all realistic worries about tablets, but none of them appears in the passage. They are typical 'common sense' traps.",
     "choice_notes": [
       "Wrong. A realistic concern, but the passage never says the information may be wrong.",
       "Wrong. Eyesight is never mentioned.",
@@ -7937,8 +7937,8 @@
         "pattern": "〜のだろう",
         "meaning": "it is probably that ~ (the writer's reasoned guess)",
         "formation": "Plain form (な-adj / noun + な) + のだろう",
-        "example": "彼{かれ}が笑{わら}っているのは、うれしいことがあったのだろう。",
-        "example_translation": "He's smiling; something good must have happened."
+        "example": "彼{かれ}がずっと笑{わら}っている。何{なに}かうれしいことがあったのだろう。",
+        "example_translation": "He keeps smiling. Something good must have happened."
       }
     ]
   },
@@ -7956,7 +7956,7 @@
     ],
     "answer": 1,
     "translation": "What must a person who wants to put out an old bookshelf as oversized garbage do first? - Apply to the reception center at least one week before the collection day.",
-    "explanation": "First check that a bookshelf is 粗大ごみ: it is 家具 'furniture', and furniture over 50 cm counts as oversized garbage. Then look for the FIRST step (まず 'first of all'). The notice gives numbered steps (次の手順で 'in the following steps'), and step 1 is: 収集日の1週間前までに、粗大ごみ受付センターに電話かインターネットで申し込んでください. The order is fixed, because step 2 says to buy tickets for お知らせした料金分 'the amount we told you', and you only learn the fee when you apply in step 1. So choice 2. Choices 3 and 4 are steps 2 and 3, which come later. Choice 1 is the rule in the ※ note, which applies only to air conditioners, TVs, refrigerators, and washing machines, not to furniture.",
+    "explanation": "First check that a bookshelf is 粗大ごみ: it is 家具 'furniture', and furniture over 50 cm counts as oversized garbage. Then look for the FIRST step (まず 'first of all'). The notice gives numbered steps (次の手順で 'in the following steps'), and step 1 is: 収集日の1週間前までに、粗大ごみ受付センターに電話かインターネットで申し込んでください. The order is fixed, because step 2 says to buy tickets for お知らせした料金分 'the amount we told you', and you only learn the fee when you apply in step 1. So the answer is applying to the reception center. Buying a 処理券 and sticking it on is step 2, and putting the item out by 8 a.m. is step 3; both come later. Consulting the shop where you bought the item is the rule in the ※ note, which applies only to air conditioners, TVs, refrigerators, and washing machines, not to furniture.",
     "choice_notes": [
       "Wrong. Consulting the shop is only for air conditioners, TVs, refrigerators, and washing machines (the ※ note).",
       "Correct. Step 1 is applying at least a week before the collection day; you learn the date and fee here.",

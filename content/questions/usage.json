@@ -11,7 +11,7 @@
     ],
     "answer": 1,
     "translation": "She is tall, so she stands out even in a big crowd.",
-    "explanation": "目立つ（めだつ）means 'to stand out, to be conspicuous, to catch the eye': something is easy to notice because it is different from its surroundings. Typical uses: 目立つ色 'a color that stands out', 赤い服は目立つ 'red clothes stand out', 最近ミスが目立つ 'mistakes have become noticeable lately', 目立たないように 'so as not to attract attention'. The thing that is noticed is the subject (Xが目立つ); the word does not describe the act of looking. Sentence 2 is correct because being tall makes her easy to spot among many people. The wrong sentences confuse 目立つ with 効く 'take effect', 目覚める 'wake up', and 見渡せる 'can see over a wide area'.",
+    "explanation": "目立つ（めだつ）means 'to stand out, to be conspicuous, to catch the eye': something is easy to notice because it is different from its surroundings. Typical uses: 目立つ色 'a color that stands out', 赤い服は目立つ 'red clothes stand out', 最近ミスが目立つ 'mistakes have become noticeable lately', 目立たないように 'so as not to attract attention'. The thing that is noticed is the subject (Xが目立つ); the word does not describe the act of looking. The sentence 彼女は背が高いので、大勢の中にいてもよく目立つ is correct because being tall makes her easy to spot among many people. The wrong sentences confuse 目立つ with 効く 'take effect', 目覚める 'wake up', and 見渡せる 'can see over a wide area'.",
     "choice_notes": [
       "Wrong. For medicine starting to work, use 効く（きく）: 三十分ほどで効いてくる.",
       "Correct. Being easy to spot in a crowd because of one's height is the core meaning of 目立つ.",
@@ -98,7 +98,7 @@
     ],
     "answer": 3,
     "translation": "Because of the sudden heavy rain, the match was suspended for about an hour.",
-    "explanation": "中断（ちゅうだん）means 'interruption, suspension': an activity that is in progress is stopped partway through, usually with the idea that it may continue later. 中断する can mean both 'to interrupt (something)' (会議を中断する 'interrupt the meeting') and 'to be interrupted' (放送が中断する 'the broadcast is interrupted'); the passive 中断される is also very common. Typical subjects are human activities: 試合, 会議, 放送, 工事, 作業. Sentence 4 is correct: the match was stopped partway and presumably restarted. 中断 is not used for natural phenomena like rain stopping, for leaving school, or for closed roads.",
+    "explanation": "中断（ちゅうだん）means 'interruption, suspension': an activity that is in progress is stopped partway through, usually with the idea that it may continue later. 中断する can mean both 'to interrupt (something)' (会議を中断する 'interrupt the meeting') and 'to be interrupted' (放送が中断する 'the broadcast is interrupted'); the passive 中断される is also very common. Typical subjects are human activities: 試合, 会議, 放送, 工事, 作業. The sentence 試合が一時間ほど中断された is correct: the match was stopped partway and presumably restarted. 中断 is not used for natural phenomena like rain stopping, for leaving school, or for closed roads.",
     "choice_notes": [
       "Wrong. Rain stopping is やむ（止む）: 雨がやんだので.",
       "Wrong. Leaving university without graduating is 中退（ちゅうたい）: 大学を中退することになった. (Taking time off temporarily is 休学（きゅうがく）.)",
@@ -149,7 +149,7 @@
       {
         "word": "体調を崩す",
         "reading": "たいちょうをくずす",
-        "meaning": "to get sick, to get out of shape physically",
+        "meaning": "to fall ill, to get into poor physical condition",
         "pos": "expression (godan verb)",
         "example": "季節{きせつ}の変{か}わり目{め}は体調{たいちょう}を崩{くず}しやすい。",
         "example_translation": "It's easy to get sick when the seasons change."
@@ -184,7 +184,7 @@
     ],
     "answer": 0,
     "translation": "For your health, it's important to keep doing a moderate amount of exercise.",
-    "explanation": "適度（てきど）means 'moderate, the right amount or degree - not too much and not too little'. It is used as a na-adjective before a noun or as an adverb with に: 適度な運動 'moderate exercise', 適度な休憩 'a reasonable amount of rest', 適度に水をやる 'water (plants) in moderation', 適度な湿度 'a comfortable level of humidity'. It is always about an amount or degree. Sentence 1 is the textbook collocation. The wrong sentences use 適度 where similar-looking words belong: 適切 'appropriate, correct for the situation', 適性 'aptitude', and 程度 'degree, extent' (a noun asking 'how much').",
+    "explanation": "適度（てきど）means 'moderate, the right amount or degree - not too much and not too little'. It is used as a na-adjective before a noun or as an adverb with に: 適度な運動 'moderate exercise', 適度な休憩 'a reasonable amount of rest', 適度に水をやる 'water (plants) in moderation', 適度な湿度 'a comfortable level of humidity'. It is always about an amount or degree. The sentence with 適度な運動を続ける 'keep doing moderate exercise' is the textbook collocation. The wrong sentences use 適度 where similar-looking words belong: 適切 'appropriate, correct for the situation', 適性 'aptitude', and 程度 'degree, extent' (a noun asking 'how much').",
     "choice_notes": [
       "Correct. 適度な運動 'moderate exercise' is the most typical collocation of 適度.",
       "Wrong. An answer that is right for the situation is 適切（てきせつ）: 彼の答えは適切だった.",
@@ -278,7 +278,7 @@
     ],
     "answer": 2,
     "translation": "It is precisely during an earthquake that it's important to act calmly without panicking.",
-    "explanation": "冷静（れいせい）is a na-adjective meaning 'calm, composed, cool-headed': a person's mind or behavior is not disturbed by emotion. Typical phrases: 冷静な判断 'a calm judgment', 冷静に話し合う 'discuss calmly', 冷静になる 'calm down', 冷静さを失う 'lose one's composure'. Even though it contains 冷 'cold', it is never about physical temperature, and it is not negative like 冷たい 'cold-hearted'. Sentence 3 is correct: acting calmly instead of panicking (慌てずに) in an emergency.",
+    "explanation": "冷静（れいせい）is a na-adjective meaning 'calm, composed, cool-headed': a person's mind or behavior is not disturbed by emotion. Typical phrases: 冷静な判断 'a calm judgment', 冷静に話し合う 'discuss calmly', 冷静になる 'calm down', 冷静さを失う 'lose one's composure'. Even though it contains 冷 'cold', it is never about physical temperature, and it is not negative like 冷たい 'cold-hearted'. The sentence 地震のときこそ、慌てずに冷静に行動することが大切だ is correct: acting calmly instead of panicking (慌てずに) in an emergency.",
     "choice_notes": [
       "Wrong. Juice getting cold is 冷える（ひえる）: ジュースが冷えた.",
       "Wrong. A cold wind is 冷たい風（つめたいかぜ）.",
@@ -364,7 +364,7 @@
     ],
     "answer": 2,
     "translation": "Smartphones became widespread, and people's lives changed greatly.",
-    "explanation": "普及（ふきゅう）means 'spread, coming into wide use': a product, technology, idea, or custom is adopted widely across society. Typical uses: インターネットの普及 'the spread of the internet', 電気自動車が普及する 'electric cars become common', 普及率 'adoption rate', 普及させる 'popularize'. It is used for things that people adopt and use, so sentence 3 (smartphones) is a perfect example. It is not used for news or rumors spreading (広まる), for repairs (修理), or for train service being restored (復旧, which sounds similar).",
+    "explanation": "普及（ふきゅう）means 'spread, coming into wide use': a product, technology, idea, or custom is adopted widely across society. Typical uses: インターネットの普及 'the spread of the internet', 電気自動車が普及する 'electric cars become common', 普及率 'adoption rate', 普及させる 'popularize'. It is used for things that people adopt and use, so スマートフォンが普及して 'smartphones became widespread' is a perfect example. It is not used for news or rumors spreading (広まる), for repairs (修理), or for train service being restored (復旧, which sounds similar).",
     "choice_notes": [
       "Wrong. News or rumors spreading is 広まる（ひろまる）: 町中に広まった.",
       "Wrong. Repairing a broken computer is 修理（しゅうり）: 店で修理してもらった.",
@@ -443,7 +443,7 @@
     ],
     "answer": 0,
     "translation": "I practice every day so that I can fully show my true ability in the actual performance.",
-    "explanation": "発揮（はっき）means 'displaying, demonstrating, bringing out (one's ability or power)'. It is used with abilities, strengths, or effects that a person or thing has inside: 実力を発揮する 'show one's true ability', 力を発揮する 'show one's strength', リーダーシップを発揮する 'show leadership', 効果を発揮する 'have an effect'. The object is always some kind of power or ability, so sentence 1 is correct. The wrong sentences confuse it with other words: 発表 'announce, present', 発生 'occur, break out', and 施行 'put (a law) into effect'.",
+    "explanation": "発揮（はっき）means 'displaying, demonstrating, bringing out (one's ability or power)'. It is used with abilities, strengths, or effects that a person or thing has inside: 実力を発揮する 'show one's true ability', 力を発揮する 'show one's strength', リーダーシップを発揮する 'show leadership', 効果を発揮する 'have an effect'. The object is always some kind of power or ability, so 実力を十分に発揮できるように 'so that I can fully show my true ability' is correct. The wrong sentences confuse it with other words: 発表 'announce, present', 発生 'occur, break out', and 施行 'put (a law) into effect'.",
     "choice_notes": [
       "Correct. 実力を発揮する 'show one's true ability' is the standard collocation.",
       "Wrong. A law coming into effect is 施行（しこう）される or 実施（じっし）される: 来月から施行される.",
@@ -617,7 +617,7 @@
     ],
     "answer": 3,
     "translation": "My father has worked in the medical field for thirty years.",
-    "explanation": "携わる（たずさわる）means 'to be engaged in, to be involved in, to work in (a job, field, or project)'. It is a slightly formal word, and the pattern is always [field / work] + に携わる: 教育に携わる 'work in education', 研究に携わる 'be engaged in research', 映画の制作に携わる 'be involved in making a film'. It usually describes long-term or professional involvement, so sentence 4 is correct. Don't confuse it with 携える（たずさえる）'to carry with you', with 尋ねる（たずねる）'to ask', which sounds similar, or with 手をつなぐ 'to hold hands'.",
+    "explanation": "携わる（たずさわる）means 'to be engaged in, to be involved in, to work in (a job, field, or project)'. It is a slightly formal word, and the pattern is always [field / work] + に携わる: 教育に携わる 'work in education', 研究に携わる 'be engaged in research', 映画の制作に携わる 'be involved in making a film'. It usually describes long-term or professional involvement, so 父は三十年間、医療の仕事に携わってきた is correct. Don't confuse it with 携える（たずさえる）'to carry with you', with 尋ねる（たずねる）'to ask', which sounds similar, or with 手をつなぐ 'to hold hands'.",
     "choice_notes": [
       "Wrong. Carrying a camera is 持つ or 携帯する（けいたいする）: カメラを持って出かける. (The formal verb 携える たずさえる 'to carry' also exists, but 携わる does not mean 'carry'.)",
       "Wrong. Asking a stranger the way is 尋ねる（たずねる）: 道を尋ねた.",
@@ -704,7 +704,7 @@
     ],
     "answer": 2,
     "translation": "If you use this app, you can easily look up cooking recipes.",
-    "explanation": "手軽（てがる）is a na-adjective meaning 'easy, simple, handy - needing little effort, time, or money'. It describes how easily a person can do, get, or use something: 手軽に楽しめる 'can be enjoyed easily', 手軽な料理 'a quick, simple dish', 手軽な値段 'a reasonable price', 手軽に始められる 'easy to get started with'. Sentence 3 is correct: the app lets you look up recipes with little effort. Although 手軽 contains 軽 'light', it is not about weight (軽い), a person's character (気さく), or how difficult a test is (簡単, やさしい).",
+    "explanation": "手軽（てがる）is a na-adjective meaning 'easy, simple, handy - needing little effort, time, or money'. It describes how easily a person can do, get, or use something: 手軽に楽しめる 'can be enjoyed easily', 手軽な料理 'a quick, simple dish', 手軽な値段 'a reasonable price', 手軽に始められる 'easy to get started with'. The sentence レシピを手軽に調べられる is correct: the app lets you look up recipes with little effort. Although 手軽 contains 軽 'light', it is not about weight (軽い), a person's character (気さく), or how difficult a test is (簡単, やさしい).",
     "choice_notes": [
       "Wrong. A bag that isn't heavy is 軽い（かるい）: このかばんは軽くて.",
       "Wrong. A friendly, easygoing personality is 気さく（きさく）: 気さくな性格で.",
@@ -798,7 +798,7 @@
     ],
     "answer": 0,
     "translation": "The grandparents spoil their grandchild and buy anything he wants.",
-    "explanation": "甘やかす（あまやかす）means 'to spoil, to indulge, to pamper': to be too soft on someone and let them do or have whatever they want. Typical uses: 子どもを甘やかす 'spoil a child', 甘やかして育てる 'bring up (a child) spoiled', 自分を甘やかす 'go easy on oneself'. It is transitive: [A] が [B] を甘やかす, where A is the one who is too kind. Its partner 甘える（あまえる）is intransitive: [B] が [A] に甘える 'to act like a spoiled child toward A, to rely on A's kindness'. Sentence 1 is correct; sentence 3 mixes up these two verbs, which is the most common mistake.",
+    "explanation": "甘やかす（あまやかす）means 'to spoil, to indulge, to pamper': to be too soft on someone and let them do or have whatever they want. Typical uses: 子どもを甘やかす 'spoil a child', 甘やかして育てる 'bring up (a child) spoiled', 自分を甘やかす 'go easy on oneself'. It is transitive: [A] が [B] を甘やかす, where A is the one who is too kind. Its partner 甘える（あまえる）is intransitive: [B] が [A] に甘える 'to act like a spoiled child toward A, to rely on A's kindness'. The sentence about grandparents who buy their grandchild anything he wants (孫を甘やかして) is correct; the sentence 先輩に甘やかして mixes up these two verbs, which is the most common mistake.",
     "choice_notes": [
       "Correct. Grandparents spoiling a grandchild by buying anything he wants is the typical use of 甘やかす.",
       "Wrong. A cake becoming too sweet is 甘くなる / 甘くしすぎる: 甘くなりすぎてしまった.",
@@ -892,7 +892,7 @@
     ],
     "answer": 1,
     "translation": "That athlete retired from active competition at thirty because of an injury.",
-    "explanation": "引退（いんたい）means 'retirement (from an active career or position)': an athlete, entertainer, politician, or similar person permanently leaves their career. Typical uses: 現役を引退する 'retire from active play', 引退試合 'a farewell match', 芸能界を引退する 'retire from show business', 社長を引退する 'retire as company president'. For ordinary employees reaching retirement age, 定年退職（ていねんたいしょく）is more common. 引退 is about ending a career for good, so sentence 2 is correct. It is not used for moving house, taking shelter, or leaving school early - other words containing 引 or 退 cover those.",
+    "explanation": "引退（いんたい）means 'retirement (from an active career or position)': an athlete, entertainer, politician, or similar person permanently leaves their career. Typical uses: 現役を引退する 'retire from active play', 引退試合 'a farewell match', 芸能界を引退する 'retire from show business', 社長を引退する 'retire as company president'. For ordinary employees reaching retirement age, 定年退職（ていねんたいしょく）is more common. 引退 is about ending a career for good, so the sentence about the athlete who retired from active play at thirty (現役を引退した) is correct. It is not used for moving house (引っ越す), taking shelter (避難), or leaving school early (早退).",
     "choice_notes": [
       "Wrong. Moving to a new home is 引っ越す（ひっこす）: 新しいマンションに引っ越す.",
       "Correct. An athlete retiring from active play is the standard use of 引退.",
@@ -979,7 +979,7 @@
     ],
     "answer": 3,
     "translation": "When the factory tour is over, we will break up (and go our separate ways) in front of the station.",
-    "explanation": "解散（かいさん）means 'breaking up, dispersal, disbanding': a group of people who had gathered separates and each person goes their own way. There are two typical uses: (1) the end of a group activity, as in sentence 4: 駅前で解散する 'break up at the station', 現地解散 'dismissed at the site'; (2) an organization ceasing to exist: バンドが解散する 'the band breaks up', 国会を解散する 'dissolve the Diet'. The opposite is 集合（しゅうごう）'gathering, assembling'. 解散 is not used for substances dissolving (溶ける), for questions being cleared up (解ける), or for events being cancelled (中止).",
+    "explanation": "解散（かいさん）means 'breaking up, dispersal, disbanding': a group of people who had gathered separates and each person goes their own way. There are two typical uses: (1) the end of a group activity, as in the factory-tour sentence 見学が終わったら、駅前で解散します: 駅前で解散する 'break up at the station', 現地解散 'dismissed at the site'; (2) an organization ceasing to exist: バンドが解散する 'the band breaks up', 国会を解散する 'dissolve the Diet'. The opposite is 集合（しゅうごう）'gathering, assembling'. 解散 is not used for substances dissolving (溶ける), for questions being cleared up (解ける), or for events being cancelled (中止).",
     "choice_notes": [
       "Wrong. Medicine dissolving in water is 溶ける（とける）: すぐに溶ける.",
       "Wrong. A long-held question being cleared up is 解ける（とける）or 解消（かいしょう）する: 疑問がやっと解けた.",
@@ -1074,7 +1074,7 @@
     ],
     "answer": 2,
     "translation": "I make up for the nutrients I can't get from meals alone with supplements.",
-    "explanation": "補う（おぎなう）means 'to make up for, to compensate for, to supplement': you add something to fill a lack or a shortage. Typical uses: 不足を補う 'make up for a shortage', 栄養を補う 'supplement one's nutrition', 説明を補う 'add to an explanation', 欠点を補う 'make up for a weak point', 互いに補い合う 'complement each other'. The object is usually something that is missing or insufficient, so sentence 3 (nutrients that are 足りない) is a perfect fit. A related noun is 補足（ほそく）'supplement, additional explanation'. It is not used for bringing in laundry, giving up seats, or repairing things.",
+    "explanation": "補う（おぎなう）means 'to make up for, to compensate for, to supplement': you add something to fill a lack or a shortage. Typical uses: 不足を補う 'make up for a shortage', 栄養を補う 'supplement one's nutrition', 説明を補う 'add to an explanation', 欠点を補う 'make up for a weak point', 互いに補い合う 'complement each other'. The object is usually something that is missing or insufficient, so the sentence about using supplements to make up for nutrients that are 足りない is a perfect fit. A related noun is 補足（ほそく）'supplement, additional explanation'. It is not used for bringing in laundry, giving up seats, or repairing things.",
     "choice_notes": [
       "Wrong. Bringing in the laundry is 取り込む（とりこむ）: 洗濯物を取り込んだ.",
       "Wrong. Giving up your seat is 譲る（ゆずる）: お年寄りに席を譲った.",
@@ -1161,7 +1161,7 @@
     ],
     "answer": 0,
     "translation": "I carelessly missed the final episode of the drama I had been looking forward to.",
-    "explanation": "見逃す（みのがす）has two main meanings: (1) to miss seeing something, to fail to notice: ドラマを見逃す 'miss a TV show', チャンスを見逃す 'miss a chance', 間違いを見逃す 'overlook a mistake'; (2) to let something pass, to turn a blind eye: 今回だけは見逃してあげる 'I'll let it go just this once'. Both share the idea of something passing by without your eyes catching it (逃す = 'to let escape'). It often comes with うっかり 'carelessly' and 〜てしまう (regret), as in sentence 1. The wrong sentences use other 見〜 compound verbs that learners mix up: 見送る 'see off', 見守る 'watch over', 見上げる 'look up at'.",
+    "explanation": "見逃す（みのがす）has two main meanings: (1) to miss seeing something, to fail to notice: ドラマを見逃す 'miss a TV show', チャンスを見逃す 'miss a chance', 間違いを見逃す 'overlook a mistake'; (2) to let something pass, to turn a blind eye: 今回だけは見逃してあげる 'I'll let it go just this once'. Both share the idea of letting something slip past you, either without noticing it or on purpose (逃す = 'to let escape'). It often comes with うっかり 'carelessly' and 〜てしまう (regret), as in the correct sentence ドラマの最終回を、うっかり見逃してしまった. The wrong sentences use other 見〜 compound verbs that learners mix up: 見送る 'see off', 見守る 'watch over', 見上げる 'look up at'.",
     "choice_notes": [
       "Correct. Missing the final episode of a drama is a typical use of 見逃す.",
       "Wrong. Seeing a friend off at the airport is 見送る（みおくる）: 友達を見送った.",
@@ -1247,7 +1247,7 @@
     ],
     "answer": 1,
     "translation": "We took employees' opinions on board and improved the way we work.",
-    "explanation": "改善（かいぜん）means 'improvement': making a bad or insufficient situation better by fixing its problems. Typical uses: 改善する, 改善点 'points to improve', 生活習慣を改善する 'improve one's lifestyle habits', 状況が改善される 'the situation is improved', 体質改善 'improving one's constitution'. The object or subject is usually a system, method, condition, or situation - not a building and not a person. Sentence 2 (improving the way people work) is a textbook example. The wrong sentences need 改装 'renovation', 回復 'recovery', and 変更 'change'.",
+    "explanation": "改善（かいぜん）means 'improvement': making a bad or insufficient situation better by fixing its problems. Typical uses: 改善する, 改善点 'points to improve', 生活習慣を改善する 'improve one's lifestyle habits', 状況が改善される 'the situation is improved', 体質改善 'improving one's constitution'. The object or subject is usually a system, method, condition, or situation - not a building and not a person. The sentence about improving the way people work (働き方を改善した) is a textbook example. The wrong sentences need 改装 'renovation', 回復 'recovery', and 変更 'change'.",
     "choice_notes": [
       "Wrong. Renovating an old house is 改装（かいそう）or リフォーム: 古くなった家を改装して.",
       "Correct. Improving a way of working (a method or system) is a typical use of 改善.",
@@ -1326,7 +1326,7 @@
     ],
     "answer": 3,
     "translation": "Because there were many visitors, it was decided to extend the exhibition by one week.",
-    "explanation": "延長（えんちょう）means 'extension, prolongation': making a period of time or a length longer than originally planned. Typical uses: 期間を延長する 'extend the period', 会議が三十分延長された 'the meeting ran thirty minutes over', 延長戦 'extra time / overtime (in sports)', ビザを延長する 'extend a visa'. The key point is that the end point moves later (or farther) while the thing continues without a break, as in sentence 4. The most common trap is 延期（えんき）'postponement', where the whole event is moved to a later date and does not take place as scheduled.",
+    "explanation": "延長（えんちょう）means 'extension, prolongation': making a period of time or a length longer than originally planned. Typical uses: 期間を延長する 'extend the period', 会議が三十分延長された 'the meeting ran thirty minutes over', 延長戦 'extra time / overtime (in sports)', ビザを延長する 'extend a visa'. The key point is that the end point moves later (or farther) while the thing continues without a break, as in the sentence about extending the exhibition period by a week. The most common trap is 延期（えんき）'postponement', where the whole event is moved to a later date and does not take place as scheduled.",
     "choice_notes": [
       "Wrong. Moving the sports day to next week is 延期（えんき）'postponement': 来週に延期された.",
       "Wrong. Rubber stretching is 伸びる（のびる）: 引っ張るとよく伸びる.",
@@ -1413,7 +1413,7 @@
     ],
     "answer": 0,
     "translation": "My younger brother got so absorbed in his game that he even forgot about dinner time.",
-    "explanation": "夢中（むちゅう）means 'absorbed in, crazy about, totally focused on (forgetting everything else)'. The basic patterns are 〜に夢中になる 'get absorbed in ~', 〜に夢中だ 'be crazy about ~', and 夢中で + verb 'do ~ with total focus, desperately' (夢中で走った 'ran for dear life'). It is a positive or neutral word for strong concentration or passion, so sentence 1 is correct. Although it contains 夢 'dream', it does not mean 'a dream': for dreams while sleeping or goals for the future, use 夢（ゆめ）. It is also not about worrying (心配) or deep sleep (ぐっすり).",
+    "explanation": "夢中（むちゅう）means 'absorbed in, crazy about, totally focused on (forgetting everything else)'. The basic patterns are 〜に夢中になる 'get absorbed in ~', 〜に夢中だ 'be crazy about ~', and 夢中で + verb 'do ~ with total focus, desperately' (夢中で走った 'ran for dear life'). It is a positive or neutral word for strong concentration or passion, so the sentence ゲームに夢中になって is correct. Although it contains 夢 'dream', it does not mean 'a dream': for dreams while sleeping or goals for the future, use 夢（ゆめ）. It is also not about worrying (心配) or deep sleep (ぐっすり).",
     "choice_notes": [
       "Correct. ゲームに夢中になる 'get absorbed in a game' is the typical pattern.",
       "Wrong. Worrying about tomorrow's exam is 心配（しんぱい）: 試験のことが心配で.",
@@ -1499,7 +1499,7 @@
     ],
     "answer": 2,
     "translation": "Please return books borrowed from the library within two weeks.",
-    "explanation": "返却（へんきゃく）means 'returning (something borrowed or entrusted) to its owner'. It is a formal word used for books, rental items, documents, deposits, and so on: 本を返却する 'return a book', 返却期限 'due date', 返却口 'return slot', レンタカーを返却する 'return a rental car'. In casual speech people simply say 返す. It is only used for things (or money held for you), so sentence 3 (library books) is correct. It is not used for replies to messages (返信, 返事), for answering questions (答える), or for going back the way you came (引き返す).",
+    "explanation": "返却（へんきゃく）means 'returning (something borrowed or entrusted) to its owner'. It is a formal word used for books, rental items, documents, deposits, and so on: 本を返却する 'return a book', 返却期限 'due date', 返却口 'return slot', レンタカーを返却する 'return a rental car'. In casual speech people simply say 返す. It is only used for things (or money held for you), so the sentence about returning library books is correct. It is not used for replies to messages (返信, 返事), for answering questions (答える), or for going back the way you came (引き返す).",
     "choice_notes": [
       "Wrong. A reply to an email is 返信（へんしん）or 返事（へんじ）: まだ返信が来ない.",
       "Wrong. Going back the way you came is 引き返す（ひきかえす）: 来た道を引き返した.",
@@ -1586,7 +1586,7 @@
     ],
     "answer": 1,
     "translation": "This desk is built so solidly that it won't break even if you stand on it.",
-    "explanation": "頑丈（がんじょう）is a na-adjective meaning 'sturdy, solid, strong, robust': something is physically strong and hard to break. It is used mainly for objects and structures: 頑丈な箱 'a sturdy box', 頑丈な建物 'a solid building', 頑丈なかばん 'a tough bag', 頑丈に作られている 'is solidly built'. It can also describe a strongly built body (頑丈な体). Sentence 2 is correct. It is not about personality (頑固 'stubborn'), taste (濃い 'strong'), or effort (頑張る 'try hard'). All three traps share the kanji 頑 or the English word 'strong'.",
+    "explanation": "頑丈（がんじょう）is a na-adjective meaning 'sturdy, solid, strong, robust': something is physically strong and hard to break. It is used mainly for objects and structures: 頑丈な箱 'a sturdy box', 頑丈な建物 'a solid building', 頑丈なかばん 'a tough bag', 頑丈に作られている 'is solidly built'. It can also describe a strongly built body (頑丈な体). The sentence about the solidly built desk (この机は頑丈に作られている) is correct. It is not about personality (頑固 'stubborn'), taste (濃い 'strong'), or effort (頑張る 'try hard'). All three traps share the kanji 頑 or the English word 'strong'.",
     "choice_notes": [
       "Wrong. A stubborn personality is 頑固（がんこ）: 頑固な性格で.",
       "Correct. A desk built so solidly that it won't break is exactly 頑丈.",
@@ -1672,7 +1672,7 @@
     ],
     "answer": 3,
     "translation": "The city is actively tackling the garbage problem.",
-    "explanation": "取り組む（とりくむ）means 'to tackle, to work on, to grapple with (a problem or task) seriously'. The pattern is [problem / task]に取り組む: 問題に取り組む 'tackle a problem', 研究に取り組む 'work on research', 環境問題に取り組む 'tackle environmental issues'. The noun 取り組み means 'efforts, initiative'. It implies serious, continued effort and is often paired with 積極的に 'actively' or 真剣に 'earnestly', as in sentence 4. The wrong sentences confuse it with look-alike verbs: 取る 'to take', 採用する 'to hire', and 取り入れる 'to adopt, to incorporate'.",
+    "explanation": "取り組む（とりくむ）means 'to tackle, to work on, to grapple with (a problem or task) seriously'. The pattern is [problem / task]に取り組む: 問題に取り組む 'tackle a problem', 研究に取り組む 'work on research', 環境問題に取り組む 'tackle environmental issues'. The noun 取り組み means 'efforts, initiative'. It implies serious, continued effort and is often paired with 積極的に 'actively' or 真剣に 'earnestly', as in the correct sentence ごみ問題に積極的に取り組んでいる. The wrong sentences confuse it with related verbs: 取る 'to take', 採用する 'to hire', and 取り入れる 'to adopt, to incorporate'.",
     "choice_notes": [
       "Wrong. Taking a box from a high shelf is 取る（とる）: 箱を取ろうとしたが.",
       "Wrong. Hiring new employees is 採用（さいよう）する: 新しい社員を三人採用した.",
@@ -1767,7 +1767,7 @@
     ],
     "answer": 2,
     "translation": "I jog every morning to stay healthy.",
-    "explanation": "保つ（たもつ）means 'to keep, to maintain, to preserve (a state or level)'. The object is usually a condition: 健康を保つ 'stay healthy', 若さを保つ 'stay young', 温度を一定に保つ 'keep the temperature constant', 距離を保つ 'keep one's distance', 清潔に保つ 'keep clean'. The idea is keeping a state unchanged over time, so sentence 3 is correct. In English all four sentences use 'keep', which is the trap: keeping a promise is 守る, looking after something for someone is 預かる, and keeping a pet is 飼う.",
+    "explanation": "保つ（たもつ）means 'to keep, to maintain, to preserve (a state or level)'. The object is usually a condition: 健康を保つ 'stay healthy', 若さを保つ 'stay young', 温度を一定に保つ 'keep the temperature constant', 距離を保つ 'keep one's distance', 清潔に保つ 'keep clean'. The idea is keeping a state unchanged over time, so the sentence 健康を保つために、毎朝ジョギングをしている is correct. In English all four sentences use 'keep', which is the trap: keeping a promise is 守る, looking after something for someone is 預かる, and keeping a pet is 飼う.",
     "choice_notes": [
       "Wrong. Keeping a promise is 守る（まもる）: 約束は必ず守るようにしている.",
       "Wrong. Looking after someone's dog is 預かる（あずかる）: 隣の家の人に犬を預かってもらった.",
@@ -1853,7 +1853,7 @@
     ],
     "answer": 1,
     "translation": "Making use of my experience of studying abroad, I work as an interpreter.",
-    "explanation": "生かす（いかす）has two meanings: (1) 'to make good use of, to put to use, to take advantage of' an ability, experience, or feature: 経験を生かす 'make use of one's experience', 特技を生かす 'use one's special skill', 素材の味を生かす 'bring out the natural flavor of the ingredients'; (2) 'to keep alive' (釣った魚を生かしておく 'keep a caught fish alive'). At N2, meaning (1) is the most important, usually in the pattern 〜を生かして + action, exactly as in sentence 2. 生かす is transitive (someone 生かす something). Do not confuse it with 生きる 'to live', 生える 'to grow (plants, hair)', or つける 'to switch on'.",
+    "explanation": "生かす（いかす）has two meanings: (1) 'to make good use of, to put to use, to take advantage of' an ability, experience, or feature: 経験を生かす 'make use of one's experience', 特技を生かす 'use one's special skill', 素材の味を生かす 'bring out the natural flavor of the ingredients'; (2) 'to keep alive' (釣った魚を生かしておく 'keep a caught fish alive'). At N2, meaning (1) is the most important, usually in the pattern 〜を生かして + action, exactly as in the correct sentence 留学の経験を生かして、通訳の仕事をしている. 生かす is transitive (someone 生かす something). Do not confuse it with 生きる 'to live', 生える 'to grow (plants, hair)', or つける 'to switch on'.",
     "choice_notes": [
       "Wrong. Weeds growing is 生える（はえる）: 雑草がたくさん生えている.",
       "Correct. 経験を生かして 'making use of one's experience' is the typical pattern of 生かす.",
@@ -1932,7 +1932,7 @@
     ],
     "answer": 3,
     "translation": "This ticket is valid for one week from the day of purchase.",
-    "explanation": "有効（ゆうこう）has two related meanings: (1) 'valid, in force' for tickets, passports, contracts, votes, and so on: 一週間有効 'valid for one week', 有効期限 'expiration date', 有効な投票 'a valid vote'; (2) 'effective, useful': 時間を有効に使う 'use one's time effectively', 有効な方法 'an effective method'. The opposite is 無効（むこう）'invalid'. Sentence 4 uses meaning (1). Be careful with the homophone 友好（ゆうこう）'friendship (between countries or groups)', which sounds exactly the same, and with other words starting with 有 or 優: 有名 'famous', 優秀 'excellent'.",
+    "explanation": "有効（ゆうこう）has two related meanings: (1) 'valid, in force' for tickets, passports, contracts, votes, and so on: 一週間有効 'valid for one week', 有効期限 'expiration date', 有効な投票 'a valid vote'; (2) 'effective, useful': 時間を有効に使う 'use one's time effectively', 有効な方法 'an effective method'. The opposite is 無効（むこう）'invalid'. The ticket sentence (このチケットは、買った日から一週間有効です) uses meaning (1). Be careful with the homophone 友好（ゆうこう）'friendship (between countries or groups)', which sounds exactly the same, and with other words starting with 有 or 優: 有名 'famous', 優秀 'excellent'.",
     "choice_notes": [
       "Wrong. An excellent student is 優秀（ゆうしゅう）: クラスで一番優秀な学生.",
       "Wrong. Being well known for something is 有名（ゆうめい）: きれいな海があることで有名だ.",
@@ -2026,7 +2026,7 @@
     ],
     "answer": 0,
     "translation": "In our home, the whole family shares the housework.",
-    "explanation": "分担（ぶんたん）means 'division of work or responsibility, sharing (a task or a cost)': several people each take on part of a job or burden. Typical uses: 家事を分担する 'share the housework', 役割分担 'division of roles', 費用を分担する 'split the costs', 分担して作業する 'divide up the work'. The object is always work, roles, or costs, so sentence 1 is correct. It is not used for cutting up physical objects (分ける), sorting garbage (分別), or being different (違う). The kanji 担 means 'to carry (a burden)', as in 担当 'being in charge'.",
+    "explanation": "分担（ぶんたん）means 'division of work or responsibility, sharing (a task or a cost)': several people each take on part of a job or burden. Typical uses: 家事を分担する 'share the housework', 役割分担 'division of roles', 費用を分担する 'split the costs', 分担して作業する 'divide up the work'. The object is always work, roles, or costs, so the sentence about sharing the housework (家事を家族みんなで分担している) is correct. It is not used for cutting up physical objects (分ける), sorting garbage (分別), or being different (違う). The kanji 担 means 'to carry (a burden)', as in 担当 'being in charge'.",
     "choice_notes": [
       "Correct. Sharing housework among family members is the typical use of 分担.",
       "Wrong. Cutting a cake into eight pieces is 分ける（わける）or 切り分ける: 八つに切り分けて.",
@@ -2105,12 +2105,12 @@
     ],
     "answer": 1,
     "translation": "This summer, damage from heavy rain occurred one after another in many places.",
-    "explanation": "相次ぐ（あいつぐ）means 'to happen one after another, to occur in succession': several similar events happen in a row within a short period. It is typical of news language, and the events are often negative: 事故が相次ぐ 'accidents happen one after another', 苦情が相次ぐ 'complaints keep coming in', 相次いで発表する 'announce one after another'. The subject is a series of separate events, so sentence 2 (damage in many places) is correct. It is not used for succeeding someone (継ぐ, which shares the sound つぐ), for consulting (相談する, which shares the kanji 相), or for one continuous action (続ける).",
+    "explanation": "相次ぐ（あいつぐ）means 'to happen one after another, to occur in succession': several similar events happen in a row within a short period. It is typical of news language, and the events are often negative: 事故が相次ぐ 'accidents happen one after another', 苦情が相次ぐ 'complaints keep coming in', 相次いで発表する 'announce one after another'. The subject is a series of separate events, so the sentence about heavy-rain damage in many places (各地で大雨による被害が相次いだ) is correct. It is not used for succeeding someone (継ぐ, which shares the sound つぐ), for consulting (相談する, which shares the kanji 相), or for one continuous action (続ける).",
     "choice_notes": [
       "Wrong. Following in one's mother's footsteps is 継ぐ（つぐ）: 母の後を継いで.",
       "Correct. Damage from heavy rain occurring in many places one after another is the typical use of 相次ぐ.",
       "Wrong. Consulting a teacher is 相談（そうだん）する: いつでも先生に相談してください.",
-      "Wrong. Working at one company continuously is 続けて or ずっと: 二十年続けて勤めている. 相次ぐ is for separate events happening one after another, not one continuous action."
+      "Wrong. Working at one company continuously is expressed with ずっと or 勤め続ける: 二十年ずっと勤めている / 二十年勤め続けている. 相次ぐ is for separate events happening one after another, not one continuous action."
     ],
     "vocab": [
       {

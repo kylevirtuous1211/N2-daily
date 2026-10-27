@@ -73,7 +73,7 @@
       {
         "pattern": "〜のか (question inside a sentence)",
         "meaning": "what / whether ~ (an embedded question)",
-        "formation": "Question word + plain form + のか (な-adj / noun + なのか)",
+        "formation": "(Question word +) plain form + のか (な-adj / noun + なのか); without a question word it means 'whether ~'",
         "example": "駅{えき}までどう行{い}けばいいのか教{おし}えてください。",
         "example_translation": "Please tell me how I should get to the station."
       }
@@ -759,7 +759,7 @@
       {
         "pattern": "〜ように (purpose)",
         "meaning": "so that ~, so as not to ~",
-        "formation": "Verb dictionary form / ない-form / potential form + ように",
+        "formation": "Verb dictionary form (usually a non-volitional verb such as なる, わかる, 見える) / ない-form / potential form + ように (when the same person deliberately does an action for a goal, use 〜ために instead)",
         "example": "忘{わす}れないように、メモしておこう。",
         "example_translation": "Let's write it down so we don't forget."
       }
@@ -2364,7 +2364,7 @@
       {
         "pattern": "〜ても",
         "meaning": "even if ~",
-        "formation": "Verb て-form + も (〜ていても = even if one is ~ing)",
+        "formation": "Verb / い-adjective て-form + も (寒い → 寒くても; 〜ていても = even if one is ~ing)",
         "example": "寒{さむ}くても、毎朝{まいあさ}走{はし}っている。",
         "example_translation": "Even when it's cold, I run every morning."
       },
@@ -2451,7 +2451,7 @@
       {
         "pattern": "〜せいか",
         "meaning": "perhaps because of ~ (usually for a negative result)",
-        "formation": "Plain form / noun + の + せいか",
+        "formation": "Verb / い-adjective plain form + せいか; な-adjective + な + せいか; noun + の + せいか",
         "example": "寝不足{ねぶそく}のせいか、頭{あたま}が痛{いた}い。",
         "example_translation": "Maybe because I didn't sleep enough, I have a headache."
       },
@@ -2711,9 +2711,9 @@
     ],
     "grammar": [
       {
-        "pattern": "Passive (〜られる)",
+        "pattern": "Passive (〜れる / 〜られる)",
         "meaning": "to be ~ed (by someone)",
-        "formation": "Verb passive form + (by) person に (頼む → 頼まれる)",
+        "formation": "Person + に + verb passive form. Godan: -u → -areru (頼む → 頼まれる); ichidan: る → られる (ほめる → ほめられる)",
         "example": "先生{せんせい}にほめられた。",
         "example_translation": "I was praised by my teacher."
       }
@@ -3154,7 +3154,7 @@
     "answer": 1,
     "full_sentence": "弟{おとうと}はそそっかしい性格{せいかく}で、よく忘{わす}れ物{もの}をしたり、物{もの}を落{お}としたりする。",
     "translation": "My younger brother is a scatterbrain; he often leaves things behind and drops things.",
-    "explanation": "The examples after the blank, よく忘れ物をしたり物を落としたりする 'often forgets things and drops things', describe someone careless and hasty. そそっかしい means 'careless, hasty, scatterbrained (making mistakes because of rushing or not paying attention)'. Common uses: そそっかしい人 'a scatterbrain', そそっかしい性格 'a careless personality', そそっかしいミス 'a careless mistake'. Its opposite is 用心深い 'cautious', which appears as a distractor.",
+    "explanation": "The examples after the blank, よく忘れ物をしたり物を落としたりする 'often forgets things and drops things', describe someone careless and hasty. そそっかしい means 'careless, hasty, scatterbrained (making mistakes because of rushing or not paying attention)'. Common uses: そそっかしい人 'a scatterbrain', そそっかしい性格 'a careless personality', そそっかしいところがある 'to have a careless streak'. Its opposite is 用心深い 'cautious', which appears as a distractor.",
     "choice_notes": [
       "Wrong. たくましい（逞しい）means 'strong, sturdy, tough'. Correct usage: たくましい体 'a muscular body', たくましく生きる 'to live with strength'. It does not explain forgetting things.",
       "Correct. そそっかしい 'careless, hasty, scatterbrained'.",
@@ -4257,7 +4257,7 @@
       {
         "pattern": "〜思いをする",
         "meaning": "to go through the feeling of ~, to feel ~",
-        "formation": "い-adj / な-adj + な + 思いをする",
+        "formation": "い-adj + 思いをする (心細い思い) / な-adj + な + 思いをする (残念な思い)",
         "example": "海外{かいがい}で寂{さび}しい思{おも}いをした。",
         "example_translation": "I felt lonely while I was abroad."
       }
@@ -4440,7 +4440,7 @@
     "choice_notes": [
       "Wrong. さっそく（早速）means 'right away, without delay (eager to start)'. Correct usage: 新しいゲームを買って、さっそく遊んだ 'I bought a new game and played it right away'.",
       "Wrong. いまにも（今にも）means 'at any moment' and is used with 〜そうだ: いまにも雨が降りそうだ 'it looks like it will rain any minute'. It cannot be used with an action that is already finished.",
-      "Wrong. まもなく（間もなく）means 'soon, shortly'. Correct usage: まもなく電車が参ります 'the train will arrive shortly'. It refers to the near future, not to a train that has already left.",
+      "Wrong. まもなく（間もなく）means 'soon, shortly (after)'. Correct usage: まもなく電車が参ります 'the train will arrive shortly'. It says something happens a short time later, so it cannot describe a train that had already left long before.",
       "Correct. とっくに 'long ago, already'. とっくに出てしまっていた = 'had left long before'."
     ],
     "vocab": [
@@ -5031,7 +5031,7 @@
       {
         "pattern": "〜ため（に） (reason)",
         "meaning": "because of ~, due to ~ (formal)",
-        "formation": "Plain form / noun + の + ため",
+        "formation": "Verb / い-adj plain form + ため; noun + の + ため; な-adj + な + ため",
         "example": "事故{じこ}のため、電車{でんしゃ}が遅{おく}れています。",
         "example_translation": "The trains are delayed due to an accident."
       },

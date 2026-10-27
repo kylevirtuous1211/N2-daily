@@ -150,7 +150,7 @@
       {
         "pattern": "〜（ら）れる (passive)",
         "meaning": "to have ~ done to one, to be ~ed",
-        "formation": "Godan: ない-stem + れる (指摘する → 指摘される); ichidan: stem + られる",
+        "formation": "Godan: ない-stem + れる (踏む → 踏まれる); ichidan: stem + られる (見る → 見られる); irregular: する → される (指摘する → 指摘される), 来る → 来られる",
         "example": "電車{でんしゃ}の中{なか}で足{あし}を踏{ふ}まれた。",
         "example_translation": "Someone stepped on my foot on the train."
       }
@@ -423,11 +423,11 @@
       },
       {
         "word": "ラッシュ",
-        "reading": "らっしゅ",
+        "reading": "ラッシュ",
         "meaning": "rush hour",
         "pos": "noun",
-        "example": "八時{はちじ}ごろは電車{でんしゃ}がラッシュで混{こ}む。",
-        "example_translation": "Around eight o'clock the trains are crowded with the rush."
+        "example": "八時{はちじ}ごろは通勤{つうきん}ラッシュで電車{でんしゃ}が混{こ}む。",
+        "example_translation": "Around eight o'clock, the trains are crowded because of the commuter rush."
       },
       {
         "word": "早めに",
@@ -791,7 +791,7 @@
     ],
     "answer": 1,
     "translation": "In a hospital, it is important to always keep your hands clean.",
-    "explanation": "せいけつ 'clean, hygienic' is written 清潔. 清 means 'pure, clean' and has the water radical 氵 (clean water), as in 清掃（せいそう）'cleaning'. 潔 also has 氵 and means 'pure'. The trap is the group of look-alike kanji with the part 青, all read せい: 晴 (sun radical, 'clear weather'), 精 (rice radical, 'spirit, precise'). The second kanji is also tested: 契 (as in 契約) looks like the right side of 潔 but lacks 氵. Tip: cleanliness is about water, so both kanji have 氵.",
+    "explanation": "せいけつ 'clean, hygienic' is written 清潔. 清 means 'pure, clean' and has the water radical 氵 (clean water), as in 清掃（せいそう）'cleaning'. 潔 also has 氵 and means 'pure'. The trap is the group of look-alike kanji with the part 青, all read せい: 晴 (sun radical, 'clear weather'), 精 (rice radical, 'spirit, precise'). The second kanji is also tested: 契 (as in 契約) looks like the right side of 潔, but it has 大 at the bottom instead of 糸, and it has no 氵. Tip: cleanliness is about water, so both kanji have 氵.",
     "choice_notes": [
       "Wrong. 晴 has the sun radical 日 and means 'clear (weather)', as in 晴天（せいてん）'fine weather'. 晴潔 is not a word.",
       "Correct. 清潔（せいけつ）'clean, hygienic'. Both kanji have the water radical 氵.",
@@ -1116,7 +1116,7 @@
       },
       {
         "word": "セーター",
-        "reading": "せーたー",
+        "reading": "セーター",
         "meaning": "sweater",
         "pos": "noun",
         "example": "寒{さむ}いのでセーターを着{き}た。",
@@ -1176,11 +1176,11 @@
     ],
     "answer": 3,
     "translation": "Because the games were interrupted by rain, the tournament schedule was extended by one day.",
-    "explanation": "えんちょう 'extension, prolonging' is written 延長. 延 means 'to stretch, to postpone' (延びる 'to be extended', 延期 'postponement') and 長 means 'long'. So 延長 is literally 'stretching longer'. Two traps: 廷 and 誕 contain almost the same shape as 延, so check carefully; and 張 is also read ちょう but means 'to stretch out, to put up' (主張 'claim'), not 'long'. Both 延 and 廷 have the 'stretching' radical 廴, so look at the inside: 延 has a slanted stroke on top of 止, while 廷 has 壬.",
+    "explanation": "えんちょう 'extension, prolonging' is written 延長. 延 means 'to stretch, to postpone' (延びる 'to be extended', 延期 'postponement') and 長 means 'long'. So 延長 is literally 'stretching longer'. Two traps: 廷 has almost the same shape as 延, and 誕 contains the whole of 延 on its right side (言 + 延), so check carefully; and 張 is also read ちょう but means 'to stretch out, to put up' (主張 'claim'), not 'long'. Both 延 and 廷 have the 'stretching' radical 廴, so look at the inside: 延 has a slanted stroke on top of 止, while 廷 has 壬.",
     "choice_notes": [
       "Wrong. 廷 is read てい 'court', as in 法廷（ほうてい）'courtroom'. It has the same outer part 廴 as 延, but the inside is 壬 instead of 延's slanted stroke plus 止. 廷長 is not a word.",
       "Wrong. The first kanji is right, but 張 is the ちょう of 主張（しゅちょう）'claim' and 出張（しゅっちょう）'business trip'. 延張 is not a word.",
-      "Wrong. 誕 is read たん and appears in 誕生（たんじょう）'birth'. 誕長 is not a word.",
+      "Wrong. 誕 is 延 with the speech radical 言 added on the left. It is read たん and appears in 誕生（たんじょう）'birth'. 誕長 is not a word.",
       "Correct. 延長（えんちょう）'extension'. 延 'stretch' + 長 'long'."
     ],
     "vocab": [
@@ -1244,7 +1244,7 @@
       {
         "pattern": "〜される (passive)",
         "meaning": "to be ~ed (the subject receives the action)",
-        "formation": "Suru verb: noun + される (延長する → 延長される)",
+        "formation": "Godan: change the final u-sound to a + れる (書く → 書かれる); ichidan: stem + られる (建てる → 建てられる); suru verb: noun + される (延長する → 延長される)",
         "example": "この寺{てら}は八百年前{はっぴゃくねんまえ}に建{た}てられた。",
         "example_translation": "This temple was built 800 years ago."
       }
@@ -1292,7 +1292,7 @@
         "meaning": "careful, polite, courteous",
         "pos": "na-adjective",
         "example": "彼{かれ}はいつも丁寧{ていねい}に字{じ}を書{か}く。",
-        "example_translation": "He always writes his letters carefully."
+        "example_translation": "He always writes his characters carefully."
       },
       {
         "word": "吸う",
@@ -1483,12 +1483,12 @@
     ],
     "answer": 2,
     "translation": "This road is narrow, so big cars cannot pass through.",
-    "explanation": "せまい 'narrow, small (in space)' is written 狭い. All four choices share the right-hand part 夹, so this question tests whether you know the correct radical. 狭 has the 'animal' radical 犭. The other look-alikes: 挟 with the hand radical 扌 is はさむ 'to put between', 峡 with the mountain radical 山 appears in 海峡（かいきょう）'strait', and 頬 is ほお 'cheek'. The opposite of 狭い is 広い（ひろい）'wide'.",
+    "explanation": "せまい 'narrow, small (in space)' is written 狭い. All four choices contain the part 夹, so this question tests whether you know the correct radical. 狭 has the 'animal' radical 犭 on the left. The other look-alikes: 挟 with the hand radical 扌 is はさむ 'to put between', 峡 with the mountain radical 山 appears in 海峡（かいきょう）'strait', and 頬 (夹 on the left, 頁 'head' on the right) is ほお 'cheek'. The opposite of 狭い is 広い（ひろい）'wide'.",
     "choice_notes": [
       "Wrong. 峡 has the mountain radical 山 and appears in 海峡（かいきょう）'strait' and 峡谷（きょうこく）'gorge'. 峡い is not a word.",
       "Wrong. 挟 has the hand radical 扌 and is used in 挟む（はさむ）'to sandwich, to put between'. 挟い is not a word.",
       "Correct. 狭い（せまい）'narrow, cramped'.",
-      "Wrong. 頬 is read ほお 'cheek'. 頬い is not a word."
+      "Wrong. 頬 is read ほお 'cheek'. Here 夹 is on the left and 頁 'head' is on the right. 頬い is not a word."
     ],
     "vocab": [
       {
@@ -1625,7 +1625,7 @@
     ],
     "answer": 2,
     "translation": "It was decided that the proposal would be considered at the next meeting.",
-    "explanation": "けんとう 'consideration, examination, review' is written 検討. 検 has the tree radical 木 and means 'to examine', as in 検査（けんさ）'inspection'. 討 has the speech radical 言 and means 'to discuss, to examine', as in 討論（とうろん）'debate'. The traps are look-alikes with the same right part as 検: 険 (hill radical 阝, 'danger') and 剣 (with 刂, 'sword'). 当 is another kanji read とう, but it means 'hit, appropriate'. Note: 見当（けんとう）'a rough guess' is a different word.",
+    "explanation": "けんとう 'consideration, examination, review' is written 検討. 検 has the tree radical 木 and means 'to examine', as in 検査（けんさ）'inspection'. 討 has the speech radical 言 and means 'to discuss, to examine', as in 討論（とうろん）'debate'. The traps are look-alikes that share a part with 検: 険 (the same right part as 検, with the hill radical 阝 on the left, 'danger') and 剣 (that part on the left, with the sword radical 刂 on the right, 'sword'). 当 is another kanji read とう, but it means 'hit, appropriate'. Note: 見当（けんとう）'a rough guess' is a different word.",
     "choice_notes": [
       "Wrong. 険 means 'steep, dangerous', as in 危険（きけん）'danger' and 保険（ほけん）'insurance'. 険討 is not a word.",
       "Wrong. 剣 means 'sword', as in 剣道（けんどう）'kendo'. 剣討 is not a word.",
@@ -1764,7 +1764,7 @@
       {
         "pattern": "〜続く / 〜続ける",
         "meaning": "to keep ~ing, to continue ~ing",
-        "formation": "Verb ます-stem + 続く (intransitive) / 続ける (transitive or deliberate)",
+        "formation": "Verb ます-stem + 続ける (works with almost any verb, transitive or intransitive: 話し続ける, 歩き続ける, 降り続ける). Verb ます-stem + 続く is limited to a few verbs, mostly natural events (降り続く, 鳴り続く).",
         "example": "彼{かれ}は三時間{さんじかん}話{はな}し続{つづ}けた。",
         "example_translation": "He kept talking for three hours."
       }
@@ -2542,8 +2542,8 @@
         "reading": "しめる",
         "meaning": "to strangle, to wring",
         "pos": "ichidan verb",
-        "example": "このシャツは首{くび}が絞{し}められるようで苦{くる}しい。",
-        "example_translation": "This shirt feels like it's strangling my neck; it's uncomfortable."
+        "example": "無理{むり}な約束{やくそく}をすると、自分{じぶん}で自分{じぶん}の首{くび}を絞{し}めることになる。",
+        "example_translation": "If you make unreasonable promises, you end up strangling yourself (= causing your own trouble)."
       }
     ],
     "grammar": [

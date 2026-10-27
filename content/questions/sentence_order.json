@@ -646,7 +646,7 @@
       {
         "pattern": "〜にもかかわらず",
         "meaning": "despite ~, even though ~ (formal; the result goes against what you would expect)",
-        "formation": "Plain form / Noun + にもかかわらず (な-adj and nouns can also take である: 静かであるにもかかわらず)",
+        "formation": "Verb / い-adj plain form + にもかかわらず; な-adj stem / Noun (or + である) + にもかかわらず (静かにもかかわらず / 静かであるにもかかわらず; not 静かだにもかかわらず; past: 静かだったにもかかわらず)",
         "example": "彼{かれ}は熱{ねつ}があるにもかかわらず、仕事{しごと}に来{き}た。",
         "example_translation": "Despite having a fever, he came to work."
       }
@@ -1197,12 +1197,12 @@
     "answer": 3,
     "full_sentence": "この公園{こうえん}は、地元{じもと}の人{ひと}に限{かぎ}らず観光客{かんこうきゃく}にも人気{にんき}がある。",
     "translation": "This park is popular not only with local people but also with tourists.",
-    "explanation": "The N2 pattern 〜に限らず（にかぎらず）'not only ~, not limited to ~' attaches to a noun and is followed by a wider group marked with も. 地元の人（じもとのひと）'local people' has no particle, so it is the noun that comes before に限らず: 地元の人に限らず. 観光客に（かんこうきゃくに）'with tourists' already carries に, which belongs to the expression 〜に人気がある 'to be popular with ~'. も 'also' attaches after it: 観光客にも. The fixed text 人気がある then completes the sentence. Order: 地元の人 → に限らず → 観光客に → も. The ★ is the 3rd slot: 観光客に.",
+    "explanation": "The N2 pattern 〜に限らず（にかぎらず）'not only ~, not limited to ~' attaches to a noun and is followed by another group marked with も, which widens the scope. 地元の人（じもとのひと）'local people' has no particle, so it is the noun that comes before に限らず: 地元の人に限らず. 観光客に（かんこうきゃくに）'with tourists' already carries に, which belongs to the expression 〜に人気がある 'to be popular with ~'. も 'also' attaches after it: 観光客にも. The fixed text 人気がある then completes the sentence. Order: 地元の人 → に限らず → 観光客に → も. The ★ is the 3rd slot: 観光客に.",
     "choice_notes": [
       "も goes in slot 4. も 'also' attaches after 観光客に (観光客にも 'with tourists too') and connects to the fixed 人気がある. A も in the second half is typical with に限らず.",
       "に限らず goes in slot 2. に限らず attaches directly to a noun: 地元の人に限らず 'not only local people'.",
       "地元の人 goes in slot 1. 地元の人 'local people' has no particle after it, so it must be the noun directly before に限らず.",
-      "Correct. 観光客に is in slot 3, the ★ position. 観光客に already carries に, which belongs to the expression 〜に人気がある 'popular with ~'. It names the wider, second group."
+      "Correct. 観光客に is in slot 3, the ★ position. 観光客に already carries に, which belongs to the expression 〜に人気がある 'popular with ~'. It names the second group that the scope widens to include."
     ],
     "vocab": [
       {
@@ -1234,7 +1234,7 @@
       {
         "pattern": "〜に限らず",
         "meaning": "not only ~ (but also ...), not limited to ~",
-        "formation": "Noun + に限らず + (wider group) + も",
+        "formation": "Noun + に限らず + (another group or a wider range) + も",
         "example": "この店{みせ}は週末{しゅうまつ}に限{かぎ}らず、平日{へいじつ}も混{こ}んでいる。",
         "example_translation": "This shop is crowded not only on weekends but on weekdays too."
       }
@@ -1305,7 +1305,7 @@
       {
         "pattern": "〜を問わず",
         "meaning": "regardless of ~, without distinction of ~",
-        "formation": "Noun + を問わず (often with paired or opposite nouns: 男女, 昼夜, 有無, 年齢)",
+        "formation": "Noun + を問わず (often with paired or opposite nouns such as 男女, 昼夜, 有無, or with nouns that cover a range, such as 年齢)",
         "example": "このイベントは年齢{ねんれい}を問{と}わず、誰{だれ}でも参加{さんか}できる。",
         "example_translation": "Anyone can join this event, regardless of age."
       }
@@ -1541,12 +1541,12 @@
   {
     "id": "so-022",
     "section": "sentence_order",
-    "question": "友達{ともだち}に引{ひ}っ越{こ}しを {{1}} {{2}} {{3}} {{4}} ことにした。",
+    "question": "友達{ともだち}に引{ひ}っ越{こ}しを {{1}} {{2}} {{3}} {{4}} おごることにした。",
     "choices": [
       "かわりに",
       "手伝{てつだ}って",
       "もらう",
-      "晩{ばん}ご飯{はん}をおごる"
+      "晩{ばん}ご飯{はん}を"
     ],
     "star": 2,
     "correct_order": [
@@ -1558,12 +1558,12 @@
     "answer": 2,
     "full_sentence": "友達{ともだち}に引{ひ}っ越{こ}しを手伝{てつだ}ってもらうかわりに晩{ばん}ご飯{はん}をおごることにした。",
     "translation": "I decided to treat my friend to dinner in exchange for having them help me move.",
-    "explanation": "引っ越しを（ひっこしを）'the move (object)' needs a verb: 手伝って（てつだって）'help'. Because the friend is doing me a favor, 〜てもらう 'have someone do (for me)' is used: 友達に引っ越しを手伝ってもらう. The pattern 〜かわりに here means 'in exchange for ~' and attaches to a plain-form verb, so it comes next. After it comes what I give back: 晩ご飯をおごる（ばんごはんをおごる）'treat (them) to dinner'. The fixed ことにした 'decided to' needs a dictionary-form verb in front, and おごる fits. Order: 手伝って → もらう → かわりに → 晩ご飯をおごる. The ★ is the 2nd slot: もらう.",
+    "explanation": "引っ越しを（ひっこしを）'the move (object)' needs a verb: 手伝って（てつだって）'help'. Because the friend is doing me a favor, 〜てもらう 'have someone do (for me)' is used: 友達に引っ越しを手伝ってもらう. The pattern 〜かわりに here means 'in exchange for ~' and attaches to a plain-form verb, so it comes next. After it comes what I give back. The fixed おごる 'treat (someone)' needs an object, and 晩ご飯を（ばんごはんを）'dinner (object)' fills it: 晩ご飯をおごる 'treat (them) to dinner'. The fixed ことにした 'decided to' then follows the dictionary form おごる. Order: 手伝って → もらう → かわりに → 晩ご飯を. The ★ is the 2nd slot: もらう.",
     "choice_notes": [
       "かわりに goes in slot 3. かわりに attaches to a plain-form verb: 手伝ってもらうかわりに 'in exchange for being helped'.",
       "手伝って goes in slot 1. The fixed text 引っ越しを ends in を and needs a verb: 引っ越しを手伝う 'help with a move'. 手伝って is the て-form that joins with もらう.",
       "Correct. もらう is in slot 2, the ★ position. もらう follows the て-form: 手伝ってもらう 'have (my friend) help me'. 友達に marks the person doing the favor.",
-      "晩ご飯をおごる goes in slot 4. 晩ご飯をおごる 'treat (them) to dinner' is what I do in return. The fixed ことにした 'decided to' needs a dictionary-form verb right before it."
+      "晩ご飯を goes in slot 4. 晩ご飯を 'dinner (object)' is the object of the fixed おごる: 晩ご飯をおごる 'treat (them) to dinner', which is what I do in return."
     ],
     "vocab": [
       {
@@ -1759,7 +1759,7 @@
       {
         "pattern": "〜どころか",
         "meaning": "far from ~, let alone ~ (the reality is the opposite, or much more extreme)",
-        "formation": "Plain form / Noun (な-adj stem or + な) + どころか",
+        "formation": "Verb / い-adj plain form + どころか; な-adj stem (+ な) + どころか; Noun + どころか",
         "example": "雨{あめ}はやむどころか、ますます強{つよ}くなった。",
         "example_translation": "Far from stopping, the rain got even heavier."
       },

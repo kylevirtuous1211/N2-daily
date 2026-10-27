@@ -73,7 +73,7 @@
       {
         "pattern": "〜まま",
         "meaning": "remaining ~, still in the state of ~ (no change)",
-        "formation": "Noun + のまま / verb た-form + まま / adjective + まま",
+        "formation": "Noun + のまま / verb た-form or ない-form + まま / い-adjective + まま / な-adjective + なまま",
         "example": "靴{くつ}をはいたまま部屋{へや}に入{はい}らないでください。",
         "example_translation": "Please don't enter the room with your shoes on."
       }
@@ -1158,7 +1158,7 @@
       {
         "pattern": "〜（ら）れる (passive)",
         "meaning": "to be ~ed by someone (here: 'I was asked by a man')",
-        "formation": "Godan: ない-stem + れる (聞く → 聞かれる); agent marked with に",
+        "formation": "Godan: ない-stem + れる (聞く → 聞かれる); ichidan: stem + られる (見る → 見られる); する → される, 来る → 来られる; agent marked with に",
         "example": "知{し}らない人{ひと}に名前{なまえ}を呼{よ}ばれた。",
         "example_translation": "I was called by name by a stranger."
       }
@@ -1419,7 +1419,7 @@
     "choice_notes": [
       "Wrong. 〜気味（ぎみ）'slightly ~, a touch of ~' describes a mild state at one time (風邪気味 'a slight cold', 疲れ気味 'a bit tired'). 休み気味 is not natural.",
       "Correct. 休みがち 'often absent'. 〜がち = 'tend to ~ (negative)'.",
-      "Wrong. 〜っぽい '-ish, easily ~' makes words like 忘れっぽい 'forgetful', but 休みっぽい is not a word. Also, っぽい is an い-adjective, so っぽいだった is ungrammatical.",
+      "Wrong. 〜っぽい '-ish, easily ~' makes words like 忘れっぽい 'forgetful'. In casual speech 休みっぽい can only mean 'seems to be closed / a day off' (あの店、今日は休みっぽい), never 'often absent'. Also, っぽい is an い-adjective, so っぽいだった is ungrammatical.",
       "Wrong. 〜やすい 'easy to ~' is an い-adjective, so 休みやすいだった is ungrammatical (it would be 休みやすかった, 'it was easy to take time off', a different meaning)."
     ],
     "vocab": [
@@ -1499,7 +1499,7 @@
       "Wrong. 〜がち is for a repeated tendency (休みがち 'often absent'), not a state on one occasion. Also 緊張 would need し: 緊張しがち 'tends to get nervous'.",
       "Wrong. 〜っぽい '-ish' makes words like 子どもっぽい 'childish' and 水っぽい 'watery', but 緊張っぽい is not a word, and っぽいだった is ungrammatical.",
       "Correct. 緊張気味（きんちょうぎみ）'a little nervous'.",
-      "Wrong. らしい 'typical of ~, it seems' does not combine with 緊張 like this, and らしいだった is ungrammatical. ('He seemed nervous' would be 緊張していたらしい.)"
+      "Wrong. らしい 'typical of ~, it seems' does not combine with 緊張 like this, and らしいだった is ungrammatical. ('Apparently he was nervous' would be 緊張していたらしい.)"
     ],
     "vocab": [
       {
@@ -1814,7 +1814,7 @@
     "translation": "He overcame many difficulties and finally made his dream come true.",
     "explanation": "This is a compound verb question: 乗る + a second verb. 乗り越える literally means 'to climb over', and figuratively 'to overcome (difficulties)'. 困難を乗り越える 'to overcome difficulties' is a fixed, very common phrase. Here it is in the ます-stem form 乗り越え followed by a comma, which means 'overcame ~, and...'. The other choices also make real compound verbs with 乗り, but their meanings do not fit 困難を: 乗り出す 'to set out on', 乗り込む 'to get into (a vehicle)', 乗り過ごす 'to miss one's stop'.",
     "choice_notes": [
-      "Wrong. 乗り出す（のりだす）means 'to set out on, to embark on': 新しい事業に乗り出す 'to start a new business'. It takes に, not 困難を.",
+      "Wrong. 乗り出す（のりだす）means 'to set out on, to embark on': 新しい事業に乗り出す 'to start a new business'. In this meaning it takes に (身を乗り出す 'to lean forward' is a different use), so 困難を乗り出す makes no sense.",
       "Wrong. 乗り込む（のりこむ）means 'to get into (a vehicle), to board': 船に乗り込む 'to board a ship'. It does not fit 困難.",
       "Correct. 乗り越える（のりこえる）'to overcome, to get over'. 困難を乗り越える 'to overcome difficulties'.",
       "Wrong. 乗り過ごす（のりすごす）means 'to ride past one's stop': 寝ていて駅を乗り過ごした 'I fell asleep and missed my station'."
@@ -1873,7 +1873,7 @@
       {
         "pattern": "〜させる (causative)",
         "meaning": "to make / let (something) happen; 夢を実現させる 'to make a dream come true'",
-        "formation": "Suru verb: noun + させる (実現する → 実現させる)",
+        "formation": "Godan: ない-stem + せる (書く → 書かせる); ichidan: stem + させる (食べる → 食べさせる); する → させる (実現する → 実現させる)",
         "example": "母{はは}は子{こ}どもに野菜{やさい}を食{た}べさせた。",
         "example_translation": "The mother made her child eat vegetables."
       },

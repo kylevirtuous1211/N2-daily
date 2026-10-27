@@ -473,7 +473,7 @@
         "word": "あり得る",
         "reading": "ありうる",
         "meaning": "possible, can happen (also read ありえる; negative ありえない)",
-        "pos": "verb (literary)",
+        "pos": "ichidan verb (ありえる); the variant ありうる is used only in the dictionary form",
         "example": "そういう失敗{しっぱい}は誰{だれ}にでもあり得{う}る。",
         "example_translation": "That kind of mistake can happen to anyone."
       }
@@ -599,7 +599,7 @@
     "answer": 2,
     "full_sentence": "体{からだ}が動{うご}くかぎり、今{いま}の仕事{しごと}を続{つづ}けていくつもりだ。",
     "translation": "As long as my body can still move, I intend to keep doing my current job.",
-    "explanation": "〜かぎり means 'as long as ~ (this condition continues), ~'. The first half is a condition (my body can move), and the second half is something that will hold true for as long as that condition lasts (I will keep working). 体が動くかぎり 'as long as my body works' is a very common set phrase. Connection: verb dictionary form / ている form + かぎり (動くかぎり, 生きているかぎり); な-adj + な or である; noun + である. With the ない form it means 'unless ~' (雨が降らないかぎり 'unless it rains'). 〜うちに (動くうちに 'while I can still move') would also be natural Japanese, but it is not among the choices.",
+    "explanation": "〜かぎり means 'as long as ~ (this condition continues), ~'. The first half is a condition (my body can move), and the second half is something that will hold true for as long as that condition lasts (I will keep working). 体が動くかぎり 'as long as my body works' is a very common set phrase. Connection: verb dictionary form / ている form + かぎり (動くかぎり, 生きているかぎり); な-adj + な or である; noun + である. With the ない form it means 'unless ~' (雨が降らないかぎり 'unless it rains'). 〜うちは (動くうちは 'while I can still move') would also be natural Japanese, but it is not among the choices. Note that 〜うちに would not fit as well, because うちに is for doing something before a state ends, not for continuing an action throughout it.",
     "choice_notes": [
       "Wrong. 〜くせに means 'even though ~' with criticism. 'Even though my body moves (shame on me), I'll keep working' makes no sense, and くせに is used to criticize others, not to state your own plans. Correct use: 自分では何もしないくせに、文句ばかり言う。(He does nothing himself, yet he does nothing but complain.)",
       "Wrong. 〜あまり means 'so much ~ that (an extreme result)' and is used with feelings like 心配 or 緊張. 動く is not a feeling, and continuing to work is not an extreme result. Correct use: 緊張するあまり、何も話せなかった。(I was so nervous that I couldn't say anything.)",
@@ -1045,8 +1045,8 @@
         "reading": "おこたえする",
         "meaning": "to respond, to meet (humble form of 応える: お + ます-stem + する)",
         "pos": "expression",
-        "example": "皆様{みなさま}のご質問{しつもん}にお応{こた}えします。",
-        "example_translation": "We will respond to everyone's questions."
+        "example": "お客様{きゃくさま}のご要望{ようぼう}には、できるだけお応{こた}えします。",
+        "example_translation": "We will meet our customers' requests as far as we can."
       }
     ],
     "grammar": [
@@ -1359,7 +1359,7 @@
     "explanation": "Noun + からして has two closely related uses: (1) 'even ~, starting with ~': if even this one part is like this, everything else surely is too (名前からして怖い 'even the name is scary'); (2) 'judging from ~' (≈ からすると). Here: just looking at the atmosphere of the place, before even seeing the menu or the prices, it already looks expensive. The clue is 高級そう 'looks high-class': そう is a judgment from appearance, and からして gives the evidence it is based on. Connection: noun + からして, attached directly with no particle in between (雰囲気からして).",
     "choice_notes": [
       "Wrong. 〜にとって means 'for ~, from the standpoint of ~' and is used with people or groups (私にとって). 'For the atmosphere, it looks high-class' makes no sense. Correct use: 学生にとって、この店は高すぎる。(For students, this restaurant is too expensive.)",
-      "Wrong. 〜からといって means 'just because ~ (doesn't mean)'. It attaches to a clause in plain form (nouns need だ: 雰囲気がいいからといって), so 雰囲気からといって is ungrammatical, and it needs a negative ending. Correct use: 雰囲気がいいからといって、料理がおいしいとは限らない。(Just because the atmosphere is nice doesn't mean the food is good.)",
+      "Wrong. 〜からといって means 'just because ~ (doesn't mean)'. It attaches to a plain-form clause (雰囲気がいいからといって), and a bare noun needs だ (高級店だからといって), so 雰囲気からといって is ungrammatical. It also needs a negative ending. Correct use: 雰囲気がいいからといって、料理がおいしいとは限らない。(Just because the atmosphere is nice doesn't mean the food is good.)",
       "Wrong. 〜について means 'about, concerning' and goes with verbs like 話す or 調べる. 'About the atmosphere, it looks high-class' does not work. Correct use: 店の雰囲気について、アンケートに答えた。(I answered a survey about the restaurant's atmosphere.)",
       "Correct. 雰囲気からして = 'even from the atmosphere alone / judging from the atmosphere'. Noun + からして, followed by a judgment (高級そう)."
     ],
@@ -1513,7 +1513,7 @@
     "explanation": "〜からといって means 'just because ~, (it doesn't mean ~)'. It rejects a conclusion that people might jump to: living in Japan → automatically good at Japanese? Not necessarily. The key clue is the ending とは限らない 'is not necessarily so'. からといって is almost always followed by a negative ending such as 〜とは限らない, 〜わけではない or 〜てはいけない. Connection: plain form + からといって (住んでいるからといって); nouns and な-adjectives take だ (日本人だからといって). All four choices look alike, so focus on the end of the sentence.",
     "choice_notes": [
       "Correct. 住んでいるからといって〜とは限らない = 'just because you live there doesn't mean ~'. Plain form + からといって + negative ending.",
-      "Wrong. 〜からこそ means 'precisely because ~' and emphasizes a reason for a positive statement. It does not go with とは限らない. Correct use: 日本に住んでいるからこそ、分かることもある。(There are things you understand precisely because you live in Japan.)",
+      "Wrong. 〜からこそ means 'precisely because ~' and strongly insists that ~ really is the reason for what follows. とは限らない does the opposite: it denies that the reason leads to the result, so the two clash. Correct use: 日本に住んでいるからこそ、分かることもある。(There are things you understand precisely because you live in Japan.)",
       "Wrong. 〜からには means 'now that ~, since ~ (so one must / will)' and is followed by a duty or resolve. Correct use: 日本に住んでいるからには、日本語を勉強したい。(Since I live in Japan, I want to study Japanese.)",
       "Wrong. 〜ことから means 'from the fact that ~' and gives the basis for a conclusion or a name (〜と呼ばれている, 〜と分かった). It does not combine with 'not necessarily'. Correct use: 指紋（しもん）が残っていたことから、犯人（はんにん）が分かった。(From the fact that fingerprints were left, they identified the culprit.)"
     ],
@@ -2083,7 +2083,7 @@
     "translation": "When I heard that my son had come home safely, I can't tell you how relieved I was.",
     "explanation": "〜ことか means 'how ~! / I can't tell you how ~!' and expresses a very strong feeling as an exclamation. It is almost always used with a word of degree such as どんなに, どれほど, 何度 or なんと: どんなに安心したことか 'how relieved I was!'. The clue is どんなに 'how (much)', which needs an ending like ことか or ことだろう to complete the exclamation. Connection: plain form + ことか (安心したことか); な-adj + な (どんなに幸せなことか 'how happy it is'). Although it ends in か like a question, it is not asking anything; it is an emotional exclamation.",
     "choice_notes": [
-      "Wrong. 〜ものか means 'as if ~! / I'll never ~!', a strong denial. It expresses refusal, not relief, and it does not pair with どんなに. Correct use: あんなまずい店、二度と行くものか。(I'll never go to that awful restaurant again!)",
+      "Wrong. 〜ものか means 'as if ~! / I'll never ~!', a strong denial. It expresses refusal, not relief, and it cannot complete the exclamation どんなに〜 'how ~!' (that needs ことか). Correct use: あんなまずい店、二度と行くものか。(I'll never go to that awful restaurant again!)",
       "Correct. どんなに安心したことか = 'how relieved I was!'. どんなに + plain form + ことか.",
       "Wrong. 〜ことだ means 'you should ~' (advice) and follows the dictionary or ない form. 'How relieved... you should' makes no sense. Correct use: 疲れたら、無理をしないで休むことだ。(If you're tired, you should rest instead of pushing yourself.)",
       "Wrong. 〜わけだ means 'that's why ~, no wonder ~' (a logical conclusion). It does not combine with the exclamation どんなに. Correct use: 息子さんが帰ってきたんですか。それでうれしそうなわけだ。(Your son came home? No wonder you look so happy.)"
@@ -2481,7 +2481,7 @@
     "grammar": [
       {
         "pattern": "〜ざるを得ない",
-        "meaning": "have no choice but to ~, cannot help but ~ (forced by circumstances)",
+        "meaning": "have no choice but to ~, be forced to ~ (by circumstances, not by an impulse)",
         "formation": "Verb ない form minus ない + ざるを得ない (する → せざるを得ない)",
         "example": "熱{ねつ}が高{たか}いので、今日{きょう}は学校{がっこう}を休{やす}まざるを得{え}ない。",
         "example_translation": "My fever is high, so I have no choice but to stay home from school today."
@@ -2658,7 +2658,7 @@
       {
         "pattern": "〜をめぐって",
         "meaning": "over ~, concerning ~ (an issue people argue or compete about)",
-        "formation": "Noun + をめぐって (+ の + Noun: をめぐる)",
+        "formation": "Noun + をめぐって (before a noun: をめぐる + Noun, or をめぐっての + Noun)",
         "example": "遺産{いさん}をめぐって、兄弟{きょうだい}が争{あらそ}っている。",
         "example_translation": "The siblings are fighting over the inheritance."
       },
@@ -2689,7 +2689,7 @@
       "Wrong. 〜ついでに means 'while doing ~ anyway, also do ~'. Success is not a side task done while failing. Correct use: 大阪へ出張したついでに、友達に会った。(While I was in Osaka on business, I met up with a friend.)",
       "Correct. 失敗を重ねた末に = 'after failing over and over'. た-form + 末に, followed by the final result (ついに〜成功した).",
       "Wrong. 〜たとたん（に） means 'the very moment ~ (something sudden happened)'. It describes an instant, while 何度も失敗を重ねる is a long process, and it clashes with ついに. Correct use: 薬を飲んだとたん、気分が悪くなった。(The moment I took the medicine, I felt sick.)",
-      "Wrong. 〜たところで means 'even if ~ (it's no use)' and is followed by a negative judgment. It cannot introduce a success that really happened. Correct use: 今さら謝ったところで、許してもらえないだろう。(Even if I apologize now, I probably won't be forgiven.)"
+      "Wrong. Here 〜たところで would be read as 'even if ~ (it's no use)', which is followed by a negative judgment, so it cannot introduce a success that really happened. (たところで also has a time meaning, 'just at the point when ~', but that marks one particular moment and is followed by what happens next (an action or event). It does not mark the final result of a long struggle, and it does not go with ついに.) Correct use: 今さら謝ったところで、許してもらえないだろう。(Even if I apologize now, I probably won't be forgiven.)"
     ],
     "vocab": [
       {
@@ -2873,7 +2873,7 @@
     "explanation": "〜せいか means 'perhaps because ~, maybe it's because ~'. It gives a possible cause that the speaker is not completely sure about (the か adds 'maybe'), and the result is usually something bad. Here: staying up late (possible cause) → a heavy head (bad result). The clue is the bad physical condition 頭が重い 'my head feels heavy' and the natural cause-and-effect between the two halves. Connection: plain form + せいか (起きていたせいか); な-adj + な (静かなせいか); noun + の (年のせいか 'maybe because of my age'). For a good result, use 〜おかげか 'perhaps thanks to ~' instead.",
     "choice_notes": [
       "Correct. 起きていたせいか = 'perhaps because I stayed up'. Plain form + せいか, giving an uncertain cause for a bad result.",
-      "Wrong. 〜からには 'now that ~ (so one must / will)' must be followed by a duty or resolve, not by a physical condition. Correct use: 夜遅くまで起きているからには、宿題を全部終わらせよう。(Since I'm staying up late anyway, let's finish all the homework.)",
+      "Wrong. 〜からには 'now that ~ (so one must / will)' must be followed by a duty or resolve, not by a physical condition. Correct use: 夜遅くまで起きると決めたからには、宿題を全部終わらせよう。(Now that I've decided to stay up late, I'll finish all the homework.)",
       "Wrong. 〜くせに 'even though ~' criticizes someone and needs a contrast; staying up late and having a heavy head are not in contrast. Correct use: 弟は早く寝たくせに、朝起きられなかった。(My brother went to bed early, and yet he couldn't get up in the morning.)",
       "Wrong. 〜ものの means 'although ~'. 'Although I stayed up late, my head is heavy' has no contrast; a heavy head is exactly what you would expect. Correct use: 早く寝たものの、なかなか眠れなかった。(Although I went to bed early, I just couldn't fall asleep.)"
     ],

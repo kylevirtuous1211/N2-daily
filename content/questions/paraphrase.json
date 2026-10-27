@@ -692,7 +692,7 @@
     "grammar": [
       {
         "pattern": "〜にする",
-        "meaning": "to decide on ~, to have ~ (お茶にする 'let's have a tea break')",
+        "meaning": "to decide on ~, to have ~ (お茶にする 'to have a tea break')",
         "formation": "Noun + にする",
         "example": "飲{の}み物{もの}はコーヒーにします。",
         "example_translation": "I'll have coffee to drink."
@@ -861,7 +861,7 @@
     ],
     "answer": 0,
     "translation": "There have been a lot of burglaries around here lately, so you'd better be careful.",
-    "explanation": "用心する（ようじんする）means 'to be careful, to take precautions, to be on guard' against danger or trouble. 用心 is used especially for crime, fire, and illness: 火の用心 'beware of fire' (a traditional slogan), 用心深い 'very cautious', 用心のため 'as a precaution, just to be safe'. The everyday paraphrase is 気をつける. Choices 2-4 are concrete actions someone might take because of burglaries, but 用心する itself only means 'to be careful'.",
+    "explanation": "用心する（ようじんする）means 'to be careful, to take precautions, to be on guard' against danger or trouble. 用心 is used especially for crime, fire, and illness: 火の用心 'beware of fire' (a traditional slogan), 用心深い 'very cautious', 用心のため 'as a precaution, just to be safe'. The everyday paraphrase is 気をつける. The other choices (引っ越した, 警察に知らせた, 早く帰った) are concrete actions someone might take because of burglaries, but 用心する itself only means 'to be careful'.",
     "choice_notes": [
       "Correct. 気をつける 'to be careful' = 用心する.",
       "Wrong. 引っ越す 'to move house' is a specific action, not the general idea of being careful.",
@@ -1700,11 +1700,11 @@
     ],
     "grammar": [
       {
-        "pattern": "〜（ら）れる（迷惑の受身）",
-        "meaning": "passive that shows the speaker was affected (often troubled or surprised)",
-        "formation": "Person + に + passive verb (話しかける → 話しかけられる)",
-        "example": "雨{あめ}に降{ふ}られて、服{ふく}がぬれた。",
-        "example_translation": "I got caught in the rain and my clothes got wet."
+        "pattern": "〜（ら）れる（受身）",
+        "meaning": "passive: to be done (by someone); often shows that the speaker was affected by someone else's action",
+        "formation": "Agent (a person, or something like 雨) + に + passive verb (話しかける → 話しかけられる, 降る → 降られる)",
+        "example": "駅{えき}で外国{がいこく}の人{ひと}に道{みち}を聞{き}かれた。",
+        "example_translation": "At the station, I was asked for directions by a person from abroad."
       }
     ]
   },
@@ -1798,7 +1798,7 @@
     ],
     "answer": 0,
     "translation": "He exaggerates everything, so I can't really trust what he says.",
-    "explanation": "大げさ（おおげさ）is a na-adjective meaning 'exaggerated, overblown'. 大げさに言う means 'to exaggerate, to make something sound bigger or more serious than it really is': ちょっと転んだだけなのに大げさだ 'you only tripped a little - you're making a big deal of it', 大げさな表現 'an exaggerated expression'. So the paraphrase is 実際より大きく 'bigger than it really is'. The trap is the last choice: 大 'big' also appears in 大きな声, but 大げさ is about the content of what is said, not the volume. The second half of the sentence (信用できない 'can't trust him') supports the meaning 'exaggerating'.",
+    "explanation": "大げさ（おおげさ）is a na-adjective meaning 'exaggerated, overblown'. 大げさに言う means 'to exaggerate, to make something sound bigger or more serious than it really is': ちょっと転んだだけなのに大げさだ 'you only tripped a little - you're making a big deal of it', 大げさな表現 'an exaggerated expression'. So the paraphrase is 実際より大きく 'bigger than it really is'. The trap is 大きな声で: 大 'big' also appears in it, but 大げさ is about the content of what is said, not the volume. The second half of the sentence (信用できない 'can't trust him') supports the meaning 'exaggerating'.",
     "choice_notes": [
       "Correct. 実際より大きく 'bigger than reality' = 大げさに.",
       "Wrong. わかりやすく 'in an easy-to-understand way' would make him more trustworthy, not less.",
@@ -2584,7 +2584,7 @@
     ],
     "answer": 1,
     "translation": "I practiced every day, so my piano playing got better.",
-    "explanation": "腕（うで）literally means 'arm', but it also means 'skill, ability'. So the set expression 腕が上がる means 'one's skill improves', and 腕を上げる means 'to improve one's skill'. Related expressions: 腕がいい 'skilled', 腕を磨く 'to polish one's skills', 料理の腕 'cooking skills', 腕の見せどころ 'a chance to show one's skill'. The paraphrase is 上手になる. This idiom has nothing to do with lifting or tiring your arm - choice 4 is a trap built on the literal meaning.",
+    "explanation": "腕（うで）literally means 'arm', but it also means 'skill, ability'. So the set expression 腕が上がる means 'one's skill improves', and 腕を上げる means 'to improve one's skill'. Related expressions: 腕がいい 'skilled', 腕を磨く 'to polish one's skills', 料理の腕 'cooking skills', 腕の見せどころ 'a chance to show one's skill'. The paraphrase is 上手になる. This idiom has nothing to do with lifting or tiring your arm - 腕が疲れた is a trap built on the literal meaning.",
     "choice_notes": [
       "Wrong. 音が大きくなった 'the sound got louder' is about volume.",
       "Correct. 上手になった 'got better, became more skillful' = 腕が上がった.",
@@ -2655,7 +2655,7 @@
     ],
     "answer": 3,
     "translation": "Please look over these materials before the meeting.",
-    "explanation": "目を通す（めをとおす）is a set expression meaning 'to look over, to read through (quickly), to skim'. It is used for documents, newspapers, emails, and so on: 書類に目を通す 'look over the documents', 新聞に目を通す 'skim the newspaper'. Note the particle: you 目を通す に something (資料に目を通す), not を. The paraphrase is ざっと読む 'to read through quickly'. The idea is checking the whole content once, not studying it in detail.",
+    "explanation": "目を通す（めをとおす）is a set expression meaning 'to look over, to read through (quickly), to skim'. It is used for documents, newspapers, emails, and so on: 書類に目を通す 'look over the documents', 新聞に目を通す 'skim the newspaper'. Note the particle: the thing you look over is marked with に (資料に目を通す), not を (を is already used in 目を). The paraphrase is ざっと読む 'to read through quickly'. The idea is checking the whole content once, not studying it in detail.",
     "choice_notes": [
       "Wrong. サインする 'to sign' is a different action.",
       "Wrong. コピーする 'to copy' does not involve reading.",
@@ -2826,7 +2826,7 @@
         "meaning": "cutting corners, sloppy work",
         "pos": "noun",
         "example": "今日{きょう}の夕飯{ゆうはん}は手抜{てぬ}きだけど、おいしい。",
-        "example_translation": "Tonight's dinner was a lazy one, but it's tasty."
+        "example_translation": "Tonight's dinner is a lazy one, but it's tasty."
       },
       {
         "word": "いいかげん",

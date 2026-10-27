@@ -2,7 +2,7 @@
   {
     "id": "kr-001",
     "section": "kanji_reading",
-    "question": "今度{こんど}の試験{しけん}の[[範囲]]は、教科書{きょうかしょ}の五十{ごじゅう}ページまでです。",
+    "question": "今度{こんど}の試験{しけん}の[[範囲]]は、教科書{きょうかしょ}の五十{ごじゅっ}ページまでです。",
     "choices": [
       "ばんい",
       "はんいん",
@@ -48,7 +48,7 @@
         "reading": "きょうかしょ",
         "meaning": "textbook",
         "pos": "noun",
-        "example": "教科書{きょうかしょ}の十{じゅう}ページを開{ひら}いてください。",
+        "example": "教科書{きょうかしょ}の十{じゅっ}ページを開{ひら}いてください。",
         "example_translation": "Please open your textbook to page 10."
       },
       {
@@ -638,7 +638,7 @@
     ],
     "answer": 1,
     "translation": "People who can respond flexibly even when plans change are in demand.",
-    "explanation": "柔軟 is read じゅうなん and means 'flexible, pliable' (柔軟な考え方 'flexible thinking', 柔軟に対応する 'respond flexibly'). 柔 is usually read じゅう, as in 柔道 じゅうどう 'judo'; it has a rare second on'yomi にゅう (柔和 にゅうわ 'gentle'), which is the trap in choice 3. 軟 is read なん, as in 軟弱 なんじゃく 'weak, soft'. Both kanji have the kun'yomi やわらかい (柔らかい, 軟らかい 'soft'). Also watch the long vowel: じゅう, not じゅ.",
+    "explanation": "柔軟 is read じゅうなん and means 'flexible, pliable' (柔軟な考え方 'flexible thinking', 柔軟に対応する 'respond flexibly'). 柔 is usually read じゅう, as in 柔道 じゅうどう 'judo'; it has a rare second on'yomi にゅう (柔和 にゅうわ 'gentle'), which is the trap in にゅうなん. 軟 is read なん, as in 軟弱 なんじゃく 'weak, soft'. Both kanji have the kun'yomi やわらかい (柔らかい, 軟らかい 'soft'). Also watch the long vowel: じゅう, not じゅ.",
     "choice_notes": [
       "Wrong. じゅなん is 受難 'suffering, ordeal'. 柔 needs the long vowel: じゅう.",
       "Correct. じゅうなん = 柔軟 'flexible'.",
@@ -999,7 +999,7 @@
     ],
     "answer": 2,
     "translation": "The deadline is approaching, so I intend to work until late tonight.",
-    "explanation": "迫って is the て-form of 迫る（せまる）'to approach, to draw near (a time, danger)'; it can also mean 'to press someone (for an answer)'. 締め切りが迫る 'a deadline approaches' and 危険が迫る 'danger approaches' are typical. The on'yomi of 迫 is はく, as in 迫力 はくりょく 'impact, power' and 圧迫 あっぱく 'pressure'. The trap せめて differs by only one vowel (せま- vs せめ-), and しまって is tempting because the word 締め切り in the same sentence uses 締 (締まる しまる).",
+    "explanation": "迫って is the て-form of 迫る（せまる）'to approach, to draw near (a time, danger)'; it can also mean 'to press someone (for an answer)'. 締め切りが迫る 'a deadline approaches' and 危険が迫る 'danger approaches' are typical. The on'yomi of 迫 is はく, as in 迫力 はくりょく 'impact, power' and 圧迫 あっぱく 'pressure'. The trap せめて looks very similar (せま- vs せめ-), but it has no small っ and comes from a different verb (責める / 攻める). しまって is tempting because the word 締め切り in the same sentence uses 締 (締まる しまる).",
     "choice_notes": [
       "Wrong. せめて is the て-form of 責める 'to blame' / 攻める 'to attack' (it is also an adverb 'at least').",
       "Wrong. しまって is 閉まって / 締まって 'to close, to tighten'. Different kanji.",
@@ -1200,7 +1200,7 @@
       {
         "pattern": "お忙しいところ（を）",
         "meaning": "when you are busy (a polite fixed phrase used before a request or thanks)",
-        "formation": "お + い-adjective + ところ（を）",
+        "formation": "Fixed phrase, not freely formed with any adjective: お忙しいところ（を）. Similar set phrases: お疲れのところ, お休みのところ, お急ぎのところ, ご多忙のところ",
         "example": "お忙{いそが}しいところ、お越{こ}しいただきありがとうございます。",
         "example_translation": "Thank you for coming when you are so busy."
       },
@@ -1225,12 +1225,12 @@
     ],
     "answer": 0,
     "translation": "In the final, our team was overwhelmed by the opponent.",
-    "explanation": "圧倒 is read あっとう and means 'overwhelming, overpowering'; 圧倒的 あっとうてき means 'overwhelming'. 圧 is read あつ, as in 圧力 あつりょく 'pressure' and 気圧 きあつ 'air pressure'. When あつ comes before a t-, k-, s- or p- sound, it shrinks to あっ (small っ): 圧倒 あっとう, 圧勝 あっしょう 'overwhelming victory', 圧迫 あっぱく 'pressure'. 倒 is read とう, as in 倒産 とうさん 'bankruptcy'; its kun'yomi is たおれる (倒れる 'to fall down'). So remember three things: small っ, unvoiced と, and a long vowel とう.",
+    "explanation": "圧倒 is read あっとう and means 'overwhelming, overpowering'; 圧倒的 あっとうてき means 'overwhelming'. 圧 is read あつ, as in 圧力 あつりょく 'pressure' and 気圧 きあつ 'air pressure'. When あつ comes before a k-, s-, t- or h- sound, it shrinks to あっ (small っ), and a following h- sound changes to p-: 圧倒 あっとう, 圧勝 あっしょう 'overwhelming victory', 圧迫 あっぱく 'pressure' (迫 はく → ぱく). 倒 is read とう, as in 倒産 とうさん 'bankruptcy'; its kun'yomi is たおれる (倒れる 'to fall down'). So remember three things: small っ, unvoiced と, and a long vowel とう.",
     "choice_notes": [
       "Correct. あっとう = 圧倒 'overwhelming'.",
       "Wrong. The small っ is missing. あつ becomes あっ before と.",
       "Wrong. 倒 is read とう without a dakuten.",
-      "Wrong. The long vowel is missing: 倒 is とう. (あっと is just an exclamation 'oh!'.)"
+      "Wrong. The long vowel is missing: 倒 is とう. (あっと is a different word, an adverb meaning 'with a gasp', as in あっと驚く 'to gasp in surprise'.)"
     ],
     "vocab": [
       {
@@ -1449,7 +1449,7 @@
     "choice_notes": [
       "Wrong. いれい is 異例 'unprecedented, exceptional'. 頼 is read らい, not れい.",
       "Correct. いらい = 依頼 'request, commission'.",
-      "Wrong. えらい is 偉い 'great, admirable'. 依 is read い here, and 頼 is not ら.",
+      "Wrong. えらい is 偉い 'great, admirable'. 依 is read い here, not え.",
       "Wrong. いだい is 偉大 'great, mighty'. 頼 is read らい, not だい."
     ],
     "vocab": [
@@ -1869,7 +1869,7 @@
     ],
     "answer": 1,
     "translation": "She fully showed her true ability in the actual performance.",
-    "explanation": "発揮 is read はっき and means 'showing, displaying (one's ability or power)'. 実力を発揮する 'to show one's real ability' and 能力を発揮する are set phrases. 発 is read はつ, and it shrinks to はっ before k-, t- or p- sounds: 発見 はっけん, 発表 はっぴょう, 出発 しゅっぱつ. 発 also has a rarer reading ほつ / ほっ, as in 発作 ほっさ 'fit, attack' and 発足 ほっそく 'launch', which is the trap in choice 3. 揮 is read き, as in 指揮 しき 'conducting, command'.",
+    "explanation": "発揮 is read はっき and means 'showing, displaying (one's ability or power)'. 実力を発揮する 'to show one's real ability' and 能力を発揮する are set phrases. 発 is read はつ, and it shrinks to はっ before k-, s-, t- or h- sounds (a following h-sound also turns into p): 発見 はっけん, 発送 はっそう, 発展 はってん, 発表 はっぴょう. 発 also has a rarer reading ほつ / ほっ, as in 発作 ほっさ 'fit, attack' and 発足 ほっそく 'launch', which is where the trap ほっき comes from. 揮 is read き, as in 指揮 しき 'conducting, command'.",
     "choice_notes": [
       "Wrong. The small っ is missing. はつ becomes はっ before き.",
       "Correct. はっき = 発揮 'display (of ability)'.",
@@ -1932,7 +1932,7 @@
     ],
     "answer": 2,
     "translation": "This author's writing is abstract and hard to understand.",
-    "explanation": "抽象的 is read ちゅうしょうてき and means 'abstract'; its opposite is 具体的 ぐたいてき 'concrete'. 抽 is read ちゅう, as in 抽選 ちゅうせん 'lottery' and 抽出 ちゅうしゅつ 'extraction'. 象 has two on'yomi: しょう, used in 抽象, 印象 いんしょう 'impression', 現象 げんしょう 'phenomenon', and 対象 たいしょう 'target'; and ぞう, used in 象 ぞう 'elephant'. That second reading is the trap in choice 1. Be careful not to confuse 象 with 像 (ぞう, as in 想像 そうぞう 'imagination'). The suffix 的 (てき) turns a noun into a な-adjective: 抽象的な, 具体的な.",
+    "explanation": "抽象的 is read ちゅうしょうてき and means 'abstract'; its opposite is 具体的 ぐたいてき 'concrete'. 抽 is read ちゅう, as in 抽選 ちゅうせん 'lottery' and 抽出 ちゅうしゅつ 'extraction'. 象 has two on'yomi: しょう, used in 抽象, 印象 いんしょう 'impression', 現象 げんしょう 'phenomenon', and 対象 たいしょう 'target'; and ぞう, used in 象 ぞう 'elephant'. That second reading is the trap ちゅうぞうてき. Be careful not to confuse 象 with 像 (ぞう, as in 想像 そうぞう 'imagination'). The suffix 的 (てき) turns a noun into a な-adjective: 抽象的な, 具体的な.",
     "choice_notes": [
       "Wrong. ぞう is a real reading of 象 (象 ぞう 'elephant'), but 抽象 uses しょう.",
       "Wrong. 抽 is read ちゅう, not ちょう. (ちょうしょう is 嘲笑 'ridicule'.)",
@@ -2086,8 +2086,8 @@
         "reading": "そんがい",
         "meaning": "damage, loss",
         "pos": "noun",
-        "example": "事故{じこ}の損害{そんがい}は保険{ほけん}で払{はら}われた。",
-        "example_translation": "The damage from the accident was paid for by insurance."
+        "example": "事故{じこ}の損害{そんがい}は保険{ほけん}で補償{ほしょう}された。",
+        "example_translation": "The damage from the accident was covered by insurance."
       },
       {
         "word": "台風",
@@ -2380,7 +2380,7 @@
     ],
     "answer": 1,
     "translation": "The two paintings look very alike, but their colors are subtly different.",
-    "explanation": "微妙 is read びみょう and means 'subtle, delicate'. In casual speech it also means 'doubtful, iffy, not great' (その服、ちょっと微妙 'that outfit is kind of meh'). 微 is read び with a dakuten, as in 微笑 びしょう 'smile' and 微生物 びせいぶつ 'microorganism'; its kun'yomi is ほほえむ (微笑む 'to smile'). 妙 is read みょう, as in 奇妙 きみょう 'strange'. Watch out for the similar-looking kanji 徴 (ちょう, as in 特徴 とくちょう 'feature'): 微 and 徴 differ only in the middle part. Also keep the long vowel みょう.",
+    "explanation": "微妙 is read びみょう and means 'subtle, delicate'. In casual speech it also means 'doubtful, iffy, not great' (その服、ちょっと微妙 'that outfit is kind of meh'). 微 is read び with a dakuten, as in 微笑 びしょう 'smile' and 微生物 びせいぶつ 'microorganism'; it also appears in 微笑む ほほえむ 'to smile', which is a special reading of the whole word. 妙 is read みょう, as in 奇妙 きみょう 'strange'. Watch out for the similar-looking kanji 徴 (ちょう, as in 特徴 とくちょう 'feature'): 微 and 徴 differ only in the middle part. Also keep the long vowel みょう.",
     "choice_notes": [
       "Wrong. The long vowel is missing: 妙 is みょう, not みょ.",
       "Correct. びみょう = 微妙 'subtle'.",
@@ -2662,7 +2662,7 @@
     ],
     "answer": 1,
     "translation": "My father has been involved in education work for thirty years.",
-    "explanation": "携わって is the て-form of 携わる（たずさわる）'to be engaged in, to work in (a field)'. It is used with に: 教育に携わる 'to work in education', 医療に携わる 'to work in medicine'. The same kanji also makes 携える たずさえる 'to carry (something) with you', which is the trap in choice 1. Look at the okurigana: わる → たずさわる, える → たずさえる. The on'yomi of 携 is けい, as in 携帯 けいたい 'carrying; mobile phone' and 提携 ていけい 'partnership'. かかわる 'to be involved' has a similar meaning but is written 関わる.",
+    "explanation": "携わって is the て-form of 携わる（たずさわる）'to be engaged in, to work in (a field)'. It is used with に: 教育に携わる 'to work in education', 医療に携わる 'to work in medicine'. The same kanji also makes 携える たずさえる 'to carry (something) with you', which is the trap たずさえて. Look at the okurigana: わる → たずさわる, える → たずさえる. The on'yomi of 携 is けい, as in 携帯 けいたい 'carrying; mobile phone' and 提携 ていけい 'partnership'. かかわる 'to be involved' has a similar meaning but is written 関わる.",
     "choice_notes": [
       "Wrong. たずさえて is 携えて, from 携える 'to carry with one'. Same kanji, but the okurigana is える, not わる.",
       "Correct. たずさわって = 携わって, from 携わる 'to be engaged in'.",
@@ -2684,7 +2684,7 @@
         "meaning": "education",
         "pos": "noun / suru verb",
         "example": "子{こ}どもの教育{きょういく}にはお金{かね}がかかる。",
-        "example_translation": "Raising and educating children costs money."
+        "example_translation": "Educating children costs money."
       },
       {
         "word": "〜年間",
@@ -2733,7 +2733,7 @@
     ],
     "answer": 2,
     "translation": "It is precisely when an earthquake happens that it is important to act calmly.",
-    "explanation": "冷静 is read れいせい and means 'calm, composed, cool-headed'. 冷 is read れい, as in 冷蔵庫 れいぞうこ 'refrigerator' and 冷房 れいぼう 'air conditioning'; its kun'yomi are つめたい (冷たい) and ひえる (冷える). 静 is usually read せい, as in 安静 あんせい 'rest' and 静止 せいし 'standstill'; its kun'yomi is しずか (静か). 静 has a rare second on'yomi じょう (静脈 じょうみゃく 'vein'), which is the trap in choice 1. Also, 静 is never voiced to ぜい.",
+    "explanation": "冷静 is read れいせい and means 'calm, composed, cool-headed'. 冷 is read れい, as in 冷蔵庫 れいぞうこ 'refrigerator' and 冷房 れいぼう 'air conditioning'; its kun'yomi are つめたい (冷たい) and ひえる (冷える). 静 is usually read せい, as in 安静 あんせい 'rest' and 静止 せいし 'standstill'; its kun'yomi is しずか (静か). 静 has a rare second on'yomi じょう (静脈 じょうみゃく 'vein'), which is the trap れいじょう. Also, 静 is never voiced to ぜい.",
     "choice_notes": [
       "Wrong. じょう is a rare reading of 静 (静脈 じょうみゃく), and れいじょう is 礼状 'thank-you letter' or 令嬢 'young lady'. 冷静 uses せい.",
       "Wrong. 静 is read せい without a dakuten.",
@@ -3157,7 +3157,7 @@
     ],
     "answer": 3,
     "translation": "As I have gotten older, my physical strength has declined.",
-    "explanation": "衰えて is the て-form of 衰える（おとろえる）'to weaken, to decline': 体力が衰える 'one's strength declines', 人気が衰える 'popularity fades'. The on'yomi is すい, as in 衰退 すいたい 'decline (of an industry, a town)' and 老衰 ろうすい 'old age, senility'. The kanji 衰 looks similar to 哀 (あい, 哀れ あわれ 'pity'), so be careful. All the distractors are real verbs that start with お and end in -えて; おとずれて is the most dangerous because it also starts with おと-.",
+    "explanation": "衰えて is the て-form of 衰える（おとろえる）'to weaken, to decline': 体力が衰える 'one's strength declines', 人気が衰える 'popularity fades'. The on'yomi is すい, as in 衰退 すいたい 'decline (of an industry, a town)' and 老衰 ろうすい 'old age, senility'. The kanji 衰 looks similar to 哀 (あい, 哀れ あわれ 'pity'), so be careful. All the distractors are real ichidan verbs that start with お and whose て-form ends in an e-sound + て (-えて or -れて), just like おとろえて; おとずれて is the most dangerous because it also starts with おと-.",
     "choice_notes": [
       "Wrong. おとずれて is 訪れて, from 訪れる 'to visit'. It starts with おと- too, but it is a different verb.",
       "Wrong. おびえて is 怯えて, from 怯える 'to be frightened'.",
@@ -3650,7 +3650,7 @@
     ],
     "answer": 2,
     "translation": "His replies are always vague, so I can't tell what he really feels.",
-    "explanation": "曖昧 is read あいまい and means 'vague, ambiguous, unclear': 曖昧な返事 'a vague answer', 記憶が曖昧だ 'my memory is fuzzy'. 曖 is read あい; it contains 愛 (あい 'love'), which is a nice memory hook. 昧 is read まい, as in 三昧 ざんまい 'indulging in (something)'. The traps come from similar-looking kanji: 味 み (taste) shares the part 未 with 昧, and 末 まつ (end) looks almost the same as 未. The voiced ばい is simply wrong.",
+    "explanation": "曖昧 is read あいまい and means 'vague, ambiguous, unclear': 曖昧な返事 'a vague answer', 記憶が曖昧だ 'my memory is fuzzy'. 曖 is read あい; it contains 愛 (あい 'love'), which is a nice memory hook. 昧 is read まい, as in 読書三昧 どくしょざんまい 'doing nothing but reading' (三昧 is さんまい on its own and becomes ざんまい as a suffix). The traps come from similar-looking kanji: 味 み (taste) shares the part 未 with 昧, and 末 まつ (end) looks almost the same as 未. The voiced ばい is simply wrong.",
     "choice_notes": [
       "Wrong. み is the reading of the similar-looking kanji 味 (意味 いみ). 昧 is read まい.",
       "Wrong. 昧 is read まい, not ばい.",
@@ -3862,9 +3862,9 @@
     ],
     "answer": 1,
     "translation": "After the company president's harsh words, a long silence continued in the meeting room.",
-    "explanation": "沈黙 is read ちんもく and means 'silence (not speaking)'. 沈 is read ちん, as in 沈没 ちんぼつ 'sinking (of a ship)'; its kun'yomi is しずむ (沈む 'to sink'). 黙 is read もく, as in 黙認 もくにん 'tacit approval' and 寡黙 かもく 'quiet, reticent'; its kun'yomi is だまる (黙る 'to be silent'). The traps: しずもく mixes the kun'yomi しず- of 沈む into an on'yomi compound; ちんぼく comes from 墨 (ぼく 'ink'), which shares the 黒 part with 黙; じんもく puts a wrong dakuten on ちん.",
+    "explanation": "沈黙 is read ちんもく and means 'silence (not speaking)'. 沈 is read ちん, as in 沈没 ちんぼつ 'sinking (of a ship)'; its kun'yomi is しずむ (沈む 'to sink'). 黙 is read もく, as in 黙認 もくにん 'tacit approval' and 寡黙 かもく 'quiet, reticent'; its kun'yomi is だまる (黙る 'to be silent'). The traps: しずもく mixes the kun'yomi しず- of 沈む into an on'yomi compound; ちんぼく comes from 墨 (ぼく 'ink'), which shares the 黒 part with 黙; じんもく uses じん, a rare reading of 沈 found only in a few words such as 沈丁花 じんちょうげ 'daphne', not in 沈黙.",
     "choice_notes": [
-      "Wrong. 沈 is read ちん, not じん.",
+      "Wrong. 沈黙 uses ちん. じん is a rare reading of 沈 (沈丁花 じんちょうげ 'daphne'), not used here.",
       "Correct. ちんもく = 沈黙 'silence'.",
       "Wrong. ぼく is the reading of 墨 'ink', which shares the 黒 part with 黙. 黙 is read もく.",
       "Wrong. しず- is the kun'yomi of 沈む, but the compound 沈黙 uses the on'yomi ちん."
@@ -4016,7 +4016,7 @@
         "word": "臨時",
         "reading": "りんじ",
         "meaning": "temporary, special, extra, extraordinary",
-        "pos": "noun / na-adjective",
+        "pos": "noun",
         "example": "今日{きょう}は店{みせ}が臨時休業{りんじきゅうぎょう}だった。",
         "example_translation": "The shop was temporarily closed today."
       },
@@ -4067,7 +4067,7 @@
     ],
     "answer": 0,
     "translation": "Even after becoming famous, he never lost his modest attitude.",
-    "explanation": "謙虚 is read けんきょ and means 'modest, humble'. 謙 is read けん, as in 謙遜 けんそん 'modesty' and 謙譲語 けんじょうご 'humble language (a type of 敬語)'. 虚 is read きょ with a SHORT vowel, as in 虚偽 きょぎ 'falsehood'; its kun'yomi is むなしい (虚しい 'empty, futile'). 虚 has a rare reading こ (虚空 こくう 'empty sky'), which is the trap in choice 4. The other traps add a long vowel (きょう) or a dakuten (げん).",
+    "explanation": "謙虚 is read けんきょ and means 'modest, humble'. 謙 is read けん, as in 謙遜 けんそん 'modesty' and 謙譲語 けんじょうご 'humble language (a type of 敬語)'. 虚 is read きょ with a SHORT vowel, as in 虚偽 きょぎ 'falsehood'; its kun'yomi is むなしい (虚しい 'empty, futile'). 虚 has a rare reading こ (虚空 こくう 'empty sky'), which is the trap けんこ. The other traps add a long vowel (けんきょう) or a dakuten (げんきょ).",
     "choice_notes": [
       "Correct. けんきょ = 謙虚 'modest, humble'.",
       "Wrong. 虚 is a short きょ, not きょう.",
