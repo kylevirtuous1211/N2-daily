@@ -18,15 +18,17 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--port", type=int, default=8765)
     parser.add_argument("--db", type=Path, default=DEFAULT_DB)
+    parser.add_argument("--official-dir", type=Path, default=APP_DIR / "content" / "official",
+                        help="folder with the locally imported official tests (questions/, crops/, raw/)")
     parser.add_argument("--idle-timeout", type=float, default=None,
                         help="exit after this many seconds without requests")
     args = parser.parse_args()
 
-    bank = QuestionBank.load(APP_DIR / "content" / "questions", APP_DIR / "content" / "official" / "questions")
+    bank = QuestionBank.load(APP_DIR / "content" / "questions", args.official_dir / "questions")
     for warning in bank.warnings:
         print(f"WARNING: {warning}", flush=True)
     store = Store(args.db, bank)
-    server = AppServer(("127.0.0.1", args.port), store, idle_timeout=args.idle_timeout)
+    server = AppServer(("127.0.0.1", args.port), store, idle_timeout=args.idle_timeout, official_dir=args.official_dir)
     print(f"N2 Daily: http://127.0.0.1:{args.port}/  ({len(bank.questions)} questions, "
           f"{len(bank.official)} official, db {args.db})", flush=True)
     try:

@@ -67,6 +67,11 @@ function percent(part, whole) {
   return whole ? Math.round((part / whole) * 100) : 0;
 }
 
+// In-progress answers live in localStorage; created_at keeps keys unique even if the database is recreated.
+function testStorageKey(test) {
+  return `n2-test-${test.id}-${test.created_at}`;
+}
+
 function vocabKey(entry) {
   return `vocab:${entry.word}:${entry.reading}`;
 }
@@ -106,6 +111,97 @@ document.addEventListener("click", (event) => {
 
 setInterval(() => api("POST", "/api/heartbeat").catch(() => {}), 60_000);
 
+// --- official audio: plays one [start, end] slice of a shared MP3 ------------
+
+function audioPlayer(audio) {
+  const key = `${audio.file}@${audio.start}`;
+  return `
+    <div class="audio-player" data-audio-key="${escapeHtml(key)}" data-file="${escapeHtml(audio.file)}" data-start="${audio.start}" data-end="${audio.end}">
+      <button class="button small primary audio-play" data-audio-play>▶ Play</button>
+      <button class="icon-button" data-audio-restart title="Play from the beginning" aria-label="Play from the beginning">↺</button>
+      <div class="audio-progress"><span></span></div>
+      <span class="audio-time">0:00 / ${formatDuration(audio.end - audio.start)}</span>
+    </div>`;
+}
+
+const segmentAudio = (() => {
+  const element = new Audio();
+  element.preload = "auto";
+  let active = null;
+
+  const rootFor = () => {
+    if (active && !active.root.isConnected) {
+      active.root = document.querySelector(`.audio-player[data-audio-key="${CSS.escape(active.key)}"]`) || active.root;
+    }
+    return active?.root;
+  };
+
+  const paint = () => {
+    const root = rootFor();
+    if (!root) return;
+    const position = Math.min(Math.max(element.currentTime - active.start, 0), active.end - active.start);
+    root.querySelector(".audio-progress span").style.width = `${(position / (active.end - active.start)) * 100}%`;
+    root.querySelector(".audio-time").textContent = `${formatDuration(position)} / ${formatDuration(active.end - active.start)}`;
+    const duration = active.end - active.start;
+    const pausedLabel = position >= duration - 0.05 ? "↻ Play again" : position > 0 ? "▶ Resume" : "▶ Play";
+    root.querySelector("[data-audio-play]").textContent = element.paused ? pausedLabel : "❚❚ Pause";
+    root.classList.toggle("playing", !element.paused);
+  };
+
+  element.addEventListener("timeupdate", () => {
+    if (!active) return;
+    if (element.currentTime >= active.end) {
+      element.pause();
+      element.currentTime = active.end;
+    }
+    paint();
+  });
+  element.addEventListener("pause", paint);
+  element.addEventListener("play", paint);
+
+  async function start(root, fromBeginning) {
+    const key = root.dataset.audioKey;
+    const segment = { key, root, start: Number(root.dataset.start), end: Number(root.dataset.end) };
+    const sameSegment = active && active.key === key;
+    if (sameSegment && !fromBeginning && !element.paused) {
+      element.pause();
+      return;
+    }
+    if (!sameSegment) {
+      element.pause();
+      if (active) paint();
+      active = segment;
+    }
+    const source = new URL(`/official/${encodeURI(root.dataset.file)}`, location.href).href;
+    if (element.src !== source) {
+      element.src = source;
+      await new Promise((resolve) => element.addEventListener("loadedmetadata", resolve, { once: true }));
+    }
+    const atEnd = element.currentTime >= active.end - 0.05 || element.currentTime < active.start;
+    if (!sameSegment || fromBeginning || atEnd) element.currentTime = active.start;
+    await element.play();
+  }
+
+  document.addEventListener("click", (event) => {
+    const play = event.target.closest("[data-audio-play]");
+    const restart = event.target.closest("[data-audio-restart]");
+    const button = play || restart;
+    if (!button) return;
+    start(button.closest(".audio-player"), Boolean(restart)).catch((error) => toast(`Audio error: ${error.message}`));
+  });
+
+  return {
+    stop() {
+      element.pause();
+      active = null;
+    },
+    // Call after re-rendering a view so a re-created player shows the real playback state.
+    refresh() {
+      if (active) paint();
+    },
+  };
+})();
+
 // --- router --------------------------------------------------------------
 
 const routes = [
@@ -120,6 +216,7 @@ const routes = [
 async function route() {
   cleanupView();
   cleanupView = () => {};
+  segmentAudio.stop();
   const hash = location.hash || "#/";
   for (const [pattern, view, nav] of routes) {
     const match = hash.match(pattern);
@@ -170,7 +267,9 @@ async function viewHome() {
   }
 
   const stats = summary.section_stats;
-  const sectionRows = Object.entries(summary.sections).map(([key, meta]) => {
+  const dailySections = new Set(["kanji_reading", "orthography", "word_formation", "context", "paraphrase", "usage", "grammar_form", "sentence_order", "reading"]);
+  const shownSections = Object.entries(summary.sections).filter(([key]) => dailySections.has(key) || stats[key].answered);
+  const sectionRows = shownSections.map(([key, meta]) => {
     const entry = stats[key];
     const rate = percent(entry.correct, entry.answered);
     return `
@@ -215,17 +314,59 @@ async function viewHome() {
         <div class="sections">${sectionRows}</div>
         <p class="muted small">${summary.seen_questions} of ${summary.bank_size} questions seen.</p>
       </section>
-    </div>`;
+    </div>
+    ${officialCard(summary.official)}`;
+  for (const button of app.querySelectorAll("[data-official-set]")) {
+    button.addEventListener("click", async () => {
+      button.disabled = true;
+      const test = await api("POST", "/api/tests", { official_set: button.dataset.officialSet, official_part: button.dataset.officialPart });
+      location.hash = `#/test/${test.id}`;
+    });
+  }
 
   app.querySelector("[data-discard]")?.addEventListener("click", async (event) => {
     if (!confirm("Discard the unfinished test?")) return;
     await api("DELETE", `/api/tests/${event.target.dataset.discard}`);
-    localStorage.removeItem(`n2-test-${event.target.dataset.discard}`);
+    localStorage.removeItem(testStorageKey(unfinished));
     route();
   });
   for (const button of app.querySelectorAll("[data-size]")) {
     button.addEventListener("click", () => startTest(Number(button.dataset.size)));
   }
+}
+
+function officialCard(catalog) {
+  if (!catalog.length) return "";
+  const sets = [...new Set(catalog.map((entry) => entry.set))];
+  const rows = sets.map((officialSet) => {
+    const parts = catalog.filter((entry) => entry.set === officialSet);
+    return `
+      <div class="official-set">
+        <h3 class="official-set-name ja">${escapeHtml(parts[0].set_name)}</h3>
+        <div class="official-parts">
+          ${parts.map((entry) => {
+            const last = entry.attempts[0];
+            const action = entry.unfinished
+              ? `<a class="button small primary" href="#/test/${entry.unfinished}">Resume</a>`
+              : `<button class="button small ${last ? "ghost" : "primary"}" data-official-set="${entry.set}" data-official-part="${entry.part}">${last ? "Retake" : "Start"}</button>`;
+            return `
+              <div class="official-part">
+                <div>
+                  <p class="official-part-name ja">${escapeHtml(entry.part_name)}</p>
+                  <p class="muted small">${entry.count} question${entry.count === 1 ? "" : "s"} · ${entry.minutes} min${last ? ` · last <a href="#/review/${last.id}">${last.score} / ${last.size}</a>` : ""}</p>
+                </div>
+                ${action}
+              </div>`;
+          }).join("")}
+        </div>
+      </div>`;
+  }).join("");
+  return `
+    <section class="card official-card">
+      <h2>Official practice tests <span class="muted-inline ja">公式問題集</span></h2>
+      <p class="muted small">Real N2 questions published by the JLPT organizers, in the original order, with full explanations added. Personal study use only.</p>
+      ${rows}
+    </section>`;
 }
 
 function sizePicker(label, primary = false) {
@@ -250,7 +391,12 @@ async function viewTest(testId) {
     location.hash = `#/review/${test.id}`;
     return;
   }
-  const storageKey = `n2-test-${test.id}`;
+  const storageKey = testStorageKey(test);
+  const legacyKey = `n2-test-${test.id}`;
+  if (localStorage.getItem(legacyKey) && !localStorage.getItem(storageKey)) {
+    localStorage.setItem(storageKey, localStorage.getItem(legacyKey));
+    localStorage.removeItem(legacyKey);
+  }
   const saved = JSON.parse(localStorage.getItem(storageKey) || "{}");
   const progress = {
     answers: saved.answers || {},
@@ -268,7 +414,7 @@ async function viewTest(testId) {
         <div class="progress-dots" role="tablist"></div>
         <div class="toolbar-right">
           <label class="switch"><input type="checkbox" data-furigana ${progress.furigana ? "checked" : ""}><span>Furigana</span></label>
-          <span class="timer" title="Elapsed time">0:00</span>
+          <span class="timer" title="${test.minutes ? "Elapsed time / official time limit" : "Elapsed time"}">0:00</span>
         </div>
       </div>
       <article class="card question-card"></article>
@@ -298,21 +444,23 @@ async function viewTest(testId) {
     card.classList.toggle("furigana-off", !progress.furigana);
     card.innerHTML = `
       <header class="question-head">
-        <span class="badge">${meta.ja}</span>
+        <span class="badge">${question.official ? `問題${question.official.mondai} ` : ""}${meta.ja}</span>
         <span class="muted">${meta.en} · Question ${progress.current + 1} of ${test.questions.length}</span>
       </header>
       <p class="instructions ja">${escapeHtml(meta.instructions)}</p>
       ${questionBody(question)}
-      <ol class="choices">
+      <ol class="choices ${question.choices_hidden ? "choices-hidden" : ""}">
         ${question.choices.map((choice, index) => `
           <li><button class="choice ${progress.answers[progress.current] === index ? "selected" : ""}" data-choice="${index}">
-            <span class="choice-number">${CHOICE_LABELS[index]}</span><span class="ja">${renderJa(choice)}</span>
+            <span class="choice-number">${CHOICE_LABELS[index]}</span>${question.choices_hidden ? "" : `<span class="ja">${renderJa(choice)}</span>`}
           </button></li>`).join("")}
-      </ol>`;
+      </ol>
+      ${question.choices_hidden ? `<p class="muted small">The choices are only spoken in the audio. Pick the number you heard.</p>` : ""}`;
     prevButton.disabled = progress.current === 0;
     nextButton.textContent = isLast ? "Finish & see results" : "Next →";
     nextButton.classList.toggle("primary", isLast);
     renderDots();
+    segmentAudio.refresh();
   };
 
   const move = (index) => {
@@ -323,6 +471,7 @@ async function viewTest(testId) {
   };
 
   const choose = (index) => {
+    if (index >= test.questions[progress.current].choices.length) return;
     progress.answers[progress.current] = index;
     save();
     render();
@@ -370,8 +519,13 @@ async function viewTest(testId) {
   };
   document.addEventListener("keydown", onKey);
   document.addEventListener("visibilitychange", onVisibility);
-  const tick = setInterval(() => { timer.textContent = formatDuration(elapsed() / 1000); }, 1000);
-  timer.textContent = formatDuration(elapsed() / 1000);
+  const paintTimer = () => {
+    const seconds = elapsed() / 1000;
+    timer.textContent = test.minutes ? `${formatDuration(seconds)} / ${test.minutes}:00` : formatDuration(seconds);
+    timer.classList.toggle("over-time", Boolean(test.minutes) && seconds > test.minutes * 60);
+  };
+  const tick = setInterval(paintTimer, 1000);
+  paintTimer();
   cleanupView = () => {
     clearInterval(tick);
     document.removeEventListener("keydown", onKey);
@@ -381,10 +535,26 @@ async function viewTest(testId) {
   render();
 }
 
+function officialImage(path, alt) {
+  return `<img class="official-image" src="/official/${encodeURI(path)}" alt="${escapeHtml(alt)}" loading="lazy">`;
+}
+
+function passageBlock(question) {
+  const text = question.passage ? `<div class="passage ja">${renderJa(question.passage).replaceAll("\n", "<br>")}</div>` : "";
+  if (!question.passage_image) return text;
+  return `
+    <div class="passage-image">${officialImage(question.passage_image, "Passage as printed in the test booklet")}</div>
+    ${text ? `<details class="passage-text"><summary>Text version with furigana</summary>${text}</details>` : ""}`;
+}
+
 function questionBody(question, slotPieces) {
-  const passage = question.passage
-    ? `<div class="passage ja">${renderJa(question.passage).replaceAll("\n", "<br>")}</div>`
-    : "";
+  const passage = passageBlock(question);
+  if (question.audio) {
+    return `
+      ${audioPlayer(question.audio)}
+      <p class="stem listening-label ja">${renderJa(question.question)}</p>
+      ${question.question_image ? officialImage(question.question_image, "Choices as printed in the test booklet") : ""}`;
+  }
   if (question.section === "sentence_order") {
     const slot = (number) => {
       const isStar = number === question.star;
@@ -427,6 +597,7 @@ async function viewReview(testId) {
       <section class="card review-summary">
         <div class="score-block">
           <p class="eyebrow">${formatDate(test.local_date)} · ${formatDuration(test.seconds)}</p>
+          <p class="review-label ja">${escapeHtml(test.label)}</p>
           <h1>${test.score} / ${test.size} <span class="score-percent">${percent(test.score, test.size)}%</span></h1>
         </div>
         <div class="section-chips">
@@ -517,6 +688,7 @@ async function viewReview(testId) {
     const scroll = window.scrollY;
     render();
     window.scrollTo(0, scroll);
+    segmentAudio.refresh();
   }
 
   render();
@@ -542,14 +714,27 @@ function reviewCard(question, sections, deckKeys) {
       </li>`;
   }).join("");
 
-  const passage = question.passage ? `
+  const passage = question.passage || question.passage_image ? `
     <div class="passage-block">
-      <div class="passage ja">${renderJa(question.passage).replaceAll("\n", "<br>")}</div>
+      ${question.passage_image ? `<div class="passage-image">${officialImage(question.passage_image, "Passage as printed in the test booklet")}</div>` : ""}
+      ${question.passage ? `<div class="passage ja">${renderJa(question.passage).replaceAll("\n", "<br>")}</div>` : ""}
       <button class="link-button" data-toggle-translation>Show / hide English translation</button>
       <p class="passage-translation">${escapeHtml(question.passage_translation)}</p>
     </div>` : "";
 
-  const stem = question.section === "sentence_order"
+  const listening = question.script ? `
+    ${question.audio ? audioPlayer(question.audio) : ""}
+    ${question.question_image ? officialImage(question.question_image, "Choices as printed in the test booklet") : ""}
+    <div class="passage-block script-block">
+      <p class="label">Transcript</p>
+      <div class="passage ja">${renderJa(question.script).replaceAll("\n", "<br>")}</div>
+      <button class="link-button" data-toggle-translation>Show / hide English translation</button>
+      <p class="passage-translation">${escapeHtml(question.script_translation)}</p>
+    </div>` : "";
+
+  const stem = question.script
+    ? `<p class="stem listening-label ja">${renderJa(question.question)}</p>`
+    : question.section === "sentence_order"
     ? `<p class="stem ja">${renderJa(question.question, { slot: (number) => `<span class="slot ${number === question.star ? "star" : ""}">${slotPieces[number - 1]}</span>` })}</p>`
     : question.section === "usage"
       ? `<p class="stem usage-word ja">${renderJa(question.question)}</p>`
@@ -597,12 +782,13 @@ function reviewCard(question, sections, deckKeys) {
   return `
     <article class="card review-card ${question.correct ? "is-correct" : "is-wrong"}" id="q${index}">
       <header class="question-head">
-        <span class="badge">${meta.ja}</span>
+        <span class="badge">${question.official ? `問題${question.official.mondai} ` : ""}${meta.ja}</span>
         <span class="muted">${meta.en} · Question ${index + 1}</span>
         <span class="result ${question.correct ? "good" : "bad"}">${question.correct ? "Correct" : question.chosen == null ? "Not answered" : "Wrong"}</span>
       </header>
       ${passage}
       ${stem}
+      ${listening}
       <p class="translation">${escapeHtml(question.translation)}</p>
       ${completed}
       <h3>Why</h3>
@@ -874,12 +1060,12 @@ async function viewHistory() {
       <h1>History</h1>
       ${tests.length ? `
         <table class="history-table">
-          <thead><tr><th>Date</th><th>Questions</th><th>Score</th><th>Time</th><th></th></tr></thead>
+          <thead><tr><th>Date</th><th>Test</th><th>Score</th><th>Time</th><th></th></tr></thead>
           <tbody>
             ${tests.map((test) => `
               <tr>
                 <td>${formatDate(test.local_date)}</td>
-                <td>${test.size}</td>
+                <td class="ja">${escapeHtml(test.label)}</td>
                 <td><div class="memory"><div class="meter"><span style="width:${percent(test.score, test.size)}%"></span></div><span>${test.score} / ${test.size}</span></div></td>
                 <td class="muted">${formatDuration(test.seconds)}</td>
                 <td><a class="button small ghost" href="#/review/${test.id}">Review</a></td>
