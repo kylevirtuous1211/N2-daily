@@ -350,3 +350,21 @@ class MigrationTest(unittest.TestCase):
                 Store(path, store.bank).close()  # migrating twice is a no-op
             finally:
                 store.close()
+
+
+class ServerErrorLoggingTest(unittest.TestCase):
+    def test_client_disconnects_are_not_logged_but_real_errors_are(self):
+        import contextlib
+        import io
+        app = AppHarness()
+        try:
+            for error, expect_log in ((ConnectionResetError(10054, "reset"), False), (ValueError("bug"), True)):
+                captured = io.StringIO()
+                with contextlib.redirect_stderr(captured):
+                    try:
+                        raise error
+                    except Exception:
+                        app.server.handle_error(None, ("127.0.0.1", 1))
+                self.assertEqual(bool(captured.getvalue()), expect_log, type(error).__name__)
+        finally:
+            app.close()

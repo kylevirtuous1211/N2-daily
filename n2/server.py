@@ -5,6 +5,7 @@ from __future__ import annotations
 import json
 import mimetypes
 import re
+import sys
 import threading
 import time
 from http import HTTPStatus
@@ -77,6 +78,12 @@ class AppServer(ThreadingHTTPServer):
         super().__init__(address, RequestHandler)
         if idle_timeout:
             threading.Thread(target=self._watch_idle, daemon=True).start()
+
+    def handle_error(self, request, client_address) -> None:
+        # Browsers drop idle keep-alive connections and cancel audio range requests; that is not an error.
+        if isinstance(sys.exc_info()[1], (ConnectionResetError, ConnectionAbortedError, BrokenPipeError)):
+            return
+        super().handle_error(request, client_address)
 
     def _watch_idle(self) -> None:
         while True:
