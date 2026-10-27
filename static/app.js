@@ -351,6 +351,7 @@ async function viewTest(testId) {
     progress.furigana = event.target.checked;
     save();
     card.classList.toggle("furigana-off", !progress.furigana);
+    api("PATCH", "/api/settings", { test_furigana: progress.furigana }).catch(() => {});
   });
 
   const onKey = (event) => {
@@ -620,7 +621,7 @@ function reviewCard(question, sections, deckKeys) {
 // --- deck ----------------------------------------------------------------
 
 async function viewDeck() {
-  const cards = await api("GET", "/api/cards");
+  const [cards, settings] = await Promise.all([api("GET", "/api/cards"), api("GET", "/api/settings")]);
   let query = "";
   let kind = "all";
   let expanded = null;
@@ -643,9 +644,36 @@ async function viewDeck() {
         </div>
       </div>
       <div class="deck-table-wrap"></div>
+    </section>
+    <section class="card settings-card">
+      <h2>Review settings</h2>
+      <div class="settings-grid">
+        <label>
+          <span>New cards per day</span>
+          <input type="number" min="0" max="200" step="1" data-setting="new_cards_per_day" value="${settings.new_cards_per_day}">
+        </label>
+        <label>
+          <span>Target recall</span>
+          <select data-setting="desired_retention">
+            ${[0.8, 0.85, 0.9, 0.95].map((value) => `<option value="${value}" ${Number(settings.desired_retention) === value ? "selected" : ""}>${Math.round(value * 100)}%${value === 0.9 ? " (recommended)" : ""}</option>`).join("")}
+          </select>
+        </label>
+      </div>
+      <p class="muted small">Cards come back when your predicted recall drops to the target. A higher target means more frequent reviews.</p>
     </section>`;
 
   const wrap = app.querySelector(".deck-table-wrap");
+  for (const input of app.querySelectorAll("[data-setting]")) {
+    input.addEventListener("change", async () => {
+      const value = input.dataset.setting === "desired_retention" ? Number(input.value) : Math.round(Number(input.value));
+      try {
+        await api("PATCH", "/api/settings", { [input.dataset.setting]: value });
+        toast("Settings saved");
+      } catch (error) {
+        toast(error.message);
+      }
+    });
+  }
 
   const render = () => {
     const needle = query.trim().toLowerCase();
