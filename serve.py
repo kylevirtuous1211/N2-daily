@@ -22,10 +22,13 @@ def main() -> None:
                         help="exit after this many seconds without requests")
     args = parser.parse_args()
 
-    bank = QuestionBank.load(APP_DIR / "content" / "questions")
+    bank = QuestionBank.load(APP_DIR / "content" / "questions", APP_DIR / "content" / "official" / "questions")
+    for warning in bank.warnings:
+        print(f"WARNING: {warning}", flush=True)
     store = Store(args.db, bank)
     server = AppServer(("127.0.0.1", args.port), store, idle_timeout=args.idle_timeout)
-    print(f"N2 Daily: http://127.0.0.1:{args.port}/  ({len(bank.questions)} questions, db {args.db})", flush=True)
+    print(f"N2 Daily: http://127.0.0.1:{args.port}/  ({len(bank.questions)} questions, "
+          f"{len(bank.official)} official, db {args.db})", flush=True)
     try:
         server.serve_forever()
     finally:

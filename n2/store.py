@@ -11,7 +11,7 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 from . import fsrs
-from .bank import SECTIONS, QuestionBank
+from .bank import OFFICIAL_PARTS, SECTIONS, QuestionBank
 
 TEST_PLANS = {
     10: {"kanji_reading": 2, "orthography": 1, "context": 2, "paraphrase": 1,
@@ -101,6 +101,16 @@ def local_date(moment: datetime) -> str:
     return moment.astimezone().date().isoformat()
 
 
+OFFICIAL_SET_NAMES = {"2012": "公式問題集（2012）", "2018": "公式問題集 第二集（2018）"}
+
+
+def test_label(test) -> str:
+    if test["kind"] != "official":
+        return f"Mini test · {test['size']} questions"
+    set_name = OFFICIAL_SET_NAMES.get(test["official_set"], test["official_set"])
+    return f"{set_name} {OFFICIAL_PARTS[test['official_part']]['ja']}"
+
+
 def card_key(kind: str, data: dict) -> str:
     if kind == "vocab":
         return f"vocab:{data['word']}:{data['reading']}"
@@ -119,6 +129,18 @@ class Store:
         self.connection.execute("PRAGMA foreign_keys = ON")
         self.connection.execute("PRAGMA journal_mode = WAL")
         self.connection.executescript(SCHEMA)
+        self._migrate()
+
+    def _migrate(self) -> None:
+        """Bring databases created by older versions up to the current schema."""
+        test_columns = {row["name"] for row in self.connection.execute("PRAGMA table_info(tests)")}
+        with self.connection:
+            if "kind" not in test_columns:
+                self.connection.execute("ALTER TABLE tests ADD COLUMN kind TEXT NOT NULL DEFAULT 'daily'")
+            if "official_set" not in test_columns:
+                self.connection.execute("ALTER TABLE tests ADD COLUMN official_set TEXT")
+            if "official_part" not in test_columns:
+                self.connection.execute("ALTER TABLE tests ADD COLUMN official_part TEXT")
 
     def close(self) -> None:
         self.connection.close()
@@ -161,15 +183,28 @@ class Store:
         for section, quota in TEST_PLANS[size].items():
             chosen.extend(self._pick_questions(section, quota, history, now))
 
+        return self._insert_test(chosen, now, shuffle=True)
+
+    def create_official_test(self, official_set: str, part: str) -> dict:
+        questions = self.bank.official_sets.get(official_set, {}).get(part)
+        if not questions:
+            raise BadRequest(f"no official test {official_set!r} / {part!r}")
+        return self._insert_test(questions, self.clock(), shuffle=False, official=(official_set, part))
+
+    def _insert_test(self, questions: list[dict], now: datetime, shuffle: bool,
+                     official: tuple[str, str] | None = None) -> dict:
+        kind = "official" if official else "daily"
+        official_set, official_part = official or (None, None)
         with self.lock, self.connection:
             cursor = self.connection.execute(
-                "INSERT INTO tests(created_at, local_date, size) VALUES (?, ?, ?)",
-                (to_text(now), local_date(now), len(chosen)),
+                """INSERT INTO tests(created_at, local_date, size, kind, official_set, official_part)
+                   VALUES (?, ?, ?, ?, ?, ?)""",
+                (to_text(now), local_date(now), len(questions), kind, official_set, official_part),
             )
             test_id = cursor.lastrowid
-            for position, question in enumerate(chosen):
-                order = list(range(4))
-                if question["section"] != "sentence_order":
+            for position, question in enumerate(questions):
+                order = list(range(len(question["choices"])))
+                if shuffle and question["section"] != "sentence_order":
                     self.rng.shuffle(order)
                 self.connection.execute(
                     "INSERT INTO test_questions(test_id, position, question_id, choice_order) VALUES (?, ?, ?, ?)",
@@ -223,8 +258,16 @@ class Store:
                 "section": question["section"],
                 "question": question["question"],
                 "passage": question.get("passage"),
+                "passage_group": question.get("passage_group"),
+                "passage_image": question.get("passage_image"),
+                "question_image": question.get("question_image"),
+                "audio": question.get("audio"),
+                "choices_hidden": bool(question.get("choices_hidden")),
+                "official": question.get("official"),
                 "choices": [question["choices"][index] for index in order],
             }
+            if question.get("choices_hidden") and not submitted:
+                item["choices"] = [str(number) for number in range(1, len(order) + 1)]
             if question["section"] == "sentence_order":
                 item["star"] = question["star"]
             if submitted:
@@ -234,6 +277,9 @@ class Store:
             items.append(item)
         return {
             "id": test["id"],
+            "kind": test["kind"],
+            "label": test_label(test),
+            "minutes": OFFICIAL_PARTS[test["official_part"]]["minutes"] if test["official_part"] else None,
             "created_at": test["created_at"],
             "local_date": test["local_date"],
             "size": test["size"],
@@ -254,6 +300,8 @@ class Store:
             "explanation": question["explanation"],
             "full_sentence": question.get("full_sentence"),
             "passage_translation": question.get("passage_translation"),
+            "script": question.get("script"),
+            "script_translation": question.get("script_translation"),
             "vocab": question["vocab"],
             "grammar": question.get("grammar", []),
         }
@@ -275,7 +323,7 @@ class Store:
                 question = self.bank.by_id[row["question_id"]]
                 order = json.loads(row["choice_order"])
                 chosen = answers.get(str(row["position"]))
-                if chosen is not None and chosen not in (0, 1, 2, 3):
+                if chosen is not None and chosen not in range(len(order)):
                     raise BadRequest(f"invalid choice for question {row['position']}")
                 correct = chosen is not None and order[chosen] == question["answer"]
                 score += correct
@@ -296,10 +344,27 @@ class Store:
             raise NotFound(f"no unfinished test {test_id}")
 
     def list_tests(self) -> list[dict]:
-        rows = self.connection.execute(
-            "SELECT id, created_at, local_date, size, submitted_at, score, seconds FROM tests ORDER BY id DESC"
-        )
-        return [dict(row) for row in rows]
+        rows = self.connection.execute("SELECT * FROM tests ORDER BY id DESC")
+        return [{**dict(row), "label": test_label(row)} for row in rows]
+
+    def official_catalog(self) -> list[dict]:
+        """Every official test part with its attempts, newest first."""
+        tests = [test for test in self.list_tests() if test["kind"] == "official"]
+        catalog = []
+        for official_set in sorted(self.bank.official_sets):
+            for part, questions in self.bank.official_sets[official_set].items():
+                attempts = [test for test in tests if test["official_set"] == official_set and test["official_part"] == part]
+                catalog.append({
+                    "set": official_set,
+                    "part": part,
+                    "set_name": OFFICIAL_SET_NAMES.get(official_set, official_set),
+                    "part_name": OFFICIAL_PARTS[part]["ja"],
+                    "minutes": OFFICIAL_PARTS[part]["minutes"],
+                    "count": len(questions),
+                    "attempts": [test for test in attempts if test["submitted_at"]],
+                    "unfinished": next((test["id"] for test in attempts if not test["submitted_at"]), None),
+                })
+        return catalog
 
     def section_stats(self) -> dict:
         rows = self.connection.execute(
@@ -444,15 +509,16 @@ class Store:
         return {
             "today": today,
             "today_tests": [test for test in tests if test["local_date"] == today],
-            "unfinished_test": next((test for test in tests if not test["submitted_at"]), None),
+            "unfinished_test": next((test for test in tests if not test["submitted_at"] and test["kind"] == "daily"), None),
             "streak": streak,
             "deck_size": self.connection.execute("SELECT COUNT(*) FROM cards").fetchone()[0],
             "due_now": due_now,
             "new_available": queue["new_remaining_today"],
             "reviewed_today": reviewed_today,
             "bank_size": len(self.bank.questions),
-            "seen_questions": len(self._question_history()),
+            "seen_questions": len({question["id"] for question in self.bank.questions} & set(self._question_history())),
             "recent_tests": [test for test in tests if test["submitted_at"]][:14],
+            "official": self.official_catalog(),
             "section_stats": self.section_stats(),
             "sections": SECTIONS,
         }

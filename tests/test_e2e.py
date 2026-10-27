@@ -32,12 +32,13 @@ class Clock:
 
 
 class AppHarness:
-    def __init__(self):
+    def __init__(self, official_dir: Path | None = None):
         self.directory = tempfile.TemporaryDirectory()
         self.clock = Clock()
-        self.bank = QuestionBank.load(QUESTIONS_DIR)
+        self.bank = QuestionBank.load(QUESTIONS_DIR, official_dir / "questions" if official_dir else None)
         self.store = Store(Path(self.directory.name) / "test.sqlite3", self.bank, clock=self.clock, rng=random.Random(7))
-        self.server = AppServer(("127.0.0.1", 0), self.store)
+        server_options = {"official_dir": official_dir} if official_dir else {}
+        self.server = AppServer(("127.0.0.1", 0), self.store, **server_options)
         self.base = f"http://127.0.0.1:{self.server.server_address[1]}"
         self.thread = threading.Thread(target=self.server.serve_forever, daemon=True)
         self.thread.start()
@@ -224,3 +225,128 @@ class EndToEndTest(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+FIXTURE_OFFICIAL = Path(__file__).resolve().parent / "fixtures" / "official"
+
+
+class OfficialTestFlowTest(unittest.TestCase):
+    """Official practice tests: fixed order, no shuffling, hidden listening choices, audio with Range."""
+
+    def setUp(self):
+        self.app = AppHarness(official_dir=FIXTURE_OFFICIAL)
+
+    def tearDown(self):
+        self.app.close()
+
+    def fetch(self, path, headers=None):
+        request = urllib.request.Request(self.app.base + path, headers=headers or {})
+        try:
+            with urllib.request.urlopen(request) as response:
+                return response.status, dict(response.headers), response.read()
+        except urllib.error.HTTPError as error:
+            with error:
+                return error.code, dict(error.headers), error.read()
+
+    def test_catalog_lists_parts_with_time_limits(self):
+        catalog = {(entry["set"], entry["part"]): entry for entry in self.app.request("GET", "/api/official")}
+        self.assertEqual(catalog[("fx", "language")]["count"], 2)
+        self.assertEqual(catalog[("fx", "language")]["minutes"], 105)
+        self.assertEqual(catalog[("fx", "listening")]["minutes"], 50)
+        self.assertEqual(self.app.request("GET", "/api/summary")["official"], self.app.request("GET", "/api/official"))
+
+    def test_language_test_keeps_booklet_order_and_choice_order(self):
+        test = self.app.request("POST", "/api/tests", {"official_set": "fx", "official_part": "language"})
+        self.assertEqual(test["kind"], "official")
+        self.assertEqual(test["minutes"], 105)
+        self.assertEqual([item["question_id"] for item in test["questions"]], ["fx-001", "fx-002"])
+        self.assertEqual(test["questions"][0]["choices"], self.app.bank.by_id["fx-001"]["choices"])
+        self.assertEqual(test["questions"][1]["passage_image"], "crops/fx-passage.png")
+        review = self.app.request("POST", f"/api/tests/{test['id']}/submit", {"answers": {"0": 0, "1": 2}})
+        self.assertEqual(review["score"], 1)
+        catalog = {(entry["set"], entry["part"]): entry for entry in self.app.request("GET", "/api/official")}
+        self.assertEqual(catalog[("fx", "language")]["attempts"][0]["score"], 1)
+        self.app.request("POST", "/api/tests", {"official_set": "fx", "official_part": "nope"}, expect=400)
+
+    def test_listening_hides_spoken_choices_until_submitted(self):
+        test = self.app.request("POST", "/api/tests", {"official_set": "fx", "official_part": "listening"})
+        item = test["questions"][0]
+        self.assertEqual(item["choices"], ["1", "2", "3"])
+        self.assertTrue(item["choices_hidden"])
+        self.assertNotIn("script", item)
+        self.assertEqual(item["audio"]["file"], "raw/fx/fx.mp3")
+        self.app.request("POST", f"/api/tests/{test['id']}/submit", {"answers": {"0": 3}}, expect=400)
+        review = self.app.request("POST", f"/api/tests/{test['id']}/submit", {"answers": {"0": 0}})
+        item = review["questions"][0]
+        self.assertTrue(item["correct"])
+        self.assertEqual(item["choices"][0], "はい、どうぞ。")
+        self.assertIn("座{すわ}って", item["script"])
+        self.assertTrue(item["script_translation"])
+
+    def test_daily_tests_never_use_official_questions(self):
+        for _ in range(3):
+            test = self.app.request("POST", "/api/tests", {"size": 30})
+            self.assertFalse([item for item in test["questions"] if item["question_id"].startswith("fx-")])
+            self.app.request("POST", f"/api/tests/{test['id']}/submit", {"answers": {}})
+        self.assertEqual(self.app.request("GET", "/api/summary")["bank_size"], len(self.app.bank.questions))
+
+    def test_unfinished_official_test_does_not_replace_daily_resume(self):
+        official = self.app.request("POST", "/api/tests", {"official_set": "fx", "official_part": "language"})
+        self.assertIsNone(self.app.request("GET", "/api/summary")["unfinished_test"])
+        catalog = {(entry["set"], entry["part"]): entry for entry in self.app.request("GET", "/api/official")}
+        self.assertEqual(catalog[("fx", "language")]["unfinished"], official["id"])
+
+    def test_assets_support_range_requests_and_stay_inside_allowed_folders(self):
+        status, headers, body = self.fetch("/official/crops/fx-passage.png")
+        self.assertEqual((status, headers["Content-Type"]), (200, "image/png"))
+        self.assertTrue(body.startswith(b"\x89PNG"))
+
+        size = (FIXTURE_OFFICIAL / "raw" / "fx" / "fx.mp3").stat().st_size
+        status, headers, body = self.fetch("/official/raw/fx/fx.mp3", {"Range": "bytes=0-99"})
+        self.assertEqual((status, headers["Content-Range"], len(body)), (206, f"bytes 0-99/{size}", 100))
+        status, headers, body = self.fetch("/official/raw/fx/fx.mp3", {"Range": "bytes=-50"})
+        self.assertEqual((status, len(body)), (206, 50))
+        status, headers, body = self.fetch("/official/raw/fx/fx.mp3", {"Range": f"bytes={size}-"})
+        self.assertEqual(status, 416)
+        status, headers, body = self.fetch("/official/raw/fx/fx.mp3")
+        self.assertEqual((status, headers["Accept-Ranges"], len(body)), (200, "bytes", size))
+
+        for path in ("/official/questions/fixture.json", "/official/../../serve.py", "/official/raw/../questions/fixture.json"):
+            self.assertEqual(self.fetch(path)[0], 404, path)
+
+
+class OfficialBankLoadingTest(unittest.TestCase):
+    def test_broken_official_bank_disables_official_tests_but_not_the_app(self):
+        with tempfile.TemporaryDirectory() as directory:
+            questions = Path(directory) / "questions"
+            questions.mkdir()
+            items = json.loads((FIXTURE_OFFICIAL / "questions" / "fixture.json").read_text(encoding="utf-8"))
+            listening = next(item for item in items if item["section"] == "listening_response")
+            del listening["audio"]
+            items = [item for item in items if "passage_image" not in item]  # assets are not copied here
+            (questions / "broken.json").write_text(json.dumps(items, ensure_ascii=False), encoding="utf-8")
+            bank = QuestionBank.load(QUESTIONS_DIR, questions)
+        self.assertEqual(bank.official, [])
+        self.assertIn("listening question needs audio", bank.warnings[0])
+        self.assertTrue(bank.questions)
+
+
+class MigrationTest(unittest.TestCase):
+    def test_database_from_first_version_is_upgraded(self):
+        import sqlite3
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "old.sqlite3"
+            connection = sqlite3.connect(path)
+            connection.executescript("""
+                CREATE TABLE tests (id INTEGER PRIMARY KEY, created_at TEXT NOT NULL, local_date TEXT NOT NULL,
+                                    size INTEGER NOT NULL, submitted_at TEXT, score INTEGER, seconds REAL);
+                INSERT INTO tests(created_at, local_date, size) VALUES ('2026-10-27T06:46:51+00:00', '2026-10-27', 10);
+            """)
+            connection.close()
+            store = Store(path, QuestionBank.load(QUESTIONS_DIR))
+            try:
+                tests = store.list_tests()
+                self.assertEqual((tests[0]["kind"], tests[0]["label"]), ("daily", "Mini test · 10 questions"))
+                Store(path, store.bank).close()  # migrating twice is a no-op
+            finally:
+                store.close()

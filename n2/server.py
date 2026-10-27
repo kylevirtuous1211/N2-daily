@@ -10,12 +10,16 @@ import time
 from http import HTTPStatus
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
-from urllib.parse import urlparse
+from urllib.parse import unquote, urlparse
 
 from .store import BadRequest, NotFound, Store
 
 APP_NAME = "n2-daily"
 STATIC_DIR = Path(__file__).resolve().parent.parent / "static"
+OFFICIAL_DIR = Path(__file__).resolve().parent.parent / "content" / "official"
+OFFICIAL_ASSET_DIRS = ("crops", "raw")
+OFFICIAL_ASSET_TYPES = {".png": "image/png", ".mp3": "audio/mpeg"}
+RANGE_PATTERN = re.compile(r"^bytes=(\d*)-(\d*)$")
 
 mimetypes.add_type("text/javascript", ".js")
 mimetypes.add_type("text/css", ".css")
@@ -42,7 +46,10 @@ def build_routes(store: Store) -> list[Route]:
         Route("GET", "/api/settings", lambda match, body: store.settings()),
         Route("PATCH", "/api/settings", lambda match, body: store.update_settings(body)),
         Route("GET", "/api/tests", lambda match, body: store.list_tests()),
-        Route("POST", "/api/tests", lambda match, body: store.create_test(body_int(body, "size"))),
+        Route("POST", "/api/tests", lambda match, body: (
+            store.create_official_test(str(body["official_set"]), str(body.get("official_part")))
+            if "official_set" in body else store.create_test(body_int(body, "size")))),
+        Route("GET", "/api/official", lambda match, body: store.official_catalog()),
         Route("GET", r"/api/tests/(\d+)", lambda match, body: store.get_test(int(match[1]))),
         Route("DELETE", r"/api/tests/(\d+)", lambda match, body: store.delete_test(int(match[1])) or {"ok": True}),
         Route("POST", r"/api/tests/(\d+)/submit", lambda match, body: store.submit_test(
@@ -61,10 +68,11 @@ def build_routes(store: Store) -> list[Route]:
 class AppServer(ThreadingHTTPServer):
     daemon_threads = True
 
-    def __init__(self, address, store: Store, idle_timeout: float | None = None):
+    def __init__(self, address, store: Store, idle_timeout: float | None = None, official_dir: Path = OFFICIAL_DIR):
         self.store = store
         self.routes = build_routes(store)
         self.idle_timeout = idle_timeout
+        self.official_dir = official_dir
         self.last_activity = time.monotonic()
         super().__init__(address, RequestHandler)
         if idle_timeout:
@@ -103,6 +111,8 @@ class RequestHandler(BaseHTTPRequestHandler):
         if not path.startswith("/api/"):
             if method != "GET":
                 return self._send_json({"error": "not found"}, HTTPStatus.NOT_FOUND)
+            if path.startswith("/official/"):
+                return self._serve_official_asset(path.removeprefix("/official/"))
             return self._serve_static(path)
 
         for route in self.server.routes:
@@ -140,6 +150,59 @@ class RequestHandler(BaseHTTPRequestHandler):
         self.send_header("Cache-Control", "no-store")
         self.end_headers()
         self.wfile.write(data)
+
+    def _serve_official_asset(self, relative: str) -> None:
+        """Serve official crops and audio (with HTTP Range support so audio can seek)."""
+        official_dir = self.server.official_dir
+        target = (official_dir / unquote(relative)).resolve()
+        allowed = any(target.is_relative_to((official_dir / folder).resolve()) for folder in OFFICIAL_ASSET_DIRS)
+        content_type = OFFICIAL_ASSET_TYPES.get(target.suffix.lower())
+        if not allowed or content_type is None or not target.is_file():
+            return self._send_json({"error": "not found"}, HTTPStatus.NOT_FOUND)
+
+        size = target.stat().st_size
+        start, end = 0, size - 1
+        status = HTTPStatus.OK
+        range_header = self.headers.get("Range")
+        if range_header:
+            match = RANGE_PATTERN.match(range_header.strip())
+            if not match or (not match[1] and not match[2]):
+                return self._send_range_not_satisfiable(size)
+            if match[1]:
+                start = int(match[1])
+                end = min(int(match[2]), size - 1) if match[2] else size - 1
+            else:
+                start = max(size - int(match[2]), 0)
+            if start > end or start >= size:
+                return self._send_range_not_satisfiable(size)
+            status = HTTPStatus.PARTIAL_CONTENT
+
+        self.send_response(status)
+        self.send_header("Content-Type", content_type)
+        self.send_header("Accept-Ranges", "bytes")
+        self.send_header("Content-Length", str(end - start + 1))
+        self.send_header("Cache-Control", "max-age=86400")
+        if status == HTTPStatus.PARTIAL_CONTENT:
+            self.send_header("Content-Range", f"bytes {start}-{end}/{size}")
+        self.end_headers()
+        with open(target, "rb") as stream:
+            stream.seek(start)
+            remaining = end - start + 1
+            while remaining > 0:
+                chunk = stream.read(min(65536, remaining))
+                if not chunk:
+                    break
+                try:
+                    self.wfile.write(chunk)
+                except (BrokenPipeError, ConnectionResetError):
+                    return  # the browser cancelled the request (normal while seeking)
+                remaining -= len(chunk)
+
+    def _send_range_not_satisfiable(self, size: int) -> None:
+        self.send_response(HTTPStatus.REQUESTED_RANGE_NOT_SATISFIABLE)
+        self.send_header("Content-Range", f"bytes */{size}")
+        self.send_header("Content-Length", "0")
+        self.end_headers()
 
     def _serve_static(self, path: str) -> None:
         relative = path.lstrip("/") or "index.html"

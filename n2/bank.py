@@ -50,7 +50,33 @@ SECTIONS = {
         "ja": "読解", "en": "Reading comprehension",
         "instructions": "次の文章を読んで、後の問いに対する答えとして最もよいものを、１・２・３・４から一つ選びなさい。",
     },
+    "text_grammar": {
+        "ja": "文章の文法", "en": "Grammar in a passage",
+        "instructions": "次の文章を読んで、文章全体の内容を考えて、（　　）の中に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+    },
+    "listening_task": {
+        "ja": "課題理解", "en": "Listening: task-based",
+        "instructions": "まず質問を聞いてください。それから話を聞いて、問題用紙の１から４の中から、最もよいものを一つ選んでください。",
+    },
+    "listening_point": {
+        "ja": "ポイント理解", "en": "Listening: key points",
+        "instructions": "まず質問を聞いてください。そのあと、問題用紙のせんたくしを読んでください。読む時間があります。それから話を聞いて、問題用紙の１から４の中から、最もよいものを一つ選んでください。",
+    },
+    "listening_summary": {
+        "ja": "概要理解", "en": "Listening: overview",
+        "instructions": "問題用紙に何もいんさつされていません。全体としてどんな内容かを聞く問題です。話の前に質問はありません。まず話を聞いてください。それから、質問とせんたくしを聞いて、１から４の中から、最もよいものを一つ選んでください。",
+    },
+    "listening_response": {
+        "ja": "即時応答", "en": "Listening: quick response",
+        "instructions": "問題用紙に何もいんさつされていません。まず文を聞いてください。それから、それに対する返事を聞いて、１から３の中から、最もよいものを一つ選んでください。",
+    },
+    "listening_integrated": {
+        "ja": "統合理解", "en": "Listening: integrated",
+        "instructions": "長めの話を聞きます。問題用紙にメモをとってもかまいません。質問とせんたくしを聞いて、１から４の中から、最もよいものを一つ選んでください。",
+    },
 }
+
+LISTENING_SECTIONS = ("listening_task", "listening_point", "listening_summary", "listening_response", "listening_integrated")
 
 # Questions per section in a standard daily mini test (20 questions).
 MINI_TEST_PLAN = {
@@ -70,7 +96,7 @@ KANA_READING = re.compile(r"^[ぁ-ゟ゠-ヿー]+$")
 RUBY_PATTERN = re.compile(r"\{([^{}]*)\}")
 KANJI_RUN_AT_END = re.compile(f"[{KANJI_CHARS}]+$")
 
-TEXT_FIELDS = ("question", "passage", "full_sentence")
+TEXT_FIELDS = ("question", "passage", "full_sentence", "script")
 
 
 @dataclass
@@ -134,14 +160,15 @@ def validate_question(question: dict) -> list[ValidationError]:
         problems.append(f"unknown section {section!r}")
 
     choices = question["choices"]
-    if len(choices) != 4 or not all(isinstance(choice, str) and choice.strip() for choice in choices):
-        problems.append("need exactly 4 non-empty choices")
-    elif len({strip_markup(choice) for choice in choices}) != 4:
+    choice_count = 3 if section == "listening_response" else 4
+    if len(choices) != choice_count or not all(isinstance(choice, str) and choice.strip() for choice in choices):
+        problems.append(f"need exactly {choice_count} non-empty choices")
+    elif len({strip_markup(choice) for choice in choices}) != choice_count:
         problems.append("choices must be distinct")
-    if not 0 <= question["answer"] <= 3:
-        problems.append("answer must be 0-3")
-    if len(question["choice_notes"]) != 4:
-        problems.append("need exactly 4 choice_notes")
+    if not 0 <= question["answer"] < choice_count:
+        problems.append(f"answer must be 0-{choice_count - 1}")
+    if len(question["choice_notes"]) != choice_count:
+        problems.append(f"need exactly {choice_count} choice_notes")
 
     if section in ("kanji_reading", "orthography", "paraphrase") and "[[" not in question["question"]:
         problems.append("question must mark the target with [[ ]]")
@@ -153,11 +180,16 @@ def validate_question(question: dict) -> list[ValidationError]:
         problems.append("orthography choices must not carry furigana (it reveals the answer)")
     if section in ("word_formation", "context", "grammar_form") and "（　　）" not in question["question"]:
         problems.append("question must contain the blank （　　）")
-    if section == "reading":
-        if not isinstance(question.get("passage"), str) or len(strip_markup(question["passage"])) < 80:
-            problems.append("reading needs a passage of at least 80 characters")
+    if section in ("reading", "text_grammar"):
+        has_image = isinstance(question.get("passage_image"), str)
+        if not has_image and (not isinstance(question.get("passage"), str) or len(strip_markup(question["passage"])) < 80):
+            problems.append(f"{section} needs a passage of at least 80 characters (or a passage_image)")
         if not isinstance(question.get("passage_translation"), str):
-            problems.append("reading needs passage_translation")
+            problems.append(f"{section} needs passage_translation")
+    if section in LISTENING_SECTIONS:
+        for field in ("script", "script_translation"):
+            if not isinstance(question.get(field), str) or not question[field].strip():
+                problems.append(f"listening needs {field}")
     if section == "sentence_order":
         problems.extend(_sentence_order_problems(question))
     if section in ("word_formation", "context", "grammar_form", "sentence_order"):
@@ -219,24 +251,80 @@ def _grammar_problems(entry: dict) -> list[str]:
     return problems
 
 
+OFFICIAL_PARTS = {
+    "language": {"ja": "言語知識（文字・語彙・文法）・読解", "minutes": 105},
+    "listening": {"ja": "聴解", "minutes": 50},
+}
+
+
 class QuestionBank:
-    def __init__(self, questions: list[dict]):
+    """Daily-test pool plus (optionally) official practice tests, which never enter the daily pool."""
+
+    def __init__(self, questions: list[dict], official: list[dict] | None = None, warnings: list[str] | None = None):
         self.questions = questions
-        self.by_id = {question["id"]: question for question in questions}
+        self.official = official or []
+        self.warnings = warnings or []
+        self.by_id = {question["id"]: question for question in self.questions + self.official}
         self.by_section: dict[str, list[dict]] = {section: [] for section in SECTIONS}
         for question in questions:
             self.by_section[question["section"]].append(question)
+        self.official_sets: dict[str, dict[str, list[dict]]] = {}
+        for question in sorted(self.official, key=_official_sort_key):
+            meta = question["official"]
+            self.official_sets.setdefault(meta["set"], {}).setdefault(meta["part"], []).append(question)
 
     @classmethod
-    def load(cls, directory: Path) -> "QuestionBank":
+    def load(cls, directory: Path, official_directory: Path | None = None) -> "QuestionBank":
         questions, errors = load_and_validate(directory)
         if errors:
             details = "\n".join(str(error) for error in errors[:20])
             raise ValueError(f"{len(errors)} problems in question bank:\n{details}")
-        return cls(questions)
+
+        # The official bank is optional and imported locally; a broken import must not stop the app,
+        # and a partial official test must never be served, so any error disables the whole official bank.
+        official: list[dict] = []
+        warnings: list[str] = []
+        if official_directory is not None and official_directory.is_dir():
+            official, official_errors = load_and_validate(official_directory, official=True)
+            duplicates = {question["id"] for question in questions} & {question["id"] for question in official}
+            official_errors += [ValidationError(question_id, "id used in both banks") for question_id in sorted(duplicates)]
+            if official_errors:
+                warnings = [f"official tests disabled: {len(official_errors)} problems, first: {official_errors[0]}"]
+                official = []
+        return cls(questions, official, warnings)
 
 
-def load_and_validate(directory: Path) -> tuple[list[dict], list[ValidationError]]:
+def _official_sort_key(question: dict) -> tuple:
+    meta = question["official"]
+    return (meta["set"], meta["part"], meta["mondai"], meta["number"])
+
+
+def official_problems(question: dict, assets_root: Path, require_audio: bool = True) -> list[str]:
+    problems = []
+    meta = question.get("official")
+    if not isinstance(meta, dict):
+        return ["official question needs an 'official' object"]
+    if not isinstance(meta.get("set"), str) or meta.get("part") not in OFFICIAL_PARTS:
+        problems.append("official.set must be a string and official.part one of " + ", ".join(OFFICIAL_PARTS))
+    if not isinstance(meta.get("mondai"), int) or not isinstance(meta.get("number"), int):
+        problems.append("official.mondai and official.number must be integers")
+    for field in ("passage_image", "question_image"):
+        if field in question and not (assets_root / question[field]).is_file():
+            problems.append(f"{field} file not found: {question[field]}")
+    audio = question.get("audio")
+    if audio is not None:
+        if not isinstance(audio, dict) or not (assets_root / str(audio.get("file"))).is_file():
+            problems.append("audio.file not found")
+        elif not (isinstance(audio.get("start"), (int, float)) and isinstance(audio.get("end"), (int, float))
+                  and 0 <= audio["start"] < audio["end"]):
+            problems.append("audio needs numeric start < end")
+    if require_audio and question.get("section") in LISTENING_SECTIONS and audio is None:
+        problems.append("listening question needs audio")
+    return problems
+
+
+def load_and_validate(directory: Path, official: bool = False) -> tuple[list[dict], list[ValidationError]]:
+    """Official banks live in content/official/questions; their assets are resolved against content/official."""
     questions: list[dict] = []
     errors: list[ValidationError] = []
     seen_ids: set[str] = set()
@@ -251,6 +339,9 @@ def load_and_validate(directory: Path) -> tuple[list[dict], list[ValidationError
             continue
         for item in items:
             item_errors = validate_question(item)
+            if official:
+                item_errors += [ValidationError(item.get("id", "<missing id>"), problem)
+                                for problem in official_problems(item, directory.parent)]
             errors.extend(item_errors)
             question_id = item.get("id")
             if question_id in seen_ids:

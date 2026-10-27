@@ -1,0 +1,55 @@
+[
+  {
+    "id": "fx-001",
+    "official": {"set": "fx", "part": "language", "mondai": 1, "number": 1},
+    "section": "kanji_reading",
+    "question": "彼{かれ}の[[態度]]はとても丁寧{ていねい}だった。",
+    "choices": ["たいど", "たいどう", "だいど", "ていど"],
+    "answer": 0,
+    "translation": "His attitude was very polite.",
+    "explanation": "態度 is read たいど 'attitude'.",
+    "choice_notes": ["Correct.", "Wrong. No long vowel.", "Wrong. Not voiced.", "Wrong. ていど is 程度 'degree'."],
+    "vocab": [
+      {"word": "態度", "reading": "たいど", "meaning": "attitude", "pos": "noun", "example": "態度{たいど}が悪{わる}い。", "example_translation": "The attitude is bad."}
+    ],
+    "grammar": []
+  },
+  {
+    "id": "fx-002",
+    "official": {"set": "fx", "part": "language", "mondai": 14, "number": 2},
+    "section": "reading",
+    "passage_group": "fx-m14-1",
+    "passage": "図書館{としょかん}のお知{し}らせ\n来月{らいげつ}から開館{かいかん}時間{じかん}が変{か}わります。",
+    "passage_image": "crops/fx-passage.png",
+    "passage_translation": "Library notice\nOpening hours change from next month.",
+    "question": "何{なに}が変{か}わるか。",
+    "choices": ["開館{かいかん}時間{じかん}", "休館日{きゅうかんび}", "貸{か}し出{だ}し冊数{さっすう}", "住所{じゅうしょ}"],
+    "answer": 0,
+    "translation": "What changes? - The opening hours.",
+    "explanation": "The notice says 開館時間が変わります.",
+    "choice_notes": ["Correct.", "Wrong. Not mentioned.", "Wrong. Not mentioned.", "Wrong. Not mentioned."],
+    "vocab": [
+      {"word": "開館", "reading": "かいかん", "meaning": "opening (of a library or museum)", "pos": "noun", "example": "開館{かいかん}は九時{くじ}です。", "example_translation": "It opens at nine."}
+    ],
+    "grammar": []
+  },
+  {
+    "id": "fx-L4-01",
+    "official": {"set": "fx", "part": "listening", "mondai": 4, "number": 1},
+    "section": "listening_response",
+    "question": "1番",
+    "choices": ["はい、どうぞ。", "いいえ、結構{けっこう}です。", "そうですね。"],
+    "choices_hidden": true,
+    "answer": 0,
+    "audio": {"file": "raw/fx/fx.mp3", "start": 0.2, "end": 0.9},
+    "script": "男{おとこ}：この席{せき}、座{すわ}ってもいいですか。\n女{おんな}：1. はい、どうぞ。2. いいえ、結構{けっこう}です。3. そうですね。",
+    "script_translation": "Man: May I sit in this seat?\nWoman: 1. Yes, go ahead. 2. No, thank you. 3. I suppose so.",
+    "translation": "May I sit here? - Yes, go ahead.",
+    "explanation": "Asking permission is answered with はい、どうぞ.",
+    "choice_notes": ["Correct.", "Wrong. This declines an offer.", "Wrong. This agrees with an opinion."],
+    "vocab": [
+      {"word": "席", "reading": "せき", "meaning": "seat", "pos": "noun", "example": "席{せき}に座{すわ}る。", "example_translation": "To sit in a seat."}
+    ],
+    "grammar": []
+  }
+]
