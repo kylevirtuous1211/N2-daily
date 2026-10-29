@@ -50,6 +50,9 @@ The app uses only the Python standard library and plain JavaScript; there is not
 - `tools/show_questions.py` and `tools/apply_fixes.py` - inspect questions by id and apply reviewed path-based fixes.
 - `tools/check_readings.py` - cross-checks every furigana and vocab reading against JMdict and KANJIDIC2 (download the jmdict-simplified `jmdict-eng` and `kanjidic2-en` JSON into the git-ignored `cache/`; `run_tests.py` then runs it too).
   The dictionary data is EDRDG's, used under CC BY-SA 4.0 (https://www.edrdg.org/edrdg/licence.html).
+- `tools/pick_words.py` - picks N2 words the bank does not test yet (with a suggested question type) for generating new questions.
+  The word list `content/wordlists/n2_waller.csv` is Jonathan Waller's JLPT N2 list (CC BY, http://www.tanos.co.uk/jlpt/) as packaged by https://github.com/jamsinclair/open-anki-jlpt-decks (MIT).
+  JLPT has published no official word list since 2010, so any N2 list is an estimate.
 - `tools/make_icon.py` - renders `static/icon.svg` to `assets/n2daily.ico` with headless Chrome.
 - `tools/install_shortcut.ps1` - recreates the desktop and Start menu shortcuts.
 
