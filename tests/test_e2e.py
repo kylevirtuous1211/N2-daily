@@ -122,20 +122,32 @@ class EndToEndTest(unittest.TestCase):
         self.assertEqual(review["score"], 0)
         self.assertTrue(all(item["chosen"] is None for item in review["questions"]))
 
-    def test_next_tests_prefer_unseen_then_bring_back_mistakes(self):
-        first, first_review = self.take_test(pick=lambda question: None)  # everything wrong
+    def test_next_tests_prefer_unseen_and_only_rarely_bring_back_mistakes(self):
+        # The user's case: a 10-question test mostly wrong, then another 10-question test a few days later.
+        first, first_review = self.take_test(size=10, pick=lambda question: None)  # everything wrong
         first_ids = {item["question_id"] for item in first_review["questions"]}
 
-        self.app.clock.advance(hours=20)
-        second, _ = self.take_test(pick=lambda question: 0)
-        self.assertFalse(first_ids & {item["question_id"] for item in second["questions"]},
-                         "next-day test should use unseen questions before the 2-day retest window")
-
         self.app.clock.advance(days=3)
-        third = self.app.request("POST", "/api/tests", {"size": 20})
+        second, _ = self.take_test(size=10, pick=lambda question: 0)
+        self.assertFalse(first_ids & {item["question_id"] for item in second["questions"]},
+                         "mistakes must not come back before the 7-day retest window")
+
+        self.app.clock.advance(days=5)
+        third = self.app.request("POST", "/api/tests", {"size": 10})
         retested = first_ids & {item["question_id"] for item in third["questions"]}
-        self.assertTrue(retested, "mistakes should come back after the retest window")
-        self.assertLessEqual(len(retested), 10, "at most a third of each section is retests")
+        self.assertEqual(len(retested), 1, "after a week, exactly one old mistake per 10 questions comes back")
+
+        twenty = self.app.request("POST", "/api/tests", {"size": 20})
+        self.assertLessEqual(len(first_ids & {item["question_id"] for item in twenty["questions"]}), 2)
+
+    def test_seen_questions_return_oldest_first_once_a_section_is_exhausted(self):
+        pool = {question["id"] for question in self.app.bank.by_section["word_formation"]}
+        first_round = []
+        while len(first_round) < len(pool):
+            test, _ = self.take_test(size=30)
+            first_round += [item["question_id"] for item in test["questions"] if item["section"] == "word_formation"]
+            self.app.clock.advance(hours=1)
+        self.assertEqual(len(set(first_round)), len(pool), "every question is shown once before any repeats")
 
     def test_streak_counts_consecutive_days(self):
         self.take_test(size=10)

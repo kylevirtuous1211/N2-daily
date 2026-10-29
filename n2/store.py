@@ -3,7 +3,6 @@
 from __future__ import annotations
 
 import json
-import math
 import random
 import sqlite3
 import threading
@@ -21,7 +20,10 @@ TEST_PLANS = {
     30: {"kanji_reading": 4, "orthography": 3, "word_formation": 2, "context": 4, "paraphrase": 3,
          "usage": 2, "grammar_form": 6, "sentence_order": 3, "reading": 3},
 }
-RETEST_AFTER = timedelta(days=2)
+# Old mistakes come back at most once per RETEST_PER_QUESTIONS questions, and only after RETEST_AFTER;
+# everything else prefers questions never shown before.
+RETEST_AFTER = timedelta(days=7)
+RETEST_PER_QUESTIONS = 10
 LEARN_AHEAD = timedelta(minutes=20)
 DEFAULT_SETTINGS = {"new_cards_per_day": 20, "desired_retention": 0.9, "test_furigana": False}
 
@@ -179,9 +181,12 @@ class Store:
             raise BadRequest(f"size must be one of {sorted(TEST_PLANS)}")
         now = self.clock()
         history = self._question_history()
+        retest_budget = size // RETEST_PER_QUESTIONS
         chosen: list[dict] = []
         for section, quota in TEST_PLANS[size].items():
-            chosen.extend(self._pick_questions(section, quota, history, now))
+            picked, retests = self._pick_questions(section, quota, history, now, allow_retest=retest_budget > 0)
+            retest_budget -= retests
+            chosen.extend(picked)
 
         return self._insert_test(chosen, now, shuffle=True)
 
@@ -226,17 +231,23 @@ class Store:
             history[row["question_id"]] = {"last_seen": from_text(row["submitted_at"]), "last_correct": bool(row["correct"])}
         return history
 
-    def _pick_questions(self, section: str, quota: int, history: dict, now: datetime) -> list[dict]:
+    def _pick_questions(self, section: str, quota: int, history: dict, now: datetime,
+                        allow_retest: bool) -> tuple[list[dict], int]:
+        """Unseen questions first; at most one old mistake (if allowed); then the longest-unseen questions."""
         pool = list(self.bank.by_section[section])
         self.rng.shuffle(pool)
         retest = [q for q in pool if q["id"] in history and not history[q["id"]]["last_correct"]
                   and now - history[q["id"]]["last_seen"] >= RETEST_AFTER]
         unseen = [q for q in pool if q["id"] not in history]
-        seen = sorted((q for q in pool if q["id"] in history and q not in retest),
-                      key=lambda q: history[q["id"]]["last_seen"])
-        retest_quota = math.ceil(quota / 3)
-        ordered = retest[:retest_quota] + unseen + retest[retest_quota:] + seen
-        return ordered[:quota]
+        seen = sorted((q for q in pool if q["id"] in history), key=lambda q: history[q["id"]]["last_seen"])
+        picked = retest[:1] if allow_retest else []
+        for question in unseen + seen:
+            if len(picked) == quota:
+                break
+            if question not in picked:
+                picked.append(question)
+        retests = sum(1 for question in picked if question in retest)
+        return picked, retests
 
     def get_test(self, test_id: int) -> dict:
         test = self.connection.execute("SELECT * FROM tests WHERE id = ?", (test_id,)).fetchone()
