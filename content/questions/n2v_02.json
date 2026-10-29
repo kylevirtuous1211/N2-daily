@@ -1,0 +1,1103 @@
+[
+  {
+    "id": "n2v-011",
+    "target_word": "作製",
+    "section": "paraphrase",
+    "question": "学生{がくせい}たちは、三{さん}か月{げつ}かけて駅{えき}の模型{もけい}を[[作製{さくせい}した]]。",
+    "choices": [
+      "直{なお}した",
+      "飾{かざ}った",
+      "作{つく}った",
+      "片付{かたづ}けた"
+    ],
+    "answer": 2,
+    "translation": "The students spent three months making a model of the station.",
+    "explanation": "作製（さくせい）means 'making, producing' a physical object, such as a model, a specimen, or a prototype. It is a formal, written word; in everyday speech you would simply say 作る（つくる）. So 模型を作製した = 模型を作った 'made a model'. Be careful with its homophone 作成（さくせい）, which is used for documents and plans: 書類を作成する 'to draw up a document', 計画を作成する 'to draw up a plan'. Rule of thumb: 作製 for objects you can hold, 作成 for things you write or compile. The other three choices are all things you could do to a model, but none of them means 'to make': 直す 'to repair', 飾る 'to display, to decorate', 片付ける 'to tidy up, to put away'.",
+    "choice_notes": [
+      "Wrong. 直す（なおす）means 'to repair, to fix': 壊れた模型を直した 'I repaired the broken model'. Repairing something that already exists is not making it.",
+      "Wrong. 飾る（かざる）means 'to decorate, to put on display': 模型を玄関に飾った 'I displayed the model in the entrance hall'. It says nothing about making it.",
+      "Correct. 作る（つくる）'to make' is the everyday word for 作製する.",
+      "Wrong. 片付ける（かたづける）means 'to tidy up, to put away': 使った道具を片付けた 'I put away the tools I had used'."
+    ],
+    "vocab": [
+      {
+        "word": "作製",
+        "reading": "さくせい",
+        "meaning": "making, production (of a physical object such as a model or specimen)",
+        "pos": "noun / suru verb",
+        "example": "理科{りか}の授業{じゅぎょう}で、植物{しょくぶつ}の標本{ひょうほん}を作製{さくせい}した。",
+        "example_translation": "In science class, we made plant specimens."
+      },
+      {
+        "word": "作る",
+        "reading": "つくる",
+        "meaning": "to make, to produce",
+        "pos": "godan verb",
+        "example": "母{はは}が誕生日{たんじょうび}のケーキを作{つく}ってくれた。",
+        "example_translation": "My mother made me a birthday cake."
+      },
+      {
+        "word": "直す",
+        "reading": "なおす",
+        "meaning": "to repair, to fix; to correct",
+        "pos": "godan verb",
+        "example": "父{ちち}が壊{こわ}れた自転車{じてんしゃ}を直{なお}してくれた。",
+        "example_translation": "My father repaired my broken bicycle for me."
+      },
+      {
+        "word": "飾る",
+        "reading": "かざる",
+        "meaning": "to decorate; to put on display",
+        "pos": "godan verb",
+        "example": "部屋{へや}に花{はな}を飾{かざ}った。",
+        "example_translation": "I decorated the room with flowers."
+      },
+      {
+        "word": "片付ける",
+        "reading": "かたづける",
+        "meaning": "to tidy up, to put away",
+        "pos": "ichidan verb",
+        "example": "遊{あそ}んだ後{あと}は、おもちゃを片付{かたづ}けなさい。",
+        "example_translation": "Put your toys away after you play."
+      },
+      {
+        "word": "模型",
+        "reading": "もけい",
+        "meaning": "model, miniature",
+        "pos": "noun",
+        "example": "弟{おとうと}は飛行機{ひこうき}の模型{もけい}を集{あつ}めている。",
+        "example_translation": "My younger brother collects model airplanes."
+      },
+      {
+        "word": "作成",
+        "reading": "さくせい",
+        "meaning": "drawing up, making (documents, plans, lists)",
+        "pos": "noun / suru verb",
+        "example": "会議{かいぎ}の資料{しりょう}を作成{さくせい}した。",
+        "example_translation": "I prepared the materials for the meeting."
+      },
+      {
+        "word": "〜か月",
+        "reading": "かげつ",
+        "meaning": "(counter for) months",
+        "pos": "counter",
+        "example": "三{さん}か月{げつ}前{まえ}にこの町{まち}に引{ひ}っ越{こ}してきた。",
+        "example_translation": "I moved to this town three months ago."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜かけて (time spent)",
+        "meaning": "spending (an amount of time or money) on ~, taking ~ to do",
+        "formation": "Amount of time or money + (を)かけて + verb (三か月かけて作る 'to spend three months making')",
+        "example": "祖父{そふ}は一年{いちねん}かけて、自分{じぶん}で家{いえ}を建{た}てた。",
+        "example_translation": "My grandfather spent a year building a house by himself."
+      }
+    ]
+  },
+  {
+    "id": "n2v-012",
+    "target_word": "中指",
+    "section": "usage",
+    "question": "[[中指{なかゆび}]]",
+    "choices": [
+      "五本{ごほん}の指{ゆび}の中{なか}で一番{いちばん}小{ちい}さい中指{なかゆび}に、指輪{ゆびわ}をはめた。",
+      "料理{りょうり}をしていて、包丁{ほうちょう}で左手{ひだりて}の中指{なかゆび}を切{き}ってしまった。",
+      "私{わたし}は三人{さんにん}兄弟{きょうだい}の中指{なかゆび}で、上{うえ}に兄{あに}、下{した}に弟{おとうと}がいる。",
+      "時計{とけい}の中指{なかゆび}が、ちょうど十二時{じゅうにじ}を指{さ}している。"
+    ],
+    "answer": 1,
+    "translation": "While I was cooking, I cut the middle finger of my left hand with a kitchen knife.",
+    "explanation": "中指（なかゆび）is the middle finger: the third finger counting from the thumb, and usually the longest one. It can also mean the middle toe (足の中指). It is only used for a body part, never for 'the middle one' of something else. The five fingers in Japanese are 親指（おやゆび）'thumb', 人差し指（ひとさしゆび）'index finger', 中指（なかゆび）'middle finger', 薬指（くすりゆび）'ring finger', and 小指（こゆび）'little finger'. The correct sentence uses 中指 for a real finger that was cut with a knife. The wrong sentences use 中指 for the smallest finger, for the middle child of three siblings, and for the hand of a clock.",
+    "choice_notes": [
+      "Wrong. The smallest of the five fingers is 小指（こゆび）'little finger': 一番小さい小指に指輪をはめた.",
+      "Correct. Cutting your middle finger with a kitchen knife is a normal use of 中指.",
+      "Wrong. The middle child of three siblings is the 真ん中（まんなか）'the middle one': 三人兄弟の真ん中で. 中指 only means a finger (or toe).",
+      "Wrong. The hand of a clock is 針（はり）: 時計の針が、ちょうど十二時を指している."
+    ],
+    "vocab": [
+      {
+        "word": "中指",
+        "reading": "なかゆび",
+        "meaning": "middle finger; middle toe",
+        "pos": "noun",
+        "example": "ピアノを弾{ひ}いていたら、中指{なかゆび}が痛{いた}くなった。",
+        "example_translation": "While I was playing the piano, my middle finger started to hurt."
+      },
+      {
+        "word": "小指",
+        "reading": "こゆび",
+        "meaning": "little finger, pinky; little toe",
+        "pos": "noun",
+        "example": "赤{あか}ちゃんが私{わたし}の小指{こゆび}をぎゅっと握{にぎ}った。",
+        "example_translation": "The baby squeezed my little finger tightly."
+      },
+      {
+        "word": "真ん中",
+        "reading": "まんなか",
+        "meaning": "the middle, the center",
+        "pos": "noun",
+        "example": "道{みち}の真{ま}ん中{なか}に大{おお}きな石{いし}がある。",
+        "example_translation": "There is a big stone in the middle of the road."
+      },
+      {
+        "word": "針",
+        "reading": "はり",
+        "meaning": "needle; (clock) hand",
+        "pos": "noun",
+        "example": "時計{とけい}の短{みじか}い針{はり}が三{さん}を指{さ}している。",
+        "example_translation": "The short hand of the clock is pointing at three."
+      },
+      {
+        "word": "親指",
+        "reading": "おやゆび",
+        "meaning": "thumb; big toe",
+        "pos": "noun",
+        "example": "このスマートフォンは親指{おやゆび}だけで操作{そうさ}できる。",
+        "example_translation": "This smartphone can be operated with just your thumb."
+      },
+      {
+        "word": "人差し指",
+        "reading": "ひとさしゆび",
+        "meaning": "index finger, forefinger",
+        "pos": "noun",
+        "example": "彼{かれ}は人差{ひとさ}し指{ゆび}で地図{ちず}の上{うえ}の駅{えき}を指{さ}した。",
+        "example_translation": "He pointed at the station on the map with his index finger."
+      },
+      {
+        "word": "薬指",
+        "reading": "くすりゆび",
+        "meaning": "ring finger",
+        "pos": "noun",
+        "example": "結婚{けっこん}指輪{ゆびわ}は、ふつう左手{ひだりて}の薬指{くすりゆび}にはめる。",
+        "example_translation": "A wedding ring is usually worn on the ring finger of the left hand."
+      },
+      {
+        "word": "指",
+        "reading": "ゆび",
+        "meaning": "finger; toe",
+        "pos": "noun",
+        "example": "寒{さむ}くて指{ゆび}が動{うご}かない。",
+        "example_translation": "It's so cold that my fingers won't move."
+      },
+      {
+        "word": "指輪",
+        "reading": "ゆびわ",
+        "meaning": "(finger) ring",
+        "pos": "noun",
+        "example": "誕生日{たんじょうび}に、母{はは}から指輪{ゆびわ}をもらった。",
+        "example_translation": "I got a ring from my mother for my birthday."
+      },
+      {
+        "word": "はめる",
+        "reading": "はめる",
+        "meaning": "to put on (a ring, gloves); to fit into",
+        "pos": "ichidan verb",
+        "example": "寒{さむ}いので、手袋{てぶくろ}をはめて出{で}かけた。",
+        "example_translation": "It was cold, so I put on gloves and went out."
+      },
+      {
+        "word": "包丁",
+        "reading": "ほうちょう",
+        "meaning": "kitchen knife",
+        "pos": "noun",
+        "example": "この包丁{ほうちょう}はよく切{き}れる。",
+        "example_translation": "This kitchen knife cuts well."
+      },
+      {
+        "word": "兄弟",
+        "reading": "きょうだい",
+        "meaning": "siblings; brothers",
+        "pos": "noun",
+        "example": "私{わたし}には兄弟{きょうだい}が二人{ふたり}いる。",
+        "example_translation": "I have two siblings."
+      },
+      {
+        "word": "指す",
+        "reading": "さす",
+        "meaning": "to point at, to indicate",
+        "pos": "godan verb",
+        "example": "先生{せんせい}は黒板{こくばん}の字{じ}を指{さ}して説明{せつめい}した。",
+        "example_translation": "The teacher pointed at the words on the blackboard as she explained."
+      },
+      {
+        "word": "ちょうど",
+        "reading": "ちょうど",
+        "meaning": "exactly, just",
+        "pos": "adverb",
+        "example": "駅{えき}に着{つ}いたのは、ちょうど三時{さんじ}だった。",
+        "example_translation": "It was exactly three o'clock when I arrived at the station."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜てしまう",
+        "meaning": "to end up doing ~, to do ~ by accident (regret)",
+        "formation": "Verb て-form + しまう (切る → 切ってしまった)",
+        "example": "大切{たいせつ}な約束{やくそく}を忘{わす}れてしまった。",
+        "example_translation": "I ended up forgetting an important appointment."
+      }
+    ]
+  },
+  {
+    "id": "n2v-013",
+    "target_word": "時間割",
+    "section": "kanji_reading",
+    "question": "明日{あした}の[[時間割]]を確認{かくにん}して、必要{ひつよう}な教科書{きょうかしょ}をかばんに入{い}れた。",
+    "choices": [
+      "じかんかつ",
+      "じけんわり",
+      "じかんわれ",
+      "じかんわり"
+    ],
+    "answer": 3,
+    "translation": "I checked tomorrow's timetable and put the textbooks I needed in my bag.",
+    "explanation": "時間割 is read じかんわり and means 'timetable', especially the weekly school chart that shows which class is in which period. 時間 is the familiar word じかん 'time'. 割 is read わり here, with the sense of dividing something up and allotting the parts (割る わる 'to divide', 割り当て わりあて 'allotment'): the day's time is divided up and assigned to each class. You will also see the spelling 時間割り with り written out; both are correct. The traps: 割 also has the on'yomi かつ (分割 ぶんかつ 'division'), and 間 can be read けん (人間 にんげん 'human being'), but neither reading is used in 時間割. A related phrase worth knowing is 時間を割く 'to make time for something', where 割 is read さく.",
+    "choice_notes": [
+      "Wrong. かつ is the on'yomi of 割, as in 分割（ぶんかつ）'division', but 時間割 uses the kun'yomi わり.",
+      "Wrong. 間 can be read けん (人間 にんげん 'human being', 世間 せけん 'society'), but in 時間 it is always かん. (じけん is a different word, 事件 'incident'.)",
+      "Wrong. われ comes from 割れる（われる）'to break, to crack', which uses the same kanji. The noun for 'dividing up, allotting' is わり, from 割る（わる）.",
+      "Correct. じかんわり = 時間割 'timetable'."
+    ],
+    "vocab": [
+      {
+        "word": "時間割",
+        "reading": "じかんわり",
+        "meaning": "timetable (especially a school timetable), schedule",
+        "pos": "noun",
+        "example": "新{あたら}しい学期{がっき}の時間割{じかんわり}が配{くば}られた。",
+        "example_translation": "The timetable for the new term was handed out."
+      },
+      {
+        "word": "割る",
+        "reading": "わる",
+        "meaning": "to divide; to break (glass, an egg, etc.)",
+        "pos": "godan verb",
+        "example": "十{じゅう}を二{に}で割{わ}ると五{ご}になる。",
+        "example_translation": "Ten divided by two is five."
+      },
+      {
+        "word": "割れる",
+        "reading": "われる",
+        "meaning": "to break, to crack",
+        "pos": "ichidan verb",
+        "example": "落{お}としたコップが割{わ}れてしまった。",
+        "example_translation": "The glass I dropped broke."
+      },
+      {
+        "word": "分割",
+        "reading": "ぶんかつ",
+        "meaning": "division, splitting (into parts)",
+        "pos": "noun / suru verb",
+        "example": "パソコンの代金{だいきん}を三回{さんかい}に分割{ぶんかつ}して払{はら}った。",
+        "example_translation": "I paid for the computer in three installments."
+      },
+      {
+        "word": "人間",
+        "reading": "にんげん",
+        "meaning": "human being, person",
+        "pos": "noun",
+        "example": "人間{にんげん}は一人{ひとり}では生{い}きられない。",
+        "example_translation": "Human beings cannot live alone."
+      },
+      {
+        "word": "割く",
+        "reading": "さく",
+        "meaning": "to spare (time), to set aside",
+        "pos": "godan verb",
+        "example": "忙{いそが}しいのに、時間{じかん}を割{さ}いて会{あ}ってくれた。",
+        "example_translation": "Although he was busy, he made time to meet me."
+      },
+      {
+        "word": "確認",
+        "reading": "かくにん",
+        "meaning": "checking, confirmation",
+        "pos": "noun / suru verb",
+        "example": "出{で}かける前{まえ}に、天気予報{てんきよほう}を確認{かくにん}した。",
+        "example_translation": "I checked the weather forecast before going out."
+      },
+      {
+        "word": "必要",
+        "reading": "ひつよう",
+        "meaning": "necessary, needed",
+        "pos": "na-adjective / noun",
+        "example": "海外{かいがい}旅行{りょこう}にはパスポートが必要{ひつよう}だ。",
+        "example_translation": "You need a passport to travel abroad."
+      },
+      {
+        "word": "教科書",
+        "reading": "きょうかしょ",
+        "meaning": "textbook",
+        "pos": "noun",
+        "example": "教科書{きょうかしょ}の三十{さんじゅう}ページを開{ひら}いてください。",
+        "example_translation": "Please open your textbook to page thirty."
+      }
+    ],
+    "grammar": []
+  },
+  {
+    "id": "n2v-014",
+    "target_word": "消耗",
+    "section": "orthography",
+    "question": "真夏{まなつ}の暑{あつ}さの中{なか}を長時間{ちょうじかん}歩{ある}いたので、体力{たいりょく}をかなり[[しょうもう]]した。",
+    "choices": [
+      "消耗",
+      "焼耗",
+      "消毛",
+      "省耗"
+    ],
+    "answer": 0,
+    "translation": "I walked for a long time in the midsummer heat, so I used up a lot of my energy.",
+    "explanation": "しょうもう 'using up, exhaustion' is written 消耗. 消 means 'to put out, to use up' (消える きえる 'to disappear', 消費 しょうひ 'consumption'), and 耗 means 'to wear down'. Together they mean using something up until little is left. Typical phrases: 体力を消耗する 'to wear out one's strength', 電池の消耗が早い 'the battery runs down quickly', 消耗品 しょうもうひん 'consumables, supplies (paper, ink, and so on)'. The distractors swap in kanji with the same sounds: 焼 (しょう, 'to burn'), 省 (しょう, 'to omit, to save') and 毛 (もう, 'hair'). None of 焼耗, 消毛 or 省耗 is a word. Memory tip: 耗 has 毛 on its right side, which is exactly why 消毛 is a tempting trap.",
+    "choice_notes": [
+      "Correct. 消耗（しょうもう）'exhaustion, using up'. 体力を消耗する 'to use up one's strength'.",
+      "Wrong. 焼 is read しょう in 燃焼（ねんしょう）'burning, combustion', and its kun'yomi is 焼く（やく）'to burn, to grill'. 焼耗 is not a word.",
+      "Wrong. 毛 means 'hair' and is read もう in 毛布（もうふ）'blanket'. It looks like the right half of 耗, but 消毛 is not a word.",
+      "Wrong. 省 is read しょう in 省略（しょうりゃく）'omission', and せい in 反省（はんせい）'reflection'. 省耗 is not a word."
+    ],
+    "vocab": [
+      {
+        "word": "消耗",
+        "reading": "しょうもう",
+        "meaning": "exhaustion, consumption, using up (strength, supplies, a battery)",
+        "pos": "noun / suru verb",
+        "example": "寒{さむ}い日{ひ}は、スマートフォンの電池{でんち}の消耗{しょうもう}が早{はや}い。",
+        "example_translation": "On cold days, a smartphone's battery runs down quickly."
+      },
+      {
+        "word": "体力",
+        "reading": "たいりょく",
+        "meaning": "physical strength, stamina",
+        "pos": "noun",
+        "example": "毎朝{まいあさ}走{はし}って、体力{たいりょく}をつけている。",
+        "example_translation": "I run every morning to build up my stamina."
+      },
+      {
+        "word": "真夏",
+        "reading": "まなつ",
+        "meaning": "midsummer, the height of summer",
+        "pos": "noun",
+        "example": "真夏{まなつ}の昼間{ひるま}は、あまり外{そと}に出{で}たくない。",
+        "example_translation": "I don't really want to go outside during the day in midsummer."
+      },
+      {
+        "word": "暑さ",
+        "reading": "あつさ",
+        "meaning": "heat (of the weather)",
+        "pos": "noun",
+        "example": "暑{あつ}さで食欲{しょくよく}がなくなった。",
+        "example_translation": "I lost my appetite because of the heat."
+      },
+      {
+        "word": "長時間",
+        "reading": "ちょうじかん",
+        "meaning": "a long time, many hours",
+        "pos": "noun",
+        "example": "長時間{ちょうじかん}パソコンを使{つか}うと、目{め}が疲{つか}れる。",
+        "example_translation": "Using a computer for many hours makes your eyes tired."
+      },
+      {
+        "word": "かなり",
+        "reading": "かなり",
+        "meaning": "fairly, considerably, quite",
+        "pos": "adverb",
+        "example": "今日{きょう}の試験{しけん}はかなり難{むずか}しかった。",
+        "example_translation": "Today's exam was quite difficult."
+      },
+      {
+        "word": "焼く",
+        "reading": "やく",
+        "meaning": "to burn; to grill, to bake",
+        "pos": "godan verb",
+        "example": "庭{にわ}で肉{にく}を焼{や}いて食{た}べた。",
+        "example_translation": "We grilled meat in the yard and ate it."
+      },
+      {
+        "word": "毛布",
+        "reading": "もうふ",
+        "meaning": "blanket",
+        "pos": "noun",
+        "example": "寒{さむ}いので、毛布{もうふ}をもう一枚{いちまい}出{だ}した。",
+        "example_translation": "It was cold, so I took out one more blanket."
+      },
+      {
+        "word": "省略",
+        "reading": "しょうりゃく",
+        "meaning": "omission, abbreviation",
+        "pos": "noun / suru verb",
+        "example": "時間{じかん}がないので、詳{くわ}しい説明{せつめい}は省略{しょうりゃく}します。",
+        "example_translation": "There is no time, so I will skip the detailed explanation."
+      }
+    ],
+    "grammar": []
+  },
+  {
+    "id": "n2v-015",
+    "target_word": "基礎",
+    "section": "context",
+    "question": "数学{すうがく}の（　　）ができていないと、応用問題{おうようもんだい}はなかなか解{と}けない。",
+    "choices": [
+      "基準{きじゅん}",
+      "基地{きち}",
+      "基礎{きそ}",
+      "基金{ききん}"
+    ],
+    "answer": 2,
+    "full_sentence": "数学{すうがく}の基礎{きそ}ができていないと、応用問題{おうようもんだい}はなかなか解{と}けない。",
+    "translation": "If you don't have a solid foundation in math, it is hard to solve applied problems.",
+    "explanation": "基礎（きそ）means 'foundation, basics': the basic knowledge or skills that everything else is built on. It also has a literal meaning, the foundation of a building (建物の基礎). The sentence contrasts the basics with 応用問題 'applied problems', which can only be solved once the basics are in place, so 基礎 fits. Common phrases: 基礎ができている 'to have a solid grounding', 基礎を固める 'to strengthen the basics', 基礎知識 きそちしき 'basic knowledge'. All four choices start with 基 'base', so you have to know the second kanji: 基準 is a 'standard' for judging, 基地 is a 'base' as a place (such as a military base), and 基金 is a 'fund' of money. A close synonym of 基礎 is 基本（きほん）'basics', but it is not among the choices.",
+    "choice_notes": [
+      "Wrong. 基準（きじゅん）means 'standard, criterion', a rule for measuring or judging: 合格の基準 'the standard for passing', 安全基準 'safety standards'. It is not knowledge you learn.",
+      "Wrong. 基地（きち）is a 'base' as a place, such as a military base or a secret base (秘密基地 ひみつきち). It has nothing to do with knowledge.",
+      "Correct. 基礎（きそ）'foundation, basics'. 基礎ができていない 'not having a solid grounding'.",
+      "Wrong. 基金（ききん）means 'fund', money collected and set aside for a purpose: 基金を作る 'to set up a fund'."
+    ],
+    "vocab": [
+      {
+        "word": "基礎",
+        "reading": "きそ",
+        "meaning": "foundation, basis, basics",
+        "pos": "noun",
+        "example": "料理{りょうり}の基礎{きそ}を母{はは}から学{まな}んだ。",
+        "example_translation": "I learned the basics of cooking from my mother."
+      },
+      {
+        "word": "基準",
+        "reading": "きじゅん",
+        "meaning": "standard, criterion",
+        "pos": "noun",
+        "example": "この会社{かいしゃ}の製品{せいひん}は、安全{あんぜん}の基準{きじゅん}を満{み}たしている。",
+        "example_translation": "This company's products meet the safety standards."
+      },
+      {
+        "word": "基地",
+        "reading": "きち",
+        "meaning": "base (military, expedition, etc.)",
+        "pos": "noun",
+        "example": "子{こ}どものころ、友達{ともだち}と山{やま}に秘密{ひみつ}の基地{きち}を作{つく}った。",
+        "example_translation": "When I was a child, my friends and I built a secret base in the hills."
+      },
+      {
+        "word": "基金",
+        "reading": "ききん",
+        "meaning": "fund (money set aside for a purpose)",
+        "pos": "noun",
+        "example": "病気{びょうき}の子{こ}どもたちを助{たす}けるために、基金{ききん}が作{つく}られた。",
+        "example_translation": "A fund was set up to help sick children."
+      },
+      {
+        "word": "基本",
+        "reading": "きほん",
+        "meaning": "basics, fundamentals",
+        "pos": "noun",
+        "example": "スポーツは基本{きほん}が大切{たいせつ}だ。",
+        "example_translation": "In sports, the basics are important."
+      },
+      {
+        "word": "数学",
+        "reading": "すうがく",
+        "meaning": "mathematics",
+        "pos": "noun",
+        "example": "数学{すうがく}のテストで百点{ひゃくてん}を取{と}った。",
+        "example_translation": "I got a perfect score on the math test."
+      },
+      {
+        "word": "応用問題",
+        "reading": "おうようもんだい",
+        "meaning": "applied problem (a question that tests whether you can use what you learned)",
+        "pos": "noun",
+        "example": "基本{きほん}の問題{もんだい}はできたが、応用問題{おうようもんだい}は難{むずか}しかった。",
+        "example_translation": "I could do the basic questions, but the applied problems were hard."
+      },
+      {
+        "word": "解く",
+        "reading": "とく",
+        "meaning": "to solve (a problem); to untie",
+        "pos": "godan verb",
+        "example": "この問題{もんだい}は難{むずか}しくて、だれも解{と}けなかった。",
+        "example_translation": "This problem was so hard that nobody could solve it."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜ないと",
+        "meaning": "if (you) don't ~ (then a bad result follows)",
+        "formation": "Verb ない-form + と (できていない → できていないと)",
+        "example": "早{はや}く出{で}ないと、電車{でんしゃ}に間{ま}に合{あ}わない。",
+        "example_translation": "If we don't leave soon, we won't make the train."
+      },
+      {
+        "pattern": "なかなか〜ない",
+        "meaning": "not easily ~, just won't ~ (even though one tries or waits)",
+        "formation": "なかなか + verb negative form (解けない, 来ない)",
+        "example": "風邪{かぜ}がなかなか治{なお}らない。",
+        "example_translation": "My cold just won't go away."
+      }
+    ]
+  },
+  {
+    "id": "n2v-016",
+    "target_word": "高等学校",
+    "section": "paraphrase",
+    "question": "兄{あに}は[[高等学校{こうとうがっこう}]]を卒業{そつぎょう}してから、すぐに働{はたら}き始{はじ}めた。",
+    "choices": [
+      "大学{だいがく}",
+      "高校{こうこう}",
+      "中学校{ちゅうがっこう}",
+      "専門学校{せんもんがっこう}"
+    ],
+    "answer": 1,
+    "translation": "My older brother started working right after he graduated from senior high school.",
+    "explanation": "高等学校（こうとうがっこう）is 'senior high school', the three years of school after junior high (usually from age 15 to 18). It is the official, formal name, used in school names and on documents (〇〇高等学校). In everyday conversation it is almost always shortened to 高校（こうこう）, so 高等学校 = 高校. The Japanese school system goes 小学校 'elementary school' (6 years), then 中学校 'junior high school' (3 years), then 高等学校 / 高校 'senior high school' (3 years), and after that 大学 'university' or 専門学校 'vocational school'. Be careful: 高等 means 'higher, advanced', and 高等教育（こうとうきょういく）'higher education' does mean university-level education, but 高等学校 is high school, not university.",
+    "choice_notes": [
+      "Wrong. 大学（だいがく）is 'university', the level after high school. 高等 'higher' can make 高等学校 sound like a university, but it means senior high school.",
+      "Correct. 高校（こうこう）is the everyday short form of 高等学校.",
+      "Wrong. 中学校（ちゅうがっこう）is 'junior high school', the three years before 高校 (often shortened to 中学).",
+      "Wrong. 専門学校（せんもんがっこう）is a 'vocational school' that teaches job skills such as cooking, design, or nursing. Many students enter one after finishing 高校."
+    ],
+    "vocab": [
+      {
+        "word": "高等学校",
+        "reading": "こうとうがっこう",
+        "meaning": "senior high school (formal name)",
+        "pos": "noun",
+        "example": "この高等学校{こうとうがっこう}には、百年{ひゃくねん}の歴史{れきし}がある。",
+        "example_translation": "This high school has a hundred-year history."
+      },
+      {
+        "word": "高校",
+        "reading": "こうこう",
+        "meaning": "senior high school (everyday short form)",
+        "pos": "noun",
+        "example": "妹{いもうと}は来年{らいねん}、高校{こうこう}に入学{にゅうがく}する。",
+        "example_translation": "My younger sister will start high school next year."
+      },
+      {
+        "word": "大学",
+        "reading": "だいがく",
+        "meaning": "university, college",
+        "pos": "noun",
+        "example": "姉{あね}は大学{だいがく}で経済{けいざい}を勉強{べんきょう}している。",
+        "example_translation": "My older sister studies economics at university."
+      },
+      {
+        "word": "中学校",
+        "reading": "ちゅうがっこう",
+        "meaning": "junior high school",
+        "pos": "noun",
+        "example": "中学校{ちゅうがっこう}の友達{ともだち}とは、今{いま}でもよく会{あ}う。",
+        "example_translation": "I still often meet my friends from junior high school."
+      },
+      {
+        "word": "専門学校",
+        "reading": "せんもんがっこう",
+        "meaning": "vocational school, technical school",
+        "pos": "noun",
+        "example": "彼女{かのじょ}は専門学校{せんもんがっこう}でデザインを学{まな}んだ。",
+        "example_translation": "She studied design at a vocational school."
+      },
+      {
+        "word": "高等教育",
+        "reading": "こうとうきょういく",
+        "meaning": "higher education (university level)",
+        "pos": "noun",
+        "example": "高等教育{こうとうきょういく}を受{う}ける人{ひと}が増{ふ}えている。",
+        "example_translation": "The number of people receiving higher education is increasing."
+      },
+      {
+        "word": "卒業",
+        "reading": "そつぎょう",
+        "meaning": "graduation",
+        "pos": "noun / suru verb",
+        "example": "来年{らいねん}の三月{さんがつ}に大学{だいがく}を卒業{そつぎょう}する予定{よてい}だ。",
+        "example_translation": "I plan to graduate from university next March."
+      },
+      {
+        "word": "働く",
+        "reading": "はたらく",
+        "meaning": "to work",
+        "pos": "godan verb",
+        "example": "父{ちち}は銀行{ぎんこう}で働{はたら}いている。",
+        "example_translation": "My father works at a bank."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜てから",
+        "meaning": "after doing ~ (and then)",
+        "formation": "Verb て-form + から",
+        "example": "宿題{しゅくだい}をしてから遊{あそ}びに行{い}く。",
+        "example_translation": "I'll go out to play after I do my homework."
+      },
+      {
+        "pattern": "〜始める",
+        "meaning": "to begin ~ing, to start to ~",
+        "formation": "Verb ます-stem + 始める (働きます → 働き始める)",
+        "example": "急{きゅう}に雨{あめ}が降{ふ}り始{はじ}めた。",
+        "example_translation": "It suddenly started to rain."
+      }
+    ]
+  },
+  {
+    "id": "n2v-017",
+    "target_word": "番地",
+    "section": "usage",
+    "question": "[[番地{ばんち}]]",
+    "choices": [
+      "友達{ともだち}の電話{でんわ}の番地{ばんち}を忘{わす}れてしまったので、連絡{れんらく}できない。",
+      "病院{びょういん}の待合室{まちあいしつ}で、自分{じぶん}の番地{ばんち}が来{く}るまで一時間{いちじかん}も待{ま}った。",
+      "祖父{そふ}は田舎{いなか}に広{ひろ}い番地{ばんち}を持{も}っていて、そこで野菜{やさい}を作{つく}っている。",
+      "荷物{にもつ}を送{おく}るときは、住所{じゅうしょ}を番地{ばんち}まで正確{せいかく}に書{か}いてください。"
+    ],
+    "answer": 3,
+    "translation": "When you send a package, please write the address accurately, all the way down to the house number.",
+    "explanation": "番地（ばんち）is the 'lot number, house number' part of a Japanese address. A typical Japanese address goes from large to small: prefecture, then city, then town name, then 丁目（ちょうめ）'block district', then 番地, for example 本町3丁目15番地. So 住所を番地まで書く means writing the address in full, including the house number, instead of stopping at the town name. Because 番地 is made of 番 'number' and 地 'land', learners sometimes use it for any kind of number, or for land itself. But 番地 only means the number in an address. A phone number is 電話番号, your turn in a line is 順番 (or simply 番), and a piece of land is 土地.",
+    "choice_notes": [
+      "Wrong. A phone number is 電話番号（でんわばんごう）: 友達の電話番号を忘れてしまった. 番地 is only the number in an address.",
+      "Wrong. Your turn in a waiting line is 順番（じゅんばん）or 番（ばん）: 自分の順番が来るまで / 自分の番が来るまで.",
+      "Wrong. A piece of land is 土地（とち）: 田舎に広い土地を持っている. 番地 is a number, so it cannot be 'wide'.",
+      "Correct. Writing an address 'down to the 番地' is exactly how the word is used."
+    ],
+    "vocab": [
+      {
+        "word": "番地",
+        "reading": "ばんち",
+        "meaning": "lot number, house number (in an address)",
+        "pos": "noun",
+        "example": "住所{じゅうしょ}の番地{ばんち}が一{ひと}つ違{ちが}っていて、手紙{てがみ}が戻{もど}ってきた。",
+        "example_translation": "The house number in the address was off by one, so the letter came back."
+      },
+      {
+        "word": "電話番号",
+        "reading": "でんわばんごう",
+        "meaning": "telephone number",
+        "pos": "noun",
+        "example": "電話番号{でんわばんごう}を教{おし}えてもらえますか。",
+        "example_translation": "Could you tell me your phone number?"
+      },
+      {
+        "word": "番号",
+        "reading": "ばんごう",
+        "meaning": "number (in a series or system)",
+        "pos": "noun",
+        "example": "受付{うけつけ}で番号{ばんごう}が呼{よ}ばれるまで待{ま}ってください。",
+        "example_translation": "Please wait until your number is called at the reception desk."
+      },
+      {
+        "word": "順番",
+        "reading": "じゅんばん",
+        "meaning": "order; turn",
+        "pos": "noun",
+        "example": "順番{じゅんばん}に並{なら}んでください。",
+        "example_translation": "Please line up in order."
+      },
+      {
+        "word": "番",
+        "reading": "ばん",
+        "meaning": "turn; number (in a series)",
+        "pos": "noun",
+        "example": "次{つぎ}はあなたの番{ばん}ですよ。",
+        "example_translation": "You're next. (It's your turn next.)"
+      },
+      {
+        "word": "土地",
+        "reading": "とち",
+        "meaning": "land, a plot of land",
+        "pos": "noun",
+        "example": "この辺{へん}は土地{とち}の値段{ねだん}が高{たか}い。",
+        "example_translation": "Land prices are high around here."
+      },
+      {
+        "word": "住所",
+        "reading": "じゅうしょ",
+        "meaning": "address",
+        "pos": "noun",
+        "example": "ここに名前{なまえ}と住所{じゅうしょ}を書{か}いてください。",
+        "example_translation": "Please write your name and address here."
+      },
+      {
+        "word": "〜丁目",
+        "reading": "ちょうめ",
+        "meaning": "block district (a subdivision of a town in an address)",
+        "pos": "suffix",
+        "example": "私{わたし}の家{いえ}は二丁目{にちょうめ}にある。",
+        "example_translation": "My house is in the second block district (2-chome)."
+      },
+      {
+        "word": "正確",
+        "reading": "せいかく",
+        "meaning": "accurate, exact",
+        "pos": "na-adjective",
+        "example": "時間{じかん}は正確{せいかく}に計{はか}ってください。",
+        "example_translation": "Please measure the time accurately."
+      },
+      {
+        "word": "荷物",
+        "reading": "にもつ",
+        "meaning": "luggage; package, parcel",
+        "pos": "noun",
+        "example": "重{おも}い荷物{にもつ}を持{も}ってあげた。",
+        "example_translation": "I carried the heavy bags for her."
+      },
+      {
+        "word": "送る",
+        "reading": "おくる",
+        "meaning": "to send",
+        "pos": "godan verb",
+        "example": "母{はは}に誕生日{たんじょうび}のプレゼントを送{おく}った。",
+        "example_translation": "I sent my mother a birthday present."
+      },
+      {
+        "word": "連絡",
+        "reading": "れんらく",
+        "meaning": "contact, getting in touch",
+        "pos": "noun / suru verb",
+        "example": "駅{えき}に着{つ}いたら連絡{れんらく}してください。",
+        "example_translation": "Please get in touch when you arrive at the station."
+      },
+      {
+        "word": "待合室",
+        "reading": "まちあいしつ",
+        "meaning": "waiting room",
+        "pos": "noun",
+        "example": "駅{えき}の待合室{まちあいしつ}で電車{でんしゃ}を待{ま}った。",
+        "example_translation": "I waited for the train in the station waiting room."
+      },
+      {
+        "word": "祖父",
+        "reading": "そふ",
+        "meaning": "(one's own) grandfather",
+        "pos": "noun",
+        "example": "祖父{そふ}は毎朝{まいあさ}散歩{さんぽ}をしている。",
+        "example_translation": "My grandfather takes a walk every morning."
+      },
+      {
+        "word": "田舎",
+        "reading": "いなか",
+        "meaning": "the countryside; one's hometown",
+        "pos": "noun",
+        "example": "夏休{なつやす}みに田舎{いなか}の祖母{そぼ}の家{いえ}へ行{い}った。",
+        "example_translation": "During summer vacation I went to my grandmother's house in the countryside."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜まで (extent)",
+        "meaning": "as far as ~, (all the way) down to ~, even ~",
+        "formation": "Noun + まで (番地まで書く 'to write it all the way down to the house number')",
+        "example": "この本{ほん}は、細{こま}かいところまでよく説明{せつめい}されている。",
+        "example_translation": "This book explains things well, right down to the small details."
+      },
+      {
+        "pattern": "〜も (with amounts)",
+        "meaning": "as much as ~, as many as ~ (the speaker feels the amount is large)",
+        "formation": "Number + counter + も (一時間も待った 'waited a whole hour')",
+        "example": "駅{えき}まで三十分{さんじゅっぷん}も歩{ある}いた。",
+        "example_translation": "I walked a full thirty minutes to the station."
+      }
+    ]
+  },
+  {
+    "id": "n2v-018",
+    "target_word": "接続",
+    "section": "kanji_reading",
+    "question": "パソコンがインターネットに[[接続]]できなくて、仕事{しごと}が進{すす}まない。",
+    "choices": [
+      "せつぞく",
+      "せつそく",
+      "せっぞく",
+      "せつどく"
+    ],
+    "answer": 0,
+    "translation": "My computer can't connect to the internet, so I can't get on with my work.",
+    "explanation": "接続 is read せつぞく and means 'connection, connecting'. 接 is read せつ (直接 ちょくせつ 'direct'), and the on'yomi of 続 is ぞく, with a dakuten: 連続 れんぞく 'in a row', 継続 けいぞく 'continuation', 相続 そうぞく 'inheritance'. Its kun'yomi is つづ, as in 続く（つづく）'to continue'. 接続 is used for networks and devices (インターネットに接続する 'to connect to the internet'), and also for trains: この電車は次の駅で特急に接続します 'this train connects with the limited express at the next station'. In grammar, 接続詞（せつぞくし）means 'conjunction'.",
+    "choice_notes": [
+      "Correct. せつぞく = 接続 'connection'.",
+      "Wrong. 続 needs its dakuten here: it is ぞく, not そく.",
+      "Wrong. 接 becomes せっ (with a small っ) before a k-, s-, t- or h- sound (an h- sound then changes to p-), as in 接近 せっきん 'approach', 接触 せっしょく 'contact' and 接吻 せっぷん 'kiss', but not before a voiced sound like ぞ. So 接続 keeps せつ.",
+      "Wrong. どく is the reading of 読 'to read' (読書 どくしょ 'reading books'). 読 and 続 look alike because both have 売 on the right, but 読 has 言 'words' on the left and 続 has 糸 'thread'. Think of a thread that continues."
+    ],
+    "vocab": [
+      {
+        "word": "接続",
+        "reading": "せつぞく",
+        "meaning": "connection, connecting; (train) connection",
+        "pos": "noun / suru verb",
+        "example": "新{あたら}しいプリンターをパソコンに接続{せつぞく}した。",
+        "example_translation": "I connected the new printer to my computer."
+      },
+      {
+        "word": "続く",
+        "reading": "つづく",
+        "meaning": "to continue, to go on",
+        "pos": "godan verb",
+        "example": "雨{あめ}の日{ひ}が一週間{いっしゅうかん}も続{つづ}いている。",
+        "example_translation": "Rainy days have continued for a whole week."
+      },
+      {
+        "word": "連続",
+        "reading": "れんぞく",
+        "meaning": "in a row, consecutive; series",
+        "pos": "noun / suru verb",
+        "example": "三日{みっか}連続{れんぞく}で雨{あめ}が降{ふ}った。",
+        "example_translation": "It rained three days in a row."
+      },
+      {
+        "word": "接近",
+        "reading": "せっきん",
+        "meaning": "approach, coming close",
+        "pos": "noun / suru verb",
+        "example": "台風{たいふう}が日本{にほん}に接近{せっきん}している。",
+        "example_translation": "A typhoon is approaching Japan."
+      },
+      {
+        "word": "接触",
+        "reading": "せっしょく",
+        "meaning": "contact, touching",
+        "pos": "noun / suru verb",
+        "example": "交差点{こうさてん}で自転車{じてんしゃ}と車{くるま}が接触{せっしょく}した。",
+        "example_translation": "A bicycle and a car touched (had a minor collision) at the intersection."
+      },
+      {
+        "word": "読書",
+        "reading": "どくしょ",
+        "meaning": "reading (books)",
+        "pos": "noun / suru verb",
+        "example": "私{わたし}の趣味{しゅみ}は読書{どくしょ}です。",
+        "example_translation": "My hobby is reading."
+      },
+      {
+        "word": "特急",
+        "reading": "とっきゅう",
+        "meaning": "limited express (train)",
+        "pos": "noun",
+        "example": "特急{とっきゅう}に乗{の}れば、一時間{いちじかん}で着{つ}く。",
+        "example_translation": "If you take the limited express, you'll get there in an hour."
+      },
+      {
+        "word": "進む",
+        "reading": "すすむ",
+        "meaning": "to advance, to make progress",
+        "pos": "godan verb",
+        "example": "工事{こうじ}は順調{じゅんちょう}に進{すす}んでいる。",
+        "example_translation": "The construction is progressing smoothly."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜なくて (negative reason)",
+        "meaning": "because (something) does not / cannot ~, (and so)",
+        "formation": "Verb ない-form: drop い + くて (できない → できなくて)",
+        "example": "宿題{しゅくだい}がわからなくて、困{こま}っている。",
+        "example_translation": "I don't understand the homework, so I'm stuck."
+      }
+    ]
+  },
+  {
+    "id": "n2v-019",
+    "target_word": "静まる",
+    "section": "orthography",
+    "question": "先生{せんせい}が入{はい}ってくると、騒{さわ}がしかった教室{きょうしつ}が急{きゅう}に[[しずまった]]。",
+    "choices": [
+      "沈まった",
+      "清まった",
+      "静まった",
+      "晴まった"
+    ],
+    "answer": 2,
+    "translation": "When the teacher came in, the noisy classroom suddenly fell quiet.",
+    "explanation": "しずまる 'to become quiet, to calm down' is written 静まる, with the same kanji as 静か（しずか）'quiet'. Its transitive partner is 静める（しずめる）'to make quiet, to calm': 心を静める 'to calm one's mind'. 静まる is used for places, the weather, and feelings: 会場が静まる 'the hall falls quiet', 風が静まる 'the wind dies down', 怒りが静まる 'anger subsides'. You may also see the spelling 鎮まる（しずまる）, used mainly when unrest or pain subsides (痛みが鎮まる 'the pain eases'); it is not among the choices, and for a place becoming quiet 静まる is the normal spelling. The traps: 沈 is read しず in 沈む（しずむ）'to sink', and 清 and 晴 look like 静 because they also contain 青.",
+    "choice_notes": [
+      "Wrong. 沈 is read しず in 沈む（しずむ）'to sink' (太陽が沈む 'the sun sets'), but 沈まる is not a word.",
+      "Wrong. 清 'pure, clean' looks like 静 because both contain 青. 清まる does exist, but it is read きよまる 'to be purified', never しずまる.",
+      "Correct. 静まる（しずまる）'to become quiet', with the same kanji as 静か.",
+      "Wrong. 晴 'clear weather' also contains 青, but it is read は in 晴れる（はれる）'to clear up', never しず. 晴まる is not a word."
+    ],
+    "vocab": [
+      {
+        "word": "静まる",
+        "reading": "しずまる",
+        "meaning": "to become quiet, to calm down, to die down",
+        "pos": "godan verb",
+        "example": "夜{よる}になって、町{まち}はすっかり静{しず}まった。",
+        "example_translation": "Night came, and the town became completely quiet."
+      },
+      {
+        "word": "静か",
+        "reading": "しずか",
+        "meaning": "quiet",
+        "pos": "na-adjective",
+        "example": "図書館{としょかん}では静{しず}かにしてください。",
+        "example_translation": "Please be quiet in the library."
+      },
+      {
+        "word": "静める",
+        "reading": "しずめる",
+        "meaning": "to calm, to make quiet",
+        "pos": "ichidan verb",
+        "example": "試験{しけん}の前{まえ}に、深呼吸{しんこきゅう}をして心{こころ}を静{しず}めた。",
+        "example_translation": "Before the exam, I took a deep breath and calmed my mind."
+      },
+      {
+        "word": "鎮まる",
+        "reading": "しずまる",
+        "meaning": "to calm down, to subside (unrest, pain)",
+        "pos": "godan verb",
+        "example": "薬{くすり}を飲{の}んだら、痛{いた}みが鎮{しず}まった。",
+        "example_translation": "When I took the medicine, the pain eased."
+      },
+      {
+        "word": "沈む",
+        "reading": "しずむ",
+        "meaning": "to sink; to set (the sun)",
+        "pos": "godan verb",
+        "example": "夕日{ゆうひ}が海{うみ}に沈{しず}んでいく。",
+        "example_translation": "The evening sun is sinking into the sea."
+      },
+      {
+        "word": "清まる",
+        "reading": "きよまる",
+        "meaning": "to be purified, to be cleansed",
+        "pos": "godan verb",
+        "example": "滝{たき}の音{おと}を聞{き}いていると、心{こころ}が清{きよ}まるようだ。",
+        "example_translation": "Listening to the sound of the waterfall, I feel as if my heart is being purified."
+      },
+      {
+        "word": "晴れる",
+        "reading": "はれる",
+        "meaning": "to clear up (weather), to be sunny",
+        "pos": "ichidan verb",
+        "example": "午後{ごご}から晴{は}れるそうだ。",
+        "example_translation": "I hear it will clear up in the afternoon."
+      },
+      {
+        "word": "騒がしい",
+        "reading": "さわがしい",
+        "meaning": "noisy, boisterous",
+        "pos": "i-adjective",
+        "example": "隣{となり}の部屋{へや}が騒{さわ}がしくて眠{ねむ}れない。",
+        "example_translation": "The room next door is so noisy that I can't sleep."
+      },
+      {
+        "word": "急に",
+        "reading": "きゅうに",
+        "meaning": "suddenly",
+        "pos": "adverb",
+        "example": "急{きゅう}に空{そら}が暗{くら}くなった。",
+        "example_translation": "The sky suddenly turned dark."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜てくる (movement toward here)",
+        "meaning": "to come ~ing, to ~ (toward the speaker or the scene)",
+        "formation": "Verb て-form + くる (入る → 入ってくる 'to come in')",
+        "example": "弟{おとうと}が走{はし}って部屋{へや}に入{はい}ってきた。",
+        "example_translation": "My younger brother came running into the room."
+      },
+      {
+        "pattern": "〜と (when ~)",
+        "meaning": "when ~, as soon as ~ (one event is followed by another)",
+        "formation": "Verb dictionary form + と",
+        "example": "窓{まど}を開{あ}けると、冷{つめ}たい風{かぜ}が入{はい}ってきた。",
+        "example_translation": "When I opened the window, a cold wind came in."
+      }
+    ]
+  },
+  {
+    "id": "n2v-020",
+    "target_word": "挟まる",
+    "section": "context",
+    "question": "電車{でんしゃ}のドアにかばんが（　　）しまい、次{つぎ}の駅{えき}に着{つ}くまで抜{ぬ}けなかった。",
+    "choices": [
+      "挟{はさ}まって",
+      "埋{う}まって",
+      "固{かた}まって",
+      "重{かさ}なって"
+    ],
+    "answer": 0,
+    "full_sentence": "電車{でんしゃ}のドアにかばんが挟{はさ}まってしまい、次{つぎ}の駅{えき}に着{つ}くまで抜{ぬ}けなかった。",
+    "translation": "My bag got caught in the train door, and it wouldn't come free until we reached the next station.",
+    "explanation": "挟まる（はさまる）means 'to get caught between two things, to be stuck in between'. A closing train door squeezes the bag from both sides, so the bag 挟まる. The clue is 抜けなかった 'it would not come out', which describes something stuck. Common phrases: ドアに指が挟まる 'a finger gets caught in a door', 歯に食べ物が挟まる 'food gets stuck between your teeth', 本にしおりが挟まっている 'a bookmark is tucked inside the book'. Its transitive partner is 挟む（はさむ）'to put between, to catch (something) in': ドアに指を挟む 'to catch one's finger in a door'. Use が with 挟まる and を with 挟む. The other three choices are also intransitive verbs ending in -まる or -なる, but their meanings do not fit.",
+    "choice_notes": [
+      "Correct. 挟まる（はさまる）'to get caught between'. ドアにかばんが挟まる 'a bag gets caught in the door'.",
+      "Wrong. 埋まる（うまる）means 'to be buried' or 'to be filled up': 雪で車が埋まった 'the car was buried in snow', 席が埋まる 'the seats fill up'.",
+      "Wrong. 固まる（かたまる）means 'to harden, to set': セメントが固まる 'cement hardens'. A bag cannot harden in a door.",
+      "Wrong. 重なる（かさなる）means 'to pile up, to overlap' or 'to happen at the same time': 予定が重なる 'two plans fall at the same time'. It does not describe something stuck."
+    ],
+    "vocab": [
+      {
+        "word": "挟まる",
+        "reading": "はさまる",
+        "meaning": "to get caught (between), to be stuck in between",
+        "pos": "godan verb",
+        "example": "歯{は}に食{た}べ物{もの}が挟{はさ}まって、気持{きも}ちが悪{わる}い。",
+        "example_translation": "Some food is stuck between my teeth, and it feels unpleasant."
+      },
+      {
+        "word": "挟む",
+        "reading": "はさむ",
+        "meaning": "to put between; to catch (in), to pinch",
+        "pos": "godan verb",
+        "example": "ドアに指{ゆび}を挟{はさ}んで、けがをした。",
+        "example_translation": "I caught my finger in the door and hurt it."
+      },
+      {
+        "word": "埋まる",
+        "reading": "うまる",
+        "meaning": "to be buried; to be filled up",
+        "pos": "godan verb",
+        "example": "大雪{おおゆき}で、道{みち}が雪{ゆき}に埋{う}まってしまった。",
+        "example_translation": "Because of the heavy snow, the road was buried."
+      },
+      {
+        "word": "固まる",
+        "reading": "かたまる",
+        "meaning": "to harden, to set; (a computer) to freeze",
+        "pos": "godan verb",
+        "example": "冷蔵庫{れいぞうこ}に入{い}れておいたら、ゼリーが固{かた}まった。",
+        "example_translation": "I put the jelly in the fridge, and it set."
+      },
+      {
+        "word": "重なる",
+        "reading": "かさなる",
+        "meaning": "to pile up, to overlap; to happen at the same time",
+        "pos": "godan verb",
+        "example": "友達{ともだち}の結婚式{けっこんしき}と出張{しゅっちょう}が重{かさ}なってしまった。",
+        "example_translation": "My friend's wedding and my business trip ended up falling on the same day."
+      },
+      {
+        "word": "抜ける",
+        "reading": "ぬける",
+        "meaning": "to come out, to come off; to fall out",
+        "pos": "ichidan verb",
+        "example": "最近{さいきん}、髪{かみ}の毛{け}がよく抜{ぬ}ける。",
+        "example_translation": "Recently my hair has been falling out a lot."
+      },
+      {
+        "word": "着く",
+        "reading": "つく",
+        "meaning": "to arrive",
+        "pos": "godan verb",
+        "example": "飛行機{ひこうき}は夜{よる}の九時{くじ}に空港{くうこう}に着{つ}いた。",
+        "example_translation": "The plane arrived at the airport at nine at night."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜てしまい",
+        "meaning": "(unfortunately) ~ happened, and ... (the written joining form of 〜てしまう)",
+        "formation": "Verb て-form + しまい, + next clause (挟まってしまい、...)",
+        "example": "寝坊{ねぼう}してしまい、授業{じゅぎょう}に遅{おく}れた。",
+        "example_translation": "I overslept and was late for class."
+      },
+      {
+        "pattern": "〜まで (until)",
+        "meaning": "until ~",
+        "formation": "Verb dictionary form / noun + まで",
+        "example": "雨{あめ}がやむまで、ここで待{ま}とう。",
+        "example_translation": "Let's wait here until the rain stops."
+      }
+    ]
+  }
+]

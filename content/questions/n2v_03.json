@@ -1,0 +1,1008 @@
+[
+  {
+    "id": "n2v-021",
+    "section": "usage",
+    "target_word": "ウール",
+    "question": "[[ウール]]",
+    "choices": [
+      "牧場{ぼくじょう}では、たくさんのウールがのんびりと草{くさ}を食{た}べていた。",
+      "美容院{びよういん}で、伸{の}びたウールを短{みじか}く切{き}ってもらった。",
+      "このセーターはウールでできているので、とても暖{あたた}かい。",
+      "祖母{そぼ}は毎晩{まいばん}ウールをして、私{わたし}にマフラーを作{つく}ってくれた。"
+    ],
+    "answer": 2,
+    "translation": "This sweater is made of wool, so it is very warm.",
+    "explanation": "ウール means 'wool': the soft hair of sheep made into thread or cloth (it comes from the English word 'wool'). It is the name of a material, so it is used in patterns like ウールのセーター 'a wool sweater', ウール100% 'pure wool', and 〜はウールでできている '~ is made of wool'. The correct sentence uses exactly this pattern, and wool clothes being warm makes sense. The wrong sentences use ウール as if it meant the sheep itself, a person's hair, or the activity of knitting. Remember: the animal is 羊（ひつじ）, the yarn you knit with is 毛糸（けいと）, the activity is 編み物（あみもの）, and ウール is only the material.",
+    "choice_notes": [
+      "Wrong. Animals eating grass on a farm are sheep: 羊（ひつじ）がのんびりと草を食べていた. ウール is the material made from their hair, not the animal.",
+      "Wrong. The hair on a person's head is 髪（かみ）: 伸びた髪を短く切ってもらった. ウール is only used for sheep's hair made into thread or cloth.",
+      "Correct. ウールでできている 'made of wool' is a typical use, and wool clothes are warm.",
+      "Wrong. Making a scarf from yarn is 編み物（あみもの）'knitting': 毎晩編み物をして. ウール is a material, not an activity, so ウールをする makes no sense."
+    ],
+    "vocab": [
+      {
+        "word": "ウール",
+        "reading": "ウール",
+        "meaning": "wool (the material)",
+        "pos": "noun",
+        "example": "冬{ふゆ}はウールの靴下{くつした}をはいている。",
+        "example_translation": "In winter I wear wool socks."
+      },
+      {
+        "word": "羊",
+        "reading": "ひつじ",
+        "meaning": "sheep",
+        "pos": "noun",
+        "example": "ウールは羊{ひつじ}の毛{け}から作{つく}られる。",
+        "example_translation": "Wool is made from sheep's hair."
+      },
+      {
+        "word": "髪",
+        "reading": "かみ",
+        "meaning": "hair (on the head)",
+        "pos": "noun",
+        "example": "暑{あつ}くなってきたので、髪{かみ}を短{みじか}く切{き}った。",
+        "example_translation": "It has gotten hot, so I cut my hair short."
+      },
+      {
+        "word": "編み物",
+        "reading": "あみもの",
+        "meaning": "knitting; knitted goods",
+        "pos": "noun",
+        "example": "冬{ふゆ}になると、母{はは}はよく編{あ}み物{もの}をする。",
+        "example_translation": "When winter comes, my mother often knits."
+      },
+      {
+        "word": "毛糸",
+        "reading": "けいと",
+        "meaning": "knitting yarn, woollen yarn",
+        "pos": "noun",
+        "example": "赤{あか}い毛糸{けいと}で手袋{てぶくろ}を編{あ}んだ。",
+        "example_translation": "I knitted gloves with red yarn."
+      },
+      {
+        "word": "牧場",
+        "reading": "ぼくじょう",
+        "meaning": "(livestock) farm, ranch, pasture",
+        "pos": "noun",
+        "example": "夏休{なつやす}みに、北海道{ほっかいどう}の牧場{ぼくじょう}で馬{うま}に乗{の}った。",
+        "example_translation": "During summer vacation, I rode a horse at a ranch in Hokkaido."
+      },
+      {
+        "word": "のんびり",
+        "reading": "のんびり",
+        "meaning": "leisurely, relaxed, carefree",
+        "pos": "adverb / suru verb",
+        "example": "日曜日{にちようび}は家{いえ}でのんびり過{す}ごした。",
+        "example_translation": "I spent Sunday relaxing at home."
+      },
+      {
+        "word": "草",
+        "reading": "くさ",
+        "meaning": "grass, weeds",
+        "pos": "noun",
+        "example": "庭{にわ}の草{くさ}がずいぶん伸{の}びた。",
+        "example_translation": "The grass in the garden has grown quite long."
+      },
+      {
+        "word": "美容院",
+        "reading": "びよういん",
+        "meaning": "hair salon, beauty salon",
+        "pos": "noun",
+        "example": "週末{しゅうまつ}に美容院{びよういん}へ行{い}く予定{よてい}だ。",
+        "example_translation": "I plan to go to the hair salon this weekend."
+      },
+      {
+        "word": "伸びる",
+        "reading": "のびる",
+        "meaning": "to grow (longer), to stretch",
+        "pos": "ichidan verb",
+        "example": "子{こ}どもの背{せ}が急{きゅう}に伸{の}びた。",
+        "example_translation": "The child suddenly grew taller."
+      },
+      {
+        "word": "祖母",
+        "reading": "そぼ",
+        "meaning": "(my) grandmother",
+        "pos": "noun",
+        "example": "祖母{そぼ}は毎朝{まいあさ}、公園{こうえん}を散歩{さんぽ}している。",
+        "example_translation": "My grandmother takes a walk in the park every morning."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜でできている",
+        "meaning": "is made of ~ (material)",
+        "formation": "Noun (material) + でできている",
+        "example": "この机{つくえ}は木{き}でできている。",
+        "example_translation": "This desk is made of wood."
+      },
+      {
+        "pattern": "〜てもらう",
+        "meaning": "to have someone do ~ (for you)",
+        "formation": "Verb て-form + もらう (切る → 切ってもらう)",
+        "example": "友達{ともだち}に写真{しゃしん}を撮{と}ってもらった。",
+        "example_translation": "I had my friend take a photo for me."
+      },
+      {
+        "pattern": "〜てくれる",
+        "meaning": "someone does ~ for me (or for us)",
+        "formation": "Verb て-form + くれる (作る → 作ってくれる)",
+        "example": "兄{あに}が駅{えき}まで送{おく}ってくれた。",
+        "example_translation": "My older brother gave me a ride to the station."
+      }
+    ]
+  },
+  {
+    "id": "n2v-022",
+    "section": "paraphrase",
+    "target_word": "売店",
+    "question": "駅{えき}の[[売店{ばいてん}]]で、新聞{しんぶん}とお茶{ちゃ}を買{か}った。",
+    "choices": [
+      "小{ちい}さな店{みせ}",
+      "案内所{あんないじょ}",
+      "改札口{かいさつぐち}",
+      "待合室{まちあいしつ}"
+    ],
+    "answer": 0,
+    "translation": "I bought a newspaper and some tea at the station kiosk.",
+    "explanation": "売店（ばいてん）is a small shop inside a facility such as a station, hospital, school, park or theater, selling things like newspapers, snacks and drinks (a kiosk or stand). It is made of 売 'sell' (売る うる) and 店 'shop' (店 みせ). In on'yomi compounds 売 is read ばい, as in 販売（はんばい）'sales'. So the closest meaning is 小さな店 'a small shop'. The other three choices are also places you find in a station, but none of them is a place that sells things.",
+    "choice_notes": [
+      "Correct. 小さな店 'a small shop' is what 売店 means.",
+      "Wrong. 案内所（あんないじょ）is an information desk or office, where you ask for directions or information. It does not sell newspapers or tea.",
+      "Wrong. 改札口（かいさつぐち）is the ticket gate where you go in and out of the station. It is not a shop.",
+      "Wrong. 待合室（まちあいしつ）is a waiting room, a place to sit and wait for a train or for your turn. It is not a shop."
+    ],
+    "vocab": [
+      {
+        "word": "売店",
+        "reading": "ばいてん",
+        "meaning": "kiosk, stand, small shop (in a station, hospital, school, etc.)",
+        "pos": "noun",
+        "example": "休{やす}み時間{じかん}に、学校{がっこう}の売店{ばいてん}でパンを買{か}った。",
+        "example_translation": "During the break, I bought bread at the school shop."
+      },
+      {
+        "word": "案内所",
+        "reading": "あんないじょ",
+        "meaning": "information desk, information office",
+        "pos": "noun",
+        "example": "観光案内所{かんこうあんないじょ}で地図{ちず}をもらった。",
+        "example_translation": "I got a map at the tourist information office."
+      },
+      {
+        "word": "改札口",
+        "reading": "かいさつぐち",
+        "meaning": "ticket gate (at a station)",
+        "pos": "noun",
+        "example": "改札口{かいさつぐち}の前{まえ}で友達{ともだち}と待{ま}ち合{あ}わせた。",
+        "example_translation": "I met up with my friend in front of the ticket gate."
+      },
+      {
+        "word": "待合室",
+        "reading": "まちあいしつ",
+        "meaning": "waiting room",
+        "pos": "noun",
+        "example": "病院{びょういん}の待合室{まちあいしつ}は、患者{かんじゃ}でいっぱいだった。",
+        "example_translation": "The hospital waiting room was full of patients."
+      },
+      {
+        "word": "販売",
+        "reading": "はんばい",
+        "meaning": "sales, selling",
+        "pos": "noun / suru verb",
+        "example": "この店{みせ}では、新{あたら}しいゲームの販売{はんばい}が明日{あした}から始{はじ}まる。",
+        "example_translation": "At this shop, sales of the new game start tomorrow."
+      }
+    ],
+    "grammar": []
+  },
+  {
+    "id": "n2v-023",
+    "section": "usage",
+    "target_word": "擦る",
+    "question": "[[擦{こす}る]]",
+    "choices": [
+      "暇{ひま}だったので、駅前{えきまえ}の本屋{ほんや}で一時間{いちじかん}ほど時間{じかん}を擦{こす}った。",
+      "前{まえ}の車{くるま}が急{きゅう}に止{と}まったので、慌{あわ}ててブレーキを擦{こす}った。",
+      "電車{でんしゃ}が揺{ゆ}れるので、つり革{かわ}をしっかり擦{こす}った。",
+      "眠{ねむ}そうに目{め}を擦{こす}りながら、弟{おとうと}が起{お}きてきた。"
+    ],
+    "answer": 3,
+    "translation": "My little brother got up and came in, sleepily rubbing his eyes.",
+    "explanation": "擦る（こする）means 'to rub, to scrub': to press something against a surface and move it back and forth. Typical uses: 目をこする 'to rub one's eyes', 両手をこすり合わせる 'to rub one's hands together', 汚れをブラシでこすって落とす 'to scrub dirt off with a brush'. The object is always something physical that gets rubbed. The wrong sentences use 擦る where a different verb is needed: 時間をつぶす 'to kill time', ブレーキを踏む 'to step on the brake', and つり革を握る 'to hold on to a strap'. Two spelling notes: こする is very often written in hiragana, and the same kanji 擦る has other readings too, most commonly する, as in マッチを擦る（する）'to strike a match'. In this question the furigana shows it is こする.",
+    "choice_notes": [
+      "Wrong. 'Killing time' is 時間をつぶす（潰す）: 一時間ほど時間をつぶした. Time is not a physical thing, so it cannot be rubbed.",
+      "Wrong. Pressing the brake pedal with your foot is ブレーキを踏む（ふむ）: 慌ててブレーキを踏んだ.",
+      "Wrong. Holding on tightly to a strap is つり革をしっかり握る（にぎる）, or つり革につかまる: つり革をしっかり握った.",
+      "Correct. 目をこする 'to rub one's eyes' is a typical use, especially when someone is sleepy."
+    ],
+    "vocab": [
+      {
+        "word": "擦る",
+        "reading": "こする",
+        "meaning": "to rub, to scrub",
+        "pos": "godan verb",
+        "example": "汚{よご}れをブラシで擦{こす}って落{お}とした。",
+        "example_translation": "I scrubbed the dirt off with a brush."
+      },
+      {
+        "word": "潰す",
+        "reading": "つぶす",
+        "meaning": "to crush, to squash; to kill (time)",
+        "pos": "godan verb",
+        "example": "待{ま}ち合{あ}わせの時間{じかん}まで、喫茶店{きっさてん}で時間{じかん}を潰{つぶ}した。",
+        "example_translation": "I killed time in a café until the time we had arranged to meet."
+      },
+      {
+        "word": "踏む",
+        "reading": "ふむ",
+        "meaning": "to step on",
+        "pos": "godan verb",
+        "example": "電車{でんしゃ}の中{なか}で、隣{となり}の人{ひと}の足{あし}を踏{ふ}んでしまった。",
+        "example_translation": "On the train, I accidentally stepped on the foot of the person next to me."
+      },
+      {
+        "word": "握る",
+        "reading": "にぎる",
+        "meaning": "to grip, to hold tightly",
+        "pos": "godan verb",
+        "example": "子{こ}どもは母親{ははおや}の手{て}をしっかり握{にぎ}っていた。",
+        "example_translation": "The child was holding his mother's hand tightly."
+      },
+      {
+        "word": "つり革",
+        "reading": "つりかわ",
+        "meaning": "hanging strap (to hold on to in a train or bus)",
+        "pos": "noun",
+        "example": "バスが揺{ゆ}れたので、つり革{かわ}につかまった。",
+        "example_translation": "The bus swayed, so I held on to a strap."
+      },
+      {
+        "word": "揺れる",
+        "reading": "ゆれる",
+        "meaning": "to shake, to sway",
+        "pos": "ichidan verb",
+        "example": "地震{じしん}で家{いえ}が大{おお}きく揺{ゆ}れた。",
+        "example_translation": "The house shook hard in the earthquake."
+      },
+      {
+        "word": "慌てる",
+        "reading": "あわてる",
+        "meaning": "to panic, to be flustered; to rush",
+        "pos": "ichidan verb",
+        "example": "寝坊{ねぼう}して、慌{あわ}てて家{いえ}を出{で}た。",
+        "example_translation": "I overslept and rushed out of the house."
+      },
+      {
+        "word": "急に",
+        "reading": "きゅうに",
+        "meaning": "suddenly",
+        "pos": "adverb",
+        "example": "急{きゅう}に雨{あめ}が降{ふ}り出{だ}した。",
+        "example_translation": "It suddenly started to rain."
+      },
+      {
+        "word": "暇",
+        "reading": "ひま",
+        "meaning": "free time; free, not busy",
+        "pos": "noun / na-adjective",
+        "example": "今週{こんしゅう}の土曜日{どようび}は暇{ひま}ですか。",
+        "example_translation": "Are you free this Saturday?"
+      },
+      {
+        "word": "眠い",
+        "reading": "ねむい",
+        "meaning": "sleepy",
+        "pos": "i-adjective",
+        "example": "昨日{きのう}あまり寝{ね}ていないので、とても眠{ねむ}い。",
+        "example_translation": "I didn't sleep much last night, so I'm very sleepy."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜ながら",
+        "meaning": "while ~ing (two actions at the same time)",
+        "formation": "Verb ます-stem + ながら (擦ります → 擦りながら)",
+        "example": "音楽{おんがく}を聞{き}きながら勉強{べんきょう}する。",
+        "example_translation": "I study while listening to music."
+      },
+      {
+        "pattern": "〜そうに",
+        "meaning": "looking ~, in a ~ way (judging by appearance)",
+        "formation": "い-adj: drop い + そうに (眠い → 眠そうに); な-adj stem + そうに",
+        "example": "子{こ}どもたちは楽{たの}しそうに遊{あそ}んでいる。",
+        "example_translation": "The children are playing and look like they're having fun."
+      },
+      {
+        "pattern": "〜てくる (toward the speaker)",
+        "meaning": "to do ~ and come (to where the speaker is)",
+        "formation": "Verb て-form + くる (起きる → 起きてくる)",
+        "example": "弟{おとうと}が部屋{へや}から走{はし}ってきた。",
+        "example_translation": "My little brother came running out of his room."
+      }
+    ]
+  },
+  {
+    "id": "n2v-024",
+    "section": "context",
+    "target_word": "こくせき",
+    "question": "彼女{かのじょ}は日本{にほん}に住{す}んで二十年{にじゅうねん}になり、去年{きょねん}、日本{にほん}の（　　）を取得{しゅとく}した。",
+    "choices": [
+      "国境{こっきょう}",
+      "国籍{こくせき}",
+      "国産{こくさん}",
+      "国際{こくさい}"
+    ],
+    "answer": 1,
+    "full_sentence": "彼女{かのじょ}は日本{にほん}に住{す}んで二十年{にじゅうねん}になり、去年{きょねん}、日本{にほん}の国籍{こくせき}を取得{しゅとく}した。",
+    "translation": "She has lived in Japan for twenty years, and last year she acquired Japanese nationality.",
+    "explanation": "国籍（こくせき）means 'nationality, citizenship': the country a person officially belongs to. It is what your passport shows and what you fill in on forms (国籍: 日本 'Nationality: Japan'). The clue is 取得した 'acquired, obtained': after living in Japan for twenty years, she obtained Japanese nationality. Common phrases: 国籍を取得する 'to acquire nationality', 日本国籍 'Japanese nationality', 二重国籍 'dual nationality', 国籍はどちらですか 'What is your nationality?'. All four choices start with 国 'country', so the second kanji decides the meaning. In 国籍 it is 籍 'register, official record', the same kanji as in 戸籍（こせき）'family register'.",
+    "choice_notes": [
+      "Wrong. 国境（こっきょう）means 'national border', the line between two countries: 国境を越える 'to cross the border'. A person cannot acquire a border.",
+      "Correct. 国籍を取得する 'to acquire nationality' is a set phrase.",
+      "Wrong. 国産（こくさん）means 'domestically produced, made in this country': 国産の野菜 'domestic vegetables'. It describes products, not something a person acquires.",
+      "Wrong. 国際（こくさい）means 'international' and is used mainly inside compounds such as 国際電話 'international call' and 国際的 'international'. It is not something you can acquire."
+    ],
+    "vocab": [
+      {
+        "word": "国籍",
+        "reading": "こくせき",
+        "meaning": "nationality, citizenship",
+        "pos": "noun",
+        "example": "この会社{かいしゃ}には、いろいろな国籍{こくせき}の社員{しゃいん}がいる。",
+        "example_translation": "This company has employees of many different nationalities."
+      },
+      {
+        "word": "国境",
+        "reading": "こっきょう",
+        "meaning": "national border",
+        "pos": "noun",
+        "example": "列車{れっしゃ}は夜{よる}のうちに国境{こっきょう}を越{こ}えた。",
+        "example_translation": "The train crossed the border during the night."
+      },
+      {
+        "word": "国産",
+        "reading": "こくさん",
+        "meaning": "domestically produced, made in this country",
+        "pos": "noun / no-adjective",
+        "example": "このスーパーでは国産{こくさん}の野菜{やさい}だけを売{う}っている。",
+        "example_translation": "This supermarket sells only domestically grown vegetables."
+      },
+      {
+        "word": "国際",
+        "reading": "こくさい",
+        "meaning": "international (mostly used in compounds)",
+        "pos": "noun / no-adjective",
+        "example": "海外{かいがい}に住{す}んでいる兄{あに}に国際電話{こくさいでんわ}をかけた。",
+        "example_translation": "I made an international call to my older brother, who lives abroad."
+      },
+      {
+        "word": "取得",
+        "reading": "しゅとく",
+        "meaning": "acquiring, obtaining (a license, qualification, nationality, etc.)",
+        "pos": "noun / suru verb",
+        "example": "大学生{だいがくせい}のうちに、車{くるま}の免許{めんきょ}を取得{しゅとく}したい。",
+        "example_translation": "I want to get a driver's license while I'm a university student."
+      },
+      {
+        "word": "戸籍",
+        "reading": "こせき",
+        "meaning": "family register (official record of a Japanese family)",
+        "pos": "noun",
+        "example": "結婚{けっこん}すると、夫婦{ふうふ}の新{あたら}しい戸籍{こせき}が作{つく}られる。",
+        "example_translation": "When people get married, a new family register is made for the couple."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜て + (period) + になる",
+        "meaning": "it has been (a period of time) since ~",
+        "formation": "Verb て-form + period of time + になる (住む → 住んで二十年になる)",
+        "example": "日本{にほん}に来{き}て、もう三年{さんねん}になる。",
+        "example_translation": "It has already been three years since I came to Japan."
+      }
+    ]
+  },
+  {
+    "id": "n2v-025",
+    "section": "kanji_reading",
+    "target_word": "日にち",
+    "question": "次{つぎ}の会議{かいぎ}の[[日にち]]が決{き}まったら、すぐに連絡{れんらく}してください。",
+    "choices": [
+      "にちにち",
+      "かにち",
+      "ひにち",
+      "じつにち"
+    ],
+    "answer": 2,
+    "translation": "As soon as the date of the next meeting is decided, please let me know.",
+    "explanation": "日にち is read ひにち. 日 is read with its kun'yomi ひ 'day', and the にち after it is already written in hiragana. It has two meanings: (1) the day or date set for a planned event: 会議の日にち 'the date of the meeting', 日にちを決める 'to set the date', 日にちを変更する 'to change the date'; (2) a number of days: 修理には日にちがかかる 'the repair will take (quite a few) days'. Compare 日付（ひづけ）, which is the date written on a letter, receipt or document. The wrong choices are built from other real readings of 日: にち (毎日 まいにち), か (三日 みっか), and じつ (休日 きゅうじつ). In 日にち, however, 日 is always ひ.",
+    "choice_notes": [
+      "Wrong. にち is a reading of 日 (毎日 まいにち), but 日にち is never read にちにち. にちにち is a different, rare word (written 日日 or 日々) meaning 'every day, day after day'.",
+      "Wrong. か is a reading of 日 used in day counts and in dates of the month, as in 三日（みっか）'three days; the 3rd' and 十日（とおか）'ten days; the 10th'. かにち is not a word.",
+      "Correct. ひにち = 日にち 'the date (of a planned event); a number of days'.",
+      "Wrong. じつ is an on'yomi of 日 used in words like 休日（きゅうじつ）'holiday' and 平日（へいじつ）'weekday', but じつにち is not a word."
+    ],
+    "vocab": [
+      {
+        "word": "日にち",
+        "reading": "ひにち",
+        "meaning": "date, day (of a planned event); number of days",
+        "pos": "noun",
+        "example": "仕事{しごと}が忙{いそが}しくなったので、旅行{りょこう}の日{ひ}にちを変更{へんこう}した。",
+        "example_translation": "Work got busy, so I changed the dates of my trip."
+      },
+      {
+        "word": "会議",
+        "reading": "かいぎ",
+        "meaning": "meeting, conference",
+        "pos": "noun",
+        "example": "会議{かいぎ}は午後{ごご}三時{さんじ}から始{はじ}まる。",
+        "example_translation": "The meeting starts at 3 p.m."
+      },
+      {
+        "word": "決まる",
+        "reading": "きまる",
+        "meaning": "to be decided, to be settled",
+        "pos": "godan verb",
+        "example": "結婚式{けっこんしき}の場所{ばしょ}がやっと決{き}まった。",
+        "example_translation": "The place for the wedding has finally been decided."
+      },
+      {
+        "word": "連絡",
+        "reading": "れんらく",
+        "meaning": "contact, getting in touch, letting someone know",
+        "pos": "noun / suru verb",
+        "example": "遅{おく}れるときは、必{かなら}ず連絡{れんらく}してください。",
+        "example_translation": "If you are going to be late, be sure to let us know."
+      },
+      {
+        "word": "日付",
+        "reading": "ひづけ",
+        "meaning": "date (written on a letter, receipt, document)",
+        "pos": "noun",
+        "example": "手紙{てがみ}の最後{さいご}に日付{ひづけ}を書{か}いた。",
+        "example_translation": "I wrote the date at the end of the letter."
+      },
+      {
+        "word": "休日",
+        "reading": "きゅうじつ",
+        "meaning": "holiday, day off",
+        "pos": "noun",
+        "example": "休日{きゅうじつ}は家族{かぞく}と過{す}ごすことが多{おお}い。",
+        "example_translation": "I often spend my days off with my family."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜たら",
+        "meaning": "when ~, once ~ (after something happens, then ...)",
+        "formation": "Verb た-form + ら (決まった → 決まったら)",
+        "example": "駅{えき}に着{つ}いたら、電話{でんわ}してください。",
+        "example_translation": "Please call me when you get to the station."
+      }
+    ]
+  },
+  {
+    "id": "n2v-026",
+    "section": "paraphrase",
+    "target_word": "かるた",
+    "question": "子{こ}どものころ、お正月{しょうがつ}には家族{かぞく}みんなで[[かるた]]をした。",
+    "choices": [
+      "凧{たこ}を揚{あ}げる遊{あそ}び",
+      "こまを回{まわ}す遊{あそ}び",
+      "さいころを振{ふ}る遊{あそ}び",
+      "カードを使{つか}う遊{あそ}び"
+    ],
+    "answer": 3,
+    "translation": "When I was a child, my whole family used to play karuta (a card game) at New Year.",
+    "explanation": "かるた is a traditional Japanese card game, often played at New Year. The word comes from the Portuguese carta 'card', and it is also written in katakana as カルタ. In the most common way of playing, one person reads a card aloud (the 読み札 よみふだ 'reading card'), and the other players race to find and grab the matching card (the 取り札 とりふだ 'grabbing card') from the cards spread out on the floor. Well-known kinds are いろはかるた and 百人一首（ひゃくにんいっしゅ）かるた, which uses 100 classical poems. So the closest meaning is カードを使う遊び 'a game played with cards'. The other choices describe other traditional New Year games: 凧揚げ（たこあげ）'kite flying', こま回し 'spinning tops', and すごろく, a board game played with dice.",
+    "choice_notes": [
+      "Wrong. 凧を揚げる遊び is 凧揚げ（たこあげ）'kite flying', another New Year game. It does not use cards.",
+      "Wrong. こまを回す遊び is こま回し 'spinning tops'. A こま is a spinning top, not a card.",
+      "Wrong. さいころを振る遊び 'a game where you throw dice' describes すごろく, a board game. かるた does not use dice.",
+      "Correct. かるた is a game played with cards."
+    ],
+    "vocab": [
+      {
+        "word": "かるた",
+        "reading": "かるた",
+        "meaning": "karuta (traditional Japanese playing cards; the card game played with them)",
+        "pos": "noun",
+        "example": "祖父{そふ}はかるたがとても強{つよ}い。",
+        "example_translation": "My grandfather is very good at karuta."
+      },
+      {
+        "word": "お正月",
+        "reading": "おしょうがつ",
+        "meaning": "New Year (holidays)",
+        "pos": "noun",
+        "example": "お正月{しょうがつ}には、家族{かぞく}で神社{じんじゃ}へ行{い}く。",
+        "example_translation": "At New Year, my family goes to a shrine."
+      },
+      {
+        "word": "凧",
+        "reading": "たこ",
+        "meaning": "kite",
+        "pos": "noun",
+        "example": "風{かぜ}の強{つよ}い日{ひ}に、公園{こうえん}で凧{たこ}を揚{あ}げた。",
+        "example_translation": "On a windy day, I flew a kite in the park."
+      },
+      {
+        "word": "揚げる",
+        "reading": "あげる",
+        "meaning": "to fly (a kite), to raise; to deep-fry",
+        "pos": "ichidan verb",
+        "example": "台所{だいどころ}で天{てん}ぷらを揚{あ}げた。",
+        "example_translation": "I deep-fried tempura in the kitchen."
+      },
+      {
+        "word": "こま",
+        "reading": "こま",
+        "meaning": "spinning top (toy)",
+        "pos": "noun",
+        "example": "お正月{しょうがつ}に、祖父{そふ}がこまの回{まわ}し方{かた}を教{おし}えてくれた。",
+        "example_translation": "At New Year, my grandfather taught me how to spin a top."
+      },
+      {
+        "word": "回す",
+        "reading": "まわす",
+        "meaning": "to turn, to spin",
+        "pos": "godan verb",
+        "example": "ドアのノブを回{まわ}して開{あ}けた。",
+        "example_translation": "I turned the doorknob and opened the door."
+      },
+      {
+        "word": "さいころ",
+        "reading": "さいころ",
+        "meaning": "dice, a die",
+        "pos": "noun",
+        "example": "さいころを二{ふた}つ振{ふ}って、出{で}た数{かず}だけ進{すす}む。",
+        "example_translation": "You throw two dice and move forward by the number that comes up."
+      },
+      {
+        "word": "振る",
+        "reading": "ふる",
+        "meaning": "to wave, to shake; to throw (dice)",
+        "pos": "godan verb",
+        "example": "駅{えき}で手{て}を振{ふ}って友達{ともだち}と別{わか}れた。",
+        "example_translation": "I waved and said goodbye to my friend at the station."
+      },
+      {
+        "word": "すごろく",
+        "reading": "すごろく",
+        "meaning": "sugoroku (a traditional board game played with dice)",
+        "pos": "noun",
+        "example": "子{こ}どもたちはお正月{しょうがつ}にすごろくをして遊{あそ}んだ。",
+        "example_translation": "The children played sugoroku at New Year."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜ころ",
+        "meaning": "around the time when ~, when ~ (a period in the past)",
+        "formation": "Noun + の + ころ / Verb plain form + ころ",
+        "example": "学生{がくせい}のころ、よく図書館{としょかん}に通{かよ}った。",
+        "example_translation": "When I was a student, I often went to the library."
+      }
+    ]
+  },
+  {
+    "id": "n2v-027",
+    "section": "orthography",
+    "target_word": "足る",
+    "question": "彼{かれ}は、信頼{しんらい}するに[[たる]]人物{じんぶつ}だ。",
+    "choices": [
+      "満る",
+      "足る",
+      "充る",
+      "走る"
+    ],
+    "answer": 1,
+    "translation": "He is a person worthy of trust.",
+    "explanation": "たる 'to be enough; to be worthy of' is written 足る. It is the older, more formal form of 足りる（たりる）'to be enough', which is the verb you use in everyday speech (お金が足りない 'I don't have enough money'). Today 足る appears mainly in fixed expressions: 〜に足る 'worthy of ~, enough to ~' (信頼に足る人物 or 信頼するに足る人物 'a person worthy of trust'), 取るに足らない 'trivial, not worth mentioning', and 足るを知る 'to be content with what one has'. The kanji 足 means 'foot', but it also means 'add, be enough', as in 足す（たす）'to add' and 不足（ふそく）'shortage'.",
+    "choice_notes": [
+      "Wrong. 満 means 'full', as in 満ちる（みちる）'to become full' and 満足（まんぞく）'satisfaction', but 満る does not exist.",
+      "Correct. 足る（たる）'to be enough; to be worthy of'.",
+      "Wrong. 充 means 'fill, allot', as in 充実（じゅうじつ）'fullness' and 充てる（あてる）'to allot', but 充る does not exist.",
+      "Wrong. 走 looks a little like 足, but 走る is read はしる 'to run', not たる."
+    ],
+    "vocab": [
+      {
+        "word": "足る",
+        "reading": "たる",
+        "meaning": "to be enough, to be sufficient; to be worthy of (formal)",
+        "pos": "godan verb",
+        "example": "彼{かれ}の説明{せつめい}は、信{しん}じるに足{た}るものだった。",
+        "example_translation": "His explanation was worth believing."
+      },
+      {
+        "word": "足りる",
+        "reading": "たりる",
+        "meaning": "to be enough",
+        "pos": "ichidan verb",
+        "example": "時間{じかん}が足{た}りなくて、最後{さいご}の問題{もんだい}ができなかった。",
+        "example_translation": "I didn't have enough time, so I couldn't do the last question."
+      },
+      {
+        "word": "取るに足らない",
+        "reading": "とるにたらない",
+        "meaning": "trivial, insignificant, not worth mentioning",
+        "pos": "expression (i-adjective)",
+        "example": "取{と}るに足{た}らないことで、友達{ともだち}とけんかしてしまった。",
+        "example_translation": "I ended up fighting with my friend over something trivial."
+      },
+      {
+        "word": "満ちる",
+        "reading": "みちる",
+        "meaning": "to become full, to be filled (with)",
+        "pos": "ichidan verb",
+        "example": "彼女{かのじょ}の顔{かお}は自信{じしん}に満{み}ちていた。",
+        "example_translation": "Her face was full of confidence."
+      },
+      {
+        "word": "充実",
+        "reading": "じゅうじつ",
+        "meaning": "fullness, being full and satisfying",
+        "pos": "noun / suru verb",
+        "example": "今年{ことし}の夏休{なつやす}みはとても充実{じゅうじつ}していた。",
+        "example_translation": "This summer vacation was very full and satisfying."
+      },
+      {
+        "word": "走る",
+        "reading": "はしる",
+        "meaning": "to run",
+        "pos": "godan verb (even though it ends in -iru)",
+        "example": "遅刻{ちこく}しそうになって、駅{えき}まで走{はし}った。",
+        "example_translation": "I was about to be late, so I ran to the station."
+      },
+      {
+        "word": "信頼",
+        "reading": "しんらい",
+        "meaning": "trust, reliance",
+        "pos": "noun / suru verb",
+        "example": "彼{かれ}は部下{ぶか}から信頼{しんらい}されている。",
+        "example_translation": "He is trusted by his staff."
+      },
+      {
+        "word": "人物",
+        "reading": "じんぶつ",
+        "meaning": "person, figure, character",
+        "pos": "noun",
+        "example": "この小説{しょうせつ}の登場人物{とうじょうじんぶつ}は、みんな個性的{こせいてき}だ。",
+        "example_translation": "The characters in this novel are all very distinctive."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜に足る",
+        "meaning": "worthy of ~, enough to ~ (formal, mostly written)",
+        "formation": "Verb dictionary form + に足る (信頼する → 信頼するに足る) / する-noun + に足る (信頼に足る)",
+        "example": "これは十分{じゅうぶん}信頼{しんらい}に足{た}る情報{じょうほう}だ。",
+        "example_translation": "This is information that can be fully trusted."
+      }
+    ]
+  },
+  {
+    "id": "n2v-028",
+    "section": "context",
+    "target_word": "小便",
+    "question": "散歩中{さんぽちゅう}に、うちの犬{いぬ}がよその家{いえ}の門{もん}の前{まえ}で（　　）をしてしまったので、すぐに水{みず}をかけて流{なが}した。",
+    "choices": [
+      "小便{しょうべん}",
+      "あくび",
+      "くしゃみ",
+      "昼寝{ひるね}"
+    ],
+    "answer": 0,
+    "full_sentence": "散歩中{さんぽちゅう}に、うちの犬{いぬ}がよその家{いえ}の門{もん}の前{まえ}で小便{しょうべん}をしてしまったので、すぐに水{みず}をかけて流{なが}した。",
+    "translation": "During our walk, my dog peed in front of the gate of someone else's house, so I immediately poured water over it to wash it away.",
+    "explanation": "小便（しょうべん）means 'urine' or 'urinating' (小便をする 'to urinate, to pee'). All four choices fit the grammar 〜をする, so the meaning decides. The clue is 水をかけて流した 'poured water on it and washed it away': of the four, only urine leaves something on the ground that has to be washed away. (In Japan, many dog owners carry a bottle of water on walks for exactly this reason.) Note the register: 小便 is colloquial and rather blunt, so avoid it in polite conversation. Softer or more formal words are おしっこ (soft, used with and by children), 尿（にょう）(medical and formal, as in 尿検査 'urine test'), and the polite expression トイレに行く 'to go to the toilet'. Related words: 大便（だいべん）'feces', and 立ち小便（たちしょうべん）'urinating outdoors in public'.",
+    "choice_notes": [
+      "Correct. 小便をする 'to urinate'; it is what has to be washed away with water.",
+      "Wrong. あくび means 'a yawn' (あくびをする 'to yawn'). A yawn leaves nothing to wash away.",
+      "Wrong. くしゃみ means 'a sneeze' (くしゃみをする 'to sneeze'). There would be no reason to pour water in front of the gate.",
+      "Wrong. 昼寝（ひるね）means 'a nap' (昼寝をする 'to take a nap'). A nap leaves nothing that needs to be washed away."
+    ],
+    "vocab": [
+      {
+        "word": "小便",
+        "reading": "しょうべん",
+        "meaning": "urine; urinating (colloquial, rather blunt)",
+        "pos": "noun / suru verb",
+        "example": "公園{こうえん}の壁{かべ}に「立{た}ち小便{しょうべん}禁止{きんし}」と書{か}いてあった。",
+        "example_translation": "On the park wall it said 'No urinating in public'."
+      },
+      {
+        "word": "あくび",
+        "reading": "あくび",
+        "meaning": "yawn",
+        "pos": "noun / suru verb",
+        "example": "授業中{じゅぎょうちゅう}に大{おお}きなあくびをして、先生{せんせい}に注意{ちゅうい}された。",
+        "example_translation": "I gave a big yawn during class and was told off by the teacher."
+      },
+      {
+        "word": "くしゃみ",
+        "reading": "くしゃみ",
+        "meaning": "sneeze",
+        "pos": "noun / suru verb",
+        "example": "花粉症{かふんしょう}で、朝{あさ}からくしゃみが止{と}まらない。",
+        "example_translation": "Because of hay fever, I haven't stopped sneezing since the morning."
+      },
+      {
+        "word": "昼寝",
+        "reading": "ひるね",
+        "meaning": "nap (during the day)",
+        "pos": "noun / suru verb",
+        "example": "昼{ひる}ご飯{はん}の後{あと}、少{すこ}し昼寝{ひるね}をした。",
+        "example_translation": "After lunch, I took a short nap."
+      },
+      {
+        "word": "〜中",
+        "reading": "ちゅう",
+        "meaning": "during ~, in the middle of ~",
+        "pos": "suffix",
+        "example": "食事中{しょくじちゅう}に電話{でんわ}が鳴{な}った。",
+        "example_translation": "The phone rang during the meal."
+      },
+      {
+        "word": "よそ",
+        "reading": "よそ",
+        "meaning": "another place; someone else's (house, family)",
+        "pos": "noun",
+        "example": "よその家{いえ}の庭{にわ}に勝手{かって}に入{はい}ってはいけない。",
+        "example_translation": "You must not go into someone else's garden without permission."
+      },
+      {
+        "word": "門",
+        "reading": "もん",
+        "meaning": "gate",
+        "pos": "noun",
+        "example": "学校{がっこう}の門{もん}の前{まえ}で待{ま}っています。",
+        "example_translation": "I'll be waiting in front of the school gate."
+      },
+      {
+        "word": "流す",
+        "reading": "ながす",
+        "meaning": "to wash away, to let flow, to flush",
+        "pos": "godan verb",
+        "example": "トイレの水{みず}を流{なが}すのを忘{わす}れないでください。",
+        "example_translation": "Please don't forget to flush the toilet."
+      },
+      {
+        "word": "尿",
+        "reading": "にょう",
+        "meaning": "urine (medical, formal word)",
+        "pos": "noun",
+        "example": "健康診断{けんこうしんだん}で尿{にょう}の検査{けんさ}を受{う}けた。",
+        "example_translation": "I had a urine test at my health checkup."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜てしまう",
+        "meaning": "to do ~ (by accident or with regret); to finish ~ completely",
+        "formation": "Verb て-form + しまう (する → してしまう)",
+        "example": "電車{でんしゃ}に傘{かさ}を忘{わす}れてしまった。",
+        "example_translation": "I (accidentally) left my umbrella on the train."
+      }
+    ]
+  },
+  {
+    "id": "n2v-029",
+    "section": "paraphrase",
+    "target_word": "仲良し",
+    "question": "あの二人{ふたり}は、小学生{しょうがくせい}のころからの[[仲良{なかよ}し]]だ。",
+    "choices": [
+      "ライバル",
+      "親{した}しい友達{ともだち}",
+      "知{し}り合{あ}い",
+      "近所{きんじょ}の人{ひと}"
+    ],
+    "answer": 1,
+    "translation": "Those two have been close friends since elementary school.",
+    "explanation": "仲良し（なかよし）means 'close friend(s); being on good terms'. It is made of 仲 'relationship (between people)' and 良い 'good', so literally it means 'a good relationship'. You can say あの二人は仲良しだ 'those two are close friends' or 仲良しの友達 'a good friend'. Related phrases: 仲がいい 'to get along well', 仲良くする 'to be friendly with, to get along', 仲良くなる 'to become friends'. So the closest meaning is 親しい友達 'close friends'. Be careful with 知り合い: it only means someone you know, and says nothing about being close, which is the core of 仲良し.",
+    "choice_notes": [
+      "Wrong. ライバル means 'rival', someone you compete against. 仲良し is about friendship, not competition.",
+      "Correct. 親しい友達 'close friend(s)' = 仲良し.",
+      "Wrong. 知り合い（しりあい）means 'acquaintance', someone you know. It does not say that you are close, which is the key meaning of 仲良し.",
+      "Wrong. 近所の人 means 'a neighbor', someone who lives nearby. It says where a person lives, not that you are good friends."
+    ],
+    "vocab": [
+      {
+        "word": "仲良し",
+        "reading": "なかよし",
+        "meaning": "close friend; being on good terms",
+        "pos": "noun / no-adjective",
+        "example": "うちの猫{ねこ}と犬{いぬ}はとても仲良{なかよ}しだ。",
+        "example_translation": "Our cat and dog get along really well."
+      },
+      {
+        "word": "親しい",
+        "reading": "したしい",
+        "meaning": "close, friendly, intimate",
+        "pos": "i-adjective",
+        "example": "彼{かれ}とは学生時代{がくせいじだい}から親{した}しくしている。",
+        "example_translation": "I have been close to him since our school days."
+      },
+      {
+        "word": "知り合い",
+        "reading": "しりあい",
+        "meaning": "acquaintance, someone you know",
+        "pos": "noun",
+        "example": "パーティーで、知{し}り合{あ}いに偶然{ぐうぜん}会{あ}った。",
+        "example_translation": "I happened to run into an acquaintance at a party."
+      },
+      {
+        "word": "ライバル",
+        "reading": "ライバル",
+        "meaning": "rival",
+        "pos": "noun",
+        "example": "二人{ふたり}は昔{むかし}からのライバルだ。",
+        "example_translation": "The two have been rivals for a long time."
+      },
+      {
+        "word": "近所",
+        "reading": "きんじょ",
+        "meaning": "neighborhood, nearby",
+        "pos": "noun",
+        "example": "近所{きんじょ}に新{あたら}しいスーパーができた。",
+        "example_translation": "A new supermarket opened in my neighborhood."
+      },
+      {
+        "word": "仲",
+        "reading": "なか",
+        "meaning": "relationship (between people)",
+        "pos": "noun",
+        "example": "姉{あね}と私{わたし}は仲{なか}がいい。",
+        "example_translation": "My older sister and I get along well."
+      },
+      {
+        "word": "小学生",
+        "reading": "しょうがくせい",
+        "meaning": "elementary school student",
+        "pos": "noun",
+        "example": "小学生{しょうがくせい}のとき、毎日{まいにち}歩{ある}いて学校{がっこう}に通{かよ}っていた。",
+        "example_translation": "When I was in elementary school, I walked to school every day."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜からの + noun",
+        "meaning": "(a ~) that has existed since ~",
+        "formation": "Noun (time) + からの + noun (小学生のころからの仲良し)",
+        "example": "子{こ}どものころからの夢{ゆめ}がかなった。",
+        "example_translation": "My dream since childhood came true."
+      }
+    ]
+  },
+  {
+    "id": "n2v-030",
+    "section": "usage",
+    "target_word": "行っていらっしゃい",
+    "question": "[[行{い}っていらっしゃい]]",
+    "choices": [
+      "家{いえ}を出{で}るとき、私{わたし}は台所{だいどころ}にいる母{はは}に「行{い}っていらっしゃい。」と言{い}った。",
+      "「ただいま。」と言{い}って学校{がっこう}から帰{かえ}ってきた娘{むすめ}に、「行{い}っていらっしゃい。」と言{い}った。",
+      "朝{あさ}、会社{かいしゃ}へ出{で}かける夫{おっと}に、玄関{げんかん}で「行{い}っていらっしゃい。」と言{い}った。",
+      "店員{てんいん}は、店{みせ}に入{はい}ってきた客{きゃく}に「行{い}っていらっしゃい。」と言{い}った。"
+    ],
+    "answer": 2,
+    "translation": "In the morning, at the front door, I said 'Have a good day' to my husband as he left for work.",
+    "explanation": "行っていらっしゃい is the set greeting you say to someone who is leaving (home, the office, etc.) and will come back later, like 'Have a good day!' or 'See you later!'. Literally it is 行って 'go' + いらっしゃい 'come (back)', the command form of the honorific verb いらっしゃる, so it means 'go, and come back'. It answers 行ってきます 'I'm off (I'll go and come back)', which is what the person leaving says. In everyday family speech it is usually shortened to 行ってらっしゃい（いってらっしゃい）, and hotel or shop staff say the very polite 行ってらっしゃいませ to guests going out. The four greetings around leaving and coming home form two pairs: the person leaving says 行ってきます and the person staying says 行っていらっしゃい; the person coming home says ただいま and the person at home answers お帰りなさい.",
+    "choice_notes": [
+      "Wrong. The person who is leaving says 行ってきます: 母に「行ってきます。」と言った. 行っていらっしゃい is said by the person who stays behind.",
+      "Wrong. To someone who has just come home and said ただいま, you answer お帰りなさい（おかえりなさい）'welcome home': 娘に「お帰りなさい。」と言った.",
+      "Correct. Saying 行っていらっしゃい to someone leaving for work, who will come back later, is exactly how it is used.",
+      "Wrong. To a customer coming into a shop, staff say いらっしゃいませ 'welcome': 客に「いらっしゃいませ。」と言った. Do not confuse it with 行っていらっしゃい, which sends someone off."
+    ],
+    "vocab": [
+      {
+        "word": "行っていらっしゃい",
+        "reading": "いっていらっしゃい",
+        "meaning": "have a good day, see you later (said to someone who is leaving and will come back)",
+        "pos": "expression",
+        "example": "「行{い}ってきます。」「行{い}っていらっしゃい。気{き}をつけてね。」",
+        "example_translation": "'I'm off.' 'See you later. Take care.'"
+      },
+      {
+        "word": "行ってきます",
+        "reading": "いってきます",
+        "meaning": "I'm off, see you later (said by the person who is leaving)",
+        "pos": "expression",
+        "example": "子{こ}どもたちは元気{げんき}に「行{い}ってきます。」と言{い}って学校{がっこう}へ行{い}った。",
+        "example_translation": "The children cheerfully said 'I'm off!' and went to school."
+      },
+      {
+        "word": "ただいま",
+        "reading": "ただいま",
+        "meaning": "I'm home (said when you come back home)",
+        "pos": "expression",
+        "example": "家{いえ}に着{つ}いて「ただいま。」と言{い}ったが、誰{だれ}もいなかった。",
+        "example_translation": "I got home and said 'I'm home', but nobody was there."
+      },
+      {
+        "word": "お帰りなさい",
+        "reading": "おかえりなさい",
+        "meaning": "welcome home (the answer to ただいま)",
+        "pos": "expression",
+        "example": "「ただいま。」「お帰{かえ}りなさい。」",
+        "example_translation": "'I'm home.' 'Welcome home.'"
+      },
+      {
+        "word": "いらっしゃいませ",
+        "reading": "いらっしゃいませ",
+        "meaning": "welcome (said by shop staff to customers)",
+        "pos": "expression",
+        "example": "店{みせ}に入{はい}ると、店員{てんいん}が「いらっしゃいませ。」と言{い}った。",
+        "example_translation": "When I went into the shop, the clerk said 'Welcome.'"
+      },
+      {
+        "word": "玄関",
+        "reading": "げんかん",
+        "meaning": "entrance (of a house), front door",
+        "pos": "noun",
+        "example": "玄関{げんかん}で靴{くつ}を脱{ぬ}いでください。",
+        "example_translation": "Please take off your shoes at the entrance."
+      },
+      {
+        "word": "夫",
+        "reading": "おっと",
+        "meaning": "(my) husband",
+        "pos": "noun",
+        "example": "夫{おっと}は毎朝{まいあさ}七時{しちじ}に家{いえ}を出{で}る。",
+        "example_translation": "My husband leaves home at seven every morning."
+      },
+      {
+        "word": "出かける",
+        "reading": "でかける",
+        "meaning": "to go out, to leave (home)",
+        "pos": "ichidan verb",
+        "example": "雨{あめ}が降{ふ}りそうなので、傘{かさ}を持{も}って出{で}かけた。",
+        "example_translation": "It looked like rain, so I took an umbrella when I went out."
+      },
+      {
+        "word": "台所",
+        "reading": "だいどころ",
+        "meaning": "kitchen",
+        "pos": "noun",
+        "example": "母{はは}は台所{だいどころ}で夕飯{ゆうはん}を作{つく}っている。",
+        "example_translation": "My mother is making dinner in the kitchen."
+      },
+      {
+        "word": "娘",
+        "reading": "むすめ",
+        "meaning": "daughter",
+        "pos": "noun",
+        "example": "娘{むすめ}は今年{ことし}、大学{だいがく}に入学{にゅうがく}した。",
+        "example_translation": "My daughter started university this year."
+      },
+      {
+        "word": "店員",
+        "reading": "てんいん",
+        "meaning": "shop clerk, shop assistant",
+        "pos": "noun",
+        "example": "店員{てんいん}に試着室{しちゃくしつ}の場所{ばしょ}を聞{き}いた。",
+        "example_translation": "I asked the clerk where the fitting room was."
+      },
+      {
+        "word": "客",
+        "reading": "きゃく",
+        "meaning": "customer, guest",
+        "pos": "noun",
+        "example": "この店{みせ}はいつも客{きゃく}でいっぱいだ。",
+        "example_translation": "This shop is always full of customers."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜てくる",
+        "meaning": "to do ~ and come (toward the speaker); to come back after ~",
+        "formation": "Verb て-form + くる (帰る → 帰ってくる, 入る → 入ってくる)",
+        "example": "兄{あに}が部屋{へや}に入{はい}ってきた。",
+        "example_translation": "My older brother came into the room."
+      }
+    ]
+  }
+]

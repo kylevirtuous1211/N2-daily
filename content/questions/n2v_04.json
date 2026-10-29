@@ -1,0 +1,967 @@
+[
+  {
+    "id": "n2v-031",
+    "section": "kanji_reading",
+    "target_word": "間も無く",
+    "question": "会議{かいぎ}は[[間もなく]]始{はじ}まりますので、席{せき}にお戻{もど}りください。",
+    "choices": [
+      "あいだもなく",
+      "かんもなく",
+      "まもなく",
+      "けんもなく"
+    ],
+    "answer": 2,
+    "translation": "The meeting will begin shortly, so please return to your seats.",
+    "explanation": "間もなく is read まもなく and means 'soon, shortly, before long'. Here 間 uses its kun'yomi ま, which means 'a gap, a space of time', as in 間に合う（まにあう）'to be in time', 昼間（ひるま）'daytime' and 居間（いま）'living room'. Literally, 間もなく is 'without even a gap (of time)', so 'very soon'. It is very common in announcements: 間もなく電車が参ります 'the train will arrive shortly'. After a verb in て-form it means 'shortly after ~': 日本に来て間もなく 'soon after coming to Japan'. It is also often written all in kana as まもなく. The distractors are the other readings of 間 (あいだ, かん, けん). They are all real readings of this kanji, but none of them is used in this word.",
+    "choice_notes": [
+      "Wrong. あいだ is the other kun'yomi of 間, meaning 'between, during', as in 夏休みの間（なつやすみのあいだ）'during the summer vacation'. It is not used in 間もなく.",
+      "Wrong. かん is the on'yomi of 間, used in kanji compounds such as 時間（じかん）'time' and 期間（きかん）'period'. 間もなく uses the kun'yomi ま.",
+      "Correct. まもなく = 間もなく 'soon, shortly'.",
+      "Wrong. けん is another on'yomi of 間, used in a few compounds such as 世間（せけん）'society, the public'. It is not used in 間もなく."
+    ],
+    "vocab": [
+      {
+        "word": "間もなく",
+        "reading": "まもなく",
+        "meaning": "soon, shortly, before long; (after a て-form) shortly after ~",
+        "pos": "adverb",
+        "example": "大学{だいがく}を卒業{そつぎょう}して間{ま}もなく、彼{かれ}は結婚{けっこん}した。",
+        "example_translation": "Shortly after graduating from university, he got married."
+      },
+      {
+        "word": "会議",
+        "reading": "かいぎ",
+        "meaning": "meeting, conference",
+        "pos": "noun",
+        "example": "午後{ごご}から大事{だいじ}な会議{かいぎ}がある。",
+        "example_translation": "There is an important meeting in the afternoon."
+      },
+      {
+        "word": "席",
+        "reading": "せき",
+        "meaning": "seat",
+        "pos": "noun",
+        "example": "電車{でんしゃ}で窓側{まどがわ}の席{せき}に座{すわ}った。",
+        "example_translation": "I sat in a window seat on the train."
+      },
+      {
+        "word": "戻る",
+        "reading": "もどる",
+        "meaning": "to return, to go back",
+        "pos": "godan verb",
+        "example": "忘{わす}れ物{もの}を取{と}りに家{いえ}に戻{もど}った。",
+        "example_translation": "I went back home to get something I had forgotten."
+      },
+      {
+        "word": "間に合う",
+        "reading": "まにあう",
+        "meaning": "to be in time; to be enough",
+        "pos": "godan verb",
+        "example": "急{いそ}げば、最終電車{さいしゅうでんしゃ}に間{ま}に合{あ}う。",
+        "example_translation": "If we hurry, we'll make the last train."
+      },
+      {
+        "word": "世間",
+        "reading": "せけん",
+        "meaning": "society, the world, people in general",
+        "pos": "noun",
+        "example": "世間{せけん}の目{め}を気{き}にしすぎないほうがいい。",
+        "example_translation": "It's better not to worry too much about what other people think."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "お〜ください",
+        "meaning": "please ~ (polite, honorific request)",
+        "formation": "お + Verb ます-stem + ください (戻ります → お戻りください)",
+        "example": "こちらで少{すこ}しお待{ま}ちください。",
+        "example_translation": "Please wait here a moment."
+      },
+      {
+        "pattern": "〜ので",
+        "meaning": "because ~, so (a soft, polite reason)",
+        "formation": "Plain or polite form + ので (始まります → 始まりますので); な-adj / noun + なので",
+        "example": "雨{あめ}が降{ふ}っていますので、足元{あしもと}にお気{き}をつけください。",
+        "example_translation": "It is raining, so please watch your step."
+      }
+    ]
+  },
+  {
+    "id": "n2v-032",
+    "section": "orthography",
+    "target_word": "吐き気",
+    "question": "朝{あさ}から[[はきけ]]がして、何{なに}も食{た}べられない。",
+    "choices": [
+      "吐き気",
+      "叶き気",
+      "掃き気",
+      "吐き毛"
+    ],
+    "answer": 0,
+    "translation": "I've been feeling nauseous since this morning, and I can't eat anything.",
+    "explanation": "はきけ 'nausea, feeling sick to one's stomach' is written 吐き気. It is made of 吐き, from 吐く（はく）'to vomit, to throw up', plus 気（け）'feeling, sense'. 気 is usually read き, but in some words for a feeling or a sign it is read け: 寒気（さむけ）'chills', 眠気（ねむけ）'sleepiness', 湿気（しっけ）'humidity'. The set phrase is 吐き気がする 'to feel nauseous'. 〜がする is used for sensations, as in 寒気がする 'to have the chills' and 頭痛がする 'to have a headache'. 吐き気 is only the feeling; actually throwing up is 吐く. Each wrong choice changes one part of the word: a kanji that looks like 吐, a different kanji with the sound は(く), or a different kanji with the sound け.",
+    "choice_notes": [
+      "Correct. 吐き気（はきけ）'nausea'. 吐き気がする 'to feel nauseous'.",
+      "Wrong. 叶 looks like 吐 (both have 口 on the left), but its right side is 十, while 吐 has 土. 叶 is used in 叶う（かなう）'(a wish) to come true'. 叶き気 does not exist.",
+      "Wrong. 掃く（はく）'to sweep' has the same sound はく, but it means sweeping with a broom. 掃き気 does not exist.",
+      "Wrong. 毛（け）'hair, fur' has the same sound け, but the け in はきけ is 気 'feeling'. 吐き毛 does not exist."
+    ],
+    "vocab": [
+      {
+        "word": "吐き気",
+        "reading": "はきけ",
+        "meaning": "nausea, feeling sick (to one's stomach)",
+        "pos": "noun",
+        "example": "船{ふね}に酔{よ}って、吐{は}き気{け}がしてきた。",
+        "example_translation": "I got seasick and started to feel nauseous."
+      },
+      {
+        "word": "吐く",
+        "reading": "はく",
+        "meaning": "to vomit, to throw up; to spit out; to breathe out",
+        "pos": "godan verb",
+        "example": "気分{きぶん}が悪{わる}くて、食{た}べた物{もの}を吐{は}いてしまった。",
+        "example_translation": "I felt sick and threw up what I had eaten."
+      },
+      {
+        "word": "叶う",
+        "reading": "かなう",
+        "meaning": "(a wish or dream) to come true",
+        "pos": "godan verb",
+        "example": "長年{ながねん}の夢{ゆめ}がやっと叶{かな}った。",
+        "example_translation": "My long-held dream finally came true."
+      },
+      {
+        "word": "掃く",
+        "reading": "はく",
+        "meaning": "to sweep (with a broom)",
+        "pos": "godan verb",
+        "example": "毎朝{まいあさ}、店{みせ}の前{まえ}をほうきで掃{は}く。",
+        "example_translation": "Every morning I sweep in front of the shop with a broom."
+      },
+      {
+        "word": "毛",
+        "reading": "け",
+        "meaning": "hair (of the body), fur",
+        "pos": "noun",
+        "example": "この犬{いぬ}は毛{け}が長{なが}くて柔{やわ}らかい。",
+        "example_translation": "This dog's fur is long and soft."
+      },
+      {
+        "word": "寒気",
+        "reading": "さむけ",
+        "meaning": "chills, a shivering feeling",
+        "pos": "noun",
+        "example": "熱{ねつ}があるのか、寒気{さむけ}がする。",
+        "example_translation": "Maybe I have a fever; I have the chills."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜がする",
+        "meaning": "to feel / sense ~ (a smell, sound, taste or physical feeling)",
+        "formation": "Noun (におい / 音 / 味 / 吐き気 / 寒気) + がする",
+        "example": "台所{だいどころ}からいいにおいがする。",
+        "example_translation": "There's a nice smell coming from the kitchen."
+      }
+    ]
+  },
+  {
+    "id": "n2v-033",
+    "section": "context",
+    "target_word": "建つ",
+    "question": "駅前{えきまえ}の空{あ}き地{ち}に、来年{らいねん}大{おお}きなマンションが（　　）予定{よてい}だ。",
+    "choices": [
+      "建{た}てる",
+      "築{きず}く",
+      "積{つ}もる",
+      "建{た}つ"
+    ],
+    "answer": 3,
+    "full_sentence": "駅前{えきまえ}の空{あ}き地{ち}に、来年{らいねん}大{おお}きなマンションが建{た}つ予定{よてい}だ。",
+    "translation": "A large condominium building is scheduled to be built on the vacant lot in front of the station next year.",
+    "explanation": "The key is the particle が in マンションが（　　）. The building itself is the subject, so we need an intransitive verb (a verb with no object) meaning 'to be built, to stand'. That verb is 建つ（たつ）. Its transitive partner is 建てる（たてる）'to build (something)', which takes を: 会社がマンションを建てる 'a company builds a condominium'. Learn the pair together: 家が建つ 'a house is built' / 家を建てる 'to build a house'. 建つ is used for buildings and similar structures (家, ビル, 学校); for people and everyday things standing up, the verb is written 立つ（たつ）. Note that マンション in Japanese means a condominium or apartment building, not a 'mansion'.",
+    "choice_notes": [
+      "Wrong. 建てる（たてる）'to build' is transitive and needs を: 会社がマンションを建てる. With マンションが you need 建つ (the passive 建てられる would also work, but the plain form 建てる does not).",
+      "Wrong. 築く（きずく）'to build, to construct' is also transitive and needs を. It is mainly used for castles and walls (城を築く 'to build a castle') and for abstract things (信頼関係を築く 'to build a relationship of trust', 財産を築く 'to build a fortune'), not for a new building with が.",
+      "Wrong. 積もる（つもる）'to pile up' is used for snow, dust and similar things: 雪が積もる 'snow piles up'. A building does not 積もる.",
+      "Correct. 建つ（たつ）'(a building) to be built, to stand'. マンションが建つ."
+    ],
+    "vocab": [
+      {
+        "word": "建つ",
+        "reading": "たつ",
+        "meaning": "(a building) to be built, to stand",
+        "pos": "godan verb",
+        "example": "家{いえ}の隣{となり}に新{あたら}しいコンビニが建{た}った。",
+        "example_translation": "A new convenience store was built next to my house."
+      },
+      {
+        "word": "建てる",
+        "reading": "たてる",
+        "meaning": "to build (a building)",
+        "pos": "ichidan verb",
+        "example": "父{ちち}は三十年前{さんじゅうねんまえ}にこの家{いえ}を建{た}てた。",
+        "example_translation": "My father built this house thirty years ago."
+      },
+      {
+        "word": "築く",
+        "reading": "きずく",
+        "meaning": "to build, to construct (castles, walls); to build up (relationships, a fortune)",
+        "pos": "godan verb",
+        "example": "新{あたら}しい職場{しょくば}で、同僚{どうりょう}といい関係{かんけい}を築{きず}きたい。",
+        "example_translation": "I want to build good relationships with my colleagues at my new workplace."
+      },
+      {
+        "word": "積もる",
+        "reading": "つもる",
+        "meaning": "to pile up, to accumulate (snow, dust)",
+        "pos": "godan verb",
+        "example": "一晩{ひとばん}で雪{ゆき}が三十{さんじゅう}センチも積{つ}もった。",
+        "example_translation": "As much as thirty centimeters of snow piled up in one night."
+      },
+      {
+        "word": "空き地",
+        "reading": "あきち",
+        "meaning": "vacant lot, empty land",
+        "pos": "noun",
+        "example": "子{こ}どものころ、近所{きんじょ}の空{あ}き地{ち}でよく野球{やきゅう}をした。",
+        "example_translation": "When I was a child, I often played baseball in the vacant lot in my neighborhood."
+      },
+      {
+        "word": "マンション",
+        "reading": "マンション",
+        "meaning": "condominium, apartment building (usually a large, solid one; not a 'mansion')",
+        "pos": "noun",
+        "example": "駅{えき}から近{ちか}いマンションに引{ひ}っ越{こ}した。",
+        "example_translation": "I moved into a condominium close to the station."
+      },
+      {
+        "word": "予定",
+        "reading": "よてい",
+        "meaning": "plan, schedule",
+        "pos": "noun / suru verb",
+        "example": "今週{こんしゅう}の土曜日{どようび}は予定{よてい}がない。",
+        "example_translation": "I have no plans this Saturday."
+      },
+      {
+        "word": "駅前",
+        "reading": "えきまえ",
+        "meaning": "in front of the station, the station area",
+        "pos": "noun",
+        "example": "駅前{えきまえ}に新{あたら}しい本屋{ほんや}ができた。",
+        "example_translation": "A new bookstore opened in front of the station."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜予定だ",
+        "meaning": "is scheduled to ~, is planned to ~",
+        "formation": "Verb dictionary form + 予定だ / Noun + の + 予定だ",
+        "example": "来月{らいげつ}、京都{きょうと}へ旅行{りょこう}する予定{よてい}だ。",
+        "example_translation": "I'm planning to travel to Kyoto next month."
+      },
+      {
+        "pattern": "〜が建つ / 〜を建てる (intransitive / transitive pair)",
+        "meaning": "intransitive: the building itself is built (marked with が) / transitive: someone builds it (the building is marked with を)",
+        "formation": "Building + が + 建つ; Person + が + Building + を + 建てる",
+        "example": "町{まち}に新{あたら}しい図書館{としょかん}が建{た}った。市{し}がその図書館{としょかん}を建{た}てた。",
+        "example_translation": "A new library was built in the town. The city built that library."
+      }
+    ]
+  },
+  {
+    "id": "n2v-034",
+    "section": "kanji_reading",
+    "target_word": "蛍光灯",
+    "question": "部屋{へや}の[[蛍光灯]]が切{き}れたので、新{あたら}しいものに取{と}り替{か}えた。",
+    "choices": [
+      "けいこうどう",
+      "けいこうとう",
+      "けいこうと",
+      "けいことう"
+    ],
+    "answer": 1,
+    "translation": "The fluorescent light in my room burned out, so I replaced it with a new one.",
+    "explanation": "蛍光灯 is read けいこうとう and means 'fluorescent lamp, fluorescent light'. It is made of three on'yomi: 蛍（けい）, 光（こう）and 灯（とう）. On its own, 蛍 is read with its kun'yomi ほたる 'firefly', so 蛍光（けいこう）'fluorescence' is literally 'firefly light'. 光 is こう as in 日光（にっこう）'sunlight' and 観光（かんこう）'sightseeing'. 灯 'lamp, light' is とう as in 電灯（でんとう）'electric light' and 街灯（がいとう）'streetlight'. All three syllables are long (けい, こう, とう), and 灯 keeps its plain, unvoiced と. The verb 切れる here means '(a light bulb or tube) to burn out'. Nowadays fluorescent lamps are increasingly being replaced by LED lights.",
+    "choice_notes": [
+      "Wrong. 灯 is read とう, without a dakuten. (どう is a reading of other kanji, such as 道 and 堂.)",
+      "Correct. けいこうとう = 蛍光灯 'fluorescent lamp'.",
+      "Wrong. The long vowel at the end is missing: 灯 is とう, not と.",
+      "Wrong. The long vowel in the middle is missing: 光 is こう, not こ."
+    ],
+    "vocab": [
+      {
+        "word": "蛍光灯",
+        "reading": "けいこうとう",
+        "meaning": "fluorescent lamp, fluorescent light",
+        "pos": "noun",
+        "example": "この教室{きょうしつ}の蛍光灯{けいこうとう}は少{すこ}し暗{くら}い。",
+        "example_translation": "The fluorescent lights in this classroom are a bit dim."
+      },
+      {
+        "word": "蛍",
+        "reading": "ほたる",
+        "meaning": "firefly",
+        "pos": "noun",
+        "example": "夏{なつ}の夜{よる}、川{かわ}のそばで蛍{ほたる}が光{ひか}っていた。",
+        "example_translation": "On a summer night, fireflies were glowing near the river."
+      },
+      {
+        "word": "電灯",
+        "reading": "でんとう",
+        "meaning": "electric light",
+        "pos": "noun",
+        "example": "停電{ていでん}で、電灯{でんとう}が全部{ぜんぶ}消{き}えた。",
+        "example_translation": "All the electric lights went out in the power outage."
+      },
+      {
+        "word": "切れる",
+        "reading": "きれる",
+        "meaning": "to run out; (a bulb) to burn out; to be cut",
+        "pos": "ichidan verb",
+        "example": "スマホの電池{でんち}が切{き}れてしまった。",
+        "example_translation": "My smartphone battery has died."
+      },
+      {
+        "word": "取り替える",
+        "reading": "とりかえる",
+        "meaning": "to replace, to exchange",
+        "pos": "ichidan verb",
+        "example": "古{ふる}くなったタオルを新{あたら}しいのに取{と}り替{か}えた。",
+        "example_translation": "I replaced the old towels with new ones."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜ので",
+        "meaning": "because ~, so",
+        "formation": "Plain form + ので (な-adj / noun + なので)",
+        "example": "道{みち}が混{こ}んでいたので、遅{おく}れてしまった。",
+        "example_translation": "The roads were crowded, so I was late."
+      }
+    ]
+  },
+  {
+    "id": "n2v-035",
+    "section": "usage",
+    "target_word": "曲線",
+    "question": "[[曲線{きょくせん}]]",
+    "choices": [
+      "工事{こうじ}で道{みち}が通{とお}れなかったので、曲線{きょくせん}をして家{いえ}に帰{かえ}った。",
+      "後{うし}ろから誰{だれ}かの曲線{きょくせん}を感{かん}じて、振{ふ}り返{かえ}った。",
+      "この橋{はし}は、海{うみ}の上{うえ}に美{うつく}しい曲線{きょくせん}を描{えが}いている。",
+      "祖父{そふ}は年{とし}を取{と}って、腰{こし}が曲線{きょくせん}になってしまった。"
+    ],
+    "answer": 2,
+    "translation": "This bridge forms a beautiful curve over the sea.",
+    "explanation": "曲線（きょくせん）means 'curved line, curve'. It is made of 曲（きょく）'bend' and 線（せん）'line', and its opposite is 直線（ちょくせん）'straight line'. 曲線 describes the shape of a line or an outline: グラフの曲線 'the curve on a graph', 美しい曲線 'a beautiful curve', 曲線を描く（えがく）'to draw a curve, to form a curve'. So 橋が美しい曲線を描いている 'the bridge forms a beautiful curve' is correct. Because 曲線 is a noun for a shape, it cannot mean the act of going the long way around, a person's gaze, or a body that has become bent. Those ideas need 遠回り（とおまわり）, 視線（しせん）and the verb 曲がる（まがる）.",
+    "choice_notes": [
+      "Wrong. Going the long way around is 遠回り（とおまわり）: 遠回りをして家に帰った. 曲線 is not an action, so 曲線をする is impossible.",
+      "Wrong. Feeling someone's eyes on you is 視線（しせん）'gaze, line of sight': 誰かの視線を感じて. 線 appears in both words, but 曲線 is only a shape.",
+      "Correct. 曲線を描く 'to form a curve', describing the shape of a bridge, is a typical use.",
+      "Wrong. A back that has become bent with age is expressed with the verb 曲がる（まがる）: 腰が曲がってしまった. 曲線 is not used for a person's posture."
+    ],
+    "vocab": [
+      {
+        "word": "曲線",
+        "reading": "きょくせん",
+        "meaning": "curved line, curve",
+        "pos": "noun",
+        "example": "グラフの曲線{きょくせん}を見{み}ると、売{う}り上{あ}げが伸{の}びていることが分{わ}かる。",
+        "example_translation": "Looking at the curve on the graph, you can see that sales are growing."
+      },
+      {
+        "word": "直線",
+        "reading": "ちょくせん",
+        "meaning": "straight line",
+        "pos": "noun",
+        "example": "定規{じょうぎ}を使{つか}って直線{ちょくせん}を引{ひ}いた。",
+        "example_translation": "I used a ruler to draw a straight line."
+      },
+      {
+        "word": "描く",
+        "reading": "えがく",
+        "meaning": "to draw, to paint; to depict; to form (a shape) (also read かく)",
+        "pos": "godan verb",
+        "example": "子{こ}どもたちが砂浜{すなはま}に大{おお}きな円{えん}を描{えが}いた。",
+        "example_translation": "The children drew a big circle on the beach."
+      },
+      {
+        "word": "遠回り",
+        "reading": "とおまわり",
+        "meaning": "detour, going the long way around",
+        "pos": "noun / suru verb",
+        "example": "道{みち}が混{こ}んでいたので、少{すこ}し遠回{とおまわ}りして帰{かえ}った。",
+        "example_translation": "The road was crowded, so I took a slightly longer way home."
+      },
+      {
+        "word": "視線",
+        "reading": "しせん",
+        "meaning": "gaze, line of sight, (someone's) eyes",
+        "pos": "noun",
+        "example": "教室{きょうしつ}に入{はい}ると、みんなの視線{しせん}が私{わたし}に集{あつ}まった。",
+        "example_translation": "When I entered the classroom, everyone's eyes turned to me."
+      },
+      {
+        "word": "曲がる",
+        "reading": "まがる",
+        "meaning": "to bend, to curve; to turn (a corner)",
+        "pos": "godan verb",
+        "example": "二{ふた}つ目{め}の角{かど}を左{ひだり}に曲{ま}がってください。",
+        "example_translation": "Please turn left at the second corner."
+      },
+      {
+        "word": "腰",
+        "reading": "こし",
+        "meaning": "lower back, hips (腰が曲がる 'to become bent with age')",
+        "pos": "noun",
+        "example": "重{おも}い荷物{にもつ}を持{も}ち上{あ}げて、腰{こし}を痛{いた}めた。",
+        "example_translation": "I hurt my lower back lifting a heavy load."
+      },
+      {
+        "word": "工事",
+        "reading": "こうじ",
+        "meaning": "construction work",
+        "pos": "noun / suru verb",
+        "example": "家{いえ}の前{まえ}で道路{どうろ}工事{こうじ}をしていて、うるさい。",
+        "example_translation": "There is road construction in front of my house, and it's noisy."
+      },
+      {
+        "word": "振り返る",
+        "reading": "ふりかえる",
+        "meaning": "to turn around (and look back); to look back on (the past)",
+        "pos": "godan verb",
+        "example": "名前{なまえ}を呼{よ}ばれて振{ふ}り返{かえ}った。",
+        "example_translation": "I turned around when my name was called."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜てしまう",
+        "meaning": "to end up ~, to have (sadly) ~ (regret); to finish ~ completely",
+        "formation": "Verb て-form + しまう",
+        "example": "大切{たいせつ}な約束{やくそく}を忘{わす}れてしまった。",
+        "example_translation": "I ended up forgetting an important appointment."
+      }
+    ]
+  },
+  {
+    "id": "n2v-036",
+    "section": "usage",
+    "target_word": "ストッキング",
+    "question": "[[ストッキング]]",
+    "choices": [
+      "寒{さむ}かったので、首{くび}にストッキングを巻{ま}いて出{で}かけた。",
+      "地震{じしん}に備{そな}えて、水{みず}や食料{しょくりょう}をストッキングしておく。",
+      "指先{ゆびさき}が冷{つめ}たくならないように、両手{りょうて}にストッキングをはめた。",
+      "スーツのスカートに合{あ}わせて、ベージュのストッキングを履{は}いた。"
+    ],
+    "answer": 3,
+    "translation": "I put on beige stockings to go with my suit skirt.",
+    "explanation": "ストッキング (from English 'stockings') means thin, close-fitting legwear, usually made of nylon and worn with a skirt. In Japan the word most often means sheer pantyhose that reach the waist (パンティーストッキング, often shortened to パンスト); thick ones you cannot see through are called タイツ 'tights'. Like all clothing for the legs and feet (ズボン, スカート, 靴下, 靴), ストッキング goes with the verb はく（履く）'to put on, to wear': ストッキングをはく, and to take them off is ストッキングを脱ぐ. The wrong sentences use ストッキング as if it were a scarf, a reserve supply, or gloves. Be careful not to confuse ストッキング with ストック 'stock, a supply kept in reserve'.",
+    "choice_notes": [
+      "Wrong. Something you wrap around your neck when it is cold is a scarf, マフラー: 首にマフラーを巻いて出かけた.",
+      "Wrong. Keeping a supply of something in reserve is ストック（する）or 蓄える（たくわえる）: 水や食料をストックしておく. ストッキング only means legwear.",
+      "Wrong. What you put on your hands to keep them warm is 手袋（てぶくろ）, and the verb is はめる: 両手に手袋をはめた.",
+      "Correct. Wearing beige stockings with a suit skirt is a typical use. The verb for legwear is はく（履く）."
+    ],
+    "vocab": [
+      {
+        "word": "ストッキング",
+        "reading": "ストッキング",
+        "meaning": "stockings, (sheer) pantyhose",
+        "pos": "noun",
+        "example": "ストッキングが伝線{でんせん}してしまったので、コンビニで新{あたら}しいのを買{か}った。",
+        "example_translation": "My stockings got a run, so I bought a new pair at a convenience store."
+      },
+      {
+        "word": "履く",
+        "reading": "はく",
+        "meaning": "to put on, to wear (shoes, socks, trousers, skirts, stockings)",
+        "pos": "godan verb",
+        "example": "玄関{げんかん}で靴{くつ}を履{は}いて、外{そと}に出{で}た。",
+        "example_translation": "I put on my shoes at the entrance and went outside."
+      },
+      {
+        "word": "マフラー",
+        "reading": "マフラー",
+        "meaning": "scarf, muffler",
+        "pos": "noun",
+        "example": "母{はは}が編{あ}んでくれたマフラーを首{くび}に巻{ま}いた。",
+        "example_translation": "I wrapped the scarf my mother knitted for me around my neck."
+      },
+      {
+        "word": "手袋",
+        "reading": "てぶくろ",
+        "meaning": "gloves",
+        "pos": "noun",
+        "example": "寒{さむ}いので、手袋{てぶくろ}をはめて自転車{じてんしゃ}に乗{の}った。",
+        "example_translation": "It was cold, so I put on gloves and rode my bicycle."
+      },
+      {
+        "word": "はめる",
+        "reading": "はめる",
+        "meaning": "to put on (gloves, a ring); to fit (something) into",
+        "pos": "ichidan verb",
+        "example": "結婚{けっこん}指輪{ゆびわ}を左手{ひだりて}の薬指{くすりゆび}にはめる。",
+        "example_translation": "I wear my wedding ring on the ring finger of my left hand."
+      },
+      {
+        "word": "ストック",
+        "reading": "ストック",
+        "meaning": "stock, supply (kept in reserve)",
+        "pos": "noun / suru verb",
+        "example": "トイレットペーパーは、いつも少{すこ}しストックしてある。",
+        "example_translation": "I always keep a few rolls of toilet paper in stock."
+      },
+      {
+        "word": "巻く",
+        "reading": "まく",
+        "meaning": "to wrap, to wind, to roll",
+        "pos": "godan verb",
+        "example": "けがをした足{あし}に包帯{ほうたい}を巻{ま}いた。",
+        "example_translation": "I wrapped a bandage around my injured leg."
+      },
+      {
+        "word": "備える",
+        "reading": "そなえる",
+        "meaning": "to prepare for, to provide against",
+        "pos": "ichidan verb",
+        "example": "台風{たいふう}に備{そな}えて、懐中電灯{かいちゅうでんとう}を用意{ようい}した。",
+        "example_translation": "I got a flashlight ready in preparation for the typhoon."
+      },
+      {
+        "word": "地震",
+        "reading": "じしん",
+        "meaning": "earthquake",
+        "pos": "noun",
+        "example": "昨夜{さくや}、小{ちい}さな地震{じしん}があった。",
+        "example_translation": "There was a small earthquake last night."
+      },
+      {
+        "word": "食料",
+        "reading": "しょくりょう",
+        "meaning": "food, provisions",
+        "pos": "noun",
+        "example": "一週間分{いっしゅうかんぶん}の食料{しょくりょう}を買{か}っておいた。",
+        "example_translation": "I bought a week's worth of food in advance."
+      },
+      {
+        "word": "指先",
+        "reading": "ゆびさき",
+        "meaning": "fingertip",
+        "pos": "noun",
+        "example": "寒{さむ}さで指先{ゆびさき}がしびれた。",
+        "example_translation": "My fingertips went numb from the cold."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜に備えて",
+        "meaning": "in preparation for ~, to be ready for ~",
+        "formation": "Noun + に備えて",
+        "example": "試験{しけん}に備{そな}えて、毎晩{まいばん}勉強{べんきょう}している。",
+        "example_translation": "I'm studying every night to prepare for the exam."
+      },
+      {
+        "pattern": "〜ように",
+        "meaning": "so that ~, in order that ~",
+        "formation": "Verb dictionary form / ない-form + ように",
+        "example": "風邪{かぜ}をひかないように、暖{あたた}かくして寝{ね}た。",
+        "example_translation": "I kept myself warm when I went to bed so that I wouldn't catch a cold."
+      },
+      {
+        "pattern": "〜に合わせて",
+        "meaning": "to match ~, to go with ~, in line with ~",
+        "formation": "Noun + に合わせて",
+        "example": "音楽{おんがく}に合{あ}わせて踊{おど}った。",
+        "example_translation": "We danced to (in time with) the music."
+      },
+      {
+        "pattern": "〜ておく",
+        "meaning": "to do ~ in advance, to do ~ (and leave it that way) for later",
+        "formation": "Verb て-form + おく",
+        "example": "旅行{りょこう}の前{まえ}に、ホテルを予約{よやく}しておいた。",
+        "example_translation": "I booked the hotel before the trip."
+      }
+    ]
+  },
+  {
+    "id": "n2v-037",
+    "section": "kanji_reading",
+    "target_word": "街角",
+    "question": "[[街角]]で、外国{がいこく}から来{き}た観光客{かんこうきゃく}に道{みち}を聞{き}かれた。",
+    "choices": [
+      "まちかど",
+      "がいかく",
+      "まちかく",
+      "がいかど"
+    ],
+    "answer": 0,
+    "translation": "On a street corner, I was asked for directions by a tourist from abroad.",
+    "explanation": "街角 is read まちかど and means 'street corner', and more broadly 'out on the street, around town'. Both kanji use their kun'yomi: 街（まち）'town, streets' + 角（かど）'corner', as in 角を曲がる（かどをまがる）'to turn a corner'. A common phrase is 街角インタビュー 'man-on-the-street interview'. The trap is the on'yomi: 街 is がい in 商店街（しょうてんがい）'shopping street' and 街灯（がいとう）'streetlight', and 角 is かく in 三角（さんかく）'triangle' and 角度（かくど）'angle'. Those readings appear in kanji compounds, but 街角 is a native Japanese word read with kun'yomi only. It is sometimes also written 町角.",
+    "choice_notes": [
+      "Correct. まちかど = 街角 'street corner'.",
+      "Wrong. This uses the on'yomi of both kanji (がい + かく). がいかく is a real word, but it is written differently (外角 'exterior angle'). 街角 is never read がいかく.",
+      "Wrong. 角 is read かど here, not with the on'yomi かく used in 三角（さんかく）.",
+      "Wrong. 街 is read まち here, not with the on'yomi がい used in 商店街（しょうてんがい）."
+    ],
+    "vocab": [
+      {
+        "word": "街角",
+        "reading": "まちかど",
+        "meaning": "street corner; out on the street, around town",
+        "pos": "noun",
+        "example": "街角{まちかど}で、昔{むかし}の友達{ともだち}に偶然{ぐうぜん}会{あ}った。",
+        "example_translation": "I ran into an old friend by chance on a street corner."
+      },
+      {
+        "word": "角",
+        "reading": "かど",
+        "meaning": "corner (of a street, a desk, etc.)",
+        "pos": "noun",
+        "example": "あの角{かど}を右{みぎ}に曲{ま}がると、駅{えき}が見{み}えます。",
+        "example_translation": "If you turn right at that corner, you'll see the station."
+      },
+      {
+        "word": "商店街",
+        "reading": "しょうてんがい",
+        "meaning": "shopping street, shopping district",
+        "pos": "noun",
+        "example": "駅{えき}の近{ちか}くに古{ふる}い商店街{しょうてんがい}がある。",
+        "example_translation": "There's an old shopping street near the station."
+      },
+      {
+        "word": "三角",
+        "reading": "さんかく",
+        "meaning": "triangle",
+        "pos": "noun",
+        "example": "紙{かみ}を三角{さんかく}に折{お}った。",
+        "example_translation": "I folded the paper into a triangle."
+      },
+      {
+        "word": "観光客",
+        "reading": "かんこうきゃく",
+        "meaning": "tourist, sightseer",
+        "pos": "noun",
+        "example": "この町{まち}は、夏{なつ}になると観光客{かんこうきゃく}が増{ふ}える。",
+        "example_translation": "In this town, the number of tourists increases in summer."
+      },
+      {
+        "word": "道を聞く",
+        "reading": "みちをきく",
+        "meaning": "to ask (someone) for directions",
+        "pos": "expression (godan verb)",
+        "example": "駅{えき}への行{い}き方{かた}が分{わ}からなくて、警察官{けいさつかん}に道{みち}を聞{き}いた。",
+        "example_translation": "I didn't know how to get to the station, so I asked a police officer for directions."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜(ら)れる (passive)",
+        "meaning": "to be ~ed (by someone)",
+        "formation": "Group 1: ない-stem + れる (聞く → 聞かれる); Group 2: stem + られる; する → される",
+        "example": "電車{でんしゃ}の中{なか}で足{あし}を踏{ふ}まれた。",
+        "example_translation": "Someone stepped on my foot on the train."
+      }
+    ]
+  },
+  {
+    "id": "n2v-038",
+    "section": "orthography",
+    "target_word": "公表",
+    "question": "会社{かいしゃ}は記者会見{きしゃかいけん}を開{ひら}き、事故{じこ}の原因{げんいん}を[[こうひょう]]した。",
+    "choices": [
+      "好評",
+      "公表",
+      "公標",
+      "広表"
+    ],
+    "answer": 1,
+    "translation": "The company held a press conference and made public the cause of the accident.",
+    "explanation": "こうひょう meaning 'to announce officially, to make public' is written 公表. 公（こう）means 'public, official', as in 公園（こうえん）'park' and 公式（こうしき）'official', and 表（ひょう）means 'to show, to express', as in 発表（はっぴょう）'announcement' and 表す（あらわす）'to express'. So 公表 is literally 'to show to the public'. It is used when an organization makes information known to society: 結果を公表する 'to publish the results', 名前を公表する 'to make a name public', データを公表する 'to release data'. A close synonym is 発表（はっぴょう）. Watch out for the homophone 好評（こうひょう）'good reputation, favorable reception': it is a real word with exactly the same reading, but a completely different meaning.",
+    "choice_notes": [
+      "Wrong. 好評（こうひょう）is a real word with the same reading, but it means 'favorable reception, popularity': この映画は好評だ 'this movie is well received'. It describes how people receive something and is not used as a する verb, so 原因を好評した is impossible.",
+      "Correct. 公表（こうひょう）'official announcement, making public'. 原因を公表する 'to make the cause public'.",
+      "Wrong. 標 is also read ひょう, as in 目標（もくひょう）'goal' and 標識（ひょうしき）'sign', but 公標 is not a word.",
+      "Wrong. 広 is also read こう, as in 広告（こうこく）'advertisement', but 広表 is not a word. (Do not confuse it with 広報（こうほう）'public relations'.)"
+    ],
+    "vocab": [
+      {
+        "word": "公表",
+        "reading": "こうひょう",
+        "meaning": "official announcement, making (information) public",
+        "pos": "noun / suru verb",
+        "example": "警察{けいさつ}は、犯人{はんにん}の名前{なまえ}をまだ公表{こうひょう}していない。",
+        "example_translation": "The police have not yet made the culprit's name public."
+      },
+      {
+        "word": "好評",
+        "reading": "こうひょう",
+        "meaning": "favorable reception, good reputation, popularity",
+        "pos": "noun / na-adjective",
+        "example": "新{あたら}しいメニューは客{きゃく}に好評{こうひょう}だ。",
+        "example_translation": "The new menu is popular with customers."
+      },
+      {
+        "word": "発表",
+        "reading": "はっぴょう",
+        "meaning": "announcement, presentation",
+        "pos": "noun / suru verb",
+        "example": "試験{しけん}の結果{けっか}は来週{らいしゅう}発表{はっぴょう}される。",
+        "example_translation": "The exam results will be announced next week."
+      },
+      {
+        "word": "目標",
+        "reading": "もくひょう",
+        "meaning": "goal, target",
+        "pos": "noun",
+        "example": "今年{ことし}の目標{もくひょう}は、N2に合格{ごうかく}することだ。",
+        "example_translation": "My goal this year is to pass N2."
+      },
+      {
+        "word": "広告",
+        "reading": "こうこく",
+        "meaning": "advertisement",
+        "pos": "noun / suru verb",
+        "example": "新聞{しんぶん}に新{あたら}しい車{くるま}の広告{こうこく}が出{で}ていた。",
+        "example_translation": "There was an ad for a new car in the newspaper."
+      },
+      {
+        "word": "記者会見",
+        "reading": "きしゃかいけん",
+        "meaning": "press conference",
+        "pos": "noun",
+        "example": "大臣{だいじん}は記者会見{きしゃかいけん}で記者{きしゃ}の質問{しつもん}に答{こた}えた。",
+        "example_translation": "The minister answered reporters' questions at the press conference."
+      },
+      {
+        "word": "原因",
+        "reading": "げんいん",
+        "meaning": "cause",
+        "pos": "noun",
+        "example": "火事{かじ}の原因{げんいん}はまだ分{わ}かっていない。",
+        "example_translation": "The cause of the fire is still unknown."
+      },
+      {
+        "word": "事故",
+        "reading": "じこ",
+        "meaning": "accident",
+        "pos": "noun",
+        "example": "雪{ゆき}の日{ひ}は交通事故{こうつうじこ}が多{おお}い。",
+        "example_translation": "There are many traffic accidents on snowy days."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "Verb ます-stem + 、(joining two actions)",
+        "meaning": "does ~ and (then) ~ (a written-style version of the て-form)",
+        "formation": "Verb ます-stem + 、 (開いて → 開き、)",
+        "example": "彼{かれ}は駅{えき}で電車{でんしゃ}を降{お}り、バスに乗{の}り換{か}えた。",
+        "example_translation": "He got off the train at the station and transferred to a bus."
+      }
+    ]
+  },
+  {
+    "id": "n2v-039",
+    "section": "context",
+    "target_word": "判事",
+    "question": "法廷{ほうてい}で、（　　）は被告{ひこく}に無罪{むざい}の判決{はんけつ}を言{い}い渡{わた}した。",
+    "choices": [
+      "検事{けんじ}",
+      "刑事{けいじ}",
+      "弁護士{べんごし}",
+      "判事{はんじ}"
+    ],
+    "answer": 3,
+    "full_sentence": "法廷{ほうてい}で、判事{はんじ}は被告{ひこく}に無罪{むざい}の判決{はんけつ}を言{い}い渡{わた}した。",
+    "translation": "In the courtroom, the judge handed down a verdict of not guilty to the defendant.",
+    "explanation": "判事（はんじ）means 'judge'. The kanji 判 means 'to judge, to decide', as in 判断（はんだん）'judgment, decision' and 判決（はんけつ）'court ruling, verdict'. In a trial, only the judge can hand down (言い渡す) the 判決, so 判事 is the only choice that fits. The most general everyday word for a judge is 裁判官（さいばんかん）; in Japan, 判事 is one of the official ranks of 裁判官, and the word is also common in news about judges abroad (最高裁判事 'Supreme Court justice'). The four choices are the main people connected with a criminal case, so it helps to learn them as a set: the 判事 judges, the 検事 prosecutes, the 弁護士 defends, and the 刑事 investigates.",
+    "choice_notes": [
+      "Wrong. 検事（けんじ）means 'public prosecutor'. A prosecutor charges the accused and asks the court for a punishment, but cannot hand down the verdict. (The general word is 検察官（けんさつかん）.)",
+      "Wrong. 刑事（けいじ）means 'police detective'. Detectives investigate crimes and arrest suspects; they have no role in deciding the verdict. (刑事 also means 'criminal (case)', as in 刑事裁判 'criminal trial'.)",
+      "Wrong. 弁護士（べんごし）means 'lawyer, attorney'. In a criminal trial the lawyer defends the accused and may argue for 無罪, but cannot decide the verdict.",
+      "Correct. 判事（はんじ）'judge'. The judge is the person who hands down the 判決."
+    ],
+    "vocab": [
+      {
+        "word": "判事",
+        "reading": "はんじ",
+        "meaning": "judge",
+        "pos": "noun",
+        "example": "その判事{はんじ}は、公平{こうへい}な判断{はんだん}をすることで知{し}られている。",
+        "example_translation": "That judge is known for making fair decisions."
+      },
+      {
+        "word": "検事",
+        "reading": "けんじ",
+        "meaning": "public prosecutor",
+        "pos": "noun",
+        "example": "兄{あに}は大学{だいがく}で法律{ほうりつ}を学{まな}び、検事{けんじ}になった。",
+        "example_translation": "My older brother studied law at university and became a prosecutor."
+      },
+      {
+        "word": "刑事",
+        "reading": "けいじ",
+        "meaning": "police detective; criminal (case)",
+        "pos": "noun",
+        "example": "刑事{けいじ}が事件{じけん}の現場{げんば}を調{しら}べている。",
+        "example_translation": "Detectives are examining the scene of the incident."
+      },
+      {
+        "word": "弁護士",
+        "reading": "べんごし",
+        "meaning": "lawyer, attorney",
+        "pos": "noun",
+        "example": "困{こま}ったことがあったら、弁護士{べんごし}に相談{そうだん}したほうがいい。",
+        "example_translation": "If you have a problem, you should consult a lawyer."
+      },
+      {
+        "word": "裁判官",
+        "reading": "さいばんかん",
+        "meaning": "judge (the general word)",
+        "pos": "noun",
+        "example": "裁判官{さいばんかん}になるには、難{むずか}しい試験{しけん}に合格{ごうかく}しなければならない。",
+        "example_translation": "To become a judge, you have to pass a difficult exam."
+      },
+      {
+        "word": "法廷",
+        "reading": "ほうてい",
+        "meaning": "courtroom, court",
+        "pos": "noun",
+        "example": "法廷{ほうてい}では、静{しず}かにしなければならない。",
+        "example_translation": "You must be quiet in the courtroom."
+      },
+      {
+        "word": "被告",
+        "reading": "ひこく",
+        "meaning": "defendant, the accused (in criminal law the formal term is 被告人 ひこくにん)",
+        "pos": "noun",
+        "example": "被告{ひこく}は法廷{ほうてい}で事件{じけん}について話{はな}した。",
+        "example_translation": "The defendant spoke about the incident in court."
+      },
+      {
+        "word": "無罪",
+        "reading": "むざい",
+        "meaning": "not guilty, innocence",
+        "pos": "noun",
+        "example": "彼{かれ}は最後{さいご}まで自分{じぶん}の無罪{むざい}を主張{しゅちょう}した。",
+        "example_translation": "He insisted on his innocence to the very end."
+      },
+      {
+        "word": "判決",
+        "reading": "はんけつ",
+        "meaning": "court ruling, verdict, judgment",
+        "pos": "noun",
+        "example": "裁判所{さいばんしょ}は来月{らいげつ}判決{はんけつ}を出{だ}す予定{よてい}だ。",
+        "example_translation": "The court is scheduled to hand down its ruling next month."
+      },
+      {
+        "word": "言い渡す",
+        "reading": "いいわたす",
+        "meaning": "to pronounce, to hand down (a ruling, an order)",
+        "pos": "godan verb",
+        "example": "裁判長{さいばんちょう}が判決{はんけつ}を言{い}い渡{わた}すと、法廷{ほうてい}は静{しず}かになった。",
+        "example_translation": "When the presiding judge pronounced the verdict, the courtroom fell silent."
+      }
+    ],
+    "grammar": []
+  },
+  {
+    "id": "n2v-040",
+    "section": "context",
+    "target_word": "ぶつぶつ",
+    "question": "兄{あに}は「面倒{めんどう}だなあ」と（　　）文句{もんく}を言{い}いながら、皿{さら}を洗{あら}っていた。",
+    "choices": [
+      "にこにこ",
+      "うとうと",
+      "ぶつぶつ",
+      "ぺこぺこ"
+    ],
+    "answer": 2,
+    "full_sentence": "兄{あに}は「面倒{めんどう}だなあ」とぶつぶつ文句{もんく}を言{い}いながら、皿{さら}を洗{あら}っていた。",
+    "translation": "My older brother was washing the dishes, grumbling, 'What a pain.'",
+    "explanation": "The clues are 「面倒だなあ」'what a pain' and 文句を言う 'to complain'. The brother is complaining in a low, unhappy voice while he works. ぶつぶつ describes exactly that: muttering in a low voice, especially grumbling and complaining. The set phrases are ぶつぶつ言う 'to mutter, to grumble' and ぶつぶつ文句を言う 'to grumble complaints'. It can also mean quietly talking to oneself (一人でぶつぶつ言っている 'he is muttering to himself'), and as a noun it means small bumps or a rash on the skin (顔にぶつぶつができた 'I got little bumps on my face'). The other three choices are also repeated-sound words, but they describe smiling, dozing off, and bowing or being hungry.",
+    "choice_notes": [
+      "Wrong. にこにこ means 'smiling happily': にこにこ笑う 'to smile happily'. Someone saying 「面倒だなあ」 is not smiling, so it contradicts the sentence.",
+      "Wrong. うとうと means 'dozing, nodding off': 電車の中でうとうとする 'to doze off on the train'. You cannot complain and wash dishes while dozing.",
+      "Correct. ぶつぶつ 'muttering, grumbling'. ぶつぶつ文句を言う = 'to grumble complaints'.",
+      "Wrong. ぺこぺこ means 'bowing again and again' (ぺこぺこ頭を下げる) or 'very hungry' (おなかがぺこぺこだ). Neither fits complaining."
+    ],
+    "vocab": [
+      {
+        "word": "ぶつぶつ",
+        "reading": "ぶつぶつ",
+        "meaning": "muttering, grumbling (in a low voice); small bumps, a rash",
+        "pos": "adverb / noun",
+        "example": "父{ちち}は新聞{しんぶん}を読{よ}みながら、何{なに}かぶつぶつ言{い}っている。",
+        "example_translation": "My father is muttering something while reading the newspaper."
+      },
+      {
+        "word": "にこにこ",
+        "reading": "にこにこ",
+        "meaning": "smiling happily",
+        "pos": "adverb / suru verb",
+        "example": "祖母{そぼ}はいつもにこにこしている。",
+        "example_translation": "My grandmother is always smiling."
+      },
+      {
+        "word": "うとうと",
+        "reading": "うとうと",
+        "meaning": "dozing, nodding off",
+        "pos": "adverb / suru verb",
+        "example": "授業中{じゅぎょうちゅう}に、ついうとうとしてしまった。",
+        "example_translation": "I accidentally dozed off during class."
+      },
+      {
+        "word": "ぺこぺこ",
+        "reading": "ぺこぺこ",
+        "meaning": "bowing again and again; very hungry",
+        "pos": "adverb / na-adjective",
+        "example": "朝{あさ}から何{なに}も食{た}べていないので、おなかがぺこぺこだ。",
+        "example_translation": "I haven't eaten anything since morning, so I'm starving."
+      },
+      {
+        "word": "文句",
+        "reading": "もんく",
+        "meaning": "complaint",
+        "pos": "noun",
+        "example": "彼{かれ}はいつも料理{りょうり}に文句{もんく}を言{い}う。",
+        "example_translation": "He always complains about the food."
+      },
+      {
+        "word": "面倒",
+        "reading": "めんどう",
+        "meaning": "troublesome, a hassle, a pain",
+        "pos": "na-adjective / noun",
+        "example": "毎日{まいにち}料理{りょうり}をするのは面倒{めんどう}だ。",
+        "example_translation": "Cooking every day is a hassle."
+      },
+      {
+        "word": "皿",
+        "reading": "さら",
+        "meaning": "plate, dish",
+        "pos": "noun",
+        "example": "食事{しょくじ}のあとで、皿{さら}を洗{あら}った。",
+        "example_translation": "After the meal, I washed the dishes."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜ながら",
+        "meaning": "while ~ (doing two things at the same time)",
+        "formation": "Verb ます-stem + ながら (言います → 言いながら)",
+        "example": "音楽{おんがく}を聞{き}きながら勉強{べんきょう}する。",
+        "example_translation": "I study while listening to music."
+      },
+      {
+        "pattern": "〜なあ",
+        "meaning": "sentence-final particle expressing a feeling, often said to oneself ('what a ~', 'how ~')",
+        "formation": "Plain form + なあ (面倒だ → 面倒だなあ)",
+        "example": "今日{きょう}は暑{あつ}いなあ。",
+        "example_translation": "It's so hot today."
+      }
+    ]
+  }
+]

@@ -1,0 +1,1049 @@
+[
+  {
+    "id": "n2v-041",
+    "target_word": "有料",
+    "section": "paraphrase",
+    "question": "このホテルの駐車場{ちゅうしゃじょう}は[[有料{ゆうりょう}だ]]。",
+    "choices": [
+      "お金{かね}がかからない",
+      "お金{かね}がかかる",
+      "予約{よやく}が必要{ひつよう}だ",
+      "使{つか}える時間{じかん}が決{き}まっている"
+    ],
+    "answer": 1,
+    "translation": "This hotel's parking lot charges a fee (it is not free).",
+    "explanation": "有料（ゆうりょう）means 'paid, fee-charging, not free': you have to pay money to use it. It is made of 有 'to have, there is' (as in 有名 ゆうめい 'famous') and 料 'fee, charge' (as in 料金 りょうきん 'fee'), so literally it means 'there is a fee'. Its opposite is 無料（むりょう）'free of charge' (無 = 'none'). 有料 is a noun that works like an adjective with の or だ: 有料の駐車場 'a paid parking lot', 駐車場は有料だ 'the parking lot is not free', 有料道路 'toll road'. So 有料だ means the same as お金がかかる 'it costs money'. Here かかる means 'to cost, to take (money or time)', as in 時間がかかる 'it takes time'.",
+    "choice_notes": [
+      "Wrong. お金がかからない 'it costs nothing' is the opposite meaning. That is 無料（むりょう）'free of charge'.",
+      "Correct. お金がかかる 'it costs money' = 有料だ.",
+      "Wrong. 予約が必要だ 'a reservation is required' is about booking, not about paying. A parking lot can need a reservation and still be free.",
+      "Wrong. 使える時間が決まっている 'the hours when you can use it are fixed' is about a time limit, not about a fee."
+    ],
+    "vocab": [
+      {
+        "word": "有料",
+        "reading": "ゆうりょう",
+        "meaning": "paid, fee-charging, not free; toll (road)",
+        "pos": "noun / no-adjective",
+        "example": "この道路{どうろ}は有料{ゆうりょう}なので、通{とお}るときにお金{かね}を払{はら}う。",
+        "example_translation": "This road is a toll road, so you pay when you drive on it."
+      },
+      {
+        "word": "無料",
+        "reading": "むりょう",
+        "meaning": "free (of charge)",
+        "pos": "noun / no-adjective",
+        "example": "子{こ}どもは入場{にゅうじょう}が無料{むりょう}です。",
+        "example_translation": "Admission is free for children."
+      },
+      {
+        "word": "かかる",
+        "reading": "かかる",
+        "meaning": "to cost (money), to take (time)",
+        "pos": "godan verb",
+        "example": "東京{とうきょう}まで新幹線{しんかんせん}で二時間{にじかん}かかる。",
+        "example_translation": "It takes two hours to Tokyo by shinkansen."
+      },
+      {
+        "word": "予約",
+        "reading": "よやく",
+        "meaning": "reservation, booking",
+        "pos": "noun / suru verb",
+        "example": "レストランを七時{しちじ}に予約{よやく}した。",
+        "example_translation": "I booked the restaurant for seven o'clock."
+      },
+      {
+        "word": "必要",
+        "reading": "ひつよう",
+        "meaning": "necessary, needed",
+        "pos": "na-adjective / noun",
+        "example": "海外{かいがい}旅行{りょこう}にはパスポートが必要{ひつよう}だ。",
+        "example_translation": "You need a passport to travel abroad."
+      },
+      {
+        "word": "決まる",
+        "reading": "きまる",
+        "meaning": "to be decided, to be fixed",
+        "pos": "godan verb",
+        "example": "会議{かいぎ}の日{ひ}が来週{らいしゅう}の月曜日{げつようび}に決{き}まった。",
+        "example_translation": "The meeting was set for next Monday."
+      },
+      {
+        "word": "駐車場",
+        "reading": "ちゅうしゃじょう",
+        "meaning": "parking lot, car park",
+        "pos": "noun",
+        "example": "駅{えき}の近{ちか}くに大{おお}きな駐車場{ちゅうしゃじょう}がある。",
+        "example_translation": "There is a big parking lot near the station."
+      },
+      {
+        "word": "料金",
+        "reading": "りょうきん",
+        "meaning": "fee, charge, fare",
+        "pos": "noun",
+        "example": "来月{らいげつ}から電気{でんき}の料金{りょうきん}が上{あ}がる。",
+        "example_translation": "Electricity charges are going up from next month."
+      }
+    ],
+    "grammar": []
+  },
+  {
+    "id": "n2v-042",
+    "target_word": "書籍",
+    "section": "usage",
+    "question": "[[書籍{しょせき}]]",
+    "choices": [
+      "この書籍{しょせき}に名前{なまえ}と住所{じゅうしょ}を書{か}いて、受付{うけつけ}に出{だ}してください。",
+      "祖母{そぼ}は書籍{しょせき}が得意{とくい}で、筆{ふで}でとてもきれいな字{じ}を書{か}く。",
+      "彼{かれ}は日本{にほん}で生{う}まれ育{そだ}ったが、書籍{しょせき}はアメリカだ。",
+      "この図書館{としょかん}には、約{やく}十万冊{じゅうまんさつ}の書籍{しょせき}がある。"
+    ],
+    "answer": 3,
+    "translation": "This library has about 100,000 books.",
+    "explanation": "書籍（しょせき）is a formal, written word for 'books, publications'. In daily conversation people simply say 本, but 書籍 is common in written and business Japanese: 書籍売り場 'the book section (of a store)', 専門書籍 'specialist books', and especially 電子書籍（でんししょせき）'e-book'. Like 本, it is counted with 冊（さつ）. The library sentence (約十万冊の書籍) uses it correctly. The wrong sentences use 書籍 where a different word is needed: a form you fill in (書類), the art of brush writing (書道), and nationality (国籍). 書類 and 書道 share the kanji 書 'write, writing' with 書籍, and 国籍 shares 籍 'register', which is exactly why they are easy to mix up.",
+    "choice_notes": [
+      "Wrong. A paper you fill in with your name and address and hand in at reception is a 書類（しょるい）'document, form': この書類に名前と住所を書いて. 書籍 means a published book, not a form.",
+      "Wrong. The art of writing beautiful characters with a brush is 書道（しょどう）'calligraphy': 祖母は書道が得意で. 書籍 is a thing (books), not a skill you can be good at.",
+      "Wrong. The country you are a citizen of is your 国籍（こくせき）'nationality': 国籍はアメリカだ. 書籍 shares the kanji 籍 with 国籍, but it means books.",
+      "Correct. A library holding about 100,000 books is a natural use of 書籍, counted with 冊."
+    ],
+    "vocab": [
+      {
+        "word": "書籍",
+        "reading": "しょせき",
+        "meaning": "book, publication (formal)",
+        "pos": "noun",
+        "example": "最近{さいきん}は電子書籍{でんししょせき}で小説{しょうせつ}を読{よ}む人{ひと}が増{ふ}えている。",
+        "example_translation": "Recently more and more people read novels as e-books."
+      },
+      {
+        "word": "書類",
+        "reading": "しょるい",
+        "meaning": "document, papers, form",
+        "pos": "noun",
+        "example": "この書類{しょるい}にサインをお願{ねが}いします。",
+        "example_translation": "Please sign this document."
+      },
+      {
+        "word": "書道",
+        "reading": "しょどう",
+        "meaning": "calligraphy (writing with a brush)",
+        "pos": "noun",
+        "example": "小学生{しょうがくせい}のとき、毎週{まいしゅう}書道{しょどう}を習{なら}っていた。",
+        "example_translation": "When I was in elementary school, I took calligraphy lessons every week."
+      },
+      {
+        "word": "国籍",
+        "reading": "こくせき",
+        "meaning": "nationality, citizenship",
+        "pos": "noun",
+        "example": "このクラスにはいろいろな国籍{こくせき}の学生{がくせい}がいる。",
+        "example_translation": "There are students of various nationalities in this class."
+      },
+      {
+        "word": "電子書籍",
+        "reading": "でんししょせき",
+        "meaning": "e-book, electronic book",
+        "pos": "noun",
+        "example": "電子書籍{でんししょせき}なら、何百冊{なんびゃくさつ}でも持{も}ち歩{ある}ける。",
+        "example_translation": "With e-books, you can carry around hundreds of books."
+      },
+      {
+        "word": "〜冊",
+        "reading": "さつ",
+        "meaning": "counter for books and notebooks",
+        "pos": "counter",
+        "example": "図書館{としょかん}で本{ほん}を三冊{さんさつ}借{か}りた。",
+        "example_translation": "I borrowed three books from the library."
+      },
+      {
+        "word": "約",
+        "reading": "やく",
+        "meaning": "about, approximately",
+        "pos": "prefix",
+        "example": "駅{えき}から会社{かいしゃ}まで約{やく}十分{じゅっぷん}かかる。",
+        "example_translation": "It takes about ten minutes from the station to the office."
+      },
+      {
+        "word": "受付",
+        "reading": "うけつけ",
+        "meaning": "reception (desk); accepting (applications)",
+        "pos": "noun",
+        "example": "ホテルの受付{うけつけ}で名前{なまえ}を言{い}った。",
+        "example_translation": "I gave my name at the hotel reception."
+      },
+      {
+        "word": "住所",
+        "reading": "じゅうしょ",
+        "meaning": "address",
+        "pos": "noun",
+        "example": "ここに住所{じゅうしょ}と電話{でんわ}番号{ばんごう}を書{か}いてください。",
+        "example_translation": "Please write your address and phone number here."
+      },
+      {
+        "word": "祖母",
+        "reading": "そぼ",
+        "meaning": "(my) grandmother",
+        "pos": "noun",
+        "example": "祖母{そぼ}は毎朝{まいあさ}散歩{さんぽ}をしている。",
+        "example_translation": "My grandmother goes for a walk every morning."
+      },
+      {
+        "word": "得意",
+        "reading": "とくい",
+        "meaning": "good at, one's strong point",
+        "pos": "na-adjective",
+        "example": "兄{あに}は数学{すうがく}が得意{とくい}だ。",
+        "example_translation": "My older brother is good at math."
+      },
+      {
+        "word": "筆",
+        "reading": "ふで",
+        "meaning": "(writing) brush",
+        "pos": "noun",
+        "example": "筆{ふで}で年賀状{ねんがじょう}に名前{なまえ}を書{か}いた。",
+        "example_translation": "I wrote my name on the New Year's card with a brush."
+      },
+      {
+        "word": "生まれ育つ",
+        "reading": "うまれそだつ",
+        "meaning": "to be born and raised",
+        "pos": "godan verb",
+        "example": "私{わたし}は大阪{おおさか}で生{う}まれ育{そだ}った。",
+        "example_translation": "I was born and raised in Osaka."
+      }
+    ],
+    "grammar": []
+  },
+  {
+    "id": "n2v-043",
+    "target_word": "みっともない",
+    "section": "paraphrase",
+    "question": "そんな汚{きたな}い服{ふく}で出{で}かけるのは[[みっともない]]から、着替{きが}えなさい。",
+    "choices": [
+      "もったいない",
+      "つまらない",
+      "恥{は}ずかしい",
+      "面倒{めんどう}だ"
+    ],
+    "answer": 2,
+    "translation": "Going out in such dirty clothes is embarrassing (it looks bad), so go and change.",
+    "explanation": "みっともない means 'shameful, unsightly, disgraceful': something looks bad to other people, so it is embarrassing for you (or for the people with you). It is used for appearance and behavior: みっともない格好 'an embarrassing outfit', 人前で泣くなんてみっともない 'crying in front of people is shameful'. It is normally written in hiragana. It comes from 見たくもない 'I don't even want to see it', which explains the meaning well. Close paraphrases are 恥ずかしい 'embarrassing, shameful', 見苦しい（みぐるしい）'unsightly', and casual かっこ悪い 'uncool'. Note that みっともない is one complete i-adjective. It is not the negative of a word みっとも, so you cannot say みっともある.",
+    "choice_notes": [
+      "Wrong. もったいない means 'wasteful, too good to waste' (食べ物を捨てるのはもったいない 'throwing away food is wasteful'). It also ends in ない, but it says nothing about looking bad in front of others.",
+      "Wrong. つまらない means 'boring, dull' (つまらない映画 'a boring movie'). It does not mean that something looks shameful.",
+      "Correct. 恥ずかしい 'embarrassing, shameful' is the closest meaning: going out in dirty clothes would look bad to other people.",
+      "Wrong. 面倒だ means 'troublesome, a bother' (毎日料理するのは面倒だ 'cooking every day is a hassle'). It is about effort, not about how something looks to others."
+    ],
+    "vocab": [
+      {
+        "word": "みっともない",
+        "reading": "みっともない",
+        "meaning": "shameful, unsightly, disgraceful, embarrassing (to be seen)",
+        "pos": "i-adjective",
+        "example": "大人{おとな}がこんなことでけんかするなんて、みっともない。",
+        "example_translation": "Adults fighting over something like this - how shameful."
+      },
+      {
+        "word": "恥ずかしい",
+        "reading": "はずかしい",
+        "meaning": "embarrassing, shameful; embarrassed, shy",
+        "pos": "i-adjective",
+        "example": "みんなの前{まえ}で転{ころ}んで、恥{は}ずかしかった。",
+        "example_translation": "I fell over in front of everyone and was embarrassed."
+      },
+      {
+        "word": "もったいない",
+        "reading": "もったいない",
+        "meaning": "wasteful, a waste, too good to waste",
+        "pos": "i-adjective",
+        "example": "まだ使{つか}えるのに捨{す}てるのはもったいない。",
+        "example_translation": "It's a waste to throw it away when it can still be used."
+      },
+      {
+        "word": "つまらない",
+        "reading": "つまらない",
+        "meaning": "boring, dull; trivial",
+        "pos": "i-adjective",
+        "example": "この番組{ばんぐみ}はつまらないから、ほかのを見{み}よう。",
+        "example_translation": "This program is boring, so let's watch something else."
+      },
+      {
+        "word": "面倒",
+        "reading": "めんどう",
+        "meaning": "troublesome, a bother, a hassle",
+        "pos": "na-adjective / noun",
+        "example": "書類{しょるい}を書{か}くのは面倒{めんどう}だ。",
+        "example_translation": "Filling in documents is a hassle."
+      },
+      {
+        "word": "見苦しい",
+        "reading": "みぐるしい",
+        "meaning": "unsightly, unseemly, disgraceful",
+        "pos": "i-adjective",
+        "example": "見苦{みぐる}しい言{い}い訳{わけ}はやめなさい。",
+        "example_translation": "Stop making shameful excuses."
+      },
+      {
+        "word": "着替える",
+        "reading": "きがえる",
+        "meaning": "to change (one's clothes)",
+        "pos": "ichidan verb",
+        "example": "家{いえ}に帰{かえ}ったら、すぐに着替{きが}える。",
+        "example_translation": "When I get home, I change my clothes right away."
+      },
+      {
+        "word": "汚い",
+        "reading": "きたない",
+        "meaning": "dirty",
+        "pos": "i-adjective",
+        "example": "汚{きたな}い手{て}で食{た}べてはいけない。",
+        "example_translation": "You must not eat with dirty hands."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜なさい",
+        "meaning": "do ~ (a command, used by parents, teachers and so on)",
+        "formation": "Verb ます-stem + なさい (着替えます → 着替えなさい)",
+        "example": "早{はや}く寝{ね}なさい。",
+        "example_translation": "Go to bed early."
+      }
+    ]
+  },
+  {
+    "id": "n2v-044",
+    "target_word": "地盤",
+    "section": "kanji_reading",
+    "question": "この辺{へん}は[[地盤]]が弱{よわ}いので、大{おお}きな地震{じしん}が起{お}きたときの被害{ひがい}が心配{しんぱい}だ。",
+    "choices": [
+      "じばん",
+      "じめん",
+      "じはん",
+      "じぱん"
+    ],
+    "answer": 0,
+    "translation": "The ground around here is weak, so I'm worried about the damage if a big earthquake happens.",
+    "explanation": "地盤 is read じばん. Its main meaning is 'the ground (as a foundation), the ground that buildings stand on': 地盤が弱い 'the ground is weak/soft', 地盤が固い 'the ground is firm', 地盤沈下（じばんちんか）'ground subsidence (the ground sinking)'. It also has a figurative meaning, 'power base, support base', especially of a politician: 選挙の地盤 'electoral base'. 地 is read じ here, as in 地震 じしん 'earthquake' and 地元 じもと 'local area'. 盤 is always read ばん: 基盤 きばん 'foundation', 円盤 えんばん 'disc', 終盤 しゅうばん 'final stage'. Be careful: the top part of 盤 is 般, a different kanji read はん (it becomes ぱん in 一般 いっぱん 'general'), but 盤 itself is ばん. (Some dictionaries also record a rare variant ちばん, but じばん is the standard reading.)",
+    "choice_notes": [
+      "Correct. じばん = 地盤 'the ground, foundation; support base'.",
+      "Wrong. じめん is 地面 'the ground, the surface of the earth' (地面に座る 'to sit on the ground'). The meaning is close, but 盤 is never read めん.",
+      "Wrong. 盤 is read ばん, with a dakuten. はん is the reading of the similar-looking kanji 般, which forms the top part of 盤.",
+      "Wrong. 盤 is ばん; it never becomes ぱん. ぱん is how the similar-looking 般 sounds in 一般（いっぱん）'general'."
+    ],
+    "vocab": [
+      {
+        "word": "地盤",
+        "reading": "じばん",
+        "meaning": "the ground (under buildings), foundation; power base, support base",
+        "pos": "noun",
+        "example": "大{おお}きな建物{たてもの}を建{た}てる前{まえ}に、地盤{じばん}を調{しら}べる必要{ひつよう}がある。",
+        "example_translation": "Before putting up a big building, you need to examine the ground."
+      },
+      {
+        "word": "地面",
+        "reading": "じめん",
+        "meaning": "the ground, the surface of the earth",
+        "pos": "noun",
+        "example": "雨{あめ}で地面{じめん}がぬれている。",
+        "example_translation": "The ground is wet from the rain."
+      },
+      {
+        "word": "基盤",
+        "reading": "きばん",
+        "meaning": "foundation, base, basis",
+        "pos": "noun",
+        "example": "健康{けんこう}は生活{せいかつ}の基盤{きばん}だ。",
+        "example_translation": "Health is the foundation of daily life."
+      },
+      {
+        "word": "一般",
+        "reading": "いっぱん",
+        "meaning": "general, ordinary; the (general) public",
+        "pos": "noun / no-adjective",
+        "example": "この施設{しせつ}は一般{いっぱん}の人{ひと}も利用{りよう}できる。",
+        "example_translation": "Members of the general public can also use this facility."
+      },
+      {
+        "word": "地震",
+        "reading": "じしん",
+        "meaning": "earthquake",
+        "pos": "noun",
+        "example": "昨夜{さくや}、小{ちい}さな地震{じしん}があった。",
+        "example_translation": "There was a small earthquake last night."
+      },
+      {
+        "word": "被害",
+        "reading": "ひがい",
+        "meaning": "damage, harm",
+        "pos": "noun",
+        "example": "台風{たいふう}で農家{のうか}に大{おお}きな被害{ひがい}が出{で}た。",
+        "example_translation": "The typhoon caused heavy damage to farmers."
+      },
+      {
+        "word": "心配",
+        "reading": "しんぱい",
+        "meaning": "worry; worried",
+        "pos": "noun / suru verb / na-adjective",
+        "example": "母{はは}はいつも私{わたし}の健康{けんこう}を心配{しんぱい}している。",
+        "example_translation": "My mother is always worried about my health."
+      },
+      {
+        "word": "この辺",
+        "reading": "このへん",
+        "meaning": "this area, around here",
+        "pos": "noun",
+        "example": "この辺{へん}にコンビニはありますか。",
+        "example_translation": "Is there a convenience store around here?"
+      }
+    ],
+    "grammar": []
+  },
+  {
+    "id": "n2v-045",
+    "target_word": "但し",
+    "section": "orthography",
+    "question": "このプールは誰{だれ}でも利用{りよう}できます。[[ただし]]、小学生{しょうがくせい}は大人{おとな}と一緒{いっしょ}に入{はい}ってください。",
+    "choices": [
+      "只し",
+      "唯し",
+      "但し",
+      "直し"
+    ],
+    "answer": 2,
+    "translation": "Anyone can use this pool. However, elementary school children must come in with an adult.",
+    "explanation": "ただし 'however, but, provided that' is written 但し in kanji. It adds a condition or an exception to what was just said: 誰でも利用できます。ただし、〜 'Anyone can use it. However (on the condition that) ~'. This is different from しかし 'but', which introduces an opposite fact; ただし keeps the first statement true and only limits it. It is very common in rules, notices and contracts: 入場は無料です。ただし、予約が必要です 'Admission is free. However, a reservation is required.' In modern writing ただし is very often written in hiragana (the official rules for government documents say to write it in kana), but when kanji is used, the only correct spelling is 但し. The trap: 只, 唯 and 直 can all be read ただ in other words, but none of them is used to write ただし.",
+    "choice_notes": [
+      "Wrong. 只 is read ただ, as in 只今（ただいま）'right now; I'm home', but 只し is not a word.",
+      "Wrong. 唯 means 'only' and is read ゆい in 唯一（ゆいいつ）'the one and only'. It can also be read ただ, but 唯し is not a word.",
+      "Correct. 但し（ただし）'however, provided that'. The kanji 但 is basically used only in this word and in 但し書き（ただしがき）'a proviso'.",
+      "Wrong. 直 is read ただ only in 直ちに（ただちに）'immediately'. 直し is a real word, but it is read なおし 'repair, correction' (from 直す なおす 'to fix'), never ただし."
+    ],
+    "vocab": [
+      {
+        "word": "但し",
+        "reading": "ただし",
+        "meaning": "however, but; provided that (adds a condition or exception)",
+        "pos": "conjunction",
+        "example": "入場{にゅうじょう}は無料{むりょう}です。但{ただ}し、予約{よやく}が必要{ひつよう}です。",
+        "example_translation": "Admission is free. However, a reservation is required."
+      },
+      {
+        "word": "只今",
+        "reading": "ただいま",
+        "meaning": "now, at the moment; I'm home (greeting)",
+        "pos": "adverb / expression",
+        "example": "只今{ただいま}の時刻{じこく}は午後{ごご}三時{さんじ}です。",
+        "example_translation": "The time is now 3 p.m."
+      },
+      {
+        "word": "唯一",
+        "reading": "ゆいいつ",
+        "meaning": "the only, the one and only, sole",
+        "pos": "noun / no-adjective",
+        "example": "読書{どくしょ}は私{わたし}の唯一{ゆいいつ}の趣味{しゅみ}だ。",
+        "example_translation": "Reading is my only hobby."
+      },
+      {
+        "word": "直ちに",
+        "reading": "ただちに",
+        "meaning": "immediately, at once",
+        "pos": "adverb",
+        "example": "事故{じこ}の知{し}らせを受{う}けて、警察{けいさつ}が直{ただ}ちに現場{げんば}へ向{む}かった。",
+        "example_translation": "On receiving word of the accident, the police immediately headed to the scene."
+      },
+      {
+        "word": "直し",
+        "reading": "なおし",
+        "meaning": "repair, correction; alteration (of clothes)",
+        "pos": "noun",
+        "example": "ズボンが長{なが}すぎたので、店{みせ}でお直{なお}しをしてもらった。",
+        "example_translation": "My trousers were too long, so I had them altered at the shop."
+      },
+      {
+        "word": "利用",
+        "reading": "りよう",
+        "meaning": "use, making use of",
+        "pos": "noun / suru verb",
+        "example": "このカードは全国{ぜんこく}のコンビニで利用{りよう}できる。",
+        "example_translation": "This card can be used at convenience stores all over the country."
+      },
+      {
+        "word": "小学生",
+        "reading": "しょうがくせい",
+        "meaning": "elementary school student",
+        "pos": "noun",
+        "example": "弟{おとうと}はまだ小学生{しょうがくせい}だ。",
+        "example_translation": "My younger brother is still in elementary school."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "Question word + でも",
+        "meaning": "any ~, every ~ (誰でも 'anyone', 何でも 'anything', いつでも 'any time')",
+        "formation": "誰 / 何 / いつ / どこ + でも",
+        "example": "分{わ}からないことがあったら、何{なん}でも聞{き}いてください。",
+        "example_translation": "If there is something you don't understand, feel free to ask me anything."
+      }
+    ]
+  },
+  {
+    "id": "n2v-046",
+    "target_word": "自然科学",
+    "section": "context",
+    "question": "物理学{ぶつりがく}や化学{かがく}、生物学{せいぶつがく}、天文学{てんもんがく}などの学問{がくもん}をまとめて（　　）と呼{よ}ぶ。",
+    "choices": [
+      "社会科学{しゃかいかがく}",
+      "自然科学{しぜんかがく}",
+      "人文科学{じんぶんかがく}",
+      "自然環境{しぜんかんきょう}"
+    ],
+    "answer": 1,
+    "full_sentence": "物理学{ぶつりがく}や化学{かがく}、生物学{せいぶつがく}、天文学{てんもんがく}などの学問{がくもん}をまとめて自然科学{しぜんかがく}と呼{よ}ぶ。",
+    "translation": "Fields of study such as physics, chemistry, biology and astronomy are collectively called natural science.",
+    "explanation": "自然科学（しぜんかがく）means 'natural science': the sciences that study nature and its laws through observation and experiments, such as physics, chemistry, biology, earth science and astronomy. It is simply 自然 'nature' + 科学 'science'. In Japanese, academic fields are commonly divided into three big groups: 自然科学 'natural sciences', 社会科学 'social sciences' (economics, law, sociology, political science) and 人文科学 'humanities' (literature, history, philosophy, linguistics). The sentence lists physics, chemistry, biology and astronomy, which are all natural sciences. The pattern AをまとめてBと呼ぶ means 'A are collectively called B'. A small extra tip: 化学 'chemistry' and 科学 'science' are both read かがく, so in speech people sometimes call chemistry ばけがく to avoid confusion.",
+    "choice_notes": [
+      "Wrong. 社会科学（しゃかいかがく）'social science' is the group of fields that study society, such as economics, law and sociology. Physics and chemistry are not social sciences.",
+      "Correct. 自然科学（しぜんかがく）'natural science' is the group name for physics, chemistry, biology and astronomy.",
+      "Wrong. 人文科学（じんぶんかがく）'the humanities' is the group of fields that study human culture, such as literature, history and philosophy.",
+      "Wrong. 自然環境（しぜんかんきょう）means 'the natural environment' (forests, rivers, air and so on), as in 自然環境を守る 'to protect the natural environment'. It is not the name of a group of academic fields."
+    ],
+    "vocab": [
+      {
+        "word": "自然科学",
+        "reading": "しぜんかがく",
+        "meaning": "natural science",
+        "pos": "noun",
+        "example": "この雑誌{ざっし}では、自然科学{しぜんかがく}の新{あたら}しい発見{はっけん}がよく紹介{しょうかい}される。",
+        "example_translation": "New discoveries in natural science are often introduced in this magazine."
+      },
+      {
+        "word": "社会科学",
+        "reading": "しゃかいかがく",
+        "meaning": "social science",
+        "pos": "noun",
+        "example": "経済学{けいざいがく}や法学{ほうがく}は社会科学{しゃかいかがく}に入{はい}る。",
+        "example_translation": "Economics and law belong to the social sciences."
+      },
+      {
+        "word": "人文科学",
+        "reading": "じんぶんかがく",
+        "meaning": "the humanities",
+        "pos": "noun",
+        "example": "文学{ぶんがく}や歴史学{れきしがく}は人文科学{じんぶんかがく}の分野{ぶんや}だ。",
+        "example_translation": "Literature and history are fields of the humanities."
+      },
+      {
+        "word": "自然環境",
+        "reading": "しぜんかんきょう",
+        "meaning": "the natural environment",
+        "pos": "noun",
+        "example": "美{うつく}しい自然環境{しぜんかんきょう}を守{まも}らなければならない。",
+        "example_translation": "We must protect our beautiful natural environment."
+      },
+      {
+        "word": "学問",
+        "reading": "がくもん",
+        "meaning": "learning, scholarship, field of study",
+        "pos": "noun",
+        "example": "歴史{れきし}は人間{にんげん}について考{かんが}える学問{がくもん}だ。",
+        "example_translation": "History is a field of study that thinks about human beings."
+      },
+      {
+        "word": "科学",
+        "reading": "かがく",
+        "meaning": "science",
+        "pos": "noun",
+        "example": "科学{かがく}の進歩{しんぽ}で、生活{せいかつ}が便利{べんり}になった。",
+        "example_translation": "Life has become convenient thanks to the progress of science."
+      },
+      {
+        "word": "物理学",
+        "reading": "ぶつりがく",
+        "meaning": "physics",
+        "pos": "noun",
+        "example": "物理学{ぶつりがく}の授業{じゅぎょう}は難{むずか}しいが、面白{おもしろ}い。",
+        "example_translation": "Physics classes are hard but interesting."
+      },
+      {
+        "word": "化学",
+        "reading": "かがく",
+        "meaning": "chemistry",
+        "pos": "noun",
+        "example": "化学{かがく}の実験{じっけん}で、水{みず}の色{いろ}が変{か}わった。",
+        "example_translation": "In the chemistry experiment, the color of the water changed."
+      },
+      {
+        "word": "生物学",
+        "reading": "せいぶつがく",
+        "meaning": "biology",
+        "pos": "noun",
+        "example": "大学{だいがく}で生物学{せいぶつがく}を勉強{べんきょう}して、動物{どうぶつ}の研究者{けんきゅうしゃ}になりたい。",
+        "example_translation": "I want to study biology at university and become an animal researcher."
+      },
+      {
+        "word": "天文学",
+        "reading": "てんもんがく",
+        "meaning": "astronomy",
+        "pos": "noun",
+        "example": "天文学{てんもんがく}では、星{ほし}や宇宙{うちゅう}について研究{けんきゅう}する。",
+        "example_translation": "In astronomy, you study stars and space."
+      },
+      {
+        "word": "まとめる",
+        "reading": "まとめる",
+        "meaning": "to put together, to group; to summarize",
+        "pos": "ichidan verb",
+        "example": "会議{かいぎ}の内容{ないよう}を一枚{いちまい}の紙{かみ}にまとめた。",
+        "example_translation": "I summarized the content of the meeting on one sheet of paper."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "AをBと呼ぶ",
+        "meaning": "to call A B, A is called B",
+        "formation": "Noun A + を + Noun B + と呼ぶ (passive: AはBと呼ばれる)",
+        "example": "友達{ともだち}は彼{かれ}をケンと呼{よ}んでいる。",
+        "example_translation": "His friends call him Ken."
+      },
+      {
+        "pattern": "AやBなど",
+        "meaning": "A, B, and so on (giving some examples from a longer list)",
+        "formation": "Noun + や + Noun + など",
+        "example": "机{つくえ}の上{うえ}には、ペンやノートなどが置{お}いてある。",
+        "example_translation": "Pens, notebooks and other things have been placed on the desk."
+      }
+    ]
+  },
+  {
+    "id": "n2v-047",
+    "target_word": "文献",
+    "section": "paraphrase",
+    "question": "レポートを書{か}く前{まえ}に、テーマに関係{かんけい}のある[[文献{ぶんけん}]]を集{あつ}めた。",
+    "choices": [
+      "写真{しゃしん}や映像{えいぞう}",
+      "実験{じっけん}の道具{どうぐ}",
+      "専門家{せんもんか}の話{はなし}",
+      "本{ほん}や資料{しりょう}"
+    ],
+    "answer": 3,
+    "translation": "Before writing the report, I gathered literature (books and documents) related to the topic.",
+    "explanation": "文献（ぶんけん）means 'written materials used as a source or reference': books, academic papers, articles and old records. It is a formal word used in study and research: 参考文献 'references, bibliography' (the list at the end of a paper or report), 文献を調べる 'to look through the literature', 古い文献 'old documents and records'. The kanji 文 means 'writing', so 文献 is always something written. The everyday paraphrase is 本や資料 'books and (written) materials'. Photos and videos, equipment, or what an expert tells you in person can also be used in research, but they are not 文献.",
+    "choice_notes": [
+      "Wrong. 写真や映像 'photos and videos' are visual materials, not written ones. 文献 is always something written.",
+      "Wrong. 実験の道具 'equipment for experiments' are tools, not written materials.",
+      "Wrong. 専門家の話 'what an expert says' is spoken information, for example from an interview. Collecting it is not collecting 文献.",
+      "Correct. 本や資料 'books and (written) materials' = 文献, the written sources used for research."
+    ],
+    "vocab": [
+      {
+        "word": "文献",
+        "reading": "ぶんけん",
+        "meaning": "literature, (written) reference materials, documents",
+        "pos": "noun",
+        "example": "論文{ろんぶん}の最後{さいご}に参考文献{さんこうぶんけん}を書{か}いた。",
+        "example_translation": "I listed the references at the end of my paper."
+      },
+      {
+        "word": "資料",
+        "reading": "しりょう",
+        "meaning": "materials, documents, data; handouts",
+        "pos": "noun",
+        "example": "明日{あした}の発表{はっぴょう}の資料{しりょう}を作{つく}った。",
+        "example_translation": "I made the materials for tomorrow's presentation."
+      },
+      {
+        "word": "映像",
+        "reading": "えいぞう",
+        "meaning": "video, footage; image (on a screen)",
+        "pos": "noun",
+        "example": "ニュースで事故{じこ}の映像{えいぞう}が流{なが}れた。",
+        "example_translation": "Footage of the accident was shown on the news."
+      },
+      {
+        "word": "実験",
+        "reading": "じっけん",
+        "meaning": "experiment",
+        "pos": "noun / suru verb",
+        "example": "理科{りか}の授業{じゅぎょう}で実験{じっけん}をした。",
+        "example_translation": "We did an experiment in science class."
+      },
+      {
+        "word": "道具",
+        "reading": "どうぐ",
+        "meaning": "tool, equipment, instrument",
+        "pos": "noun",
+        "example": "料理{りょうり}の道具{どうぐ}をそろえた。",
+        "example_translation": "I got together a set of cooking tools."
+      },
+      {
+        "word": "専門家",
+        "reading": "せんもんか",
+        "meaning": "expert, specialist",
+        "pos": "noun",
+        "example": "病気{びょうき}のことは専門家{せんもんか}に聞{き}いたほうがいい。",
+        "example_translation": "You should ask an expert about the illness."
+      },
+      {
+        "word": "関係",
+        "reading": "かんけい",
+        "meaning": "relation, connection",
+        "pos": "noun / suru verb",
+        "example": "この問題{もんだい}は私{わたし}とは関係{かんけい}がない。",
+        "example_translation": "This problem has nothing to do with me."
+      },
+      {
+        "word": "テーマ",
+        "reading": "テーマ",
+        "meaning": "theme, topic, subject",
+        "pos": "noun",
+        "example": "卒業論文{そつぎょうろんぶん}のテーマを決{き}めた。",
+        "example_translation": "I decided on the topic of my graduation thesis."
+      },
+      {
+        "word": "集める",
+        "reading": "あつめる",
+        "meaning": "to collect, to gather",
+        "pos": "ichidan verb",
+        "example": "子{こ}どものころ、切手{きって}を集{あつ}めていた。",
+        "example_translation": "When I was a child, I collected stamps."
+      },
+      {
+        "word": "論文",
+        "reading": "ろんぶん",
+        "meaning": "(academic) paper, thesis",
+        "pos": "noun",
+        "example": "彼{かれ}は日本{にほん}の経済{けいざい}について論文{ろんぶん}を書{か}いている。",
+        "example_translation": "He is writing a paper on the Japanese economy."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜に関係のある",
+        "meaning": "related to ~, connected with ~",
+        "formation": "Noun + に関係のある + noun (also に関係がある at the end of a sentence)",
+        "example": "仕事{しごと}に関係{かんけい}のある本{ほん}を読{よ}んでいる。",
+        "example_translation": "I'm reading books related to my work."
+      },
+      {
+        "pattern": "〜前に",
+        "meaning": "before doing ~",
+        "formation": "Verb dictionary form + 前に / Noun + の前に",
+        "example": "寝{ね}る前{まえ}に歯{は}をみがく。",
+        "example_translation": "I brush my teeth before going to bed."
+      }
+    ]
+  },
+  {
+    "id": "n2v-048",
+    "target_word": "緯度",
+    "section": "usage",
+    "question": "[[緯度{いど}]]",
+    "choices": [
+      "地図{ちず}を見{み}て、その島{しま}の緯度{いど}と経度{けいど}を調{しら}べた。",
+      "風邪{かぜ}をひいて、緯度{いど}が三十八度{さんじゅうはちど}まで上{あ}がった。",
+      "富士山{ふじさん}の緯度{いど}は三千七百{さんぜんななひゃく}メートルを超{こ}える。",
+      "日本語{にほんご}がどの緯度{いど}話{はな}せるか、面接{めんせつ}で聞{き}かれた。"
+    ],
+    "answer": 0,
+    "translation": "I looked at a map and checked the island's latitude and longitude.",
+    "explanation": "緯度（いど）means 'latitude': how far north or south of the equator a place is, measured in degrees (度) from 0 at the equator to 90 at the North and South Poles. It is used only for positions on the earth: 緯度と経度 'latitude and longitude', 北緯35度 'latitude 35 degrees north', 緯度が高い地域 'high-latitude regions (close to the poles)'. Its partner word is 経度（けいど）'longitude', the east-west position. A memory tip: the kanji 緯 originally means the horizontal threads in woven cloth and 経 the vertical threads, which matches the lines on a map (lines of latitude run sideways). The wrong sentences use 緯度 as if it were any measurement: body temperature (体温), height above sea level (標高), and degree or extent (程度).",
+    "choice_notes": [
+      "Correct. Looking up an island's latitude and longitude (緯度と経度) on a map is exactly how 緯度 is used.",
+      "Wrong. A fever going up to 38 degrees is about body temperature, 体温（たいおん）: 体温が三十八度まで上がった (or simply 熱が三十八度まで上がった). 緯度 is a position on the earth, not a temperature.",
+      "Wrong. A mountain's height in meters is its 標高（ひょうこう）'height above sea level': 富士山の標高は三千七百メートルを超える. 緯度 is measured in degrees, never in meters.",
+      "Wrong. 'To what extent (how well) you can speak' is 程度（ていど）'degree, extent': 日本語がどの程度話せるか. 程度 also ends in 度, but it has nothing to do with a position on a map."
+    ],
+    "vocab": [
+      {
+        "word": "緯度",
+        "reading": "いど",
+        "meaning": "latitude",
+        "pos": "noun",
+        "example": "北海道{ほっかいどう}は東京{とうきょう}より緯度{いど}が高{たか}い。",
+        "example_translation": "Hokkaido is at a higher latitude than Tokyo."
+      },
+      {
+        "word": "経度",
+        "reading": "けいど",
+        "meaning": "longitude",
+        "pos": "noun",
+        "example": "経度{けいど}が十五度{じゅうごど}違{ちが}うと、時差{じさ}は一時間{いちじかん}になる。",
+        "example_translation": "A difference of 15 degrees of longitude makes a time difference of one hour."
+      },
+      {
+        "word": "体温",
+        "reading": "たいおん",
+        "meaning": "body temperature",
+        "pos": "noun",
+        "example": "朝{あさ}起{お}きてすぐに体温{たいおん}を測{はか}った。",
+        "example_translation": "I took my temperature as soon as I got up in the morning."
+      },
+      {
+        "word": "標高",
+        "reading": "ひょうこう",
+        "meaning": "height above sea level, elevation",
+        "pos": "noun",
+        "example": "この村{むら}は標高{ひょうこう}が高{たか}いので、夏{なつ}でも涼{すず}しい。",
+        "example_translation": "This village is high above sea level, so it is cool even in summer."
+      },
+      {
+        "word": "程度",
+        "reading": "ていど",
+        "meaning": "degree, extent, level; about (after a number)",
+        "pos": "noun",
+        "example": "毎日{まいにち}三十分{さんじゅっぷん}程度{ていど}歩{ある}くようにしている。",
+        "example_translation": "I try to walk for about thirty minutes every day."
+      },
+      {
+        "word": "面接",
+        "reading": "めんせつ",
+        "meaning": "interview (for a job or school)",
+        "pos": "noun / suru verb",
+        "example": "明日{あした}、アルバイトの面接{めんせつ}がある。",
+        "example_translation": "I have an interview for a part-time job tomorrow."
+      },
+      {
+        "word": "超える",
+        "reading": "こえる",
+        "meaning": "to exceed, to go over (a number or limit)",
+        "pos": "ichidan verb",
+        "example": "今日{きょう}の気温{きおん}は三十五度{さんじゅうごど}を超{こ}えた。",
+        "example_translation": "Today's temperature went over 35 degrees."
+      },
+      {
+        "word": "島",
+        "reading": "しま",
+        "meaning": "island",
+        "pos": "noun",
+        "example": "この島{しま}には船{ふね}でしか行{い}けない。",
+        "example_translation": "You can only get to this island by boat."
+      },
+      {
+        "word": "風邪をひく",
+        "reading": "かぜをひく",
+        "meaning": "to catch a cold",
+        "pos": "expression (godan verb)",
+        "example": "雨{あめ}にぬれて、風邪{かぜ}をひいてしまった。",
+        "example_translation": "I got wet in the rain and caught a cold."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "Question word + 〜か (embedded question)",
+        "meaning": "(I know / ask / was asked) what / how / whether ~",
+        "formation": "Question word + plain form + か (な-adj / noun: だ is dropped)",
+        "example": "会議{かいぎ}が何時{なんじ}に始{はじ}まるか、知{し}っていますか。",
+        "example_translation": "Do you know what time the meeting starts?"
+      }
+    ]
+  },
+  {
+    "id": "n2v-049",
+    "target_word": "ぎっしり",
+    "section": "usage",
+    "question": "[[ぎっしり]]",
+    "choices": [
+      "久{ひさ}しぶりに走{はし}ったら、汗{あせ}をぎっしりかいた。",
+      "昨夜{さくや}は疲{つか}れていたので、朝{あさ}までぎっしり眠{ねむ}った。",
+      "弁当箱{べんとうばこ}には、母{はは}が作{つく}ったおかずがぎっしり詰{つ}まっていた。",
+      "家{いえ}を出{で}るのが遅{おそ}くなったが、約束{やくそく}の時間{じかん}にぎっしり間{ま}に合{あ}った。"
+    ],
+    "answer": 2,
+    "translation": "The lunch box was tightly packed with side dishes my mother had made.",
+    "explanation": "ぎっしり means 'tightly packed, crammed full': a space is completely filled with many things, with no gaps. It is typically used with 詰まる / 詰める 'to be packed / to pack' and 並ぶ 'to be lined up': 箱にりんごがぎっしり詰まっている 'the box is packed with apples', 本棚に本がぎっしり並んでいる 'the bookshelf is crammed with books'. It is also used for a full schedule: 予定がぎっしり詰まっている 'my schedule is packed'. The wrong sentences use ぎっしり in place of other sound-symbolic adverbs that look or sound similar: びっしょり 'soaking wet', ぐっすり 'sleeping soundly', and ぎりぎり 'just barely'.",
+    "choice_notes": [
+      "Wrong. Being soaked with sweat is びっしょり 'drenched, soaking wet': 汗をびっしょりかいた. ぎっしり is about a space packed full of things, not about being wet.",
+      "Wrong. Sleeping deeply is ぐっすり 'soundly': 朝までぐっすり眠った.",
+      "Correct. A lunch box packed full of side dishes (おかずがぎっしり詰まっていた) is a typical use of ぎっしり.",
+      "Wrong. Making it just in time is ぎりぎり 'just barely, at the last moment': 約束の時間にぎりぎり間に合った."
+    ],
+    "vocab": [
+      {
+        "word": "ぎっしり",
+        "reading": "ぎっしり",
+        "meaning": "tightly (packed), crammed full",
+        "pos": "adverb",
+        "example": "今週{こんしゅう}は予定{よてい}がぎっしり詰{つ}まっていて、休{やす}む時間{じかん}がない。",
+        "example_translation": "My schedule is packed this week, and I have no time to rest."
+      },
+      {
+        "word": "びっしょり",
+        "reading": "びっしょり",
+        "meaning": "drenched, soaking wet",
+        "pos": "adverb / na-adjective",
+        "example": "急{きゅう}に雨{あめ}が降{ふ}ってきて、服{ふく}がびっしょりぬれた。",
+        "example_translation": "It suddenly started raining and my clothes got soaking wet."
+      },
+      {
+        "word": "ぐっすり",
+        "reading": "ぐっすり",
+        "meaning": "(sleep) soundly, deeply",
+        "pos": "adverb",
+        "example": "疲{つか}れていたので、ぐっすり眠{ねむ}れた。",
+        "example_translation": "I was tired, so I slept soundly."
+      },
+      {
+        "word": "ぎりぎり",
+        "reading": "ぎりぎり",
+        "meaning": "just barely, at the last moment, at the very limit",
+        "pos": "adverb / na-adjective",
+        "example": "走{はし}って、電車{でんしゃ}にぎりぎり間{ま}に合{あ}った。",
+        "example_translation": "I ran and just barely made the train."
+      },
+      {
+        "word": "詰まる",
+        "reading": "つまる",
+        "meaning": "to be packed (with), to be full; to be blocked",
+        "pos": "godan verb",
+        "example": "かばんに荷物{にもつ}がいっぱい詰{つ}まっている。",
+        "example_translation": "The bag is stuffed full of things."
+      },
+      {
+        "word": "弁当箱",
+        "reading": "べんとうばこ",
+        "meaning": "lunch box",
+        "pos": "noun",
+        "example": "弁当箱{べんとうばこ}を洗{あら}うのを忘{わす}れた。",
+        "example_translation": "I forgot to wash my lunch box."
+      },
+      {
+        "word": "おかず",
+        "reading": "おかず",
+        "meaning": "side dish (eaten with rice)",
+        "pos": "noun",
+        "example": "今日{きょう}の晩{ばん}ご飯{はん}のおかずは魚{さかな}だ。",
+        "example_translation": "Tonight's dinner side dish is fish."
+      },
+      {
+        "word": "汗",
+        "reading": "あせ",
+        "meaning": "sweat",
+        "pos": "noun",
+        "example": "暑{あつ}くて、汗{あせ}が止{と}まらない。",
+        "example_translation": "It's so hot that I can't stop sweating."
+      },
+      {
+        "word": "間に合う",
+        "reading": "まにあう",
+        "meaning": "to be in time (for)",
+        "pos": "godan verb",
+        "example": "急{いそ}げば、最終電車{さいしゅうでんしゃ}に間{ま}に合{あ}う。",
+        "example_translation": "If you hurry, you'll make the last train."
+      },
+      {
+        "word": "久しぶり",
+        "reading": "ひさしぶり",
+        "meaning": "for the first time in a long while",
+        "pos": "na-adjective / noun",
+        "example": "久{ひさ}しぶりに高校{こうこう}の友達{ともだち}に会{あ}った。",
+        "example_translation": "I met my high school friends for the first time in a long while."
+      },
+      {
+        "word": "昨夜",
+        "reading": "さくや",
+        "meaning": "last night",
+        "pos": "noun",
+        "example": "昨夜{さくや}は遅{おそ}くまで勉強{べんきょう}した。",
+        "example_translation": "I studied until late last night."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜たら (what happened when)",
+        "meaning": "when I did ~, (I found / it turned out that) ...",
+        "formation": "Verb た-form + ら (走る → 走ったら); the second half is a past event",
+        "example": "窓{まど}を開{あ}けたら、雪{ゆき}が降{ふ}っていた。",
+        "example_translation": "When I opened the window, it was snowing."
+      }
+    ]
+  },
+  {
+    "id": "n2v-050",
+    "target_word": "出入り口",
+    "section": "kanji_reading",
+    "question": "店{みせ}の[[出入り口]]に自転車{じてんしゃ}を止{と}めないでください。",
+    "choices": [
+      "でにゅうぐち",
+      "でいりぐち",
+      "だいりぐち",
+      "でいりこう"
+    ],
+    "answer": 1,
+    "translation": "Please do not park bicycles at the shop's entrance.",
+    "explanation": "出入り口 is read でいりぐち and means 'doorway, a place where people go in and out, entrance and exit'. It is 出入り（でいり）'going in and out' + 口 'opening, mouth'. 出 is read で, as in 出る（でる）'to go out', and 入り is いり, as in 入り口（いりぐち）'entrance'. The okurigana り is a clue: it shows that 入 has its native (kun) reading いり here. 口 is くち on its own, but at the end of a compound it usually becomes ぐち (rendaku, the first sound becomes voiced): 入り口 いりぐち, 出口 でぐち 'exit', 窓口 まどぐち 'service window'. The word is also often written 出入口 without り, with the same reading.",
+    "choice_notes": [
+      "Wrong. 入 has the on'yomi にゅう (入学 にゅうがく 'entering a school'), but when it is written with the okurigana り, it always has a native (kun) reading such as いり, never にゅう.",
+      "Correct. でいりぐち = 出入り口 'doorway, entrance and exit'.",
+      "Wrong. 出 is read だ in 出す（だす）'to take out' and words made from it. In 出入り 'going in and out' it is で, from 出る（でる）. (だいり is a different word, 代理 'proxy, substitute'.)",
+      "Wrong. 口 is read こう in some on'yomi compounds such as 人口（じんこう）'population', but 出入り口 uses the native reading くち, voiced to ぐち."
+    ],
+    "vocab": [
+      {
+        "word": "出入り口",
+        "reading": "でいりぐち",
+        "meaning": "doorway, entrance and exit",
+        "pos": "noun",
+        "example": "非常{ひじょう}のときは、近{ちか}くの出入{でい}り口{ぐち}から外{そと}に出{で}てください。",
+        "example_translation": "In an emergency, please go outside through the nearest doorway."
+      },
+      {
+        "word": "出入り",
+        "reading": "でいり",
+        "meaning": "going in and out, coming and going",
+        "pos": "noun / suru verb",
+        "example": "この部屋{へや}は人{ひと}の出入{でい}りが多{おお}い。",
+        "example_translation": "Lots of people come and go in this room."
+      },
+      {
+        "word": "入り口",
+        "reading": "いりぐち",
+        "meaning": "entrance",
+        "pos": "noun",
+        "example": "駅{えき}の入{い}り口{ぐち}で待{ま}ち合{あ}わせよう。",
+        "example_translation": "Let's meet at the station entrance."
+      },
+      {
+        "word": "出口",
+        "reading": "でぐち",
+        "meaning": "exit",
+        "pos": "noun",
+        "example": "出口{でぐち}は右側{みぎがわ}です。",
+        "example_translation": "The exit is on the right."
+      },
+      {
+        "word": "代理",
+        "reading": "だいり",
+        "meaning": "proxy, substitute, acting for someone",
+        "pos": "noun / suru verb",
+        "example": "部長{ぶちょう}の代理{だいり}で会議{かいぎ}に出{で}た。",
+        "example_translation": "I attended the meeting in place of the department manager."
+      },
+      {
+        "word": "人口",
+        "reading": "じんこう",
+        "meaning": "population",
+        "pos": "noun",
+        "example": "日本{にほん}の人口{じんこう}は年々{ねんねん}減{へ}っている。",
+        "example_translation": "Japan's population is decreasing year by year."
+      },
+      {
+        "word": "止める",
+        "reading": "とめる",
+        "meaning": "to stop; to park (a car or bicycle)",
+        "pos": "ichidan verb",
+        "example": "車{くるま}を家{いえ}の前{まえ}に止{と}めた。",
+        "example_translation": "I parked the car in front of the house."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜ないでください",
+        "meaning": "please don't ~",
+        "formation": "Verb ない-form + でください (止める → 止めないでください)",
+        "example": "ここで写真{しゃしん}を撮{と}らないでください。",
+        "example_translation": "Please don't take photos here."
+      }
+    ]
+  }
+]

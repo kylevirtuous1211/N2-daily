@@ -1,0 +1,956 @@
+[
+  {
+    "id": "n2v-001",
+    "section": "kanji_reading",
+    "target_word": "家屋",
+    "question": "台風{たいふう}で、この町{まち}の多{おお}くの[[家屋]]が被害{ひがい}を受{う}けた。",
+    "choices": [
+      "けおく",
+      "かや",
+      "かおく",
+      "いえや"
+    ],
+    "answer": 2,
+    "translation": "Many houses in this town were damaged by the typhoon.",
+    "explanation": "家屋 is read かおく and means 'house, building' - a house seen as a building or structure. It is a formal word used in news reports, laws and insurance (家屋の被害 'damage to houses', 木造家屋 もくぞうかおく 'wooden houses'); in everyday conversation people simply say 家（いえ）. Both kanji use their on'yomi (Chinese-style reading) here. 家 is read か, as in 家族（かぞく）'family' and 家庭（かてい）'home, household'. 屋 is read おく, as in 屋上（おくじょう）'rooftop' and 屋外（おくがい）'outdoors'. The traps are the other readings of these two kanji: 家 also has the on'yomi け (田中家 たなかけ 'the Tanaka family') and the kun'yomi (native Japanese reading) いえ, and 屋 has the kun'yomi や (屋根 やね 'roof', 本屋 ほんや 'bookstore'). In 家屋, it is simply か + おく.",
+    "choice_notes": [
+      "Wrong. け is a real on'yomi of 家 (田中家 たなかけ 'the Tanaka family', 本家 ほんけ 'the head family'), but 家屋 uses か.",
+      "Wrong. や is the kun'yomi of 屋 (屋根 やね 'roof', 本屋 ほんや 'bookstore'), but in 家屋 屋 is read with its on'yomi おく. (かや happens to be a different word, 蚊帳 'mosquito net'.)",
+      "Correct. かおく = 家屋 'house, building'.",
+      "Wrong. This uses the kun'yomi of both kanji (家 いえ 'house', 屋 や). 家屋 is an on'yomi compound, read かおく. いえや is not a word."
+    ],
+    "vocab": [
+      {
+        "word": "家屋",
+        "reading": "かおく",
+        "meaning": "house, building (as a structure; formal)",
+        "pos": "noun",
+        "example": "この地域{ちいき}には、古{ふる}い木造{もくぞう}の家屋{かおく}が多{おお}く残{のこ}っている。",
+        "example_translation": "Many old wooden houses still remain in this area."
+      },
+      {
+        "word": "台風",
+        "reading": "たいふう",
+        "meaning": "typhoon",
+        "pos": "noun",
+        "example": "台風{たいふう}が近{ちか}づいているので、今日{きょう}は早{はや}く帰{かえ}ろう。",
+        "example_translation": "A typhoon is approaching, so let's go home early today."
+      },
+      {
+        "word": "被害",
+        "reading": "ひがい",
+        "meaning": "damage, harm",
+        "pos": "noun",
+        "example": "大雨{おおあめ}で、畑{はたけ}に大{おお}きな被害{ひがい}が出{で}た。",
+        "example_translation": "The heavy rain caused great damage to the fields."
+      },
+      {
+        "word": "受ける",
+        "reading": "うける",
+        "meaning": "to receive; to suffer (damage); to take (an exam)",
+        "pos": "ichidan verb",
+        "example": "明日{あした}、大学{だいがく}の入学{にゅうがく}試験{しけん}を受{う}ける。",
+        "example_translation": "Tomorrow I'm taking a university entrance exam."
+      },
+      {
+        "word": "多く",
+        "reading": "おおく",
+        "meaning": "many, much, a large number (of)",
+        "pos": "noun / adverb",
+        "example": "多{おお}くの人{ひと}がこの祭{まつ}りを楽{たの}しみにしている。",
+        "example_translation": "Many people look forward to this festival."
+      },
+      {
+        "word": "屋上",
+        "reading": "おくじょう",
+        "meaning": "rooftop",
+        "pos": "noun",
+        "example": "昼休{ひるやす}みは、会社{かいしゃ}の屋上{おくじょう}でお弁当{べんとう}を食{た}べる。",
+        "example_translation": "At lunch break, I eat my boxed lunch on the company rooftop."
+      },
+      {
+        "word": "屋根",
+        "reading": "やね",
+        "meaning": "roof",
+        "pos": "noun",
+        "example": "強{つよ}い風{かぜ}で屋根{やね}が壊{こわ}れた。",
+        "example_translation": "The roof was broken by the strong wind."
+      },
+      {
+        "word": "〜家",
+        "reading": "け",
+        "meaning": "the ~ family (after a family name)",
+        "pos": "suffix",
+        "example": "今年{ことし}のお正月{しょうがつ}は、田中家{たなかけ}のみんなが集{あつ}まった。",
+        "example_translation": "This New Year, the whole Tanaka family got together."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜で (cause)",
+        "meaning": "because of ~, due to ~ (a cause such as weather, illness or an accident)",
+        "formation": "Noun + で",
+        "example": "風邪{かぜ}で学校{がっこう}を休{やす}んだ。",
+        "example_translation": "I was absent from school because of a cold."
+      }
+    ]
+  },
+  {
+    "id": "n2v-002",
+    "section": "orthography",
+    "target_word": "激増",
+    "question": "ここ数年{すうねん}、この町{まち}を訪{おとず}れる外国人{がいこくじん}観光客{かんこうきゃく}が[[げきぞう]]している。",
+    "choices": [
+      "劇増",
+      "激増",
+      "激憎",
+      "劇憎"
+    ],
+    "answer": 1,
+    "translation": "Over the past few years, the number of foreign tourists visiting this town has been increasing sharply.",
+    "explanation": "げきぞう is written 激増 and means 'sharp increase, sudden rise'. It is a noun that also works as a する verb: 〜が激増する 'to increase sharply'. 激 means 'violent, intense', as in 激しい（はげしい）'intense, violent', and 増 means 'increase', as in 増える（ふえる）'to increase' and 増加（ぞうか）'increase'. So 激増 is literally 'intense increase'. Its opposite is 激減（げきげん）'sharp decrease'. Each kanji has a trap: 劇 is also read げき, and 憎 is also read ぞう and looks very much like 増. Memory tips: 激 has the water radical 氵 (think of water rushing violently), and 増 has the earth radical 土 (earth piled higher and higher), while 憎 'hate' has the heart radical 忄.",
+    "choice_notes": [
+      "Wrong. 劇 is also read げき. Its usual meaning is 'drama, play', as in 演劇（えんげき）'theater, drama' and 劇場（げきじょう）'theater (building)', but it can also mean 'intense, severe', as in 劇薬（げきやく）'powerful drug'. Even so, 劇増 is not a word. Be careful: 劇的に増えた 'increased dramatically' is a real phrase, but the one-word form is 激増.",
+      "Correct. 激増（げきぞう）'sharp increase'.",
+      "Wrong. 憎 is also read ぞう and looks like 増 (both have 曽 on the right), but it has the heart radical 忄 and means 'hate', as in 憎む（にくむ）'to hate' and 憎悪（ぞうお）'hatred'. 激憎 is not a word.",
+      "Wrong. Both kanji are wrong: 劇 (mostly 'drama') instead of 激 'intense', and 憎 'hate' instead of 増 'increase'. 劇憎 is not a word."
+    ],
+    "vocab": [
+      {
+        "word": "激増",
+        "reading": "げきぞう",
+        "meaning": "sharp increase, sudden rise",
+        "pos": "noun / suru verb",
+        "example": "スマートフォンが広{ひろ}まって、ネットで買{か}い物{もの}をする人{ひと}が激増{げきぞう}した。",
+        "example_translation": "As smartphones spread, the number of people who shop online increased sharply."
+      },
+      {
+        "word": "激減",
+        "reading": "げきげん",
+        "meaning": "sharp decrease, sudden drop",
+        "pos": "noun / suru verb",
+        "example": "この川{かわ}の魚{さかな}は、二十年{にじゅうねん}で激減{げきげん}した。",
+        "example_translation": "The fish in this river have decreased sharply over twenty years."
+      },
+      {
+        "word": "激しい",
+        "reading": "はげしい",
+        "meaning": "violent, intense, heavy",
+        "pos": "i-adjective",
+        "example": "夜中{よなか}に激{はげ}しい雨{あめ}が降{ふ}った。",
+        "example_translation": "Heavy rain fell in the middle of the night."
+      },
+      {
+        "word": "増加",
+        "reading": "ぞうか",
+        "meaning": "increase, growth",
+        "pos": "noun / suru verb",
+        "example": "町{まち}の人口{じんこう}が少{すこ}しずつ増加{ぞうか}している。",
+        "example_translation": "The town's population is gradually increasing."
+      },
+      {
+        "word": "劇的",
+        "reading": "げきてき",
+        "meaning": "dramatic",
+        "pos": "na-adjective",
+        "example": "新{あたら}しい薬{くすり}で、病気{びょうき}が劇的{げきてき}に良{よ}くなった。",
+        "example_translation": "With the new medicine, the illness improved dramatically."
+      },
+      {
+        "word": "演劇",
+        "reading": "えんげき",
+        "meaning": "theater, drama, play",
+        "pos": "noun",
+        "example": "姉{あね}は大学{だいがく}で演劇{えんげき}を勉強{べんきょう}している。",
+        "example_translation": "My older sister is studying theater at university."
+      },
+      {
+        "word": "憎む",
+        "reading": "にくむ",
+        "meaning": "to hate",
+        "pos": "godan verb",
+        "example": "彼{かれ}は戦争{せんそう}を心{こころ}から憎{にく}んでいる。",
+        "example_translation": "He hates war from the bottom of his heart."
+      },
+      {
+        "word": "訪れる",
+        "reading": "おとずれる",
+        "meaning": "to visit (a place)",
+        "pos": "ichidan verb",
+        "example": "毎年{まいとし}、多{おお}くの人{ひと}がこの寺{てら}を訪{おとず}れる。",
+        "example_translation": "Every year, many people visit this temple."
+      },
+      {
+        "word": "観光客",
+        "reading": "かんこうきゃく",
+        "meaning": "tourist",
+        "pos": "noun",
+        "example": "京都{きょうと}はいつも観光客{かんこうきゃく}でいっぱいだ。",
+        "example_translation": "Kyoto is always full of tourists."
+      },
+      {
+        "word": "ここ数年",
+        "reading": "ここすうねん",
+        "meaning": "these past few years, over the last few years",
+        "pos": "expression",
+        "example": "ここ数年{すうねん}、夏{なつ}がとても暑{あつ}くなった。",
+        "example_translation": "Over the past few years, summers have become very hot."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜ている (change in progress)",
+        "meaning": "is ~ing, has been ~ing (with change verbs such as 増える or 激増する, a change that is still going on)",
+        "formation": "Verb て-form + いる (激増する → 激増している)",
+        "example": "最近{さいきん}、野菜{やさい}の値段{ねだん}が上{あ}がっている。",
+        "example_translation": "Recently, vegetable prices have been going up."
+      }
+    ]
+  },
+  {
+    "id": "n2v-003",
+    "section": "context",
+    "target_word": "矢印",
+    "question": "駅{えき}の中{なか}はとても広{ひろ}いので、床{ゆか}の（　　）が指{さ}す方向{ほうこう}に進{すす}んでください。",
+    "choices": [
+      "目印{めじるし}",
+      "合図{あいず}",
+      "標語{ひょうご}",
+      "矢印{やじるし}"
+    ],
+    "answer": 3,
+    "full_sentence": "駅{えき}の中{なか}はとても広{ひろ}いので、床{ゆか}の矢印{やじるし}が指{さ}す方向{ほうこう}に進{すす}んでください。",
+    "translation": "The inside of the station is very large, so please go in the direction the arrows on the floor point.",
+    "explanation": "The clue is 指す方向 'the direction that (something) points'. Of the four choices, only an arrow can point in a direction, so the answer is 矢印（やじるし）'arrow (the symbol →)'. 矢 means 'arrow' (the weapon) and 印 means 'mark', so 矢印 is literally 'arrow mark'. 印 is read しるし 'mark' on its own; in 矢印 and 目印 it becomes じるし, because the first sound of the second part of a compound often gets voiced. You see 矢印 everywhere in stations and on maps and signs: 矢印の方向に進む 'go in the direction of the arrow', 矢印に従って歩く 'walk following the arrows'. Be careful not to confuse it with 目印（めじるし）, which also ends in 印 but means a landmark or a mark that helps you find or recognize something.",
+    "choice_notes": [
+      "Wrong. 目印（めじるし）means 'a landmark, a mark that helps you find or recognize something': 駅前の時計を目印にする 'use the clock in front of the station as a landmark'. A 目印 shows where something is, but it does not point in a direction.",
+      "Wrong. 合図（あいず）means 'a signal, a cue', usually given by a person with a gesture, a sound or a light: 先生の合図で走り始める 'start running at the teacher's signal'. It is not something marked on a floor, and it does not point.",
+      "Wrong. 標語（ひょうご）means 'a slogan, a motto', such as a traffic-safety slogan on a poster. A slogan is a short phrase, so it cannot point in a direction.",
+      "Correct. 矢印（やじるし）'arrow'. 床の矢印が指す方向 'the direction the arrows on the floor point'."
+    ],
+    "vocab": [
+      {
+        "word": "矢印",
+        "reading": "やじるし",
+        "meaning": "arrow (the symbol)",
+        "pos": "noun",
+        "example": "出口{でぐち}は、この矢印{やじるし}の方{ほう}です。",
+        "example_translation": "The exit is in the direction of this arrow."
+      },
+      {
+        "word": "目印",
+        "reading": "めじるし",
+        "meaning": "landmark; mark (to help find or recognize something)",
+        "pos": "noun",
+        "example": "駅{えき}の前{まえ}の大{おお}きな時計{とけい}を目印{めじるし}にして待{ま}ち合{あ}わせた。",
+        "example_translation": "We met up using the big clock in front of the station as a landmark."
+      },
+      {
+        "word": "合図",
+        "reading": "あいず",
+        "meaning": "signal, sign, cue",
+        "pos": "noun / suru verb",
+        "example": "先生{せんせい}の合図{あいず}で、生徒{せいと}たちは走{はし}り始{はじ}めた。",
+        "example_translation": "At the teacher's signal, the students started running."
+      },
+      {
+        "word": "標語",
+        "reading": "ひょうご",
+        "meaning": "slogan, motto",
+        "pos": "noun",
+        "example": "駅{えき}の壁{かべ}に、交通{こうつう}安全{あんぜん}の標語{ひょうご}がはってあった。",
+        "example_translation": "A traffic-safety slogan was posted on the station wall."
+      },
+      {
+        "word": "床",
+        "reading": "ゆか",
+        "meaning": "floor",
+        "pos": "noun",
+        "example": "床{ゆか}に荷物{にもつ}を置{お}かないでください。",
+        "example_translation": "Please don't put your bags on the floor."
+      },
+      {
+        "word": "指す",
+        "reading": "さす",
+        "meaning": "to point (to, at)",
+        "pos": "godan verb",
+        "example": "時計{とけい}の針{はり}が十二時{じゅうにじ}を指{さ}している。",
+        "example_translation": "The clock hands are pointing to twelve o'clock."
+      },
+      {
+        "word": "方向",
+        "reading": "ほうこう",
+        "meaning": "direction",
+        "pos": "noun",
+        "example": "駅{えき}はどちらの方向{ほうこう}ですか。",
+        "example_translation": "Which direction is the station?"
+      },
+      {
+        "word": "進む",
+        "reading": "すすむ",
+        "meaning": "to go forward, to advance",
+        "pos": "godan verb",
+        "example": "この道{みち}をまっすぐ進{すす}むと、右{みぎ}に銀行{ぎんこう}があります。",
+        "example_translation": "If you go straight along this road, there is a bank on the right."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "Clause + noun (noun-modifying clause)",
+        "meaning": "the noun that ~ (a whole clause describes the noun that follows it)",
+        "formation": "Plain form + noun; the subject is marked with が or の (矢印が指す方向 = 矢印の指す方向 'the direction the arrow points')",
+        "example": "これは母{はは}が作{つく}ったケーキです。",
+        "example_translation": "This is a cake that my mother made."
+      }
+    ]
+  },
+  {
+    "id": "n2v-004",
+    "section": "paraphrase",
+    "target_word": "務める",
+    "question": "今日{きょう}の会議{かいぎ}では、田中{たなか}さんが司会{しかい}を[[務{つと}めた]]。",
+    "choices": [
+      "担当{たんとう}した",
+      "頼{たの}んだ",
+      "断{ことわ}った",
+      "手伝{てつだ}った"
+    ],
+    "answer": 0,
+    "translation": "At today's meeting, Tanaka-san served as the moderator.",
+    "explanation": "務める（つとめる）means 'to serve as, to act as, to play the role of'. It takes a role + を: 司会を務める 'to act as moderator/host', 議長を務める 'to serve as chairperson', 主役を務める 'to play the lead role'. So 司会を務めた means Tanaka-san was the person running the meeting, which is the same as 司会を担当した. 担当する（たんとうする）'to be in charge of (a task or role)' is the closest meaning. Watch out: つとめる has three kanji spellings with different meanings. 務める = to fill a role (役を務める). 勤める = to work for a company or organization (会社に勤める 'to work for a company'). 努める = to make an effort (解決に努める 'to work hard to solve something'). Notice the particles too: 〜を務める, but 〜に勤める and 〜に努める.",
+    "choice_notes": [
+      "Correct. 担当した 'was in charge of' = 務めた 'served as'. 司会を担当した 'was in charge of moderating'.",
+      "Wrong. 頼む（たのむ）'to ask (someone to do something)'. 司会を頼んだ would mean Tanaka-san asked someone to be the moderator, not that Tanaka-san did it.",
+      "Wrong. 断る（ことわる）'to refuse, to turn down'. 司会を断った means Tanaka-san declined the role, which is the opposite of doing it.",
+      "Wrong. 手伝う（てつだう）'to help'. 司会を手伝った means Tanaka-san helped the moderator, not that Tanaka-san was the moderator."
+    ],
+    "vocab": [
+      {
+        "word": "務める",
+        "reading": "つとめる",
+        "meaning": "to serve as, to act as, to play (a role)",
+        "pos": "ichidan verb",
+        "example": "この映画{えいが}で主役{しゅやく}を務{つと}めたのは、まだ十五歳{じゅうごさい}の少女{しょうじょ}だ。",
+        "example_translation": "The one who played the lead role in this film is a girl who is only fifteen."
+      },
+      {
+        "word": "担当",
+        "reading": "たんとう",
+        "meaning": "being in charge (of), responsibility (for a task)",
+        "pos": "noun / suru verb",
+        "example": "この仕事{しごと}は私{わたし}が担当{たんとう}しています。",
+        "example_translation": "I am in charge of this work."
+      },
+      {
+        "word": "頼む",
+        "reading": "たのむ",
+        "meaning": "to ask (a favor), to request",
+        "pos": "godan verb",
+        "example": "友達{ともだち}に引{ひ}っ越{こ}しの手伝{てつだ}いを頼{たの}んだ。",
+        "example_translation": "I asked a friend to help me move."
+      },
+      {
+        "word": "断る",
+        "reading": "ことわる",
+        "meaning": "to refuse, to decline, to turn down",
+        "pos": "godan verb",
+        "example": "忙{いそが}しかったので、パーティーの誘{さそ}いを断{ことわ}った。",
+        "example_translation": "I was busy, so I turned down the party invitation."
+      },
+      {
+        "word": "手伝う",
+        "reading": "てつだう",
+        "meaning": "to help, to assist",
+        "pos": "godan verb",
+        "example": "夕食{ゆうしょく}の準備{じゅんび}を手伝{てつだ}った。",
+        "example_translation": "I helped prepare dinner."
+      },
+      {
+        "word": "司会",
+        "reading": "しかい",
+        "meaning": "moderator, host, MC; leading (a meeting or event)",
+        "pos": "noun / suru verb",
+        "example": "パーティーの司会{しかい}は誰{だれ}がやりますか。",
+        "example_translation": "Who will host the party?"
+      },
+      {
+        "word": "会議",
+        "reading": "かいぎ",
+        "meaning": "meeting, conference",
+        "pos": "noun",
+        "example": "午後{ごご}から大事{だいじ}な会議{かいぎ}がある。",
+        "example_translation": "There is an important meeting in the afternoon."
+      },
+      {
+        "word": "勤める",
+        "reading": "つとめる",
+        "meaning": "to work for, to be employed at",
+        "pos": "ichidan verb",
+        "example": "父{ちち}は銀行{ぎんこう}に勤{つと}めている。",
+        "example_translation": "My father works at a bank."
+      },
+      {
+        "word": "努める",
+        "reading": "つとめる",
+        "meaning": "to make an effort, to strive",
+        "pos": "ichidan verb",
+        "example": "健康{けんこう}のために、毎日{まいにち}歩{ある}くように努{つと}めている。",
+        "example_translation": "For my health, I make an effort to walk every day."
+      }
+    ],
+    "grammar": []
+  },
+  {
+    "id": "n2v-005",
+    "section": "usage",
+    "target_word": "測量",
+    "question": "[[測量{そくりょう}]]",
+    "choices": [
+      "熱{ねつ}があるようなので、体温{たいおん}を測量{そくりょう}してみた。",
+      "ケーキを作{つく}るときは、砂糖{さとう}をきちんと測量{そくりょう}することが大切{たいせつ}だ。",
+      "相手{あいて}の気持{きも}ちを測量{そくりょう}するのは難{むずか}しい。",
+      "新{あたら}しい道路{どうろ}を造{つく}るために、市{し}がこの辺{あた}りの土地{とち}を測量{そくりょう}している。"
+    ],
+    "answer": 3,
+    "translation": "To build a new road, the city is surveying the land around here.",
+    "explanation": "測量（そくりょう）means 'surveying': measuring the land (its position, area, height and shape) with special instruments, usually done by experts in order to make maps or to plan roads and buildings. A person who does this job is a 測量士（そくりょうし）'registered surveyor'. It is a formal noun that also works as a する verb: 土地を測量する 'to survey the land'. So it fits the sentence about the city surveying the land before building a new road. For small everyday measurements, use the verb はかる instead: 測る for length, height and temperature, 量る for weight and amount, and 計る for time. A feeling cannot be measured with instruments at all; guessing someone's feelings is 推し量る（おしはかる）. A useful rule: 測量 is about land and maps, not about things you measure in daily life.",
+    "choice_notes": [
+      "Wrong. Taking your body temperature is 測る（はかる）: 体温を測ってみた. (You will also see it written 計る, as in 体温計 たいおんけい 'thermometer'.) 測量 is for surveying land, not for using a thermometer.",
+      "Wrong. Measuring sugar for a cake is 量る（はかる）or 計量する（けいりょうする）: 砂糖をきちんと量る. 計量カップ 'measuring cup' and 計量スプーン 'measuring spoon' are common kitchen words.",
+      "Wrong. Guessing someone's feelings is 推し量る（おしはかる）: 相手の気持ちを推し量るのは難しい. 測量 means measuring land with instruments, never guessing what someone thinks.",
+      "Correct. Surveying the land before building a road is exactly what 測量 means."
+    ],
+    "vocab": [
+      {
+        "word": "測量",
+        "reading": "そくりょう",
+        "meaning": "(land) surveying, measurement",
+        "pos": "noun / suru verb",
+        "example": "この地図{ちず}は、専門家{せんもんか}が実際{じっさい}に土地{とち}を測量{そくりょう}して作{つく}ったものだ。",
+        "example_translation": "This map was made by experts who actually surveyed the land."
+      },
+      {
+        "word": "測る",
+        "reading": "はかる",
+        "meaning": "to measure (length, height, depth, temperature)",
+        "pos": "godan verb",
+        "example": "毎朝{まいあさ}、体温{たいおん}を測{はか}っている。",
+        "example_translation": "I take my temperature every morning."
+      },
+      {
+        "word": "量る",
+        "reading": "はかる",
+        "meaning": "to weigh, to measure (weight or amount)",
+        "pos": "godan verb",
+        "example": "小麦粉{こむぎこ}を二百{にひゃく}グラム量{はか}ってください。",
+        "example_translation": "Please weigh out 200 grams of flour."
+      },
+      {
+        "word": "計量",
+        "reading": "けいりょう",
+        "meaning": "measuring, weighing (amounts)",
+        "pos": "noun / suru verb",
+        "example": "料理{りょうり}の材料{ざいりょう}は、計量{けいりょう}スプーンで正確{せいかく}に量{はか}る。",
+        "example_translation": "I measure cooking ingredients accurately with measuring spoons."
+      },
+      {
+        "word": "推し量る",
+        "reading": "おしはかる",
+        "meaning": "to guess, to infer (someone's feelings, a situation)",
+        "pos": "godan verb",
+        "example": "彼女{かのじょ}の表情{ひょうじょう}から、気持{きも}ちを推{お}し量{はか}った。",
+        "example_translation": "I guessed her feelings from the expression on her face."
+      },
+      {
+        "word": "土地",
+        "reading": "とち",
+        "meaning": "land, plot of land",
+        "pos": "noun",
+        "example": "祖父{そふ}は田舎{いなか}に広{ひろ}い土地{とち}を持{も}っている。",
+        "example_translation": "My grandfather owns a large piece of land in the countryside."
+      },
+      {
+        "word": "道路",
+        "reading": "どうろ",
+        "meaning": "road",
+        "pos": "noun",
+        "example": "雪{ゆき}で道路{どうろ}が通{とお}れなくなった。",
+        "example_translation": "The road became impassable because of the snow."
+      },
+      {
+        "word": "造る",
+        "reading": "つくる",
+        "meaning": "to build, to construct (large structures such as roads, bridges, ships)",
+        "pos": "godan verb",
+        "example": "川{かわ}に新{あたら}しい橋{はし}を造{つく}る計画{けいかく}がある。",
+        "example_translation": "There is a plan to build a new bridge over the river."
+      },
+      {
+        "word": "体温",
+        "reading": "たいおん",
+        "meaning": "body temperature",
+        "pos": "noun",
+        "example": "体温{たいおん}が三十八度{さんじゅうはちど}もある。",
+        "example_translation": "My temperature is as high as 38 degrees."
+      },
+      {
+        "word": "相手",
+        "reading": "あいて",
+        "meaning": "the other person; partner; opponent",
+        "pos": "noun",
+        "example": "話{はな}すときは、相手{あいて}の目{め}を見{み}なさい。",
+        "example_translation": "When you talk, look the other person in the eyes."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜ために (purpose)",
+        "meaning": "in order to ~, for the purpose of ~",
+        "formation": "Verb dictionary form + ために / Noun + の + ために",
+        "example": "日本{にほん}で働{はたら}くために、日本語{にほんご}を勉強{べんきょう}している。",
+        "example_translation": "I am studying Japanese in order to work in Japan."
+      },
+      {
+        "pattern": "〜ようだ",
+        "meaning": "it seems that ~, it looks like ~ (a guess based on what you see or feel)",
+        "formation": "Plain form / な-adj + な / Noun + の + ようだ; before ので it becomes ようなので",
+        "example": "外{そと}は寒{さむ}いようだ。みんなコートを着{き}ている。",
+        "example_translation": "It seems cold outside. Everyone is wearing a coat."
+      }
+    ]
+  },
+  {
+    "id": "n2v-006",
+    "section": "kanji_reading",
+    "target_word": "私鉄",
+    "question": "この町{まち}にはJRの駅{えき}がないので、通勤{つうきん}には[[私鉄]]を利用{りよう}している。",
+    "choices": [
+      "しでつ",
+      "してつ",
+      "じてつ",
+      "わたしてつ"
+    ],
+    "answer": 1,
+    "translation": "There is no JR station in this town, so I use a private railway to commute.",
+    "explanation": "私鉄 is read してつ and means 'private railway' - a railway line run by a private company rather than by the state. 私 is read し, as in 私立（しりつ）'private (school, etc.)'. 鉄 is read てつ, as in 鉄道（てつどう）'railway' and 地下鉄（ちかてつ）'subway'. Neither kanji takes a dakuten (゛) here. In Japan, the JR lines come from the former national railway 国鉄（こくてつ）, so JR is not usually called a 私鉄; the word is used for the lines of other railway companies. Don't be fooled by 私 = わたし 'I': that is its kun'yomi, used when 私 stands alone, but in on'yomi compounds such as 私鉄 and 私立, 私 is read し.",
+    "choice_notes": [
+      "Wrong. 鉄 is read てつ without a dakuten (地下鉄 ちかてつ), not でつ.",
+      "Correct. してつ = 私鉄 'private railway'.",
+      "Wrong. 私 is read し without a dakuten (私立 しりつ), not じ.",
+      "Wrong. わたし is the kun'yomi of 私 'I, me', used when 私 stands alone. In the compound 私鉄, 私 uses its on'yomi し."
+    ],
+    "vocab": [
+      {
+        "word": "私鉄",
+        "reading": "してつ",
+        "meaning": "private railway",
+        "pos": "noun",
+        "example": "東京{とうきょう}には、JRのほかにたくさんの私鉄{してつ}が走{はし}っている。",
+        "example_translation": "In Tokyo, many private railways run besides JR."
+      },
+      {
+        "word": "通勤",
+        "reading": "つうきん",
+        "meaning": "commuting (to work)",
+        "pos": "noun / suru verb",
+        "example": "毎日{まいにち}、電車{でんしゃ}で一時間{いちじかん}かけて通勤{つうきん}している。",
+        "example_translation": "Every day I spend an hour commuting by train."
+      },
+      {
+        "word": "利用",
+        "reading": "りよう",
+        "meaning": "use, making use of",
+        "pos": "noun / suru verb",
+        "example": "この図書館{としょかん}は誰{だれ}でも無料{むりょう}で利用{りよう}できる。",
+        "example_translation": "Anyone can use this library for free."
+      },
+      {
+        "word": "私立",
+        "reading": "しりつ",
+        "meaning": "private (school, hospital, etc.)",
+        "pos": "noun / no-adjective",
+        "example": "兄{あに}は私立{しりつ}の高校{こうこう}に通{かよ}っている。",
+        "example_translation": "My older brother goes to a private high school."
+      },
+      {
+        "word": "鉄道",
+        "reading": "てつどう",
+        "meaning": "railway, railroad",
+        "pos": "noun",
+        "example": "この町{まち}に初{はじ}めて鉄道{てつどう}が通{とお}ったのは百年前{ひゃくねんまえ}だ。",
+        "example_translation": "The railway first came through this town a hundred years ago."
+      },
+      {
+        "word": "地下鉄",
+        "reading": "ちかてつ",
+        "meaning": "subway, underground railway",
+        "pos": "noun",
+        "example": "地下鉄{ちかてつ}に乗{の}って空港{くうこう}へ行{い}った。",
+        "example_translation": "I took the subway to the airport."
+      },
+      {
+        "word": "国鉄",
+        "reading": "こくてつ",
+        "meaning": "national railway; Japanese National Railways (the state railway before JR, until 1987)",
+        "pos": "noun",
+        "example": "今{いま}のJRは、昔{むかし}は国鉄{こくてつ}だった。",
+        "example_translation": "Today's JR used to be Kokutetsu, the national railway."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜には (for ~)",
+        "meaning": "for ~, for the purpose of ~ (には marks the purpose or the topic)",
+        "formation": "Noun + には (通勤には 'for commuting')",
+        "example": "この靴{くつ}は、山登{やまのぼ}りには向{む}かない。",
+        "example_translation": "These shoes are not suitable for mountain climbing."
+      }
+    ]
+  },
+  {
+    "id": "n2v-007",
+    "section": "context",
+    "target_word": "バケツ",
+    "question": "庭{にわ}の花{はな}に水{みず}をやるために、（　　）に水{みず}をいっぱい入{い}れて運{はこ}んだ。",
+    "choices": [
+      "バケツ",
+      "ホース",
+      "スコップ",
+      "ブラシ"
+    ],
+    "answer": 0,
+    "full_sentence": "庭{にわ}の花{はな}に水{みず}をやるために、バケツに水{みず}をいっぱい入{い}れて運{はこ}んだ。",
+    "translation": "To water the flowers in the garden, I filled a bucket with water and carried it.",
+    "explanation": "The sentence says you fill something with water and carry it, so the blank must be a container. バケツ 'bucket, pail' (from the English word 'bucket') is the only container among the choices. Common phrases: バケツに水をくむ 'to fill a bucket with water', バケツで水を運ぶ 'to carry water in a bucket', and the expression バケツをひっくり返したような雨 'rain like an overturned bucket', which means a very heavy downpour. The other choices are also things you might use in a garden or for cleaning, but none of them can be filled with water and carried.",
+    "choice_notes": [
+      "Correct. バケツ 'bucket'. バケツに水をいっぱい入れて運ぶ 'fill a bucket with water and carry it'.",
+      "Wrong. ホース 'hose' is a long tube that water flows through. You can water flowers with a hose (ホースで水をやる), but you do not fill a hose with water and carry it.",
+      "Wrong. スコップ 'shovel, scoop' is for digging soil (スコップで穴を掘る 'to dig a hole with a shovel'). It is not used to carry water.",
+      "Wrong. ブラシ 'brush' is for scrubbing or brushing (ブラシで靴を洗う 'to wash shoes with a brush'). It cannot hold water."
+    ],
+    "vocab": [
+      {
+        "word": "バケツ",
+        "reading": "バケツ",
+        "meaning": "bucket, pail",
+        "pos": "noun",
+        "example": "掃除{そうじ}の後{あと}で、バケツの水{みず}を捨{す}てた。",
+        "example_translation": "After cleaning, I threw out the water in the bucket."
+      },
+      {
+        "word": "ホース",
+        "reading": "ホース",
+        "meaning": "hose",
+        "pos": "noun",
+        "example": "ホースで車{くるま}を洗{あら}った。",
+        "example_translation": "I washed the car with a hose."
+      },
+      {
+        "word": "スコップ",
+        "reading": "スコップ",
+        "meaning": "shovel, spade (for digging)",
+        "pos": "noun",
+        "example": "スコップで庭{にわ}に穴{あな}を掘{ほ}った。",
+        "example_translation": "I dug a hole in the garden with a shovel."
+      },
+      {
+        "word": "ブラシ",
+        "reading": "ブラシ",
+        "meaning": "brush",
+        "pos": "noun",
+        "example": "ブラシで靴{くつ}の汚{よご}れを落{お}とした。",
+        "example_translation": "I scrubbed the dirt off my shoes with a brush."
+      },
+      {
+        "word": "水をやる",
+        "reading": "みずをやる",
+        "meaning": "to water (plants)",
+        "pos": "expression (godan verb)",
+        "example": "毎朝{まいあさ}、ベランダの花{はな}に水{みず}をやっている。",
+        "example_translation": "Every morning I water the flowers on the balcony."
+      },
+      {
+        "word": "運ぶ",
+        "reading": "はこぶ",
+        "meaning": "to carry, to transport",
+        "pos": "godan verb",
+        "example": "重{おも}い荷物{にもつ}を二階{にかい}まで運{はこ}んだ。",
+        "example_translation": "I carried the heavy luggage up to the second floor."
+      },
+      {
+        "word": "庭",
+        "reading": "にわ",
+        "meaning": "garden, yard",
+        "pos": "noun",
+        "example": "庭{にわ}で子{こ}どもたちが遊{あそ}んでいる。",
+        "example_translation": "The children are playing in the yard."
+      },
+      {
+        "word": "いっぱい",
+        "reading": "いっぱい",
+        "meaning": "full; a lot",
+        "pos": "adverb / na-adjective",
+        "example": "お腹{なか}がいっぱいで、もう食{た}べられない。",
+        "example_translation": "I'm full, so I can't eat any more."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜ために (purpose)",
+        "meaning": "in order to ~, for the purpose of ~",
+        "formation": "Verb dictionary form + ために / Noun + の + ために",
+        "example": "家{いえ}を買{か}うために、毎月{まいつき}お金{かね}をためている。",
+        "example_translation": "I am saving money every month in order to buy a house."
+      }
+    ]
+  },
+  {
+    "id": "n2v-008",
+    "section": "orthography",
+    "target_word": "売買",
+    "question": "インターネットで株{かぶ}の[[ばいばい]]をする人{ひと}が増{ふ}えている。",
+    "choices": [
+      "買売",
+      "売倍",
+      "売買",
+      "倍買"
+    ],
+    "answer": 2,
+    "translation": "More and more people are buying and selling stocks on the internet.",
+    "explanation": "ばいばい 'buying and selling, trade' is written 売買. 売 means 'sell' (売る うる) and 買 means 'buy' (買う かう), and both kanji are read ばい in on'yomi (Chinese-style reading). Notice the order: Japanese says 'sell-buy' (売買), the opposite of the English phrase 'buying and selling'. 売買 is a formal noun that also works as a する verb: 株を売買する 'to trade stocks', 土地の売買 'the buying and selling of land'. Don't confuse it with バイバイ 'bye-bye', which is written in katakana.",
+    "choice_notes": [
+      "Wrong. The two kanji are in the wrong order. Both are read ばい, so 買売 sounds the same, but the word is always written 売買, with 'sell' first. 買売 is not a word.",
+      "Wrong. 倍 is read ばい, but it means 'double, times', as in 二倍（にばい）'twice as much'. 売倍 is not a word. (A different word read ばいばい, written 倍々, means 'doubling again and again', but it has nothing to do with buying and selling.)",
+      "Correct. 売買（ばいばい）'buying and selling, trade'.",
+      "Wrong. 倍 'double, times' has replaced 売 'sell'. 倍買 is not a word."
+    ],
+    "vocab": [
+      {
+        "word": "売買",
+        "reading": "ばいばい",
+        "meaning": "buying and selling, trade",
+        "pos": "noun / suru verb",
+        "example": "この店{みせ}では、古{ふる}いカメラの売買{ばいばい}をしている。",
+        "example_translation": "This shop buys and sells old cameras."
+      },
+      {
+        "word": "株",
+        "reading": "かぶ",
+        "meaning": "stock, shares",
+        "pos": "noun",
+        "example": "株{かぶ}の値段{ねだん}が急{きゅう}に下{さ}がった。",
+        "example_translation": "Stock prices suddenly dropped."
+      },
+      {
+        "word": "増える",
+        "reading": "ふえる",
+        "meaning": "to increase",
+        "pos": "ichidan verb",
+        "example": "最近{さいきん}、体重{たいじゅう}が三{さん}キロ増{ふ}えた。",
+        "example_translation": "Recently I gained three kilograms."
+      },
+      {
+        "word": "倍",
+        "reading": "ばい",
+        "meaning": "double, twice; ~ times (as much)",
+        "pos": "noun / suffix",
+        "example": "この店{みせ}の値段{ねだん}は、あの店{みせ}の二倍{にばい}だ。",
+        "example_translation": "Prices at this shop are twice those at that shop."
+      },
+      {
+        "word": "倍々",
+        "reading": "ばいばい",
+        "meaning": "doubling (again and again)",
+        "pos": "noun",
+        "example": "会員{かいいん}の数{かず}が、毎年{まいとし}倍々{ばいばい}に増{ふ}えている。",
+        "example_translation": "The number of members is doubling every year."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜ている (change in progress)",
+        "meaning": "is ~ing, more and more ~ (with change verbs such as 増える, a change that is still going on)",
+        "formation": "Verb て-form + いる (増える → 増えている)",
+        "example": "日本{にほん}で働{はたら}く外国人{がいこくじん}が増{ふ}えている。",
+        "example_translation": "The number of foreigners working in Japan is increasing."
+      }
+    ]
+  },
+  {
+    "id": "n2v-009",
+    "section": "paraphrase",
+    "target_word": "やっつける",
+    "question": "弟{おとうと}は、ゲームの中{なか}で強{つよ}い敵{てき}を[[やっつけて]]、とても喜{よろこ}んでいる。",
+    "choices": [
+      "逃{に}がして",
+      "助{たす}けて",
+      "見{み}つけて",
+      "倒{たお}して"
+    ],
+    "answer": 3,
+    "translation": "My younger brother beat a strong enemy in the game and is very happy.",
+    "explanation": "やっつける means 'to beat, to defeat (an enemy or opponent)'. It is a casual, spoken word, often used about games, sports and fights: 敵をやっつける 'to beat the enemy'. The closest word is 倒す（たおす）, which literally means 'to knock down' and is also the normal word for 'to defeat': 敵を倒す 'to defeat the enemy', 強いチームを倒す 'to beat a strong team'. やっつける has a second meaning, 'to finish a job quickly (and roughly)': 宿題をやっつける 'to knock out one's homework'. From this comes the noun やっつけ仕事 'a rushed, careless piece of work'.",
+    "choice_notes": [
+      "Wrong. 逃がす（にがす）'to let (someone or something) get away'. Letting the enemy escape is the opposite of beating it.",
+      "Wrong. 助ける（たすける）'to help, to rescue'. You help a friend; you do not help an enemy you are fighting.",
+      "Wrong. 見つける（みつける）'to find'. Finding a strong enemy is not the same as defeating it.",
+      "Correct. 倒す（たおす）'to defeat'. 敵を倒す = 敵をやっつける."
+    ],
+    "vocab": [
+      {
+        "word": "やっつける",
+        "reading": "やっつける",
+        "meaning": "to beat, to defeat; to finish off (a job) quickly",
+        "pos": "ichidan verb",
+        "example": "宿題{しゅくだい}なんて、一時間{いちじかん}でやっつけてしまおう。",
+        "example_translation": "Let's knock out this homework in an hour."
+      },
+      {
+        "word": "倒す",
+        "reading": "たおす",
+        "meaning": "to defeat, to beat; to knock down",
+        "pos": "godan verb",
+        "example": "主人公{しゅじんこう}は最後{さいご}に悪{わる}い王{おう}を倒{たお}した。",
+        "example_translation": "In the end, the hero defeated the evil king."
+      },
+      {
+        "word": "逃がす",
+        "reading": "にがす",
+        "meaning": "to let go, to set free, to let get away",
+        "pos": "godan verb",
+        "example": "釣{つ}った魚{さかな}を川{かわ}に逃{に}がしてやった。",
+        "example_translation": "I let the fish I caught go back into the river."
+      },
+      {
+        "word": "助ける",
+        "reading": "たすける",
+        "meaning": "to help, to rescue, to save",
+        "pos": "ichidan verb",
+        "example": "川{かわ}でおぼれていた子{こ}どもを助{たす}けた。",
+        "example_translation": "I rescued a child who was drowning in the river."
+      },
+      {
+        "word": "見つける",
+        "reading": "みつける",
+        "meaning": "to find, to discover",
+        "pos": "ichidan verb",
+        "example": "なくした鍵{かぎ}をやっと見{み}つけた。",
+        "example_translation": "I finally found the key I had lost."
+      },
+      {
+        "word": "敵",
+        "reading": "てき",
+        "meaning": "enemy, opponent",
+        "pos": "noun",
+        "example": "次{つぎ}の試合{しあい}の相手{あいて}は、手強{てごわ}い敵{てき}だ。",
+        "example_translation": "Our opponent in the next match is a tough enemy."
+      },
+      {
+        "word": "喜ぶ",
+        "reading": "よろこぶ",
+        "meaning": "to be glad, to be delighted",
+        "pos": "godan verb",
+        "example": "母{はは}はプレゼントをとても喜{よろこ}んでくれた。",
+        "example_translation": "My mother was very happy with the present."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜て (reason)",
+        "meaning": "~ and so, because ~ (the first action or event causes the feeling or state that follows)",
+        "formation": "Verb て-form + feeling or state (やっつけて、喜んでいる 'beat it and so is happy')",
+        "example": "試験{しけん}に合格{ごうかく}して、本当{ほんとう}にうれしい。",
+        "example_translation": "I passed the exam, so I'm really happy."
+      }
+    ]
+  },
+  {
+    "id": "n2v-010",
+    "section": "context",
+    "target_word": "響き",
+    "question": "静{しず}かな夜{よる}、遠{とお}くのお寺{てら}から鐘{かね}の（　　）が聞{き}こえてきた。",
+    "choices": [
+      "輝{かがや}き",
+      "響{ひび}き",
+      "香{かお}り",
+      "揺{ゆ}れ"
+    ],
+    "answer": 1,
+    "full_sentence": "静{しず}かな夜{よる}、遠{とお}くのお寺{てら}から鐘{かね}の響{ひび}きが聞{き}こえてきた。",
+    "translation": "On a quiet night, the ringing of a bell came from a distant temple.",
+    "explanation": "The verb 聞こえてきた 'came to be heard, reached my ears' tells us the blank must be a sound. 響き（ひびき）means 'a sound that rings out and spreads; an echo, a resonance', and it is the noun form of the verb 響く（ひびく）'to sound, to echo'. 鐘の響き 'the ringing of a bell' is a typical phrase. 響き is also used for the sound or feel of a word or name: この名前は響きがいい 'this name sounds nice'. The other choices also come from verbs (輝く 'to shine', 香る 'to smell nice', 揺れる 'to shake'), but they are about light, smell and movement, and none of them can be heard.",
+    "choice_notes": [
+      "Wrong. 輝き（かがやき）'shine, brilliance' is something you see, not hear: 星の輝き 'the shining of the stars'.",
+      "Correct. 響き（ひびき）'ringing, echo'. 鐘の響きが聞こえてきた 'the ringing of a bell reached my ears'.",
+      "Wrong. 香り（かおり）'fragrance' is something you smell (香りがする 'to smell (nice)'), and a bell has no fragrance.",
+      "Wrong. 揺れ（ゆれ）'shaking, swaying' is a movement you see or feel, as in 地震の揺れ 'the shaking of an earthquake'. It cannot be heard."
+    ],
+    "vocab": [
+      {
+        "word": "響き",
+        "reading": "ひびき",
+        "meaning": "sound, ringing, echo; the sound (feel) of a word",
+        "pos": "noun",
+        "example": "この言葉{ことば}は、響{ひび}きがやわらかくて好{す}きだ。",
+        "example_translation": "I like this word because it has a soft sound."
+      },
+      {
+        "word": "響く",
+        "reading": "ひびく",
+        "meaning": "to sound, to ring out, to echo",
+        "pos": "godan verb",
+        "example": "トンネルの中{なか}では、声{こえ}がよく響{ひび}く。",
+        "example_translation": "Voices echo a lot inside a tunnel."
+      },
+      {
+        "word": "輝き",
+        "reading": "かがやき",
+        "meaning": "shine, brightness, brilliance",
+        "pos": "noun",
+        "example": "夜空{よぞら}の星{ほし}の輝{かがや}きが美{うつく}しい。",
+        "example_translation": "The shining of the stars in the night sky is beautiful."
+      },
+      {
+        "word": "香り",
+        "reading": "かおり",
+        "meaning": "fragrance, aroma, scent",
+        "pos": "noun",
+        "example": "台所{だいどころ}から、コーヒーのいい香{かお}りがする。",
+        "example_translation": "There's a nice smell of coffee coming from the kitchen."
+      },
+      {
+        "word": "揺れ",
+        "reading": "ゆれ",
+        "meaning": "shaking, swaying",
+        "pos": "noun",
+        "example": "昨夜{さくや}の地震{じしん}は、揺{ゆ}れが大{おお}きかった。",
+        "example_translation": "The shaking in last night's earthquake was strong."
+      },
+      {
+        "word": "鐘",
+        "reading": "かね",
+        "meaning": "(large) bell, such as a temple bell",
+        "pos": "noun",
+        "example": "大晦日{おおみそか}の夜{よる}には、お寺{てら}で鐘{かね}をつく。",
+        "example_translation": "On the night of New Year's Eve, temple bells are rung."
+      },
+      {
+        "word": "聞こえる",
+        "reading": "きこえる",
+        "meaning": "to be heard, to be audible",
+        "pos": "ichidan verb",
+        "example": "隣{となり}の部屋{へや}から音楽{おんがく}が聞{き}こえる。",
+        "example_translation": "I can hear music from the next room."
+      }
+    ],
+    "grammar": [
+      {
+        "pattern": "〜てくる (toward the speaker)",
+        "meaning": "~ comes (to me), ~ reaches me (a sound, smell or feeling that comes toward the speaker)",
+        "formation": "Verb て-form + くる (聞こえる → 聞こえてくる / 聞こえてきた)",
+        "example": "台所{だいどころ}から、いいにおいがしてきた。",
+        "example_translation": "A nice smell came from the kitchen."
+      }
+    ]
+  }
+]
