@@ -140,14 +140,25 @@ class EndToEndTest(unittest.TestCase):
         twenty = self.app.request("POST", "/api/tests", {"size": 20})
         self.assertLessEqual(len(first_ids & {item["question_id"] for item in twenty["questions"]}), 2)
 
-    def test_seen_questions_return_oldest_first_once_a_section_is_exhausted(self):
-        pool = {question["id"] for question in self.app.bank.by_section["word_formation"]}
-        first_round = []
-        while len(first_round) < len(pool):
+    def test_every_section_shows_all_questions_once_then_repeats_oldest_first(self):
+        sections = {section: {question["id"] for question in questions}
+                    for section, questions in self.app.bank.by_section.items() if questions}
+        shown = {section: [] for section in sections}
+        while any(len(shown[section]) < len(pool) + TEST_PLANS[30].get(section, 0) for section, pool in sections.items()
+                  if TEST_PLANS[30].get(section)):
             test, _ = self.take_test(size=30)
-            first_round += [item["question_id"] for item in test["questions"] if item["section"] == "word_formation"]
-            self.app.clock.advance(hours=1)
-        self.assertEqual(len(set(first_round)), len(pool), "every question is shown once before any repeats")
+            for item in test["questions"]:
+                shown[item["section"]].append(item["question_id"])
+            self.app.clock.advance(hours=1)  # stays inside the 7-day retest window, so no retests interfere
+
+        for section, pool in sections.items():
+            if not TEST_PLANS[30].get(section):
+                continue
+            first_round, after = shown[section][:len(pool)], shown[section][len(pool):]
+            self.assertEqual(len(set(first_round)), len(pool), f"{section}: every question once before any repeat")
+            # The first repeats come from the questions shown longest ago.
+            oldest = set(first_round[:len(after) + TEST_PLANS[30][section]])
+            self.assertTrue(set(after[:TEST_PLANS[30][section]]) <= oldest, f"{section}: repeats start with the oldest")
 
     def test_streak_counts_consecutive_days(self):
         self.take_test(size=10)
