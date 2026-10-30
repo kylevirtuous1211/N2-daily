@@ -13,6 +13,8 @@ The server stops by itself 15 minutes after the window is closed.
   Press **+ Deck** next to words you don't know, or add all words from your mistakes at once.
 - **Deck** - list of saved words with their current predicted recall, search and filters, and review settings.
 - **Study** - Anki-style flashcards. Keys: Space shows the answer, 1-4 rate Again / Hard / Good / Easy.
+- **Dark mode** - the button at the top right cycles between matching Windows (its light or dark app mode), light and dark.
+  The choice is remembered.
 
 - **Official practice tests** - the two free official N2 workbooks from jlpt.jp (2012 and 2018), as full mock tests in the original order with the official time limits, including listening with the official audio.
 

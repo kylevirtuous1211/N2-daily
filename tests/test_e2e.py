@@ -391,3 +391,36 @@ class ServerErrorLoggingTest(unittest.TestCase):
                 self.assertEqual(bool(captured.getvalue()), expect_log, type(error).__name__)
         finally:
             app.close()
+
+
+CHROME_CANDIDATES = [
+    Path(r"C:\Program Files\Google\Chrome\Application\chrome.exe"),
+    Path(r"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"),
+    Path(r"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"),
+]
+CHROME = next((path for path in CHROME_CANDIDATES if path.is_file()), None)
+
+
+@unittest.skipIf(CHROME is None, "needs Chrome or Edge for a real-browser check")
+class ThemeTest(unittest.TestCase):
+    """The page served by the real server picks its theme from the OS setting in a real (headless) browser."""
+
+    def setUp(self):
+        self.app = AppHarness()
+        self.addCleanup(self.app.close)
+
+    def rendered_html_tag(self, *flags):
+        import re
+        import subprocess
+        with tempfile.TemporaryDirectory() as profile:
+            result = subprocess.run(
+                [str(CHROME), "--headless", "--disable-gpu", f"--user-data-dir={profile}", *flags, "--dump-dom", self.app.base + "/"],
+                capture_output=True, text=True, encoding="utf-8", timeout=60, check=True,
+            )
+        return re.search(r"<html[^>]*>", result.stdout)[0]
+
+    def test_follows_the_system_color_scheme_by_default(self):
+        self.assertIn('data-theme="light"', self.rendered_html_tag())
+        dark = self.rendered_html_tag("--force-dark-mode")
+        self.assertIn('data-theme="dark"', dark)
+        self.assertIn('data-theme-choice="system"', dark)

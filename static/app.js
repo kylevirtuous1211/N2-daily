@@ -35,6 +35,8 @@ function toast(message) {
   toast.timer = setTimeout(() => toastElement.classList.remove("visible"), 2200);
 }
 
+document.addEventListener("n2:themechange", (event) => toast(event.detail));
+
 function formatDuration(seconds) {
   if (seconds == null) return "-";
   const total = Math.round(seconds);
