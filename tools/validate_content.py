@@ -17,6 +17,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 sys.stdout.reconfigure(encoding="utf-8")
 
 from n2.bank import SECTIONS, load_and_validate, official_problems, validate_question  # noqa: E402
+from n2.topics import TOPICS_FILE, Topics, coverage_problems  # noqa: E402
 
 CONTENT_DIR = Path(__file__).resolve().parent.parent / "content"
 QUESTIONS_DIR = CONTENT_DIR / "questions"
@@ -38,6 +39,21 @@ def validate_files(paths: list[str]) -> tuple[int, list]:
     return count - len({error.question_id for error in errors}), errors
 
 
+def topic_label_problems(questions: list[dict], official: list[dict] | None) -> list[str]:
+    """Each bank has its own label file: content/topics.json (public) and content/official/topics.json (local)."""
+    topics = Topics.load(TOPICS_FILE)
+    problems = coverage_problems(topics, questions, topics.words)
+    if official is not None:
+        official_file = OFFICIAL_DIR / "topics.json"
+        labels = json.loads(official_file.read_text(encoding="utf-8"))["words"] if official_file.is_file() else {}
+        public_words = set(topics.words)
+        official_only = [{**question, "vocab": [entry for entry in question.get("vocab", [])
+                                               if f"{entry['word']}:{entry['reading']}" not in public_words]}
+                         for question in official]
+        problems += [f"official {problem}" for problem in coverage_problems(topics, official_only, labels)]
+    return problems
+
+
 def main(paths: list[str]) -> int:
     if paths:
         valid, errors = validate_files(paths)
@@ -54,6 +70,8 @@ def main(paths: list[str]) -> int:
             errors += official_errors
             print(f"official questions  {len(official):4}")
             valid += len(official)
+        errors += [f"topics: {problem}" for problem in
+                   topic_label_problems(questions, official if official_questions.is_dir() else None)]
 
     for error in errors:
         print(f"ERROR {error}")
