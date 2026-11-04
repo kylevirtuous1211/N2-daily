@@ -11,6 +11,7 @@ from pathlib import Path
 
 from . import fsrs
 from .bank import OFFICIAL_PARTS, SECTIONS, QuestionBank
+from .topics import TOPICS_FILE, Topics, assign_groups
 
 TEST_PLANS = {
     10: {"kanji_reading": 2, "orthography": 1, "context": 2, "paraphrase": 1,
@@ -120,9 +121,11 @@ def card_key(kind: str, data: dict) -> str:
 
 
 class Store:
-    def __init__(self, db_path: Path, bank: QuestionBank, clock=utc_now, rng: random.Random | None = None):
+    def __init__(self, db_path: Path, bank: QuestionBank, clock=utc_now, rng: random.Random | None = None,
+                 topics: Topics | None = None):
         db_path.parent.mkdir(parents=True, exist_ok=True)
         self.bank = bank
+        self.topics = topics or Topics.load(TOPICS_FILE)
         self.clock = clock
         self.rng = rng or random.Random()
         self.lock = threading.Lock()
@@ -423,11 +426,21 @@ class Store:
     def list_cards(self) -> list[dict]:
         now = self.clock()
         rows = self.connection.execute("SELECT * FROM cards ORDER BY added_at DESC, id DESC")
-        return [self._card_view(row, now) for row in rows]
+        groups = self._card_groups()
+        return [self._card_view(row, now, groups) for row in rows]
 
-    def _card_view(self, row: sqlite3.Row, now: datetime) -> dict:
+    def _card_groups(self) -> dict[int, dict]:
+        """Topic and group of every card; groups depend on the whole deck (romaji order, GROUP_SIZE per group)."""
+        cards = [{"id": row["id"], "kind": row["kind"], "key": row["key"], "data": json.loads(row["data"])}
+                 for row in self.connection.execute("SELECT id, kind, key, data FROM cards")]
+        assign_groups(cards, self.topics)
+        return {card["id"]: {"topic": card["topic"], "group": card["group"], "sort_key": card["sort_key"]} for card in cards}
+
+    def _card_view(self, row: sqlite3.Row, now: datetime, groups: dict[int, dict] | None = None) -> dict:
         state = _card_state(row)
+        groups = groups if groups is not None else self._card_groups()
         return {
+            **groups[row["id"]],
             "id": row["id"],
             "kind": row["kind"],
             "key": row["key"],
@@ -459,17 +472,33 @@ class Store:
         introduced_today = self.connection.execute(
             "SELECT COUNT(*) FROM review_log WHERE state_before = 'new' AND local_date = ?", (local_date(now),)
         ).fetchone()[0]
-        new_rows = self.connection.execute(
-            "SELECT * FROM cards WHERE state = 'new' ORDER BY added_at, id LIMIT ?",
-            (max(new_limit - introduced_today, 0),),
-        ).fetchall()
+        groups = self._card_groups()
+        new_rows = self._new_cards_by_group(groups)[:max(new_limit - introduced_today, 0)]
 
-        cards = [self._study_view(row, now, scheduler) for row in due_rows + new_rows]
+        cards = [self._study_view(row, now, scheduler, groups) for row in due_rows + new_rows]
         total_new = self.connection.execute("SELECT COUNT(*) FROM cards WHERE state = 'new'").fetchone()[0]
         return {"cards": cards, "new_remaining_today": len(new_rows), "new_total": total_new}
 
-    def _study_view(self, row: sqlite3.Row, now: datetime, scheduler: fsrs.Scheduler) -> dict:
-        view = self._card_view(row, now)
+    def _new_cards_by_group(self, groups: dict[int, dict]) -> list[sqlite3.Row]:
+        """New cards one group at a time, so related words are learned together.
+
+        Topics come in the order their first new card was added (so the oldest additions still come first);
+        within a topic, groups and cards follow romaji order.
+        """
+        rows = self.connection.execute("SELECT * FROM cards WHERE state = 'new' ORDER BY added_at, id").fetchall()
+        topic_started: dict[str, str] = {}
+        for row in rows:
+            topic_started.setdefault(groups[row["id"]]["topic"]["id"], row["added_at"])
+        return sorted(rows, key=lambda row: (
+            topic_started[groups[row["id"]]["topic"]["id"]],
+            groups[row["id"]]["group"]["order"],
+            groups[row["id"]]["sort_key"],
+            row["id"],
+        ))
+
+    def _study_view(self, row: sqlite3.Row, now: datetime, scheduler: fsrs.Scheduler,
+                    groups: dict[int, dict] | None = None) -> dict:
+        view = self._card_view(row, now, groups)
         previews = scheduler.preview(_card_state(row), now)
         view["intervals"] = {str(rating): (state.due - now).total_seconds() for rating, state in previews.items()}
         return view

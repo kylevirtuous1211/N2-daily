@@ -239,6 +239,50 @@ class EndToEndTest(unittest.TestCase):
         self.assertEqual(len(self.app.request("GET", "/api/study")["cards"]), 2)
         self.app.request("PATCH", "/api/settings", {"desired_retention": 2}, expect=400)
 
+    def bank_words_by_topic(self) -> dict[str, list[dict]]:
+        topics = self.app.store.topics
+        by_topic: dict[str, list[dict]] = {}
+        for question in self.app.bank.questions:
+            for entry in question["vocab"]:
+                topic = topics.words[f"{entry['word']}:{entry['reading']}"]
+                if all(other["word"] != entry["word"] or other["reading"] != entry["reading"]
+                       for other in by_topic.get(topic, [])):
+                    by_topic.setdefault(topic, []).append(entry)
+        return by_topic
+
+    def test_deck_groups_related_words_ten_at_a_time_in_romaji_order(self):
+        by_topic = self.bank_words_by_topic()
+        school = by_topic["school"][:12]
+        food = by_topic["food"][:3]
+        for entry in school + food:
+            self.app.request("POST", "/api/cards", {"kind": "vocab", "data": entry})
+        self.app.request("POST", "/api/cards", {"kind": "grammar", "data": {"pattern": "〜ことができる", "meaning": "can"}})
+
+        cards = self.app.request("GET", "/api/cards")
+        school_cards = sorted((card for card in cards if card["topic"]["id"] == "school"), key=lambda card: card["group"]["order"])
+        self.assertEqual(len(school_cards), 12)
+        self.assertEqual(school_cards[0]["topic"], {"id": "school", "ja": "学校・勉強", "en": "School & study"})
+        self.assertEqual([card["group"]["part"] for card in school_cards], [1] * 10 + [2] * 2)
+        self.assertEqual({card["group"]["parts"] for card in school_cards}, {2})
+        ordered = sorted(school_cards, key=lambda card: (card["group"]["part"], card["sort_key"]))
+        self.assertEqual([card["sort_key"] for card in ordered], sorted(card["sort_key"] for card in school_cards),
+                         "groups split the topic in romaji order")
+        self.assertTrue(all(key.isascii() and key for key in (card["sort_key"] for card in school_cards)))
+        self.assertEqual({card["group"]["parts"] for card in cards if card["topic"]["id"] == "food"}, {1})
+        self.assertEqual([card["topic"]["id"] for card in cards if card["kind"] == "grammar"], ["grammar"])
+
+    def test_new_cards_are_introduced_one_topic_at_a_time(self):
+        by_topic = self.bank_words_by_topic()
+        # Added interleaved: school, food, school, food, ...; the topic started first is learned first.
+        interleaved = [entry for pair in zip(by_topic["school"][:4], by_topic["food"][:4]) for entry in pair]
+        for entry in interleaved:
+            self.app.request("POST", "/api/cards", {"kind": "vocab", "data": entry})
+            self.app.clock.advance(seconds=1)
+        queue = self.app.request("GET", "/api/study")["cards"]
+        self.assertEqual([card["topic"]["id"] for card in queue], ["school"] * 4 + ["food"] * 4)
+        school_keys = [card["sort_key"] for card in queue[:4]]
+        self.assertEqual(school_keys, sorted(school_keys))
+
     def test_discard_unfinished_test(self):
         test = self.app.request("POST", "/api/tests", {"size": 10})
         self.app.request("DELETE", f"/api/tests/{test['id']}")

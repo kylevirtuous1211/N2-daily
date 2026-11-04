@@ -850,6 +850,7 @@ async function viewDeck() {
   const [cards, settings] = await Promise.all([api("GET", "/api/cards"), api("GET", "/api/settings")]);
   let query = "";
   let kind = "all";
+  let order = localStorage.getItem("n2-deck-order") === "recent" ? "recent" : "group";
   let expanded = null;
 
   app.innerHTML = `
@@ -863,10 +864,14 @@ async function viewDeck() {
       </div>
       <div class="deck-filters">
         <input type="search" class="search" placeholder="Search word, reading or meaning…" aria-label="Search deck">
-        <div class="segmented">
+        <div class="segmented" data-control="kind">
           <button class="active" data-kind="all">All</button>
           <button data-kind="vocab">Vocab</button>
           <button data-kind="grammar">Grammar</button>
+        </div>
+        <div class="segmented" data-control="order">
+          <button class="${order === "group" ? "active" : ""}" data-order="group" title="Related words together, 10 per group, in romaji order">By group</button>
+          <button class="${order === "recent" ? "active" : ""}" data-order="recent">Recent</button>
         </div>
       </div>
       <div class="deck-table-wrap"></div>
@@ -912,15 +917,23 @@ async function viewDeck() {
       wrap.innerHTML = `<p class="empty">Your deck is empty. After a mini test, press <strong>+ Deck</strong> next to words you don't know.</p>`;
       return;
     }
+    if (order === "group") visible.sort(compareByGroup);
+    const groupSizes = countBy(visible, (card) => card.group.id);
     wrap.innerHTML = `
       <table class="deck-table">
         <thead><tr><th>Word</th><th>Meaning</th><th>Status</th><th>Memory</th><th>Next review</th><th></th></tr></thead>
         <tbody>
-          ${visible.map((card) => {
+          ${visible.map((card, index) => {
+            const groupHeader = order === "group" && card.group.id !== visible[index - 1]?.group.id ? `
+              <tr class="group-row"><td colspan="6">
+                <span class="group-name ja">${escapeHtml(groupLabel(card))}</span>
+                <span class="muted">${escapeHtml(card.topic.en)}</span>
+                <span class="group-count">${groupSizes.get(card.group.id)}</span>
+              </td></tr>` : "";
             const front = card.kind === "vocab" ? card.data.word : card.data.pattern;
             const reading = card.kind === "vocab" ? card.data.reading : "grammar";
             const memory = card.retrievability == null ? null : Math.round(card.retrievability * 100);
-            return `
+            return `${groupHeader}
               <tr data-card="${card.id}" class="${expanded === card.id ? "expanded" : ""}">
                 <td><span class="ja deck-word">${escapeHtml(front)}</span><span class="muted small deck-reading">${escapeHtml(reading)}</span></td>
                 <td class="deck-meaning">${escapeHtml(card.data.meaning)}</td>
@@ -946,11 +959,19 @@ async function viewDeck() {
     query = event.target.value;
     render();
   });
-  app.querySelector(".segmented").addEventListener("click", (event) => {
+  app.querySelector('[data-control="kind"]').addEventListener("click", (event) => {
     const button = event.target.closest("[data-kind]");
     if (!button) return;
     kind = button.dataset.kind;
     for (const other of app.querySelectorAll("[data-kind]")) other.classList.toggle("active", other === button);
+    render();
+  });
+  app.querySelector('[data-control="order"]').addEventListener("click", (event) => {
+    const button = event.target.closest("[data-order]");
+    if (!button) return;
+    order = button.dataset.order;
+    localStorage.setItem("n2-deck-order", order);
+    for (const other of app.querySelectorAll("[data-order]")) other.classList.toggle("active", other === button);
     render();
   });
   wrap.addEventListener("click", async (event) => {
@@ -970,6 +991,21 @@ async function viewDeck() {
     }
   });
   render();
+}
+
+// Topic name, plus the part number when a topic has more than one group of 10 ("学校・勉強 2").
+function groupLabel(card) {
+  return card.group.parts > 1 ? `${card.topic.ja} ${card.group.part}` : card.topic.ja;
+}
+
+function compareByGroup(left, right) {
+  return left.group.order - right.group.order || left.sort_key.localeCompare(right.sort_key) || left.id - right.id;
+}
+
+function countBy(items, keyOf) {
+  const counts = new Map();
+  for (const item of items) counts.set(keyOf(item), (counts.get(keyOf(item)) || 0) + 1);
+  return counts;
 }
 
 // --- study ---------------------------------------------------------------
@@ -1023,7 +1059,10 @@ async function viewStudy() {
           <span class="count review" title="Review">${remaining.review} review</span>
         </div>
         <article class="card flashcard ${revealed ? "revealed" : ""}">
-          <span class="badge">${isVocab ? "Vocabulary" : "Grammar"}${current.state === "new" ? " · new" : ""}</span>
+          <div class="flash-tags">
+            <span class="badge">${isVocab ? "Vocabulary" : "Grammar"}${current.state === "new" ? " · new" : ""}</span>
+            ${isVocab ? `<span class="topic-tag ja" title="${escapeHtml(current.topic.en)}">${escapeHtml(groupLabel(current))}</span>` : ""}
+          </div>
           <p class="flash-front ja">${escapeHtml(front)}</p>
           ${revealed ? `
             <div class="flash-back">

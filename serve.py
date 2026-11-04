@@ -9,6 +9,7 @@ from pathlib import Path
 from n2.bank import QuestionBank
 from n2.server import AppServer
 from n2.store import Store
+from n2.topics import TOPICS_FILE, Topics
 
 APP_DIR = Path(__file__).resolve().parent
 DEFAULT_DB = Path(os.environ.get("LOCALAPPDATA", APP_DIR)) / "N2Daily" / "n2daily.sqlite3"
@@ -27,7 +28,7 @@ def main() -> None:
     bank = QuestionBank.load(APP_DIR / "content" / "questions", args.official_dir / "questions")
     for warning in bank.warnings:
         print(f"WARNING: {warning}", flush=True)
-    store = Store(args.db, bank)
+    store = Store(args.db, bank, topics=Topics.load(TOPICS_FILE, args.official_dir / "topics.json"))
     server = AppServer(("127.0.0.1", args.port), store, idle_timeout=args.idle_timeout, official_dir=args.official_dir)
     print(f"N2 Daily: http://127.0.0.1:{args.port}/  ({len(bank.questions)} questions, "
           f"{len(bank.official)} official, db {args.db})", flush=True)

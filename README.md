@@ -12,6 +12,8 @@ The server stops by itself 15 minutes after the window is closed.
 - **Review** - after a test, every mistake is explained: furigana, translation, why each choice is right or wrong, and every vocabulary word and grammar pattern with an example sentence.
   Press **+ Deck** next to words you don't know, or add all words from your mistakes at once.
 - **Deck** - list of saved words with their current predicted recall, search and filters, and review settings.
+  **By group** shows related words together (school, work, feelings, ...; verbs with no clear subject under 動詞I / 動詞II / 動詞III), 10 per group in romaji order.
+  New cards are introduced one group at a time; when reviews come back is still decided by the forgetting curve.
 - **Study** - Anki-style flashcards. Keys: Space shows the answer, 1-4 rate Again / Hard / Good / Easy.
 - **Dark mode** - the button at the top right cycles between matching Windows (its light or dark app mode), light and dark.
   The choice is remembered.
@@ -52,6 +54,8 @@ The app uses only the Python standard library and plain JavaScript; there is not
 - `tools/show_questions.py` and `tools/apply_fixes.py` - inspect questions by id and apply reviewed path-based fixes.
 - `tools/check_readings.py` - cross-checks every furigana and vocab reading against JMdict and KANJIDIC2 (download the jmdict-simplified `jmdict-eng` and `kanjidic2-en` JSON into the git-ignored `cache/`; `run_tests.py` then runs it too).
   The dictionary data is EDRDG's, used under CC BY-SA 4.0 (https://www.edrdg.org/edrdg/licence.html).
+- `content/topics.json` - the topic list and the topic of every word in the bank; `tools/validate_content.py` fails if a word has no topic or a fallback topic does not match its part of speech.
+  Words that appear only in the official tests are labeled in the git-ignored `content/official/topics.json`.
 - `tools/pick_words.py` - picks N2 words the bank does not test yet (with a suggested question type) for generating new questions.
   The word list `content/wordlists/n2_waller.csv` is Jonathan Waller's JLPT N2 list (CC BY, http://www.tanos.co.uk/jlpt/) as packaged by https://github.com/jamsinclair/open-anki-jlpt-decks (MIT).
   JLPT has published no official word list since 2010, so any N2 list is an estimate.
