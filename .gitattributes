@@ -1,0 +1,2 @@
+# Keep LF everywhere so a Windows checkout (core.autocrlf=true) matches the repo byte for byte.
+* text=auto eol=lf

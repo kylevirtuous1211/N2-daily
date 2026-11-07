@@ -5,8 +5,8 @@ import { test } from "node:test";
 const css = readFileSync(new URL("../static/style.css", import.meta.url), "utf8");
 const html = readFileSync(new URL("../static/index.html", import.meta.url), "utf8");
 const COLOR_LITERAL = /#[0-9a-f]{3,8}\b|\b(?:rgb|hsl)a?\(|:\s*(?:white|black)\b/i;
-const LIGHT_BLOCK = /^:root \{\n([\s\S]*?)^\}/m;
-const DARK_BLOCK = /^:root\[data-theme="dark"\] \{\n([\s\S]*?)^\}/m;
+const LIGHT_BLOCK = /^:root \{\r?\n([\s\S]*?)^\}/m;
+const DARK_BLOCK = /^:root\[data-theme="dark"\] \{\r?\n([\s\S]*?)^\}/m;
 
 function declarations(block) {
   const withoutComments = block.replace(/\/\*[\s\S]*?\*\//g, "");
