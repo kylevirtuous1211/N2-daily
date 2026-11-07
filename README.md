@@ -2,6 +2,34 @@
 
 A local, offline JLPT N2 practice app: a daily mini mock test, a very detailed mistake review, and a spaced-repetition vocabulary deck.
 
+## Requirements
+
+- Windows 10 or 11.
+  The desktop launcher and shortcut are Windows-only; other systems are untested.
+- Python 3.14.
+  You do not need to install it yourself: `uv` downloads it in the install step below.
+  The app uses only the Python standard library, so there are no packages to install.
+- [uv](https://docs.astral.sh/uv/getting-started/installation/), for example `winget install --id=astral-sh.uv`.
+- [Git](https://git-scm.com/), to clone the repo.
+- Google Chrome or Microsoft Edge (recommended).
+  The launcher opens the app in its own window with either one; without them it opens a tab in your default browser.
+- Node.js, only if you want to run the JavaScript tests.
+
+## Install
+
+```
+git clone <this repo's URL> n2-daily
+cd n2-daily
+uv venv --python 3.14 .venv
+powershell -ExecutionPolicy Bypass -File tools\install_shortcut.ps1
+```
+
+The last step creates the **N2 Daily** shortcut on your desktop and in the Start menu.
+Cloning alone does not create it.
+The shortcut points at the folder you cloned into, so run the script again if you move that folder.
+
+The repo does not include the official JLPT workbooks (see [Official practice tests](#official-practice-tests)), so a fresh install has only the daily mini tests and the deck.
+
 ## Use it
 
 Double-click **N2 Daily** on the desktop (or in the Start menu).
