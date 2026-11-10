@@ -18,7 +18,7 @@ A local, offline JLPT N2 practice app: a daily mini mock test, a very detailed m
 ## Install
 
 ```
-git clone <this repo's URL> n2-daily
+git clone https://github.com/kylevirtuous1211/N2-daily.git n2-daily
 cd n2-daily
 uv venv --python 3.14 .venv
 powershell -ExecutionPolicy Bypass -File tools\install_shortcut.ps1
@@ -91,3 +91,12 @@ The app uses only the Python standard library and plain JavaScript; there is not
 - `tools/install_shortcut.ps1` - recreates the desktop and Start menu shortcuts.
 
 Furigana markup: `漢字{かんじ}` puts the reading over the kanji run before the braces, `[[...]]` underlines a target, `（　　）` is a blank, and `{{1}}`..`{{4}}` are sentence-building slots.
+
+## License
+
+The code and the question bank are licensed under the [Apache License 2.0](LICENSE).
+Third-party data keeps its own license:
+
+- `content/wordlists/n2_waller.csv` - Jonathan Waller's JLPT N2 list, CC BY (http://www.tanos.co.uk/jlpt/), packaged by open-anki-jlpt-decks (MIT).
+- JMdict and KANJIDIC2, used by `tools/check_readings.py`, are EDRDG's under CC BY-SA 4.0 and are not included in this repo.
+- The official JLPT workbooks belong to the Japan Foundation and JEES and are not included in this repo.
